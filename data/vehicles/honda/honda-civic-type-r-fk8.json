@@ -1,0 +1,165 @@
+{
+  "id": "honda-civic-type-r-fk8",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "FK8",
+  "variant": "Type R",
+  "subVariant": null,
+  "displayName": "Honda Civic Type R (FK8)",
+  "aliases": [
+    "FK8",
+    "FK8 Type R",
+    "Civic Type R FK8",
+    "CTR",
+    "K20C1",
+    "10th-gen Civic Type R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2021
+    },
+    "sourceId": "swindon-link-2021",
+    "note": "Built exclusively at Honda's Swindon, UK plant (Honda press kit), which ceased production on 30 July 2021. Honda Europe's retrospective labels the FK8 '2017-2022', which appears to be the period it was on sale."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "honda-ctr-press-kit-2017",
+    "note": "Based on the 10th-generation Civic 5-door Hatchback"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-ctr-press-kit-2017",
+      "note": "K20C1; 'L4, Direct Injected & Turbocharged'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "honda-ctr-press-kit-2017",
+      "note": "1,996 cc"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "honda-ctr-powertrain-2017",
+      "note": "Single mono-scroll turbocharger with electronic wastegate"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-ctr-press-kit-2017",
+    "note": "Premium unleaded recommended"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "honda-ctr-press-kit-2017",
+    "note": "Front-wheel drive with helical limited-slip differential"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-ctr-powertrain-2017",
+    "note": "Offered exclusively with a 6-speed manual"
+  },
+  "powerHp": {
+    "value": 306,
+    "sourceId": "honda-ctr-press-kit-2017",
+    "note": "306 hp at 6,500 rpm, SAE net (US rating). European cars were rated 320 PS."
+  },
+  "weightLb": {
+    "value": 3117,
+    "sourceId": "honda-ctr-press-kit-2017",
+    "note": "Single US trim (Touring) in 2017"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "honda-ctr-press-kit-2017",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2017 Honda Civic Type R Press Kit - Overview",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-acfe25287f7d481b93a0c0c020854e5e-honda-civic-type-r-overview",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-ctr-powertrain-2017",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2017 Honda Civic Type R - Powertrain",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/honda-civic-type-r-powertrain",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-eu-swindon-2019",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Europe",
+      "title": "Honda confirms proposal to cease production at its Swindon factory in 2021",
+      "url": "https://hondanews.eu/gb/en/corporate/media/pressreleases/180862/honda-confirms-proposal-to-cease-production-at-its-swindon-factory-in-2021",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "swindon-link-2021",
+      "type": "publication",
+      "publisher": "Swindon Link",
+      "title": "Swindon Honda production ends after 35 years",
+      "url": "https://swindonlink.com/business-brief/honda-closure/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-eu-type-r-25-years",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Europe",
+      "title": "Honda celebrates 25 years of the Civic Type R",
+      "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/410190/honda-celebrates-25-years-of-the-civic-type-r",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "2017-2021",
+          "sourceId": "swindon-link-2021"
+        },
+        {
+          "value": "plant to close in 2021 at end of current Civic lifecycle",
+          "sourceId": "honda-eu-swindon-2019"
+        },
+        {
+          "value": "2017-2022",
+          "sourceId": "honda-eu-type-r-25-years"
+        }
+      ],
+      "reason": "Production versus sales period. The only plant that built the FK8 stopped production on 30 July 2021; Honda Europe's heritage text gives 2017-2022 without saying what the years refer to.",
+      "resolution": "Used 2017-2021, the years the car was actually built."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 306,
+          "sourceId": "honda-ctr-press-kit-2017"
+        },
+        {
+          "value": "320 PS (316 hp)",
+          "sourceId": "honda-eu-type-r-25-years"
+        }
+      ],
+      "reason": "Market: the US car is rated 306 hp SAE net, the European car 320 PS.",
+      "resolution": "Used the US rating, since the record's spec basis is the US market."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

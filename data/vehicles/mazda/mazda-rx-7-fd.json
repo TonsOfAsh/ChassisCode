@@ -1,0 +1,173 @@
+{
+  "id": "mazda-rx-7-fd",
+  "manufacturer": "Mazda",
+  "model": "RX-7",
+  "generation": "FD",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mazda RX-7 (FD)",
+  "aliases": [
+    "FD3S",
+    "FD RX-7",
+    "RX7",
+    "13B-REW",
+    "13B",
+    "Efini RX-7",
+    "Anfini RX-7"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1991,
+      "endYear": 2002
+    },
+    "sourceId": "mazda-100th-rx7",
+    "note": "Global production of the FD. Start: Mazda states the third-generation RX-7 was launched in 1991. End year 2002 is from Evo ('produced between 1992 and 2002') and Grassroots Motorsports (sold in Japan through the 2002 model year); the Mazda page opened does not give an end year. Sold in the US for model years 1993-1995 only."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "consumerguide-rx7",
+    "note": "Consumer Guide lists it as a 2-door hatchback (it has a glass rear hatch); recorded as Coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Rotary",
+      "sourceId": "grm-rx7-fd",
+      "note": "Two-rotor 13B-REW"
+    },
+    "displacementL": {
+      "value": 1.3,
+      "sourceId": "grm-rx7-fd",
+      "note": "Nominal rotary displacement (2 x 654 cc)"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "grm-rx7-fd",
+      "note": "Sequential twin turbochargers"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "grm-rx7-fd"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "grm-rx7-fd"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "grm-rx7-fd",
+    "note": "US market: 5-speed manual standard, 4-speed automatic optional"
+  },
+  "powerHp": {
+    "value": 255,
+    "sourceId": "mazdausa-rx7-heaven",
+    "note": "Mazda USA states 255 hp; Grassroots Motorsports and Consumer Guide list the same 255 hp (at 6,500 rpm) for the 1993-1995 US car. Later Japan-market cars were rated higher."
+  },
+  "weightLb": {
+    "value": 2789,
+    "sourceId": "grm-rx7-fd",
+    "note": "Base model with 5-speed manual, the lightest standard US configuration, from the publication's spec panel. Edmunds lists the same 2,789 lb for the 1993 base car."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1993,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "mazdausa-rx7-heaven",
+      "type": "manufacturer",
+      "publisher": "Mazda USA",
+      "title": "Mazda RX-7 Heaven: Legendary Rotary Sports Car",
+      "url": "https://www.mazdausa.com/discover/rx-7-heaven",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "mazda-100th-rx7",
+      "type": "manufacturer",
+      "publisher": "Mazda Motor Corporation",
+      "title": "Mazda 100th Anniversary: RX-7",
+      "url": "https://www2.mazda.com/en/100th/cars/detail_025_rx7.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "grm-rx7-fd",
+      "type": "publication",
+      "publisher": "Grassroots Motorsports",
+      "title": "Buyer's guide: third-generation FD-chassis Mazda RX-7",
+      "url": "https://grassrootsmotorsports.com/articles/buyer-guide-third-generation-fd-chassis-mazda-rx-7/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "consumerguide-rx7",
+      "type": "publication",
+      "publisher": "Consumer Guide Automotive",
+      "title": "1993-95 Mazda RX-7",
+      "url": "https://consumerguide.com/used/1993-95-mazda-rx-7/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-rx7",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Mazda RX-7 review",
+      "url": "https://www.evo.co.uk/mazda/rx-7",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-rx7-1993",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1993 Mazda RX-7 Base Specs & Features",
+      "url": "https://www.edmunds.com/mazda/rx-7/1993/st-3122/features-specs/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2789,
+          "sourceId": "grm-rx7-fd"
+        },
+        {
+          "value": 2789,
+          "sourceId": "edmunds-rx7-1993"
+        },
+        {
+          "value": 2850,
+          "sourceId": "mazdausa-rx7-heaven"
+        }
+      ],
+      "reason": "Mazda USA's retrospective article says 'at just 2,850 lbs' without naming a trim, transmission or model year; 2,789 lb is given specifically for the US base model with the 5-speed manual.",
+      "resolution": "Used 2,789 lb: it names the configuration (lightest standard US car) and two independent sources agree."
+    },
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "1991-2002",
+          "sourceId": "mazda-100th-rx7"
+        },
+        {
+          "value": "1992-2002",
+          "sourceId": "evo-rx7"
+        }
+      ],
+      "reason": "Mazda dates the launch of the third generation to 1991 (Japan); Evo counts from 1992, when export sales began (Grassroots Motorsports: launched in 1992 as an early 1993 model in the US).",
+      "resolution": "Used the manufacturer's 1991 start and the 2002 end that Evo and Grassroots Motorsports agree on."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

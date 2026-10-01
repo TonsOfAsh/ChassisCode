@@ -1,0 +1,131 @@
+{
+  "id": "bmw-m3-e46",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "E46",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M3 (E46)",
+  "aliases": [
+    "E46 M3",
+    "S54",
+    "SMG",
+    "SMG II",
+    "M3 Coupe",
+    "M3 Convertible"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2000,
+      "endYear": 2006
+    },
+    "sourceId": "bmw-classic-m3-coupe-e46",
+    "note": "BMW Group Classic lists the coupe from 07/2000 and the convertible from 03/2001, both ending in 2006 (convertible page: https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-896-1.bmw-m3-convertible-e46.html)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "bmw-us-2002-m3-specs"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2002-m3-specs",
+      "note": "DOHC 24-valve inline 6-cylinder (S54)"
+    },
+    "displacementL": {
+      "value": 3.2,
+      "sourceId": "bmw-us-2002-m3-specs",
+      "note": "3,246 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "bmw-m-m3-generations",
+      "note": "BMW M states the later F80 was the first six-cylinder M3 'with exhaust turbo charger'; the BMW US spec sheet lists six individual throttles and no forced induction. No opened page uses the words 'naturally aspirated' for the standard E46 M3."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2002-m3-specs",
+    "note": "Premium unleaded"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2002-m3-specs",
+    "note": "'Front engine/rear drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "bmw-us-2002-m3-specs",
+    "note": "Automated manual is BMW's Sequential Manual Gearbox (SMG II)."
+  },
+  "powerHp": {
+    "value": 333,
+    "sourceId": "bmw-us-2002-m3-specs",
+    "note": "SAE net at 7,900 rpm. The European car is rated 343 PS."
+  },
+  "weightLb": {
+    "value": 3415,
+    "sourceId": "bmw-us-2002-m3-specs",
+    "note": "Coupe; the sheet gives one coupe figure and no separate SMG weight. Convertible is 3,781 lb. A 2001 Grassroots Motorsports review gives the same 333 hp and 3,415 lb for model year 2001."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2002,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2002-m3-specs",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "2002 BMW M3 Coupe & Convertible Specifications",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0022127EN_US/41385",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bmw-classic-m3-coupe-e46",
+      "type": "manufacturer",
+      "publisher": "BMW Group Classic",
+      "title": "BMW M3 Coupé (E46)",
+      "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-843-1.bmw-m3-coupe-e46.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bmw-m-m3-generations",
+      "type": "manufacturer",
+      "publisher": "BMW M GmbH",
+      "title": "The BMW M3 generations at a glance",
+      "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m3-generationen.html",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 333,
+          "sourceId": "bmw-us-2002-m3-specs"
+        },
+        {
+          "value": "343 hp (252 kW)",
+          "sourceId": "bmw-classic-m3-coupe-e46"
+        }
+      ],
+      "reason": "Market. 343 is the European rating in PS (252 kW, about 338 hp); the US-market car is rated 333 hp SAE net.",
+      "resolution": "Used 333 hp, the US rating, because the record is US-market."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

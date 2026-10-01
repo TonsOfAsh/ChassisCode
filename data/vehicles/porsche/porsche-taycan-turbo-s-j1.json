@@ -1,0 +1,167 @@
+{
+  "id": "porsche-taycan-turbo-s-j1",
+  "manufacturer": "Porsche",
+  "model": "Taycan",
+  "generation": "J1",
+  "variant": "Turbo S",
+  "subVariant": null,
+  "displayName": "Porsche Taycan Turbo S (J1)",
+  "aliases": [
+    "Taycan Turbo S",
+    "J1 Taycan",
+    "Porsche Taycan",
+    "Electric Porsche"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2024
+    },
+    "sourceId": "porsche-newsroom-taycan-sop",
+    "note": "Customer production began September 9, 2019 in Zuffenhausen. End year is for the pre-facelift car and is inferred: Porsche announced the updated 2025 Taycan on February 6, 2024 with US arrival in summer 2024 (https://newsroom.porsche.com/en_US/2024/products/02062024_The_new_2025-_Porsche_Taycan_models.html); no source stating the exact last build date of the original car was found."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "porsche-us-taycan-world-premiere",
+    "note": "Porsche: 'four-door sports sedan'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "porsche-us-taycan-world-premiere",
+      "note": "Two permanently excited synchronous motors, one per axle."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "porsche-us-taycan-world-premiere"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "porsche-us-taycan-world-premiere"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "porsche-us-taycan-world-premiere"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "porsche-us-taycan-world-premiere"
+  },
+  "transmission": {
+    "value": [
+      "2-speed Automatic"
+    ],
+    "sourceId": "porsche-us-taycan-world-premiere",
+    "note": "Two-speed automatic gearbox on the rear axle; the front axle uses a single-speed gear set."
+  },
+  "powerHp": {
+    "value": 750,
+    "sourceId": "porsche-us-taycan-world-premiere",
+    "note": "Peak output with overboost and Launch Control: 'up to 750 horsepower (560 kW)'. Without overboost the Turbo S is rated 616 hp (460 kW) per Porsche's US technical spec sheet."
+  },
+  "weightLb": {
+    "value": 5121,
+    "sourceId": "pca-taycan-2019",
+    "note": "Launch (model year 2020) US curb weight; single configuration. Porsche's US spec sheet for model year 2021 lists 5,101 lb - see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "porsche-us-taycan-world-premiere",
+      "type": "manufacturer",
+      "publisher": "Porsche Newsroom USA",
+      "title": "World premiere of the Porsche Taycan: The sports car for a sustainable future",
+      "url": "https://newsroom.porsche.com/en_US/products/world-premiere-porsche-taycan-sports-car-sustainable-19176.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-newsroom-taycan-sop",
+      "type": "manufacturer",
+      "publisher": "Porsche Newsroom",
+      "title": "Punctual start of production for the Porsche Taycan",
+      "url": "https://newsroom.porsche.com/en/2019/company/porsche-taycan-factory-zuffenhausen-production-review-construction-18603.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-us-my21-spec-sheet",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Taycan technical specification sheet, model year 2021 (March 4, 2021)",
+      "url": "https://newsroom.porsche.com/dam/jcr:f0326d9f-b493-4d76-9a74-636daddc97a5/TaycanTechnicalSpecSheet20210304.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "pca-taycan-2019",
+      "type": "publication",
+      "publisher": "Porsche Club of America",
+      "title": "Taycan Turbo and Turbo S: Porsche unveils its first production electric car",
+      "url": "https://www.pca.org/news/taycan-turbo-turbo-s-porsche-unveils-its-first-production-electric-car",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-taycan-2020",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2020 Porsche Taycan Turbo S Specs & Features",
+      "url": "https://www.edmunds.com/porsche/taycan/2020/st-401826304/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "motor1-taycan-2019",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2020 Porsche Taycan Debuts As An All-Electric Super Sedan",
+      "url": "https://www.motor1.com/news/368730/2020-porsche-taycan-debut-official/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 5121,
+          "sourceId": "pca-taycan-2019"
+        },
+        {
+          "value": 5121,
+          "sourceId": "edmunds-taycan-2020"
+        },
+        {
+          "value": 5101,
+          "sourceId": "porsche-us-my21-spec-sheet"
+        }
+      ],
+      "reason": "Model year: 5,121 lb is quoted for the 2020 launch car, 5,101 lb is on Porsche's US spec sheet for model year 2021. (The EU DIN figure, 2,295 kg, is a different market and standard.)",
+      "resolution": "Used 5,121 lb to match the 2020 reference model year. It rests on two non-manufacturer sources; the manufacturer's 2021 sheet is 20 lb lower."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 750,
+          "sourceId": "porsche-us-taycan-world-premiere"
+        },
+        {
+          "value": 751,
+          "sourceId": "motor1-taycan-2019"
+        }
+      ],
+      "reason": "Rounding of the 560 kW overboost figure (560 kW = 750.97 hp). Porsche's US material states 750 hp.",
+      "resolution": "Used 750 hp, the manufacturer's US figure."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

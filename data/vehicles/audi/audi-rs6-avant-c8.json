@@ -1,0 +1,80 @@
+{
+  "id": "audi-rs6-avant-c8",
+  "manufacturer": "Audi",
+  "model": "RS6 Avant",
+  "generation": "C8",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi RS6 Avant (C8)",
+  "aliases": ["RS 6 Avant", "RS6", "C8 RS6", "RS6 C8", "RS6 wagon", "Tiptronic", "quattro", "4.0 TFSI"],
+  "country": "Germany",
+  "production": {
+    "value": { "startYear": 2019, "endYear": 2025 },
+    "sourceId": "audi-rs6-20-years-2022",
+    "note": "Global production of the C8 RS 6 Avant. Audi: the fourth generation (C8) rolled out to dealerships in 2019. End year is taken from audi.com, which now titles the model 'Audi RS 6 Avant (until 2025)' (https://www.audi.com/en/fourth-generation-audi-rs-6-avant-11975); see reviewNotes. US sales of this standard 591 hp car: on sale September 2020 as a 2021 model (source audi-usa-rs-release-2020), sold through model year 2023; from model year 2024 the US car is the 621 hp RS 6 Avant performance, which is a separate record."
+  },
+  "body": { "value": ["Wagon"], "sourceId": "audi-usa-rs-release-2020" },
+  "engine": {
+    "configuration": { "value": "V8", "sourceId": "audi-usa-rs-release-2020" },
+    "displacementL": { "value": 4.0, "sourceId": "audi-rs6-engine-2023", "note": "3,996 cc; marketed as 4.0 TFSI" },
+    "aspiration": { "value": "Twin Turbocharged", "sourceId": "audi-usa-rs-release-2020" }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-rs6-engine-2023",
+    "note": "48-volt mild hybrid (MHEV) with a belt alternator starter; not a full hybrid, so Gasoline per the data guide"
+  },
+  "drivetrain": { "value": "AWD", "sourceId": "audi-rs6-engine-2023", "note": "quattro permanent all-wheel drive" },
+  "transmission": { "value": ["8-speed Automatic"], "sourceId": "audi-rs6-engine-2023", "note": "Eight-speed tiptronic (torque-converter automatic)" },
+  "powerHp": {
+    "value": 591,
+    "sourceId": "audi-usa-rs-release-2020",
+    "note": "Audi of America rating: 591 hp and 590 lb-ft. Audi AG states the same engine as 441 kW (600 PS). The later RS 6 Avant performance (463 kW / 630 PS; 621 hp in the US) is a separate record."
+  },
+  "weightLb": {
+    "value": 4960,
+    "sourceId": "motor1-rs6-review-2021",
+    "note": "US curb weight for the 2021 model as printed in Motor1's spec panel; Motor Authority, Edmunds and Cars.com give the same 4,960 lb. Only one configuration was sold. No Audi of America page stating the curb weight could be opened."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2021, "powerStandard": "SAE net", "weightType": "curb" },
+  "sources": [
+    {
+      "id": "audi-usa-rs-release-2020",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Trio of RS models - 2021 RS 6 Avant, RS 7 and Audi RS Q8 - on sale now",
+      "url": "https://media.audiusa.com/view/releases/434",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "audi-rs6-engine-2023",
+      "type": "manufacturer",
+      "publisher": "Audi AG",
+      "title": "The Audi RS 6 Avant and the new Audi RS 6 Avant performance: Engine",
+      "url": "https://www.audi.com/en/the-audi-rs-6-avant-and-the-new-audi-rs-6-avant-performance-12345/engine-12348",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "audi-rs6-20-years-2022",
+      "type": "manufacturer",
+      "publisher": "Audi AG",
+      "title": "20 years, four generations - Audi RS 6: Superior performance with an everyday look",
+      "url": "https://www.audi.com/en/press-releases/20-years-four-generations-audi-rs-6-superior-performance-with-an-everyday-look-14768",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "motor1-rs6-review-2021",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2021 Audi RS6 Avant Review: Everything You Expected",
+      "url": "https://www.motor1.com/reviews/493416/2021-audi-rs6-avant-review/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Production end year (2025) is weakly sourced: it rests only on audi.com labelling the C8 model 'Audi RS 6 Avant (until 2025)'. No source was found for when the standard 600 PS / 591 hp car specifically stopped being built (the performance and GT continued to the end of the generation), and the last US model year of the standard car (2023) is inferred from KBB listing 591 hp for 2023 and a duPont Registry review saying the performance arrived for 2024. Curb weight comes from publications, not from an Audi of America document.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,127 @@
+{
+  "id": "bmw-m3-competition-g80",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "G80",
+  "variant": "Competition",
+  "subVariant": null,
+  "displayName": "BMW M3 Competition (G80)",
+  "aliases": [
+    "G80 M3",
+    "G80 M3 Competition",
+    "M3 Comp",
+    "S58",
+    "M Steptronic"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "sourceId": "bmw-m-m3-generations",
+    "note": "BMW M: G80 'produced since 2020' (series production began at Plant Munich in November 2020; US launch March 2021). Still on sale: on 2026-09-30 bmwusa.com listed the rear-wheel-drive M3 Competition Sedan (503 hp, 8-speed M Steptronic) separately from the M3 Competition xDrive (https://www.bmwusa.com/vehicles/m-series/m3-series/bmw-m3-sedan.html)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2021-m3-release"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2021-m3-release",
+      "note": "3.0-liter inline six (S58)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2021-m3-release",
+      "note": "2,993 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2021-m3-release",
+      "note": "Two mono-scroll turbochargers"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2021-m3-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2021-m3-release",
+    "note": "This record is the rear-wheel-drive M3 Competition. The M3 Competition xDrive (AWD, offered from summer 2021) is a separate model and gets its own record."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2021-m3-release",
+    "note": "8-speed M Steptronic (torque-converter automatic) with Drivelogic; the manual is offered only on the non-Competition M3."
+  },
+  "powerHp": {
+    "value": 503,
+    "sourceId": "bmw-us-2021-m3-release",
+    "note": "503 hp at 6,250 rpm"
+  },
+  "weightLb": {
+    "value": 3890,
+    "sourceId": "bmw-us-2021-m3-release",
+    "note": "Single configuration (automatic sedan). The non-Competition manual M3 is 3,840 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2021-m3-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2021 BMW M3 Sedan and M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0317577EN_US/the-new-2021-bmw-m3-sedan-and-m4-coupe?language=en_US",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bmw-m-m3-generations",
+      "type": "manufacturer",
+      "publisher": "BMW M GmbH",
+      "title": "The BMW M3 generations at a glance",
+      "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m3-generationen.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bmw-us-2025-m3-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The 2025 BMW M3 Sedan (press release, May 28, 2024)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0442408EN_US?language=en_US",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3890,
+          "sourceId": "bmw-us-2021-m3-release"
+        },
+        {
+          "value": 3891,
+          "sourceId": "bmw-us-2025-m3-release"
+        }
+      ],
+      "reason": "Model year: 3,890 lb in the 2021 launch release, 3,891 lb in the 2025 model-year release.",
+      "resolution": "Used 3,890 lb to match the 2021 reference model year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

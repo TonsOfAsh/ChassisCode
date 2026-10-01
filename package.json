@@ -1,0 +1,20 @@
+{
+  "name": "cardle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cardle - an automotive deduction game",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "clue-report": "tsx scripts/clue-report.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

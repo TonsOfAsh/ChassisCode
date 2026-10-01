@@ -1,0 +1,109 @@
+{
+  "id": "porsche-911-gt3-991-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.2",
+  "variant": "GT3",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 (991.2)",
+  "aliases": [
+    "991.2 GT3",
+    "GT3 991.2",
+    "991 GT3 4.0",
+    "Porsche GT3",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2019
+    },
+    "sourceId": "renndriver-991-gt3-guide",
+    "note": "RennDriver: \"2017 to 2019\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2018-911-gt3"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-press-2018-911-gt3"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "pcna-press-2018-911-gt3",
+      "note": "Stated as \"4.0 liter\" by Porsche"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-press-2018-911-gt3"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2018-911-gt3",
+    "note": "Premium unleaded"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-2018-911-gt3"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-press-2018-911-gt3",
+    "note": "DCT is Porsche PDK"
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "pcna-press-2018-911-gt3"
+  },
+  "weightLb": {
+    "value": 3116,
+    "sourceId": "pcna-press-2018-911-gt3",
+    "note": "Six-speed manual; PDK is 3,153 lb"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "pcna-press-2018-911-gt3",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (press release via PR Newswire)",
+      "title": "A matter of choice - the new 2018 Porsche 911 GT3",
+      "url": "https://www.prnewswire.com/news-releases/a-matter-of-choice--the-new-2018-porsche-911-gt3-300418982.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-2018-911-gt3",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2018 Porsche 911 GT3 Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2018/gt3/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "renndriver-991-gt3-guide",
+      "type": "publication",
+      "publisher": "RennDriver",
+      "title": "Porsche 991 GT3: 991.1, 991.2, Touring, Specs, and Buying Guide",
+      "url": "https://renndriver.com/guides/porsche-991-gt3/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

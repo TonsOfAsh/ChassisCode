@@ -1,0 +1,81 @@
+{
+  "id": "dodge-viper-acr-vx",
+  "manufacturer": "Dodge",
+  "model": "Viper",
+  "generation": "VX",
+  "variant": "ACR",
+  "subVariant": null,
+  "displayName": "Dodge Viper ACR (VX)",
+  "aliases": ["Viper ACR", "American Club Racer", "Gen V Viper ACR", "ACR Extreme", "Extreme Aero", "TR6060"],
+  "country": "United States",
+  "production": {
+    "value": { "startYear": 2015, "endYear": 2017 },
+    "sourceId": "dodge-viper-acr-release-2015",
+    "note": "Dodge: production of the 2016 Viper ACR begins in Detroit in the third quarter of 2015. End year: the last Viper left Conner Avenue Assembly in the week of 14 August 2017 (Motor Authority, source motorauthority-last-viper-2017). Model years 2016-2017."
+  },
+  "body": { "value": ["Coupe"], "sourceId": "dodge-viper-specs-2016" },
+  "engine": {
+    "configuration": { "value": "V10", "sourceId": "dodge-viper-specs-2016" },
+    "displacementL": { "value": 8.4, "sourceId": "dodge-viper-specs-2016", "note": "512 cu in (8.4 liters)" },
+    "aspiration": { "value": "Naturally Aspirated", "sourceId": "dodge-viper-acr-release-2015" }
+  },
+  "fuel": { "value": "Gasoline", "sourceId": "dodge-viper-specs-2016" },
+  "drivetrain": { "value": "RWD", "sourceId": "dodge-viper-specs-2016" },
+  "transmission": { "value": ["6-speed Manual"], "sourceId": "dodge-viper-specs-2016", "note": "Tremec TR6060; no automatic was offered" },
+  "powerHp": { "value": 645, "sourceId": "dodge-viper-specs-2016", "note": "645 bhp @ 6,200 rpm (SAE net)" },
+  "weightLb": {
+    "value": 3374,
+    "sourceId": "autoblog-viper-acr-2015",
+    "note": "Standard ACR without the optional Extreme Aero Package. Autoblog reports the claimed curb weight as 3,392 lb in Aero trim with the standard ACR 18 lb lighter (3,392 - 18 = 3,374). Dodge's own 2016 spec sheet publishes only the Extreme Aero figure, 3,392 lb (1,539 kg)."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2016, "powerStandard": "SAE net", "weightType": "curb" },
+  "sources": [
+    {
+      "id": "dodge-viper-specs-2016",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2016 Dodge Viper Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_DG_Viper_SPcoa8l7ap480ci3h77j2er2he6e.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "dodge-viper-acr-release-2015",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "New 2016 Dodge Viper ACR - Fastest Street-legal Viper Track Car Ever",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=16546",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "autoblog-viper-acr-2015",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "2016 Dodge Viper ACR First Drive",
+      "url": "https://www.autoblog.com/2015/07/17/2016-dodge-viper-acr-first-drive/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "motorauthority-last-viper-2017",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "The last Dodge Viper has rolled off the assembly line",
+      "url": "https://www.motorauthority.com/news/1112169_the-last-dodge-viper-has-rolled-off-the-assembly-line",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        { "value": 3374, "sourceId": "autoblog-viper-acr-2015" },
+        { "value": 3392, "sourceId": "dodge-viper-specs-2016" }
+      ],
+      "reason": "Option package: 3,392 lb is the ACR with the optional Extreme Aero Package (the only ACR figure on Dodge's spec sheet); 3,374 lb is the standard ACR, which Autoblog reports as 18 lb lighter.",
+      "resolution": "Used 3,374 lb because the guide asks for the lightest standard configuration and option packages do not count. The figure is derived from a publication's statement of the manufacturer claim, so confidence is medium."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

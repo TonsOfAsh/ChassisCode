@@ -1,0 +1,199 @@
+{
+  "id": "acura-nsx-nc1",
+  "manufacturer": "Acura",
+  "model": "NSX",
+  "generation": "NC1",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Acura NSX (NC1)",
+  "aliases": [
+    "New NSX",
+    "Second-generation NSX",
+    "Honda NSX",
+    "NSX hybrid",
+    "Sport Hybrid SH-AWD",
+    "9DCT",
+    "JNC1"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2021
+    },
+    "sourceId": "acura-nsx-type-s-reveal-2021",
+    "note": "Standard car only; the 2022 NSX Type S is a separate record. First serial-production car left the Performance Manufacturing Center on 24 May 2016 (Acura release). Acura states every 2022-model-year NSX is a Type S, and Type S production began in January 2022, so 2021 is taken as the last year the standard car was built; the exact last build date of a standard car was not found. The generation as a whole ran 2016-2022."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "tcc-nsx-2017",
+    "note": "Acura's own documents only say 'Seating Capacity 2' and never use a body-style word; The Car Connection classifies it as a coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "acura-nsx-specs-2017",
+      "note": "Twin-turbocharged DOHC V6 plus three electric motors; configuration is the combustion engine."
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "acura-nsx-specs-2017",
+      "note": "3,493 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "acura-nsx-specs-2017",
+      "note": "Twin single-scroll turbochargers"
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "acura-nsx-tech-intro-2017",
+    "note": "Sport Hybrid power unit with a lithium-ion battery charged by the engine and regeneration; no external charging is described anywhere in Acura's material."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "acura-nsx-specs-2017",
+    "note": "Sport Hybrid SH-AWD: engine and rear motor drive the rear wheels, two electric motors drive the front wheels."
+  },
+  "transmission": {
+    "value": [
+      "9-speed DCT"
+    ],
+    "sourceId": "acura-nsx-specs-2017",
+    "note": "Acura 9DCT"
+  },
+  "powerHp": {
+    "value": 573,
+    "sourceId": "acura-nsx-specs-2017",
+    "note": "Maximum total system power. The engine alone is rated 500 hp SAE net."
+  },
+  "weightLb": {
+    "value": 3941,
+    "sourceId": "acura-nsx-specs-2017",
+    "note": "'Curb Weight (standard specifications)'. 3,875 lb with the optional lightweight items. See discrepancy: Acura's press kit of the same date gives 3,803 lb 'without options'."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "acura-nsx-specs-2017",
+      "type": "manufacturer",
+      "publisher": "Acura / American Honda (hondanews.com)",
+      "title": "2017 Acura NSX Specifications and Features",
+      "url": "https://hondanews.com/en-US/releases/release-23804403554a45d3bf5a5056f46720e1-2017-acura-nsx-specifications-and-features",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "acura-nsx-tech-intro-2017",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "2017 Acura NSX Technical Introduction Press Kit",
+      "url": "https://acuranews.com/en-US/releases/release-ccbf6f92b0414ce5abf653f74d1169de-2017-acura-nsx-technical-introduction",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "acura-nsx-2019-specs",
+      "type": "manufacturer",
+      "publisher": "Acura / American Honda (hondanews.com)",
+      "title": "2019 Acura NSX: Specifications and Features",
+      "url": "https://hondanews.com/en-US/releases/release-0a2204a6584a46709f39eae87075ab74-2019-acura-nsx-specifications-and-features",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "gcr-nsx-2015",
+      "type": "publication",
+      "publisher": "Green Car Reports",
+      "title": "2017 Acura NSX: Sexy, Powerful Hybrid Supercar Specs Released",
+      "url": "https://www.greencarreports.com/news/1100645_2017-acura-nsx-sexy-powerful-hybrid-supercar-specs-released",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "acura-nsx-line-off-2016",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "First Serial Production 2017 Acura NSX Rolls off the Line at Performance Manufacturing Center in Ohio",
+      "url": "https://acuranews.com/en-US/releases/release-724d8fc1f573465c9a37b3d5875e2e45-first-serial-production-2017-acura-nsx-rolls-off-the-line-at-performance-manufacturing-center-in-ohio",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "acura-nsx-type-s-reveal-2021",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Debuts Limited Production 600hp NSX Type S at Monterey Car Week",
+      "url": "https://acuranews.com/en-US/releases/release-f8bfb43dd94cc82c09a8314c0b0a9a34-2022-acura-nsx-revealed-at-monterey-car-week",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "acura-nsx-type-s-production-2022",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Performance Manufacturing Center Begins Production of Limited-Edition Acura NSX Type S",
+      "url": "https://acuranews.com/en-US/releases/release-3ca840de4b6d011494d62be7cf0dc480-performance-manufacturing-center-begins-production-of-limited-edition-acura-nsx-type-s",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tcc-nsx-2017",
+      "type": "publication",
+      "publisher": "The Car Connection",
+      "title": "2017 Acura NSX Review, Ratings, Specs, Prices, and Photos",
+      "url": "https://www.thecarconnection.com/overview/acura_nsx_2017",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3941,
+          "sourceId": "acura-nsx-specs-2017"
+        },
+        {
+          "value": 3803,
+          "sourceId": "acura-nsx-tech-intro-2017"
+        },
+        {
+          "value": 3803,
+          "sourceId": "gcr-nsx-2015"
+        },
+        {
+          "value": 3945,
+          "sourceId": "acura-nsx-2019-specs"
+        }
+      ],
+      "reason": "Two Acura documents, both dated 14 March 2016, give different curb weights for the 2017 NSX: the Specifications and Features sheet lists 3,941 lb 'standard specifications' (3,875 lb with lightweight options), while the Technical Introduction press kit lists 3,803 lb 'without options'. 3,803 lb is the figure Acura first quoted in October 2015 and the one most publications repeat. Acura does not explain the 138 lb gap. The 2019 sheet (3,945 lb standard) is a later model year, listed for comparison only.",
+      "resolution": "Used 3,941 lb: it comes from the dedicated specification sheet, is labelled as the standard specification, and matches the measuring basis Acura kept using on the 2019 sheet (3,945 lb). Flagged for review because the widely quoted 3,803 lb is also a manufacturer figure."
+    },
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "2016-2021 (standard car; first serial car 24 May 2016, every 2022 model is a Type S)",
+          "sourceId": "acura-nsx-type-s-reveal-2021"
+        },
+        {
+          "value": "2016 line-off",
+          "sourceId": "acura-nsx-line-off-2016"
+        },
+        {
+          "value": "2016-2022 (whole generation; Type S built during 2022)",
+          "sourceId": "acura-nsx-type-s-production-2022"
+        }
+      ],
+      "reason": "Standard car versus the generation as a whole: the final year (2022) was Type S only.",
+      "resolution": "This record is the standard NSX, so production ends in 2021; the 2022 Type S is a separate record."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight: Acura published both 3,941 lb (spec sheet, 'standard specifications') and 3,803 lb (press kit, 'without options') for the 2017 car; 3,941 was chosen but a human should confirm which figure the game should use. Production end year 2021 for the standard car is inferred from Acura's statement that every 2022 NSX is a Type S, not from a stated last-build date. Body style 'Coupe' rests on a publication's classification, not on Acura's wording.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "nissan-skyline-gt-r-v-spec-r34",
+  "manufacturer": "Nissan",
+  "model": "Skyline",
+  "generation": "R34",
+  "variant": "GT-R",
+  "subVariant": "V-Spec",
+  "displayName": "Nissan Skyline GT-R V-Spec (R34)",
+  "aliases": [
+    "R34 GT-R",
+    "BNR34",
+    "Godzilla",
+    "RB26DETT",
+    "R34 V-Spec",
+    "Skyline GTR",
+    "V spec"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2000
+    },
+    "sourceId": "gazoo-gtr-spec",
+    "note": "Original V-Spec only: launched with the R34 GT-R on 8 January 1999 and replaced by the V-Spec II at the August 2000 minor change. The R34 GT-R as a whole was built until 2002."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-r34-gtr-release-1999",
+    "note": "Based on the R34 2-door coupe body"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "nissan-heritage-280",
+      "note": "RB26DETT, inline-6, 4-valve DOHC"
+    },
+    "displacementL": {
+      "value": 2.6,
+      "sourceId": "nissan-heritage-280",
+      "note": "2,568 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-heritage-280",
+      "note": "Twin turbo with intercooler"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "goo-net-r34-vspec-1999",
+    "note": "Unleaded premium gasoline"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "evo-r34-gtr",
+    "note": "ATTESA E-TS electronically controlled four-wheel drive (listed as full-time 4WD in Japanese catalogs); V-Spec adds an active rear LSD."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "nissan-r34-gtr-release-1999",
+    "note": "Getrag 6-speed manual"
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "nissan-heritage-280",
+    "note": "Official 280 PS (206 kW) at 6,800 rpm x 0.98632 = 276.2, rounded to 276 hp. Nissan's heritage page states the rating for the BNR34 V-Spec II, which uses the same RB26DETT; the Goo-net catalog entry for the January 1999 V-Spec also lists 280 PS and Evo quotes 276 bhp."
+  },
+  "weightLb": {
+    "value": 3439,
+    "sourceId": "evo-r34-gtr",
+    "note": "1,560 kg x 2.20462. Evo's specification panel for the GT-R V-Spec (R34); the Goo-net catalog entry for the January 1999 V-Spec and Nissan's heritage page for the V-Spec II give the same 1,560 kg. No Nissan document for the 1999 V-Spec itself was found."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1999,
+    "powerStandard": "JIS PS",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "nissan-heritage-280",
+      "type": "manufacturer",
+      "publisher": "Nissan Motor Co. (Nissan Heritage Collection)",
+      "title": "Skyline GT-R V-spec II (BNR34, 2000)",
+      "url": "https://www.nissan.co.jp/HERITAGE/DETAIL/280.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "nissan-r34-gtr-release-1999",
+      "type": "manufacturer",
+      "publisher": "Nissan Motor Co. (Nissan Newsroom)",
+      "title": "New Skyline GT-R released (press kit, January 1999)",
+      "url": "https://global.nissannews.com/ja-JP/releases/skyline-gtr-presskit",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-r34-gtr",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Nissan Skyline GT-R R34: review, history and specs of an icon",
+      "url": "https://www.evo.co.uk/nissan/skyline/gt-r-r34",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "goo-net-r34-vspec-1999",
+      "type": "database",
+      "publisher": "Goo-net catalog",
+      "title": "Nissan Skyline GT-R V-spec (January 1999) catalog",
+      "url": "https://www.goo-net.com/catalog/NISSAN/SKYLINE/1501419/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "gazoo-gtr-spec",
+      "type": "publication",
+      "publisher": "GAZOO (Toyota Motor)",
+      "title": "Skyline GT-R and the 'spec' grades (column, 4 November 2024)",
+      "url": "https://gazoo.com/column/article/24/11/04/gtr-spec/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

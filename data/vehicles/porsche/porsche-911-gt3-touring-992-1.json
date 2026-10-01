@@ -1,0 +1,157 @@
+{
+  "id": "porsche-911-gt3-touring-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "GT3",
+  "subVariant": "Touring",
+  "displayName": "Porsche 911 GT3 Touring (992.1)",
+  "aliases": [
+    "992.1 GT3 Touring",
+    "GT3 Touring 992.1",
+    "992 GT3 Touring",
+    "GT3 Touring",
+    "GT3 with Touring Package",
+    "Touring Package",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "evo-used-911-gt3-992-1",
+    "note": "Evo: the Touring joined the line-up in June 2021; dated 2021-2024. Porsche AG opened orders on 16 June 2021; PCNA expected US arrivals in early 2022 (US model years 2022-2024)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2022-911-gt3-touring"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "edmunds-2022-911-gt3-touring"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "edmunds-2022-911-gt3-touring"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-used-911-gt3-992-1",
+      "note": "Evo: Touring is mechanically identical to the GT3, with the 4-litre naturally aspirated flat-six"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2022-911-gt3-touring",
+    "note": "Premium unleaded"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-2022-911-gt3-touring"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-press-2022-911-gt3-touring",
+    "note": "DCT is Porsche PDK. US market: PDK standard, six-speed manual a no-cost option \"in selected states\" (not offered in California at launch). Porsche AG: first Touring available with PDK."
+  },
+  "powerHp": {
+    "value": 502,
+    "sourceId": "kbb-2022-911-gt3-touring",
+    "note": "PCNA's Touring release gives no power figure but says the engine is adopted from the regular 911 GT3, which PCNA rates at 502 hp."
+  },
+  "weightLb": {
+    "value": 3126,
+    "sourceId": "edmunds-2022-911-gt3-touring",
+    "note": "Six-speed manual. PCNA publishes no separate Touring weight. Porsche AG's Touring release gives 1,418 kg manual / 1,435 kg PDK, the same as the winged GT3; PCNA gives the winged GT3 3,126 lb manual / 3,164 lb PDK."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "pcna-press-2022-911-gt3-touring",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "The new Porsche 911 GT3 with Touring Package",
+      "url": "https://newsroom.porsche.com/en_US/2021/products/porsche-911-gt3-touring-package-premiere-24798.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-ag-press-2021-911-gt3-touring",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (Porsche Newsroom)",
+      "title": "Press Release 16 June 2021: The new Porsche 911 GT3 with Touring package",
+      "url": "https://newsroom.porsche.com/dam/jcr:a26a4c7b-39cd-4576-ab04-6b337269612d/PI20210616e_The%20new%20Porsche%20911%20GT3%20with%20Touring%20package.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kbb-2022-911-gt3-touring",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "Porsche Unveils Stealthy 911 GT3 Touring",
+      "url": "https://www.kbb.com/car-news/porsche-unveils-stealthy-911-gt3-touring",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-2022-911-gt3-touring",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2022 Porsche 911 GT3 with Touring Package Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2022/gt3-with-touring-package/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-used-911-gt3-992-1",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Used Porsche 911 GT3 (992.1, 2021-2024): review, history, specs and buying guide",
+      "url": "https://www.evo.co.uk/porsche/911-gt3/203766/used-porsche-911-gt3-9921-2021-2024-review-history-specs-and-buying-guide",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "pcna-press-kit-2022-911-gt3",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "The 2022 Porsche 911 GT3 Press kit",
+      "url": "https://newsroom.porsche.com/dam/jcr:f67ebd45-3aa7-4bf9-9c6a-78d336603b7e/2022%20Porsche%20911%20GT3%20Press%20Kit.pdf",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3126,
+          "sourceId": "edmunds-2022-911-gt3-touring"
+        },
+        {
+          "value": "1,418 kg manual / 1,435 kg PDK (Touring, EU market)",
+          "sourceId": "porsche-ag-press-2021-911-gt3-touring"
+        },
+        {
+          "value": "3,126 lb manual / 3,164 lb PDK (winged GT3, US)",
+          "sourceId": "pcna-press-kit-2022-911-gt3"
+        }
+      ],
+      "reason": "Not a conflict in substance: different markets and units. 1,418 kg = 3,126 lb. Recorded because PCNA itself prints no Touring-specific curb weight.",
+      "resolution": "Use 3,126 lb (manual): Edmunds lists it for the US Touring, and it equals both Porsche AG's Touring figure converted and PCNA's figure for the mechanically identical winged GT3."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Porsche Cars North America publishes no Touring-specific power or curb weight in the sources found; it states only that engine, transmission, suspension, wheels and tires are adopted from the regular GT3. Power (502 hp) is cited from Kelley Blue Book and weight (3,126 lb) from Edmunds, both matching PCNA's winged-GT3 figures. Every game clue is identical to the 992.1 GT3 record. Confirm against a PCNA Touring spec sheet if one can be found; start year 2021 is the order/launch year, first US deliveries were 2022.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

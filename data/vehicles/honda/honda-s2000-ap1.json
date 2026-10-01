@@ -1,0 +1,184 @@
+{
+  "id": "honda-s2000-ap1",
+  "manufacturer": "Honda",
+  "model": "S2000",
+  "generation": "AP1",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Honda S2000 (AP1)",
+  "aliases": [
+    "AP1",
+    "S2K",
+    "S2000 AP1",
+    "F20C",
+    "2.0 S2000"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2003
+    },
+    "sourceId": "honda-s2000-2004-release",
+    "note": "US-market definition of the AP1: the 2.0-litre car, launched in Japan on 15 April 1999 and sold in the US for model years 2000-2003; the 2.2-litre car (AP2) replaced it for US model year 2004, announced October 2003. This differs by market: in Japan the 2.0-litre F20C car, still designated AP1, continued through the 2003 facelift until the 2.2-litre AP2 arrived in November 2005. All S2000 production ended in June 2009."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "honda-s2000-specs-2001",
+    "note": "Honda: '2-Passenger, 2-Door Roadster' with a power soft top"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-s2000-specs-2001",
+      "note": "F20C, 16-valve DOHC VTEC inline-4"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "honda-s2000-specs-2001",
+      "note": "1,997 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "honda-jp-s2000-release-1999",
+      "note": "Honda describes the F20C as a newly developed 2-litre naturally aspirated DOHC VTEC four."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-s2000-specs-2001",
+    "note": "Premium unleaded"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "honda-s2000-specs-2001"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-s2000-specs-2001",
+    "note": "6-speed manual only"
+  },
+  "powerHp": {
+    "value": 240,
+    "sourceId": "honda-s2000-specs-2001",
+    "note": "240 hp at 8,300 rpm SAE net. Figure taken from Honda's 2001 specification sheet (no 2000 sheet was found online); Grassroots Motorsports' 2000 review gives the same 240 hp for the 2000 model. The Japanese-market car was rated 250 PS."
+  },
+  "weightLb": {
+    "value": 2809,
+    "sourceId": "honda-s2000-specs-2001",
+    "note": "From Honda's 2001 specification sheet, unchanged on the 2003 sheet; Grassroots Motorsports gives 2,809 lb for the 2000 model. Single configuration (manual roadster)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2000,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "honda-s2000-specs-2001",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2001 Honda S2000 Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-1731f2d3f03cd0ad1cb963004c34c89c-2001-honda-s2000-specifications",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "grm-s2000-2000",
+      "type": "publication",
+      "publisher": "Grassroots Motorsports",
+      "title": "2000 Honda S2000: New car reviews",
+      "url": "https://grassrootsmotorsports.com/new-cars/2000-honda-s2000/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-s2000-body-2001",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "Honda S2000 -- Body",
+      "url": "https://hondanews.com/en-US/releases/release-4bedfb5cb00b34a841f9f6004c34c870-honda-s2000-body",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-s2000-2004-release",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "Honda S2000 Receives Enhanced Power and Improved Handling for 2004",
+      "url": "https://hondanews.com/en-US/honda-corporate/releases/release-cbf1a42846ed0695af9940004c34c498-honda-s2000-receives-enhanced-power-and-improved-handling-for-2004",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-jp-s2000-release-1999",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Co. (global.honda)",
+      "title": "Honda launches the S2000 (press release, 15 April 1999)",
+      "url": "https://global.honda/jp/news/1999/4990415.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-jp-s2000-2005",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Co. (global.honda)",
+      "title": "S2000 minor model change (press release, 24 November 2005)",
+      "url": "https://global.honda/jp/news/2005/4051124-s2000.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "gazoo-s2000-ap1-2004",
+      "type": "publication",
+      "publisher": "GAZOO (Toyota Motor)",
+      "title": "2004 Honda S2000 (AP1) owner feature",
+      "url": "https://gazoo.com/ilovecars/introduce/2000s/honda/24/02/16/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2809,
+          "sourceId": "honda-s2000-specs-2001"
+        },
+        {
+          "value": 2809,
+          "sourceId": "grm-s2000-2000"
+        },
+        {
+          "value": 2756,
+          "sourceId": "honda-s2000-body-2001"
+        }
+      ],
+      "reason": "Two Honda documents for the same car: the specification sheet lists a curb weight of 2,809 lb, while the narrative 'Body' release says the car weighs 2,756 lb without stating the measuring basis.",
+      "resolution": "Used 2,809 lb, the figure in the formal specification table (repeated on the 2003 sheet and by Grassroots Motorsports for the 2000 model)."
+    },
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "1999-2003 (US: 2.2-litre car replaces it for model year 2004)",
+          "sourceId": "honda-s2000-2004-release"
+        },
+        {
+          "value": "1999-2005 (Japan: 2.0-litre until the November 2005 change to 2.2 litres)",
+          "sourceId": "honda-jp-s2000-2005"
+        },
+        {
+          "value": "2004 Japanese-market car is still an AP1; AP2 arrives with 2.2 litres in 2005",
+          "sourceId": "gazoo-s2000-ap1-2004"
+        }
+      ],
+      "reason": "Market: the switch from the 2.0-litre AP1 to the 2.2-litre AP2 happened for model year 2004 in the US but only in November 2005 in Japan.",
+      "resolution": "Used 1999-2003 to match the record's US spec basis and keep it distinct from the AP2 record; see review notes."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Production years: the guide asks for years built 'for all markets', but AP1 ends at different times by market (US 2.0-litre cars through model year 2003; Japan kept the 2.0-litre AP1 until November 2005; European timing was not researched). 1999-2003 follows the US basis of this record - confirm that is the intended definition, and align the AP2 record with it. Also, the exact month the last US-spec 2.0-litre car was built was not found (2003 is inferred from the October 2003 announcement of the 2004 model). Power and weight are from Honda's 2001 sheet, corroborated for 2000 by a publication, because no Honda sheet for model year 2000 was found.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

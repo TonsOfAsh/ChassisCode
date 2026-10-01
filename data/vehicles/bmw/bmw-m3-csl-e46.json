@@ -1,0 +1,147 @@
+{
+  "id": "bmw-m3-csl-e46",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "E46",
+  "variant": "CSL",
+  "subVariant": null,
+  "displayName": "BMW M3 CSL (E46)",
+  "aliases": [
+    "E46 CSL",
+    "M3 CSL",
+    "CSL",
+    "Coupe Sport Lightweight",
+    "S54",
+    "SMG",
+    "SMG II"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2002,
+      "endYear": 2004
+    },
+    "sourceId": "bmw-classic-m3-csl-e46",
+    "note": "BMW Group Classic: 'Production 09/2002 - 01/2004', 1,383 built. Customer series production is usually dated to 2003 only - see discrepancies."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-press-kit-m3-csl-2003",
+    "note": "2 doors / 4 seats; CSL stands for 'Coupé, Sport and Lightweight'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-press-kit-m3-csl-2003",
+      "note": "Straight six, 4 valves per cylinder"
+    },
+    "displacementL": {
+      "value": 3.2,
+      "sourceId": "bmw-press-kit-m3-csl-2003",
+      "note": "3,246 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "bmw-press-kit-m3-csl-2003",
+      "note": "'normal-aspiration power unit'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-press-kit-m3-csl-2003",
+    "note": "RON 98"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-press-kit-m3-csl-2003",
+    "note": "The press kit does not spell out the drive layout; its spec table gives a single final drive (3.62:1) with M differential lock. The CSL is a version of the E46 M3, which BMW's US spec sheet describes as 'Front engine/rear drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "bmw-press-kit-m3-csl-2003",
+    "note": "'Exclusively' the six-speed Sequential M Gearbox with Drivelogic (SMG II); no conventional manual was offered."
+  },
+  "powerHp": {
+    "value": 355,
+    "sourceId": "bmw-press-kit-m3-csl-2003",
+    "note": "265 kW / 360 PS at 7,900 rpm (BMW's English text prints '360 bhp'); 360 PS x 0.98632 = 355 hp."
+  },
+  "weightLb": {
+    "value": 3053,
+    "sourceId": "bmw-press-kit-m3-csl-2003",
+    "note": "1,385 kg DIN x 2.20462 = 3,053 lb (BMW's own rounding prints 3,054 lb). Only one configuration. EU weight including 75 kg for driver and luggage is 1,460 kg."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2003,
+    "powerStandard": "DIN PS",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "bmw-press-kit-m3-csl-2003",
+      "type": "manufacturer",
+      "publisher": "BMW Group PressClub",
+      "title": "The New BMW M3 CSL (press kit, 3/2003)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0022168EN_US/41493",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bmw-classic-m3-csl-e46",
+      "type": "manufacturer",
+      "publisher": "BMW Group Classic",
+      "title": "BMW M3 CSL (E46)",
+      "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-1005-1.bmw-m3-csl-e46.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bmwblog-m3-csl-2011",
+      "type": "publication",
+      "publisher": "BMWBLOG",
+      "title": "BMW E46 M3 CSL - The Best Performance Car BMW Has Ever Built?",
+      "url": "https://www.bmwblog.com/2011/05/30/bmw-m3-e46-csl-the-best-performance-car-bmw-has-ever-built/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,385 kg",
+          "sourceId": "bmw-press-kit-m3-csl-2003"
+        },
+        {
+          "value": "1,460 kg",
+          "sourceId": "bmw-classic-m3-csl-e46"
+        }
+      ],
+      "reason": "DIN vs EU weight. 1,460 kg is the EU figure (DIN plus 75 kg for driver and luggage); 1,385 kg is DIN. The press kit's spec table labels 1,385 kg as 'EU' with that footnote, but its text and its 'power-to-weight ratio to DIN' of 5.2 kg/kW (1,385 / 265) show 1,385 kg is the DIN figure, and 1,385 + 75 = 1,460.",
+      "resolution": "Used 1,385 kg DIN (3,053 lb), per the guide's DIN rule."
+    },
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "09/2002 - 01/2004",
+          "sourceId": "bmw-classic-m3-csl-e46"
+        },
+        {
+          "value": "June - December 2003",
+          "sourceId": "bmwblog-m3-csl-2011"
+        }
+      ],
+      "reason": "BMW Group Classic's range appears to include pre-series cars; BMWBLOG counts customer series production only (and gives 1,358 units against BMW's 1,383).",
+      "resolution": "Used the manufacturer's dates (2002-2004), flagged for review."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Production years: BMW Group Classic says 09/2002 - 01/2004, but series production for customers is widely given as 2003 only; decide whether the clue should read 2002-2004 or 2003-2004/2003. Drivetrain (RWD) is not stated in words by any page opened for this car; it is taken from the press kit's single final drive and the standard E46 M3's 'rear drive' layout.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

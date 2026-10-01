@@ -1,0 +1,204 @@
+{
+  "id": "porsche-911-gt3-rs-991-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.2",
+  "variant": "GT3 RS",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 RS (991.2)",
+  "aliases": [
+    "991.2 GT3 RS",
+    "GT3 RS 991.2",
+    "991 GT3 RS",
+    "Porsche GT3 RS",
+    "GT3RS",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2019
+    },
+    "sourceId": "stuttcars-911-gt3-rs-991-2",
+    "note": "Porsche AG: launched in Germany from mid-April 2018. 991-generation production ended December 2019."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2019-911-gt3-rs"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-press-2019-911-gt3-rs"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "pcna-tech-specs-2019-911-gt3-rs",
+      "note": "3,996 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-press-2019-911-gt3-rs"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-tech-specs-2019-911-gt3-rs",
+    "note": "Supreme unleaded (93 US)"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-tech-specs-2019-911-gt3-rs"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-tech-specs-2019-911-gt3-rs",
+    "note": "DCT is Porsche PDK; no manual was offered"
+  },
+  "powerHp": {
+    "value": 520,
+    "sourceId": "pcna-tech-specs-2019-911-gt3-rs"
+  },
+  "weightLb": {
+    "value": 3153,
+    "sourceId": "pcna-tech-specs-2019-911-gt3-rs",
+    "note": "PDK. Porsche's US technical data lists 3,153 lb as the curb weight, but its press release says this figure applies with the optional Weissach Package and magnesium wheels; no standard-configuration figure was found (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "pcna-tech-specs-2019-911-gt3-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Technical Data 2019 911 GT3 RS",
+      "url": "https://newsroom.porsche.com/dam/jcr:e00c2789-42c7-4dab-a818-a732003194b0/2019_911_GT3_RS_Technical_Specifications.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "pcna-press-2019-911-gt3-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (press release via PR Newswire)",
+      "title": "Born from racing: the new 2019 Porsche 911 GT3 RS",
+      "url": "https://www.prnewswire.com/news-releases/born-from-racing-the-new-2019-porsche-911-gt3-rs-300601556.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-ag-press-2018-911-gt3-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (Porsche Newsroom)",
+      "title": "A clear focus on motorsport: the new Porsche 911 GT3 RS",
+      "url": "https://newsroom.porsche.com/en/products/porsche-911-gt3-rs-world-premiere-motorsport-naturally-aspired-engine-geneva-motor-show-weissach-aerodynamics-interior-chassis-technology-clubsport-14896.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kbb-2019-911-gt3-rs-weissach",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Porsche 911 GT3 RS Weissach Makes Global Debut",
+      "url": "https://www.kbb.com/car-news/2019-porsche-911-gt3-rs-weissach-makes-global-debut/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "road-and-track-2019-911-gt3-rs",
+      "type": "publication",
+      "publisher": "Road & Track (syndicated on Yahoo Autos)",
+      "title": "2019 Porsche 911 GT3 RS: First Look",
+      "url": "https://autos.yahoo.com/2019-porsche-911-gt3-rs-230100884.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-2019-911-gt3-rs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2019 Porsche 911 GT3 RS Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2019/gt3-rs/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-911-gt3-rs-991-2",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Porsche 911 GT3 RS (991.2, 2018-2020) review",
+      "url": "https://www.evo.co.uk/porsche/911-gt3-rs/21167/new-2018-porsche-911-gt3-rs-review-the-best-just-got-even-better",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "stuttcars-911-gt3-rs-991-2",
+      "type": "database",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 GT3 RS (991.2) (2018 - 2019)",
+      "url": "https://www.stuttcars.com/porsche-911-gt3-rs-9912-2018/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-ag-last-991",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (Porsche Newsroom)",
+      "title": "Last Porsche 911 of the 991 generation comes off the production line",
+      "url": "https://newsroom.porsche.com/en/2019/products/porsche-last-911-generation-991-19601.html",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3153,
+          "sourceId": "pcna-tech-specs-2019-911-gt3-rs"
+        },
+        {
+          "value": "3,153 lb only with Weissach Package and magnesium wheels",
+          "sourceId": "pcna-press-2019-911-gt3-rs"
+        },
+        {
+          "value": "1,430 kg (3,153 lb) in lightest configuration with Weissach package",
+          "sourceId": "porsche-ag-press-2018-911-gt3-rs"
+        },
+        {
+          "value": "3,153 lb with Weissach Package, magnesium wheels and carbon-ceramic brakes",
+          "sourceId": "road-and-track-2019-911-gt3-rs"
+        },
+        {
+          "value": "about 3,191 lb standard (package and magnesium wheels said to remove about 38 lb)",
+          "sourceId": "kbb-2019-911-gt3-rs-weissach"
+        }
+      ],
+      "reason": "Option content. The PCNA technical data sheet prints 3,153 lb as \"Curb weight\" with no qualifier, while the PCNA and Porsche AG press releases say that figure is the lightest configuration with the optional Weissach Package and magnesium wheels. Porsche does not state the weight of the standard car in any source opened; Kelley Blue Book's saving of about 38 lb implies roughly 3,191 lb."
+    },
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "2018-2019",
+          "sourceId": "stuttcars-911-gt3-rs-991-2"
+        },
+        {
+          "value": "2018-2020",
+          "sourceId": "evo-911-gt3-rs-991-2"
+        },
+        {
+          "value": "991 generation production ended December 2019",
+          "sourceId": "porsche-ag-last-991"
+        }
+      ],
+      "reason": "Evo dates the car 2018-2020 (UK sale period); Stuttcars gives 2018-2019.",
+      "resolution": "Use 2018-2019: Porsche AG states the last 991-generation 911 left the production line in December 2019, so none were built in 2020."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight: 3,153 lb is the only curb weight Porsche publishes for the US car, but Porsche's own press releases tie it to the optional Weissach Package plus magnesium wheels. The standard-configuration curb weight (probably about 38 lb more) needs a manufacturer source.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": true
+}

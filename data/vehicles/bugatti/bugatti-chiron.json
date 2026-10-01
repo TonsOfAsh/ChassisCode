@@ -1,0 +1,127 @@
+{
+  "id": "bugatti-chiron",
+  "manufacturer": "Bugatti",
+  "model": "Chiron",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Bugatti Chiron",
+  "aliases": [
+    "Bugatti Chiron base",
+    "W16",
+    "8.0 W16",
+    "DSG"
+  ],
+  "country": "France",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2024
+    },
+    "sourceId": "bugatti-chiron-end",
+    "note": "Years for the whole Chiron line (500 cars including Sport, Pur Sport, Super Sport and other derivatives): hand-built in Molsheim since 2016, the 500th and last car ('L'Ultime', a Super Sport) presented May 2024. When the last base Chiron was built was not found."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bugatti-geneva-2016",
+    "note": "Two-seat fixed-roof super sports car; the base Chiron had no open version"
+  },
+  "engine": {
+    "configuration": {
+      "value": "W16",
+      "sourceId": "bugatti-geneva-2016"
+    },
+    "displacementL": {
+      "value": 8.0,
+      "sourceId": "bugatti-geneva-2016",
+      "note": "'Eight-litre W16'; cc figure not stated in the release"
+    },
+    "aspiration": {
+      "value": "Quad Turbocharged",
+      "sourceId": "bugatti-geneva-2016",
+      "note": "Four turbochargers with two-stage (sequential) operation"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bugatti-geneva-2016",
+    "note": "Petrol; duplex fuel injection with 32 injectors"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "bugatti-geneva-2016",
+    "note": "Permanent four-wheel drive"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "bugatti-geneva-2016",
+    "note": "Seven-speed dual-clutch gearbox"
+  },
+  "powerHp": {
+    "value": 1479,
+    "sourceId": "motor1-chiron",
+    "note": "1,479 hp as printed in Motor1's US spec box. Bugatti's own rating is 1,500 PS (written '1,500 HP' in its releases); 1,500 x 0.98632 = 1,479 hp. No separate SAE rating for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 4400,
+    "sourceId": "motor1-chiron",
+    "note": "4,400 lb from Motor1's US spec box (a rounded figure; type of weight not stated, treated as curb). Bugatti's Geneva 2016 release gives no weight. Single configuration."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "DIN PS",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "bugatti-geneva-2016",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "Geneva International Motor Show 2016: Bugatti Chiron",
+      "url": "https://newsroom.bugatti.com/en/press-releases/geneva-international-motor-show-2016",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bugatti-chiron-end",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "'L'Ultime': celebrating the end of the incomparable Chiron era",
+      "url": "https://newsroom.bugatti.com/en/press-releases/celebrating-the-end-of-the-incomparable-chiron-era",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "motor1-chiron",
+      "type": "publication",
+      "publisher": "Motor1.com",
+      "title": "2018 Bugatti Chiron First Drive: Record Wrecker",
+      "url": "https://www.motor1.com/reviews/140445/2018-bugatti-chiron-first-drive/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "1,500 HP (PS)",
+          "sourceId": "bugatti-geneva-2016"
+        },
+        {
+          "value": 1479,
+          "sourceId": "motor1-chiron"
+        }
+      ],
+      "reason": "Units: Bugatti's 1,500 is metric horsepower (PS); 1,479 is the same output in hp.",
+      "resolution": "Stored 1,479 hp per the guide's PS conversion, which is also the figure US publications print."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

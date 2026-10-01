@@ -1,0 +1,203 @@
+{
+  "id": "lexus-lfa",
+  "manufacturer": "Lexus",
+  "model": "LFA",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Lexus LFA",
+  "aliases": [
+    "LF-A",
+    "1LR-GUE",
+    "ASG",
+    "LFA Nurburgring Package",
+    "Lexus supercar"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2012
+    },
+    "sourceId": "toyota-lfa-production-end",
+    "note": "Built at the LFA Works from December 2010 to 14 December 2012; 500 units"
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lexus-us-lfa-debut",
+    "note": "Two-seat, fixed-roof car; Lexus calls it a 'two-seat supercar'. Edmunds lists it as a two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "lexus-us-lfa-price"
+    },
+    "displacementL": {
+      "value": 4.8,
+      "sourceId": "lexus-us-lfa-price",
+      "note": "4,805 cc per Toyota's specification table"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lexus-us-lfa-price",
+      "note": "No forced induction; the words 'naturally aspirated' do not appear in the releases opened"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-lfa-debut",
+    "note": "'V10 gasoline engine DOHC'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lexus-us-lfa-debut",
+    "note": "Front-mid engine, rear transaxle, rear-wheel drive"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "lexus-us-lfa-price",
+    "note": "Six-speed Automated Sequential Gearbox (ASG), single clutch"
+  },
+  "powerHp": {
+    "value": 552,
+    "sourceId": "lexus-us-lfa-price",
+    "note": "US rating: 552 hp at 8,700 rpm (global figure is 412 kW / 560 PS). The optional Nurburgring Package (50 of the 500 cars) raised output by 10 hp to 562 hp; it is an option package, not a separate record."
+  },
+  "weightLb": {
+    "value": 3263,
+    "sourceId": "toyota-lfa-debut",
+    "note": "1,480 kg 'vehicle weight' from Toyota's specification table (labelled European-market version), converted at 2.20462. The US-market Edmunds listing gives the identical 3,263 lb curb weight. No US manufacturer spec sheet with a curb weight was found. Single configuration (one transmission, one body)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2012,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "lexus-us-lfa-price",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "Lexus Announces Price of All-New LFA Supercar",
+      "url": "https://pressroom.lexus.com/lexus-announces-price-of-all-new-lfa-supercar/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "lexus-us-lfa-debut",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "Lexus LFA Supercar to Make North American Debut at 2009 SEMA and Los Angeles International Auto Shows",
+      "url": "https://pressroom.lexus.com/lexus-lfa-supercar-to-make-north-american-debut-at-2009-sema-and-los-angeles-international-auto-shows/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "lexus-us-lfa-nurburgring",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "Lexus Introduces 2012 LFA Nurburgring Package",
+      "url": "https://pressroom.lexus.com/lexus-introduces-2012-lfa-nurburgring-package/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "toyota-lfa-debut",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Corporation Global Newsroom",
+      "title": "Lexus Debuts LFA",
+      "url": "https://global.toyota/en/detail/308263",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "toyota-lfa-production-end",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Corporation Global Newsroom",
+      "title": "Lexus Completes 'LFA' 500-unit Production Run",
+      "url": "https://global.toyota/en/detail/95770",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "lexus-eu-lfa-timeline",
+      "type": "manufacturer",
+      "publisher": "Lexus Europe Newsroom",
+      "title": "Lexus LFA timeline: redefining the Japanese supercar",
+      "url": "https://newsroom.lexus.eu/lexus-lfa-timeline-redefining-the-japanese-supercar/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-lfa-2012",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2012 Lexus LFA Specs & Features",
+      "url": "https://www.edmunds.com/lexus/lfa/2012/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "cars-com-lfa-2012",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2012 Lexus LFA Specs, Dimensions & Colors",
+      "url": "https://www.cars.com/research/lexus-lfa-2012/specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-lfa",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lexus LFA review",
+      "url": "https://www.evo.co.uk/lexus/lfa",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3263,
+          "sourceId": "toyota-lfa-debut"
+        },
+        {
+          "value": 3263,
+          "sourceId": "edmunds-lfa-2012"
+        },
+        {
+          "value": 3483,
+          "sourceId": "cars-com-lfa-2012"
+        },
+        {
+          "value": 3558,
+          "sourceId": "evo-lfa"
+        }
+      ],
+      "reason": "Toyota's official figure is 1,480 kg (3,263 lb), which Edmunds repeats for the US car. Cars.com lists a 'base curb weight' of 3,483 lb and Evo a kerb weight of 1,614 kg (3,558 lb); neither explains the basis, and they are probably weights with full fluids/options or as-measured rather than the manufacturer's stated figure.",
+      "resolution": "Used the manufacturer's 1,480 kg (3,263 lb), which is also the figure in the US-market Edmunds listing."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 552,
+          "sourceId": "lexus-us-lfa-price"
+        },
+        {
+          "value": 553,
+          "sourceId": "lexus-eu-lfa-timeline"
+        },
+        {
+          "value": 562,
+          "sourceId": "lexus-us-lfa-nurburgring"
+        }
+      ],
+      "reason": "552 hp is the US rating; Lexus Europe quotes 553 bhp, a different rounding of the same 412 kW / 560 PS. 562 hp applies only to cars with the optional Nurburgring Package.",
+      "resolution": "Used the US-market rating of 552 hp for the standard car."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

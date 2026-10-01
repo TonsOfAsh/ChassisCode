@@ -1,0 +1,184 @@
+{
+  "id": "porsche-918-spyder",
+  "manufacturer": "Porsche",
+  "model": "918 Spyder",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Porsche 918 Spyder",
+  "aliases": [
+    "918",
+    "Porsche 918",
+    "918 Hybrid",
+    "Weissach Package",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2015
+    },
+    "sourceId": "porsche-press-2015-manufactory",
+    "note": "Series production started September 18, 2013 in Zuffenhausen; Porsche Newsroom reports the last of 918 cars came off the line on June 19, 2015 after 21 months (https://newsroom.porsche.com/en/products/porsche-918-spyder-manufaktory-end-of-production-11123.html)."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "autoblog-porsche-release-2013",
+    "note": "Porsche describes it as a 'two-seat Spyder' with a 'two-piece Targa roof': two removable CFRP roof panels that stow in the front luggage compartment. Classified as Roadster (two-seat open car) rather than Targa or Convertible."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "autoblog-porsche-release-2013",
+      "note": "Combustion engine only; two electric motors (front and rear axle) complete the hybrid system."
+    },
+    "displacementL": {
+      "value": 4.6,
+      "sourceId": "autoblog-porsche-release-2013",
+      "note": "4,593 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "autoblog-porsche-release-2013",
+      "note": "Porsche: 'the highest specific power of any naturally aspirated Porsche engine'."
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "porsche-press-2015-manufactory"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "autoblog-porsche-release-2013",
+    "note": "V8 and rear electric motor drive the rear axle through the gearbox; a separate electric motor drives the front axle."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "autoblog-porsche-release-2013",
+    "note": "DCT is Porsche PDK. The front electric motor has its own single-ratio gear drive."
+  },
+  "powerHp": {
+    "value": 887,
+    "sourceId": "porsche-newsroom-918-press-kit",
+    "note": "Combined system output, published by Porsche as 652 kW (887 hp); V8 alone 608 hp. 887 is numerically the metric-hp (PS) figure for 652 kW and is the figure Porsche used in the US."
+  },
+  "weightLb": {
+    "value": 3691,
+    "sourceId": "edmunds-918-2015",
+    "note": "Standard car without the optional Weissach package (3,602 lb with it). Not taken from a manufacturer document - see discrepancies and reviewNotes."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "porsche-press-2015-manufactory",
+      "type": "manufacturer",
+      "publisher": "Porsche AG",
+      "title": "The Porsche 918 Spyder - High-tech craftsmanship (press release, January 5, 2015)",
+      "url": "https://newsroom.porsche.com/dam/jcr:9db31841-5e62-4d78-8a54-aa4d024a983e/The%20Porsche%20918%20Spyder%20-%20High-tech%20craftsmanship.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-newsroom-918-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche Newsroom",
+      "title": "Porsche 918 Spyder (Porsche Museum press kit)",
+      "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-918-Spyder.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "autoblog-porsche-release-2013",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "Porsche (finally) unleashes full, official details on 918 Spyder (reproduces Porsche AG IAA 2013 press release and specifications)",
+      "url": "https://www.autoblog.com/features/porsche-official-details-918-spyder-frankfurt",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-918-2015",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2015 Porsche 918 Spyder review",
+      "url": "https://www.edmunds.com/porsche/918-spyder/2015/review/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "dupont-registry-918",
+      "type": "publication",
+      "publisher": "duPont Registry",
+      "title": "Porsche 918 Spyder Specs, Photos, & Review",
+      "url": "https://news.dupontregistry.com/blogs/specs/porsche-918-spyder-price-specs-photos-review",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "motorauthority-918-2012",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Porsche Announces Revised Specs For 918 Spyder",
+      "url": "https://www.motorauthority.com/news/1084210_porsche-announces-revised-specs-for-918-spyder",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-918-end",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Porsche 918 Spyder is no more - last car rolls off production line",
+      "url": "https://www.evo.co.uk/porsche/918/16179/porsche-918-spyder-is-no-more-last-car-rolls-off-production-line",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3691,
+          "sourceId": "edmunds-918-2015"
+        },
+        {
+          "value": 3691,
+          "sourceId": "dupont-registry-918"
+        },
+        {
+          "value": 3715,
+          "sourceId": "motorauthority-918-2012"
+        },
+        {
+          "value": "1,634 kg DIN (3,602 lb)",
+          "sourceId": "autoblog-porsche-release-2013"
+        }
+      ],
+      "reason": "3,715 lb (3,616 lb with Weissach package) is from Porsche's pre-production specification announcement. 3,691 lb is the production curb weight quoted for the standard car, 3,602 lb with the Weissach package. Porsche AG's IAA 2013 specification lists a DIN unladen weight of 1,634 kg (= 3,602 lb) without naming the configuration; it matches the Weissach-package figure.",
+      "resolution": "Used 3,691 lb: production figure for the standard car (the Weissach package is an option and not a separate record)."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 887,
+          "sourceId": "porsche-newsroom-918-press-kit"
+        },
+        {
+          "value": "875 bhp",
+          "sourceId": "evo-918-end"
+        }
+      ],
+      "reason": "Unit conversion. 652 kW is 887 PS (metric hp) or about 874-875 mechanical bhp. Porsche published 887 hp, including in the US.",
+      "resolution": "Used 887 hp, the manufacturer's published US figure."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Curb weight (3,691 lb) comes from Edmunds and duPont Registry, not a Porsche document: no Porsche Cars North America spec sheet could be opened. The only manufacturer weight found (1,634 kg DIN) does not say whether it includes the Weissach package. Confirm against a PCNA MY2015 spec sheet. Also note the US '887 hp' is numerically the PS figure (652 kW), recorded here as the US published rating.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

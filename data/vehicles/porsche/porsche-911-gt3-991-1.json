@@ -1,0 +1,163 @@
+{
+  "id": "porsche-911-gt3-991-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.1",
+  "variant": "GT3",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 (991.1)",
+  "aliases": [
+    "991.1 GT3",
+    "GT3 991.1",
+    "991 GT3",
+    "Porsche GT3",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2016
+    },
+    "sourceId": "stuttcars-911-gt3-991-1",
+    "note": "Stuttcars: premiered March 2013, market launch August 2013, sold as model years 2014-2016. The end year is the last model year; the calendar year production ended is not confirmed (see discrepancies)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2014-911-gt3"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-newsroom-gt3-20-years"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "porsche-newsroom-gt3-20-years",
+      "note": "Stated as \"3.8 liter\" by Porsche"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "porsche-newsroom-gt3-20-years"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2014-911-gt3",
+    "note": "Premium unleaded"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cars-com-2014-911-gt3"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "porsche-newsroom-gt3-20-years",
+    "note": "DCT is Porsche PDK; no manual was offered"
+  },
+  "powerHp": {
+    "value": 475,
+    "sourceId": "porsche-newsroom-gt3-20-years"
+  },
+  "weightLb": {
+    "value": 3153,
+    "sourceId": "porsche-newsroom-gt3-20-years",
+    "note": "PDK, the only transmission offered"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "porsche-newsroom-gt3-20-years",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Porsche celebrates 20 years of the 911 GT3",
+      "url": "https://newsroom.porsche.com/en_US/products/porsche-celebrates-20-years-911-gt3-18389.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-2014-911-gt3",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2014 Porsche 911 GT3 Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2014/gt3/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "cars-com-2014-911-gt3",
+      "type": "publication",
+      "publisher": "Cars.com",
+      "title": "2014 Porsche 911 GT3: First Look",
+      "url": "https://www.cars.com/articles/2014-porsche-911-gt3-first-look-1420663079789/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "motor-authority-2014-911-gt3",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2014 Porsche 911 GT3 unveiled at 2013 Geneva auto show",
+      "url": "https://www.motorauthority.com/news/1082688_2014-porsche-911-gt3-unveiled-geneva-motor-show",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "stuttcars-911-gt3-991-1",
+      "type": "database",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 GT3 (991) (2014 - 2016)",
+      "url": "https://www.stuttcars.com/porsche-911-gt3-991-2014-2016/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "renndriver-991-gt3-guide",
+      "type": "publication",
+      "publisher": "RennDriver",
+      "title": "Porsche 991 GT3: 991.1, 991.2, Touring, Specs, and Buying Guide",
+      "url": "https://renndriver.com/guides/porsche-991-gt3/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "2013-2016 (market launch August 2013, model years 2014-2016)",
+          "sourceId": "stuttcars-911-gt3-991-1"
+        },
+        {
+          "value": "2013-2015",
+          "sourceId": "renndriver-991-gt3-guide"
+        }
+      ],
+      "reason": "Stuttcars gives model years (2014-2016) and a 2013 market launch; RennDriver gives \"2013 to 2015\" without saying whether these are calendar or model years. No manufacturer source for the last calendar year of production was found."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3153,
+          "sourceId": "porsche-newsroom-gt3-20-years"
+        },
+        {
+          "value": 3152,
+          "sourceId": "motor-authority-2014-911-gt3"
+        }
+      ],
+      "reason": "Rounding of the same 1,430 kg figure (1,430 kg = 3,152.6 lb).",
+      "resolution": "Use 3,153 lb, the figure Porsche Cars North America publishes."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Production end year is uncertain: 2016 is the last model year (Stuttcars); another source says 2015. Need a manufacturer or major-publication statement of the last calendar year the 991.1 GT3 was built. Power and weight are manufacturer US figures and are not in doubt.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,103 @@
+{
+  "id": "chevrolet-corvette-z06-c8",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C8",
+  "variant": "Z06",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Z06 (C8)",
+  "aliases": ["C8 Z06", "Z06 C8", "Corvette Z06", "LT6", "Z07", "Gemini V8", "Flat-plane crank"],
+  "country": "United States",
+  "production": {
+    "value": { "startYear": 2022, "endYear": null },
+    "sourceId": "chevrolet-z06-release-2021",
+    "note": "Chevrolet's October 2021 announcement: production begins in summer 2022 at Bowling Green Assembly (an announced plan; The Drive published a drive of a 2023 Z06 on 3 October 2022). Still in production: chevrolet.com lists a 2027 Corvette Z06 (source chevrolet-z06-site)."
+  },
+  "body": {
+    "value": ["Coupe", "Convertible"],
+    "sourceId": "chevrolet-z06-release-2021",
+    "note": "Coupe has a removable roof panel; the convertible is a retractable hardtop sold under the same Z06 name."
+  },
+  "engine": {
+    "configuration": { "value": "V8", "sourceId": "chevrolet-z06-release-2021" },
+    "displacementL": { "value": 5.5, "sourceId": "chevrolet-z06-release-2021", "note": "5.5L LT6, flat-plane crankshaft" },
+    "aspiration": { "value": "Naturally Aspirated", "sourceId": "chevrolet-z06-release-2021" }
+  },
+  "fuel": { "value": "Gasoline", "sourceId": "chevrolet-z06-release-2021" },
+  "drivetrain": { "value": "RWD", "sourceId": "gmauthority-z06-specs-2023" },
+  "transmission": { "value": ["8-speed DCT"], "sourceId": "chevrolet-z06-release-2021" },
+  "powerHp": { "value": 670, "sourceId": "chevrolet-z06-release-2021", "note": "670 hp at 8,400 rpm; unchanged on chevrolet.com for the 2027 model" },
+  "weightLb": {
+    "value": 3500,
+    "sourceId": "gmauthority-z06-specs-2023",
+    "note": "DRY weight, base coupe (3,500 lb / 1,588 kg). Chevrolet publishes only dry weights for the Z06: convertible 3,599 lb; coupe with Z07 package and carbon fiber wheels 3,434 lb. chevrolet.com shows the same 3,500 / 3,599 lb dry figures for the 2027 model. No manufacturer curb weight was found."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2023, "powerStandard": "SAE net", "weightType": "dry" },
+  "sources": [
+    {
+      "id": "chevrolet-z06-release-2021",
+      "type": "manufacturer",
+      "publisher": "Chevrolet",
+      "title": "2023 Chevrolet Corvette Z06 Elevates the American Supercar",
+      "url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2021/oct/1026-corvette-z06.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "gmauthority-z06-specs-2023",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2023 Chevrolet Corvette Z06 Specs & Specifications",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/corvette/2023-chevrolet-corvette/2023-chevrolet-corvette-z06/2023-chevrolet-corvette-z06-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "chevrolet-z06-site",
+      "type": "manufacturer",
+      "publisher": "Chevrolet",
+      "title": "2027 Corvette Z06",
+      "url": "https://www.chevrolet.com/performance/corvette/z06",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "thedrive-z06-2022",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2023 Chevy Corvette C8 Z06 First Drive Review: America's World-Beating Supercar",
+      "url": "https://www.thedrive.com/new-cars/2023-chevy-corvette-z06-review-c8-price-specs-driving-impressions-chevrolet",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "corvetteblogger-z06-gvwr-2022",
+      "type": "publication",
+      "publisher": "CorvetteBlogger",
+      "title": "2023 Corvette Z06 Has a Gross Vehicle Weight Rating of 4,021 Pounds",
+      "url": "https://www.corvetteblogger.com/2022/09/13/2023-corvette-z06-has-a-gross-vehicle-weight-rating-of-4021-pounds/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        { "value": 3500, "sourceId": "gmauthority-z06-specs-2023" },
+        { "value": 3434, "sourceId": "chevrolet-z06-release-2021" },
+        { "value": 3434, "sourceId": "thedrive-z06-2022" }
+      ],
+      "reason": "Option package and labelling: 3,434 lb is Chevrolet's dry weight for a coupe with the optional Z07 package and carbon fiber wheels; 3,500 lb is the dry weight of the base coupe. The Drive prints 3,434 lb as 'curb weight', which contradicts Chevrolet's own 'dry weight' label.",
+      "resolution": "Used the base coupe dry weight of 3,500 lb (lightest standard configuration; option packages do not count) and recorded weightType as dry."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        { "value": 3500, "sourceId": "gmauthority-z06-specs-2023" },
+        { "value": 3721, "sourceId": "corvetteblogger-z06-gvwr-2022" }
+      ],
+      "reason": "Dry vs curb: 3,721 lb is CorvetteBlogger's own estimate of coupe curb weight, calculated by subtracting 300 lb from a 4,021 lb figure in an EPA document. It is not a weight published by Chevrolet."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight is a manufacturer DRY weight (3,500 lb base coupe) because Chevrolet publishes no curb weight for the Z06; per the data guide this requires review. A real curb weight will be higher (CorvetteBlogger derives about 3,721 lb for the coupe from EPA data; that discrepancy is left unresolved); a reviewer should look for a manufacturer curb figure or decide whether a publication figure is acceptable. The 2023 dry weight is cited from GM Authority's reprint of GM's spec table (chevrolet.com confirms the same figure for the 2027 model). Production start 2022 rests on Chevrolet's announced plan, not a start-of-production report.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

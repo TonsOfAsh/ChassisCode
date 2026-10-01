@@ -1,0 +1,105 @@
+{
+  "id": "mazda-mx-5-miata-1-6-na",
+  "manufacturer": "Mazda",
+  "model": "MX-5 Miata",
+  "generation": "NA",
+  "variant": "1.6",
+  "subVariant": null,
+  "displayName": "Mazda MX-5 Miata 1.6 (NA)",
+  "aliases": [
+    "Miata",
+    "MX-5",
+    "NA6",
+    "NA Miata",
+    "Eunos Roadster",
+    "B6ZE"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1989,
+      "endYear": 1993
+    },
+    "sourceId": "petrolicious-miata-na",
+    "note": "Years the 1.6 was in the US-market lineup: launched May 1989 as a 1990 model (Mazda), 1.6-litre through model year 1993, 1.8-litre from model year 1994 (Petrolicious). The end year is the last US 1.6 model year; the exact calendar date the last US-market 1.6 was built, and 1.6 production for other markets, were not verified."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "mazda-nao-miata-25",
+    "note": "Mazda describes it as a two-seat roadster with a manual soft top"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mazda-nao-miata-25",
+      "note": "1.6-litre four-cylinder; Petrolicious specifies twin-cam"
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "mazda-nao-miata-25"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "mazda-nao-miata-25",
+      "note": "No forced induction is mentioned by any source; the words 'naturally aspirated' do not appear in the release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mazda-nao-miata-25"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "petrolicious-miata-na",
+    "note": "'front-engine, rear-wheel drive roadster'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "mazda-nao-miata-25",
+    "note": "5-speed manual standard, 4-speed automatic optional"
+  },
+  "powerHp": {
+    "value": 116,
+    "sourceId": "mazda-nao-miata-25",
+    "note": "116 hp and 100 lb-ft, as stated by Mazda North American Operations"
+  },
+  "weightLb": {
+    "value": 2116,
+    "sourceId": "mazda-nao-miata-25",
+    "note": "'2,116 pounds curb weight' per Mazda North American Operations; the release does not name the transmission, assumed to be the standard 5-speed manual"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1990,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "mazda-nao-miata-25",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "Mazda MX-5 Miata Celebrates 25 Years of Exhilaration (press release, 7 February 2014)",
+      "url": "https://www.prnewswire.com/news-releases/mazda-mx-5-miata-celebrates-25-years-of-exhilaration-244191701.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "petrolicious-miata-na",
+      "type": "publication",
+      "publisher": "Petrolicious",
+      "title": "Mazda MX-5 Miata (NA) Buyer's Guide: History, Trims, Specs, and Market",
+      "url": "https://petrolicious.com/blogs/articles/mazda-mx-5-miata-na-buyers-guide",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

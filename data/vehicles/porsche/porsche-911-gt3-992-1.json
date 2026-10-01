@@ -1,0 +1,109 @@
+{
+  "id": "porsche-911-gt3-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "GT3",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 (992.1)",
+  "aliases": [
+    "992.1 GT3",
+    "GT3 992.1",
+    "992 GT3",
+    "Porsche GT3",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "evo-used-911-gt3-992-1",
+    "note": "Evo: on sale February 2021, first deliveries May 2021; dated 2021-2024. US model years 2022-2024."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2022-911-gt3"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-press-kit-2022-911-gt3"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "pcna-press-kit-2022-911-gt3",
+      "note": "Stated as \"4.0-liter\" by Porsche"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-press-kit-2022-911-gt3"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2022-911-gt3",
+    "note": "Premium unleaded"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-press-kit-2022-911-gt3"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-press-kit-2022-911-gt3",
+    "note": "DCT is Porsche PDK"
+  },
+  "powerHp": {
+    "value": 502,
+    "sourceId": "pcna-press-kit-2022-911-gt3"
+  },
+  "weightLb": {
+    "value": 3126,
+    "sourceId": "pcna-press-kit-2022-911-gt3",
+    "note": "Six-speed manual; PDK is 3,164 lb"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "pcna-press-kit-2022-911-gt3",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "The 2022 Porsche 911 GT3 Press kit",
+      "url": "https://newsroom.porsche.com/dam/jcr:f67ebd45-3aa7-4bf9-9c6a-78d336603b7e/2022%20Porsche%20911%20GT3%20Press%20Kit.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-used-911-gt3-992-1",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Used Porsche 911 GT3 (992.1, 2021-2024): review, history, specs and buying guide",
+      "url": "https://www.evo.co.uk/porsche/911-gt3/203766/used-porsche-911-gt3-9921-2021-2024-review-history-specs-and-buying-guide",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-2022-911-gt3",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2022 Porsche 911 GT3 Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2022/gt3/features-specs/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

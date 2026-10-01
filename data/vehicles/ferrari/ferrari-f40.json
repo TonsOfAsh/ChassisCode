@@ -1,0 +1,167 @@
+{
+  "id": "ferrari-f40",
+  "manufacturer": "Ferrari",
+  "model": "F40",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari F40",
+  "aliases": [
+    "F 40",
+    "Tipo F120",
+    "F120A"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1987,
+      "endYear": 1992
+    },
+    "sourceId": "ferrari-f40",
+    "note": "Announced mid-1987; 'production continued through to 1992', 1,311 built. 213 US-specification cars were built (Hagerty, Silodrome), described as 1990 models onward."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-f40",
+    "note": "Ferrari calls it a berlinetta"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-f40",
+      "note": "90-degree V8, mounted longitudinally amidships"
+    },
+    "displacementL": {
+      "value": 2.9,
+      "sourceId": "ferrari-f40",
+      "note": "2,936 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "ferrari-f40",
+      "note": "Twin IHI turbochargers"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-f40",
+    "note": "Fuel type is not stated explicitly on the page"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ferrari-f40",
+    "note": "Mid-mounted engine in unit with a rear-mounted gearbox and differential; the page does not use the words 'rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "ferrari-f40",
+    "note": "Five-speed all-synchromesh gearbox; a non-synchromesh 'sports' gearbox was optional (still a 5-speed manual)"
+  },
+  "powerHp": {
+    "value": 471,
+    "sourceId": "ferrari-f40",
+    "note": "Ferrari's site states a 'claimed power output of 478bhp at 7000rpm'. That 478 is Ferrari's metric figure (478 cv/PS = 351.5 kW, as shown in the automobile-catalog listing), so it is converted: 478 PS x 0.98632 = 471 hp. The English ferrari.com text opened gives no kW or cv figure. European specification; see reviewNotes for the US car."
+  },
+  "weightLb": {
+    "value": 2425,
+    "sourceId": "evo-f40",
+    "note": "DRY weight: 1,100 kg (dry) per Evo's spec table, converted at 2.20462. No curb weight is given by Ferrari's page (the text that could be opened states no weight at all) or by Evo. European specification."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 1987,
+    "powerStandard": "DIN PS",
+    "weightType": "dry"
+  },
+  "sources": [
+    {
+      "id": "ferrari-f40",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "Ferrari F40 (1987)",
+      "url": "https://www.ferrari.com/en-EN/auto/f40",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "evo-f40",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari F40 review",
+      "url": "https://www.evo.co.uk/ferrari/f40",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "automobile-catalog-f40",
+      "type": "database",
+      "publisher": "automobile-catalog.com",
+      "title": "1987 Ferrari F40 Specs Review (351.5 kW / 478 PS / 471 hp) (since mid-year 1987 for Europe)",
+      "url": "https://www.automobile-catalog.com/car/1987/54665/ferrari_f40.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "hagerty-f40",
+      "type": "publication",
+      "publisher": "Hagerty Media",
+      "title": "The fever dream of a Ferrari F40",
+      "url": "https://www.hagerty.com/media/archived/fever-dream-of-a-ferrari-f40/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "silodrome-f40-us",
+      "type": "publication",
+      "publisher": "Silodrome",
+      "title": "1990 US-Spec Ferrari F40",
+      "url": "https://silodrome.com/us-spec-ferrari-f40/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "478 bhp",
+          "sourceId": "ferrari-f40"
+        },
+        {
+          "value": "351.5 kW / 478 PS / 471 hp",
+          "sourceId": "automobile-catalog-f40"
+        },
+        {
+          "value": "515 hp (US-spec)",
+          "sourceId": "hagerty-f40"
+        },
+        {
+          "value": "478 bhp (US-spec)",
+          "sourceId": "silodrome-f40-us"
+        }
+      ],
+      "reason": "Units and market. Ferrari's 478 is a metric horsepower (cv/PS) figure equal to 351.5 kW, which English-language pages including ferrari.com print as 'bhp'. Separately, Hagerty says Ferrari retuned US-specification cars to 515 hp to offset added weight, while Silodrome quotes 478 bhp for a US-spec car; neither cites a Ferrari document.",
+      "resolution": "Recorded the European-specification manufacturer figure converted from PS (471 hp). The US-spec rating is unverified, so the US market was not used; flagged for review."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2425,
+          "sourceId": "evo-f40"
+        },
+        {
+          "value": 3018,
+          "sourceId": "silodrome-f40-us"
+        }
+      ],
+      "reason": "Dry vs wet and market: 1,100 kg (2,425 lb) is the European dry weight; Silodrome lists 1,369 kg (3,018 lb) for a US-spec car without saying whether it is a curb or measured weight (US cars also carried extra equipment).",
+      "resolution": "Used the dry weight because it is the only figure whose basis is stated and it matches the EU-spec power; weightType is 'dry' and the record is flagged for review."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "1) Weight is a DRY weight (1,100 kg): no manufacturer curb weight was found, so per the guide the dry figure is used and the record flagged. A curb weight would be higher. 2) Market: the F40 was sold in the US, so the guide would want US figures, but no trustworthy US-spec manufacturer figures could be opened (Car and Driver, Road & Track and MotorTrend were not reachable; Hagerty claims 515 hp for US cars and Silodrome lists 478 bhp and 3,018 lb, neither attributed to Ferrari). EU spec was used instead. A period US road-test spec panel should be checked. 3) The ferrari.com page could only be read as article text: it states '478bhp' but the kW/cv figures and any weight in its specification table could not be retrieved, and the automobile-catalog page was cited from its search-result title only (the page itself refused the fetch).",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,143 @@
+{
+  "id": "honda-civic-type-r-ek9",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "EK9",
+  "variant": "Type R",
+  "subVariant": null,
+  "displayName": "Honda Civic Type R (EK9)",
+  "aliases": [
+    "EK9",
+    "EK9 Type R",
+    "Civic Type R EK9",
+    "CTR",
+    "B16B",
+    "First Civic Type R",
+    "JDM Civic Type R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1997,
+      "endYear": 2000
+    },
+    "sourceId": "honda-eu-type-r-25-years",
+    "note": "Honda Europe gives 'EK9 (1997-2000)'. Went on sale in Japan on 22 August 1997 (Honda press release). Sold in Japan only."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "honda-eu-type-r-25-years",
+    "note": "3-door; Honda's 1997 release calls it the 3-door Type R, Honda Europe calls it a hatchback."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-jp-factbook-ek9-1997",
+      "note": "B16B, water-cooled transverse inline-4, DOHC VTEC"
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "honda-jp-factbook-ek9-1997",
+      "note": "1,595 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "honda-jp-release-1997",
+      "note": "Honda describes it as a naturally aspirated engine making 116 PS per litre."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-jp-factbook-ek9-1997",
+    "note": "Unleaded premium gasoline"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "honda-jp-release-1997",
+    "note": "Front-engine, front-wheel drive (FF)"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "honda-jp-factbook-ek9-1997",
+    "note": "5-speed manual only"
+  },
+  "powerHp": {
+    "value": 182,
+    "sourceId": "honda-jp-factbook-ek9-1997",
+    "note": "185 PS at 8,200 rpm (JIS net) x 0.98632 = 182.5, rounded to 182 hp"
+  },
+  "weightLb": {
+    "value": 2359,
+    "sourceId": "honda-jp-factbook-ek9-1997",
+    "note": "1,070 kg x 2.20462. Standard Type R as equipped (power steering, ABS, SRS airbag; no air conditioning). Honda's table also lists 1,050 kg and 1,060 kg for cars ordered with the ABS/airbag delete ('less option') choices, 1,090 kg with air conditioning, and 1,040 kg for the separate race-base car. 1,050 kg would be 2,315 lb."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1997,
+    "powerStandard": "JIS PS",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "honda-jp-release-1997",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Co. (global.honda)",
+      "title": "Civic / Civic Ferio minor change; 3-door Type R newly added (press release, 22 August 1997)",
+      "url": "https://global.honda/jp/news/1997/4970822.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-jp-factbook-ek9-1997",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Co. (honda.co.jp press information)",
+      "title": "CIVIC TYPE R 1997.08 press information - main specifications",
+      "url": "https://www.honda.co.jp/factbook/auto/CIVIC/19970822/cv97-013.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "honda-eu-type-r-25-years",
+      "type": "manufacturer",
+      "publisher": "Honda Motor Europe",
+      "title": "Honda celebrates 25 years of the Civic Type R",
+      "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/410190/honda-celebrates-25-years-of-the-civic-type-r",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "goo-net-ek9-1997",
+      "type": "database",
+      "publisher": "Goo-net catalog",
+      "title": "Honda Civic Type R (August 1997) catalog",
+      "url": "https://www.goo-net.com/catalog/HONDA/CIVIC/2003826/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,070 kg (2,359 lb)",
+          "sourceId": "honda-jp-factbook-ek9-1997"
+        },
+        {
+          "value": "1,050 kg (2,315 lb)",
+          "sourceId": "honda-eu-type-r-25-years"
+        },
+        {
+          "value": "1,070 kg (2,359 lb), catalog listing",
+          "sourceId": "goo-net-ek9-1997"
+        }
+      ],
+      "reason": "Equipment level. Honda's 1997 specification table gives 1,070 kg for the Type R with its standard power steering, ABS and SRS airbag, and marks 1,050 kg (power steering only) and 1,060 kg as 'less option' values for cars ordered with ABS and/or the airbag deleted. Honda Europe's retrospective quotes the lightest figure, 1,050 kg.",
+      "resolution": "Used 1,070 kg, the weight of the standard-equipment car, following the lightest-standard-configuration rule; the 1,050 kg car required delete options. The Goo-net catalog entry for the August 1997 Type R also lists 1,070 kg."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

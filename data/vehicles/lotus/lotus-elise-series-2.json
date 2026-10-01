@@ -1,0 +1,192 @@
+{
+  "id": "lotus-elise-series-2",
+  "manufacturer": "Lotus",
+  "model": "Elise",
+  "generation": "Series 2",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Lotus Elise (Series 2)",
+  "aliases": [
+    "Elise S2",
+    "S2 Elise",
+    "Elise 111R",
+    "Federal Elise",
+    "2ZZ-GE",
+    "Type 111"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2001,
+      "endYear": 2010
+    },
+    "sourceId": "magneto-elise-guide",
+    "note": "Global Series 2 production, all engines. Magneto: the Series 2 'arrived in time for the 2001 model year' and the Series 3 was introduced for the 2011 model year. Rover K-series engines at first; Toyota engines from 2004. Sold in the US from model year 2005, Toyota-engined only. Sources disagree on the exact years, see discrepancies."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "edmunds-elise-2005",
+    "note": "Two-seat mid-engined roadster with a removable soft top; Edmunds lists a 2-door roadster/convertible"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "motorweek-elise-2005",
+      "note": "Toyota 2ZZ-GE in the US-market car. 2001-2004 cars for Europe used the Rover K-series I4 instead."
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "motorweek-elise-2005",
+      "note": "1.8-litre Toyota four-cylinder (US-market 2005 car). Rover K-series cars were also 1.8 litres per PistonHeads."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "motorweek-elise-2005",
+      "note": "US-market 2005 car. No forced induction is mentioned; supercharged S2 models (e.g. Elise SC) came later and are not covered by these figures."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cars-com-elise-2005"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-elise-2005",
+    "note": "Mid-engine, rear-wheel drive"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "motorweek-elise-2005",
+    "note": "Toyota-sourced 6-speed in the US-market car. Rover-engined S2 cars used a 5-speed manual (PistonHeads); not listed because the record describes the US 2005 car."
+  },
+  "powerHp": {
+    "value": 190,
+    "sourceId": "motorweek-elise-2005",
+    "note": "US-market 2005 Elise: 190 hp (at 7,800 rpm per Edmunds and Cars.com). No Lotus press document was found; the figure is the manufacturer rating as printed by MotorWeek. The UK 111R with the same engine is quoted at 189 hp; Rover-engined S2 cars made far less (e.g. 134 hp Sport 135)."
+  },
+  "weightLb": {
+    "value": 1975,
+    "sourceId": "edmunds-elise-2005",
+    "note": "US-market 2005 Elise curb weight as listed by Edmunds and Cars.com (both databases); MotorWeek only says 'under 2,000 pounds'. Single transmission and body, so no lighter standard configuration. UK cars were lighter (PistonHeads: 860 kg for the Toyota-engined 111R, 825 kg for a K-series Sport 135)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "SAE net",
+    "weightType": "curb"
+  },
+  "sources": [
+    {
+      "id": "motorweek-elise-2005",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2005 Lotus Elise (Program #2337)",
+      "url": "https://motorweek.org/road_tests/2005_lotus_elise_program_2337/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "edmunds-elise-2005",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2005 Lotus Elise Specs & Features",
+      "url": "https://www.edmunds.com/lotus/elise/2005/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "cars-com-elise-2005",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2005 Lotus Elise Specs, Dimensions & Colors",
+      "url": "https://www.cars.com/research/lotus-elise-2005/specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "magneto-elise-guide",
+      "type": "publication",
+      "publisher": "Magneto",
+      "title": "1996-2021 Lotus Elise buying guide",
+      "url": "https://www.magnetomagazine.com/articles/1996-2021-lotus-elise-buying-guide-from-magneto/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "pistonheads-elise-s2",
+      "type": "publication",
+      "publisher": "PistonHeads",
+      "title": "Lotus Elise S2: PH used buying guide",
+      "url": "https://www.pistonheads.com/news/ph-buying-guides/lotus-elise-s2--ph-used-buying-guide/42826",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "classic-com-elise-s2",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Lotus Elise - Series 2 market",
+      "url": "https://www.classic.com/m/lotus/elise/series-2/",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "2001-2010",
+          "sourceId": "magneto-elise-guide"
+        },
+        {
+          "value": "2001-2009",
+          "sourceId": "pistonheads-elise-s2"
+        },
+        {
+          "value": "2002-2010",
+          "sourceId": "classic-com-elise-s2"
+        }
+      ],
+      "reason": "Sources draw the Series 2 boundaries differently: model year vs calendar year for the start, and whether the 2010 facelift (sold as the 2011 model year) ends the Series 2 in 2009 or 2010.",
+      "resolution": "Used 2001-2010 from Magneto (S2 from the 2001 model year, Series 3 from the 2011 model year). Not confirmed by a Lotus source; covered by the review flag."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 190,
+          "sourceId": "motorweek-elise-2005"
+        },
+        {
+          "value": 189,
+          "sourceId": "pistonheads-elise-s2"
+        },
+        {
+          "value": 134,
+          "sourceId": "pistonheads-elise-s2"
+        }
+      ],
+      "reason": "190 hp is the US-market 2005 rating; 189 hp is the UK 111R with the same Toyota 2ZZ-GE (PS/bhp rounding); 134 hp is the Rover K-series Sport 135. The Series 2 covered several engines.",
+      "resolution": "Used the US-market 2005 figure per the spec basis."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 1975,
+          "sourceId": "edmunds-elise-2005"
+        },
+        {
+          "value": 1896,
+          "sourceId": "pistonheads-elise-s2"
+        }
+      ],
+      "reason": "1,975 lb is the US-market 2005 car; 860 kg (1,896 lb) is the UK 111R, which lacks US-market equipment.",
+      "resolution": "Used the US-market figure per the spec basis."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "The Series 2 probably needs splitting into several records: it ran from 2001 with Rover K-series engines (5-speed; e.g. the 134 hp Sport 135 per PistonHeads), switched to Toyota engines in 2004 (111R / US Elise, 6-speed) and later included a supercharged SC model (mentioned by Magneto). This record describes only the US-market 2005 Elise (Toyota 2ZZ-GE, 190 hp), while the production years cover the whole Series 2. Also: curb weight relies on databases (Edmunds, Cars.com) because no Lotus document or publication spec panel with an exact US figure could be opened; production years are not confirmed by a Lotus source and the sources disagree (2001/2002 start, 2009/2010 end).",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": true
+}
