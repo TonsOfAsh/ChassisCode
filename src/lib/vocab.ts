@@ -1,5 +1,5 @@
 /**
- * Controlled vocabularies for Cardle vehicle data.
+ * Controlled vocabularies for ChassisCode vehicle data.
  *
  * Every categorical field in a vehicle record must use one of these values.
  * To add a value, add it here first; the validator rejects anything else.

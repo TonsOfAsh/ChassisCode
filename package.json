@@ -1,8 +1,8 @@
 {
-  "name": "cardle",
+  "name": "chassiscode",
   "version": "0.1.0",
   "private": true,
-  "description": "Cardle - an automotive deduction game",
+  "description": "ChassisCode - an automotive deduction game",
   "type": "module",
   "scripts": {
     "validate": "tsx scripts/validate.ts",

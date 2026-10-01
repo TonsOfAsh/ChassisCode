@@ -1,4 +1,4 @@
-# Cardle
+# ChassisCode
 
 An automotive deduction game. The player sees one specification of a mystery car, guesses the
 exact car, and gets another specification after each wrong guess.

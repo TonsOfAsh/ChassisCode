@@ -1,4 +1,4 @@
-# Cardle data guide
+# ChassisCode data guide
 
 How vehicle records are written, what belongs in the database, and how specs are sourced.
 The schema is in `src/lib/schema.ts`, the allowed values in `src/lib/vocab.ts`.
