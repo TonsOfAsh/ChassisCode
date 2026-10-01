@@ -1,6 +1,6 @@
 # Phase 1 findings
 
-Generated from the 26-car test dataset on 2026-09-30.
+Generated from the 26-car test dataset on 2026-09-30. Updated 2026-10-01 after the GT3 Touring merge (25 cars).
 
 ## Dataset
 
@@ -29,7 +29,6 @@ Generated from the 26-car test dataset on 2026-09-30.
 | Porsche 911 GT3 (991.2) | 2017–2019 | 500 hp | 3,116 lb | US 2018 | high |  |
 | Porsche 911 GT3 (992.1) | 2021–2024 | 502 hp | 3,126 lb | US 2022 | high |  |
 | Porsche 911 GT3 RS (991.2) | 2018–2019 | 520 hp | 3,153 lb | US 2019 | low | yes |
-| Porsche 911 GT3 Touring (992.1) | 2021–2024 | 502 hp | 3,126 lb | US 2022 | medium | yes |
 | Porsche 918 Spyder | 2013–2015 | 887 hp | 3,691 lb | US 2015 | medium | yes |
 | Porsche Taycan Turbo S (J1) | 2019–2024 | 750 hp | 5,121 lb | US 2020 | medium |  |
 
@@ -71,30 +70,21 @@ Production end year is uncertain: 2016 is the last model year (Stuttcars); anoth
 
 Weight: 3,153 lb is the only curb weight Porsche publishes for the US car, but Porsche's own press releases tie it to the optional Weissach Package plus magnesium wheels. The standard-configuration curb weight (probably about 38 lb more) needs a manufacturer source.
 
-### Porsche 911 GT3 Touring (992.1)
-
-Porsche Cars North America publishes no Touring-specific power or curb weight in the sources found; it states only that engine, transmission, suspension, wheels and tires are adopted from the regular GT3. Power (502 hp) is cited from Kelley Blue Book and weight (3,126 lb) from Edmunds, both matching PCNA's winged-GT3 figures. Every game clue is identical to the 992.1 GT3 record. Confirm against a PCNA Touring spec sheet if one can be found; start year 2021 is the order/launch year, first US deliveries were 2022.
-
 ### Porsche 918 Spyder
 
 Curb weight (3,691 lb) comes from Edmunds and duPont Registry, not a Porsche document: no Porsche Cars North America spec sheet could be opened. The only manufacturer weight found (1,634 kg DIN) does not say whether it includes the Weissach package. Confirm against a PCNA MY2015 spec sheet. Also note the US '887 hp' is numerically the PS figure (652 kW), recorded here as the US published rating.
 
 ## Open design questions
 
-### 1. The 992.1 GT3 and GT3 Touring cannot be told apart
+### 1. The 992.1 GT3 and GT3 Touring could not be told apart (resolved)
 
 Porsche publishes identical power, weight, engine, transmissions and years for both, so all 13
-clues match and the puzzle is a coin flip. The Touring is officially "911 GT3 with Touring
-Package", a no-cost option, and Porsche issues no separate specifications for it.
+clues matched. The Touring is officially "911 GT3 with Touring Package", a no-cost option.
 
-Options:
+Decision (2026-10-01): the Touring was merged into the 992.1 GT3 record and kept as a search
+alias. The dataset is now 25 cars.
 
-- Merge the Touring into the GT3 record and keep "GT3 Touring" as a search alias (recommended; it
-  matches the rule that option packages are not separate vehicles).
-- Keep both and add a clue that separates them, such as a "Variant notes" clue ("no fixed rear wing").
-- Keep both and accept either as correct when the answer is one of them.
-
-### 2. Cars become unique very early with 26 cars
+### 2. Cars become unique very early in a small test set
 
 On average a car is the only match after 3.6 clues, and several are unique on clue 1 because
 they are the only car from their country. This is a property of the small test set, not the clue
@@ -104,7 +94,7 @@ order. It should be re-measured at 100+ cars before the order is tuned.
 
 Manufacturers publish it inconsistently: dry only (Corvette Z06, F40), only with a lightweight
 option package (991.2 GT3 RS, Viper ACR), or two different figures in two documents (NSX).
-Most of the eleven review flags involve weight. Because weight is a late clue, a wrong figure
+Most of the review flags involve weight. Because weight is a late clue, a wrong figure
 rarely decides a game, but each flagged value needs a human decision before launch.
 
 ### 4. The Elise Series 2 needs splitting

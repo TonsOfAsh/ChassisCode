@@ -5,15 +5,31 @@
   "description": "ChassisCode - an automotive deduction game",
   "type": "module",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predev": "tsx scripts/build-data.ts",
+    "prebuild": "tsx scripts/build-data.ts",
+    "build-data": "tsx scripts/build-data.ts",
     "validate": "tsx scripts/validate.ts",
     "clue-report": "tsx scripts/clue-report.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "pretypecheck": "tsx scripts/build-data.ts"
   },
   "dependencies": {
+    "@fontsource/barlow": "^5.3.0",
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "minisearch": "^7.2.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0"
   }

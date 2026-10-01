@@ -43,6 +43,7 @@ Rules for the ambiguous cases:
 | Coupe and convertible of the same variant | One record listing both bodies, unless the open car is sold under its own name (Spider, Targa, Speedster). |
 | Power changes mid-generation with no new designation | One record at a stated reference model year. Split by year range only when the change is large. Describe the change in a note. |
 | Competition or performance packages | Separate only when sold as its own trim. |
+| A named package with identical published specs (992.1 GT3 Touring) | Not separate. Add its name to the parent record's aliases. |
 | Cars never sold in the US | Home-market spec, converted to hp and lb, with the market recorded in `specBasis`. |
 | Cars with no generation code | `generation` is null. The Generation clue then shows production years only. |
 | Only a dry weight exists | Use it, set `specBasis.weightType` to `dry`, and set `needsReview`. |

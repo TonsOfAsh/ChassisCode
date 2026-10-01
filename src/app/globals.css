@@ -1,0 +1,472 @@
+/*
+ * ChassisCode styles.
+ * The clue board is drawn as a chassis data plate: pale aluminium, corner
+ * rivets, stamped condensed lettering. Yellow is the paint-marker dab a
+ * factory inspector leaves on a checked part; it marks the newest clue.
+ */
+
+:root {
+  --primer: #e4e6e3; /* page */
+  --aluminium: #d2d6d7; /* plate */
+  --aluminium-edge: #9aa2a5;
+  --aluminium-line: #b6bcbe;
+  --ink: #15191c;
+  --ink-soft: #4d565b;
+  --marker: #f2c200; /* inspection paint marker */
+  --wrong: #a3211b;
+  --right: #1b6b43;
+  --white: #fbfbfa;
+
+  --font-text: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
+  --font-stamp: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+
+  --radius: 6px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--primer);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+p,
+ol,
+ul,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- Page ---------------------------------------------------------------- */
+
+.page {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 4rem;
+}
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.wordmark {
+  font-family: var(--font-stamp);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.mode {
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+
+.intro {
+  margin-top: 0.5rem;
+  color: var(--ink-soft);
+}
+
+/* ---- Plate --------------------------------------------------------------- */
+
+.plate {
+  position: relative;
+  margin-top: 1.25rem;
+  padding: 1.5rem 1.75rem 1.25rem;
+  background: var(--aluminium);
+  border: 1px solid var(--aluminium-edge);
+  border-radius: var(--radius);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.65),
+    0 1px 0 rgb(21 25 28 / 0.12);
+}
+
+.plate-loading {
+  min-height: 34rem;
+  display: grid;
+  place-items: center;
+  color: var(--ink-soft);
+}
+
+.rivet {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #f1f3f3, #8d9598 70%);
+  box-shadow: 0 0 0 1px rgb(21 25 28 / 0.25);
+}
+.rivet-tl {
+  top: 8px;
+  left: 8px;
+}
+.rivet-tr {
+  top: 8px;
+  right: 8px;
+}
+.rivet-bl {
+  bottom: 8px;
+  left: 8px;
+}
+.rivet-br {
+  bottom: 8px;
+  right: 8px;
+}
+
+.plate-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.plate-title {
+  font-family: var(--font-stamp);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.plate-title-revealed {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.plate-count {
+  flex: none;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.clue {
+  display: grid;
+  grid-template-columns: 1.5rem 7.5rem 1fr;
+  align-items: baseline;
+  column-gap: 0.5rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--aluminium-line);
+}
+.clue:last-child {
+  border-bottom: 0;
+}
+
+.clue-number {
+  font-size: 0.8125rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.clue-label {
+  font-size: 0.9375rem;
+  color: var(--ink-soft);
+}
+
+.clue-value {
+  font-family: var(--font-stamp);
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+/* Blank stamping field: a row of empty character cells. */
+.clue-blank {
+  align-self: center;
+  height: 1.15rem;
+  max-width: 9rem;
+  border: 1px solid var(--aluminium-edge);
+  border-radius: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent 0 calc(1rem - 1px),
+    var(--aluminium-edge) calc(1rem - 1px) 1rem
+  );
+  opacity: 0.55;
+}
+
+.clue-newest .clue-number {
+  color: var(--ink);
+  font-weight: 600;
+  background: var(--marker);
+  border-radius: 45% 55% 50% 50% / 55% 45% 55% 45%;
+  text-align: center;
+  width: 1.4rem;
+  line-height: 1.4rem;
+}
+
+.clue-newest .clue-value {
+  animation: stamp 180ms ease-out;
+  transform-origin: left center;
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    transform: scale(1.18);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ---- Controls ------------------------------------------------------------ */
+
+.controls {
+  margin-top: 1rem;
+}
+
+.search {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-field {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.search-input {
+  width: 100%;
+  height: 3rem;
+  padding: 0 0.875rem;
+  background: var(--white);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  font-size: 1rem;
+}
+.search-input::placeholder {
+  color: #6b747a;
+}
+.search-input:disabled {
+  opacity: 0.6;
+}
+
+.search-list {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 20rem;
+  overflow-y: auto;
+  background: var(--white);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px rgb(21 25 28 / 0.18);
+}
+
+.search-option {
+  padding: 0.625rem 0.875rem;
+  cursor: pointer;
+}
+.search-option-active {
+  background: var(--ink);
+  color: var(--white);
+}
+
+.search-empty {
+  padding: 0.625rem 0.875rem;
+  color: var(--ink-soft);
+}
+
+.button {
+  flex: none;
+  height: 3rem;
+  padding: 0 1.25rem;
+  background: var(--ink);
+  color: var(--white);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+}
+.button:disabled {
+  background: transparent;
+  color: var(--ink-soft);
+  border-color: var(--aluminium-edge);
+  cursor: default;
+}
+
+.link {
+  margin-top: 0.75rem;
+  padding: 0.25rem 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+.link:disabled {
+  color: var(--ink-soft);
+  cursor: default;
+}
+
+.error {
+  margin-top: 1rem;
+  padding: 0.625rem 0.875rem;
+  border-left: 4px solid var(--wrong);
+  background: var(--white);
+}
+.error .link {
+  margin-top: 0;
+}
+
+/* ---- Result -------------------------------------------------------------- */
+
+.result {
+  margin-top: 1.25rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--ink);
+}
+.result-solved {
+  border-left-color: var(--right);
+}
+.result-lost {
+  border-left-color: var(--wrong);
+}
+
+.result-heading {
+  font-family: var(--font-stamp);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin: 0.75rem 0 1rem;
+}
+.stats dt {
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+.stats dd {
+  font-family: var(--font-stamp);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Turns --------------------------------------------------------------- */
+
+.turns {
+  margin-top: 1.5rem;
+}
+
+.turns-heading {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.turns li {
+  position: relative;
+  padding: 0.3rem 0 0.3rem 1.5rem;
+}
+.turns li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+}
+.turn-wrong::before {
+  content: '✕';
+  color: var(--wrong);
+}
+.turn-right::before {
+  content: '✓';
+  color: var(--right);
+}
+.turn-right {
+  font-weight: 600;
+}
+.turn-skip {
+  color: var(--ink-soft);
+}
+.turn-skip::before {
+  content: '–';
+}
+
+/* ---- Small screens ------------------------------------------------------- */
+
+@media (max-width: 30rem) {
+  .plate {
+    padding: 1.375rem 1.125rem 1rem;
+  }
+  .clue {
+    grid-template-columns: 1.4rem 6rem 1fr;
+  }
+  .clue-label {
+    font-size: 0.875rem;
+  }
+  .clue-value {
+    font-size: 1.1875rem;
+  }
+  .plate-title-revealed {
+    font-size: 1.625rem;
+  }
+  .stats {
+    gap: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clue-newest .clue-value {
+    animation: none;
+  }
+}

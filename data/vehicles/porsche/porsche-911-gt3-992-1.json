@@ -11,6 +11,10 @@
     "GT3 992.1",
     "992 GT3",
     "Porsche GT3",
+    "992.1 GT3 Touring",
+    "GT3 Touring",
+    "GT3 with Touring Package",
+    "Touring Package",
     "PDK"
   ],
   "country": "Germany",
@@ -62,7 +66,8 @@
   },
   "powerHp": {
     "value": 502,
-    "sourceId": "pcna-press-kit-2022-911-gt3"
+    "sourceId": "pcna-press-kit-2022-911-gt3",
+    "note": "This record also covers the GT3 with Touring Package, a no-cost option without the fixed rear wing: Porsche states its engine, transmission, suspension, wheels and tires are adopted from the regular 911 GT3 (source pcna-press-2022-911-gt3-touring)."
   },
   "weightLb": {
     "value": 3126,
@@ -98,6 +103,14 @@
       "publisher": "Edmunds",
       "title": "Used 2022 Porsche 911 GT3 Specs & Features",
       "url": "https://www.edmunds.com/porsche/911/2022/gt3/features-specs/",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "pcna-press-2022-911-gt3-touring",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "The new Porsche 911 GT3 with Touring Package",
+      "url": "https://newsroom.porsche.com/en_US/2021/products/porsche-911-gt3-touring-package-premiere-24798.html",
       "accessed": "2026-09-30"
     }
   ],
