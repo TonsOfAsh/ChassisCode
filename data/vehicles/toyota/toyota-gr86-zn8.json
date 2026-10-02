@@ -1,0 +1,117 @@
+{
+  "id": "toyota-gr86-zn8",
+  "manufacturer": "Toyota",
+  "model": "GR86",
+  "generation": "ZN8",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Toyota GR86 (ZN8)",
+  "aliases": [
+    "GR 86",
+    "ZN8",
+    "ZN8 GR86",
+    "Toyota 86",
+    "GR86 Premium",
+    "FA24",
+    "2022 GR86"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": { "startYear": 2022, "endYear": null },
+    "sourceId": "toyota-us-2022-gr86-thrills",
+    "note": "US model years. First: the release is for the 'All-New 2022 Toyota GR 86', with 'Expected arrival at Toyota dealerships in November 2021'. Still on sale: Toyota's US newsroom has a 2027 GR86 vehicle page with the release 'Toyota Turns Up the Thrill for 2027 with New Updates to GR86' (1 June 2026) (toyota-us-2027-gr86-page)."
+  },
+  "body": {
+    "value": ["Coupe"],
+    "sourceId": "toyota-us-2022-gr86-thrills",
+    "note": "'front-engine, rear-wheel drive coupe'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "toyota-us-2022-gr86-thrills",
+      "note": "'naturally aspirated 2.4-liter, horizontally opposed four-cylinder engine'; 'flat-four'"
+    },
+    "displacementL": {
+      "value": 2.4,
+      "sourceId": "toyota-us-2022-gr86-thrills",
+      "note": "2,387 cc ('bumping up from 1,998cc to 2,387cc')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "toyota-us-2022-gr86-thrills",
+      "note": "'a larger, naturally aspirated 2.4-liter, horizontally opposed four-cylinder engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-us-2022-gr86-thrills",
+    "note": "Inferred from Toyota's description of a conventional naturally aspirated piston engine; the release does not name the fuel."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "toyota-us-2022-gr86-thrills",
+    "note": "'front-engine, rear-wheel drive coupe'"
+  },
+  "transmission": {
+    "value": ["6-speed Manual", "6-speed Automatic"],
+    "sourceId": "toyota-us-2022-gr86-thrills",
+    "note": "'Available in a manual transmission (MT) or paddle-shifted automatic (AT)'; both six-speed."
+  },
+  "powerHp": {
+    "value": 228,
+    "sourceId": "toyota-us-2022-gr86-pricing",
+    "note": "2022 model year. Quote: \"With 228 hp., up from 205, and 184 lb.-ft. of torque, up from 156, it's now tuned so peak torque arrives far earlier in the powerband at 3,700 RPM, versus 6,600 RPM.\" The debut release also gives \"228 hp and 184 lb.-ft. of peak torque\" (toyota-us-2021-gr86-debut)."
+  },
+  "weightLb": {
+    "value": 2811,
+    "sourceId": "toyota-us-2022-gr86-thrills",
+    "note": "Base GR 86 grade, 6-speed manual, 2022 model year. Quote: \"Constructed with a weight-saving aluminum roof and front fenders, the GR 86 base grade weighs in at only 2,811 pounds for the MT (2,851 pounds in the AT), making it among the lightest sports cars on the market.\""
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-us-2022-gr86-thrills",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "All-New 2022 Toyota GR 86: Thrills Around Every Corner (17 August 2021)",
+      "url": "https://pressroom.toyota.com/all-new-2022-toyota-gr-86-thrills-around-every-corner/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2022-gr86-pricing",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "Toyota Announces Pricing on All-New 2022 GR86 (27 October 2021)",
+      "url": "https://pressroom.toyota.com/toyota-announces-pricing-on-all-new-2022-gr86/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2021-gr86-debut",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "Drivers Rejoice! Toyota Debuts All New GR 86 (2 June 2021)",
+      "url": "https://pressroom.toyota.com/drivers-rejoice-toyota-debuts-all-new-gr-86/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2027-gr86-page",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "2027 Toyota GR86 (newsroom vehicle page)",
+      "url": "https://pressroom.toyota.com/vehicle/2027-toyota-gr86/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

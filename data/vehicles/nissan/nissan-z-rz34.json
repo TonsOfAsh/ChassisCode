@@ -1,0 +1,102 @@
+{
+  "id": "nissan-z-rz34",
+  "manufacturer": "Nissan",
+  "model": "Z",
+  "generation": "RZ34",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Nissan Z (RZ34)",
+  "aliases": [
+    "RZ34",
+    "RZ34 Z",
+    "Nissan Z Sport",
+    "Nissan Z Performance",
+    "Z Proto Spec",
+    "400Z",
+    "VR30DDTT",
+    "2023 Nissan Z"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": { "startYear": 2023, "endYear": null },
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "US model years. First: the 2023 Nissan Z was 'scheduled to go on sale at Nissan dealers nationwide in summer 2022'. Still on sale: Nissan's 2027 Z press kit says 'The 2027 Nissan Z lineup, including the Z NISMO manual, is scheduled to arrive at Nissan dealerships in summer 2026' (nissan-us-2027-z-press-kit). The Z NISMO is a separate variant."
+  },
+  "body": {
+    "value": ["Coupe"],
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "Inferred from Nissan's description of the two-seat Z sports car; sold only as a coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2023-z-press-kit",
+      "note": "'VR30DDTT 3.0L V6 Twin Turbo engine, 24-valve DOHC V6'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "nissan-us-2023-z-press-kit",
+      "note": "2,997 cc ('Displacement' row: '3.0 / 2997')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-us-2023-z-press-kit",
+      "note": "'VR30DDTT 3.0L V6 Twin Turbo engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "Inferred from Nissan's description of a conventional twin-turbo V6; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "'Mid-mounted front-engine / rear-wheel drive'"
+  },
+  "transmission": {
+    "value": ["6-speed Manual", "9-speed Automatic"],
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "'Standard 6-speed close-ratio manual transmission with EXEDY® high-performance clutch'; 'Available electronically controlled 9-speed automatic transmission with manual shift mode, launch control, Downshift Rev Matching'"
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "Sport and Performance, 2023 model year. Quotes: \"400 @ 6,400 rpm\" (specifications table) and \"VR30DDTT 3.0L V6 Twin Turbo engine, 24-valve DOHC V6 rated at 400 horsepower @ 6,400 RPM\". Unchanged through 2027: Sport and Performance \"400 @ 6,400 rpm\" (nissan-us-2027-z-press-kit). The Z NISMO (420 hp) is a separate record."
+  },
+  "weightLb": {
+    "value": 3486,
+    "sourceId": "nissan-us-2023-z-press-kit",
+    "note": "Sport grade (the base car), 6-speed manual, 2023 model year. Quote (curb weight table, lbs): Sport 6MT \"Front 1991, Rear 1495, Total 3486\". Same table: Sport 9AT 3,549; Performance 6MT 3,536, 9AT 3,602. The 2027 kit gives the same Sport 6MT total, 3,486 lb (nissan-us-2027-z-press-kit)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2023-z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2023 Nissan Z Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2023-nissan-z-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2027-z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2027 Nissan Z Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2027-nissan-z-press-kit",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

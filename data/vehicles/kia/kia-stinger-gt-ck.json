@@ -1,0 +1,132 @@
+{
+  "id": "kia-stinger-gt-ck",
+  "manufacturer": "Kia",
+  "model": "Stinger",
+  "generation": "CK",
+  "variant": "GT",
+  "subVariant": null,
+  "displayName": "Kia Stinger GT (CK)",
+  "aliases": [
+    "Stinger GT",
+    "Stinger GT1",
+    "Stinger GT2",
+    "3.3T",
+    "Stinger 3.3 twin-turbo",
+    "Stinger Tribute Edition",
+    "2018 Stinger GT"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2023
+    },
+    "sourceId": "kia-us-2018-stinger-specs",
+    "note": "US model years. First: Kia America published '2018 Stinger Specifications' listing the GT, GT1 and GT2. Last: Kia's April 2023 release 'The Last of Them: 2023 Stinger Tribute Limited Edition Arrives at Kia Dealers' says \"It's the end of an era for the Stinger fastback sedan\" (kia-us-2023-stinger-last). That release also says the Stinger was \"First introduced in the United States as a 2019 model\"; see discrepancies."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "kia-us-2023-stinger-last",
+    "note": "Kia: 'the Stinger fastback sedan', 'this iconic sport sedan'. It is a four-door liftback."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "kia-us-2018-stinger-specs",
+      "note": "'3.3L Twin Turbo V6'"
+    },
+    "displacementL": {
+      "value": 3.3,
+      "sourceId": "kia-us-2018-stinger-specs",
+      "note": "3,342 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "kia-us-2018-stinger-specs",
+      "note": "'3.3L Twin Turbo V6'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "kia-us-2018-stinger-specs",
+    "note": "'Premium Recommended'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "kia-us-2018-stinger-specs",
+    "note": "'Front Engine/ Rear or All Wheel Drive'. RWD is the standard car; AWD was optional on every GT trim and is not a separate model. Kia 2023: 'available with either rear- or all-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "kia-us-2018-stinger-specs",
+    "note": "'8-speed automatic transmission'; no manual was offered."
+  },
+  "powerHp": {
+    "value": 365,
+    "sourceId": "kia-us-2018-stinger-specs",
+    "note": "Quote: \"Horsepower 255 hp @ 6,200 rpm 255 hp @ 6,200 rpm 365 hp @ 6,000 rpm 365 hp @ 6,000 rpm 365 hp @ 6,000 rpm\" (columns Stinger, Premium, GT, GT1, GT2). From 2022 Kia rated the engine 368 hp: \"368 horsepower and 376 lb.-ft. of torque\" (kia-us-2022-stinger) and \"a 368-hp, 3.3-liter turbocharged V-6\" (kia-us-2023-stinger-last). 365 hp covers 2018 to 2021, four of the six model years, so the record uses the 2018 launch rating."
+  },
+  "weightLb": {
+    "value": 3829,
+    "sourceId": "kia-us-2018-stinger-specs",
+    "note": "GT, RWD, 2018 model. Quote: \"Curb Weight 8-speed Automatic Transmission Minimum RWD 3,611 lbs. 3,611 lbs. 3,829 lbs. 3,829 lbs. 3,829 lbs. Maximum AWD (All Options) 3,792 lbs. 3,792 lbs. 4,023 lbs. 4,023 lbs. 4,023 lbs.\" (columns Stinger, Premium, GT, GT1, GT2). The heaviest GT (AWD, all options) is 4,023 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "kia-us-2018-stinger-specs",
+      "type": "manufacturer",
+      "publisher": "Kia America (kiamedia.com)",
+      "title": "2018 Stinger Specifications",
+      "url": "https://www.kiamedia.com/us/en/models/stinger/2018/specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kia-us-2022-stinger",
+      "type": "manufacturer",
+      "publisher": "Kia America (kiamedia.com)",
+      "title": "2022 Stinger",
+      "url": "https://www.kiamedia.com/us/en/models/stinger/2022",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kia-us-2023-stinger-last",
+      "type": "manufacturer",
+      "publisher": "Kia America (kiamedia.com)",
+      "title": "The Last of Them: 2023 Stinger Tribute Limited Edition Arrives at Kia Dealers",
+      "url": "https://www.kiamedia.com/us/en/media/pressreleases/20403/the-last-of-them-2023-stinger-tribute-limited-edition-arrives-at-kia-dealers",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": 2018,
+          "sourceId": "kia-us-2018-stinger-specs"
+        },
+        {
+          "value": 2019,
+          "sourceId": "kia-us-2023-stinger-last"
+        }
+      ],
+      "reason": "Kia's 2023 release says the Stinger was 'First introduced in the United States as a 2019 model', but Kia America's own media site publishes '2018 Stinger Specifications' listing the GT, GT1 and GT2.",
+      "resolution": "Used 2018: the 2018 specification sheet shows the car existed as a US 2018 model."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,158 @@
+{
+  "id": "chevrolet-corvette-stingray-c7",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C7",
+  "variant": "Stingray",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Stingray (C7)",
+  "aliases": [
+    "C7 Stingray",
+    "C7 Corvette",
+    "Corvette C7",
+    "LT1",
+    "Z51",
+    "2014 Corvette Stingray"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2019
+    },
+    "sourceId": "gm-2014-lt1-release",
+    "note": "US model years. Start: GM's May 28, 2013 release is for \"The 2014 Corvette Stingray's all-new LT1 6.2L V-8 engine\". End: GM's 2019 order guide (\"2018 Chevrolet Car (2019) Corvette\") still lists the Stingray coupe (1YY07) and convertible (1YY67) with the LT1 (source gm-2019-order-guide), and the 2020 Corvette was the mid-engine C8 (GM: \"Chevrolet Introduces First-Ever Mid-Engine Corvette for 2020\", source gm-2020-c8-release)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-2015-specs",
+    "note": "GM's 2015 specification sheet has columns for the 1YY07 Stingray Coupe and the 1YY67 Stingray Convertible. The coupe is a \"2-door hatchback coupe with removable roof panel\" (source cac-2014-preliminary-specs). Both bodies were offered from 2014 (2014 order guide lists coupe and convertible model codes, source gm-2014-order-guide)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2014-lt1-release",
+      "note": "LT1. GM: \"all-new LT1 6.2L V-8 engine\"."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2014-order-guide",
+      "note": "6,162 cc. GM order guide: \"Engine, 6.2L (376 ci) V8 DI\"; Corvette Action Center's preliminary specification page: \"Displacement (cu in / cc): 376 / 6162\" (source cac-2014-preliminary-specs)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-2014-lt1-release",
+      "note": "No forced induction is mentioned for the LT1; the Z06's supercharged LT4 is a separate record."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2014-lt1-release",
+    "note": "Direct-injected gasoline V8 (\"Direct injection is a primary contributor to the engine's combustion efficiency\")."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cac-2014-preliminary-specs",
+    "note": "\"2-door hatchback coupe with removable roof panel; rear-wheel drive\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "6-speed Automatic",
+      "8-speed Automatic"
+    ],
+    "sourceId": "gm-2015-brochure",
+    "note": "2014: \"Transmission, 7-speed manual with Active Rev Matching\" or \"Transmission, 6-speed paddle shift with automatic mode\" (source gm-2014-order-guide). From 2015 the 6-speed automatic was replaced by an eight-speed automatic: 2015 brochure, \"7-speed manual transmission with Active Rev Matching\" and \"available 8-speed paddle-shift automatic transmission\"; GM's August 20, 2014 release describes engineering \"the new eight-speed automatic to fit the same space as the previous six-speed automatic\" (source gm-2015-8speed-release). Both automatics are torque-converter units."
+  },
+  "powerHp": {
+    "value": 455,
+    "sourceId": "gm-2015-brochure",
+    "note": "Standard exhaust. Quote, Chevrolet's 2015 Corvette brochure specifications table, Stingray column: \"HORSEPOWER 455 @ 6000 rpm (460 with performance exhaust)\"; footnote 1: \"455 horsepower with standard engine. 460 horsepower with available dual-mode performance exhaust.\" Same rating at launch, GM release of May 28, 2013 (source gm-2014-lt1-release): \"The Stingray is SAE-certified at 455 horsepower (339 kW) and 460 lb-ft (624 Nm) with the standard exhaust system.\" and 460 hp with the available performance exhaust. Same rating in GM's 2019 order guide: \"Engine, 6.2L (376 ci) V8 DI (455 hp [339.3 kW] @ 6000 rpm, 460 lb-ft of torque [621.0 N-m] @ 4600 rpm)\" (source gm-2019-order-guide). The 2014 order guide printed a pre-certification \"GM-estimated 450 hp\"; the certified figure superseded it."
+  },
+  "weightLb": {
+    "value": 3298,
+    "sourceId": "gm-2015-specs",
+    "note": "Manufacturer curb weight, Stingray coupe, 2015 model year. Quote, GM's 2015 specifications sheet (published May 23, 2014): \"Curb weight, lbs. (kg) 3298 (1496) 3362 (1525)\" (coupe, convertible). Chevrolet's 2015 brochure prints \"Curb weight 3,298 lbs. (coupe) / 3,362 lbs. (convertible)\" for both the Stingray and the Stingray with Z51 (source gm-2015-brochure). GM gives one figure per body and does not split it by transmission. For 2014 only an estimate was found (AutoGuide, May 2013: \"an estimated curb weight of 3,298 lbs without the Z51 package\", not cited as a value), so 2015 is the reference year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2014-lt1-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2014 Corvette Stingray LT1 engine press release (May 28, 2013)",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2014-c7-corvette/2014-c7-corvette-press_release_lt1-engine.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2015-specs",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (specification sheet reproduced by Corvette Action Center)",
+      "title": "2015 Chevrolet Corvette Specifications & Dimensions (published May 23, 2014)",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015-corvette-specifications-dimensions.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2015-brochure",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (brochure reproduced by Corvette Action Center)",
+      "title": "2015 Corvette sales brochure",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015_Corvette_Brochure.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2015-8speed-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2015 Corvette Stingray eight-speed automatic transmission (August 20, 2014)",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015-c7-corvette-stingray-8-speed-transmission.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2014-order-guide",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (order guide reproduced by Corvette Action Center)",
+      "title": "2014 Corvette Order Guide",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2014-c7-corvette/2014_Corvette_Order_Guide.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2019-order-guide",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (order guide reproduced by Corvette Action Center)",
+      "title": "2019 Corvette Order Guide",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-corvette-order-guide.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2020-c8-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced by Corvette Action Center)",
+      "title": "Chevrolet Introduces First-Ever Mid-Engine Corvette for 2020",
+      "url": "https://www.corvetteactioncenter.com/specs/c8-corvette/2020-corvette/press-release-2020-corvette-mid-engine-introduction-first-ever.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2014-preliminary-specs",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2014 C7 Corvette Stingray Preliminary Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2014-c7-corvette/2014-c7-corvette-preliminary-specifications.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

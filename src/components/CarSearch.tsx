@@ -15,6 +15,19 @@ interface Props {
 }
 
 /**
+ * Splits codes where letters meet digits, so the parts can be searched on their
+ * own: "GT350" also gives "GT 350", "LP640" gives "LP 640", "720S" gives "720 S".
+ * Only the split words are returned; the whole code is indexed separately.
+ */
+function splitCodes(text: string): string {
+  return text
+    .split(/[^A-Za-z0-9]+/)
+    .filter((w) => /[A-Za-z]/.test(w) && /\d/.test(w))
+    .map((w) => w.replace(/(?<=[A-Za-z])(?=\d)|(?<=\d)(?=[A-Za-z])/g, ' '))
+    .join(' ');
+}
+
+/**
  * Search box for choosing a car. The player picks a specific record from the
  * list; free text is never submitted as a guess.
  */
@@ -27,8 +40,8 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
   const [active, setActive] = useState(0);
 
   const index = useMemo(() => {
-    const mini = new MiniSearch<CarOption & { aliasText: string }>({
-      fields: ['name', 'aliasText'],
+    const mini = new MiniSearch<CarOption & { aliasText: string; partText: string }>({
+      fields: ['name', 'aliasText', 'partText'],
       storeFields: ['id'],
       // Typos are forgiven in longer words only. Codes and short names must match
       // as typed: "e92" must not find "992", nor "amg" find "SMG", nor "sti" find "GTI".
@@ -39,7 +52,9 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
         boost: { name: 2 },
       },
     });
-    mini.addAll(cars.map((c) => ({ ...c, aliasText: c.aliases.join(' ') })));
+    mini.addAll(
+      cars.map((c) => ({ ...c, aliasText: c.aliases.join(' '), partText: [c.name, ...c.aliases].map(splitCodes).join(' ') })),
+    );
     return mini;
   }, [cars]);
   const byId = useMemo(() => new Map(cars.map((c) => [c.id, c])), [cars]);
@@ -53,7 +68,10 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
     // so "gt3 991.2" lists the GT3 above the GT3 RS. Alias-only matches follow.
     // Among those, whole-word matches beat word beginnings, so "f-type" lists the
     // F-Type above a Type R whose code happens to start with F.
-    const nameWordsOf = (c: CarOption) => c.name.toLowerCase().split(/[^a-z0-9]+/);
+    const nameWordsOf = (c: CarOption) => {
+      const words = c.name.toLowerCase().split(/[^a-z0-9]+/);
+      return [...words, ...splitCodes(c.name).toLowerCase().split(/[^a-z0-9]+/)];
+    };
     const inName = (c: CarOption) => {
       const nameWords = nameWordsOf(c);
       return words.every((w) => nameWords.some((n) => n.startsWith(w)));

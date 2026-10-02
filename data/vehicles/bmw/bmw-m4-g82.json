@@ -1,0 +1,116 @@
+{
+  "id": "bmw-m4-g82",
+  "manufacturer": "BMW",
+  "model": "M4",
+  "generation": "G82",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M4 (G82)",
+  "aliases": [
+    "G82 M4",
+    "M4 G82",
+    "M4 Coupe",
+    "S58",
+    "2021 M4"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "US model years. First: BMW NA's release is titled 'The New 2021 BMW M3 Sedan and M4 Coupe' ('Market launch set for March 2021'). Still on sale: on 2026-10-01 bmwusa.com's M4 technical page listed the M4 Coupe ('473 @ 6,250', '6-speed, manual', 'rear-wheel drive') alongside the M4 Competition and M4 Competition xDrive (bmwusa-m4-coupe-tech); the page's imagery is labelled MY27."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "'M4 Coupe'. bmwusa.com lists the non-Competition M4 only as a coupe (bmwusa-m4-coupe-tech); the M4 Competition models are separate variants."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2021-m3-m4-release",
+      "note": "'Cylinders | -- | 6 | 6 | 6 | 6'; inline-6 S58"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2021-m3-m4-release",
+      "note": "2,993 cc ('Displacement | cm³ | 2,993 | 2,993 | 2,993 | 2,993')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2021-m3-m4-release",
+      "note": "'Two, mono-scroll turbochargers with electronically controlled wastegates'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "Inferred from the release's description of the gasoline S58 inline-6."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "'the new BMW M3 and M4 core models are delivered with rear-wheel drive and a 6-speed manual transmission'; 'Drive type | -- | RWD | RWD | RWD | RWD'. M xDrive is offered only on Competition models."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "'Transmission type | -- | LS58 6-speed manual | M8HP76 8-speed auto' (the automatic is for the Competition columns); 'the new BMW M3 and M4 core models are delivered with rear-wheel drive and a 6-speed manual transmission'. bmwusa.com still lists the M4 Coupe with '6-speed, manual' only (bmwusa-m4-coupe-tech)."
+  },
+  "powerHp": {
+    "value": 473,
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "Quote: \"Engine power | hp | 473 @ 6,250 | 503 @ 6,250 | 473 @ 6,250 | 503 @ 6,250\" (columns M3 Sedan, M3 Competition, M4 Coupe, M4 Competition). Also: \"The new S58 powerplant delivers 473 hp at 6,250 rpm\". bmwusa.com still rates the M4 Coupe \"473 @ 6,250\" (bmwusa-m4-coupe-tech)."
+  },
+  "weightLb": {
+    "value": 3830,
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "2021 M4 Coupe with the 6-speed manual (its only transmission). Quote: \"Curb weight | lbs. | 3,840 | 3,890 | 3,830 | 3,880\" (columns M3 Sedan, M3 Competition, M4 Coupe, M4 Competition). bmwusa.com's current M4 Coupe page gives \"3,829\" (bmwusa-m4-coupe-tech)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2021-m3-m4-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2021 BMW M3 Sedan and M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0317577EN_US/the-new-2021-bmw-m3-sedan-and-m4-coupe?language=en_US",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmwusa-m4-coupe-tech",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (bmwusa.com)",
+      "title": "BMW M4 Coupe Technical Highlights",
+      "url": "https://www.bmwusa.com/vehicles/m-series/bmw-4-series-m-models/bmw-m4-coupe-technical-highlights.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        { "value": 3830, "sourceId": "bmw-us-2021-m3-m4-release" },
+        { "value": 3829, "sourceId": "bmwusa-m4-coupe-tech" }
+      ],
+      "reason": "Model year: 3,830 lb is BMW NA's 2021 launch figure; 3,829 lb is the current (MY2026/27) bmwusa.com figure for the same manual coupe.",
+      "resolution": "Used 3,830 lb because the reference model year is 2021."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

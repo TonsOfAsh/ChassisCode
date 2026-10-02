@@ -1,0 +1,186 @@
+{
+  "id": "chevrolet-camaro-ss-5th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "5th gen",
+  "variant": "SS",
+  "subVariant": null,
+  "displayName": "Chevrolet Camaro SS (5th gen)",
+  "aliases": [
+    "Camaro SS",
+    "5th gen Camaro SS",
+    "Gen 5 Camaro SS",
+    "LS3",
+    "L99",
+    "2010 Camaro SS",
+    "1SS",
+    "2SS",
+    "TR6060"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2015
+    },
+    "sourceId": "chevrolet-camaro-brochure-2013",
+    "note": "US model years 2010-2015. Start: The Auto Channel's '2010 Chevrolet Camaro SS Review' (autochannel-camaro-ss-2010) and Chevrolet's 2010 Camaro SS material reproduced by Motor1 (chevrolet-camaro-ss-motor1-2009). The 2013 (chevrolet-camaro-brochure-2013) and 2015 (chevrolet-camaro-brochure-2015) Chevrolet brochures list the SS with the LS3/L99. End: Chevrolet's 2016 brochure describes the 2016 car as a 'sixth-generation icon' and 'all-new', with a '6.2L LT1 V8' rated 455 hp (chevrolet-camaro-brochure-2016)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2013",
+    "note": "Chevrolet's 2013 brochure lists the SS as coupe and convertible; the 2015 brochure also lists both (chevrolet-camaro-brochure-2015). The convertible did not exist at launch; no opened page gives its first model year."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-camaro-brochure-2013",
+      "note": "'6.2L LS3 V8, aluminum block and heads' (manual); '6.2L L99 V8, aluminum block and heads' (automatic)"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "chevrolet-camaro-brochure-2013",
+      "note": "Chevrolet's brochure gives '6.2L' only. 6,162 cc: LSX Magazine's reprint of GM's 2010 specifications, '376/6162' (cu in/cc) (lsxmag-2010-camaro-specs)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "chevrolet-camaro-brochure-2013",
+      "note": "Inferred: no forced induction is mentioned for the LS3/L99."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-camaro-brochure-2013"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lsxmag-2010-camaro-specs",
+    "note": "GM's 2010 specifications as printed by LSX Magazine: 'Four-passenger, front-engine, rear-drive coupe'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2013",
+    "note": "'6-speed manual with short-throw shifter' (Tremec TR6060, LS3) and '6-speed automatic with overdrive; includes steering wheel-mounted TAPshift controls' (L99). Both offered from 2010: Chevrolet via Motor1, 'The SS model's new Tremec TR 6060 six-speed manual' and 'The L99 is paired exclusively with a six-speed automatic transmission' (chevrolet-camaro-ss-motor1-2009)."
+  },
+  "powerHp": {
+    "value": 426,
+    "sourceId": "chevrolet-camaro-brochure-2013",
+    "note": "LS3 with the 6-speed manual (the standard car). Quote (Chevrolet 2013 brochure): \"6.2L LS3 V8, aluminum block and heads\" ... \"426 @ 5900 rpm\"; the automatic's L99 is \"400 @ 5900 rpm\". Chevrolet's 2015 brochure repeats \"426 @ 5900 rpm\" / \"400 @ 5900 rpm\" (chevrolet-camaro-brochure-2015), and Chevrolet's launch material reproduced by Motor1 says \"The LS3 develops 426 hp (318 kW)\" and \"Horsepower for the L99 is 400 (298 kilowatts)\" (chevrolet-camaro-ss-motor1-2009), so the rating did not change over the run. GM's earliest 2010 specification release, as printed by LSX Magazine, gave 422 hp for the LS3 (lsxmag-2010-camaro-specs); see discrepancies."
+  },
+  "weightLb": {
+    "value": 3849,
+    "sourceId": "chevrolet-camaro-brochure-2013",
+    "note": "Coupe with the 6-speed manual, 2013 model year. Quote (Chevrolet 2013 brochure): \"3,849 lbs. (manual Coupe); 3,902 (automatic Coupe)\". No Chevrolet figure for the 2010 launch year could be opened (GM's media site blocks access, and auto-brochures.com has no 2010-2011 brochure; the 2012 brochure could not be loaded), so the reference year is 2013. Chevrolet's 2015 brochure gives 3,908 lb manual and 3,946 lb automatic (chevrolet-camaro-brochure-2015). The Auto Channel's 2010 review prints 'Curb weight: 3,849 lbs.' (autochannel-camaro-ss-2010). See discrepancies. LSX Magazine's reprint headed 'OFFICIAL 2010 Camaro Specifications Fully Released by GM' gives 'SS manual: 3860/1755' alongside the preliminary 422 hp rating, so it is treated as a preliminary GM figure and not used for a 2010 reference year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-camaro-brochure-2013",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by auto-brochures.com)",
+      "title": "2013 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2013.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by auto-brochures.com)",
+      "title": "2015 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2015.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2016",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by auto-brochures.com)",
+      "title": "2016 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2016.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "chevrolet-camaro-ss-motor1-2009",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by Motor1)",
+      "title": "2010 Chevrolet Camaro SS: In Detail",
+      "url": "https://www.motor1.com/news/79675/chevrolet-camaro-ss/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lsxmag-2010-camaro-specs",
+      "type": "publication",
+      "publisher": "LSX Magazine",
+      "title": "OFFICIAL 2010 Camaro Specifications Fully Released by GM",
+      "url": "https://www.lsxmag.com/?p=17027",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autochannel-camaro-ss-2010",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2010 Chevrolet Camaro SS Review",
+      "url": "https://www2020.theautochannel.com/news/2010/05/18/478581.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "automotiveaddicts-camaro-ss-2010",
+      "type": "publication",
+      "publisher": "Automotive Addicts",
+      "title": "2010 Chevrolet Camaro SS Review & Test Drive",
+      "url": "https://www.automotiveaddicts.com/12720/2010-chevrolet-camaro-ss-review-test-drive",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3849,
+          "sourceId": "chevrolet-camaro-brochure-2013"
+        },
+        {
+          "value": 3860,
+          "sourceId": "lsxmag-2010-camaro-specs"
+        },
+        {
+          "value": 3908,
+          "sourceId": "chevrolet-camaro-brochure-2015"
+        }
+      ],
+      "reason": "Model year and preliminary data. 3,849 lb is Chevrolet's 2013 brochure figure for the manual coupe. 3,860 lb ('3860/1755 - SS w/manual') is GM's early 2010 specification release as printed by LSX Magazine, which also still gave the preliminary 422 hp; Automotive Addicts' 2010 review also prints 'Curb Weight: 3860 lbs.' (automotiveaddicts-camaro-ss-2010). 3,908 lb is Chevrolet's 2015 brochure figure after the 2014 restyle.",
+      "resolution": "Used Chevrolet's own 3,849 lb for the 2013 reference year. The Auto Channel's 2010 review prints the same 3,849 lb."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 426,
+          "sourceId": "chevrolet-camaro-brochure-2013"
+        },
+        {
+          "value": 422,
+          "sourceId": "lsxmag-2010-camaro-specs"
+        }
+      ],
+      "reason": "Preliminary rating. GM's early 2010 specifications gave the LS3 422 hp; Chevrolet's launch material and every later brochure give 426 hp.",
+      "resolution": "Used the final 426 hp rating."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

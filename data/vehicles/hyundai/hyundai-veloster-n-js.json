@@ -1,0 +1,171 @@
+{
+  "id": "hyundai-veloster-n-js",
+  "manufacturer": "Hyundai",
+  "model": "Veloster",
+  "generation": "JS",
+  "variant": "N",
+  "subVariant": null,
+  "displayName": "Hyundai Veloster N (JS)",
+  "aliases": [
+    "Veloster N",
+    "JS Veloster N",
+    "Veloster N Performance Package",
+    "N DCT",
+    "2019 Veloster N",
+    "2021 Veloster N"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2022
+    },
+    "sourceId": "hyundai-us-2019-veloster-n-pricing",
+    "note": "US model years. First: Hyundai's pricing release says \"All 2019 Veloster N models feature a manual transmission and will begin arriving at dealerships in December\" (2018). Last: Hyundai published 2022 Veloster N specifications (hyundai-us-2022-veloster-n-specs); Motor Authority (Joel Feder, 30 June 2022) reports \"Hyundai confirmed to Motor Authority the production of Veloster N ends in July\" and that it \"will not return for the 2023 model year\" (motorauthority-veloster-n-discontinued)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "motorauthority-veloster-n-discontinued",
+    "note": "Described as a 'hot hatchback'. Hyundai's spec sheets do not name the body type."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "hyundai-us-2021-veloster-n-specs",
+      "note": "'Theta 2.0 Turbo GDI 4-cylinder'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "hyundai-us-2021-veloster-n-specs",
+      "note": "1,998 cc ('Theta 2.0 Turbo GDI 4-cylinder 1,998cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "hyundai-us-2022-veloster-n-specs",
+      "note": "'(twin-scroll turbocharger)': a single twin-scroll turbo."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hyundai-us-2021-veloster-n-specs",
+    "note": "'Premium Unleaded'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "hyundai-us-2022-veloster-n-specs",
+    "note": "'Drive Configuration FWD'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed DCT"
+    ],
+    "sourceId": "hyundai-us-2022-veloster-n-specs",
+    "note": "'6-speed manual with Hillstart Assist Control' and '8-speed Wet Dual Clutch Transmission with paddle shifters, (N DCT)'. The DCT was added for 2021; 2019 cars were manual only ('All 2019 Veloster N models feature a manual transmission', hyundai-us-2019-veloster-n-pricing)."
+  },
+  "powerHp": {
+    "value": 250,
+    "sourceId": "hyundai-us-2019-veloster-n-specs",
+    "note": "The standard car's rating at launch. Quote (Hyundai 2019 Veloster N specifications): \"Horsepower STD: 250 @ 6,000 RPM OPT: 275 @ 6,000 RPM\"; Hyundai's pricing release names the two cars as 'the standard manual transmission model' and 'the Performance Package model' with 'up to 275 horsepower' (hyundai-us-2019-veloster-n-pricing). From 2021 only the 275 hp car was sold: Carscoops (Michael Karkafiris, July 2020) says the 2021 car 'will be available only with the more powerful 275 HP Performance Package' (carscoops-2021-veloster-n); Hyundai's 2021 and 2022 sheets give \"Horsepower (HP): 275 @ 6000 rpm\" (hyundai-us-2021-veloster-n-specs, hyundai-us-2022-veloster-n-specs). The 250 hp standard car was therefore the base car for 2019 and, as far as found, 2020: half of the four model years. Under the guide a later rating replaces the launch rating only if it covered more than half the run, so the launch rating is used. No Hyundai document for 2020 was found."
+  },
+  "weightLb": {
+    "value": 3036,
+    "sourceId": "hyundai-us-2019-veloster-n-specs",
+    "note": "Standard (250 hp) car, 6-speed manual (the only 2019 transmission), 2019 model. Quote (Hyundai 2019 specifications): \"Curb Weight STD: 3,036-3,047 OPT: 3,106-3,117\". Hyundai gives a range for the standard car; the lower figure is the car with standard equipment and is used. The 275 hp car weighs 3,106 lb with the manual in 2021 and 2022 (\"MT: 3,106 / DCT: 3,247\", hyundai-us-2021-veloster-n-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hyundai-us-2021-veloster-n-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "2021 Veloster N Specifications",
+      "url": "https://www.hyundainews.com/assets/documents/original/42778-2021VelosterNProductGuidespecs.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hyundai-us-2022-veloster-n-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "2022 Veloster N Specifications",
+      "url": "https://www.hyundainews.com/assets/documents/original/48859-2022VelosterNProductspecs113021.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hyundai-us-2019-veloster-n-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "2019 Veloster N Specifications",
+      "url": "https://www.hyundainews.com/assets/documents/original/34548-2019VelosterNSpecificationsFINAL101618docx.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hyundai-us-2019-veloster-n-pricing",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "Hyundai Announces Veloster N Pricing: Performance Package Model Starts Under $30,000",
+      "url": "https://www.hyundainews.com/assets/documents/original/34747-2019HyundaiVelosterNPricingRelease111318ab.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-veloster-n-discontinued",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Hyundai Veloster N discontinued due to Elantra N and Kona N arrival",
+      "url": "https://www.motorauthority.com/news/1136353_hyundai-veloster-n-discontinued",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscoops-2021-veloster-n",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "2021 Hyundai Veloster N Ditches Base 250 HP Model, Arrives In US This October",
+      "url": "https://www.carscoops.com/2020/07/2021-hyundai-veloster-n-ditches-base-250-hp-model-arrives-in-us-this-october/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 250,
+          "sourceId": "hyundai-us-2019-veloster-n-specs"
+        },
+        {
+          "value": 275,
+          "sourceId": "hyundai-us-2021-veloster-n-specs"
+        }
+      ],
+      "reason": "Model year and equipment: in 2019 the standard car was rated 250 hp and the Performance Package car 275 hp; from 2021 only the 275 hp car was sold.",
+      "resolution": "Used the launch rating of the standard car, 250 hp, because the 275 hp-only years were not more than half the run."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3036,
+          "sourceId": "hyundai-us-2019-veloster-n-specs"
+        },
+        {
+          "value": 3106,
+          "sourceId": "hyundai-us-2021-veloster-n-specs"
+        }
+      ],
+      "reason": "Equipment: 3,036 lb is the 2019 standard car; 3,106 lb is the 275 hp Performance Package car, the only version from 2021.",
+      "resolution": "Used 3,036 lb, the standard car at the reference year 2019."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

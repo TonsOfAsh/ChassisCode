@@ -1,0 +1,159 @@
+{
+  "id": "honda-civic-si-fe1",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "FE1",
+  "variant": "Si",
+  "subVariant": null,
+  "displayName": "Honda Civic Si (FE1)",
+  "aliases": [
+    "FE1",
+    "FE1 Si",
+    "Civic Si FE1",
+    "11th-gen Civic Si",
+    "2022 Civic Si",
+    "Civic Si HPT"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2026
+    },
+    "sourceId": "honda-si-2022-specs",
+    "note": "US model years. First: American Honda's 2022 Civic Si pages say \"For the 2022 model year, the Civic Si has been totally reimagined\" (honda-si-2022-whats-new). Last: American Honda's 23 July 2026 release says \"Production of the current Honda Civic Si will pause at the conclusion of the 2026 model year\" (honda-si-2026-pause); dealer stock was expected to last into early 2027."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "honda-si-2022-highlights",
+    "note": "'All 2022 Civic Sedan models—including the new Civic Si'. The 11th-generation Si was not offered as a coupe or hatchback."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-si-2022-specs",
+      "note": "'In-Line 4-Cylinder with Turbocharger'"
+    },
+    "displacementL": {
+      "value": 1.5,
+      "sourceId": "honda-si-2022-specs",
+      "note": "1,498 cc ('1498 cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "honda-si-2022-specs",
+      "note": "'In-Line 4-Cylinder with Turbocharger'; single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-si-2022-specs",
+    "note": "'Regular Unleaded (Premium Recommended)'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "thedrive-2022-si-first-drive",
+    "note": "The Drive (Kristen Lee) spec line: 'Powertrain: 1.5-liter turbo four-cylinder | 6-speed manual | front-wheel drive'. Honda: 'Helical Limited-Slip Differential'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-si-2022-specs",
+    "note": "'6-Speed Manual Transmission (6MT) with Rev-Match Control'; no other transmission was offered."
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "honda-si-2022-specs",
+    "note": "Quote: \"Horsepower (SAE net)* | 200 @ 6000 rpm | 200 @ 6000 rpm\". Feature highlights (honda-si-2022-highlights): \"The Civic Si powerplant produces an exhilarating 200-hp rush from its 1.5-liter turbocharged engine.\""
+  },
+  "weightLb": {
+    "value": 2906,
+    "sourceId": "honda-si-2022-specs",
+    "note": "Single trim, 6-speed manual, 2022 model. Quote: \"Curb Weight | 2906 lbs | 2906 lbs\" (both columns of the 2022 table). American Honda's consumer site gives 2,952 lb for the 2026 model ('Curb Weight (lbs.) 2,952', honda-si-2026-specs). The Drive's 2022 first-drive specification box prints 'Curb weight: 2,952 pounds' for the 2022 car (thedrive-2022-si-first-drive)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "honda-si-2022-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondainfocenter.com)",
+      "title": "2022 Civic Si Specifications",
+      "url": "https://www.hondainfocenter.com/2022/Civic-Si/Feature-Guide/Civic-Si-Specifications/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-si-2022-highlights",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondainfocenter.com)",
+      "title": "2022 Civic Si Feature Highlights",
+      "url": "https://www.hondainfocenter.com/2022/Civic-Si/Feature-Guide/Feature-Highlights/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-si-2022-whats-new",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondainfocenter.com)",
+      "title": "2022 Civic Si What's New",
+      "url": "https://www.hondainfocenter.com/2022/Civic-Si/Feature-Guide/Whats-New/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-si-2026-pause",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "Honda Civic Si Production to Pause at the Conclusion of the 2026 Model Year; Si Will Return to the Honda Lineup in the Coming Years",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-aa20ad9f0ac420f1adff7b44410809c6-honda-civic-si-production-to-pause-at-the-conclusion-of-the-2026-model-year-si-will-return-to-the-honda-lineup-in-the-coming-years",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-si-2026-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda (automobiles.honda.com)",
+      "title": "2026 Civic Si Features & Specs",
+      "url": "https://automobiles.honda.com/2022/civic-si-sedan/specs-features-trim-comparison",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-2022-si-first-drive",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2022 Honda Civic Si First Drive Review: Still the Cheap Fun Champ",
+      "url": "https://www.thedrive.com/new-cars/43138/2022-honda-civic-si-first-drive-review-still-the-cheap-fun-champ",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2906,
+          "sourceId": "honda-si-2022-specs"
+        },
+        {
+          "value": 2952,
+          "sourceId": "honda-si-2026-specs"
+        },
+        {
+          "value": 2952,
+          "sourceId": "thedrive-2022-si-first-drive"
+        }
+      ],
+      "reason": "American Honda's 2022 specification table gives 2,906 lb; Honda's current consumer site gives 2,952 lb for the 2026 car, and The Drive's 2022 specification box also prints 2,952 lb. Whether Honda revised the 2022 figure or the weight changed with model year is not stated on any page opened.",
+      "resolution": "Used 2,906 lb, American Honda's own figure for the reference model year 2022, which outranks a publication's figure under the weight order."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

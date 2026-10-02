@@ -1,0 +1,163 @@
+{
+  "id": "nissan-370z-z34",
+  "manufacturer": "Nissan",
+  "model": "370Z",
+  "generation": "Z34",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Nissan 370Z (Z34)",
+  "aliases": [
+    "Z34",
+    "Z34 370Z",
+    "370Z Coupe",
+    "370Z Sport",
+    "370Z Touring",
+    "370Z Sport Touring",
+    "VQ37VHR",
+    "SynchroRev Match",
+    "370Z 50th Anniversary Edition",
+    "2009 370Z"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": { "startYear": 2009, "endYear": 2020 },
+    "sourceId": "nissan-us-2009-370z-brochure",
+    "note": "US model years. First: Nissan's 2009 370Z brochure. Last: the latest Nissan US press kit for this car is the 2020 370Z Coupe kit, the 50th-anniversary year (nissan-us-2020-370z-press-kit); its successor is the 2023 Nissan Z (nissan-us-2023-z-press-kit). No opened Nissan page says in so many words that 2020 was the last model year."
+  },
+  "body": {
+    "value": ["Coupe"],
+    "sourceId": "nissan-us-2020-370z-press-kit",
+    "note": "Coupe only in this record. Nissan also sold a 370Z Roadster (mentioned in the 2013 and 2014 coupe kits, nissan-us-2013-370z-press-kit) under its own press kits; it is not included here. The NISMO is a separate variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2009-370z-brochure",
+      "note": "'VQ37VHR – 3.7-liter DOHC 24-valve V6 aluminum-alloy engine'"
+    },
+    "displacementL": {
+      "value": 3.7,
+      "sourceId": "nissan-us-2020-370z-press-kit",
+      "note": "Nissan's US tables give litres only ('Displacement (liters) | 3.7', also in the 2015 kit, nissan-us-2015-370z-press-kit); no cc figure was found on an opened Nissan page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "nissan-us-2009-370z-brochure",
+      "note": "Inferred: the brochure describes a DOHC V6 with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2009-370z-brochure",
+    "note": "Inferred from Nissan's description of a conventional V6."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "nissan-us-2020-370z-press-kit",
+    "note": "'mid-mounted front-engine / rear-wheel drive'"
+  },
+  "transmission": {
+    "value": ["6-speed Manual", "7-speed Automatic"],
+    "sourceId": "nissan-us-2009-370z-brochure",
+    "note": "'6-speed close-ratio manual transmission' and 'Optional: 7-speed automatic transmission with manual shift mode, paddle shifters and Downshift Rev Matching'. Same choice in 2020 (6MT and 7AT columns, nissan-us-2020-370z-press-kit)."
+  },
+  "powerHp": {
+    "value": 332,
+    "sourceId": "nissan-us-2020-370z-press-kit",
+    "note": "370Z Coupe, 2020 model year. Quote (specifications table): \"332 @ 7,000 RPM\". The rating did not change over the run: 2009 brochure \"332 hp @ 7,000 rpm\" (nissan-us-2009-370z-brochure); 2013 \"332 @ 7,000 RPM\" (nissan-us-2013-370z-press-kit); 2015 \"Horsepower | 332 @ 7,000 RPM\" (nissan-us-2015-370z-press-kit); 2017 \"332 @ 7,000 RPM\" (nissan-us-2017-370z-press-kit). The 370Z NISMO (350 hp) is a separate variant."
+  },
+  "weightLb": {
+    "value": 3333,
+    "sourceId": "nissan-us-2020-370z-press-kit",
+    "note": "370Z Coupe (base grade), 6-speed manual, 2020 model year. Quote (curb weight table, lbs; front / rear / total): 370Z 6MT \"1,845   1,488   3,333\". Same table: 370Z 7AT 3,362; Sport 6MT 3,386, 7AT 3,413; Sport Touring 7AT 3,439. Reference year is 2020 because it is the only year for which a qualifying weight was read: the 2013, 2014, 2015, 2017, 2018 and 2019 Nissan kits were truncated by the fetch tool before their weight tables, and the 2009 brochure has no weight. A 2009 figure of 3,232 lb appears only in sources that do not qualify (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2020-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2020 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2020-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2009-370z-brochure",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (brochure hosted by auto-brochures.com)",
+      "title": "2009 Nissan 370Z brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Nissan/370Z/Nissan_US%20370Z_2009.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2013-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2013 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2013-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2015-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2015 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2015-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2017-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2017 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2017-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2023-z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2023 Nissan Z Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2023-nissan-z-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "foxnews-2009-370z",
+      "type": "publication",
+      "publisher": "Fox News (Gary Gastelu)",
+      "title": "2009 Nissan 370Z (18 June 2009)",
+      "url": "https://www.foxnews.com/story/2009-nissan-370z.amp",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lasvegassun-2009-370z",
+      "type": "publication",
+      "publisher": "Las Vegas Sun",
+      "title": "2009 Nissan 370Z (27 March 2009)",
+      "url": "https://lasvegassun.com/news/2009/mar/27/2009-nissan-370z/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        { "value": 3333, "sourceId": "nissan-us-2020-370z-press-kit" },
+        { "value": 3232, "sourceId": "lasvegassun-2009-370z" }
+      ],
+      "reason": "Model year, and source quality. Nissan's 2020 kit gives 3,333 lb for the base 6MT coupe. For 2009, the Las Vegas Sun spec block (no byline) gives \"CURB WEIGHT: 3,232 pounds.\" and Fox News (Gary Gastelu, testing a Sport-package car) says \"in a coupe that weighs 3,232 pounds it's plenty\" (foxnews-2009-370z). Neither meets the weight order: not a major magazine panel, and not two independent outlets with named authors for the standard car.",
+      "resolution": "Used Nissan's 3,333 lb with reference model year 2020."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Reference year. The guide wants the earliest year with a qualifying weight; 2020 is the earliest that could be read, because Nissan's 2013-2019 kits were truncated before the weight table. If a Nissan figure for 2009 (likely 3,232 lb) can be read, the reference year should move to 2009. Also decide whether the 370Z Roadster belongs in this record as a Convertible body or in a separate record.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

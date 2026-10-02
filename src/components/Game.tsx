@@ -54,7 +54,12 @@ function formatCountdown(ms: number): string {
 
 function formatDailyDate(date: string): string {
   const [y, m, d] = date.split('-').map(Number);
-  return new Date(Date.UTC(y!, m! - 1, d!)).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  return new Date(Date.UTC(y!, m! - 1, d!)).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
 }
 
 export function Game({ cars }: { cars: CarOption[] }) {
@@ -264,7 +269,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
             </div>
             {kind === 'daily' && daily?.daily && (
               <p className="daily-label">
-                #{daily.daily.number} · {formatDailyDate(daily.daily.date)} · Normal
+                {formatDailyDate(daily.daily.date)}
               </p>
             )}
           </div>

@@ -1,0 +1,132 @@
+{
+  "id": "bmw-m2-g87",
+  "manufacturer": "BMW",
+  "model": "M2",
+  "generation": "G87",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M2 (G87)",
+  "aliases": [
+    "G87 M2",
+    "M2 G87",
+    "S58",
+    "M Steptronic",
+    "2023 M2",
+    "2025 M2"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "motor1-2023-m2-debut",
+    "note": "US model years. First: Motor1's report (source: BMW) is titled '2023 BMW M2 Debuts With 453-HP I6' and says 'The automaker plans to launch the coupe in the US market in April of 2023'; WardsAuto (Greg Kable) refers to 'the '23 M2', 'Set for deliveries during first-quarter 2023' (wards-2023-m2). No BMW NA page for the 2023 launch was opened. Still on sale: BMW NA's 2026 release on the M2 with M xDrive speaks of 'The new 2027 BMW M2 with M xDrive ... expanding the breadth of the M2 model line-up' (bmw-us-2027-m2-xdrive-release), and on 2026-10-01 bmwusa.com listed the rear-wheel-drive manual M2 ('473 @ 6,250', '3,814 lbs') (bmwusa-m2-tech)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2025-m2-release",
+    "note": "Doors / seats '2 / 4'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2025-m2-release",
+      "note": "'inline 6-cylinder in-line engine with M TwinPower Turbo technology'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2025-m2-release",
+      "note": "2,993 cc ('Capacity (CC): 2,993')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2025-m2-release",
+      "note": "'two mono-scroll turbochargers'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2025-m2-release",
+    "note": "Inferred from the release's description of the gasoline S58 inline-6."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2025-m2-release",
+    "note": "'rear-wheel-drive'. The M2 with M xDrive (all-wheel drive, automatic only, 3,988 lb) was added for model year 2027 as its own model (bmw-us-2027-m2-xdrive-release) and is not part of this record."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2025-m2-release",
+    "note": "'Type | 6-sp. manual | 8-sp. M Steptronic' (M Steptronic is a torque-converter automatic). At launch WardsAuto reports a '6-speed manual gearbox as standard in the North American market' and an 'optional 8-speed, automatic' (wards-2023-m2)."
+  },
+  "powerHp": {
+    "value": 473,
+    "sourceId": "bmw-us-2025-m2-release",
+    "note": "2025 rating, manual and automatic. Quote: \"Max output (hp @ RPM) | 473 @ 6,250\". Also: \"Front and center of this fresh round of updates is the 20 hp added to its output: the high-revving inline 6-cylinder in-line engine with M TwinPower Turbo technology now tops out at 473 hp.\" The 2023 and 2024 cars were rated 453 hp: Motor1 'produces 453 horsepower' (motor1-2023-m2-debut), WardsAuto '453 hp at 6,250 rpm' (wards-2023-m2); no BMW NA page for those years was opened. The 473 hp rating covers model years 2025 to 2027 (bmwusa-m2-tech, bmw-us-2027-m2-xdrive-release), more than half of the run, so the reference year is 2025."
+  },
+  "weightLb": {
+    "value": 3814,
+    "sourceId": "bmw-us-2025-m2-release",
+    "note": "2025 M2 with the 6-speed manual. Quote: \"Curb weight (lbs) | 3,814 | 3,867\" (columns 'M2 6MT' and 'M2 8AT'). bmwusa.com gives the same 3,814 lb for the 2026 manual (bmwusa-m2-tech)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2025-m2-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "New 2025 BMW M2 (press release, June 13, 2024)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0443102EN_US/new-2025-bmw-m2",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmwusa-m2-tech",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (bmwusa.com)",
+      "title": "BMW M2 Coupe Technical Data",
+      "url": "https://www.bmwusa.com/vehicles/m-series/bmw-2-series-m-models/bmw-m2-coupe-technical-data.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2027-m2-xdrive-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The new BMW M2 with M xDrive (press release, June 3, 2026)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0458269EN_US/the-new-bmw-m2-with-m-xdrive",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motor1-2023-m2-debut",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2023 BMW M2 Debuts With 453-HP I6, $63,195 Starting Price",
+      "url": "https://www.motor1.com/news/615676/2023-bmw-m2-debuts-price/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "wards-2023-m2",
+      "type": "publication",
+      "publisher": "WardsAuto",
+      "title": "BMW Introduces 453-hp Second-Generation M2 Coupe (Greg Kable, October 11, 2022)",
+      "url": "https://www.wardsauto.com/news/archive-wards-bmw-introduces-453-hp-second-generation-m2-coup-/796447/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

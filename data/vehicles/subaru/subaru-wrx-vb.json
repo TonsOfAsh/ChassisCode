@@ -1,0 +1,132 @@
+{
+  "id": "subaru-wrx-vb",
+  "manufacturer": "Subaru",
+  "model": "WRX",
+  "generation": "VB",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Subaru WRX (VB)",
+  "aliases": [
+    "VB WRX",
+    "WRX VB",
+    "FA24",
+    "2022 WRX",
+    "WRX tS",
+    "Subaru Performance Transmission",
+    "SPT"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "subaru-us-2022-wrx-press-kit",
+    "note": "US model years. First: Subaru's press kit introduces the 'all-new 2022 WRX' and says \"The 2022 WRX will be available at Subaru retailers in early 2022\". Still on sale: Subaru of America's consumer site showed the \"2026 WRX\" from $32,495 on 2026-10-01 (subaru-us-wrx-current)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "subaru-us-2022-wrx-press-kit",
+    "note": "Described throughout as a 'sports sedan'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "subaru-us-2022-wrx-specs",
+      "note": "'DOHC 4-cylinder SUBARU BOXER high output'"
+    },
+    "displacementL": {
+      "value": 2.4,
+      "sourceId": "subaru-us-2022-wrx-specs",
+      "note": "2,387 cc ('2,387cc (146 cu. in.)')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "subaru-us-2022-wrx-specs",
+      "note": "'turbocharged with intercooler'; the press kit describes 'a turbocharger' (single)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "subaru-us-2022-wrx-specs"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "subaru-us-2022-wrx-specs",
+    "note": "Manual: 'Continuous All-Wheel Drive with viscous-coupling locking center differential'; automatic: 'Variable Torque Distribution (VTD) with planetary gear-type center differential'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "CVT"
+    ],
+    "sourceId": "subaru-us-2022-wrx-specs",
+    "note": "'Standard: 6-speed manual'; 'Standard for GT and optional for others: Subaru Performance Transmission A/T (SPT) with 8-speed manual shifting modes'. Subaru's pages do not describe the SPT's construction; Autoblog's first drive (autoblog-2022-wrx-first-drive, Byron Hurd) calls it 'a tarred-up CVT by another ... name'."
+  },
+  "powerHp": {
+    "value": 271,
+    "sourceId": "subaru-us-2022-wrx-specs",
+    "note": "Quote: \"Horsepower 271 hp @ 5,600 rpm\". Press kit (subaru-us-2022-wrx-press-kit): \"delivering 271 horsepower at 5,600 rpm\". Subaru's consumer site still quotes 271 hp for the 2026 model (subaru-us-wrx-current)."
+  },
+  "weightLb": {
+    "value": 3297,
+    "sourceId": "subaru-us-2022-wrx-specs",
+    "note": "Base trim, 6-speed manual, 2022 model. Quote: \"Base curb weight (lbs.) 6-speed manual transmission ... WRX Base: 3,297\". With the SPT the Base is 3,431 lb; the GT (SPT only) is 3,534 lb. Subaru's 2022 trim comparison (subaru-us-2022-wrx-trim-comparison) gives the same: 'Base curb weight (manual/automatic): 3,297 lbs. / 3,431 lbs.'"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "subaru-us-2022-wrx-specs",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (Subaru U.S. Media Center)",
+      "title": "2022 Subaru WRX Specifications",
+      "url": "https://media.subaru.com/download.do?id=1846",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "subaru-us-2022-wrx-press-kit",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (Subaru U.S. Media Center)",
+      "title": "2022 Subaru WRX Press Kit: Subaru Debuts the All-New 2022 WRX",
+      "url": "https://media.subaru.com/pressrelease/1847/1/2022-subaru-wrx-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "subaru-us-2022-wrx-trim-comparison",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (subaru.com)",
+      "title": "2022 WRX trim comparison",
+      "url": "https://www.subaru.com/services/vehicles/pdf/trimComparison/2022/WRX",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "subaru-us-wrx-current",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (subaru.com)",
+      "title": "2026 WRX",
+      "url": "https://www.subaru.com/vehicles/wrx.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autoblog-2022-wrx-first-drive",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "2022 Subaru WRX First Drive Review",
+      "url": "https://www.autoblog.com/2021/12/20/2022-subaru-wrx-first-drive-review/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

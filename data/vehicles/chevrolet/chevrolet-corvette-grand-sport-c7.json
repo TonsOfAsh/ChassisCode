@@ -1,0 +1,134 @@
+{
+  "id": "chevrolet-corvette-grand-sport-c7",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C7",
+  "variant": "Grand Sport",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Grand Sport (C7)",
+  "aliases": [
+    "C7 Grand Sport",
+    "Grand Sport C7",
+    "Corvette Grand Sport",
+    "C7 GS",
+    "LT1",
+    "Z07",
+    "2017 Corvette Grand Sport",
+    "Grand Sport Heritage"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2019
+    },
+    "sourceId": "gm-2017-grand-sport-release",
+    "note": "US model years 2017-2019. Start: GM's March 2016 release for the '2017 Corvette Grand Sport': 'The Corvette Grand Sport coupe and convertible go on sale this summer in the U.S.'; Chevrolet's 2017 brochure lists it (gm-2017-corvette-brochure). End: the 2019 model year price list includes '1YW07 | Corvette Grand Sport Coupe' and '1YW67 | Corvette Grand Sport Conv' (cac-2019-corvette-pricing); the C7 ended with the 2019 model year."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-2017-grand-sport-release",
+    "note": "'The Corvette Grand Sport coupe and convertible go on sale this summer in the U.S.'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2017-corvette-brochure",
+      "note": "'ENGINE 6.2L LT1 V8'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2014-lt1-specs",
+      "note": "GM's LT1 specifications: 'Displacement: 6.2L (376 cubic inches)'. No opened GM page prints the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-2017-corvette-brochure",
+      "note": "Inferred: no forced induction is mentioned for the LT1."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2017-corvette-brochure"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2017-grand-sport-release",
+    "note": "Inferred from GM's description of the front-engine Corvette with a 'Standard electronic limited-slip differential' and wider rear wheels and tires; the release does not use the words 'rear-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "gm-2017-grand-sport-release",
+    "note": "'Seven-speed manual transmission with active rev match and available eight-speed paddle-shift automatic' (a torque-converter automatic). The 2017 brochure: '7-speed manual with Active Rev Matching and launch control' and '8-speed paddle-shift with automatic mode' (gm-2017-corvette-brochure)."
+  },
+  "powerHp": {
+    "value": 460,
+    "sourceId": "gm-2017-corvette-brochure",
+    "note": "Quote (Chevrolet 2017 brochure, Grand Sport column): \"ENGINE 6.2L LT1 V8 / HORSEPOWER 460 @ 6000 rpm / TORQUE 465 lb.-ft. @ 4600 rpm\". GM's March 2016 release: \"LT1 V8 engine rated at (343 kW) 460 hp, with dry-sump oiling system and active exhaust\" (gm-2017-grand-sport-release). Unlike the Stingray, the Grand Sport has the active exhaust as standard, so 460 hp is its standard rating."
+  },
+  "weightLb": {
+    "value": 3428,
+    "sourceId": "gm-2017-corvette-brochure",
+    "note": "Coupe, 2017 model year. Quote (Chevrolet 2017 brochure): \"CURB WEIGHT 3,428 lbs. (coupe) 3,487 lbs. (convertible)\". GM gives one figure per body, not per transmission. Chevrolet's 2018 specification table gives the same: \"Curb weight, lbs. (kg)\" Grand Sport Coupe \"3428 (1555)\", Grand Sport Convertible \"3487 (1582)\" (gm-2018-corvette-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2017-corvette-brochure",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by Corvette Action Center)",
+      "title": "2017 Corvette sales brochure",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2017-c7-corvette/2017-corvette-brochure.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2017-grand-sport-release",
+      "type": "manufacturer",
+      "publisher": "GM Media (reproduced by Corvette Action Center)",
+      "title": "2017 Corvette Grand Sport Has Racing Roots",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2017-c7-corvette/2017-corvette-grand-sport.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2018-corvette-specs",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by Corvette Action Center)",
+      "title": "2018 Corvette Dimensions and Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2018-corvette/2018-corvette-dimensions-specs.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2019-corvette-pricing",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2019 Corvette Pricing",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-corvette-pricing.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2014-lt1-specs",
+      "type": "manufacturer",
+      "publisher": "General Motors (reproduced by Corvette Action Center)",
+      "title": "2014 C7 Corvette LT1 Engine Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2014-c7-corvette/2014-c7-corvette-powertrain.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

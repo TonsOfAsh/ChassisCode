@@ -1,0 +1,156 @@
+{
+  "id": "ford-mustang-gt-s650",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S650",
+  "variant": "GT",
+  "subVariant": null,
+  "displayName": "Ford Mustang GT (S650)",
+  "aliases": [
+    "Mustang GT",
+    "S650 GT",
+    "S650 Mustang",
+    "5.0",
+    "Mustang 5.0",
+    "Coyote",
+    "Gen 4 Coyote",
+    "2024 Mustang GT",
+    "SelectShift"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "motorweek-mustang-2024-power",
+    "note": "US model years from 2024, still on sale (Ford's current US site lists the 2026 Mustang GT Fastback, GT Premium Fastback and GT Premium Convertible, source ford-us-mustang-specs-2026). MotorWeek, December 15, 2022: \"the 2024 Mustang GT will conjure up to 486 horsepower from its fourth-generation 5.0-liter Coyote engine\"."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-us-mustang-specs-2026",
+    "note": "Ford calls the coupe the Fastback. Ford's weight table has \"Fastback (lbs)\" and \"Convertible (lbs)\" columns for the GT; The Drive's 2024 first drive also covers coupe and convertible (source thedrive-mustang-gt-2024)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-us-mustang-specs-2026",
+      "note": "\"5.0L Ti-VCT V-8 Engine\" (fourth-generation Coyote)."
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "ford-us-mustang-specs-2026",
+      "note": "5,038 cc. Ford's current specifications: \"307 cu.in.\"; Ford's preliminary technical specifications for the 2024 Mustang: \"307 cu. in. (5,038 cc)\" (source ford-mustang-2024-prelim-techspecs)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-us-mustang-specs-2026",
+      "note": "Ti-VCT V8 with no forced induction listed; the supercharged 5.2L engine is the Dark Horse SC's."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-us-mustang-specs-2026",
+    "note": "Ratings are given \"(93-octane fuel)\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "thedrive-mustang-gt-2024",
+    "note": "The Drive's specification box: \"5.0-liter V8 | 6-speed manual or 10-speed automatic | rear-wheel drive\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-us-mustang-specs-2026",
+    "note": "\"Standard 6-speed manual with rev matching\" and \"Available 10-speed automatic\" (torque-converter SelectShift). Same two choices from 2024: The Drive, \"6-speed manual or 10-speed automatic\" (source thedrive-mustang-gt-2024)."
+  },
+  "powerHp": {
+    "value": 480,
+    "sourceId": "ford-us-mustang-specs-2026",
+    "note": "Standard exhaust. Quote, Ford US specifications (2026 model): \"480 @ 7,150rpm (93-octane fuel)\"; with the optional active exhaust \"486 @ 7,250 rpm (active exhaust, 93-octane fuel)\". The same ratings applied from launch: MotorWeek, December 15, 2022, on the 2024 car: \"Any V8 not rocking said exhaust will instead put down 480 ponies and 415 lb-ft\" and up to 486 hp with it (source motorweek-mustang-2024-power)."
+  },
+  "weightLb": {
+    "value": 3731,
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "GT Fastback with the 6-speed manual, 2026 model. Quote (Ford's 2026 Mustang Technical Specifications, row 'Curb Weight (lbs.)'): GT Fastback manual 3,731, automatic 3,766; GT Convertible manual 3,930, automatic 3,952. Ford's consumer site gives the same figures under the heading \"Estimated Base Curb Weights\" (ford-us-mustang-specs-2026). Ford's preliminary specifications for the 2024 Mustang (Sept. 14, 2022) gave \"Est. curb weight, fastback manual 3,730 lbs.\" (ford-mustang-2024-prelim-techspecs); no final Ford figure for 2024 or 2025 could be opened, so the reference year is 2026."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-2026-techspecs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (document hosted on the Mustang7G forum)",
+      "title": "2026 Ford Mustang Technical Specifications (07/20/26 v 1.1)",
+      "url": "https://www.mustang7g.com/forums/attachments/2026_mustang_technical_specs-pdf.621639/",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "ford-us-mustang-specs-2026",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (Ford.com)",
+      "title": "2026 Ford Mustang specifications",
+      "url": "https://www.ford.com/cars/mustang/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ford-mustang-2024-prelim-techspecs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (technical specifications PDF posted on the Mustang7G forum)",
+      "title": "Preliminary Technical Specifications, 2024 Ford Mustang (as of Sept. 14, 2022)",
+      "url": "https://www.mustang7g.com/forums/attachments/2024-mustang-technical-specifications-pdf.557718",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-mustang-2024-power",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2024 Ford Mustang Performance Figures Revealed, GT Dishes Out 486 HP (December 15, 2022)",
+      "url": "https://motorweek.org/this_just_in/2024-ford-mustang-performance-figures-revealed-gt-dishes-out-486-hp",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-mustang-gt-2024",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2024 Ford Mustang GT First Drive Review, by Peter Nelson (July 25, 2023)",
+      "url": "https://www.thedrive.com/car-reviews/2024-ford-mustang-gt-first-drive-review-specs-price-options-impressions",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3731,
+          "sourceId": "ford-mustang-2026-techspecs"
+        },
+        {
+          "value": 3730,
+          "sourceId": "ford-mustang-2024-prelim-techspecs"
+        },
+        {
+          "value": 3827,
+          "sourceId": "thedrive-mustang-gt-2024"
+        }
+      ],
+      "reason": "Model year and source: 3,731 lb is Ford's 2026 technical-specification curb weight for the GT Fastback manual; 3,730 lb is Ford's preliminary September 2022 figure for the 2024 car; 3,827 lb is the curb weight in The Drive's specification box for the 2024 GT (\"Curb weight: 3,827 pounds\"), which does not say which trim or transmission it describes (the same box lists the active-exhaust 486 hp and a price range \"$44,090 ($50,310)\", so it may describe an optioned or Premium car).",
+      "resolution": "Used Ford's 3,731 lb, a manufacturer figure for the stated configuration, which agrees with Ford's 2024 preliminary figure to within 1 lb."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

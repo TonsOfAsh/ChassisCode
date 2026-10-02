@@ -1,0 +1,138 @@
+{
+  "id": "cadillac-ct4-v-blackwing",
+  "manufacturer": "Cadillac",
+  "model": "CT4-V",
+  "generation": null,
+  "variant": "Blackwing",
+  "subVariant": null,
+  "displayName": "Cadillac CT4-V Blackwing",
+  "aliases": [
+    "CT4 Blackwing",
+    "CT4-V BW",
+    "CT4V Blackwing",
+    "LF4",
+    "TR6060"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2026
+    },
+    "sourceId": "cadillac-blackwing-release-2021",
+    "note": "US model years 2022-2026. Start: Cadillac, 10 August 2021: 'The 2022 Cadillac CT4-V Blackwing and CT5-V Blackwing luxury sport sedans are here'. End: cadillac.com lists a 2026 CT4-V Blackwing (cadillac-ct4v-blackwing-specs-2026); Carscoops (8 April 2026): 'Production officially wraps on June 25 at GM's Lansing Grand River Assembly plant in Michigan' (carscoops-ct4-end-2026); GM Authority (29 July 2026), '2026 Cadillac CT4-V Blackwing Inventory Winding Down': 'Cadillac has officially wrapped up production of the CT4 at the GM Lansing Grand River Assembly plant' (gmauthority-ct4-end-2026)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "cadillac-blackwing-release-2021",
+    "note": "'luxury sport sedans'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "cadillac-blackwing-release-2021",
+      "note": "'Cadillac 3.6L Twin-Turbo V-6'"
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "cadillac-blackwing-release-2021",
+      "note": "Cadillac gives '3.6L' only; no opened page prints the cc figure. GM Authority names the engine 'Twin-Turbo 3.6L V6 LF4' (gmauthority-blackwing-weights-2021)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "cadillac-blackwing-release-2021",
+      "note": "'3.6L Twin-Turbo V-6'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cadillac-blackwing-release-2021"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "thedrive-ct4v-blackwing-2021",
+    "note": "The Drive's spec box: 'Drivetrain: Rear-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
+    "sourceId": "cadillac-blackwing-release-2021",
+    "note": "'Each model is offered with a standard six-speed manual gearbox or an available 10-speed paddle-shift automatic transmission.' cadillac.com for 2026: '6-SPEED MANUAL', '10-speed automatic available' (cadillac-ct4v-blackwing-specs-2026)."
+  },
+  "powerHp": {
+    "value": 472,
+    "sourceId": "cadillac-blackwing-release-2021",
+    "note": "Quote (Cadillac, 10 August 2021): \"the CT4-V Blackwing is driven by an evolution of the Cadillac 3.6L Twin-Turbo V-6, which is rated 472 hp (352 kW) and 445 lb-ft of torque (603 Nm).\" cadillac.com's 2026 specifications: \"472 with premium gasoline\" (cadillac-ct4v-blackwing-specs-2026), so the rating did not change."
+  },
+  "weightLb": {
+    "value": 3860,
+    "sourceId": "thedrive-ct4v-blackwing-2021",
+    "note": "Manual, 2022 model year. Weight-order step 2: no Cadillac curb weight for the CT4-V Blackwing could be found, so the figure is the same one reported by two independent editorial outlets with named authors. Quote (The Drive, Kristen Lee, 3 Aug 2021, spec box): \"Curb weight: 3,860 pounds (manual) | 3,900 pounds (automatic)\". Quote (GM Authority, Jonathan Lopez, 2 May 2021): \"manual-equipped models weighing 3,860 pounds (versus 3,760 pounds for the ATS-V) and automatic-equipped models weighing 3,900 pounds\" (gmauthority-blackwing-weights-2021)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cadillac-blackwing-release-2021",
+      "type": "manufacturer",
+      "publisher": "Cadillac",
+      "title": "The V-Series Blackwings Have Landed",
+      "url": "https://news.cadillac.com/newsroom.detail.html/Pages/news/us/en/2021/aug/0810-blackwing.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-ct4v-blackwing-2021",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2022 Cadillac CT4-V Blackwing First Drive Review: American Performance Keeps the Manual Alive",
+      "url": "https://thedrive.com/new-cars/41696/2022-cadillac-ct4-v-blackwing-first-drive-review-american-performance-keeps-the-manual-alive",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-blackwing-weights-2021",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2022 Cadillac Blackwing Sedan Curb Weights Revealed",
+      "url": "https://gmauthority.com/blog/2021/05/2022-cadillac-blackwing-sedan-curb-weights-revealed/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cadillac-ct4v-blackwing-specs-2026",
+      "type": "manufacturer",
+      "publisher": "Cadillac",
+      "title": "2026 Cadillac CT4-V Blackwing specifications (cadillac.com)",
+      "url": "https://www.cadillac.com/sedans/preceding-year/ct4-v-blackwing/specs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscoops-ct4-end-2026",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "Cadillac CT4 production end",
+      "url": "https://www.carscoops.com/2026/04/cadillac-ct4-production-end/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-ct4-end-2026",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2026 Cadillac CT4-V Blackwing Inventory Winding Down",
+      "url": "https://gmauthority.com/blog/2026/07/2026-cadillac-ct4-v-blackwing-inventory-winding-down/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

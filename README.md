@@ -5,7 +5,7 @@ exact car, and gets another specification after each wrong guess.
 
 ## Status
 
-The database is at 84 cars. The game has a Daily puzzle and an Unlimited mode, a car search, a
+The database is at 104 cars. The game has a Daily puzzle and an Unlimited mode, a car search, a
 guess comparison, and statistics and streaks kept on the player's device.
 
 ## Daily and Unlimited

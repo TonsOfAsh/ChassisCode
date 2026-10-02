@@ -136,7 +136,8 @@ export const NO_PRIORITY: Priority = { first: [], soon: [] };
  * Cayman GT4 and the 911 GT3. A player who has narrowed it down to those cars
  * would otherwise be guessing until the deciding clue happened to come up.
  *
- * - A twin that differs in one clue: that clue is revealed first or second.
+ * - A twin that differs in one clue: that clue is revealed first or second
+ *   (manufacturer comes straight after country, so second or third).
  * - Otherwise, twins that differ in two clues: the one clue that tells apart
  *   the most of them (power when it ties) is revealed within the first four.
  *
@@ -182,7 +183,12 @@ export function drawClueOrder(mode: Mode, random: () => number = Math.random, pr
   const easy: readonly ClueId[] = CLUE_TIERS.easy;
   // In Easy mode an easy clue is already among the first three, so it stays put.
   const movable = (ids: ClueId[]) => ids.filter((id) => tiered.includes(id) && !(mode === 'easy' && easy.includes(id)));
-  const first = shuffle(movable(priority.first), random);
+  let first = shuffle(movable(priority.first), random);
+  // A clue that must come after another (manufacturer after country) brings that one along, just before it.
+  for (const [a, z] of BEFORE_RULES) {
+    const i = first.indexOf(z);
+    if (i !== -1 && !first.includes(a) && tiered.includes(a)) first = [...first.slice(0, i), a, ...first.slice(i)];
+  }
   const soon = movable(priority.soon);
   if (first.length > 0) {
     tiered = tiered.filter((id) => !first.includes(id));

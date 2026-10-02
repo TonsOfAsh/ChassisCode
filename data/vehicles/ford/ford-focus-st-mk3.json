@@ -1,0 +1,170 @@
+{
+  "id": "ford-focus-st-mk3",
+  "manufacturer": "Ford",
+  "model": "Focus",
+  "generation": "Mk3",
+  "variant": "ST",
+  "subVariant": null,
+  "displayName": "Ford Focus ST (Mk3)",
+  "aliases": [
+    "Focus ST",
+    "Mk3 Focus ST",
+    "Focus ST Mk3",
+    "EcoBoost",
+    "2013 Focus ST"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2018
+    },
+    "sourceId": "ford-us-focus-brochure-2013",
+    "note": "US model years. Start: Ford's 2013 Focus brochure includes the Focus ST; Ford opened US orders on May 1, 2012 (source ford-focus-st-order-release-2012). End: Ford's 2018 Focus brochure still lists the ST with \"252 hp @ 5,500 rpm\" and the \"6-speed manual\" (source ford-us-focus-brochure-2018); auto-brochures.com lists no US Focus brochure after 2018, and Ford Authority says the third-generation Focus \"has already ended production in North America\" (source fordauthority-focus). No opened Ford page says in so many words that 2018 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "ford-us-focus-brochure-2013",
+    "note": "Sold in the US only as the five-door hatchback (\"ST Hatchback\"). The Auto Channel: \"transverse front engine, front-wheel drive\" (source autochannel-focus-st-2013)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "ford-us-focus-brochure-2013",
+      "note": "\"2.0L EcoBoost® I-4 engine\"."
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "autochannel-focus-st-2013",
+      "note": "The Auto Channel's specifications: \"2.0 liters / 122 cu. in.\" No opened page gives the exact cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "automotiveaddicts-focus-st-2013",
+      "note": "\"2.0-liter DOHC Turbocharged 4-cylinder\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-us-focus-brochure-2013",
+    "note": "Brochure horsepower footnote: \"Figures achieved using premium unleaded fuel\"."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "autochannel-focus-st-2013",
+    "note": "\"transverse front engine, front-wheel drive\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-us-focus-brochure-2013",
+    "note": "\"6-speed manual transmission\". Automotive Addicts: \"6-speed manual transmission, the only one offered on the new 2013 Focus ST\" (source automotiveaddicts-focus-st-2013). The 2018 brochure also lists only the 6-speed manual for the ST."
+  },
+  "powerHp": {
+    "value": 252,
+    "sourceId": "ford-focus-st-order-release-2012",
+    "note": "Quote, Ford release of May 1, 2012: \"SAE-certified at 252 horsepower and 270 lb.-ft. of torque from efficient 2.0-liter EcoBoost® engine\". Ford's 2013 brochure: \"252 @ 5,500 rpm\" (footnote: \"Figures achieved using premium unleaded fuel\"); the 2018 brochure: \"252 hp @ 5,500 rpm\", so the rating did not change over the run."
+  },
+  "weightLb": {
+    "value": 3223,
+    "sourceId": "autochannel-focus-st-2013",
+    "note": "No Ford curb weight could be opened, so this rests on publications (weight step 2: the same figure from two independent outlets with named authors). Quote, The Auto Channel, Carey Russ, May 30, 2013, 2013 Focus ST specifications: \"Curb Weight 3223 lbs.\" Quote, Carpages.ca, Dan Heyman, July 8, 2013, \"2013 Ford Focus ST – Specifications\": \"Curb weight: 1,462 kg (3,223 lbs.)\" (source carpages-focus-st-2013; a Canadian outlet reviewing the same car). The Associated Press fact sheet for the 2014 Focus ST also gives \"CURB WEIGHT: 3,223 pounds.\" (source ap-focus-st-2014). The only transmission is the 6-speed manual. See discrepancies. The Auto Channel's figure is for a US car; Carpages.ca reviews the Canadian car, which shares the US specification; the Associated Press US fact sheet for the 2014 car (no named author) also gives 'CURB WEIGHT: 3,223 pounds.'"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-focus-st-order-release-2012",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (archived copy of Ford's News Center hosted by San Diego State University)",
+      "title": "Order Bank Opens for New High Performance Ford Focus ST (May 1, 2012)",
+      "url": "https://ophelia.sdsu.edu:8443/ford/06-03-2012/news-center/press-releases-detail/pr-order-bank-opens-for-new-high-36442.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ford-us-focus-brochure-2013",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2013 Ford Focus brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Focus/Ford_US%20Focus_2013.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ford-us-focus-brochure-2018",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2018 Ford Focus brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Focus/Ford_US%20Focus_2018.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autochannel-focus-st-2013",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2013 Ford Focus ST Review, by Carey Russ (May 30, 2013)",
+      "url": "https://www.theautochannel.com/news/2013/05/30/078638-2013-ford-focus-st-review-by-carey-russ.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carpages-focus-st-2013",
+      "type": "publication",
+      "publisher": "Carpages.ca",
+      "title": "2013 Ford Focus ST Review and Road Test, by Dan Heyman (July 8, 2013)",
+      "url": "https://www.carpages.ca/blog/?p=911",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ap-focus-st-2014",
+      "type": "publication",
+      "publisher": "The Associated Press (via WTOP)",
+      "title": "Fact sheet: 2014 Ford Focus ST",
+      "url": "https://wtop.com/news/2014/05/fact-sheet-2014-ford-focus-st",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "automotiveaddicts-focus-st-2013",
+      "type": "publication",
+      "publisher": "Automotive Addicts",
+      "title": "2013 Ford Focus ST Review & Test Drive, by Malcolm Hogan (January 11, 2013)",
+      "url": "https://www.automotiveaddicts.com/34875/2013-ford-focus-st-review-test-drive",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "fordauthority-focus",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "Ford Focus",
+      "url": "https://fordauthority.com/fmc/ford/ford-focus/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3223,
+          "sourceId": "autochannel-focus-st-2013"
+        },
+        {
+          "value": 3150,
+          "sourceId": "automotiveaddicts-focus-st-2013"
+        }
+      ],
+      "reason": "Automotive Addicts' review (Malcolm Hogan, January 2013) prints \"Curb weight: 3,150lbs.\" for the same car, with no stated basis. Three other outlets (The Auto Channel, Carpages.ca, The Associated Press) independently print 3,223 lb.",
+      "resolution": "Used 3,223 lb, the figure two independent outlets with named authors agree on and the AP fact sheet repeats; 3,150 lb is a lone, unexplained figure."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

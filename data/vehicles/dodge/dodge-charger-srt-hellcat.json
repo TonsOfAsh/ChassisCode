@@ -1,0 +1,190 @@
+{
+  "id": "dodge-charger-srt-hellcat",
+  "manufacturer": "Dodge",
+  "model": "Charger",
+  "generation": null,
+  "variant": "SRT Hellcat",
+  "subVariant": null,
+  "displayName": "Dodge Charger SRT Hellcat",
+  "aliases": [
+    "Charger Hellcat",
+    "Hellcat Charger",
+    "LD Charger Hellcat",
+    "Charger SRT Hellcat Widebody",
+    "Supercharged HEMI",
+    "TorqueFlite",
+    "8HP90"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "sourceId": "csmonitor-charger-hellcat-2014",
+    "note": "US model years 2015-2023. Start: The Christian Science Monitor (Viknesh Vijayenthiran, 13 Aug 2014) on 'the all-new 2015 Dodge Charger SRT Hellcat'. Dodge's 2016, 2019 and 2023 specification sheets list the SRT Hellcat (dodge-charger-specs-2016, dodge-charger-specs-2019, dodge-charger-specs-2023). End: GM Authority reports that Brampton Assembly ended production of the Dodge Charger together with the Challenger on 22 December 2023 (gmauthority-brampton-end-2023)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "Four-door sedan (inferred from the Charger specification sheet). From 2020 the Widebody bodywork was standard on the SRT Hellcat; it is not a separate body style."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-charger-specs-2016",
+      "note": "'ENGINE: 6.2-LITER HEMI HELLCAT V-8 SUPERCHARGED'; 'Type and Description 90-degree V-type, liquid-cooled'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "dodge-charger-specs-2016",
+      "note": "6,166 cc: 'Displacement 376 cu. in. (6,166 cu. cm)'"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "dodge-charger-specs-2016",
+      "note": "'6.2-LITER HEMI HELLCAT V-8 SUPERCHARGED'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-charger-specs-2016"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "csmonitor-charger-hellcat-2014",
+    "note": "'drive only goes to the rear wheels'. Dodge's 2016 sheet gives the Charger layout as 'Longitudinal front engine, rear-wheel drive (RWD) or all-wheel drive (AWD)', with AWD listed only for SE and SXT models."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "'TRANSMISSION: 8HP90 TORQUEFLITE AUTOMATIC EIGHT-SPEED / Availability Standard on Charger SRT Hellcat'. The only transmission; the 2023 sheet: 'Availability Standard on SRT Hellcat, SRT Hellcat Redeye' (dodge-charger-specs-2023)."
+  },
+  "powerHp": {
+    "value": 707,
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "Rating for model years 2015-2019, five of the car's nine model years. Quote (Dodge 2016 specifications): \"Power (SAE J2723) 707 hp (527 kW) at 6,000 rpm\". The 2018 and 2019 sheets repeat \"Power (SAE J2723) 707 hp (527 kW) at 6,000 rpm\" (dodge-charger-specs-2018, dodge-charger-specs-2019); 2015: 'the all-new 2015 Dodge Charger SRT Hellcat' with '707 horsepower' (csmonitor-charger-hellcat-2014). From 2020 to 2023 the rating was 717 hp: Dodge 2023 specifications, \"Power 717 hp (535 kW) @ 6,100 rpm\" (dodge-charger-specs-2023). The Redeye (797 hp) and Jailbreak are separate variants."
+  },
+  "weightLb": {
+    "value": 4570,
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "2016 model year (the only transmission is the 8-speed automatic). Quote (Dodge 2016 specifications): \"SRT Hellcat — 4,570 (2,072.9)\". No Dodge sheet for 2015 could be opened, so the reference year is 2016, the earliest year with a Dodge figure. Later Dodge figures: 2017 \"SRT Hellcat — 4,535 (2,057)\" (dodge-charger-specs-2017), 2018 and 2019 \"4,536 (2,057)\" (dodge-charger-specs-2018, dodge-charger-specs-2019), 2023 (standard Widebody) \"4,594 (2,083) — SRT Hellcat\" (dodge-charger-specs-2023). The Christian Science Monitor gave 4,560 lb for the 2015 car (csmonitor-charger-hellcat-2014). See discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-charger-specs-2016",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2016 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-charger-specs-2017",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2017 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2017_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-charger-specs-2018",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2018 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2018_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-charger-specs-2019",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2019 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-charger-specs-2023",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Dodge)",
+      "title": "2023 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "csmonitor-charger-hellcat-2014",
+      "type": "publication",
+      "publisher": "The Christian Science Monitor",
+      "title": "Charger Hellcat from Dodge is the most powerful sedan in the world. Officially.",
+      "url": "https://csmonitor.com/Business/In-Gear/2014/0813/Charger-Hellcat-from-Dodge-is-the-most-powerful-sedan-in-the-world.-Officially.",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-brampton-end-2023",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "Production Of Camaro Rival Dodge Challenger Ends Today",
+      "url": "https://gmauthority.com/blog/2023/12/production-of-camaro-rival-dodge-challenger-ends-today/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4570,
+          "sourceId": "dodge-charger-specs-2016"
+        },
+        {
+          "value": 4535,
+          "sourceId": "dodge-charger-specs-2017"
+        },
+        {
+          "value": 4536,
+          "sourceId": "dodge-charger-specs-2019"
+        },
+        {
+          "value": 4594,
+          "sourceId": "dodge-charger-specs-2023"
+        },
+        {
+          "value": 4560,
+          "sourceId": "csmonitor-charger-hellcat-2014"
+        }
+      ],
+      "reason": "Model year. Dodge revised the figure from year to year: 4,570 lb (2016), 4,535 lb (2017), 4,536 lb (2018-2019), 4,594 lb (2023, Widebody standard). 4,560 lb is a press report for the 2015 launch car.",
+      "resolution": "Used Dodge's 4,570 lb because the reference model year is 2016."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 707,
+          "sourceId": "dodge-charger-specs-2016"
+        },
+        {
+          "value": 717,
+          "sourceId": "dodge-charger-specs-2023"
+        }
+      ],
+      "reason": "Model year. 707 hp for 2015-2019, 717 hp for 2020-2023.",
+      "resolution": "Used 707 hp, the rating for five of the nine model years and for the 2016 reference year. The change is too small to split the record."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

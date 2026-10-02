@@ -1,0 +1,158 @@
+{
+  "id": "dodge-challenger-r-t-scat-pack",
+  "manufacturer": "Dodge",
+  "model": "Challenger",
+  "generation": null,
+  "variant": "R/T Scat Pack",
+  "subVariant": null,
+  "displayName": "Dodge Challenger R/T Scat Pack",
+  "aliases": [
+    "Scat Pack",
+    "Challenger Scat Pack",
+    "Scat Pack Challenger",
+    "392 HEMI",
+    "6.4 HEMI",
+    "392 HEMI Scat Pack Shaker",
+    "Scat Pack Widebody",
+    "TR-6060",
+    "TorqueFlite"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "sourceId": "dodge-challenger-specs-2015",
+    "note": "US model years 2015-2023. Start: Dodge's 2015 Challenger specifications: 'ENGINE: 6.4-LITER HEMI® V-8 POWERED BY SRT / Availability Standard — R/T Scat Pack and 392 HEMI® Scat Pack Shaker (late availability)'. End: Dodge's 2023 specifications list the R/T Scat Pack (dodge-challenger-specs-2023), and Challenger production at Brampton ended on 22 December 2023 (gmauthority-brampton-end-2023)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "dodge-challenger-specs-2017",
+    "note": "Two-door coupe (inferred from the Challenger specification sheet). The Widebody is an option package."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-challenger-specs-2017",
+      "note": "'6.4-Liter HEMI V-8'"
+    },
+    "displacementL": {
+      "value": 6.4,
+      "sourceId": "dodge-challenger-specs-2017",
+      "note": "6,417 cc: 'Displacement 392 cu. in. (6,417 cu. cm)'"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "dodge-challenger-specs-2017",
+      "note": "Inferred: no forced induction is mentioned for the 392 HEMI."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-challenger-specs-2017"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-challenger-specs-2017",
+    "note": "Inferred: the Challenger offered AWD only on V6 models (SXT AWD, GT AWD in the 2019 sheet); no R/T Scat Pack AWD is listed."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "dodge-challenger-specs-2017",
+    "note": "Six-speed manual: 'Standard — R/T models, T/A models, R/T Scat Pack, 392 HEMI Scat Pack Shaker, T/A 392 and SRT 392' (Tremec TR-6060). Eight-speed automatic: 'Available with 5.7-liter and 6.4-liter HEMI V-8 engine'. The 2023 sheet still lists both (dodge-challenger-specs-2023)."
+  },
+  "powerHp": {
+    "value": 485,
+    "sourceId": "dodge-challenger-specs-2018",
+    "note": "Quote (Dodge 2018 specifications): \"Power (SAE net) 485 bhp (362 kW) @ 6,100 rpm\" for the 6.4-liter HEMI on the R/T Scat Pack. The 2017 sheet gives \"485 bhp (362 kW) @ 6,100 rpm (75.8 bhp/liter)\", \"Standard — R/T Scat Pack, 392 HEMI Scat Pack Shaker, T/A 392 and SRT 392 models\" (dodge-challenger-specs-2017), and the 2019 and 2023 sheets the same 485 bhp (dodge-challenger-specs-2019, dodge-challenger-specs-2023). The 2015 sheet gave 485 bhp @ 6,000 rpm (dodge-challenger-specs-2015), so the rating was 485 hp throughout."
+  },
+  "weightLb": {
+    "value": 4231,
+    "sourceId": "dodge-challenger-specs-2018",
+    "note": "Standard body with the six-speed manual, 2018 model year. Quote (Dodge 2018 specifications, row 'Curb Weight'): \"4,231 (1,919) — R/T Scat Pack (manual)\"; automatic \"4,235 (1,921)\". The 2015 and 2017 sheets label their weights \"Curb Weight (preliminary)\" (2017: \"4,232 (1,920) — R/T Scat Pack / 392 HEMI Scat Pack Shaker / T/A 392 (manual)\", dodge-challenger-specs-2017) and no 2016 sheet could be opened, so the reference year is 2018, the first year with a final Dodge figure. Later Dodge figures for the manual: 2019 \"4,234 (1,921)\", 2023 \"4,223 (1,915)\" (Widebody 4,298 lb)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-challenger-specs-2017",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2017 Dodge Challenger / Challenger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2017_DG_Challenger_ChallengerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-challenger-specs-2015",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2015 Dodge Challenger Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2015_DG_Challenger_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-challenger-specs-2018",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2018 Dodge Challenger / Challenger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2018_DG_Challenger_ChallengerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-challenger-specs-2019",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2019 Dodge Challenger / Challenger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_DG_Challenger_ChallengerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dodge-challenger-specs-2023",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Dodge)",
+      "title": "2023 Dodge Challenger / Challenger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_DG_Challenger_ChallengerSRT_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-brampton-end-2023",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "Production Of Camaro Rival Dodge Challenger Ends Today",
+      "url": "https://gmauthority.com/blog/2023/12/production-of-camaro-rival-dodge-challenger-ends-today/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4231,
+          "sourceId": "dodge-challenger-specs-2018"
+        },
+        {
+          "value": 4232,
+          "sourceId": "dodge-challenger-specs-2017"
+        }
+      ],
+      "reason": "Preliminary vs final: Dodge's 2017 sheet labels its weights preliminary; the 2018 sheet does not.",
+      "resolution": "Used the 2018 final figure, 4,231 lb."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

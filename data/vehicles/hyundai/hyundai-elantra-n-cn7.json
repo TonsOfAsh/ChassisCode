@@ -1,0 +1,122 @@
+{
+  "id": "hyundai-elantra-n-cn7",
+  "manufacturer": "Hyundai",
+  "model": "Elantra",
+  "generation": "CN7",
+  "variant": "N",
+  "subVariant": null,
+  "displayName": "Hyundai Elantra N (CN7)",
+  "aliases": [
+    "Elantra N",
+    "CN7 Elantra N",
+    "N DCT",
+    "N Grin Shift",
+    "2022 Elantra N"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "hyundai-us-2022-elantra-n-nyias",
+    "note": "US model years. First: Hyundai's media alert is headed '2022 Elantra N Makes North American Debut'; its Spanish-language launch release refers to the 'ELANTRA N 2022' (hyundai-us-2022-elantra-n-release-es). Still on sale: Hyundai Motor America's consumer site showed the '2026 ELANTRA N' specifications on 2026-10-01 (hyundai-us-2026-elantra-n-specs)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "hyundai-us-2022-elantra-n-release-es",
+    "note": "'el primer sedán de alto desempeño'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "hyundai-us-2023-elantra-specs",
+      "note": "'2.0L turbocharged direct injected \"Flat Power\" 4-cylinder'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "hyundai-us-2023-elantra-specs",
+      "note": "1,998 cc ('Displacement: 1,998 cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "hyundai-us-2023-elantra-specs",
+      "note": "'2.0L turbocharged'; single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hyundai-us-2023-elantra-specs"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "hyundai-us-2026-elantra-n-specs",
+    "note": "'Front Wheel Drive (FWD)'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed DCT"
+    ],
+    "sourceId": "hyundai-us-2026-elantra-n-specs",
+    "note": "'6-speed manual transmission' (standard) and 'N 8-speed Wet Dual Clutch Transmission (DCT) with paddle shifters' (optional). The 2022 launch release names the same pair (hyundai-us-2022-elantra-n-release-es)."
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "hyundai-us-2023-elantra-specs",
+    "note": "Quote: \"Horsepower (HP): 276 @ 5500 ~ 6000\". 2022 media alert (hyundai-us-2022-elantra-n-nyias): \"2.0-liter Turbocharged, \"Flat Power\" Tuned Engine Delivers 276 HP/289 lb.-ft. Torque\". The 2026 consumer page gives 'Horsepower @ RPM (ULEV/PZEV) 276 @ 5500 ~ 6000'. N Grin Shift gives a temporary 286 hp (the Spanish-language release: '...incrementando la potencia del motor hasta 286 caballos de fuerza', hyundai-us-2022-elantra-n-release-es); the record uses the continuous rating."
+  },
+  "weightLb": {
+    "value": 3186,
+    "sourceId": "hyundai-us-2023-elantra-specs",
+    "note": "6-speed manual, 2023 model. Quote (Hyundai's 2023 Elantra line sheet, raw text): \"Curb (lbs.) IVT MT DCT ... - 3,186 3,296\", the final column (Elantra N: no IVT, manual, DCT). Hyundai's 2026 consumer page labels the same pair explicitly: \"Curb weight (lbs.) 3,186 (M/T) / 3,296 (DCT)\" (hyundai-us-2026-elantra-n-specs). No Hyundai curb weight for the 2022 model was found, so the reference year is 2023, the earliest year with a qualifying weight at the same 276 hp rating."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hyundai-us-2023-elantra-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "2023 Elantra Product Specifications",
+      "url": "https://www.hyundainews.com/assets/documents/original/50515-2023ElantraProductSpecifications20220714.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hyundai-us-2026-elantra-n-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundaiusa.com)",
+      "title": "2026 Elantra N specs",
+      "url": "https://www.hyundaiusa.com/us/en/vehicles/elantra-n/compare-specs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hyundai-us-2022-elantra-n-nyias",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "2022 Elantra N Makes North American Debut at the New York International Auto Show (media alert)",
+      "url": "https://www.hyundainews.com/assets/documents/original/47831-NYIASElantraNDebutMediaAlertv4FINALsendJul29.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hyundai-us-2022-elantra-n-release-es",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (hyundainews.com)",
+      "title": "Hyundai da a conocer el impresionante ELANTRA N para Norteamérica en su debut virtual",
+      "url": "https://www.hyundainews.com/assets/documents/original/48061-48037HyundaiUnveilsThrillingELANTRANforNorthAmericaInVirtualDebutSPANISHREV.pdf",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

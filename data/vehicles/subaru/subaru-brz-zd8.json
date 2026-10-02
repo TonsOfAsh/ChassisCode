@@ -1,0 +1,126 @@
+{
+  "id": "subaru-brz-zd8",
+  "manufacturer": "Subaru",
+  "model": "BRZ",
+  "generation": "ZD8",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Subaru BRZ (ZD8)",
+  "aliases": [
+    "ZD8",
+    "ZD8 BRZ",
+    "2nd gen BRZ",
+    "BRZ Premium",
+    "BRZ Limited",
+    "BRZ tS",
+    "FA24",
+    "2022 BRZ"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "subaru-us-2022-brz-pricing",
+    "note": "US model years. First: 'Subaru Announces Pricing on All-New 2022 BRZ' (22 July 2021), which 'arrives at Subaru retailers this fall'. Still on sale: Subaru of America's 24 September 2025 release announces pricing for the 2026 BRZ, which 'will arrive in retailers early next year' (subaru-us-2026-brz-pricing)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "subaru-us-2022-brz-aag",
+    "note": "'Body: 2+2 sports coupe'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "subaru-us-2022-brz-aag",
+      "note": "'Engine: DOHC 4-cyl. 2.4-liter BOXER, direct and port fuel injection'"
+    },
+    "displacementL": {
+      "value": 2.4,
+      "sourceId": "subaru-us-2022-brz-aag",
+      "note": "Subaru's sheet gives litres only ('2.4-liter BOXER'); no cc figure was found on an opened Subaru page. The shared FA24 engine is 2,387 cc per Toyota's GR 86 release ('bumping up from 1,998cc to 2,387cc') (toyota-us-2022-gr86-thrills), which also rounds to 2.4."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "subaru-us-2022-brz-pricing",
+      "note": "'New, more powerful 2.4-liter (naturally aspirated) 228 hp SUBARU BOXER® engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "subaru-us-2022-brz-aag",
+    "note": "Inferred from 'direct and port fuel injection' on a conventional piston engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "subaru-us-2022-brz-pricing",
+    "note": "'rear-wheel drive sports car'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "subaru-us-2022-brz-pricing",
+    "note": "'six-speed close-ratio manual transmission or a six-speed electronic direct-control automatic transmission'"
+  },
+  "powerHp": {
+    "value": 228,
+    "sourceId": "subaru-us-2022-brz-aag",
+    "note": "2022 model year. Quote: \"Horsepower: 228 @ 7,000 rpm\". The pricing release says \"2.4-liter (naturally aspirated) 228 hp SUBARU BOXER® engine\" (subaru-us-2022-brz-pricing), and the 2026 pricing release still gives \"228 horsepower sent to the rear wheels\" (subaru-us-2026-brz-pricing)."
+  },
+  "weightLb": {
+    "value": 2815,
+    "sourceId": "subaru-us-2022-brz-aag",
+    "note": "2022 model year. Quote from the 'Basic Specifications' block: \"Curb weight: 2,815 lb.\", listed with \"Transmission: 6-speed manual standard; 6-speed automatic available\". The sheet gives one figure and does not name the trim or transmission; it is taken to be the standard car (Premium, 6-speed manual). Subaru's own copy of this At-A-Glance (media.subaru.com/view-spec.do?bFileId=35000) is linked from the pricing release; the copy read is the identical file '22MY_BRZ_-_AAG_-FINAL.pdf' rehosted by Repairer Driven News."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "subaru-us-2022-brz-aag",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (At-A-Glance sheet, rehosted by Repairer Driven News)",
+      "title": "At-A-Glance: 2022 Subaru BRZ (22MY_BRZ_-_AAG_-FINAL.pdf)",
+      "url": "https://www.repairerdrivennews.com/wp-content/uploads/2021/08/22MY_BRZ_-_AAG_-FINAL.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "subaru-us-2022-brz-pricing",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (Subaru Media)",
+      "title": "Subaru Announces Pricing on All-New 2022 BRZ (22 July 2021)",
+      "url": "https://media.subaru.com/pressrelease/1753/1/subaru-announces-pricing-all-new-2022-brz",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "subaru-us-2026-brz-pricing",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (Subaru Media)",
+      "title": "Subaru of America Announces Pricing on 2026 Subaru BRZ (24 September 2025)",
+      "url": "https://media.subaru.com/pressrelease/2369/subaru-america-announces-pricing-2026-subaru-brz",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2022-gr86-thrills",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "All-New 2022 Toyota GR 86: Thrills Around Every Corner (17 August 2021)",
+      "url": "https://pressroom.toyota.com/all-new-2022-toyota-gr-86-thrills-around-every-corner/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

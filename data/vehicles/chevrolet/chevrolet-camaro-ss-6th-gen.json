@@ -1,0 +1,134 @@
+{
+  "id": "chevrolet-camaro-ss-6th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "6th gen",
+  "variant": "SS",
+  "subVariant": null,
+  "displayName": "Chevrolet Camaro SS (6th gen)",
+  "aliases": [
+    "Camaro SS",
+    "6th gen Camaro SS",
+    "Gen 6 Camaro SS",
+    "1SS",
+    "2SS",
+    "LT1",
+    "2016 Camaro SS"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2024
+    },
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "US model years. Start: Chevrolet's September 2015 release gives performance figures for the \"2016 Camaro\" including \"the all-new, 455-hp (336 kW) Camaro SS coupe\". End: GM Authority's 2024 Camaro page lists the 1SS and 2SS coupe (1AJ37, 1AK37) and convertible (1AJ67, 1AK67) and states \"The 2024 Camaro is the last production year for the internal combustion powered model.\" (source gmauthority-camaro-2024)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gmauthority-camaro-2024",
+    "note": "1SS and 2SS were sold as coupe and convertible (2024 model codes 1AJ37/1AK37 coupe, 1AJ67/1AK67 convertible). Chevrolet's 2015 release also refers to \"the SS convertible\" (source chevrolet-camaro-performance-release-2015)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-camaro-performance-release-2015",
+      "note": "LT1. Release: \"the 6.2L V-8 Camaro\"; GM Authority's 2024 table: \"6.2L LT1 V-8 VVT\" (source gmauthority-camaro-2024-specs)."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "chevrolet-camaro-performance-release-2015",
+      "note": "Chevrolet states \"6.2L\". No opened Camaro page gives the cc figure; GM's Corvette material gives the LT1 as 376 cu in / 6,162 cc (see the C7 Corvette Stingray record)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gmauthority-camaro-2024-specs",
+      "note": "No forced induction is listed for the LT1; the ZL1's supercharged LT4 is a separate record."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gmauthority-camaro-2024-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gmauthority-camaro-2024",
+    "note": "GM Authority: \"Drive Wheels | rear-Wheel-Drive\"; \"Like all sixth-generation units of the Chevrolet Camaro, the 2024 Camaro rides on GM's Alpha platform.\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic",
+      "10-speed Automatic"
+    ],
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "2016: six-speed manual or \"the all-new eight-speed paddle-shift automatic\" (release; MotorWeek: \"An 8-speed automatic or a 6-speed manual are the transmission choices\", source motorweek-camaro-ss-2016). For 2019 \"the Camaro SS will now offer GM 10-speed automatic transmission as an option\" (GM Authority, April 9, 2018, source gmauthority-camaro-2019). 2024: \"6-Speed Manual w/ Active Rev Match\" or 10-speed automatic (source gmauthority-camaro-2024). Both automatics are torque-converter units."
+  },
+  "powerHp": {
+    "value": 455,
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "Quote, Chevrolet's release of September 14, 2015: \"the all-new, 455-hp (336 kW) Camaro SS coupe – the most powerful Camaro SS ever\"; its table: \"6.2L V-8 ... 455 hp / 455 lb-ft 3,685 lbs (man) 8.1 lbs/hp\". (The kW figure is as printed in the reproduction; 455 hp is 339 kW.) No mid-run change: GM Authority's 2024 specification table gives \"455 / 339 @ 6000\" (source gmauthority-camaro-2024-specs)."
+  },
+  "weightLb": {
+    "value": 3685,
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "Manufacturer curb weight, 2016 SS coupe with the six-speed manual. Quote, Chevrolet's release table, 6.2L V-8 column: \"455 hp / 455 lb-ft 3,685 lbs (man) 8.1 lbs/hp\". GM Authority's 2024 specification table gives the same coupe manual figure, \"3685 / 1672\", with the coupe automatic at 3747 / 1700 and the convertible at 3932 / 1784 (manual) and 3993 / 1811 (automatic) (source gmauthority-camaro-2024-specs). LSX Magazine (Chris Demorro, September 14, 2015) also reports \"The 2016 Camaro 1SS with a manual transmission comes in at 3,685 pounds\" (not cited)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-camaro-performance-release-2015",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced in full by GM-EFI, marked \"Official Release\")",
+      "title": "Chevrolet Announces Performance Figures for 2016 Camaro (September 14, 2015)",
+      "url": "https://gm-efi.com/chevrolet-announces-performance-figures-for-2016-camaro/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-camaro-2024-specs",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro Specifications",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/2024-chevrolet-camaro-specifications/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-camaro-2024",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-camaro-2019",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2019 Chevrolet Camaro Bows With New Face And Enhanced Aerodynamics, by Sean Szymkowski (April 9, 2018)",
+      "url": "https://gmauthority.com/blog/2018/04/2019-chevrolet-camaro-bows-with-new-face-and-enhanced-aerodynamics/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-camaro-ss-2016",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2016 Chevrolet Camaro SS road test",
+      "url": "https://www.motorweek.org/reviews/road_tests/2016-chevrolet-camaro-ss/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

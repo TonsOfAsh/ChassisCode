@@ -578,6 +578,153 @@
         }
       ],
       "notes": "Jaguar's 2015MY tech-spec file exists on media.jlr.com but is a zip that could not be opened."
+    },
+    {
+      "id": "nissan-350z-z33",
+      "displayName": "Nissan 350Z (Z33)",
+      "heldSince": "2026-10-02",
+      "missing": "A curb weight for the standard 2003 car (base coupe, 6-speed manual). Nissan's 2003 press kit has no specification table and the brochure no weight.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2003-2009",
+        "referenceModelYear": "2003 (287 hp; no later rating covered more than half the run)",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V6",
+        "displacementL": 3.5,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Manual",
+          "5-speed Automatic"
+        ],
+        "powerHp": 287,
+        "powerQuote": "The 3.5-liter VQ35DE V6 engine produces 287 horsepower and 274 lb-ft of torque (Nissan 2003 press kit, https://usa.nissannews.com/en-US/releases/2003-350z-press-kit)",
+        "laterRatings": "300 hp (2005-2006), 306 hp VQ35HR (2007-2009, 2008 brochure)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3247,
+          "source": "The Auto Channel (Carey Russ), 2003 Touring, not the base car"
+        },
+        {
+          "lb": 3225,
+          "source": "MotorWeek, Track model, no named author"
+        },
+        {
+          "lb": 3226,
+          "source": "Auto123 (Khatir Soltani), Canadian car, 1,463-1,473 kg range"
+        }
+      ],
+      "notes": "The Roadster (from 2004) would be its own record."
+    },
+    {
+      "id": "ford-mustang-mach-1-s550",
+      "displayName": "Ford Mustang Mach 1 (S550)",
+      "heldSince": "2026-10-02",
+      "missing": "Any qualifying curb weight, and a Ford source for the 2022-2023 rating (470 hp).",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2021-2023",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 5.0,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Manual",
+          "10-speed Automatic"
+        ],
+        "powerQuote2021": "480 HORSEPOWER (Ford 2021 US brochure, https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2021.pdf)",
+        "power2023": "470 @ 7250 (Ford Authority, a publication)"
+      },
+      "notes": "If 470 hp covers 2022-2023 the reference year would be 2022."
+    },
+    {
+      "id": "volkswagen-golf-gti-mk8",
+      "displayName": "Volkswagen Golf GTI (Mk8)",
+      "heldSince": "2026-10-02",
+      "missing": "Any qualifying US curb weight; Volkswagen of America's releases and press kits give none.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2022-present",
+        "body": [
+          "Hatchback"
+        ],
+        "engine": "I4",
+        "displacementL": 2.0,
+        "cc": 1984,
+        "aspiration": "Turbocharged",
+        "fuel": "Gasoline",
+        "drivetrain": "FWD",
+        "transmission": [
+          "6-speed Manual",
+          "7-speed DCT"
+        ],
+        "powerHp": 241,
+        "powerQuote": "The GTI produces 241 horsepower (Volkswagen of America, https://media.vw.com/view/releases/1569)"
+      },
+      "notes": "Manual dropped later; the end year of the manual was not confirmed."
+    },
+    {
+      "id": "volkswagen-golf-r-mk8",
+      "displayName": "Volkswagen Golf R (Mk8)",
+      "heldSince": "2026-10-02",
+      "missing": "A second source for the curb weight (only AutoGuide gives 3,404 lb, transmission not stated).",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2022-present",
+        "body": [
+          "Hatchback"
+        ],
+        "engine": "I4",
+        "displacementL": 2.0,
+        "cc": 1984,
+        "aspiration": "Turbocharged",
+        "fuel": "Gasoline",
+        "drivetrain": "AWD",
+        "transmission": [
+          "6-speed Manual",
+          "7-speed DCT"
+        ],
+        "powerHp": 315,
+        "powerQuote": "The Golf R now makes 315 horsepower (Volkswagen of America, https://media.vw.com/view/releases/1569)",
+        "laterRating": "328 hp from 2025 (media.vw.com/view/models/golf-r)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3404,
+          "source": "AutoGuide, Mike Schlee, 2022 review; one outlet"
+        }
+      ]
+    },
+    {
+      "id": "ford-fiesta-st-mk7",
+      "displayName": "Ford Fiesta ST (Mk7)",
+      "heldSince": "2026-10-02",
+      "missing": "A US curb weight and a cc figure from a qualifying source; Ford's US brochures give neither.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2014-2019",
+        "body": [
+          "Hatchback"
+        ],
+        "engine": "I4",
+        "displacementL": 1.6,
+        "aspiration": "Turbocharged",
+        "fuel": "Gasoline",
+        "drivetrain": "FWD",
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "powerHp": 197,
+        "powerQuote": "197 hp @ 6,000 rpm (Ford 2014 US brochure, https://www.auto-brochures.com/makes/Ford/Fiesta/Ford_US%20Fiesta_2014.pdf; same in 2017 and 2019)"
+      }
     }
   ]
 }
