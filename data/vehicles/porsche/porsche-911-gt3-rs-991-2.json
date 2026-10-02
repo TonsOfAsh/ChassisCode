@@ -67,7 +67,7 @@
   "weightLb": {
     "value": 3153,
     "sourceId": "pcna-tech-specs-2019-911-gt3-rs",
-    "note": "PDK. Porsche's US technical data lists 3,153 lb as the curb weight, but its press release says this figure applies with the optional Weissach Package and magnesium wheels; no standard-configuration figure was found (see discrepancies)."
+    "note": "PDK. Porsche's US technical data lists 3,153 lb as the curb weight, but its press release says this figure applies with the optional Weissach Package and magnesium wheels; no standard-configuration figure was found (see discrepancies). This is weight step 3: a curb weight for a car with lightweight options (Weissach Package and magnesium wheels)."
   },
   "specBasis": {
     "market": "US",
@@ -175,7 +175,8 @@
           "sourceId": "kbb-2019-911-gt3-rs-weissach"
         }
       ],
-      "reason": "Option content. The PCNA technical data sheet prints 3,153 lb as \"Curb weight\" with no qualifier, while the PCNA and Porsche AG press releases say that figure is the lightest configuration with the optional Weissach Package and magnesium wheels. Porsche does not state the weight of the standard car in any source opened; Kelley Blue Book's saving of about 38 lb implies roughly 3,191 lb."
+      "reason": "Option content. The PCNA technical data sheet prints 3,153 lb as \"Curb weight\" with no qualifier, while the PCNA and Porsche AG press releases say that figure is the lightest configuration with the optional Weissach Package and magnesium wheels. Porsche does not state the weight of the standard car in any source opened; Kelley Blue Book's saving of about 38 lb implies roughly 3,191 lb.",
+      "resolution": "Used 3,153 lb, Porsche's own curb weight, under weight step 3 (an optioned car's curb weight: Weissach Package and magnesium wheels), since Porsche publishes no standard-car figure. A standard car is about 38 lb heavier."
     },
     {
       "field": "production",
@@ -197,8 +198,7 @@
       "resolution": "Use 2018-2019: Porsche AG states the last 991-generation 911 left the production line in December 2019, so none were built in 2020."
     }
   ],
-  "needsReview": true,
-  "reviewNotes": "Weight: 3,153 lb is the only curb weight Porsche publishes for the US car, but Porsche's own press releases tie it to the optional Weissach Package plus magnesium wheels. The standard-configuration curb weight (probably about 38 lb more) needs a manufacturer source.",
+  "needsReview": false,
   "confidence": "low",
   "image": null,
   "dailyEligible": true

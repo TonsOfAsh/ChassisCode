@@ -1,0 +1,143 @@
+{
+  "id": "ferrari-488-gtb",
+  "manufacturer": "Ferrari",
+  "model": "488 GTB",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 488 GTB",
+  "aliases": [
+    "488",
+    "Ferrari 488"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2019
+    },
+    "sourceId": "kbb-488",
+    "note": "US model years: KBB lists the 488 GTB for 2016, 2017, 2018 and 2019. TFLcar's US review is of the '2016 Ferrari 488 GTB' (tflcar-488). Evo titles the car '2015 - 2019' in calendar years and says 'The 488 GTB and 488 Pista gave way to the F8 Tributo in 2019' (evo-488). The 488 Spider and 488 Pista are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-488",
+    "note": "Two-seat mid-engined berlinetta; the open car is the separately named 488 Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "evo-488",
+      "note": "Evo spec panel: 'Engine | V8, 3902cc, twin-turbo'"
+    },
+    "displacementL": {
+      "value": 3.9,
+      "sourceId": "evo-488",
+      "note": "3,902 cc. Evo spec panel: 'V8, 3902cc, twin-turbo'; Ferrari's specification list as printed by Arrive Alive: 'Overall displacement 3902 cm3' (arrivealive-488)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "evo-488",
+      "note": "'a downsized, direct-injection 3902cc twin-turbocharged flat-plane-crank V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "arrivealive-488",
+    "note": "Ferrari specification footnote: 'With 98 RON petrol'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "tflcar-488",
+    "note": "'Drive Train: Mid-mounted engine / Rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "evo-488",
+    "note": "'Pairs a 3.9-litre, twin-turbocharged V8 with a seven-speed dual-clutch 'box.' Ferrari calls it the F1 dual-clutch gearbox ('seven-gear F1 dual-clutch gearbox', arrivealive-488). No manual was offered."
+  },
+  "powerHp": {
+    "value": 661,
+    "sourceId": "ferrari-488-page",
+    "note": "Ferrari's rating is metric: 670 cv x 0.98632 = 661 hp. Quote (ferrari.com, US pages): \"It delivers 670 cv at 8,000 rpm with a specific power output of 172 cv/l, a new record for a road-going Ferrari, maximum torque of 760 Nm in seventh gear and a throttle response time of just 0.8 seconds at 2000 rpm in third gear.\" Ferrari's specification list as printed by Arrive Alive (arrivealive-488): \"Maximum power * 492 kW (670 CV) at 8000 rpm\", footnote \"With 98 RON petrol\". No separate SAE rating for the US was found, so powerStandard is DIN PS; US and UK publications print the same 661 (TFLcar: 'Horsepower (bhp): 661 @ 8,000 rpm'; Evo: '661bhp @ 8000rpm')."
+  },
+  "weightLb": {
+    "value": 3252,
+    "sourceId": "evo-488",
+    "note": "1,475 kg x 2.20462 = 3,252 lb (Evo prints it as plain \"Weight\"; TFLcar calls it curb weight). Coupe with the 7-speed dual-clutch gearbox (the only transmission). Quote (Evo specification panel for the 488 GTB): \"Weight | 1475kg (455bhp/ton)\". TFLcar's US review of the 2016 car prints the same figure in pounds (tflcar-488): \"Curb Weight: 3,252 lbs. – weight distribution=41.5% front / 58.5% rear\". Ferrari's own press specification gives only a dry weight: \"Dry weight** 1370 kg\", footnote \"With lightweight options\" (arrivealive-488). The published kerb figure is exactly 105 kg above that optioned dry weight, so it very probably also assumes the lightweight options. No US-specific figure was found. Under the guide's weight order this is step 3 (a curb weight for a car with lightweight options; here very probably Ferrari's unnamed lightweight options), adopted on 2 October 2026: no curb weight for a standard car was found, and a standard car is somewhat heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-488-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "Ferrari 488 GTB",
+      "url": "https://www.ferrari.com/en-US/auto/488-gtb",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-488",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari 488 GTB (2015 - 2019) review, specs and buying guide",
+      "url": "https://www.evo.co.uk/ferrari/488-gtb",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "tflcar-488",
+      "type": "publication",
+      "publisher": "TFLcar",
+      "title": "2016 Ferrari 488 GTB Test Drive – A Fitting Successor to the 458 Italia [Review]",
+      "url": "https://tflcar.com/2016/06/2016-ferrari-488-gtb-test-drive-review",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "arrivealive-488",
+      "type": "publication",
+      "publisher": "Arrive Alive (South African launch article printing Ferrari's technical specifications)",
+      "title": "Ferrari 488 GTB: Extreme power for unique driving pleasure",
+      "url": "https://carinsurance.arrivealive.co.za/ferrari-488-gtb-extreme-power-for-unique-driving-pleasure/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-488",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 488 GTB",
+      "url": "https://www.kbb.com/ferrari/488-gtb/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,475 kg (3,252 lb) kerb",
+          "sourceId": "evo-488"
+        },
+        {
+          "value": "1,370 kg dry, with lightweight options",
+          "sourceId": "arrivealive-488"
+        }
+      ],
+      "reason": "Dry vs curb. Ferrari's press specification lists only a dry weight (no fluids), footnoted 'With lightweight options'; the magazines print the kerb weight.",
+      "resolution": "Used the published kerb figure under weight step 3 (an optioned car's curb weight), since no standard-car curb weight was found and a curb weight ranks above a dry weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

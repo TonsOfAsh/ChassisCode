@@ -1,0 +1,172 @@
+{
+  "id": "audi-tt-rs-8s",
+  "manufacturer": "Audi",
+  "model": "TT RS",
+  "generation": "8S",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi TT RS (8S)",
+  "aliases": [
+    "TTRS",
+    "8S TT RS",
+    "TT RS 8S",
+    "Mk3 TT RS",
+    "TT RS Coupe",
+    "TT RS Heritage Edition",
+    "2018 TT RS",
+    "2022 TT RS"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2022
+    },
+    "sourceId": "audi-us-2018-tt-rs-release",
+    "note": "US model years. First: Audi of America, 'the all-new 2018 Audi TT RS'; 'the 2018 TT RS will make its US debut at the 2017 New York International Auto Show'. Last: Audi of America, 8 December 2021: 'the 2022 Audi TT RS Heritage Edition signals the appropriate farewell to the remarkable high-performance coupe following the 2022 model year' (audi-us-tt-rs-final-2021)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-us-2018-tt-press-kit",
+    "note": "'The all-new 2018 TT RS Coupe'; the press kit's roadster entry for the TT RS is '—'. The TT RS Roadster was not sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I5",
+      "sourceId": "audi-us-2021-tt-techspecs",
+      "note": "'Five-cylinder' (2.5 TFSI)"
+    },
+    "displacementL": {
+      "value": 2.5,
+      "sourceId": "audi-us-2021-tt-techspecs",
+      "note": "2,480 cc ('Displacement (cc) 1,984 1,984 1,984 2,480', TT RS is the last column)"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "audi-us-2018-tt-press-kit",
+      "note": "'2.5-liter TFSI five-cylinder engine': a single turbocharger with direct injection."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2021-tt-techspecs",
+    "note": "'Recommended Fuel Premium'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2021-tt-techspecs",
+    "note": "'quattro® all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-us-2021-tt-techspecs",
+    "note": "'Seven-speed S tronic® dual-clutch automatic transmission'. No manual was offered in this generation."
+  },
+  "powerHp": {
+    "value": 394,
+    "sourceId": "audi-us-2021-tt-techspecs",
+    "note": "The rating for model years 2019 to 2022. In the text of the 2021 sheet the horsepower row shows only the other three models (\"Horsepower (SAE) 228 228 288\") and the TT RS figure, 394, is printed apart from it, so the clean statements are the ones that follow. Quote (Audi of America, 2019 TT RS release, audi-us-2019-tt-rs-release): \"Generating 394 horsepower and 354 lb-ft of torque\". Audi of America's 2022 model page table also gives Horsepower \"394\" (audi-us-2022-tt-rs-model-page), and the December 2021 release says \"394 horsepower and 354 lb-ft of torque\" (audi-us-tt-rs-final-2021). The 2018 model year was rated 400 hp: \"Horsepower @ rpm ... 400 @ 5,850-7,000\" (audi-us-2018-tt-press-kit). The record uses 394 hp because it applied from the 2019 model year to the last, 2022. Audi pages were opened for 2019, 2021 and 2022; the 2020 rating was not separately checked."
+  },
+  "weightLb": {
+    "value": 3296,
+    "sourceId": "audi-us-2021-tt-techspecs",
+    "note": "US curb weight, coupe with the only transmission, 2021 model. Quote: \"Curb Weight (lbs) 3,197 3,395 3,263 3,296\" (columns TT Coupe, TT Roadster, TTS, TT RS). The 2022 model page gives the same 3,296 (audi-us-2022-tt-rs-model-page). The 2018 press kit gives 3,306 lb (1500 kg) for the 400 hp 2018 car. No Audi of America weight for the 2019 or 2020 model year was found, so 2021 is the reference year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2021-tt-techspecs",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "2021 Audi TT Model Line Technical Specifications",
+      "url": "https://media.audiusa.com/assets/documents/original/8253-FINAL2021TTTechSpecs.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "audi-us-2019-tt-rs-release",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Refreshed 2019 Audi TT RS makes US debut at New York International Auto Show",
+      "url": "https://media.audiusa.com/view/releases/317",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "audi-us-2022-tt-rs-model-page",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "TT RS / TT RS Heritage Edition",
+      "url": "https://media.audiusa.com/view/models/tt-rs-tt-rs-heritage-edition",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "audi-us-tt-rs-final-2021",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Audi celebrates final model year of the TT RS in the US market with the Audi TT RS Heritage Edition",
+      "url": "https://media.audiusa.com/view/releases/502",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "audi-us-2018-tt-press-kit",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "2018 Audi TT / TTS / TT RS press kit (revised July 2017)",
+      "url": "https://media.audiusa.com/assets/documents/original/3098-2018+Audi+TT+Press+kit.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "audi-us-2018-tt-rs-release",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Most powerful production TT ever: the all-new 2018 Audi TT RS",
+      "url": "https://media.audiusa.com/assets/documents/original/2471-2018-Audi-TTRS-release.pdf",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 394,
+          "sourceId": "audi-us-2019-tt-rs-release"
+        },
+        {
+          "value": 400,
+          "sourceId": "audi-us-2018-tt-press-kit"
+        }
+      ],
+      "reason": "Model year. Audi of America rated the 2018 TT RS at 400 hp and the 2019 to 2022 cars at 394 hp.",
+      "resolution": "Used 394 hp, the rating for four of the five model years, per the guide's reference-year rule."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3296,
+          "sourceId": "audi-us-2021-tt-techspecs"
+        },
+        {
+          "value": 3306,
+          "sourceId": "audi-us-2018-tt-press-kit"
+        }
+      ],
+      "reason": "Model year. 3,306 lb (1500 kg) is the 2018 press kit figure for the 400 hp car; 3,296 lb is on the 2021 technical specifications and the 2022 model page.",
+      "resolution": "Used 3,296 lb because the reference model year is 2021."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,195 @@
+{
+  "id": "aston-martin-dbs-superleggera",
+  "manufacturer": "Aston Martin",
+  "model": "DBS Superleggera",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin DBS Superleggera",
+  "aliases": [
+    "DBS Superleggera Coupe",
+    "Aston DBS Superleggera",
+    "Superleggera",
+    "2019 DBS Superleggera",
+    "2020 DBS Superleggera",
+    "2021 DBS Superleggera"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2021
+    },
+    "sourceId": "edmunds-dbs-superleggera-model-years",
+    "note": "US model years under the name 'DBS Superleggera'. First: Edmunds' DBS Superleggera page lists model years 2019, 2020, 2021 (and 2023, see below), and its 2019 page is titled 'Used 2019 Aston Martin DBS Superleggera' with a 'turbocharged 5.2-liter V12 engine (715 hp, 663 lb-ft)' (edmunds-dbs-superleggera-2019). Motoring Research (motoringresearch-dbs-reveal-2018) gives '$304,995 in North America' and 'Deliveries? They begin in autumn 2018.' Last: Edmunds' 2022 review of the car under the name DBS says 'Superleggera was dropped from the DBS name' and still gives 'a 715-horsepower turbocharged V12' and 'a rear mid-mounted eight-speed automatic transmission' (edmunds-dbs-2022); Express & Star (21 July 2021, expressandstar-am-2022-updates) reports Aston's 2022 updates with 'the DBS dropping its 'Superleggera' badge to simplify the firm's car names'. The 2022 and 2023 US cars are the same car renamed 'DBS' and are left out of this record because it covers only the years the car carried this name. Edmunds' DBS page lists 2022 'Base Coupe' and 2023 cars including the '770 Ultimate' (edmunds-dbs-model-years); the 2023 entry on Edmunds' DBS Superleggera listing page appears to be used-car filing of the renamed car, and the 2023 model-year page under that name returns 404. 'DBS Coupe' and plain 'DBS' are not added as aliases because they also fit the 2008-2012 DBS. Calendar build: 2018 to 2023 for the whole car under both names, per astonmartins.com (enthusiast site, not cited). No opened Aston page states the US model years."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "topgear-dbs-superleggera-review",
+    "note": "Fixed-roof 2+2 coupe. The DBS Superleggera Volante is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "topgear-dbs-superleggera-review",
+      "note": "'5204cc V12 twin-turbo'"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "topgear-dbs-superleggera-review",
+      "note": "5,204 cc (Top Gear panel: '5204cc V12 twin-turbo'). Aston calls it 5.2-litre."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "topgear-dbs-superleggera-review",
+      "note": "'5204cc V12 twin-turbo'; Evo panel 'V12, 5.2-litre, twin-turbo' (evo-dbs-review)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "shannons-dbs-superleggera-reveal",
+    "note": "'5.2-litre twin-turbo V12 petrol engine'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-dbs-review",
+    "note": "Evo: 'mechanical limited-slip differential with torque vectoring' at the rear; Top Gear describes the car as 'rear-drive' with a 'mechanical LSD' (topgear-dbs-superleggera-review)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "evo-dbs-review",
+    "note": "'Eight-speed torque converter from ZF'. Top Gear: 'a high-torque version of ZF's eight-speed gearbox'. No manual or other transmission was offered."
+  },
+  "powerHp": {
+    "value": 715,
+    "sourceId": "topgear-dbs-superleggera-review",
+    "note": "Quote (Top Gear specification panel): \"5204cc V12 twin-turbo, 715bhp @ 6500rpm, 663lb ft @ 1800-5000rpm, 0-62mph in 3.4sec, 211mph max, 22.9mpg, 285g/km CO2, 1693kg (dry)\". Evo's panel (evo-dbs-review) agrees: \"Power 715bhp @ 6500rpm\". Aston's rating is metric: 725 PS (Motoring Research, motoringresearch-dbs-reveal-2018: \"725hp is delivered at 6500rpm\", Aston's PS figure) or 533 kW (Shannons, shannons-dbs-superleggera-reveal: \"533kW/900Nm\"); 725 x 0.98632 = 715 hp, the figure printed as bhp. As with the McLaren 720S record, powerStandard is DIN PS. Edmunds gives 715 hp for the US car (edmunds-dbs-superleggera-2019) and for the renamed 2022 DBS (edmunds-dbs-2022), so the rating did not change. No Aston-origin page (release) could be opened: media.astonmartin.com is blocked and no full reproduction of the release was found."
+  },
+  "weightLb": {
+    "value": 3732,
+    "sourceId": "topgear-dbs-superleggera-review",
+    "note": "Dry weight (weight-order step 4): no manufacturer curb weight, no qualifying magazine-panel curb weight, no curb weight reported by two named-author outlets, and no optioned-car curb weight was found. Quote (Top Gear specification panel): \"... 285g/km CO2, 1693kg (dry)\". Evo's panel (evo-dbs-review): \"Weight 1693kg (dry)\", and Evo's text calls it \"quoted as 'from' 1693kg 'dry'\". Autocar's launch story (autocar-dbs-reveal-2018): \"The DBS Superleggera has a dry weight of 1693kg.\" 1,693 kg = 3,732 lb. The dry figure is evidently a lightest-specification figure ('from'); the enthusiast site astonmartins.com says 'Dry weight from: 1693 kg (with lightweight options)', but no Aston or major-magazine page opened says which options. A standard car with fluids is heavier. Candidates not used: astonmartins.com's 'EU kerb weight: 1845 kg' is an EU figure (includes a 75 kg driver), not DIN, and comes from an enthusiast site; TFLcar's table line 'Curb Weight 3,734 pounds (1,693 kg dry)' is the same dry figure mislabelled as curb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "topgear-dbs-superleggera-review",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Aston Martin DBS Superleggera review (Top Gear Team, 31 July 2018)",
+      "url": "https://www.topgear.com/car-reviews/aston-martin/dbs-superleggera",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-dbs-review",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Aston Martin DBS (2018 - 2024) review – end of the line for Aston's brawny super GT (Adam Towler, 7 November 2024)",
+      "url": "https://www.evo.co.uk/aston-martin/dbs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autocar-dbs-reveal-2018",
+      "type": "publication",
+      "publisher": "Autocar",
+      "title": "2018 Aston Martin DBS Superleggera revealed as Ferrari 812 competitor",
+      "url": "https://autocar.co.uk/node/87076",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motoringresearch-dbs-reveal-2018",
+      "type": "publication",
+      "publisher": "Motoring Research",
+      "title": "New Aston Martin DBS Superleggera is a 'brute in a suit' (Richard Aucock, 26 June 2018)",
+      "url": "https://www.motoringresearch.com/car-news/2019-aston-martin-dbs-superleggera-revealed",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "shannons-dbs-superleggera-reveal",
+      "type": "publication",
+      "publisher": "Shannons",
+      "title": "Aston Martin unveils sharply-dressed DBS Superleggera",
+      "url": "https://www.shannons.com.au/club/news/aston-martin-unveils-sharply-dressed-dbs-superleggera/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "tflcar-dbs-superleggera-2018",
+      "type": "publication",
+      "publisher": "TFLcar",
+      "title": "The Aston Martin DBS Superleggera Is a Stunner with 715 Horsepower: See the Full Specs Here",
+      "url": "https://tflcar.com/2018/06/aston-martin-dbs-superleggera/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "expressandstar-am-2022-updates",
+      "type": "publication",
+      "publisher": "Express & Star",
+      "title": "Aston Martin reveals range of updates across its lineup (21 July 2021)",
+      "url": "https://www.expressandstar.com/lifestyle/cars/aston-martin-reveals-range-of-updates-across-its-lineup-5966215",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-dbs-superleggera-model-years",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Aston Martin DBS Superleggera (model years)",
+      "url": "https://www.edmunds.com/aston-martin/dbs-superleggera/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-dbs-superleggera-2019",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2019 Aston Martin DBS Superleggera",
+      "url": "https://www.edmunds.com/aston-martin/dbs-superleggera/2019/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-dbs-2022",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2022 Aston Martin DBS Review & Ratings",
+      "url": "https://www.edmunds.com/aston-martin/dbs/2022/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-dbs-model-years",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Aston Martin DBS (model years)",
+      "url": "https://www.edmunds.com/aston-martin/dbs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3732,
+          "sourceId": "topgear-dbs-superleggera-review"
+        },
+        {
+          "value": 3734,
+          "sourceId": "tflcar-dbs-superleggera-2018"
+        }
+      ],
+      "reason": "Labelling and conversion. TFLcar's table prints 'Curb Weight 3,734 pounds (1,693 kg dry)': the same 1,693 kg dry figure, labelled curb and converted slightly differently (1,693 kg = 3,732 lb).",
+      "resolution": "Used Top Gear's 1,693 kg, labelled dry, converted to 3,732 lb as a dry weight. TFLcar's figure is not a curb weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

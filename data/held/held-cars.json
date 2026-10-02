@@ -460,6 +460,214 @@
           "url": "https://www.autoguide.com/manufacturer/audi/2017-audi-r8-v10-plus-review"
         }
       ]
+    },
+    {
+      "id": "ferrari-enzo",
+      "displayName": "Ferrari Enzo",
+      "heldSince": "2026-10-01",
+      "missing": "A settled curb weight and US model years. Three kerb figures exist: 1,480 kg (Evo panel, used in the draft), 1,365 kg (usually attributed to Ferrari, seen only in auto-filled panels) and 3,230 lb (Hagerty, US car). The draft record is EU-market with calendar years 2002-2004, unlike the other Ferraris; US model years were not sourced.",
+      "record": "data/held/ferrari-enzo.json",
+      "notes": "660 cv = 651 hp (ferrari.com magazine article). 6-speed automated manual, V12 5,998 cc, dry weight 1,255 kg per Ferrari."
+    },
+    {
+      "id": "ferrari-laferrari",
+      "displayName": "Ferrari LaFerrari",
+      "heldSince": "2026-10-01",
+      "missing": "A qualifying curb weight. Ferrari's release gives no weight, and the four magazine figures found disagree.",
+      "confirmed": {
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V12",
+        "displacementL": 6.3,
+        "cc": 6262,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Hybrid",
+        "drivetrain": "RWD",
+        "transmission": [
+          "7-speed DCT"
+        ],
+        "powerHp": 950,
+        "powerQuote": "Total maximum power: 963 CV (Ferrari Geneva 2013 release, reproduced at https://www.2luxury2.com/?p=45214 and https://www.supercars.net/blog/?p=370141); 963 x 0.98632 = 950 hp"
+      },
+      "weightCandidates": [
+        {
+          "lb": 2767,
+          "source": "1,255 kg dry (supercars.net, rossoautomobili.com); not seen on a Ferrari page"
+        },
+        {
+          "lb": 3109,
+          "source": "1,410 kg, Motor Sport, Andrew Frankel: 'a proper, comparable with fluids kerb weight' https://www.motorsportmagazine.com/archive/article/july-2014/62/laferrari"
+        },
+        {
+          "lb": 3142,
+          "source": "1,425 kg, CAR Magazine body text https://www.carmagazine.co.uk/car-reviews/ferrari/ferrari-laferrari-2014-review"
+        },
+        {
+          "lb": 3153,
+          "source": "1,430 kg, MOTOR (Australia) spec panel, Georg Kacher https://whichcar.com.au/reviews/ferrari-laferrari-review"
+        }
+      ],
+      "notes": "499 built; calendar years 2013-2016 from one unsigned source. US model years not sourced."
+    },
+    {
+      "id": "mclaren-f1",
+      "displayName": "McLaren F1",
+      "heldSince": "2026-10-01",
+      "missing": "A resolved power figure and settled years. Evo's panel says 627bhp, other outlets 618 hp; no McLaren or BMW page with the production rating could be opened. Sources give production as 1992-97, 1993-98 or 1994-98.",
+      "confirmed": {
+        "market": "UK",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V12",
+        "displacementL": 6.1,
+        "cc": 6064,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "powerCandidates": "627 (Evo, John Barker, https://www.evo.co.uk/mclaren/f1) or 618 (Carscoops, Autobuzz)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 2509,
+          "source": "1,138 kg curb: Carscoops (Brad Anderson; Michael Karkafiris), Autobuzz (Travis Chang), GTspirit (Ian Kuah). Would qualify as two named-author outlets."
+        },
+        {
+          "lb": 2244,
+          "source": "1,018 kg dry, McLaren's launch release as reproduced by Evo"
+        }
+      ],
+      "notes": "Never officially sold in the US, so a UK-market record with calendar years."
+    },
+    {
+      "id": "audi-r8-v10-type-42",
+      "displayName": "Audi R8 V10 (Type 42)",
+      "heldSince": "2026-10-01",
+      "missing": "US power and curb weight. Only Audi AG's global figures could be opened; Audi of America's sheet and the US magazines were blocked.",
+      "confirmed": {
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V10",
+        "displacementL": 5.2,
+        "cc": 5204,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "AWD",
+        "transmission": [
+          "6-speed Manual",
+          "6-speed Automated Manual"
+        ],
+        "globalPowerQuote": "At 8,000 rpm it achieves its maximum power output of 386 kW (525 hp) (Audi AG, https://www.audi-mediacenter.com/en/the-audi-r8-5-dot-2-fsi-quattro-2559/a-new-dimension-in-dynamics-2587)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3571,
+          "source": "1,620 kg, Audi AG, manual car; a European figure, not a US curb weight"
+        }
+      ],
+      "notes": "US model years (probably 2010-2012 and 2014-2015) and the facelift's 7-speed S tronic not confirmed."
+    },
+    {
+      "id": "audi-rs3-8v",
+      "displayName": "Audi RS3 (8V)",
+      "heldSince": "2026-10-01",
+      "missing": "Any curb weight, and an Audi of America source for the 2017-2018 rating and the first model year.",
+      "confirmed": {
+        "market": "US",
+        "body": [
+          "Sedan"
+        ],
+        "engine": "I5",
+        "displacementL": 2.5,
+        "aspiration": "Turbocharged",
+        "drivetrain": "AWD",
+        "transmission": [
+          "7-speed DCT"
+        ],
+        "powerHp2020": 394,
+        "powerQuote": "producing 394 horsepower and 354 lb-ft of torque (Audi of America, 3 April 2020, https://media.audiusa.com/view/releases/402)"
+      },
+      "notes": "Listed in Audi of America's 2019 and 2020 model-year releases. The 400 hp rating for 2017-2018 was not confirmed from an opened page."
+    },
+    {
+      "id": "lotus-emira-v6",
+      "displayName": "Lotus Emira V6",
+      "heldSince": "2026-10-01",
+      "missing": "The independent check did not confirm the draft. The only weight (1,457 kg, Evo, 'claimed') is from a 2026 review and is not tied to the 2022 car; sources disagree on whether '400hp' is PS or bhp (Evo's text says 394bhp); and the draft uses the UK market although the car is sold in the US.",
+      "record": "data/held/lotus-emira-v6.json",
+      "notes": "Needs a US curb weight and a clear US power rating."
+    },
+    {
+      "id": "ford-focus-rs-mk3",
+      "displayName": "Ford Focus RS (Mk3)",
+      "heldSince": "2026-10-01",
+      "missing": "A US curb weight from a qualifying source. Ford's US media site could not be opened and only one outlet gives a figure.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2016-2018",
+        "body": [
+          "Hatchback"
+        ],
+        "engine": "I4",
+        "displacementL": 2.3,
+        "cc": 2261,
+        "aspiration": "Turbocharged",
+        "fuel": "Gasoline",
+        "drivetrain": "AWD",
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "powerHp": 350,
+        "powerQuote": "350 hp @ 6,000 rpm (Ford US 2016 brochure, https://www.auto-brochures.com/makes/Ford/Focus/Ford_US%20FocusST_2016.pdf; same in the 2017 and 2018 brochures)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3459,
+          "source": "CarPro, Terry Box, 8 Nov 2017: 'Weight: 3,459 pounds.' One outlet; a second named-author outlet would qualify it."
+        }
+      ],
+      "notes": "Closest to release of this batch: one more source for 3,459 lb is enough."
+    },
+    {
+      "id": "jaguar-f-type-r-2016-2020",
+      "displayName": "Jaguar F-Type R (2016–2020)",
+      "heldSince": "2026-10-01",
+      "missing": "A dated source. Power (550 hp), all-wheel drive and weight (3,814 lb) are in a Jaguar US brochure that does not print its model year (the hosting site files it as 2017) and labels the row 'Weight from', not curb weight.",
+      "record": "data/held/jaguar-f-type-r-2016-2020.json",
+      "notes": "The stored draft was written as one 2015-2024 record; it would become the 2016-2020 year-split record. AutoGuide (Mike Schlee, 19 Nov 2014) confirms AWD and 3,814 lb for 2016. The 550 hp rating for 2018-2020 was not individually sourced."
+    },
+    {
+      "id": "jaguar-f-type-r-2015",
+      "displayName": "Jaguar F-Type R (2015)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight and a statement of the drivetrain. The 2015 R Coupe was rear-wheel drive by all accounts, but no opened page says so for the R specifically, and its weight comes from one outlet.",
+      "confirmed": {
+        "market": "US",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 5.0,
+        "aspiration": "Supercharged",
+        "drivetrain": "RWD (inferred)",
+        "transmission": [
+          "8-speed Automatic"
+        ],
+        "powerHp": 550,
+        "powerQuote": "550@6500 Power (hp@rpm) (Jaguar release, https://media.jlr.com/jaguar/en-us/news/2013/11/jaguar-f-type-coupe-unveiled)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3671,
+          "source": "Motor Authority, Nelson Ireson, 20 Nov 2013: 'The F-Type R claims an identical curb weight to the F-Type V8 S convertible, at 3,671 pounds.' One outlet."
+        }
+      ],
+      "notes": "Jaguar's 2015MY tech-spec file exists on media.jlr.com but is a zip that could not be opened."
     }
   ]
 }

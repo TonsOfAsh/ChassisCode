@@ -1,0 +1,160 @@
+{
+  "id": "ferrari-458-italia",
+  "manufacturer": "Ferrari",
+  "model": "458 Italia",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 458 Italia",
+  "aliases": [
+    "458",
+    "Ferrari 458",
+    "F136"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2015
+    },
+    "sourceId": "hagerty-458",
+    "note": "US model years. Hagerty: 'Introduced for the 2010 model year'; 'Production of the 458 concluded in 2015, succeeded by the turbocharged 488 GTB'. KBB (kbb-458) lists model years 2010 to 2015 for the 458 Italia. Unveiled in 2009 (Evo: 'At its launch in 2009'; evo-458 titles the car '2009 - 2015'). The 458 Spider and 458 Speciale are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "car-458",
+    "note": "Two-seat mid-engined berlinetta; the open car is the separately named 458 Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "carsales-458",
+      "note": "Ferrari specification list as printed by carsales: 'Type V8 – 90°'"
+    },
+    "displacementL": {
+      "value": 4.5,
+      "sourceId": "carsales-458",
+      "note": "4,499 cc. Ferrari specification list as printed by carsales: 'Displacement 4499 cc (274.5 cu in.)'; CAR Magazine's specs panel also gives '4499cc 32v V8' (car-458)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-458",
+      "note": "Evo spec panel: 'Engine | 4.5-litre naturally-aspirated V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "carsales-458",
+    "note": "Petrol engine with direct injection ('the company's first mid-mounted direct injection engine'); fuel type inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "car-458",
+    "note": "CAR Magazine specs panel: 'Seven-speed Getrag twin-clutch auto, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "carsales-458",
+    "note": "Ferrari specification list as printed by carsales: 'Gearbox: Dual-clutch, 7-speed F1'. Evo: 'seven-speed dual-clutch transmission' (Getrag). No manual was offered."
+  },
+  "powerHp": {
+    "value": 562,
+    "sourceId": "ferrari-458-page",
+    "note": "Ferrari's rating is metric: 570 cv x 0.98632 = 562 hp. Quote (ferrari.com): \"It is an entirely new design engineered to reach a maximum of 9,000 rpm – a first on a road car with this cylinder capacity – with a high 12.5:1 compression ratio and a maximum power output of 570 cv.\" Ferrari's specification list as printed by carsales (carsales-458): \"Maximum power 570 CV (425 kW)** @ 9000 rpm\", footnote \"Including 5 CV of ram effect\". No separate SAE rating for the US was found, so powerStandard is DIN PS; US publications print the same 562 hp (Hagerty: '562 horsepower in the Italia and Spider'; Star Tribune US review, March 2010: '562 at 9,000 rpm')."
+  },
+  "weightLb": {
+    "value": 3274,
+    "sourceId": "evo-458",
+    "note": "1,485 kg x 2.20462 = 3,274 lb (Evo and CAR print it as plain \"Weight\"; the Star Tribune calls it curb weight). Coupe with the 7-speed dual-clutch gearbox (the only transmission). Quote (Evo specification panel for the Ferrari 458 Italia): \"Weight | 1485kg\". Same figure in CAR Magazine's specs panel (car-458): \"Weight / material: 1485kg/aluminium\", and in the Star Tribune's US review of March 2010 (startribune-458): curb weight \"3,274 pounds\". Ferrari's own press specification gives only a dry weight: \"Dry weight 1380 kg (3042 lbs)*\", footnote \"With forged wheels and Racing seats\" (carsales-458). The published kerb figure is exactly 105 kg above that optioned dry weight, so it very probably also assumes the optional forged wheels and racing seats. No US-specific figure was found. Under the guide's weight order this is step 3 (a curb weight for a car with lightweight options; here very probably the forged wheels and racing seats named in that footnote), adopted on 2 October 2026: no curb weight for a standard car was found, and a standard car is somewhat heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-458-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "Ferrari 458 Italia",
+      "url": "https://www.ferrari.com/en-GB/auto/458-italia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-458",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari 458 (2009 - 2015) review – the last and best supercar of its kind",
+      "url": "https://www.evo.co.uk/ferrari/458",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "car-458",
+      "type": "publication",
+      "publisher": "CAR Magazine",
+      "title": "Ferrari 458 Italia (2009) review",
+      "url": "https://carmagazine.co.uk/car-reviews/ferrari/ferrari-458-italia-2009-review",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carsales-458",
+      "type": "publication",
+      "publisher": "carsales.com.au",
+      "title": "Ferrari 458 Italia in detail",
+      "url": "https://www.carsales.com.au/editorial/details/ferrari-458-italia-in-detail-16027",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hagerty-458",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "2015 Ferrari 458 Italia (Hagerty Valuation Tools)",
+      "url": "https://www.hagerty.com/valuation-tools/ferrari/458_italia/2015/2015-ferrari-458_italia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "startribune-458",
+      "type": "publication",
+      "publisher": "Star Tribune",
+      "title": "Ferrari 458 Italia",
+      "url": "https://www.startribune.com/ferrari-458-italia/86274382",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-458",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 458 Italia",
+      "url": "https://www.kbb.com/ferrari/458-italia/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,485 kg (3,274 lb) kerb",
+          "sourceId": "evo-458"
+        },
+        {
+          "value": "1,380 kg (3,042 lb) dry, with forged wheels and Racing seats",
+          "sourceId": "carsales-458"
+        }
+      ],
+      "reason": "Dry vs curb. Ferrari's press specification lists only a dry weight (no fluids), footnoted 'With forged wheels and Racing seats'; the magazines print the kerb weight.",
+      "resolution": "Used the published kerb figure under weight step 3 (an optioned car's curb weight), since no standard-car curb weight was found and a curb weight ranks above a dry weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

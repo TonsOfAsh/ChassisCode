@@ -51,18 +51,27 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
     const words = q.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
     // Cars whose name contains every typed word come first, shortest name first,
     // so "gt3 991.2" lists the GT3 above the GT3 RS. Alias-only matches follow.
+    // Among those, whole-word matches beat word beginnings, so "f-type" lists the
+    // F-Type above a Type R whose code happens to start with F.
+    const nameWordsOf = (c: CarOption) => c.name.toLowerCase().split(/[^a-z0-9]+/);
     const inName = (c: CarOption) => {
-      const nameWords = c.name.toLowerCase().split(/[^a-z0-9]+/);
+      const nameWords = nameWordsOf(c);
       return words.every((w) => nameWords.some((n) => n.startsWith(w)));
+    };
+    const wholeWords = (c: CarOption) => {
+      const nameWords = nameWordsOf(c);
+      return words.filter((w) => nameWords.includes(w)).length;
     };
     return index
       .search(q)
       .map((r) => byId.get(r.id as string))
       .filter((c): c is CarOption => !!c && !excluded.has(c.id))
-      .map((c, rank) => ({ c, rank, named: inName(c) }))
-      .sort((a, b) =>
-        a.named !== b.named ? (a.named ? -1 : 1) : a.named ? a.c.name.length - b.c.name.length || a.rank - b.rank : a.rank - b.rank,
-      )
+      .map((c, rank) => ({ c, rank, named: inName(c), whole: wholeWords(c) }))
+      .sort((a, b) => {
+        if (a.named !== b.named) return a.named ? -1 : 1;
+        if (!a.named) return a.rank - b.rank;
+        return b.whole - a.whole || a.c.name.length - b.c.name.length || a.rank - b.rank;
+      })
       .map((x) => x.c)
       .slice(0, MAX_RESULTS);
   }, [query, selected, index, byId, excludedIds]);

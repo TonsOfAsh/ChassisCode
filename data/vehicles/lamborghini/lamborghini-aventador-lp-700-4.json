@@ -1,0 +1,160 @@
+{
+  "id": "lamborghini-aventador-lp-700-4",
+  "manufacturer": "Lamborghini",
+  "model": "Aventador",
+  "generation": null,
+  "variant": "LP 700-4",
+  "subVariant": null,
+  "displayName": "Lamborghini Aventador LP 700-4",
+  "aliases": [
+    "Aventador",
+    "Aventador LP700-4",
+    "LP700-4",
+    "ISR",
+    "2012 Aventador"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2017
+    },
+    "sourceId": "kbb-aventador-2012",
+    "note": "US model years, from a database (last resort) with a publication for the first year. First: KBB lists the 2012 Aventador as 'LP 700-4 Coupe 2D' and says 'The Aventador is all-new for 2012, replacing the Murcielago'; MotorWeek road-tested the '2012 Lamborghini Aventador LP 700-4' (motorweek-aventador-2012). Last: KBB's 2017 Aventador lists 'LP 700-4 Coupe 2D' (kbb-aventador-2017), and for 2018 says 'the base model is dropped, replaced by the 740-horsepower Aventador S' with only S trims listed (kbb-aventador-2018). The Roadster is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lambo-aventador-techdata",
+    "note": "Two-door coupe; the open car is sold as the Aventador LP 700-4 Roadster (separate record)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "lambo-aventador-techdata",
+      "note": "'V12, 60°, MPI'"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "lambo-aventador-techdata",
+      "note": "6,498 cc ('Displacement 6498 cc')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-aventador-techdata",
+      "note": "Naturally aspirated V12 (MPI, no forced induction listed)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-aventador-techdata"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-aventador-techdata",
+    "note": "'4WD with Haldex generation IV' (permanent, automatically engaging)"
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "lambo-aventador-techdata",
+    "note": "'Gearbox: 7 speed ISR, shifting characteristic depending on drive select mode' (ISR = Independent Shifting Rods, a single-clutch automated manual); no manual offered"
+  },
+  "powerHp": {
+    "value": 690,
+    "sourceId": "lambo-aventador-techdata",
+    "note": "Quote: \"Maximum power: 700 HP (515 kW) at 8.250 rpm\". The 700 is Lamborghini's metric (CV/PS) figure: 700 x 0.98632 = 690 hp. No separate US SAE rating was found, so powerStandard is DIN PS. MotorWeek writes 'a 691-horsepower ... 6.5-liter, V12' (motorweek-aventador-2012); see discrepancies. KBB prints Lamborghini's metric figure as hp; no hp rating from Lamborghini's US arm was found, so the guide's conversion is used."
+  },
+  "weightLb": {
+    "value": 3472,
+    "sourceId": "lambo-aventador-techdata",
+    "note": "DRY weight (no curb weight for the standard car, and no optioned-car curb weight, was found from Lamborghini or a major magazine). Quote: \"Dry weight: 1575 Kg\". 1,575 x 2.20462 = 3,472 lb. The sheet does not say whether this is with lightweight options. A car ready to drive is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2012,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-aventador-techdata",
+      "type": "manufacturer",
+      "publisher": "Autoblog.gr (Lamborghini technical data sheet reproduced in full)",
+      "title": "Lamborghini Aventador LP 700-4 technical data",
+      "url": "https://www.autoblog.gr/wp-content/uploads/2011/02/lamborghini_aventador_lp_700-4_-_technical_data.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-aventador-2012",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2012/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-aventador-2017",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2017 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2017/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-aventador-2018",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2018 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2018/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-aventador-2012",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2012 Lamborghini Aventador LP 700-4",
+      "url": "https://motorweek.org/road_tests/2012_lamborghini_aventador_lp_700_4/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 690,
+          "sourceId": "lambo-aventador-techdata"
+        },
+        {
+          "value": 691,
+          "sourceId": "motorweek-aventador-2012"
+        }
+      ],
+      "reason": "Conversion rounding: 700 CV (515 kW) converts to 690 hp from PS (x 0.98632) and to 691 hp from kW (x 1.34102). MotorWeek's 691 is not a separate rating.",
+      "resolution": "Used 690 hp, the guide's PS conversion of Lamborghini's 700 CV."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3472,
+          "sourceId": "lambo-aventador-techdata"
+        },
+        {
+          "value": 3500,
+          "sourceId": "motorweek-aventador-2012"
+        }
+      ],
+      "reason": "Rounding: MotorWeek writes 'a 3,500 pound dry weight', a rounded version of Lamborghini's 1,575 kg (3,472 lb) dry figure.",
+      "resolution": "Used Lamborghini's 1,575 kg dry weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

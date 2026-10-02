@@ -1,0 +1,169 @@
+{
+  "id": "mercedes-amg-e-63-s-w213",
+  "manufacturer": "Mercedes-AMG",
+  "model": "E 63",
+  "generation": "W213",
+  "variant": "S",
+  "subVariant": null,
+  "displayName": "Mercedes-AMG E 63 S (W213)",
+  "aliases": [
+    "E63 S",
+    "E63",
+    "E63 AMG",
+    "W213 E63",
+    "E63 S W213",
+    "E 63 S 4MATIC+",
+    "E63 S Wagon",
+    "S213",
+    "M177",
+    "AMG SPEEDSHIFT MCT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2023
+    },
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "US model years. First: MBUSA's launch release is titled 'The new 2018 Mercedes-AMG E63 S Sedan' and says 'US dealer launch is planned in the summer of 2017' (mbusa-e63-s-launch-2016); MBUSA published 2018, 2019, 2020 and 2021 E 63 S Sedan specification pages. Only the S was covered by MBUSA's US launch release and specification pages; the non-S E 63 is not mentioned. Last: Carvana's 2023 guide says 'The biggest change for the 2023 Mercedes-AMG E-Class is the return of the E 63 S sedan and wagon after sitting out 2022. Otherwise, this final year of the fifth-generation AMG E-Class is largely unchanged.' (carvana-2023-amg-e-class). No 2022 model year E 63 S was sold in the US."
+  },
+  "body": {
+    "value": [
+      "Sedan",
+      "Wagon"
+    ],
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "'Four-door, five passenger sedan'. The E 63 S Wagon (S213) was sold alongside it: 'Four-door, five-passenger wagon' (mbusa-2018-e63-s-wagon-specs)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2018-e63-s-sedan-specs",
+      "note": "'4.0L V8 biturbo'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2018-e63-s-sedan-specs",
+      "note": "3,982 cc ('Displacement (cc) | 3,982')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-e63-s-launch-2016",
+      "note": "'Two twin-scroll turbochargers are deployed for the first time'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "Inferred from the sheet's description of the V8 biturbo petrol engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "'AMG Performance 4MATIC+ permanent all-wheel drive with variable torque distribution and drift mode'"
+  },
+  "transmission": {
+    "value": [
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "'Transmission Type | AMG SPEEDSHIFT MCT 9-Speed': a nine-speed planetary automatic with a wet start-up clutch in place of the torque converter."
+  },
+  "powerHp": {
+    "value": 603,
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "Quote: \"Horsepower @ rpm | 603 @ 5,750 – 6,500\". MBUSA's 2019, 2020 and 2021 sedan sheets give the same 603 @ 5,750 – 6,500 (mbusa-2019-e63-s-sedan-specs, mbusa-2020-e63-s-sedan-specs, mbusa-2021-e63-s-sedan-specs)."
+  },
+  "weightLb": {
+    "value": 4515,
+    "sourceId": "mbusa-2018-e63-s-sedan-specs",
+    "note": "US curb weight, sedan with the only transmission, 2018 model. Quote: \"Curb Weight (lbs) | 4,515\". The 2019 sheet reads \"4,515 lbs est.\", the 2020 sheet \"TBA\" and the 2021 (facelift) sheet \"4,497\". The wagon is 4,669 lb on the 2018 wagon sheet (mbusa-2018-e63-s-wagon-specs). MBUSA's 2018 sheet prints 4,515 without a qualifier; its 2019 sheet prints the same number as an estimate."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2018-e63-s-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2018 Mercedes-AMG E63 S Sedan Specifications",
+      "url": "https://media.mbusa.com/news/2018-mercedes-amg-e63-s-sedan-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-e63-s-launch-2016",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "The new 2018 Mercedes-AMG E63 S Sedan",
+      "url": "https://media.mbusa.com/news/the-new-mercedes-amg-e63-and-e63-s-sedan",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2018-e63-s-wagon-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2018 Mercedes-AMG E 63 S Wagon Specifications",
+      "url": "https://media.mbusa.com/releases/release-f64df5efcf40bb28fb4d418ddc1d8f28-2018-mercedes-amg-e63-s-wagon-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2019-e63-s-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2019 Mercedes-AMG E 63 S Sedan Specification",
+      "url": "https://media.mbusa.com/news/2019-mercedes-amg-e-63-s-sedan-specification",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2020-e63-s-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2020 Mercedes-AMG E 63 S Sedan",
+      "url": "https://media.mbusa.com/releases/release-8b57388b62a047895676a2827018fad4-2020-mercedes-amg-e-63-s-sedan",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2021-e63-s-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2021 Mercedes-AMG E 63 S Sedan Specifications",
+      "url": "https://media.mbusa.com/news/2021-mercedes-amg-e-63-s-sedan-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carvana-2023-amg-e-class",
+      "type": "database",
+      "publisher": "Carvana",
+      "title": "2023 Mercedes-Benz AMG E-Class: What's New, Specs & Features",
+      "url": "https://www.carvana.com/buy/2023-mercedes-benz-amg-e-class/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4515,
+          "sourceId": "mbusa-2018-e63-s-sedan-specs"
+        },
+        {
+          "value": 4497,
+          "sourceId": "mbusa-2021-e63-s-sedan-specs"
+        }
+      ],
+      "reason": "Model year. Both are MBUSA curb weights for the sedan: 4,515 lb on the 2018 sheet, 4,497 lb on the 2021 (facelift) sheet.",
+      "resolution": "Used 4,515 lb because the reference model year is 2018."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "The last model year (2023) and the absence of a 2022 model year rest on an unsigned Carvana guide page; no MBUSA page for the 2022 or 2023 E 63 S could be opened (MBUSA's own 2018-2021 specification pages were opened). Also decide whether the wagon should stay in this record's body list: the guide says to list every body of a variant, and the E 63 S Wagon is the same variant.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

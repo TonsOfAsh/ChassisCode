@@ -1,0 +1,133 @@
+{
+  "id": "lexus-lc-500",
+  "manufacturer": "Lexus",
+  "model": "LC",
+  "generation": null,
+  "variant": "500",
+  "subVariant": null,
+  "displayName": "Lexus LC 500",
+  "aliases": [
+    "LC500",
+    "LC 500 Convertible",
+    "LC 500 Coupe",
+    "2UR-GSE",
+    "Lexus LC V8",
+    "2018 LC 500",
+    "2021 LC 500 Convertible"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "sourceId": "lexus-us-2018-lc500-product-info",
+    "note": "US model years. First: Lexus USA Newsroom page '2018 Lexus LC 500 Product Information' (16 March 2017). Still on sale: the 2026 LC 500 is the newest model year on the Lexus USA Newsroom at the access date (lexus-us-2026-lc500-release); no opened Lexus page announces an end. The V6 hybrid LC 500h is a different variant and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "lexus-us-2026-lc500-release",
+    "note": "'The 2026 LC 500 model lineup, including the LC 500 Convertible'. The soft-top LC 500 Convertible joined for the 2021 model year (lexus-us-2021-lc500-convertible-release: 'the 2021 Lexus LC 500 Convertible is ready for showtime on Lexus dealer lots'); it shares the variant name, so it is not a separate record. 2018-2020 were coupe only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "lexus-us-2019-lc-press-kit",
+      "note": "'V8, aluminum block and cylinder heads'; 'DOHC, 32-valve, Dual VVT-i'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "lexus-us-2019-lc-press-kit",
+      "note": "4,969 cc ('5.0 liters / 4,969 cm / 303.2 cu. in')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lexus-us-2019-lc-press-kit",
+      "note": "'the five-liter, naturally aspirated V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lexus-us-2019-lc-press-kit",
+    "note": "Gasoline direct and port injection (D-4S); recommended fuel '95 RON / 91 AKI'. The hybrid is the separate LC 500h."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lexus-us-2019-lc-press-kit",
+    "note": "'Front engine, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "lexus-us-2019-lc-press-kit",
+    "note": "'10-speed Sport Direct Shift automatic with paddle shift and manual mode' (torque-converter automatic; no manual offered)."
+  },
+  "powerHp": {
+    "value": 471,
+    "sourceId": "lexus-us-2019-lc-press-kit",
+    "note": "Quote: \"351 kW / 471 HP @ 7,100 rpm\" (2019 LC 500 specifications table). The same 471 hp is stated for the 2021 Convertible (lexus-us-2021-lc500-convertible-release: '471 horsepower at 7,100 rpm') and for 2026 (lexus-us-2026-lc500-release: 'The LC 500 has an output of 471 hp and 398 lb.-ft. of peak torque'); no rating change was found."
+  },
+  "weightLb": {
+    "value": 4280,
+    "sourceId": "lexus-us-2019-lc-press-kit",
+    "note": "Coupe, 10-speed automatic (the only transmission), 2019 model. Quote: \"1,935kg / 4,280 lb.\" (curb weight row, LC 500 column; the LC 500h is listed separately at 4,435 lb). Lexus's 2018 product-information PDF could not be opened (HTTP 403), so the reference year is 2019, the earliest year with an opened manufacturer figure; MotorWeek's 2018 LC 500 road test prints the same '4,280-lbs.' (motorweek-2018-lc500). The Convertible is heavier; no opened Lexus page gave its curb weight. Lexus's own line does not convert exactly: 1,935 kg is 4,266 lb, and 4,280 lb is 1,941 kg. The pound figure is used as published for the US car."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lexus-us-2019-lc-press-kit",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "2019 Press Kit: Lexus LC 500 (full press kit PDF with specifications)",
+      "url": "https://s3.amazonaws.com/toyota-cms-media/toyota-pdfs/2019_Lexus_LC_Press_Kit_FULL_Final.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lexus-us-2018-lc500-product-info",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "2018 Lexus LC 500 Product Information",
+      "url": "https://pressroom.lexus.com/2018-lexus-lc-500-product-specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lexus-us-2021-lc500-convertible-release",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "2021 Lexus LC 500 Convertible Opens Possibilities for Flagship Performance",
+      "url": "https://pressroom.lexus.com/2021-lexus-lc-500-convertible-opens-possibilities-for-flagship-performance/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lexus-us-2026-lc500-release",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "Tangible Elegance: The 2026 Lexus LC 500",
+      "url": "https://pressroom.lexus.com/tangible-elegance-the-2026-lexus-lc-500/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-2018-lc500",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2018 Lexus LC 500 road test",
+      "url": "https://motorweek.org/road_tests/2018-lexus-lc-500/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

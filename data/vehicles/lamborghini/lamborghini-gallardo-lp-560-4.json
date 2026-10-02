@@ -1,0 +1,138 @@
+{
+  "id": "lamborghini-gallardo-lp-560-4",
+  "manufacturer": "Lamborghini",
+  "model": "Gallardo",
+  "generation": null,
+  "variant": "LP 560-4",
+  "subVariant": null,
+  "displayName": "Lamborghini Gallardo LP 560-4",
+  "aliases": [
+    "Gallardo LP560-4",
+    "LP560-4",
+    "e-gear",
+    "2009 Gallardo",
+    "Gallardo"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2014
+    },
+    "sourceId": "kbb-gallardo-2009",
+    "note": "US model years, from a database (last resort; no manufacturer or magazine page stating US model years was found). First: KBB lists the 2009 trims as 'LP 560-4 Coupe 2D' and 'LP 560-4 Roadster 2D', while the 2008 trims are 'Coupe 2D', 'Superleggera Coupe 2D' and 'Spyder Roadster 2D' (kbb-gallardo-2008). Last: KBB's 2014 Gallardo lists 'LP 560-4 Coupe 2D' (kbb-gallardo-2014); KBB's 2015 Gallardo URL returns the 2014 page, and KBB calls the 2015 Huracán 'the replacement for the popular Gallardo' (kbb-huracan-2015). Evo (2 Apr 2008): 'deliveries start Summer '08' (evo-gallardo-lp560). Includes the restyled LP 560-4 shown at Paris 2012, same designation. The Spyder is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lambo-gallardo-lp560-release",
+    "note": "Coupe; the open car is the Gallardo LP 560-4 Spyder (separate record)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "lambo-gallardo-lp560-release",
+      "note": "V10 per the release; Evo: '90deg V10, mid, longitudinal, 5204cc' (evo-gallardo-lp560)"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "lambo-gallardo-lp560-release",
+      "note": "5,204 cc ('The engine has a 5204 cm3 volumetric displacement which, with 8.000 rpm creates the extreme 560 PS (412 kW).')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-gallardo-lp560-release",
+      "note": "Naturally aspirated V10 per the release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-gallardo-lp560-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-gallardo-lp560-release",
+    "note": "'permanent four-wheel drive transmission'; 'four-wheel drive Viscous Traction (VT) system'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "lambo-gallardo-lp560-release",
+    "note": "'the exact gate guides of the six-speed gearbox via the short gear stick' or 'the e.gear's paddle-shift system' (e-gear, a single-clutch automated manual on the six-speed gearbox)"
+  },
+  "powerHp": {
+    "value": 552,
+    "sourceId": "lambo-gallardo-lp560-release",
+    "note": "Quote: \"The engine has a 5204 cm3 volumetric displacement which, with 8.000 rpm creates the extreme 560 PS (412 kW).\" 560 PS x 0.98632 = 552 hp. Evo's spec table agrees: '552bhp @ 8000rpm' (evo-gallardo-lp560). No separate US SAE rating was found, so powerStandard is DIN PS. KBB prints Lamborghini's metric figure as hp; no hp rating from Lamborghini's US arm was found, so the guide's conversion is used."
+  },
+  "weightLb": {
+    "value": 3109,
+    "sourceId": "lambo-gallardo-lp560-release",
+    "note": "DRY weight (no curb weight for the standard car, and no optioned-car curb weight, was found from Lamborghini or a major magazine). Quote: \"It weighs in dry at 1410 kilograms – which is, effectively, 20 kilograms less that that of the previous Gallardo.\" 1,410 x 2.20462 = 3,109 lb. The release does not say whether this is with options."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2009,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-gallardo-lp560-release",
+      "type": "manufacturer",
+      "publisher": "LamboCars (Lamborghini press release reproduced in full)",
+      "title": "The official press release of Gallardo LP560-4",
+      "url": "https://lambocars.com/the-official-press-release-of-gallardo-lp560-4/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-gallardo-lp560",
+      "type": "publication",
+      "publisher": "Evo (David Vivian)",
+      "title": "Lamborghini Gallardo LP560-4",
+      "url": "https://evo.co.uk/lamborghini/gallardo/6587/lamborghini-gallardo-lp560-4",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-gallardo-2008",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 Lamborghini Gallardo",
+      "url": "https://www.kbb.com/lamborghini/gallardo/2008/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-gallardo-2009",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2009 Lamborghini Gallardo",
+      "url": "https://www.kbb.com/lamborghini/gallardo/2009/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-gallardo-2014",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2014 Lamborghini Gallardo",
+      "url": "https://www.kbb.com/lamborghini/gallardo/2014/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-huracan-2015",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2015 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2015/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

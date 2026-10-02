@@ -1,0 +1,121 @@
+{
+  "id": "jaguar-f-type-r-2021-2024",
+  "manufacturer": "Jaguar",
+  "model": "F-Type",
+  "generation": null,
+  "variant": "R",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Jaguar F-Type R (2021–2024)",
+  "aliases": [
+    "F-Type R Coupe",
+    "F-Type R Convertible",
+    "F-Type P575",
+    "F-Type R 75",
+    "F-Type R AWD",
+    "facelift F-Type R",
+    "2021 F-Type R",
+    "2022 F-Type R",
+    "2023 F-Type R",
+    "2024 F-Type R"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "jaguar-us-f-type-brochure-2021",
+    "note": "US model years. The F-Type R is split by year range because the car changed twice: rear-wheel drive and 550 hp for 2015, all-wheel drive and 550 hp for 2016 to 2020, all-wheel drive and 575 hp for 2021 to 2024. This record is the 575 hp car. First: Jaguar's US brochure for the restyled range, dated December 2019 with a 2020 copyright, is the first to list the R with 575 hp; US outlets and the hosting site file it as the 2021 model year. Last: Jaguar says of 2024, \"This marks the final model year of F‑TYPE\" (jaguar-us-f-type-final-year-2023); for 2024 the 575 hp car was sold as the \"F-TYPE P575 R75 AWD\" (jaguar-us-2024-model-year-highlights), counted here as the R's last year. The 2022 and 2023 model years were not checked individually."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "jaguar-us-f-type-brochure-2021",
+    "note": "The brochure gives the 575 hp car a curb weight for both Coupe and Convertible. The Convertible keeps the variant name, so it is not a separate record. Jaguar's final-year release: 'In Coupé or Convertible form'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "jaguar-us-f-type-brochure-2021",
+      "note": "Cylinders/valves per cylinder '8/4', 'Vee' layout. Jaguar's 2024 list: '5.0L Supercharged V8 (575 hp / 516 lb-ft)' (jaguar-us-2024-model-year-highlights)."
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "jaguar-us-f-type-brochure-2021",
+      "note": "5,000 cc (capacity row: '5,000')"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "jaguar-us-2024-model-year-highlights",
+      "note": "'5.0L Supercharged V8 (575 hp / 516 lb-ft)'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "jaguar-us-2024-model-year-highlights",
+    "note": "Inferred: a supercharged V8 with no hybrid or electric system mentioned."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "jaguar-us-f-type-brochure-2021",
+    "note": "Driveline row, 575 hp column: 'All Wheel Drive (AWD)'. Jaguar's final-year release: 'Offered exclusively with all‑wheel drive' (jaguar-us-f-type-final-year-2023)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "jaguar-us-f-type-final-year-2023",
+    "note": "'eight‑speed Quickshift transmission with full manual control' (a torque-converter automatic). The brochure lists the transmission only as 'Automatic'. No manual was offered on the V8."
+  },
+  "powerHp": {
+    "value": 575,
+    "sourceId": "jaguar-us-f-type-brochure-2021",
+    "note": "Quote: \"Maximum power (hp/rpm)\" 575/6,500 in the P575 column, which the brochure identifies as the F-TYPE R (\"a 575HP engine supported by an enhanced chassis\"). Jaguar's 2024 list repeats it: \"F-TYPE P575 R75 AWD ... 5.0L Supercharged V8 (575 hp / 516 lb-ft)\". The 2015 to 2020 R was rated 550 hp and is not part of this record."
+  },
+  "weightLb": {
+    "value": 3843,
+    "sourceId": "jaguar-us-f-type-brochure-2021",
+    "note": "R Coupe, all-wheel drive, 8-speed automatic (the only transmission). Quote: \"Curb weight (lbs)\" 3,843 in the P575 Coupe column; the Convertible is 3,887. Footnotes: \"Weights reflect vehicles to standard specifications. Optional extras increase weight.\" and \"Includes full fluids and 90% fuel.\""
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "jaguar-us-f-type-brochure-2021",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE brochure (US, dated December 2019, copyright 2020; the 2021 model year range)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2021.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "jaguar-us-f-type-final-year-2023",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover media site (en-us)",
+      "title": "F-Type Marks 75 Years of Jaguar Sports Cars and Its Final Model Year Update",
+      "url": "https://media.jlr.com/archive-jaguar/en-us/news/2023/01/f-type-marks-75-years-jaguar-sports-cars-and-its-final-model-year-update",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "jaguar-us-2024-model-year-highlights",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover media site (en-us)",
+      "title": "What's New For Jaguar: 2024 Model Year Highlights",
+      "url": "https://media.jlr.com/archive-jaguar/en-us/news/2023/06/whats-new-jaguar-2024-model-year-highlights",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

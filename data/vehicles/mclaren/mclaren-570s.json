@@ -1,0 +1,143 @@
+{
+  "id": "mclaren-570s",
+  "manufacturer": "McLaren",
+  "model": "570S",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 570S",
+  "aliases": [
+    "570S Coupe",
+    "570S Coupé",
+    "McLaren 570",
+    "M838TE",
+    "SSG",
+    "Sports Series",
+    "2016 570S",
+    "2017 570S",
+    "2018 570S",
+    "2019 570S",
+    "2020 570S"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2020
+    },
+    "sourceId": "kbb-570s-2016",
+    "note": "US model years, from Kelley Blue Book (a database): its 2016 570S page and year selector list 2016, 2017, 2018, 2019 and 2020, and its 2021 address redirects to the 2020 page, \"Used 2020 McLaren 570S\" (kbb-570s-2020). KBB calls the 2016 car \"an all-new model\". McLaren's US press kit of October 2015 (mclaren-us-570s-press-kit-2015) gives \"deliveries in the U.S. starting before the end of 2015\" but no model year. No McLaren page was found that names the first or last US model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-us-570s-press-kit-2015",
+    "note": "\"570S Coupe\", a two-seat fixed-roof car. The 570S Spider and the 570GT are sold under their own names and are not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-us-570s-press-kit-2015",
+      "note": "\"Engine configuration V8 Twin Turbo / 3,799cc\" (M838TE)"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "mclaren-us-570s-press-kit-2015",
+      "note": "3,799 cc (\"Engine configuration V8 Twin Turbo / 3,799cc\"); McLaren calls it a \"3.8-liter twin turbo V8\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-us-570s-press-kit-2015",
+      "note": "\"V8 Twin Turbo\"; \"3.8-liter twin turbo V8 engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-us-570s-press-kit-2015"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mclaren-us-570s-press-kit-2015",
+    "note": "McLaren US press kit: \"The classic mid-engine rear-wheel drive supercar configuration optimizes handling and agility.\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-us-570s-press-kit-2015",
+    "note": "\"Transmission 7 Speed SSG\" (McLaren \"seven-speed seamless shift gearbox\"), recorded as a DCT as in the McLaren 720S record, where McLaren describes its SSG as \"A dual-clutch, seamless-shift gearbox\". No manual was offered."
+  },
+  "powerHp": {
+    "value": 562,
+    "sourceId": "mclaren-us-570s-press-kit-2015",
+    "note": "Quote (McLaren US press kit, October 2015): \"Power 562 hp (570PS) @ 7,400 rpm\". The global kit of October 2015 (mclaren-570s-press-kit-2015) has \"Power 570PS (562 bhp) @ 7,400 rpm\"; McLaren's May 2016 Sports Series kit (mclaren-sports-series-press-kit-2016) gives \"Power 570PS (562 bhp) @ 7,500 rpm\" (same output, different peak rpm). powerStandard is DIN PS because McLaren's rating is the metric 570 PS; 570 x 0.98632 = 562 hp, the figure McLaren's US kit prints."
+  },
+  "weightLb": {
+    "value": 2895,
+    "sourceId": "mclaren-us-570s-press-kit-2015",
+    "note": "Dry weight of a car with lightweight options (guide step 4), coupe with the 7-speed SSG (the only transmission). Quote (McLaren US press kit): \"Dry weight 2,895 lbs (1,313 kg) with lightweight options\"; the global kits (mclaren-570s-press-kit-2015, mclaren-sports-series-press-kit-2016) give \"Dry weight 1,313 kg (2,895 lb) with lightweight options\". McLaren does not name the options. A standard car is heavier, and a car with fluids heavier still. No McLaren kerb weight for the standard or an optioned 570S Coupe was found (steps 1 and 3), and no qualifying publication curb weight (step 2). McLaren's 600LT US media pack (mclaren-us-600lt-media-pack-2018) says the 600LT is \"220.5lbs lighter* than 570S Coupe DIN kerbweight\", but a 570S kerb weight worked out from that by subtraction is not used. That pack shows McLaren did publish a 570S Coupé DIN kerb weight somewhere; it was not found, and would replace this figure if it is."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-us-570s-press-kit-2015",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "Media information October 2015. The 570S Coupe: the first model in the new McLaren Sports Series (USA)",
+      "url": "https://cars.mclaren.press/assets/documents/original/5964-101015_570S+Coupe+press+kit+(USA).pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mclaren-570s-press-kit-2015",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "The 570S Coupe press kit (October 2015)",
+      "url": "https://cars.mclaren.press/assets/documents/original/5789-211015_570S+Coupe+press+kit.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mclaren-sports-series-press-kit-2016",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "Media information May 2016. The new McLaren Sports Series brings supercar performance (UK)",
+      "url": "https://cars.mclaren.press/assets/documents/original/6601-0516_McLaren+Sports+Series+press+kit_UK.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mclaren-us-600lt-media-pack-2018",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "600LT: the fourth chapter in the McLaren 'Longtail' story (US media information)",
+      "url": "https://cars.mclaren.press/assets/documents/original/9714-McLaren600LTmediainformationfullpackUSFINAL91418.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-570s-2016",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 McLaren 570S Price, Value & Reviews",
+      "url": "https://www.kbb.com/mclaren/570s/2016/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-570s-2020",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2020 McLaren 570S Price, Value & Reviews",
+      "url": "https://www.kbb.com/mclaren/570s/2020/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

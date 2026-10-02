@@ -1,0 +1,127 @@
+{
+  "id": "mclaren-720s",
+  "manufacturer": "McLaren",
+  "model": "720S",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 720S",
+  "aliases": [
+    "720S Coupe",
+    "720S Coupé",
+    "McLaren 720",
+    "M840T",
+    "SSG",
+    "2018 720S",
+    "2019 720S",
+    "2020 720S",
+    "2021 720S",
+    "2022 720S",
+    "2023 720S"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2023
+    },
+    "sourceId": "carguide-720s-end",
+    "note": "US model years. First: The Car Guide: \"Introduced in 2017 as a 2018 model\". Last: Car and Driver (republished by Yahoo Autos, caranddriver-720s-end): \"Production of 2023 model-year vehicles officially ended in December 2022\". McLaren's launch release of 7 March 2017 (mclaren-720s-release-2017) said the first customers would receive cars in May 2017. The Car Guide supports the first model year; the last rests on the Car and Driver report."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-us-720s-media-info-2022",
+    "note": "Fixed-roof two-seater with dihedral doors. The 720S Spider is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-us-720s-media-info-2022",
+      "note": "\"Engine configuration M840T engine, 4.0-litre twin-turbo V8, 3,994cc\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mclaren-us-720s-media-info-2022",
+      "note": "3,994 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-us-720s-media-info-2022",
+      "note": "\"4.0-litre twin-turbo V8\"; \"The ultra-low inertia, twin-scroll turbochargers have lightweight turbines capable of 160,000rpm\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-us-720s-media-info-2022"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mclaren-us-720s-media-info-2022",
+    "note": "\"Drivetrain layout Longitudinal mid-engined, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-us-720s-media-info-2022",
+    "note": "\"Transmission 7 Speed SSG\" (McLaren Seamless Shift Gearbox); \"A dual-clutch, seamless-shift gearbox with paddleshift controls\". No manual was offered."
+  },
+  "powerHp": {
+    "value": 710,
+    "sourceId": "mclaren-us-720s-media-info-2022",
+    "note": "Quote (McLaren media information, US version): \"Power bhp/kW @ rpm 710/537 @ 7,500\". The global launch release of 7 March 2017 (mclaren-720s-release-2017) gives the same rating as \"Power PS (bhp/kW @ rpm 720 (710/537) @ 7,500\": 720 PS = 710 bhp. The US document publishes only the bhp figure, used as published. The rating did not change during the run. powerStandard is DIN PS because McLaren's rating is the metric 720 PS; 720 x 0.98632 = 710 hp, the figure McLaren prints as bhp."
+  },
+  "weightLb": {
+    "value": 3128,
+    "sourceId": "mclaren-us-720s-media-info-2022",
+    "note": "Coupe, 7-speed SSG (the only transmission). Quote (McLaren media information, US version): \"DIN Kerb weight, lbs [fluids + 90% fuel] 3,128\". The 2017 launch release (mclaren-720s-release-2017) has the same figure: \"DIN Kerb weight, kg (lbs) [fluids + 90% fuel] 1,419 (3,128)\". DIN weight, not EU. McLaren's other weight row, \"Lightest dry weight, lbs 2,828.5\" (1,283 kg), depends on options and is not used. McLaren does not say which equipment the DIN kerb weight row assumes."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-us-720s-media-info-2022",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "Media information May 2022. McLaren 720S: The superlight supercar (US version)",
+      "url": "https://cars.mclaren.press/assets/documents/original/14045-McLaren720SmediainformationupdatedMay2022USVersionFinal.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mclaren-720s-release-2017",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "McLaren 720S revealed (media information, 7 March 2017)",
+      "url": "https://cars.mclaren.press/assets/documents/original/7539-McLaren+720S_Geneva+Press+Release_final+v2.1.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carguide-720s-end",
+      "type": "publication",
+      "publisher": "The Car Guide",
+      "title": "McLaren 720S Quietly Bows Out, Demand for Successor Already Sky-High",
+      "url": "https://www.guideautoweb.com/en/articles/69184/mclaren-720s-quietly-bows-out-demand-for-successor-already-sky-high/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "caranddriver-720s-end",
+      "type": "publication",
+      "publisher": "Car and Driver (republished by Yahoo Autos)",
+      "title": "Prepare to Say Goodbye to the McLaren 720S",
+      "url": "https://autos.yahoo.com/prepare-goodbye-mclaren-720s-170400875.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

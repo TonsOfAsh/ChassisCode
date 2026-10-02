@@ -1,0 +1,128 @@
+{
+  "id": "lotus-evora-gt",
+  "manufacturer": "Lotus",
+  "model": "Evora",
+  "generation": null,
+  "variant": "GT",
+  "subVariant": null,
+  "displayName": "Lotus Evora GT",
+  "aliases": [
+    "Evora GT",
+    "2020 Evora GT",
+    "2021 Evora GT"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2021
+    },
+    "sourceId": "lotus-us-evora-gt-release-speedjournal",
+    "note": "US model years. First: Lotus release of July 2019: \"The new 2020 Lotus Evora GT can be ordered now for the USA and Canada.\" Last: Kelley Blue Book (a database) lists only the 2020 and 2021 model years and its 2022 address shows \"Used 2021 Lotus Evora GT\" (kbb-evora-gt-2021). Lotus's heritage page (lotus-evora-heritage) gives the Evora 400 range \"Year of production 2015-2021\". No Lotus page names 2021 as the last US model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lotus-us-evora-gt-release-motor1tr",
+    "note": "Two-door mid-engined coupe, offered as a 2+2 or 2+0 (\"Available in both 2 seat and 2+2 configurations\", lotus-us-evora-gt-release-speedjournal)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "lotus-us-evora-gt-release-motor1tr",
+      "note": "\"3.5 litre (3,456 cc) V6, 24-valve, water cooled, all aluminium engine, with Edelbrock supercharger\""
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "lotus-us-evora-gt-release-motor1tr",
+      "note": "3,456 cc, quoted from the Lotus specification table: \"3.5 litre (3,456 cc) V6\". Lotus's heritage page (lotus-evora-heritage) gives \"Engine 3,456cc supercharged V6\" for the Evora 400 range."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "lotus-us-evora-gt-release-motor1tr",
+      "note": "\"with Edelbrock supercharger\"; the Lotus release also says \"supercharged, 3.5-litre 6-cylinder engine with integrated water-to-air charge cooler\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lotus-us-evora-gt-release-motor1tr"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lotus-us-evora-gt-release-motor1tr",
+    "note": "Rear-wheel drive with a \"Torsen Type Limited Slip Differential (manual only)\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "lotus-us-evora-gt-release-motor1tr",
+    "note": "Standard six-speed manual; optional \"6-speed automatic transmission, with gearbox cooler, ultra-fast changes via steering wheel mounted lightweight aluminium paddles\". Lotus release: \"In addition to Lotus' slick, six-speed manual gearbox ... the Evora GT is also available with an automatic transmission option\" (lotus-us-evora-gt-release-speedjournal)."
+  },
+  "powerHp": {
+    "value": 416,
+    "sourceId": "lotus-us-evora-gt-release-motor1tr",
+    "note": "Quote (Lotus specification table for the North American Evora GT): \"Max power | PS / bhp | 422 / 416 | 422 / 416\" (manual and automatic columns). Lotus release (lotus-us-evora-gt-release-speedjournal): \"producing 422 PS (416 bhp) at 7000 rpm\". Lotus's rating is the metric 422 PS; 422 x 0.98632 = 416 hp, the figure Lotus prints as bhp for the US car, so powerStandard is DIN PS (as in the McLaren 720S record)."
+  },
+  "weightLb": {
+    "value": 3175,
+    "sourceId": "lotus-us-evora-gt-release-motor1tr",
+    "note": "Standard car, manual transmission. Quote (Lotus specification table, columns MANUAL and AUTOMATIC): \"Wet / kerb weight | lbs / kg | 3,175 / 1440 | 3,199 / 1451\". Lotus does not say whether this is a DIN figure. Jalopnik gives the same figure: \"Curb weight stays at 3,175 pounds for the manual car\" (jalopnik-evora-gt-2019). Lotus's lightest figures, \"Lightest possible weight lbs / kg 3,104 / 1,408\" (\"With all the lightweight options fitted\"), and 3,128 / 1,419 in the automatic column, are for optioned cars and not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lotus-us-evora-gt-release-motor1tr",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars (release and specification table reproduced by Motor1 Türkiye)",
+      "title": "2020 Lotus Evora GT (USA) release, 26 July 2019, with technical specification",
+      "url": "https://tr.motor1.com/news/362054/2019-lotus-evora-gt-abd/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lotus-us-evora-gt-release-speedjournal",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars (reproduced by The Speed Journal)",
+      "title": "The new 2020 Lotus Evora GT (North America)",
+      "url": "https://www.thespeedjournal.com/?p=23227",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lotus-evora-heritage",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars",
+      "title": "Lotus Evora (heritage road cars)",
+      "url": "https://www.lotuscars.com/en-US/lotus-story/road-cars/evora",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "jalopnik-evora-gt-2019",
+      "type": "publication",
+      "publisher": "Jalopnik",
+      "title": "The 2020 Lotus Evora GT Gets Its Rear Seat Back And 6 Extra HP",
+      "url": "https://jalopnik.com/the-2020-lotus-evora-gt-gets-its-back-seat-back-and-6-e-1836729582",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-evora-gt-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Lotus Evora GT Price, Value & Reviews",
+      "url": "https://www.kbb.com/lotus/evora-gt/2021/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

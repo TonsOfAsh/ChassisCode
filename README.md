@@ -5,7 +5,7 @@ exact car, and gets another specification after each wrong guess.
 
 ## Status
 
-Phases 1 and 2 of 8 are done, and the database is at 62 cars: the sourced vehicle data and a playable game in Unlimited mode
+Phases 1 and 2 of 8 are done, and the database is at 81 cars: the sourced vehicle data and a playable game in Unlimited mode
 (random car, clue-by-clue reveal, car search, win and loss summary).
 
 ## Guess comparison

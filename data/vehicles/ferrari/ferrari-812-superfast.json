@@ -1,0 +1,144 @@
+{
+  "id": "ferrari-812-superfast",
+  "manufacturer": "Ferrari",
+  "model": "812 Superfast",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 812 Superfast",
+  "aliases": [
+    "812",
+    "Ferrari 812"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2021
+    },
+    "sourceId": "kbb-812",
+    "note": "US model years: KBB lists the 812 Superfast for 2018, 2019, 2020 and 2021 (its 2022 address leads back to the 2021 car). In calendar years: Ferrari announced the car on 16 February 2017 for the Geneva show (ferrari-corp-812-release); The Car Expert says 'it was launched in 2017 as a replacement for the Ferrari F12 Berlinetta, and remained in production until 2023' (carexpert-812); PistonHeads says Ferrari 'stopped taking orders for the 812 Superfast coupe and GTS convertible in early 2022, although production continued until all outstanding orders had been fulfilled' (pistonheads-812-guide); Evo's title says '(2017 - 2024)', which appears to cover the whole 812 family (evo-812). The 812 GTS and 812 Competizione are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-corp-812-release",
+    "note": "Ferrari: 'the new 12-cylinder berlinetta, the 812 Superfast'. The open 812 GTS is a separate model."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "ferrari-corp-812-release",
+      "note": "'Type | V12 - 65°', front-mounted"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "ferrari-corp-812-release",
+      "note": "6,496 cc ('Overall displacement | 6,496 cc')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pistonheads-812-guide",
+      "note": "Spec panel: 'Engine | 6,496cc naturally aspirated 48v V12'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-corp-812-release",
+    "note": "Not stated in so many words; petrol V12 with a fuel consumption figure in l/100km and no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-812",
+    "note": "Spec panel: 'Transmission | Seven-speed dual-clutch, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "evo-812",
+    "note": "Evo spec panel: 'Seven-speed dual-clutch, rear-wheel drive'. Ferrari's release says 'The 812 Superfast's dual-clutch transmission has specific gear ratios' without giving the number of gears (ferrari-corp-812-release). Ferrari calls it the F1 DCT. No manual was offered."
+  },
+  "powerHp": {
+    "value": 789,
+    "sourceId": "ferrari-corp-812-release",
+    "note": "Ferrari's rating is metric: 800 cv x 0.98632 = 789 hp. Quote (Ferrari press release): \"Maximum power output * | 588 kW (800 cv) at 8,500 rpm\", footnote \"*With 5 cv ram effect\". No separate SAE rating for the US was found, so powerStandard is DIN PS; publications print the same 789 (Evo spec panel: '789bhp @ 8500rpm'; PistonHeads: 'Power (hp) | 789@8,500rpm'; KBB's US listing: '789 hp')."
+  },
+  "weightLb": {
+    "value": 3594,
+    "sourceId": "evo-812",
+    "note": "1,630 kg x 2.20462 = 3,594 lb. Coupe with the 7-speed dual-clutch gearbox (the only configuration). Quote (Evo spec panel): \"Weight | 1630kg (492bhp/ton)\". PistonHeads' spec panel gives the same: \"Weight (kg) | 1,630\" (pistonheads-812-guide), and KBB's US listing shows a curb weight of '3593 lbs.' (kbb-812, the same figure truncated). Neither magazine panel labels the figure kerb or dry. Ferrari's press release gives only a dry weight: \"Dry weight** | 1,525 kg\", footnote \"**With lightweight optionals\" (ferrari-corp-812-release). 1,630 kg is exactly 105 kg above that optioned dry weight, so it very probably also assumes the lightweight options. No US-specific figure was found. Under the guide's weight order this is step 3 (a curb weight for a car with lightweight options; here very probably Ferrari's unnamed lightweight options), adopted on 2 October 2026: no curb weight for a standard car was found, and a standard car is somewhat heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-corp-812-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari N.V. (corporate.ferrari.com)",
+      "title": "Ferrari 812 Superfast: new extreme performance V12 berlinetta (press release, Maranello, 16 February 2017)",
+      "url": "https://corporate.ferrari.com/en/ferrari-812-superfast-new-extreme-performance-v12-berlinetta",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-812",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari 812 Superfast (2017 - 2024) review – a V12 GT with hypercar intensity",
+      "url": "https://www.evo.co.uk/ferrari/812-superfast",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pistonheads-812-guide",
+      "type": "publication",
+      "publisher": "PistonHeads",
+      "title": "Ferrari 812 Superfast | PH Used Buying Guide",
+      "url": "https://www.pistonheads.com/news/ph-buying-guides/ferrari-812-superfast-ph-used-buying-guide/48119",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carexpert-812",
+      "type": "publication",
+      "publisher": "The Car Expert",
+      "title": "Ferrari 812 Superfast (2017 – 2023) Expert Rating",
+      "url": "https://www.thecarexpert.co.uk/ferrari-812-superfast-2017/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-812",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 812 Superfast (model year listing and specifications)",
+      "url": "https://www.kbb.com/ferrari/812-superfast/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,630 kg (3,594 lb)",
+          "sourceId": "evo-812"
+        },
+        {
+          "value": "1,525 kg dry (3,362 lb)",
+          "sourceId": "ferrari-corp-812-release"
+        }
+      ],
+      "reason": "Dry vs kerb. Ferrari's launch release gives only a dry weight, and that figure is 'With lightweight optionals'. Evo's and PistonHeads' specification panels both print 1,630 kg.",
+      "resolution": "Used the published kerb figure under weight step 3 (an optioned car's curb weight), since no standard-car curb weight was found and a curb weight ranks above a dry weight."
+    }
+  ],
+  "needsReview": true,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true,
+  "reviewNotes": "Last US model year: 2021 rests on KBB's model-year list alone; UK sources say orders closed in early 2022 and production ran on into 2023, so a 2022 US model year cannot be ruled out."
+}

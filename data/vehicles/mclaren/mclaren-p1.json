@@ -1,0 +1,148 @@
+{
+  "id": "mclaren-p1",
+  "manufacturer": "McLaren",
+  "model": "P1",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren P1",
+  "aliases": [
+    "McLaren P1 hybrid",
+    "M838TQ",
+    "IPAS",
+    "SSG",
+    "2014 P1",
+    "2015 P1"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2015
+    },
+    "sourceId": "mpgbuddy-p1-2015",
+    "note": "US model years: the EPA fuel economy data as listed by MPG Buddy covers the P1 for the 2014 and 2015 model years only. RM Sotheby's (rmsothebys-p1-2015) describes a \"2015 McLaren P1\" \"delivered new to its original owner via McLaren of Newport Beach, California in October 2014\", \"one of approximately 128 US-market examples produced\". Build dates per McLaren (mclaren-p1-10-years): \"Build of the first of the 375 McLaren P1 production models... finished in September 2013\"; \"final customer-ordered car was completed in December 2015\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-p1-10-years",
+    "note": "Fixed-roof two-seater: \"The MonoCage carbon fibre monocoque with roof at the core of the McLaren P1\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-p1-10-years",
+      "note": "Combustion engine only: \"3.8-litre, twin-turbocharged M838TQ V8 engine\". An electric motor mounted on the engine completes the hybrid system."
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "supercars-net-p1",
+      "note": "3,799 cc (\"displacement | 3799 cc / 231.83 in³\" in the Supercars.net specification table). McLaren's release calls it \"3.8-litre\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-p1-10-years",
+      "note": "\"twin-turbocharged M838TQ V8\""
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "supercars-net-p1",
+    "note": "McLaren press text reproduced by Supercars.net: \"The plug-in charger can be stored in the luggage compartment, although the customer may choose to store it off-board\". MPG Buddy's EPA listing (mpgbuddy-p1-2015) also calls it a plug-in hybrid."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "supercars-net-p1",
+    "note": "McLaren press text: \"all drive is channelled through the dual-clutch seven-speed gearbox to drive the rear wheels\". The specification table that Supercars.net itself compiled on the same page says 'driven wheels | AWD', which contradicts McLaren's text and is wrong; the P1 has no front drive."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "supercars-net-p1",
+    "note": "McLaren press text: \"The electric motor is mounted directly onto the engine, and all drive is channelled through the dual-clutch seven-speed gearbox to drive the rear wheels.\" McLaren calls it SSG (Seamless Shift Gearbox)."
+  },
+  "powerHp": {
+    "value": 903,
+    "sourceId": "mclaren-p1-10-years",
+    "note": "Combined system output. Quote (McLaren release, 9 March 2023, as republished by Automotive World): \"A 3.8-litre, twin-turbocharged M838TQ V8 engine developing 737PS (727 bhp) combined with a lightweight electric motor producing 179PS (176 bhp) to give a total of 916PS (903bhp).\" 916 PS x 0.98632 = 903 hp, the same as McLaren's own bhp figure. The same rating is in McLaren's release of 21 October 2013 (mclaren-p1-performance-2013): \"916 PS (903 bhp)\". No US-specific McLaren document was found, so the metric rating is converted and powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3285,
+    "sourceId": "mclaren-p1-10-years",
+    "note": "Single body and transmission. Quote (McLaren release, 9 March 2023, as republished by Automotive World): \"DIN weight was 1,490kg (3,285lbs).\" 1,490 kg x 2.20462 = 3,285 lb. DIN weight, not EU. The same release gives a \"dry lightest weight of just 1,395kg (3,075lbs)\", which depends on options and is not used. McLaren does not say which equipment the DIN figure assumes, and it is a worldwide figure, not a US-specific one."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-p1-10-years",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (press release republished by Automotive World)",
+      "title": "McLaren P1: Celebrating 10 years of the pioneering hybrid hypercar heralded as the 'best driver's car on road and track'",
+      "url": "https://www.automotiveworld.com/?p=396039",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mclaren-p1-performance-2013",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "Performance figures for the McLaren P1 confirmed as first customer car is delivered (21 October 2013)",
+      "url": "https://cars.mclaren.press/assets/documents/original/4235-performance-figures-mclaren-p1-confirmed-first-customer-car-delivered.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "supercars-net-p1",
+      "type": "publication",
+      "publisher": "Supercars.net",
+      "title": "2013 McLaren P1 (reproduces McLaren press text, \"Story by McLaren Automotive Limited\", with a specification table)",
+      "url": "https://www.supercars.net/blog/2013-mclaren-p1/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mpgbuddy-p1-2015",
+      "type": "database",
+      "publisher": "MPG Buddy (EPA fuel economy data)",
+      "title": "2015 McLaren Automotive P1: MPG and fuel economy",
+      "url": "https://mpgbuddy.com/cars/mclaren-automotive/p1/2015",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "rmsothebys-p1-2015",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "2015 McLaren P1 (Monterey 2023 lot)",
+      "url": "https://rmsothebys.com/auctions/mo23/lots/r0110-2015-mclaren-p1/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3285,
+          "sourceId": "mclaren-p1-10-years"
+        },
+        {
+          "value": "1450 kg / 3197 lbs (curb weight)",
+          "sourceId": "supercars-net-p1"
+        }
+      ],
+      "reason": "McLaren's own release gives a DIN weight of 1,490 kg (3,285 lb) and a lightest dry weight of 1,395 kg. The Supercars.net specification table lists a curb weight of 1,450 kg with no source; it is a site-compiled table, not a McLaren document.",
+      "resolution": "Used McLaren's DIN weight of 1,490 kg (3,285 lb), the manufacturer's figure."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Two points to confirm. (1) Weight: 3,285 lb (1,490 kg) is McLaren's own 'DIN weight', so it meets the guide's step 1, but it is only 95 kg above McLaren's 'dry lightest weight' of 1,395 kg, which is roughly the weight of fluids and 90% fuel alone. The DIN figure may therefore describe the lightest specification rather than a car with standard equipment; McLaren does not say, and no other qualifying curb weight was found (Supercars.net's table lists 1,450 kg without a source). (2) US model years 2014-2015 rest on a database rendering of the EPA listings (MPG Buddy) plus an RM Sotheby's lot for a 2015 car; fueleconomy.gov itself could not be opened. Cars were built from September 2013 to December 2015.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

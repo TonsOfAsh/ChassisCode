@@ -1,0 +1,144 @@
+{
+  "id": "mercedes-benz-c-63-amg-w204",
+  "manufacturer": "Mercedes-Benz",
+  "model": "C 63 AMG",
+  "generation": "W204",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-Benz C 63 AMG (W204)",
+  "aliases": [
+    "C63",
+    "C63 AMG",
+    "W204 C63",
+    "C63 W204",
+    "C204",
+    "C63 AMG Coupe",
+    "M156",
+    "AMG SPEEDSHIFT MCT",
+    "AMG Development Package"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2015
+    },
+    "sourceId": "motorweek-2008-c63",
+    "note": "US model years. First: MotorWeek's road test is of the '2008 Mercedes-Benz C63 AMG' (sedan). The coupe joined for 2012 (MBUSA '2012 Mercedes-Benz C-Class Coupe Technical Data', mbusa-2012-c-coupe-techdata). MBUSA's Edition 507 release says the model year 2014 Edition 507 'will be sold in the U.S. along with the existing 451-hp C63 AMG coupe and sedan' (mbusa-2014-edition-507-release). Last: for 2015 the sedan was replaced by the W205 while the W204 coupe carried on; KBB's 2015 C-Class page lists a 'C63 AMG Coupe 2D' and says 'Coupe variants carry over with previous-gen hardware that includes a trio of engines ranging from a just-adequate 1.8-liter turbo 4-cylinder to a muscular 6.3-liter V8' (kbb-2015-c-class). Sedan 2008-2014, coupe 2012-2015."
+  },
+  "body": {
+    "value": [
+      "Sedan",
+      "Coupe"
+    ],
+    "sourceId": "mbusa-2011-c-class-techdata",
+    "note": "Sedan: 'Four-door, five-passenger sedan' (2011 sheet). Coupe from model year 2012: 'C63 AMG Coupe' column of MBUSA's 2012 C-Class Coupe technical data (mbusa-2012-c-coupe-techdata). The wagon was not sold in the US. The Black Series is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2011-c-class-techdata",
+      "note": "'90-degree V8' (M156)"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "mbusa-2011-c-class-techdata",
+      "note": "6,208 cc ('378.7 / 6,208'); marketed as '6.3'"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "mbusa-2014-edition-507-release",
+      "note": "'the naturally-aspirated V8 engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2011-c-class-techdata",
+    "note": "Inferred from the sheet's description of the V8 petrol engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-2011-c-class-techdata",
+    "note": "Inferred: the sheet lists 4MATIC only for the C300 columns; the C63 AMG is rear-wheel drive."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automatic"
+    ],
+    "sourceId": "mbusa-2011-c-class-techdata",
+    "note": "2011 sheet: 'AMG SPEEDSHIFT PLUS Seven-speed automatic'. From model year 2012 the gearbox is the AMG SPEEDSHIFT MCT: 'AMG SPEEDSHIFT PLUS Seven-speed multiclutch automatic' (mbusa-2012-c-coupe-techdata), a planetary automatic with a wet start-up clutch in place of the torque converter. No manual was offered."
+  },
+  "powerHp": {
+    "value": 451,
+    "sourceId": "mbusa-2011-c-class-techdata",
+    "note": "Quote: \"Horsepower @ rpm ... 451 @ 6,800\" (C63 AMG column). Same rating throughout: MBUSA's 2012 and 2013 coupe sheets read \"451 (481)* @ 6,500\" with the footnote \"*w/AMG Development Pkg\" (mbusa-2012-c-coupe-techdata, mbusa-2013-c-coupe-techdata), and the 2014 Edition 507 release refers to 'the existing 451-hp C63 model'. The optional AMG Development Package raised output to 481 hp; the 507 hp Edition 507 and 510 hp Black Series are not part of this record."
+  },
+  "weightLb": {
+    "value": 3924,
+    "sourceId": "mbusa-2011-c-class-techdata",
+    "note": "Sedan (the launch body) with the only transmission, 2011 model. Quote: \"Curb weight (lbs.) ... 3,924\" (C63 AMG column, 'Four-door, five-passenger sedan'). The coupe is 3,935 lb on MBUSA's 2012 and 2013 coupe sheets (\"Curb weight (lbs.) ... 3,935\")."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2011-c-class-techdata",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2011 Mercedes-Benz C-Class Technical Data",
+      "url": "https://media.mbusa.com/releases/release-13755a80fca8478d8d72bdb4bf3eebb2-2011-mercedes-benz-c-class-technical-data",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2012-c-coupe-techdata",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2012 Mercedes-Benz C-Class Coupe Technical Data",
+      "url": "https://media.mbusa.com/releases/release-d9a549542eda7195cfd6c7004d55939c-2012-mercedes-benz-c-class-coupe-technical-data",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2013-c-coupe-techdata",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2013 Mercedes-Benz C-Class Coupe Technical Data",
+      "url": "https://media.mbusa.com/releases/release-19a46c28ea6d4d1f8ca3166cfe9b058f-2013-mercedes-benz-c-class-coupe-technical-data",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2014-edition-507-release",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "Mercedes-Benz Introduces an Even More Aggressive C63 AMG with \"Edition 507\"",
+      "url": "https://media.mbusa.com/releases/release-58d996f853c4411e822e7c635561f5a3-all-new-model-year-2014-c63-amg-increases-power-to-507-hp",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-2008-c63",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2008 Mercedes-Benz C63 AMG",
+      "url": "https://motorweek.org/road_tests/2008_mercedes-benz_c63_amg",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2015-c-class",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2015 Mercedes-Benz C-Class",
+      "url": "https://www.kbb.com/mercedes-benz/c-class/2015/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Two points to confirm. (1) The last model year (2015, W204 coupe only) rests on KBB's 2015 C-Class page; no MBUSA page for the 2015 C63 AMG Coupe could be opened. (2) The reference year is 2011 because that is the earliest year for which an MBUSA curb weight for the sedan could be opened; MBUSA's 2008-2010 technical data pages were not found. The 451 hp rating is the same for every year.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

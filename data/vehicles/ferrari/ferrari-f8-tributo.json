@@ -1,0 +1,135 @@
+{
+  "id": "ferrari-f8-tributo",
+  "manufacturer": "Ferrari",
+  "model": "F8 Tributo",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari F8 Tributo",
+  "aliases": [
+    "F8",
+    "Ferrari F8"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2023
+    },
+    "sourceId": "kbb-f8",
+    "note": "US model years: KBB lists the F8 Tributo coupe for 2020, 2021, 2022 and 2023. The Drive's US first drive is of the '2020 Ferrari F8 Tributo' (thedrive-f8). Evo titles the car '2019 – 2023' in calendar years (evo-f8); Ferrari's release was posted on 1 March 2019 (ferrari-f8-release). The F8 Spider is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-f8-release",
+    "note": "Two-seat mid-rear-engined berlinetta; the open car is the separately named F8 Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-f8-release",
+      "note": "'90-degree V8 turbo'"
+    },
+    "displacementL": {
+      "value": 3.9,
+      "sourceId": "ferrari-f8-release",
+      "note": "3,902 cc ('Overall displacement 3902 cc')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "thedrive-f8",
+      "note": "'3.9-liter twin-turbo V8'; Evo: '3.9-litre twin-turbo V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-f8-release",
+    "note": "Ferrari specification footnote: 'With 98 octane petrol'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "thedrive-f8",
+    "note": "'3.9-liter twin-turbo V8 | 7-speed dual-clutch transmission | rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "thedrive-f8",
+    "note": "'7-speed dual-clutch transmission' (Ferrari's F1 dual-clutch gearbox). No manual was offered."
+  },
+  "powerHp": {
+    "value": 710,
+    "sourceId": "ferrari-f8-release",
+    "note": "Ferrari's rating is metric: 720 cv x 0.98632 = 710 hp. Quote (Ferrari press release as reproduced by the Ferrari Owners' Club GB): \"Max. power output* 720 cv at 8,000 rpm\", footnote \"With 98 octane petrol\". No separate SAE rating for the US was found, so powerStandard is DIN PS; US publications print the same 710 hp (The Drive: 'Horsepower: 710 hp @ 8,000 RPM')."
+  },
+  "weightLb": {
+    "value": 3164,
+    "sourceId": "thedrive-f8",
+    "note": "Curb weight as printed for the US-market 2020 car, 7-speed dual-clutch gearbox (the only transmission). Quote (The Drive, 'The 2020 Ferrari F8 Tributo, By the Numbers', by Mike Spinelli): \"Curb Weight: 3,164 lbs\". This is 1,435 kg (x 2.20462 = 3,164 lb), the figure Evo also reports (evo-f8, by John Barker): \"it featured a minimum kerb weight of 1435kg\". Two independent editorial outlets with named authors. Ferrari's press release gives only a dry weight: \"Dry weight** 1330 kg\", footnote \"With lightweight options\" (ferrari-f8-release). Evo calls 1,435 kg the 'minimum' kerb weight and it is exactly 105 kg above the optioned dry weight, so it very probably assumes the lightweight options. Under the guide's weight order this is step 3 (a curb weight for a car with lightweight options; here very probably Ferrari's unnamed lightweight options), adopted on 2 October 2026: no curb weight for a standard car was found, and a standard car is somewhat heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-f8-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari (press release reproduced by the Ferrari Owners' Club GB)",
+      "title": "The Ferrari F8 Tributo: A Celebration of Excellence",
+      "url": "https://www.ferrariownersclub.co.uk/the-ferrari-f8-tributo-a-celebration-of-excellence/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-f8",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2020 Ferrari F8 Tributo First Drive Review: A Star Is Born",
+      "url": "https://www.thedrive.com/new-cars/29860/2020-ferrari-f8-tributo-first-drive-review-a-star-is-born",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-f8",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari F8 Tributo (2019 – 2023) review – the last pure petrol mid-engined Ferrari",
+      "url": "https://www.evo.co.uk/ferrari/f8-tributo",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-f8",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari F8",
+      "url": "https://www.kbb.com/ferrari/f8/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,164 lb (1,435 kg) curb",
+          "sourceId": "thedrive-f8"
+        },
+        {
+          "value": "1,330 kg dry, with lightweight options",
+          "sourceId": "ferrari-f8-release"
+        }
+      ],
+      "reason": "Dry vs curb. Ferrari's press release lists only a dry weight (no fluids), footnoted 'With lightweight options'; The Drive and Evo print the kerb weight.",
+      "resolution": "Used the published kerb figure under weight step 3 (an optioned car's curb weight), since no standard-car curb weight was found and a curb weight ranks above a dry weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

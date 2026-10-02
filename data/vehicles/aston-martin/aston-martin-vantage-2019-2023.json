@@ -1,0 +1,217 @@
+{
+  "id": "aston-martin-vantage-2019-2023",
+  "manufacturer": "Aston Martin",
+  "model": "Vantage",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Aston Martin Vantage (2019–2023)",
+  "aliases": [
+    "V8 Vantage",
+    "Aston Martin V8 Vantage",
+    "Vantage V8",
+    "Vantage Coupe",
+    "Aston Vantage",
+    "2019 Vantage",
+    "2020 Vantage",
+    "2021 Vantage",
+    "2022 Vantage",
+    "2023 Vantage"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2023
+    },
+    "sourceId": "edmunds-vantage-2019",
+    "note": "US model years. Split by year range because the same model name went from 503 hp to 656 hp for 2025. First: Edmunds says \"The 2019 Aston-Martin Vantage is fully redesigned with a new twin-turbo V8 engine\". Aston's release (am-vantage-release-2017) gives \"Deliveries are scheduled to begin during the second quarter of 2018\" with US pricing. Last: Edmunds' Vantage model-year list (edmunds-vantage-model-years) runs 2019, 2020, 2021, 2022, 2023, then 2025, with no 2024 model year; Edmunds' 2025 page says the \"V8's output increases to 656 horsepower\" (edmunds-vantage-2025). Edmunds' 2020 to 2023 pages all give 503 hp (edmunds-vantage-2020, edmunds-vantage-2021-review, edmunds-vantage-2022-review, edmunds-vantage-2023). No opened page says in so many words that 2023 was the last US model year of this car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "am-vantage-release-2017",
+    "note": "Inferred from Aston's description of the fixed-roof two-seater; Autocar notes the boot is 'underneath a hatch tailgate' (autocar-vantage-2018-review). The Vantage Roadster is sold under its own name and is a separate record; AMR, F1 Edition and V12 Vantage are separate variants."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "am-vantage-release-2017",
+      "note": "'Aston Martin's potent new alloy, 4-litre twin-turbo V8 engine'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "autocar-vantage-2018-review",
+      "note": "3,982 cc (Autocar panel: 'Engine V8, 3982cc, twin-turbo, petrol'). Aston calls it '4-litre'."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "am-vantage-release-2017",
+      "note": "'4-litre twin-turbo V8 engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "autocar-vantage-2018-review",
+    "note": "'Engine V8, 3982cc, twin-turbo, petrol'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "am-vantage-release-2017",
+    "note": "'The Vantage deploys its impressive power and torque to the rear wheels via a rear-mounted ZF eight-speed automatic transmission.'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "edmunds-vantage-2021-review",
+    "note": "8-speed automatic (ZF) throughout: Aston's release (am-vantage-release-2017). The 7-speed manual was offered on the standard US coupe for the 2021 model year only: Edmunds 2021, 'Seven-speed manual transmission available in non-AMR Vantage Coupe'; Edmunds 2020 lists the manual only on the limited Vantage AMR (edmunds-vantage-2020); Edmunds 2022, 'Manual transmission discontinued' (edmunds-vantage-2022-review); Auto123, '2021 will be the last year for the manual-gearbox Vantage' (auto123-vantage-manual-2021). Aston's AMR release says 'Vantage will continue to feature a manual gearbox as an option from Q1 2020, following the sale of all 200 Vantage AMR models' (am-vantage-amr-release-2019). Edmunds notes the manual car has 461 lb-ft instead of 505 lb-ft; power is 503 hp either way."
+  },
+  "powerHp": {
+    "value": 503,
+    "sourceId": "am-vantage-release-2017",
+    "note": "Quote: \"This high performance, high efficiency engine returns a CO2 figure of 245g/km yet develops 503bhp at 6000rpm and 505lb.ft from 2000-5000rpm.\" Aston's own release in its US-unit version (US price '$149,995', weight in lb), used as published; it is Aston's 510 PS figure (am-vantage-amr-release-2019: 'develops 510PS at 6000rpm'; 510 PS = 503 hp). Edmunds gives 503 hp for each US model year 2019 to 2023, and Top Gear calls the 2025 car's 656bhp 'a 30 per cent increase in power from its 503bhp predecessor' (topgear-vantage-2025-review), so the standard car was not re-rated before 2025. powerStandard is DIN PS because 503 bhp is Aston's 510 PS rating restated, as in the McLaren records."
+  },
+  "weightLb": {
+    "value": 3373,
+    "sourceId": "am-vantage-release-2017",
+    "note": "Dry weight (weight-order step 4): no manufacturer curb weight, no qualifying magazine-panel curb weight and no optioned-car curb weight was found. Quote: \"With a dry weight of 3373lb this gives the Vantage formidable power-to-weight and torque-to-weight ratios\". The dry figure is itself for an optioned car: Evo, 'Aston claims a dry weight with lightweight options fitted of 1530kg' (evo-vantage-2017-reveal); Autocar, 'dry weight is quoted at 1530kg including the lightest options' (autocar-vantage-2018-review). 1,530 kg = 3,373 lb. A standard car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "am-vantage-release-2017",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (release reproduced in full by Supercars.net)",
+      "title": "Vantage, Aston Martin press release, 21 November 2017, Gaydon (in 'The Ultimate Guide to the 2018 Aston Martin V8 Vantage')",
+      "url": "https://www.supercars.net/blog/?p=338737",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "am-vantage-amr-release-2019",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (release reproduced by Motor1)",
+      "title": "Vantage AMR press release, 1 May 2019, Spa-Francorchamps (in 'Aston Martin Vantage AMR Loses Weight, Rocks A Seven-Speed Manual')",
+      "url": "https://www.motor1.com/news/347349/aston-martin-vantage-amr-manual/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autocar-vantage-2018-review",
+      "type": "publication",
+      "publisher": "Autocar",
+      "title": "Aston Martin Vantage 2018 review (Matt Prior, 11 April 2018)",
+      "url": "https://www.autocar.co.uk/car-review/aston-martin/vantage/first-drives/aston-martin-vantage-2018-review",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-vantage-2017-reveal",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "New Aston Martin Vantage revealed - full details and specs on Aston's V8 sports car (Stuart Gallagher, 24 November 2017)",
+      "url": "https://www.evo.co.uk/aston-martin/19779/new-aston-martin-vantage-revealed-full-details-and-specs-on-aston-s-v8-sports-car",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "topgear-vantage-2025-review",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Aston Martin Vantage review",
+      "url": "https://www.topgear.com/car-reviews/aston-martin/vantage-0",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "auto123-vantage-manual-2021",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "Aston Martin abandoning the manual transmission in 2022 (Daniel Rufiange, 18 May 2021)",
+      "url": "https://www.auto123.com/en/news/aston-martin-abandoning-manual-transmission-2022/68129/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-2019",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2019 Aston Martin Vantage",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2019/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-2020",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2020 Aston Martin Vantage",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2020/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-2021-review",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2021 Aston Martin Vantage review",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2021/review/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-2022-review",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2022 Aston Martin Vantage review",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2022/review/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-2023",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2023 Aston Martin Vantage",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2023/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-2025",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2025 Aston Martin Vantage",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2025/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-vantage-model-years",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Aston Martin Vantage (model overview and model years)",
+      "url": "https://www.edmunds.com/aston-martin/vantage/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3373,
+          "sourceId": "am-vantage-release-2017"
+        },
+        {
+          "value": 3594,
+          "sourceId": "autocar-vantage-2018-review"
+        }
+      ],
+      "reason": "Dry vs curb, and a stated figure vs an estimate. Aston's 3,373 lb (1,530 kg) is a dry weight with the lightest options. Autocar's specification panel prints 'Kerb weight 1630kg (est)' (3,594 lb), marked as its own estimate, exactly 100 kg above Aston's dry figure.",
+      "resolution": "Used Aston's dry weight (step 4). Autocar's figure is labelled an estimate, so it is not a stated curb weight for the standard car."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

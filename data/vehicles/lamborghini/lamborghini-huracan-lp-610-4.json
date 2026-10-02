@@ -1,0 +1,145 @@
+{
+  "id": "lamborghini-huracan-lp-610-4",
+  "manufacturer": "Lamborghini",
+  "model": "Huracán",
+  "generation": null,
+  "variant": "LP 610-4",
+  "subVariant": null,
+  "displayName": "Lamborghini Huracán LP 610-4",
+  "aliases": [
+    "Huracan",
+    "Huracan LP 610-4",
+    "LP610-4",
+    "LDF",
+    "2015 Huracan"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2019
+    },
+    "sourceId": "kbb-huracan-2015",
+    "note": "US model years, from a database (last resort; no manufacturer or magazine page stating the US model years was found). First: KBB lists the 2015 Huracán with the single trim 'LP 610-4 Coupe 2D' and says 'The 2015 Lamborghini Huracan is all-new'; KBB has no 2014 Huracán page (404). Last: KBB's 2019 Huracán lists an 'AWD Coupe 2D' rated '602 @ 8250 RPM' (kbb-huracan-2019, kbb-huracan-2019-specs), i.e. the LP 610-4, and Guide Auto reports the Huracán EVO, 'the new generation of the Huracán', as the 2020 model (guideauto-huracan-evo-2020). Lamborghini release: show premiere at Geneva 2014, 'customer delivery scheduled to start in spring 2014'. The Spyder is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lambo-huracan-release",
+    "note": "Two-door coupe; the open car is sold as the Huracán LP 610-4 Spyder (separate record)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "lambo-huracan-release",
+      "note": "'V10 engine'"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "lambo-huracan-release",
+      "note": "5,204 cc ('The displacement of 5,204 cm³ is the result of an 84.5 millimeter bore and 92.8 millimeter stroke.')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-huracan-release",
+      "note": "Naturally aspirated V10 per the release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-huracan-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-huracan-release",
+    "note": "'Four wheel drive with new hydraulic multi-plate clutch'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "lambo-huracan-release",
+    "note": "'7-speed dual-clutch transmission', Lamborghini Doppia Frizione (LDF); no manual offered"
+  },
+  "powerHp": {
+    "value": 602,
+    "sourceId": "lambo-huracan-release",
+    "note": "Quote: \"It produces a power output of 448 kW / 610 hp at 8,250 rpm and a maximum torque of 560 Nm at 6,500 rpm.\" The 610 is Lamborghini's metric (CV/PS) figure: 610 x 0.98632 = 602 hp. No separate US SAE rating was found, so powerStandard is DIN PS. KBB is not consistent: its 2019 listing shows 602 hp, its 2015 listing 610. The release itself gives both 448 kW and 449 kW in different places; the 610 figure is the same in both. KBB prints Lamborghini's metric figure as hp; no hp rating from Lamborghini's US arm was found, so the guide's conversion is used."
+  },
+  "weightLb": {
+    "value": 3135,
+    "sourceId": "lambo-huracan-release",
+    "note": "DRY weight (no curb weight for the standard car, and no optioned-car curb weight, was found from Lamborghini or a major magazine). Quote: \"The ultralight chassis forms the basis for the vehicle's low dry weight of 1,422 kilograms; with its excellent stiffness, it guarantees the handling precision of a racing car.\" 1,422 x 2.20462 = 3,135 lb. Evo says this is for an optioned car (evo-huracan-used): \"The launch car tipped the scales at 1422kg, but that's a dry weight figure with the lightest possible options.\" A standard car is heavier. Top Gear's auto-filled spec page prints 'Minimum Kerbweight 1,422kg' (topgear-huracan-spec), the same dry figure relabelled; not used as a curb weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-huracan-release",
+      "type": "manufacturer",
+      "publisher": "LamboCars (Lamborghini press release reproduced in full)",
+      "title": "Lamborghini Huracán LP 610-4 - Press Release",
+      "url": "https://www.lambocars.com/lamborghini-huracan-lp-610-4-press-release/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-huracan-used",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Used Lamborghini Huracán (2014-2024) review – last-of-the-line V10 Lambo is one of the very best",
+      "url": "https://www.evo.co.uk/lamborghini/huracan",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-huracan-2015",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2015 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2015/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-huracan-2019",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2019/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-huracan-2019-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Lamborghini Huracán specs",
+      "url": "https://www.kbb.com/lamborghini/huracan/2019/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "guideauto-huracan-evo-2020",
+      "type": "publication",
+      "publisher": "Guide Auto (Michel Deslauriers)",
+      "title": "2020 Lamborghini Huracán EVO: Updated and Improved",
+      "url": "https://www.guideautoweb.com/en/articles/49064/2020-lamborghini-huracan-evo-updated-and-improved/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "topgear-huracan-spec",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Lamborghini Huracán LP 610-4 2dr LDF specs",
+      "url": "https://topgear.com/car-reviews/lamborghini/huracan/lp-610-4-2dr-ldf/spec",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

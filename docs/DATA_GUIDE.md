@@ -47,7 +47,7 @@ Rules for the ambiguous cases:
 | Cars never sold in the US | Home-market spec, converted to hp and lb, with the market recorded in `specBasis`. |
 | Cars with no generation code | `generation` is null. The Generation clue then shows production years only. |
 | Several generations of one model with no chassis code enthusiasts use (Ford GT, Camaro, CTS-V) | Use `1st gen`, `2nd gen` and so on. Put the model year people say ("2005 Ford GT") in the aliases. |
-| The manufacturer publishes only a dry weight | Use a major publication's curb weight. Use the dry weight only if no curb weight exists anywhere; then set `specBasis.weightType` to `dry` and `needsReview`. |
+| The manufacturer publishes only a dry weight, or only a weight with lightweight options | Follow the weight order below: a standard-car curb weight first, then an optioned car's curb weight, then a dry weight. |
 
 ## Field rules
 
@@ -146,16 +146,22 @@ Take the figure from the first of these that exists:
 2. A publication's curb weight for the standard car. This means either the specification panel
    of a major magazine (Car and Driver, Road & Track, MotorTrend, Evo, Autocar, Top Gear), or the
    same figure reported by two independent editorial outlets with named authors. Auto-filled spec
-   panels, registries, forums, museum pages and figures worked out by subtraction do not count. Use this when the manufacturer publishes
-   no curb weight, only a dry weight, or only a weight for an optioned car (Weissach Package,
-   Extreme Aero). Set confidence to `medium`.
-3. The manufacturer's dry weight, only when no curb weight exists anywhere. Set
-   `specBasis.weightType` to `dry` (the game then shows "dry" beside the figure) and set
-   `needsReview`.
+   panels, registries, forums, museum pages and figures worked out by subtraction do not count.
+   Set confidence to `medium`.
+3. A curb weight for a car with lightweight options: the manufacturer's, or the figure a source
+   from step 2 prints when it is evidently that car (Ferrari: magazines print a kerb weight exactly
+   105 kg above Ferrari's dry weight "with lightweight options"). Many exotic-car makers publish
+   nothing else. Say in the note that the figure is for an optioned car, name the options if a
+   source does, and say that a standard car is somewhat heavier. `weightType` stays `curb`.
+4. A dry weight: the manufacturer's, or a major magazine's panel figure labelled dry. Set
+   `specBasis.weightType` to `dry`; the game shows "(dry)" beside the figure. Say in the note if
+   the dry figure is itself for an optioned car.
 
-A weight for an optioned car is never used as the standard car's weight. If steps 1 and 2 both
-fail and only an optioned-car figure exists, use it, say exactly which options it includes in the
-note, and set `needsReview`. When two sources at the same step disagree, record a discrepancy.
+Steps 3 and 4 were adopted on 2 October 2026 so that exotic cars can enter the game. They do not
+need `needsReview` on their own account. Never skip a step: an optioned or dry figure is used only
+when no figure from an earlier step was found. When two sources at the same step disagree, record
+a discrepancy.
+
 European "DIN" and "EU" weights are different things (EU adds 75 kg for a driver); use DIN, and say
 so in the note.
 
@@ -194,7 +200,7 @@ A car enters the database only if all of these hold. Otherwise it is held back, 
 
 - Power comes from a manufacturer page or a major publication's specification panel that was
   actually opened, and the power note quotes the sentence or table line it came from.
-- Weight meets the weight rule above from a manufacturer or major publication page that was actually
+- Weight meets the weight order above (steps 1 to 4) from a manufacturer or major publication page that was actually
   opened, and the weight note quotes it. A database is not enough for power or weight.
 - Production years, displacement and transmissions each have a cited source.
 - No unresolved discrepancy on power or weight.

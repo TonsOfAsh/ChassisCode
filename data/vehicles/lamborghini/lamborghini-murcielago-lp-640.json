@@ -1,0 +1,147 @@
+{
+  "id": "lamborghini-murcielago-lp-640",
+  "manufacturer": "Lamborghini",
+  "model": "Murciélago",
+  "generation": null,
+  "variant": "LP 640",
+  "subVariant": null,
+  "displayName": "Lamborghini Murciélago LP 640",
+  "aliases": [
+    "Murcielago",
+    "Murcielago LP640",
+    "LP640",
+    "LP640-4",
+    "e-gear",
+    "2007 Murcielago"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2007,
+      "endYear": 2010
+    },
+    "sourceId": "cargurus-murcielago-2007",
+    "note": "US model years, from databases (last resort; no manufacturer or magazine page stating US model years was found). First: CarGurus lists the 2007 trims as 'LP640 Coupe' and 'LP640 Roadster'; KBB shows the 2006 car with a 'V12, 6.2 Liter' rated '580 @ 7500 RPM' and the 2007 car with a 'V12, 6.5 Liter' rated '640 @ 8000 RPM' (kbb-murcielago-2006-specs, kbb-murcielago-2007-specs). Last: KBB's 2010 Murciélago lists 'LP 640-4 Coupe 2D' (kbb-murcielago-2010); KBB's 2011 Murciélago URL returns the 2010 page, and KBB says the Aventador is 'all-new for 2012, replacing the Murcielago' (kbb-aventador-2012). Lamborghini release: 'The first vehicles will be available in spring 2006'. The LP 640 Roadster was sold alongside in the US. KBB's 2008 address returns the 2010 page, so the 2008 model year was not individually confirmed. The 2006 and 2007 KBB engine rows quoted above are for the Roadster, which shared the engine."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lambo-murcielago-lp640-release",
+    "note": "Coupe; the Roadster is listed separately by KBB and CarGurus."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "lambo-murcielago-lp640-release",
+      "note": "'the classic 60-degree V-engine' (V12)"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "lambo-murcielago-lp640-release",
+      "note": "6,496 cc ('The increased bore and longer stroke have boosted the displacement of the classic 60-degree V-engine from 6.2 litres to 6.5 litres (6,496 ccm).'); Evo: 'V12, 6496cc' (evo-murcielago)"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-murcielago-lp640-release",
+      "note": "Naturally aspirated V12 per the release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-murcielago-lp640-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-murcielago-lp640-release",
+    "note": "'permanent four-wheel drive, based on the reliable Lamborghini VT (Viscous Traction) system'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "lambo-murcielago-lp640-release",
+    "note": "'modified six ratio gearbox' (manual) and 'e-gear automatic gearbox is also available' (e-gear, a single-clutch automated manual on the same six-speed gearbox)"
+  },
+  "powerHp": {
+    "value": 631,
+    "sourceId": "lambo-murcielago-lp640-release",
+    "note": "Quote: \"Thus the already extraordinary 580 hp engine power has now been elevated to an impressive peak of 640 hp (471 kW) at 8000 min-1.\" The 640 is Lamborghini's metric (CV/PS) figure: 640 x 0.98632 = 631 hp. Evo's spec table agrees: '631bhp @ 8000rpm' (evo-murcielago). No separate US SAE rating was found, so powerStandard is DIN PS. KBB prints Lamborghini's metric figure as hp; no hp rating from Lamborghini's US arm was found, so the guide's conversion is used."
+  },
+  "weightLb": {
+    "value": 3671,
+    "sourceId": "evo-murcielago",
+    "note": "DRY weight from Evo's spec table (Lamborghini's release opened gives no weight, and no curb weight for the standard car or an optioned car was found from Lamborghini or a major magazine). Quote: \"Weight | 1665kg (dry) (385bhp/ton)\". 1,665 x 2.20462 = 3,671 lb. Evo does not say whether this is with options. Top Gear's spec page for the LP 640 is auto-filled and was not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-murcielago-lp640-release",
+      "type": "manufacturer",
+      "publisher": "LamboCars (Lamborghini press release reproduced in full)",
+      "title": "The official press release of Murciélago LP640",
+      "url": "https://lambocars.com/the-official-press-release-of-murcielago-lp640/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-murcielago",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lamborghini Murciélago (2001 - 2011) review – an unadulterated supercar icon",
+      "url": "https://www.evo.co.uk/lamborghini/murcielago",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cargurus-murcielago-2007",
+      "type": "database",
+      "publisher": "CarGurus",
+      "title": "2007 Lamborghini Murcielago",
+      "url": "https://cargurus.com/research/2007-Lamborghini-Murcielago-c8013",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-murcielago-2006-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2006 Lamborghini Murciélago specs",
+      "url": "https://www.kbb.com/lamborghini/murcielago/2006/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-murcielago-2007-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2007 Lamborghini Murciélago specs",
+      "url": "https://www.kbb.com/lamborghini/murcielago/2007/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-murcielago-2010",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2010 Lamborghini Murciélago",
+      "url": "https://www.kbb.com/lamborghini/murcielago/2010/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-aventador-2012",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2012/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}
