@@ -48,10 +48,13 @@ console.log(`  Easy:   ${label(CLUE_TIERS.easy)}`);
 console.log(`  Medium: ${label(CLUE_TIERS.medium)}`);
 console.log(`  Hard:   ${label(CLUE_TIERS.hard)}`);
 console.log(`  Always last: ${label(FINAL_CLUES)}\n`);
-const prioritised = vehicles.map((v) => ({ v, p: priorityClues(v, vehicles) })).filter((x) => x.p.length > 0);
+const prioritised = vehicles
+  .map((v) => ({ v, p: priorityClues(v, vehicles) }))
+  .filter((x) => x.p.first.length + x.p.soon.length > 0);
 if (prioritised.length > 0) {
   console.log('Cars with a near-twin, and the clue brought forward when they are the answer:');
-  for (const { v, p } of prioritised) console.log(`  ${v.displayName}: ${label(p)}`);
+  for (const { v, p } of prioritised)
+    console.log(`  ${v.displayName}: ${p.first.length ? `${label(p.first)} (clue 1 or 2)` : `${label(p.soon)} (within the first 4)`}`);
   console.log('');
 }
 

@@ -1,0 +1,217 @@
+{
+  "id": "chevrolet-corvette-stingray-c8-2020-2026",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C8",
+  "variant": "Stingray",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Chevrolet Corvette Stingray (C8, 2020–2026)",
+  "aliases": [
+    "C8 Stingray",
+    "Stingray C8",
+    "C8 Corvette",
+    "Corvette C8",
+    "Corvette Stingray",
+    "Mid-engine Corvette",
+    "LT2",
+    "M1L",
+    "Z51",
+    "2020 Corvette",
+    "2021 Corvette",
+    "2022 Corvette",
+    "2023 Corvette",
+    "2024 Corvette",
+    "2025 Corvette",
+    "2026 Corvette",
+    "2020 Corvette Stingray",
+    "2021 Corvette Stingray",
+    "2022 Corvette Stingray",
+    "2023 Corvette Stingray",
+    "2024 Corvette Stingray",
+    "2025 Corvette Stingray",
+    "2026 Corvette Stingray"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2026
+    },
+    "sourceId": "vettevues-2020-c8-specs",
+    "note": "US model years. The C8 Stingray is split by year range because the 2027 Stingray replaces the 6.2L LT2 (490 hp) with the 6.7L LS6 (535 hp). First: the C8 was launched as the '2020 C8 Mid-Engine Corvette Stingray' (vettevues-2020-c8-specs; GM Authority also refers to 'the 2020 Corvette C8's dry weight', gmauthority-c8-weight-2019). Last: inferred, not stated in so many words by GM. GM's March 2026 release says the LS6 goes in 'the 2027 Corvette Stingray, Grand Sport, and Grand Sport X' and calls it the successor: 'Compared with the LS6's predecessor, the 6.2-liter LT2, the bump to 6.7 liters comes via extending the stroke ... from 92 mm to 100 mm' (gm-2027-ls6-deep-dive); GM's June 2026 release speaks of 'the outgoing 6.2-liter V8' (gm-2027-stingray-200mph); and Corvette Blogger compares the 2027 car with 'the outgoing 2026 Corvette Stingray Coupe (3,366 lbs)' (corvetteblogger-2027-stingray-weight). So 2026 is the last LT2 Stingray model year."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "chevrolet-2022-corvette-release",
+    "note": "'The mid-engine Corvette Stingray is offered in coupe and convertible models in 1LT, 2LT and 3LT trims.' 'Coupes include a removable roof panel that stores in the rear trunk.' 'Convertibles include a power-retractable hardtop.' Both bodies are sold under the Stingray name, so one record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2021-corvette-release-cac",
+      "note": "'Type: 6.2L LT2 V-8 with Direct Injection, Variable Valve Timing and Active Fuel Management'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2021-corvette-release-cac",
+      "note": "GM gives litres only ('6.2L LT2 V-8'); no GM page opened gives a cc figure, and the GM spec table reproduced here has no displacement row (it gives 'Bore & stroke 4.06 x 3.62 / 103.25 x 92.00'). GM's 2026 LS6 release also calls it 'the 6.2-liter LT2' (gm-2027-ls6-deep-dive). cc not recorded rather than computed from bore and stroke."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-2021-corvette-release-cac",
+      "note": "Inferred: GM's engine description ('6.2L LT2 V-8 with Direct Injection, Variable Valve Timing and Active Fuel Management') mentions no supercharger or turbocharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2021-corvette-release-cac",
+    "note": "Inferred from GM's table: 'Fuel delivery: Direct, high-pressure fuel injection', gasoline V-8 with EPA mpg ratings; no hybrid system (the hybrid C8 is the separate E-Ray)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "chevrolet-2022-corvette-release",
+    "note": "Inferred, not stated in so many words on any page opened: the 'mid-engine Corvette Stingray' drives through an eight-speed dual-clutch transaxle with a single final drive ratio (gm-2021-corvette-release-cac: 'Final drive ratio: 4.9:1 or 5.2:1 with Z51 Performance Package'); the all-wheel-drive C8 is the separately named E-Ray."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "gm-2021-corvette-release-cac",
+    "note": "'Eight-speed dual-clutch with manual and automatic modes' (GM RPO M1L, built with Tremec). The only transmission; no manual was offered. Chevrolet 2022 release: 'Driving through an eight-speed dual-clutch transmission'."
+  },
+  "powerHp": {
+    "value": 490,
+    "sourceId": "gm-2021-corvette-release-cac",
+    "note": "Standard car, 2021 model year. Quote (GM specification table): \"Horsepower (hp / kW @ rpm): 490 / 365 @ 6450 495 / 369 @ 6450 (Z51 Performance Package)\". 495 hp applies only with the performance exhaust (standard with the Z51 package). Chevrolet's June 2021 release for the 2022 model: \"It remains rated at 490 horsepower or 495 horsepower, with the available performance exhaust system.\" (chevrolet-2022-corvette-release). 2020 launch material quoted only the 495 hp figure ('SAE-certified to 495 / 369 @ 6450 rpm', vettevues-2020-c8-specs), so the reference year is 2021, the first year with a GM table stating both the standard 490 hp and the weight."
+  },
+  "weightLb": {
+    "value": 3366,
+    "sourceId": "gm-2021-corvette-release-cac",
+    "note": "DRY weight (step 4 of the weight order), standard coupe, 2021 model year, from GM's specification table. Quote: \"Dry Weight (lb / kg): 3366 / 1527\" (coupe; convertible 3467 / 1573). Steps 1 to 3 checked first: no GM curb weight for the Stingray was found on any GM page opened. The only curb figure found, 3,535 lb for the base 2020 coupe, comes from a pre-launch GM document that leaked via Corvette Forum and was reported by GM Authority ('the base-model 2020 Corvette Stingray Coupe has a 3,535-pound curb weight') and Carscoops ('the Coupe with its curb weight of 3,535 lbs', citing 'an official GM booklet' viewed by Corvette Forum). Both outlets repeat that one document, so they are not independent (step 2 fails), and no major magazine spec panel for the standard US car could be opened (Car and Driver, Road & Track and MotorTrend are blocked). The Drive's 3,647 lb is Car and Driver's scale weight of a Z51 test car, not a specification. The same 3,366 lb dry figure is reported for 2020 ('Dry Weight (lb. / kg): 3366 / 1530', vettevues-2020-c8-specs; 'Chevy provided us with the 2020 Corvette C8's dry weight of 3,366 pounds', gmauthority-c8-weight-2019) and for 2026 (Corvette Blogger, citing GM's order guide: 'the outgoing 2026 Corvette Stingray Coupe (3,366 lbs)', labelled as 'dry weight specifications', corvetteblogger-2027-stingray-weight). A real curb weight is higher. Re-read by the main session in a browser on 2 October 2026: the table reads 'Dry Weight (lb / kg): 3366 / 1527' (coupe) and '3467 / 1573' (convertible)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2021-corvette-release-cac",
+      "type": "manufacturer",
+      "publisher": "General Motors (GM press release reproduced in full by Corvette Action Center)",
+      "title": "2021 Chevrolet Corvette Stingray Offers Carryover Pricing with Fresh Content (GM press release, 8 July 2020, with 2021 Corvette Stingray specifications)",
+      "url": "https://corvetteactioncenter.com/specs/c8-corvette/2021-corvette/press-release-2021-corvette-fresh-content-same-pricing.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "chevrolet-2022-corvette-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (Chevrolet Pressroom)",
+      "title": "Chevrolet Introduces Special Edition 2022 Corvette Stingray",
+      "url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2021/jun/0609-corvette.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2027-ls6-deep-dive",
+      "type": "manufacturer",
+      "publisher": "General Motors (GM News)",
+      "title": "Deep dive: The 2027 Chevrolet Corvette's all-new, next-generation V8",
+      "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/mar/0326-Deep-dive-2027-Chevrolet-Corvettes-next-generation-V8.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2027-stingray-200mph",
+      "type": "manufacturer",
+      "publisher": "General Motors (GM News)",
+      "title": "The 2027 Chevrolet Corvette Stingray breaks 200 mph for just $73,495",
+      "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0630-2027-chevrolet-corvette-stingray-200-mph.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vettevues-2020-c8-specs",
+      "type": "publication",
+      "publisher": "Vette Vues Magazine",
+      "title": "2020 C8 Corvette Stingray Preliminary Specifications",
+      "url": "https://vette-vues.com/2020_c8_corvette_stingray_preliminary_specifications/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-c8-weight-2019",
+      "type": "publication",
+      "publisher": "GM Authority (Jonathan Lopez)",
+      "title": "2020 Corvette C8 Is Heavier Than C7 And Some Other Mid-Engine Cars",
+      "url": "https://gmauthority.com/blog/2019/09/2020-corvette-c8-is-heavier-than-c7-and-some-other-mid-engine-cars/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscoops-c8-convertible-weight-2019",
+      "type": "publication",
+      "publisher": "Carscoops (Brad Anderson)",
+      "title": "New Corvette Stingray Convertible Only Weighs 102 Pounds More Than Coupe",
+      "url": "https://www.carscoops.com/?p=1883470",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "corvetteblogger-2027-stingray-weight",
+      "type": "publication",
+      "publisher": "Corvette Blogger (Keith Cornett)",
+      "title": "2027 Corvette Stingray Coupe with LS6 Makes Big Power, Weighs Just 26 Pounds More",
+      "url": "https://www.corvetteblogger.com/2026/07/29/2027-corvette-stingray-coupe-with-ls6-makes-big-power-weighs-just-26-pounds-more/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-c8-weight-2019",
+      "type": "publication",
+      "publisher": "The Drive (Chris Teague)",
+      "title": "2020 Chevrolet Corvette C8 Stingray Nearly 200 Pounds Heavier Than Outgoing C7",
+      "url": "https://www.thedrive.com/news/30470/2020-chevrolet-corvette-c8-stingray-nearly-200-pounds-heavier-than-outgoing-c7",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3366,
+          "sourceId": "gm-2021-corvette-release-cac"
+        },
+        {
+          "value": 3535,
+          "sourceId": "gmauthority-c8-weight-2019"
+        },
+        {
+          "value": 3535,
+          "sourceId": "carscoops-c8-convertible-weight-2019"
+        }
+      ],
+      "reason": "Dry vs curb. 3,366 lb is GM's published dry weight for the coupe. 3,535 lb is a curb weight for the base 2020 coupe taken from a pre-launch GM document that leaked via Corvette Forum; GM Authority and Carscoops both report that same document.",
+      "resolution": "Used GM's 3,366 lb dry weight with weightType dry. The 3,535 lb curb figure does not meet step 1 (no GM page that publishes it was opened) or step 2 (no major magazine panel; the two outlets repeat one leaked document and are not independent)."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3366,
+          "sourceId": "gm-2021-corvette-release-cac"
+        },
+        {
+          "value": 3647,
+          "sourceId": "thedrive-c8-weight-2019"
+        }
+      ],
+      "reason": "Measured weight of an optioned car: 3,647 lb is Car and Driver's scale weight of a Z51-equipped test car, as reported by The Drive; it is a test result, not a specification.",
+      "resolution": "Not used; test weights and Z51 cars do not describe the standard car."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

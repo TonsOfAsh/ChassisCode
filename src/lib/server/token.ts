@@ -10,7 +10,8 @@ import { createCipheriv, createDecipheriv, createHash, randomBytes } from 'node:
 const DEV_SECRET = 'chassiscode-development-secret-not-for-production';
 let warned = false;
 
-function key(): Buffer {
+/** The server secret: GAME_SECRET, or the development secret outside production. */
+export function gameSecret(): string {
   const secret = process.env.GAME_SECRET;
   if (!secret) {
     if (process.env.NODE_ENV === 'production') {
@@ -21,7 +22,11 @@ function key(): Buffer {
       warned = true;
     }
   }
-  return createHash('sha256').update(secret || DEV_SECRET).digest();
+  return secret || DEV_SECRET;
+}
+
+function key(): Buffer {
+  return createHash('sha256').update(gameSecret()).digest();
 }
 
 export function seal(payload: unknown): string {

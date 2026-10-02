@@ -84,52 +84,6 @@
       "notes": "BMW Group Classic US-model pages list no weight."
     },
     {
-      "id": "chevrolet-corvette-stingray-c8-2020-2026",
-      "displayName": "Chevrolet Corvette Stingray (C8, 2020–2026)",
-      "heldSince": "2026-10-01",
-      "missing": "A curb weight from a qualifying source; GM publishes only dry weight for the Stingray. Naming is decided (2026-10-01): this is the 6.2L LT2 car, model years 2020-2026, as a year-split record (yearSplit true), because the 2027 Stingray has a new 6.7L LS6 engine and will be its own record.",
-      "confirmed": {
-        "market": "US",
-        "modelYears": "2020-2026 (6.2L car)",
-        "body": [
-          "Coupe",
-          "Convertible"
-        ],
-        "engine": "V8",
-        "displacementL": 6.2,
-        "aspiration": "Naturally Aspirated",
-        "fuel": "Gasoline",
-        "drivetrain": "RWD",
-        "transmission": [
-          "8-speed DCT"
-        ],
-        "powerHp": 490,
-        "powerQuote": "490 standard horsepower (brochure); 490 / 365 @ 6450 (2021 GM release table); 495 hp with performance exhaust",
-        "dryWeightLb": 3366,
-        "yearSplit": true,
-        "engineChange2027": {
-          "quote": "By offering a bump in power, displacement, and torque over the outgoing 6.2-liter V8, the 6.7L LS6 itself offers some mouth-watering specs: 535 horsepower, 520 lb-ft of torque, and 13.0:1 compression.",
-          "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0630-2027-chevrolet-corvette-stingray-200-mph.html",
-          "note": "Chevrolet's 26 March 2026 release also says \"In 2027, Corvette Stingray will upgrade to LS6\". 2026 as the last LT2 model year in the US is inferred from these; no GM sentence says so directly."
-        }
-      },
-      "weightCandidates": [
-        {
-          "lb": 3535,
-          "source": "Base coupe. GM Authority (Jonathan Lopez, 1 Sep 2019) and Carscoops (Brad Anderson, 29 Aug 2019), both from the same leaked GM document; also in the Edmunds database for 2020 and 2025. Not two independent sources, and not an official GM publication."
-        },
-        {
-          "lb": 3647,
-          "source": "Car and Driver scale weight for a Z51 (optioned) car, relayed by The Drive and Motor1"
-        },
-        {
-          "lb": 3366,
-          "source": "GM's dry weight. GM Authority labels it 'curb weight' in places; Corvette Blogger, citing the GM order guide, calls it dry weight."
-        }
-      ],
-      "notes": "Not obtained: a cc figure. GM's media spec pages (media.chevrolet.com) could not be opened by the research tools; the Stingray spec table for any 2020-2026 model year is the place to look for a 'Base curb weight' row, which GM does publish for the 2027 Grand Sport."
-    },
-    {
       "id": "ford-mustang-shelby-gt500-s550",
       "displayName": "Ford Mustang Shelby GT500 (S550)",
       "heldSince": "2026-10-01",
@@ -195,14 +149,6 @@
         }
       ],
       "notes": "Hagerty's buyer's guide gives 2,027 cars for 2005 and 2,011 for 2006."
-    },
-    {
-      "id": "ford-gt-2nd-gen",
-      "displayName": "Ford GT (2nd gen)",
-      "heldSince": "2026-10-01",
-      "missing": "A curb weight. Ford publishes only a dry weight (1,385 kg / 3,054 lb).",
-      "record": "data/held/ford-gt-2nd-gen.json",
-      "notes": "A complete, validated record exists and uses the dry weight. To release it, replace the weight with a qualifying curb weight, set specBasis.weightType to curb, clear needsReview and move the file to data/vehicles/ford/."
     },
     {
       "id": "nissan-gt-r-r35-2009-2011",
@@ -389,42 +335,6 @@
           "lb": 3622,
           "source": "The Auto Channel, Tom Hagin, 2001 review",
           "url": "https://www.theautochannel.com/vehicles/new/reviews/2001/solo0119.html"
-        }
-      ]
-    },
-    {
-      "id": "dodge-challenger-srt-demon",
-      "displayName": "Dodge Challenger SRT Demon",
-      "heldSince": "2026-10-01",
-      "missing": "The curb weight and cc figure from Dodge's spec sheet. The sheet exists (https://media.stellantisnorthamerica.com/view-spec.do?id=18249) but could not be read by the research tools; opening it in a browser and reading the curb weight and displacement lines would release this car.",
-      "confirmed": {
-        "market": "US",
-        "modelYears": "2018 only",
-        "body": [
-          "Coupe"
-        ],
-        "engine": "V8",
-        "displacementL": 6.2,
-        "aspiration": "Supercharged",
-        "fuel": "Gasoline",
-        "drivetrain": "RWD",
-        "transmission": [
-          "8-speed Automatic"
-        ],
-        "powerHp": 808,
-        "powerQuote": "808 bhp (603 kW) @ 6,300 rpm on Premium 91 octane fuel",
-        "powerSource": "https://media.stellantisnorthamerica.com/newsrelease.do?id=18320",
-        "powerNote": "840 hp on 100-octane race fuel with the Demon Crate controller",
-        "referenceModelYear": 2018
-      },
-      "weightCandidates": [
-        {
-          "lb": 4280,
-          "source": "Motorious, Jeffrey N. Ross, 4 Sep 2020 (one outlet)"
-        },
-        {
-          "lb": 4300,
-          "source": "The Drive, approximate"
         }
       ]
     },

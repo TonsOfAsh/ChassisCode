@@ -73,7 +73,7 @@
   "weightLb": {
     "value": 3054,
     "sourceId": "autoguide-gt-specs-2017",
-    "note": "DRY weight, not curb weight: Ford published only a dry weight for this car. Quote (AutoGuide, Sam McEachern, 25 January 2017, reporting Ford's US spec sheet): \"the GT's dry weight has been verified at 3,054 lbs\". Ford's own table (source ford-gt-specs-release-2017) gives the same figure in kilograms. Quote: \"DRY WEIGHT ... Coupe 1,385 kg\" (1,385 kg = 3,053.4 lb). New Atlas (source newatlas-gt-specs-2017): 'The car weighs 3,054 lb (1,385 kg) dry.' No qualifying curb weight was found: Evo's specification panel prints '1385kg (dry)' (source evo-gt-2nd-gen-review) and Top Gear's review gives only 'a dry weight of 1,385kg' (source topgear-gt-review-2017); both add rough guesses for a fuelled car ('call it around 1450kg with fluids', 'probably ... getting on for 1,500kg') which are estimates, not specifications, and are not used."
+    "note": "DRY weight, not curb weight: Ford published only a dry weight for this car. Quote (AutoGuide, Sam McEachern, 25 January 2017, reporting Ford's US spec sheet): \"the GT's dry weight has been verified at 3,054 lbs\". Ford's own table (source ford-gt-specs-release-2017) gives the same figure in kilograms. Quote: \"DRY WEIGHT ... Coupe 1,385 kg\" (1,385 kg = 3,053.4 lb). New Atlas (source newatlas-gt-specs-2017): 'The car weighs 3,054 lb (1,385 kg) dry.' No qualifying curb weight was found: Evo's specification panel prints '1385kg (dry)' (source evo-gt-2nd-gen-review) and Top Gear's review gives only 'a dry weight of 1,385kg' (source topgear-gt-review-2017); both add rough guesses for a fuelled car ('call it around 1450kg with fluids', 'probably ... getting on for 1,500kg') which are estimates, not specifications, and are not used. This is weight step 4 (a dry weight), adopted on 2 October 2026; the game shows it as dry. Car and Driver, Road & Track and MotorTrend could not be opened; a curb weight from one of their spec panels would replace it."
   },
   "specBasis": {
     "market": "US",
@@ -176,8 +176,7 @@
       "resolution": "Use 3,054 lb, the figure published for the US market; the two are the same weight."
     }
   ],
-  "needsReview": true,
-  "reviewNotes": "Weight is Ford's DRY weight (weightType dry) because no qualifying curb weight could be opened: Ford published only a dry weight, and Evo and Top Gear print the same dry figure. Car and Driver, Road & Track and MotorTrend could not be opened from here; if one of their specification panels gives a curb weight for the standard car, replace the dry figure with it. Ford's US tech-spec PDF on media.ford.com could not be opened, so the 3,054 lb figure is cited from AutoGuide and New Atlas, with Ford's own 1,385 kg from the Ford Belgium copy of the same release.",
+  "needsReview": false,
   "confidence": "medium",
   "image": null,
   "dailyEligible": true

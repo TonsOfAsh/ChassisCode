@@ -52,9 +52,18 @@ export interface GameResult {
   elapsedMs: number;
 }
 
+/** Which daily puzzle a game is. Absent for Unlimited games. */
+export interface DailyInfo {
+  /** Pacific calendar date, YYYY-MM-DD. */
+  date: string;
+  /** Puzzle number: 1 on the first day. */
+  number: number;
+}
+
 export interface GameView {
   status: 'playing' | 'solved' | 'lost';
   mode: Mode;
+  daily?: DailyInfo;
   /** Opaque, encrypted game state. Send it back with the next guess. Absent once the game is over. */
   token?: string;
   /** Labels of all clues, in order, so the board can show what is still hidden. */

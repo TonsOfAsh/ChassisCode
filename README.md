@@ -5,8 +5,24 @@ exact car, and gets another specification after each wrong guess.
 
 ## Status
 
-Phases 1 and 2 of 8 are done, and the database is at 81 cars: the sourced vehicle data and a playable game in Unlimited mode
-(random car, clue-by-clue reveal, car search, win and loss summary).
+The database is at 84 cars. The game has a Daily puzzle and an Unlimited mode, a car search, a
+guess comparison, and statistics and streaks kept on the player's device.
+
+## Daily and Unlimited
+
+- **Daily** (the default) is one car per day, the same car and the same clue order for every player
+  on every device. It is always Normal difficulty. A new car starts at midnight Pacific time
+  (America/Los_Angeles, so PST in winter and PDT in summer). Progress is saved on the device, so
+  reloading the page continues the game, and a finished daily stays finished until the next one.
+  The car and clue order come from the date and `GAME_SECRET`, so every server with the same secret
+  gives the same puzzle and nobody can work it out from the code. Cars are dealt in rounds with no
+  repeat until every daily-eligible car has been used. Adding cars reshuffles the round, so new cars
+  should go live just after midnight Pacific. Puzzle #1 was 1 October 2026.
+- **Unlimited** is a random car each round, in Easy, Normal or Hard. Enter starts the next round.
+- **Stats** (button at the top): daily games played, win %, current and best streak, and which clue
+  each daily was solved on; Unlimited played, win % and average clues per difficulty. They are kept
+  in the browser's storage on this device only, until accounts exist. A loss or a missed day ends a
+  streak.
 
 ## Guess comparison
 
@@ -30,15 +46,20 @@ Easy mode reveals the easy tier first, then medium, then hard. Hard mode reverse
 Normal mode mixes all eleven. The order within a tier is random each game, except that Country always comes before Manufacturer. Model is always
 clue 12 and Generation always clue 13. The tiers live in `src/config/clues.ts`.
 
-One exception, for near-twins. Some cars share a manufacturer and model with another car and differ
-from it in a single clue (the R35 GT-R year ranges differ only in power; weight is not counted). When
-one of them is the answer, that clue is brought forward: to clue 1 or 2 in Normal and Hard, and to
-clue 4, straight after the easy tier, in Easy. Otherwise a player who had worked out the model would
-have to guess between the twins. The game works this out from the data; `npm run clue-report` lists
-the cars affected.
+One exception, for near-twins: cars of any make or model whose clues (other than model and
+generation) differ in only one or two places. Weight is not counted unless it is the only
+difference. Without this, a player who had narrowed it down would be guessing until the deciding
+clue happened to come up (the Cayman GT4 and the 911 GT3 differ only in power).
 
-Still to come: the full results screen with car image and share button, the daily puzzle,
-statistics and streaks, and a larger database.
+- One clue apart: that clue is revealed first or second in Normal and Hard, and fourth, straight
+  after the easy tier, in Easy.
+- Two clues apart: one of them (the one that tells apart the most twins, power on a tie) is revealed
+  within the first four, or fourth or fifth in Easy.
+
+The game works this out from the data; `npm run clue-report` lists the cars affected.
+
+Still to come: the results screen with a car image and a share button, accounts, and a larger
+database.
 
 ## Play it on your computer
 

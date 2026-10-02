@@ -117,9 +117,20 @@ input {
   color: var(--ink-soft);
 }
 
-.mode {
+.stats-button {
+  flex: none;
+  padding: 0.2rem 0.75rem;
+  background: none;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  font: inherit;
   font-size: 0.875rem;
-  color: var(--ink-soft);
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+}
+.stats-button:hover {
+  background: var(--white);
 }
 
 /* One column by default. The search box and result go above the plate so they
@@ -133,7 +144,11 @@ input {
 .side {
   display: contents;
 }
-.modes {
+.kinds-row {
+  order: -4;
+}
+.modes,
+.daily-hint {
   order: -3;
 }
 .error,
@@ -187,6 +202,180 @@ input {
 .modes-hint {
   font-size: 0.875rem;
   color: var(--ink-soft);
+}
+
+/* ---- Daily / Unlimited ----------------------------------------------------- */
+
+.kinds-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem 0.875rem;
+}
+.kinds {
+  display: flex;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.kind {
+  padding: 0.35rem 1rem;
+  background: none;
+  border: 0;
+  border-left: 2px solid var(--ink);
+  font: inherit;
+  font-family: var(--font-stamp);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+.kind:first-child {
+  border-left: 0;
+}
+.kind-selected {
+  background: var(--ink);
+  color: var(--white);
+}
+.kind:focus-visible {
+  outline: 2px solid var(--marker);
+  outline-offset: -4px;
+}
+.daily-label {
+  font-family: var(--font-stamp);
+  font-weight: 600;
+  font-size: 1.0625rem;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.next-daily {
+  margin-bottom: 0.25rem;
+  font-size: 0.9375rem;
+}
+.next-daily strong {
+  font-family: var(--font-stamp);
+  font-size: 1.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Stats dialog ---------------------------------------------------------- */
+
+.stats-dialog {
+  width: min(30rem, calc(100vw - 1.5rem));
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  background: var(--primer);
+  color: var(--ink);
+  border: 1px solid var(--aluminium-edge);
+  border-radius: var(--radius);
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 0.3);
+}
+.stats-dialog::backdrop {
+  background: rgb(21 25 28 / 0.55);
+}
+.stats-body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+.stats-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stats-title {
+  font-family: var(--font-stamp);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.stats-title-second {
+  margin-top: 1.25rem;
+}
+.stats-close {
+  width: 2.25rem;
+  height: 2.25rem;
+  background: none;
+  border: 0;
+  font-size: 1.125rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+.stats-daily {
+  justify-content: space-between;
+  gap: 1rem;
+}
+.stats-subtitle {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+.stats-empty,
+.stats-note {
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+.stats-note {
+  margin-top: 0.75rem;
+}
+.bars {
+  margin: 0.375rem 0 0.75rem;
+}
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1px;
+  font-size: 0.875rem;
+}
+.bar-label {
+  width: 1.25rem;
+  font-family: var(--font-stamp);
+  font-weight: 600;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.bar {
+  padding: 0 0.4rem;
+  background: var(--ink-soft);
+  color: var(--white);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-align: right;
+  line-height: 1.15rem;
+  font-variant-numeric: tabular-nums;
+}
+.bar-today .bar {
+  background: var(--right);
+}
+.bar-lost .bar {
+  background: var(--wrong);
+}
+.unlimited-table {
+  width: 100%;
+  margin-top: 0.375rem;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.unlimited-table th,
+.unlimited-table td {
+  padding: 0.25rem 0.5rem 0.25rem 0;
+  text-align: right;
+  border-bottom: 1px solid var(--aluminium-line);
+}
+.unlimited-table th:first-child {
+  text-align: left;
+}
+.unlimited-table thead th {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+.unlimited-total th,
+.unlimited-total td {
+  font-weight: 700;
+  border-bottom: 0;
 }
 
 /* ---- Plate --------------------------------------------------------------- */
@@ -637,7 +826,9 @@ input {
     min-width: 0;
     max-height: calc(100dvh - 5.75rem);
   }
+  .kinds-row,
   .modes,
+  .daily-hint,
   .error,
   .controls,
   .result {
@@ -709,6 +900,10 @@ input {
   .intro-more,
   .modes-hint {
     display: none;
+  }
+  .kind {
+    padding: 0.3rem 0.75rem;
+    font-size: 1rem;
   }
   .layout {
     gap: 0.625rem;

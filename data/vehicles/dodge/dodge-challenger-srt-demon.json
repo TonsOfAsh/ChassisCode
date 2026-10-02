@@ -1,0 +1,123 @@
+{
+  "id": "dodge-challenger-srt-demon",
+  "manufacturer": "Dodge",
+  "model": "Challenger",
+  "generation": null,
+  "variant": "SRT Demon",
+  "subVariant": null,
+  "displayName": "Dodge Challenger SRT Demon",
+  "aliases": [
+    "Demon",
+    "Challenger Demon",
+    "SRT Demon",
+    "Dodge Demon",
+    "2018 Demon",
+    "Demon 840"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2018
+    },
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "US model year 2018 only. Dodge: 'Introduction Date | Fourth quarter 2017 as a 2018 model'. The Drive (Chris Constantine): the last car rolled off the line at Brampton on 30 May 2018; 3,300 were built and the car was limited to 'one model year' (thedrive-demon-final)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "'Body Style | Two-door coupe'. Seating '1/0 – standard', with front-passenger and rear seats optional."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-demon-specs-2018",
+      "note": "'ENGINE: SUPERCHARGED 6.2-LITER HEMI DEMON V-8'; '90-degree V-type'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "dodge-demon-specs-2018",
+      "note": "6,166 cc ('Displacement | 376 cu. in. (6,166 cu.cm)')"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "dodge-demon-specs-2018",
+      "note": "'SUPERCHARGED 6.2-LITER HEMI DEMON V-8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "'Premium 91 octane (R+M)/2 — required'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "'Longitudinal front engine, rear-wheel drive (RWD)'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "'TRANSMISSION: TORQUEFLITE 8HP90 EIGHT-SPEED AUTOMATIC | Availability | Standard'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 808,
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "On pump fuel. Quote: \"808 bhp (603 kW) @ 6,300 rpm with Premium 91 octane fuel\". With the Direct Connection controller and 100-octane fuel Dodge rates it at \"840 bhp (626 kW) @ 6,300 rpm\"; the 91-octane figure is used because that is how the car is delivered and fuelled."
+  },
+  "weightLb": {
+    "value": 4280,
+    "sourceId": "dodge-demon-specs-2018",
+    "note": "Quote (Dodge specification sheet, 'DIMENSIONS AND CAPACITIES'): \"Curb Weight | 4,280\". The car as delivered has only a driver's seat; the passenger and rear seats are options."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-demon-specs-2018",
+      "type": "manufacturer",
+      "publisher": "FCA US (Stellantis media site)",
+      "title": "2018 Dodge Challenger SRT Demon Specifications",
+      "url": "https://media.stellantisnorthamerica.com/view-spec.do?id=18249",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "thedrive-demon-final",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "The Final 2018 Dodge Challenger SRT Demon Has Been Built",
+      "url": "https://www.thedrive.com/news/21222/the-final-2018-dodge-challenger-srt-demon-has-been-built",
+      "accessed": "2026-10-02"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 808,
+          "sourceId": "dodge-demon-specs-2018"
+        },
+        {
+          "value": 840,
+          "sourceId": "dodge-demon-specs-2018"
+        }
+      ],
+      "reason": "Fuel and engine controller: 808 hp on 91-octane pump fuel, 840 hp with the Direct Connection controller and 100-octane fuel.",
+      "resolution": "Used 808 hp, the rating on the fuel the car is sold to run on."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -9,9 +9,9 @@ import { yearRangeText, type Vehicle } from '../lib/schema';
  * the order is random, except that country always comes before manufacturer.
  * Model is always second to last and generation last.
  *
- * One exception: when the answer has a near-twin in the database (same
- * manufacturer and model, told apart by a single clue), that clue is brought
- * forward. See `priorityClues`.
+ * One exception: when the answer has a near-twin in the database (any car
+ * told apart by only one or two clues), a deciding clue is brought forward.
+ * See `priorityClues`.
  */
 
 export type ClueId =
@@ -117,38 +117,62 @@ function shuffle<T>(items: T[], random: () => number): T[] {
 
 const TIERED_CLUES: readonly ClueId[] = [...CLUE_TIERS.easy, ...CLUE_TIERS.medium, ...CLUE_TIERS.hard];
 
+/** Clues to reveal early for one answer. See `priorityClues`. */
+export interface Priority {
+  /** Revealed first or second (fourth in Easy, straight after the easy clues). */
+  first: ClueId[];
+  /** Revealed somewhere in the first four (fourth or fifth in Easy). */
+  soon: ClueId[];
+}
+
+export const NO_PRIORITY: Priority = { first: [], soon: [] };
+
 /**
  * The clues that should be revealed early when `vehicle` is the answer.
  *
- * Some cars have a near-twin: another record with the same manufacturer and
- * model whose clues differ in just one place (the three R35 GT-R year ranges
- * differ only in power). A player who has worked out the model would otherwise
- * have to guess between the twins until that one clue happened to come up.
+ * Some cars have a near-twin: another car, of any make or model, whose clues
+ * (apart from model and generation, which always come last) differ in only one
+ * or two places. The R35 GT-R year ranges differ only in power; so do the
+ * Cayman GT4 and the 911 GT3. A player who has narrowed it down to those cars
+ * would otherwise be guessing until the deciding clue happened to come up.
+ *
+ * - A twin that differs in one clue: that clue is revealed first or second.
+ * - Otherwise, twins that differ in two clues: the one clue that tells apart
+ *   the most of them (power when it ties) is revealed within the first four.
  *
  * Weight is ignored when counting differences, because it nearly always
- * differs and few players know it. It is used only when it is the sole
- * difference. Cars told apart by two or more other clues get no priority.
+ * differs and few players know it. It counts only when it is the sole
+ * difference.
  */
-export function priorityClues(vehicle: Vehicle, all: readonly Vehicle[]): ClueId[] {
-  const found = new Set<ClueId>();
+export function priorityClues(vehicle: Vehicle, all: readonly Vehicle[]): Priority {
+  const first = new Set<ClueId>();
+  const cover = new Map<ClueId, number>();
   for (const other of all) {
-    if (other.id === vehicle.id || other.manufacturer !== vehicle.manufacturer || other.model !== vehicle.model) continue;
+    if (other.id === vehicle.id) continue;
     const differing = TIERED_CLUES.filter((id) => CLUES[id].format(other) !== CLUES[id].format(vehicle));
     const useful = differing.filter((id) => id !== 'weight');
-    if (useful.length === 1) found.add(useful[0]!);
-    else if (useful.length === 0 && differing.length === 1) found.add('weight');
+    if (useful.length === 1) first.add(useful[0]!);
+    else if (useful.length === 0 && differing.length === 1) first.add('weight');
+    else if (useful.length === 2) for (const id of useful) cover.set(id, (cover.get(id) ?? 0) + 1);
   }
-  return TIERED_CLUES.filter((id) => found.has(id));
+  if (first.size > 0) return { first: TIERED_CLUES.filter((id) => first.has(id)), soon: [] };
+  if (cover.size === 0) return NO_PRIORITY;
+  // Most twins told apart wins; power breaks a tie, then the reference order.
+  const best = [...cover].sort(
+    ([a, x], [b, y]) => y - x || Number(b === 'power') - Number(a === 'power') || TIERED_CLUES.indexOf(a) - TIERED_CLUES.indexOf(b),
+  )[0]![0];
+  return { first: [], soon: [best] };
 }
 
 /**
  * The clue order for one game in the given mode.
- * `random` returns a number in [0, 1), like Math.random.
+ * `random` returns a number in [0, 1), like Math.random. A seeded `random`
+ * gives the same order every time, which is how the daily puzzle is the same
+ * for everyone.
  *
- * `priority` (from `priorityClues`) is brought forward: in Easy mode to just
- * after the easy clues, in the other modes to the first or second clue.
+ * `priority` (from `priorityClues`) is brought forward: see `Priority`.
  */
-export function drawClueOrder(mode: Mode, random: () => number = Math.random, priority: readonly ClueId[] = []): ClueId[] {
+export function drawClueOrder(mode: Mode, random: () => number = Math.random, priority: Priority = NO_PRIORITY): ClueId[] {
   let tiered = MODE_GROUPS[mode].flatMap((group) =>
     shuffle<ClueId>(
       group.flatMap((tier) => [...CLUE_TIERS[tier]]),
@@ -157,21 +181,29 @@ export function drawClueOrder(mode: Mode, random: () => number = Math.random, pr
   );
   const easy: readonly ClueId[] = CLUE_TIERS.easy;
   // In Easy mode an easy clue is already among the first three, so it stays put.
-  const early = shuffle(
-    priority.filter((id) => tiered.includes(id) && !(mode === 'easy' && easy.includes(id))),
-    random,
-  );
-  if (early.length > 0) {
-    tiered = tiered.filter((id) => !early.includes(id));
+  const movable = (ids: ClueId[]) => ids.filter((id) => tiered.includes(id) && !(mode === 'easy' && easy.includes(id)));
+  const first = shuffle(movable(priority.first), random);
+  const soon = movable(priority.soon);
+  if (first.length > 0) {
+    tiered = tiered.filter((id) => !first.includes(id));
     // Easy: straight after the easy clues. Otherwise first or second (the first places, if several).
-    const at = mode === 'easy' ? easy.length : early.length === 1 ? Math.floor(random() * 2) : 0;
-    tiered.splice(at, 0, ...early);
+    const at = mode === 'easy' ? easy.length : first.length === 1 ? Math.floor(random() * 2) : 0;
+    tiered.splice(at, 0, ...first);
+  } else if (soon.length > 0) {
+    const id = soon[0]!;
+    const now = tiered.indexOf(id);
+    // Easy: fourth or fifth. Otherwise anywhere in the first four. Left alone if already that early.
+    const [lo, hi] = mode === 'easy' ? [easy.length, easy.length + 1] : [0, 3];
+    if (now > hi) {
+      tiered = tiered.filter((x) => x !== id);
+      tiered.splice(lo + Math.floor(random() * (hi - lo + 1)), 0, id);
+    }
   }
   // Enforce the ordering rules by swapping any pair that came out the wrong way round.
-  for (const [first, second] of BEFORE_RULES) {
-    const a = tiered.indexOf(first);
-    const b = tiered.indexOf(second);
-    if (a > b && b !== -1) [tiered[a], tiered[b]] = [tiered[b]!, tiered[a]!];
+  for (const [a, z] of BEFORE_RULES) {
+    const i = tiered.indexOf(a);
+    const j = tiered.indexOf(z);
+    if (i > j && j !== -1) [tiered[i], tiered[j]] = [tiered[j]!, tiered[i]!];
   }
   return [...tiered, ...FINAL_CLUES];
 }

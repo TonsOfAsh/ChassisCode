@@ -1,6 +1,8 @@
 import 'server-only';
 import { CLUES, drawClueOrder, isValidClueOrder, priorityClues, type ClueId } from '@/config/clues';
+import { dailyDate, dailyNumber, isDate } from '../daily-time';
 import { isMode, type Clue, type GameView, type Mode, type Turn } from '../game-types';
+import { dailyPuzzle } from './daily';
 import type { Vehicle } from '../schema';
 import { open, seal } from './token';
 import { VEHICLES, getVehicle } from './vehicles';
@@ -19,6 +21,8 @@ interface GameState {
   g: (string | null)[];
   /** Start time, ms since epoch. */
   t: number;
+  /** Daily puzzle date (YYYY-MM-DD). Absent for Unlimited games. */
+  d?: string;
 }
 
 export class GameError extends Error {}
@@ -42,13 +46,15 @@ function view(state: GameState, status: GameView['status']): GameView {
       .map((c, i) => ({ value: c.value, match: c.value === clues[i]!.value }));
     return { carId: id, name: guessed.displayName, values };
   });
+  const daily = state.d ? { date: state.d, number: dailyNumber(state.d) } : undefined;
   if (status === 'playing') {
-    return { status, mode: state.m, token: seal(state), clueLabels: clues.map((c) => c.label), clues: clues.slice(0, state.n), turns };
+    return { status, mode: state.m, daily, token: seal(state), clueLabels: clues.map((c) => c.label), clues: clues.slice(0, state.n), turns };
   }
   const solved = status === 'solved';
   return {
     status,
     mode: state.m,
+    daily,
     clueLabels: clues.map((c) => c.label),
     clues,
     turns,
@@ -75,13 +81,19 @@ export function newGame(mode: Mode, exclude: string[] = []): GameView {
   return view({ v: vehicle.id, m: mode, o: order, n: 1, g: [], t: Date.now() }, 'playing');
 }
 
+/** Starts today's daily puzzle: the same car and clue order for every player. */
+export function newDailyGame(): GameView {
+  const puzzle = dailyPuzzle(dailyDate());
+  return view({ v: puzzle.vehicle.id, m: 'normal', o: puzzle.order, n: 1, g: [], t: Date.now(), d: puzzle.date }, 'playing');
+}
+
 /**
  * Applies one turn. `guessId` is the guessed car, or null to skip to the next clue.
  * A wrong guess or a skip reveals the next clue; on the last clue it ends the game.
  */
 export function playTurn(token: string, guessId: string | null): GameView {
   const state = open<GameState>(token);
-  if (!state || typeof state.v !== 'string' || !Array.isArray(state.g) || !isMode(state.m) || !isValidClueOrder(state.o)) {
+  if (!state || typeof state.v !== 'string' || !Array.isArray(state.g) || !isMode(state.m) || !isValidClueOrder(state.o) || (state.d !== undefined && !isDate(state.d))) {
     throw new GameError('This game could not be read. Reload the page to start a new one.');
   }
   if (guessId !== null) {
