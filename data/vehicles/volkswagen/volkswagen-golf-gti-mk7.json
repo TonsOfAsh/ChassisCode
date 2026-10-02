@@ -1,0 +1,161 @@
+{
+  "id": "volkswagen-golf-gti-mk7",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "generation": "Mk7",
+  "variant": "GTI",
+  "subVariant": null,
+  "displayName": "Volkswagen Golf GTI (Mk7)",
+  "aliases": [
+    "GTI",
+    "Golf GTI",
+    "Mk7 GTI",
+    "GTI Mk7",
+    "Mk7.5 GTI",
+    "VW GTI",
+    "Golf 7 GTI",
+    "GTI Performance Package",
+    "EA888",
+    "DSG"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2021
+    },
+    "sourceId": "vw-us-2015-gti-release",
+    "note": "US model years. First: Volkswagen of America's launch release is for the '2015 Volkswagen Golf GTI' ('All 2015 Golf GTI models have a standard six-speed manual transmission...'). Last: Volkswagen of America published a '2021 Volkswagen Golf GTI' technical specification sheet for this car (vw-us-2021-gti-techspecs), and its release on the end of US Golf production says 'The Golf family name will carry on in model year 2022 with the introduction of the all-new Mk 8 Golf GTI and Golf R' (vw-us-golf-end-release)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "vw-us-2015-gti-glance",
+    "note": "'available in two- or four-door form' at launch; both are hatchbacks and count as one body. By 2017 'The S trim is the only two-door GTI to be offered' (vw-us-2017-gti-release)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "vw-us-2015-gti-techspecs",
+      "note": "'2.0L inline four cylinder, 16V, turbocharged/intercooled, TSI' (EA888)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "vw-us-2015-gti-techspecs",
+      "note": "1,984 cc ('Displacement 121 cu in 1984 cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "vw-us-2015-gti-techspecs",
+      "note": "'turbocharged/intercooled'; a single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "vw-us-2015-gti-techspecs",
+    "note": "'Premium unleaded recommended'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "vw-us-2015-gti-techspecs",
+    "note": "'Driven wheels Front-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed DCT",
+      "7-speed DCT"
+    ],
+    "sourceId": "vw-us-2015-gti-release",
+    "note": "2015 launch: 'six-speed manual transmission or an optional six-speed DSG dual-clutch automatic'. From 2019 the DSG is a seven-speed: 'either a six-speed manual transmission or—new for 2019—an optional seven-speed DSG automatic transmission with Tiptronic' (vw-us-2019-gti-release)."
+  },
+  "powerHp": {
+    "value": 210,
+    "sourceId": "vw-us-2015-gti-techspecs",
+    "note": "Standard 2015 rating without the Performance Package. Quote: \"Horsepower (SAE) @ rpm 210 @ 4500\". The same sheet gives the optional Performance Package as \"Horsepower: Performance 220 @ 4700\". The 2017 release still gives 210 hp standard ('produces 210 horsepower (achieved on premium fuel)') and 220 hp with the Performance Package or on the Sport trim (vw-us-2017-gti-release). The 2018 sheet gives 220 @ 4700 as the only rating (vw-us-2018-gti-techspecs). For 2019 'The EA888 engine has been retuned for the 2019 model year and produces 228 horsepower' (vw-us-2019-gti-release), and the 2021 sheet still gives 228 hp (vw-us-2021-gti-techspecs). No later rating held for most of the run (210 hp for 2015 to 2017, 220 hp for 2018, 228 hp for 2019 to 2021), so the reference year stays at the launch year."
+  },
+  "weightLb": {
+    "value": 2972,
+    "sourceId": "vw-us-2015-gti-techspecs",
+    "note": "2015 two-door with the six-speed manual, the lightest standard body. Quote: \"Curb Weight 2D Manual 2972 lb 1348 kg\". Same sheet: two-door DSG 3,027 lb; four-door manual 3,031 lb; four-door DSG 3,086 lb. Later four-door-only model years are heavier on Volkswagen's sheets (vw-us-2018-gti-techspecs, vw-us-2021-gti-techspecs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "vw-us-2015-gti-techspecs",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2015 Golf GTI Technical Specifications",
+      "url": "https://media.vw.com/assets/documents/original/6311-176500536754eb40a9b7622.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2015-gti-release",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2015 Volkswagen Golf GTI: The Icon Reinvented (press release)",
+      "url": "https://media.vw.com/assets/documents/original/7294-20155+Golf+GTI+Release.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2015-gti-glance",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2015 Volkswagen Golf GTI: The Icon Reinvented (At a Glance)",
+      "url": "https://media.vw.com/assets/documents/original/7306-2015+Golf+GTI+At+a+Glance.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2017-gti-release",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2017 Volkswagen Golf GTI: the award-winning hot hatch packs more value than ever",
+      "url": "https://media.vw.com/view/releases/762",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2018-gti-techspecs",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2018 Golf GTI Technical Specifications",
+      "url": "https://media.vw.com/assets/documents/original/7896-2018GolfGTITechnicalSpecifications.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2019-gti-release",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2019 Volkswagen Golf GTI: The original hot hatch raises the bar with more power and a heritage-inspired special model",
+      "url": "https://media.vw.com/assets/documents/original/9082-2019GolfGTIRelease.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2021-gti-techspecs",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2021 Volkswagen Golf GTI Technical Specifications",
+      "url": "https://media.vw.com/assets/documents/original/12876-2021GolfGTITechSpecsFINAL.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-golf-end-release",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "Volkswagen to end production of Golf for U.S. market",
+      "url": "https://media.vw.com/view/releases/1461",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

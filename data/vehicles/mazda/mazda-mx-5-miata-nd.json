@@ -1,0 +1,125 @@
+{
+  "id": "mazda-mx-5-miata-nd",
+  "manufacturer": "Mazda",
+  "model": "MX-5 Miata",
+  "generation": "ND",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mazda MX-5 Miata (ND)",
+  "aliases": [
+    "Miata",
+    "MX-5",
+    "ND Miata",
+    "ND1",
+    "ND2",
+    "ND3",
+    "Miata soft top"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "sourceId": "mazda-2016-mx5-club-release",
+    "note": "US model years, 2016 onward. Mazda's March 2015 release introduces the fourth-generation car as the 2016 MX-5 Miata. Still on sale: Mazda USA's vehicle page is titled '2026 Mazda MX-5 Miata Convertible Roadster' (mazda-usa-mx5-page)."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "mazda-2019-mx5-specs",
+    "note": "Soft top ('Black cloth convertible top'). The retractable-hardtop MX-5 Miata RF is sold under its own name and is a separate record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mazda-2019-mx5-specs",
+      "note": "'SKYACTIV-G 2.0L DOHC 16-valve 4-cylinder with VVT'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mazda-2019-mx5-specs",
+      "note": "1,998 cc ('Displacement (cc) 1998')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "mazda-2019-mx5-specs",
+      "note": "No forced induction is listed on Mazda's sheet; the words 'naturally aspirated' do not appear on it."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mazda-2019-mx5-specs",
+    "note": "'Regular unleaded, 87 octane or greater'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mazda-2019-mx5-specs",
+    "note": "'Front-midship engine, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "mazda-2019-mx5-specs",
+    "note": "'SKYACTIV-MT 6-speed manual transmission' standard; '6-speed Sport automatic' optional."
+  },
+  "powerHp": {
+    "value": 181,
+    "sourceId": "mazda-2019-mx5-specs",
+    "note": "Quote: \"181 hp @ 7000 rpm\" (Horsepower row, same for Sport, Club and Grand Touring). The launch rating was 155 hp: \"Powering all North American models will be a 2.0-liter SKYACTIV engine, rated at 155 horsepower and 148 lb-ft of torque.\" (mazda-2016-mx5-club-release). It rose for 2019: \"181 horsepower at 7,000 rpm—a 17-percent improvement\" (mazda-2019-mx5-release) and is still 181 hp on Mazda USA's 2026 page (mazda-usa-mx5-page), so the reference year uses the longer-lived 181 hp rating."
+  },
+  "weightLb": {
+    "value": 2339,
+    "sourceId": "mazda-2019-mx5-specs",
+    "note": "2019 soft top with the six-speed manual. Quote: \"2,339 (MT) / 2,388 (AT)\" (Curb weight (lbs) row). The 2016 car was 2,332 lb manual and 2,381 lb automatic (mazda-2016-mx5-club-release); Mazda says 'the 2019 MX-5 gains just 7 lbs. from previous models' (mazda-2019-mx5-release)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mazda-2019-mx5-specs",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2019 Mazda MX-5 Miata Features & Specifications",
+      "url": "https://www.mazdausa.com/siteassets/pdf/owners-optimized/2019/mx-5-miata-st/2019_mazda_mx5_features_specs.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-2019-mx5-release",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2019 Mazda MX-5 Miata Packs More Punch, Features (20 June 2018)",
+      "url": "https://news.mazdausa.com/2018-06-20-2019-mazda-mx-5-miata-packs-more-punch-features",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-2016-mx5-club-release",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2016 Mazda MX-5 Miata Club Edition to Debut at New York International Auto Show (23 March 2015)",
+      "url": "https://news.mazdausa.com/2015-03-23-2016-Mazda-MX-5-Miata-Club-Edition-to-Debut-at-New-York-International-Auto-Show",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-usa-mx5-page",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2026 Mazda MX-5 Miata Convertible Roadster | Mazda USA",
+      "url": "https://www.mazdausa.com/vehicles/mx-5-miata",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

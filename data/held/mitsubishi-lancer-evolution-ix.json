@@ -1,0 +1,145 @@
+{
+  "id": "mitsubishi-lancer-evolution-ix",
+  "manufacturer": "Mitsubishi",
+  "model": "Lancer Evolution",
+  "generation": "IX",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mitsubishi Lancer Evolution (IX)",
+  "aliases": [
+    "Evo IX",
+    "Evo 9",
+    "Evolution IX",
+    "Lancer Evo IX",
+    "Lancer Evolution IX",
+    "Evo IX MR",
+    "Evo IX RS",
+    "4G63",
+    "CT9A",
+    "2006 Lancer Evolution"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2007
+    },
+    "sourceId": "mitsubishi-us-2005-evo-ix-release",
+    "note": "US model years. First: Mitsubishi's 24 March 2005 release introduces the Lancer Evolution IX as a 2006 model ('The 2006 Lancer Evolution features a standard two-liter DOHC 16-valve I-4 intercooled turbocharged engine'). Last: a March 2007 road test is headed '2007 Mitsubishi Lancer EVOLUTION MR' (tac-2007-evo-mr-review), and Mitsubishi's November 2007 release introduces the all-new 2008 Lancer Evolution, calling the IX 'the previous-generation Evolution IX' (mitsubishi-us-2007-evo-x-release). No opened Mitsubishi page says in so many words that 2007 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mitsubishi-us-2005-evo-perfection-evolves",
+    "note": "'The Lancer Evolution sedan's four-wheel independent suspension ...'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mitsubishi-us-2005-evo-ix-release",
+      "note": "'two-liter DOHC 16-valve I-4 intercooled turbocharged engine' (4G63 with MIVEC)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mitsubishi-us-2007-tech-specs",
+      "note": "1,997 cc ('1997cc/ 85mm x 88mm', 2006 Lancer Evolution column, engine code 4G63)"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "mitsubishi-us-2005-evo-ix-release",
+      "note": "Single turbocharger: 'intercooled turbocharged engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mitsubishi-us-2005-evo-ix-release",
+    "note": "Inferred from the release's description of the turbocharged petrol 4G63 engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mitsubishi-us-2005-evo-ix-release",
+    "note": "'Full-time all-wheel drive with an active center differential (ACD)'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "6-speed Manual"
+    ],
+    "sourceId": "mitsubishi-us-2007-tech-specs",
+    "note": "'5-speed manual (GSR, RS) or 6speed manual (MR)' (GSR is Mitsubishi's internal name for the standard car). The launch release: 'standard five-speed manual transmission'; 'The Lancer Evolution MR features a six-speed close-ratio manual transmission.' (mitsubishi-us-2005-evo-ix-release). No automatic was offered."
+  },
+  "powerHp": {
+    "value": 286,
+    "sourceId": "mitsubishi-us-2005-evo-ix-release",
+    "note": "Quote: \"The improved powerplant reaches 286 horsepower at 6,500 rpm and 289 foot-pounds of torque at a very low 3,500 rpm.\" Same rating for the standard car, RS and MR. Mitsubishi's 2008 release repeats it for the outgoing engine: \"291 hp at 6,500 rpm (vs. 286 hp at 6,500 rpm)\" (mitsubishi-us-2007-evo-x-release)."
+  },
+  "weightLb": {
+    "value": 3274,
+    "sourceId": "tac-2005-evo-ix-fulmer",
+    "note": "Standard Lancer Evolution IX (not RS or MR), 5-speed manual, without the Sun, Sound, Leather Package; 2006 model. Quote: \"Curb Weight (lbs/kg) | 3219/1460 | 3274/1485 | 3285/1490\" (columns 'RS', 'Evolution IX', 'MR Edition'); next row: \"Curb Weight with Sun, Sound, Leather Package | N/A | 3338/1520 | N/A\". The figure comes from the three-trim 'TECH SPECS' table (marked 'Last updated: 8/3/05') printed with Mark Fulmer's launch review on The Auto Channel; the table has the form of Mitsubishi's press-kit specification sheet but the page does not attribute it. Mitsubishi's own newsroom pages for this car give no curb weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2006,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mitsubishi-us-2005-evo-ix-release",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (media newsroom)",
+      "title": "New Mitsubishi Lancer Evolution IX rockets forward with brute power and race-inspired performance (24 March 2005)",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-afebe5d6655d289c9af4e6914b06fc18-new-mitsubishi-lancer-evolution-ix-rockets-forward-with-brute-power-and-race-inspired-performance",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2005-evo-perfection-evolves",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (media newsroom)",
+      "title": "Lancer Evolution - perfection evolves (10 August 2005)",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-2145aca120b0910046410a1b4b06fc21-lancer-evolution-perfection-evolves",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2007-tech-specs",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (media newsroom)",
+      "title": "Mitsubishi Safari Lancer, Prototype X & 2006 Lancer Evolution technical and mechanical specifications (8 January 2007)",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-ad71e977e353c48617b71a3f4b06fc4b-mitsubishi-safari-lancer-prototype-x-2006-lancer-evolution-technical-and-mechanical-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "tac-2005-evo-ix-fulmer",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2006 Mitsubishi Lancer Evolution IX: The Thrill is Here, by Mark Fulmer (review with RS / Evolution IX / MR Edition 'TECH SPECS' table)",
+      "url": "https://www.theautochannel.com/news/2005/08/11/140100.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2007-evo-x-release",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (media newsroom)",
+      "title": "Mitsubishi introduces all-new 2008 Lancer Evolution with turbo/intercooled engine, Super All-Wheel Control and available 6-speed automated manual transmission (14 November 2007)",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-915d1c6de4b91fc0f7772de34b06fc4d-mitsubishi-introduces-all-new-2008-lancer-evolution-with-turbointercooled-engine-super-all-wheel-control-and-available-6-speed-automated-manual-transmission",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "tac-2007-evo-mr-review",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2006 Mitsubishi Lancer Evolution MR Edition Review, by Bruce Hidaka-Gordon (23 March 2007)",
+      "url": "https://www.theautochannel.com/news/2007/03/23/041143.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight rests on one page: the unattributed three-trim specification table printed with The Auto Channel's launch review (3,274 lb for the standard car). It was not found on a Mitsubishi page or in a second editorial outlet, so the guide's weight rule (manufacturer figure, major-magazine panel, or two named-author outlets) is met only if that table is accepted as Mitsubishi's press-kit sheet. Check against Mitsubishi's 2006 press kit or a Car and Driver / Road & Track / MotorTrend panel before publishing. The last model year (2007) is also not stated outright by Mitsubishi.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

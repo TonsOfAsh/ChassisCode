@@ -1,0 +1,169 @@
+{
+  "id": "acura-integra-type-r-dc2",
+  "manufacturer": "Acura",
+  "model": "Integra",
+  "generation": "DC2",
+  "variant": "Type R",
+  "subVariant": null,
+  "displayName": "Acura Integra Type R (DC2)",
+  "aliases": [
+    "DC2",
+    "DC2 Type R",
+    "Integra Type R",
+    "ITR",
+    "B18C5",
+    "B18C",
+    "Honda Integra Type R",
+    "Type-R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1997,
+      "endYear": 2001
+    },
+    "sourceId": "acura-chronology",
+    "note": "US model years 1997, 1998, 2000 and 2001; not sold as a 1999 model. Acura's model chronology: 1997 \"Integra Type-R introduced with 195-hp 4-cylinder, sport suspension, larger brakes, lightweight body\"; 1999 \"RS model dropped; Type-R model suspended; leather upholstery standard on GS-R\"; 2000 \"Type-R returns to lineup with standard air conditioning ...\"; 2001 \"Floor mats standard on all models; final model year\". Acura's 2001 Type R specification sheet (acura-itr-2001-specs) confirms the 2001 model, and Acura's Integra timeline (acura-integra-timeline) says \"Integra Type R returns for the 2000 model year\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "acura-itr-1998-release",
+    "note": "Acura calls it the 'Integra Type R Sports Coupe'; it is the three-door liftback body."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "acura-itr-1998-specs",
+      "note": "'1.8-liter, 16-valve, DOHC VTEC inline 4-cylinder'"
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "acura-itr-1998-specs",
+      "note": "1,797 cc ('110 cu in (1797 cc)')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "acura-itr-2001-intro",
+      "note": "Acura: 'among the highest rated normally aspirated mass-produced engines in terms of horsepower per liter'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-itr-1998-specs",
+    "note": "'Premium unleaded, 91 octane'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "acura-itr-1998-specs",
+    "note": "'Transverse-mounted front engine/front-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "acura-itr-2001-specs",
+    "note": "'5-speed manual' (2001 sheet); '5-speed close-ratio' (2000 sheet). Manual only."
+  },
+  "powerHp": {
+    "value": 195,
+    "sourceId": "acura-itr-1998-specs",
+    "note": "Quote: \"Horsepower, SAE net 195 hp @ 8000 rpm\". Unchanged on Acura's 2000 and 2001 sheets (acura-itr-2000-specs, acura-itr-2001-specs); Acura's chronology gives 195 hp for the 1997 launch car."
+  },
+  "weightLb": {
+    "value": 2577,
+    "sourceId": "acura-itr-1998-specs",
+    "note": "1998 model, 5-speed manual. Quote: \"Curb Weight 2577 lbs (1170 kg)\". No Acura specification sheet for the 1997 launch year was found, so 1998 is the reference year. The 2000 and 2001 cars are 2,639 lb (\"Curb Weight | 2639 lb (1197 kg)\"); Acura's chronology says the Type R returned for 2000 \"with standard air conditioning\", which is inferred to account for the difference."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1998,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-itr-1998-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1998 Acura Integra Type R Specifications",
+      "url": "https://acuranews.com/en-US/releases/1998-acura-integra-type-r-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-itr-1998-release",
+      "type": "manufacturer",
+      "publisher": "Acura / American Honda (hondanews.com)",
+      "title": "Limited-Edition Acura Integra Type R Returns for 1998",
+      "url": "https://hondanews.com/en-US/releases/release-dee494c12fe65658b2f398004c34c987-limited-edition-acura-integra-type-r-returns-for-1998",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-itr-2000-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "2000 Acura Integra Type R Specifications",
+      "url": "https://acuranews.com/en-US/releases/2000-acura-integra-type-r-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-itr-2001-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "2001 Acura Integra Type R Specifications",
+      "url": "https://acuranews.com/en-US/releases/2001-acura-integra-type-r-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-itr-2001-intro",
+      "type": "manufacturer",
+      "publisher": "Acura / American Honda (hondanews.com)",
+      "title": "2001 Acura Integra Introduction",
+      "url": "https://hondanews.com/en-US/releases/release-7b0d03d783f6d642dbbefc6b2a08adfb-2001-acura-integra-introduction-2",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-chronology",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Model Chronology",
+      "url": "https://acuranews.com/en-US/releases/release-6cd08e1213f4f2aca52228004c34c087-acura-model-chronology",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-integra-timeline",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Integra Timeline and Milestones",
+      "url": "https://acuranews.com/en-US/releases/acura-integra-timeline-and-milestones",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2577,
+          "sourceId": "acura-itr-1998-specs"
+        },
+        {
+          "value": 2639,
+          "sourceId": "acura-itr-2000-specs"
+        },
+        {
+          "value": 2639,
+          "sourceId": "acura-itr-2001-specs"
+        }
+      ],
+      "reason": "Model year. Acura's 1998 sheet gives 2,577 lb; the 2000 and 2001 sheets give 2,639 lb, after air conditioning became standard for 2000.",
+      "resolution": "Used 2,577 lb because the reference model year is 1998."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

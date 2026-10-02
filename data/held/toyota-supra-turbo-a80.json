@@ -1,0 +1,107 @@
+{
+  "id": "toyota-supra-turbo-a80",
+  "manufacturer": "Toyota",
+  "model": "Supra",
+  "generation": "A80",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Toyota Supra Turbo (A80)",
+  "aliases": [
+    "Mk4 Supra",
+    "MkIV Supra",
+    "2JZ",
+    "2JZ-GTE",
+    "A80 Supra",
+    "Supra Twin Turbo"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1993,
+      "endYear": 1998
+    },
+    "sourceId": "toyota-supra-history-2019",
+    "note": "US model years 1993-1998. Toyota: 'Offered in the U.S. market from 1993-1998 and in Japan until 2002'; 'just over 11,200 sold in the U.S. before its withdrawal from this market in 1998. Nearly 7,000 of those were Turbos.' Sports Car Market gives the same years: '1993-98 (U.S. market); 1993-2002 (Japanese market)' (scm-supra-turbo-2022). No opened page reports a model year in that span without a Turbo, but Toyota notes the six-speed manual 'had a one-year hiatus for 1996', when the Turbo was automatic only."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "toyota-supra-history-2019",
+    "note": "'offered in coupe and Sport Roof body styles'. The Sport Roof (removable roof panel) is a version of the coupe, not sold under a Targa name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "toyota-supra-history-2019",
+      "note": "'The all-new 2JZ inline-six engine'; Turbo engine code 2JZ-GTE"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "scm-supra-turbo-2022",
+      "note": "'3.0-liter, twin-turbo, inline 6-cylinder engine (code 2JZ-GTE)'. No opened page stated the cc figure, so none is given here."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "toyota-supra-history-2019",
+      "note": "'The Turbo version, the 2JZ-GTE, employed two sequential turbochargers'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-supra-history-2019"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "scm-supra-turbo-2022",
+    "note": "Sports Car Market describes a front-mounted inline-six driving the rear wheels."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "toyota-supra-history-2019",
+    "note": "'The manual transmission was a six-speed, and the optional four-speed automatic had a manual mode. (The six-speed had a one-year hiatus for 1996.)'"
+  },
+  "powerHp": {
+    "value": 320,
+    "sourceId": "toyota-supra-history-2019",
+    "note": "Quote: \"The Turbo version, the 2JZ-GTE, employed two sequential turbochargers and produced 320 hp and 315 lb-ft of torque.\" US-market rating; Japanese-market cars were rated lower (276 bhp per scm-supra-turbo-2022)."
+  },
+  "weightLb": {
+    "value": 3450,
+    "sourceId": "toyota-supra-history-2019",
+    "note": "Quote: \"At 3,450 pounds, the Turbo model weighed about 125 less than its predecessor, some of the savings coming from an aluminum hood, roof and bumper supports\". Toyota's retrospective does not name the transmission, roof or model year for this figure; taken as the launch (1993) Turbo."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1993,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-supra-history-2019",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Toyota Supra: An Icon A Half-Century in the Making (press release, 12 May 2019)",
+      "url": "https://pressroom.toyota.com/toyota-supra-icon-half-century-in-making/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "scm-supra-turbo-2022",
+      "type": "publication",
+      "publisher": "Sports Car Market",
+      "title": "1993 Toyota Supra Turbo (profile by Mark R. Brinker, 8 June 2022)",
+      "url": "https://www.sportscarmarket.com/profile/1993-toyota-supra-turbo",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

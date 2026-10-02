@@ -1,0 +1,122 @@
+{
+  "id": "nissan-gt-r-nismo-r35",
+  "manufacturer": "Nissan",
+  "model": "GT-R",
+  "generation": "R35",
+  "variant": "Nismo",
+  "subVariant": null,
+  "displayName": "Nissan GT-R Nismo (R35)",
+  "aliases": [
+    "R35 Nismo",
+    "GT-R Nismo",
+    "Nismo GT-R",
+    "Nissan GTR",
+    "VR38DETT"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2024
+    },
+    "sourceId": "nissan-us-2015-gt-r-press-kit",
+    "note": "US model years. First: the 2015 press kit says \"The 600-horsepower GT-R NISMO joins the established 2015 GT-R Premium and GT-R Black Edition vehicles\"; Nissan's reveal (nissan-global-2013-gt-r-nismo-reveal) put US sales 'later in 2014'. Last: the 2024 press kit (nissan-us-2024-gt-r-press-kit) lists the 2024 GT-R NISMO and says \"GT-R production for the North American market will sunset in October\". Whether a Nismo was sold in every model year in between was not checked."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "Inferred from Nissan's description: a two-door car with 'Capacity 4 passengers'. No opened Nissan US page uses the word coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2023-gt-r-press-kit",
+      "note": "'3.8-liter V6' VR38DETT"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "nissan-us-2023-gt-r-press-kit",
+      "note": "Nissan's US specification tables give litres only: 'Displacement (liters) 3.8'. No cc figure for the Nismo was found on an opened Nissan page."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-us-2023-gt-r-press-kit",
+      "note": "'High-efficiency, High-capacity NISMO GT3 Twin-Turbo system'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "'Premium unleaded, 93 octane'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "'Mid-mounted front engine / rear transaxle ATTESA E-TS all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed DCT"
+    ],
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "'Dual-clutch sequential 6-speed rear transaxle, paddle shifters'"
+  },
+  "powerHp": {
+    "value": 600,
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "Quote: \"Horsepower 600 HP @ 6,800 RPM\" (GT-R NISMO, 2023; same in the 2024 kit). Unchanged since launch: the 2015 press kit gives \"600 horsepower @ 6,800 rpm, 481 lb-ft of torque @ 3,200 - 5,800 rpm\" (nissan-us-2015-gt-r-press-kit). The reference year is 2023 rather than 2015 because the 2015 to 2020 press kits opened give no curb weight for the Nismo."
+  },
+  "weightLb": {
+    "value": 3867,
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "GT-R NISMO, 2023 model year. Quote: \"Curb weight (pounds) Front 2,119 Rear 1,748 Total 3,867\"; the 2024 kit repeats it (nissan-us-2024-gt-r-press-kit). No Nissan curb weight for the 2015 to 2019 Nismo was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2023-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2023 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2023-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2024-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2024 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2015-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2015 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2015-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-global-2013-gt-r-nismo-reveal",
+      "type": "manufacturer",
+      "publisher": "Nissan Motor Co. (Global Newsroom)",
+      "title": "Revealed: Nissan GT-R Nismo",
+      "url": "https://global.nissannews.com/en/releases/131119-02-e",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

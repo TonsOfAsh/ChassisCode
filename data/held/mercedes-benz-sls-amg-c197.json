@@ -1,0 +1,167 @@
+{
+  "id": "mercedes-benz-sls-amg-c197",
+  "manufacturer": "Mercedes-Benz",
+  "model": "SLS AMG",
+  "generation": "C197",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-Benz SLS AMG (C197)",
+  "aliases": [
+    "SLS",
+    "SLS AMG Gullwing",
+    "Gullwing",
+    "Mercedes SLS",
+    "SLS AMG Roadster",
+    "R197",
+    "M159",
+    "AMG SPEEDSHIFT DCT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2012
+    },
+    "sourceId": "kbb-sls-2012-review",
+    "note": "US model years of the standard 563 hp SLS AMG. First: MBUSA's press kit is titled '2011 Mercedes-Benz SLS AMG Comprehensive Product Information For News Media' (mbusa-sls-2011-product-info) and KBB lists the 2011 SLS AMG at 563 hp (kbb-sls-2011-specs). 2012: 'For 2012, Mercedes-Benz adds a convertible version of the SLS AMG', styles 'AMG Coupe 2D' and 'AMG Convertible 2D', 563 hp. Last: for 2013 the US car became the 583 hp SLS AMG GT: 'In addition to adding \"GT\" to its name, the 2013 SLS AMG features ...' and the only 2013 styles are 'AMG GT Coupe 2D' and 'AMG GT Convertible 2D' (kbb-sls-2013-overview). The SLS line as a whole ran to model year 2015 (GT, Black Series, GT Final Edition), which are separate variants. In the UK the standard car stayed on sale alongside the GT (Evo, 6 November 2012: 'the standard SLS, which Mercedes will sell alongside it'; evo-sls-gt-review-2012). C197 is the coupe's code; the Roadster is R197."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "kbb-sls-2012-review",
+    "note": "Gullwing coupe from 2011; SLS AMG Roadster added for 2012 ('The roadster loses the gullwing door design'). Listed as Convertible per the data guide because a fixed-roof version of the same variant exists."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-sls-fascination-2009",
+      "note": "'an AMG 6.3-liter, front-mid V8 engine' (M159)"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "mbusa-sls-fascination-2009",
+      "note": "6,208 cc ('has a displacement of 6,208 cm³'). Mercedes markets it as '6.3-liter'; the rounded cc figure is 6.2."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "mbusa-sls-fascination-2009",
+      "note": "Inferred from the release's description of the M159 engine (no forced induction mentioned)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-sls-fascination-2009",
+    "note": "Inferred from the release's description of the V8 petrol engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-sls-fascination-2009",
+    "note": "Inferred from 'a front-mid engine plus transaxle configuration'."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mbusa-sls-fascination-2009",
+    "note": "'seven-speed dual-clutch in a transaxle configuration'; 'AMG SPEEDSHIFT DCT seven-speed sports transmission'"
+  },
+  "powerHp": {
+    "value": 563,
+    "sourceId": "mbusa-sls-fascination-2009",
+    "note": "Launch rating as published by Mercedes-Benz USA. Quote: \"The advanced 6.3-liter V-8 engine, which has an output of 563 hp at 6,800 rpm, makes the Gullwing vehicle one of the most powerful sports cars in its segment.\" The SLS AMG GT (583 hp, from model year 2013), the Black Series and the GT Final Edition are separate variants and not part of this record."
+  },
+  "weightLb": {
+    "value": 3573,
+    "sourceId": "mbusa-sls-fascination-2009",
+    "note": "Coupe with the only transmission (7-speed DCT), as published in pounds by Mercedes-Benz USA. Quote: \"... a sports chassis with aluminum double-wishbone suspension; and a DIN curb weight of 3,573 pounds.\" MBUSA labels the figure a DIN curb weight. KBB's 2011 SLS AMG specifications list the same 3,573 lb curb weight (kbb-sls-2011-specs, a database, corroboration only). KBB lists 3,661 lb for 2012 without saying which body style. See discrepancies and reviewNotes."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-sls-fascination-2009",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "Mercedes-Benz SLS AMG: Fascination and High Tech",
+      "url": "https://media.mbusa.com/releases/release-67d7906f7a744c40bc1c92ef53085d6d-mercedes-benz-sls-amg-fascination-and-high-tech",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-sls-2011-product-info",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2011 Mercedes-Benz SLS AMG Comprehensive Product Information For News Media",
+      "url": "https://media.mbusa.com/releases/release-0a1414a52f3647df9f18fa75d88bd854-2011-mercedes-benz-sls-amg-comprehensive-product-information-for-news-media",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-sls-2011-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2011 Mercedes-Benz SLS-Class Specs, Features & Options",
+      "url": "https://www.kbb.com/mercedes-benz/sls-class/2011/specs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-sls-2012-review",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Mercedes-Benz SLS-Class review (Joe Tralongo)",
+      "url": "https://www.kbb.com/mercedes-benz/sls-class/2012/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-sls-2013-overview",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "2013 Mercedes-Benz SLS-Class review (KBB Editors)",
+      "url": "https://www.kbb.com/mercedes-benz/sls-class/2013/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autoguide-sls-pricing-2010",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "Mercedes-Benz SLS AMG Priced From $183,000",
+      "url": "https://www.autoguide.com/auto-news/2010/03/mercedes-benz-sls-amg-priced-from-183000.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-sls-gt-review-2012",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Mercedes SLS AMG GT review",
+      "url": "https://www.evo.co.uk/mercedes/sls/7194/mercedes-sls-amg-gt-review",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3573,
+          "sourceId": "mbusa-sls-fascination-2009"
+        },
+        {
+          "value": 3571,
+          "sourceId": "autoguide-sls-pricing-2010"
+        }
+      ],
+      "reason": "Rounding or conversion of the same manufacturer figure. AutoGuide (Colum Wood, 31 March 2010) writes \"The curb weight is just 3,571 lbs\", as do Automotive Fleet and eMercedesBenz; Mercedes-Benz USA's own release states 3,573 pounds, and KBB's 2011 specifications also list 3,573 lb.",
+      "resolution": "Use 3,573 lb, the figure in Mercedes-Benz USA's own document."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight: the 3,573 lb figure comes from a Mercedes-Benz USA release, but MBUSA calls it a 'DIN curb weight' and the release is the US edition of the September 2009 world-premiere text, so it may be the European DIN weight expressed in pounds rather than a separately measured US curb weight. MBUSA's '2011 Mercedes-Benz SLS AMG Technical Data' sheet exists in search results but returned 404, and the body of the 'Comprehensive Product Information' kit could not be read (only its title and date), so no US technical-data table was seen. KBB's 2011 spec table lists the same 3,573 lb. Production: the 2011-2012 model-year range for the standard car rests on KBB's year pages (2012 by a named author, 2013 by 'KBB Editors'); no MBUSA page stating that the SLS AMG GT replaced the standard car for 2013 could be opened.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

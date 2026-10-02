@@ -1,0 +1,134 @@
+{
+  "id": "nissan-gt-r-r35-2017-2024",
+  "manufacturer": "Nissan",
+  "model": "GT-R",
+  "generation": "R35",
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Nissan GT-R (R35, 2017–2024)",
+  "aliases": [
+    "R35 GT-R",
+    "R35",
+    "GTR",
+    "Nissan GTR",
+    "Godzilla",
+    "VR38DETT",
+    "GT-R Premium",
+    "GT-R T-spec",
+    "facelift GT-R",
+    "2017 GT-R",
+    "2018 GT-R",
+    "2019 GT-R",
+    "2020 GT-R",
+    "2021 GT-R",
+    "2023 GT-R",
+    "2024 GT-R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2024
+    },
+    "sourceId": "nissan-us-2017-gt-r-press-kit",
+    "note": "US model years. The R35 GT-R is split into records by year range because its US power rating changed too much for one figure (480 hp in 2009, 565 hp from 2017). This record starts with the 2017 update, which Nissan's 2017 press kit calls \"the most significant change to Nissan's flagship super sports car since it was introduced in 2007\". Last: the 2024 press kit (nissan-us-2024-gt-r-press-kit) says \"After more than 17 years of thrilling fans and exhilarating drivers, GT-R production for the North American market will sunset in October\". Nissan's US press kit archive lists GT-R kits for 2017 to 2021, 2023 and 2024 and none for 2022, so there appears to have been no 2022 model year in the US; no Nissan statement saying so was found."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "Inferred from Nissan's description: a two-door car with 'Capacity 4 passengers'. No opened Nissan US page uses the word coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2023-gt-r-press-kit",
+      "note": "'3.8-liter V6, 24-valve, twin-turbocharged engine' (VR38DETT)"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "nissan-us-2023-gt-r-press-kit",
+      "note": "Nissan's US specification tables give litres only: 'Displacement (liters) 3.8'. The only cc figure on an opened Nissan page is '3796 cc V-6 twin turbo' on the US heritage page for a Japanese-market pre-production car (nissan-us-heritage-2008-gt-r); it also rounds to 3.8."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-us-2023-gt-r-press-kit",
+      "note": "'twin-turbocharged'; Premium uses a 'Twin IHI' turbo system"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "'Premium unleaded, 93 octane'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "'Mid-mounted front engine / rear transaxle ATTESA E-TS all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed DCT"
+    ],
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "'Dual-clutch sequential 6-speed rear transaxle'. The only transmission in every model year."
+  },
+  "powerHp": {
+    "value": 565,
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "GT-R Premium, 2023 model year. Quote: \"Horsepower 565 @ 6,800 RPM\" (same row in the 2024 kit). The rating was 565 hp for every model year in this record, starting in 2017: \"565 horsepower at 6800 rpm and 467 lb-ft of torque, representing an increase of 20 HP and 4 lb-ft, respectively, from last year's model\" (nissan-us-2017-gt-r-press-kit). The reference year is 2023 rather than 2017 because 2023 is the earliest year in this range for which a Nissan curb weight for the Premium could be read: the weights section of the 2017 to 2021 kits could not be opened. The earlier cars (485 hp and 545 hp) are separate records, as is the Nismo (600 hp)."
+  },
+  "weightLb": {
+    "value": 3935,
+    "sourceId": "nissan-us-2023-gt-r-press-kit",
+    "note": "GT-R Premium (the standard car), 6-speed dual-clutch, 2023 model year. Quote: \"Curb weight (pounds) Front 2,152 Rear 1,783 Total 3,935\"; the 2024 kit repeats it for Premium/T-spec. The weights section of the 2017 to 2021 kits could not be opened, so it is not confirmed that the 2017 car weighed the same."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2023-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2023 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2023-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2024-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2024 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2017-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2017 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2017-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-heritage-2008-gt-r",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2008 Nissan GT-R (R35) (heritage collection page)",
+      "url": "https://usa.nissannews.com/en-US/releases/2008-nissan-gt-r-r35",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

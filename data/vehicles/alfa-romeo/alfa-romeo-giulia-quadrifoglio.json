@@ -1,0 +1,184 @@
+{
+  "id": "alfa-romeo-giulia-quadrifoglio",
+  "manufacturer": "Alfa Romeo",
+  "model": "Giulia",
+  "generation": null,
+  "variant": "Quadrifoglio",
+  "subVariant": null,
+  "displayName": "Alfa Romeo Giulia Quadrifoglio",
+  "aliases": [
+    "Giulia QV",
+    "Giulia Quadrifoglio Verde",
+    "Giulia QF",
+    "Alfa Giulia Quadrifoglio",
+    "Quadrifoglio Super Sport",
+    "Quadrifoglio 100th Anniversary",
+    "2017 Giulia Quadrifoglio"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2024
+    },
+    "sourceId": "alfa-us-giulia-q-2015-release",
+    "note": "US model years 2017-2024. First: FCA US introduced it as the 'All-new 2017 Alfa Romeo Giulia Quadrifoglio'. Last: the 2024 Quadrifoglio Super Sport was announced as \"a fitting final chapter to the combustion engine Quadrifoglio in the U.S.\" (alfa-us-quadrifoglio-final-run-2024), and Alfa Romeo's 2026 Giulia specification sheet lists only the 2.0-litre cars (alfa-us-giulia-specs-2026). No opened page covers the 2025 lineup directly (the 'What's New for 2025' release could not be opened)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "alfa-us-giulia-specs-2020",
+    "note": "'Mid-size sedan'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "alfa-us-giulia-specs-2020",
+      "note": "'V-6, 90-degree, direct injection'"
+    },
+    "displacementL": {
+      "value": 2.9,
+      "sourceId": "alfa-us-giulia-specs-2020",
+      "note": "2,891 cc ('176.4 cu. in. (2,891 cm3)')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "alfa-us-giulia-q-2015-release",
+      "note": "'Ferrari-derived 505-horsepower V-6 twin-turbo'; the specification sheet lists an 'Integrated IHI single-scroll turbo manifold with water charge air cooler'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "alfa-us-giulia-specs-2020",
+    "note": "'Premium unleaded, 91 octane (R+M)/2'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "alfa-us-giulia-specs-2020",
+    "note": "'Giulia Quadrifoglio RWD'; all-wheel drive was offered only on the four-cylinder Giulia."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "alfa-us-giulia-specs-2020",
+    "note": "'TRANSMISSION: 8HP75 EIGHT-SPEED AUTOMATIC' (ZF torque-converter automatic). The six-speed manual shown at the 2015 reveal (motorauthority-giulia-2015) was not on FCA US's 2017 fact sheet, which lists only the eight-speed automatic (alfa-us-giulia-factsheet-2017)."
+  },
+  "powerHp": {
+    "value": 505,
+    "sourceId": "alfa-us-giulia-specs-2020",
+    "note": "Quote: \"Power (SAE net) 505 hp (377 kW) @ 6,500 rpm (175 hp/liter)\". Same row on the 2018 and 2019 sheets (alfa-us-giulia-specs-2018, alfa-us-giulia-specs-2019); 505 hp is also the figure in the 2015 launch release and the 2024 final-run release, so the rating never changed in the US."
+  },
+  "weightLb": {
+    "value": 3820,
+    "sourceId": "alfa-us-giulia-specs-2020",
+    "note": "Sedan, 8-speed automatic (the only US transmission), 2020 model. Quote: \"Curb Weight, lbs. (kg) ... 3,820 (1,733) – Giulia Quadrifoglio RWD\". Reference year 2020 because it is the earliest Alfa Romeo US sheet found with a curb weight: the 2018 and 2019 sheets have no weight row, and the 2017 sheet could not be read. Pre-launch figures (3,360 lb in 2015, '3,600 Pounds (est.)' in 2016) were not final; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "alfa-us-giulia-specs-2020",
+      "type": "manufacturer",
+      "publisher": "FCA US / Alfa Romeo (media.stellantisnorthamerica.com)",
+      "title": "Specifications: 2020 Alfa Romeo Giulia",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=21422",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-giulia-specs-2019",
+      "type": "manufacturer",
+      "publisher": "FCA US / Alfa Romeo (media.stellantisnorthamerica.com)",
+      "title": "Specifications: 2019 Alfa Romeo Giulia",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=20043",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-giulia-specs-2018",
+      "type": "manufacturer",
+      "publisher": "FCA US / Alfa Romeo (media.stellantisnorthamerica.com)",
+      "title": "Specifications: 2018 Alfa Romeo Giulia",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=18545",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-giulia-specs-2026",
+      "type": "manufacturer",
+      "publisher": "Stellantis / Alfa Romeo (media.stellantisnorthamerica.com)",
+      "title": "2026 Alfa Romeo Giulia Specifications",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=27456",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-giulia-q-2015-release",
+      "type": "manufacturer",
+      "publisher": "FCA US (media.stellantisnorthamerica.com)",
+      "title": "Created With the 'Mechanics of Emotion,' the All-new 2017 Alfa Romeo Giulia Quadrifoglio Delivers Italian Style With Benchmark-level Performance and Precision to the Premium Mid-size Sedan Segment",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=17102",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-giulia-factsheet-2017",
+      "type": "manufacturer",
+      "publisher": "FCA US (media.stellantisnorthamerica.com)",
+      "title": "2017 Alfa Romeo Giulia Fact Sheet",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=17925",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-quadrifoglio-final-run-2024",
+      "type": "manufacturer",
+      "publisher": "Stellantis / Alfa Romeo (media.stellantisnorthamerica.com)",
+      "title": "Alfa Romeo Announces Final Run of Quadrifoglio in US (2024 Quadrifoglio Super Sport)",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=25880",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-giulia-2015",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2017 Alfa Romeo Giulia: First U.S. Specs Revealed",
+      "url": "https://www.motorauthority.com/news/1101030_2017-alfa-romeo-giulia-first-u-s-specs-revealed",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motor1-giulia-q-2016",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2017 Alfa Romeo Giulia Quadrifoglio First Drive",
+      "url": "https://www.motor1.com/reviews/127060/2017-alfa-romeo-giulia-quadrifoglio-first-drive-review/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3820,
+          "sourceId": "alfa-us-giulia-specs-2020"
+        },
+        {
+          "value": 3360,
+          "sourceId": "motorauthority-giulia-2015"
+        },
+        {
+          "value": "3,600 (est.)",
+          "sourceId": "motor1-giulia-q-2016"
+        }
+      ],
+      "reason": "Pre-launch figures versus the published curb weight. 3,360 lb (1,524 kg) is the figure FCA released at the November 2015 reveal, alongside a six-speed manual that was not sold in the US; Motor1's October 2016 first drive lists '3,600 Pounds (est.)'. Alfa Romeo's 2020 US specification sheet gives a curb weight of 3,820 lb for the Quadrifoglio.",
+      "resolution": "Used 3,820 lb, the only manufacturer figure labelled curb weight for the US car as sold (eight-speed automatic)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

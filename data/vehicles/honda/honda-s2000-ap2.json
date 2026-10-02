@@ -1,0 +1,154 @@
+{
+  "id": "honda-s2000-ap2",
+  "manufacturer": "Honda",
+  "model": "S2000",
+  "generation": "AP2",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Honda S2000 (AP2)",
+  "aliases": [
+    "AP2",
+    "S2K",
+    "S2000 AP2",
+    "F22C1",
+    "F22C",
+    "2.2 S2000"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2004,
+      "endYear": 2009
+    },
+    "sourceId": "honda-s2000-2004-release",
+    "note": "US model years 2004-2009. First: the 2.2-litre engine arrived with the 2004 model ('Larger displacement 2.2-liter engine (+0.2 liters)'). Last: \"The 2009 Honda S2000 will be the final model year produced of the award-winning roadster\" (honda-s2000-final-2009). The S2000 CR (2008-2009) is a separate record."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "honda-s2000-specs-2006",
+    "note": "'Front-Engine, Rear-Wheel-Drive, 2-Passenger, 2-Door Roadster'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-s2000-specs-2006",
+      "note": "'16-Valve DOHC VTEC Inline-4 (F22C1)'"
+    },
+    "displacementL": {
+      "value": 2.2,
+      "sourceId": "honda-s2000-specs-2006",
+      "note": "2,157 cc ('2157/131.6')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "honda-s2000-specs-2006",
+      "note": "Inferred: 'Multi-Point Programmed Fuel Injection (PGM-FI)', 11.1:1 compression; no turbocharger or supercharger is listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-s2000-specs-2006",
+    "note": "'Premium Unleaded'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "honda-s2000-specs-2006",
+    "note": "'Front Engine/Rear-Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-s2000-2004-release",
+    "note": "'revised 6-speed, manual transmission'; the 2006 sheet lists '6-Speed w/Torque-Sensing Limited-Slip Differential'. Manual only."
+  },
+  "powerHp": {
+    "value": 237,
+    "sourceId": "honda-s2000-specs-2006",
+    "note": "Quote: \"Horsepower (SAE net @rpm) | 237@7800\". Reference year 2006: Honda rated the same engine 240 hp @ 7,800 rpm for 2004 and 2005 (honda-s2000-2004-release: \"240 horsepower @ 7800 rpm\") and restated it as 237 hp from the 2006 model under the revised SAE net procedure (honda-s2000-summary-2006: \"SAE net rev. 8/04 update: 2.2-liter VTEC 4-cylinder engine (237 horsepower @ 7800\"). 237 hp is the rating for four of the six model years, so it is used."
+  },
+  "weightLb": {
+    "value": 2855,
+    "sourceId": "honda-s2000-specs-2006",
+    "note": "Single configuration (manual roadster), 2006 model. Quote: \"Curb Weight (lbs.) | 2855\". The 2004 model was 2,835 lb per Honda's 2004 release (\"Weight (lbs.): 2835\")."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2006,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "honda-s2000-specs-2006",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2006 Honda S2000 Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-5a35f67b82f245d1db31c6004c34c121-2006-honda-s2000-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-s2000-summary-2006",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2006 Honda S2000 Summary",
+      "url": "https://hondanews.com/en-US/releases/release-aeca3f14735993451c13aa004c34c11f-2006-honda-s2000-summary",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-s2000-2004-release",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "Honda S2000 Receives Enhanced Power and Improved Handling for 2004",
+      "url": "https://hondanews.com/en-US/honda-corporate/releases/release-cbf1a42846ed0695af9940004c34c498-honda-s2000-receives-enhanced-power-and-improved-handling-for-2004",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-s2000-final-2009",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2009 Will Be Final Model Year of Production for Honda S2000",
+      "url": "https://hondanews.com/en-US/releases/release-94b06ebeefdab837e7efec004c34bbae-2009-will-be-final-model-year-of-production-for-honda-s2000",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 237,
+          "sourceId": "honda-s2000-specs-2006"
+        },
+        {
+          "value": 240,
+          "sourceId": "honda-s2000-2004-release"
+        }
+      ],
+      "reason": "Model year and rating procedure. Honda rated the 2.2-litre engine 240 hp for 2004-2005 and 237 hp from 2006, when it re-rated under the revised SAE net procedure ('SAE net rev. 8/04').",
+      "resolution": "Used 237 hp: the reference model year is 2006 and that rating covers most of the run (2006-2009)."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2855,
+          "sourceId": "honda-s2000-specs-2006"
+        },
+        {
+          "value": 2835,
+          "sourceId": "honda-s2000-2004-release"
+        }
+      ],
+      "reason": "Model year. Honda gives 2,835 lb for the 2004 model and 2,855 lb on the 2006 sheet (drive-by-wire throttle and Vehicle Stability Assist added for 2006).",
+      "resolution": "Used 2,855 lb because the reference model year is 2006."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

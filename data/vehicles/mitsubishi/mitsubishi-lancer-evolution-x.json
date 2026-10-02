@@ -1,0 +1,171 @@
+{
+  "id": "mitsubishi-lancer-evolution-x",
+  "manufacturer": "Mitsubishi",
+  "model": "Lancer Evolution",
+  "generation": "X",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mitsubishi Lancer Evolution (X)",
+  "aliases": [
+    "Evo X",
+    "Evo 10",
+    "CZ4A",
+    "Lancer Evo X",
+    "Evolution X",
+    "Evo X GSR",
+    "Evo X MR",
+    "4B11T",
+    "TC-SST"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2015
+    },
+    "sourceId": "mitsubishi-us-2008-evo-release",
+    "note": "US model years. First: Mitsubishi's release of 14 November 2007 introduces the 'all-new 2008 Lancer Evolution'. Last: the 2015 press kit says the car \"bows out with the 2015 model year edition\" (mitsubishi-us-2015-evo-press-kit)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mitsubishi-us-2010-evo-press-kit",
+    "note": "'4-door sports sedan'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mitsubishi-us-2010-evo-press-kit",
+      "note": "'2.0L MIVEC I4 turbocharged/intercooled' (4B11 T/C)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mitsubishi-us-2010-evo-press-kit",
+      "note": "1,998 cc ('Displacement (cu in./cc) 122/1998')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "mitsubishi-us-2010-evo-press-kit",
+      "note": "'turbocharged/intercooled'; one turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mitsubishi-us-2010-evo-press-kit",
+    "note": "'Premium Unleaded, 91 AKI min.'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mitsubishi-us-2010-evo-press-kit",
+    "note": "'Super-All Wheel Control (S-AWC)' with Active Center Differential, full-time 4-wheel drive"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "6-speed DCT"
+    ],
+    "sourceId": "mitsubishi-us-2010-evo-press-kit",
+    "note": "GSR: '5-speed manual'. MR (and SE, MR Touring): '6-speed TC-SST', Mitsubishi's Twin-Clutch Sportronic Shift Transmission. GSR and MR are trims of this one record."
+  },
+  "powerHp": {
+    "value": 291,
+    "sourceId": "mitsubishi-us-2010-evo-press-kit",
+    "note": "Quote: \"Horsepower 291 @ 6500\" (2010; GSR and MR alike). Same rating at launch, \"291 hp at 6,500 rpm\" (mitsubishi-us-2008-evo-release; \"291 @ 6,500 rpm\" in mitsubishi-us-2008-evo-press-kit), and through 2015, \"291 @ 6,500 rpm\" (mitsubishi-us-2015-evo-press-kit). Only the 2015 Final Edition differs, at \"303 @ 6,500 rpm\". The reference year is 2010 rather than the 2008 launch year because the 2008 press kit's specification table is an image that could not be read; 2010 is the first year with a readable Mitsubishi curb weight."
+  },
+  "weightLb": {
+    "value": 3517,
+    "sourceId": "mitsubishi-us-2010-evo-press-kit",
+    "note": "GSR with the 5-speed manual, 2010 model. Quote: \"Curb weight (lbs./kg) GSR: 3517 / 1595 SE: 3572 / 1620 MR: 3594 / 1630 MR-T: 3624 / 1644\". Mitsubishi's October 2009 comparison sheet gives the same \"GSR: 3,517 MR: 3,594\" (mitsubishi-us-2009-lancer-performance-compared) and the 2011 kit \"GSR: 3517 / 1595\" (mitsubishi-us-2011-evo-press-kit). Later kits: 3,516 lb for 2013, 3,527 lb for 2015."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mitsubishi-us-2010-evo-press-kit",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "2010 Mitsubishi Lancer Evolution Press Kit",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-d3323424aeb9462a9794b20651a638f2-2010-lancer-evolution-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2008-evo-release",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "Mitsubishi introduces all-new 2008 Lancer Evolution with turbo/intercooled engine, super-all wheel control and available 6-speed automated manual transmission",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-915d1c6de4b91fc0f7772de34b06fc4d-mitsubishi-introduces-all-new-2008-lancer-evolution-with-turbointercooled-engine-super-all-wheel-control-and-available-6-speed-automated-manual-transmission",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2008-evo-press-kit",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "2008 Mitsubishi Lancer Evolution Press Kit",
+      "url": "https://media.mitsubishicars.com/en-US/releases/2008-lancer-evolution-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2009-lancer-performance-compared",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "Lancer performance models compared",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-e7c80e8a503020ff9f6cb7354b102f07-lancer-performance-models-compared",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2011-evo-press-kit",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "2011 Mitsubishi Lancer Evolution Press Kit",
+      "url": "https://media.mitsubishicars.com/en-US/releases/2011-lancer-evolution-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2013-evo-press-kit",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "2013 Mitsubishi Lancer Evolution Press Kit",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-60aab95676d74fd7997da0834fe1ff73-2013-lancer-evolution-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mitsubishi-us-2015-evo-press-kit",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (Mitsubishi Newsroom)",
+      "title": "2015 Mitsubishi Lancer Evolution Press Kit",
+      "url": "https://media.mitsubishicars.com/presskits/2015-lancer-evo-press-kit",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3517,
+          "sourceId": "mitsubishi-us-2010-evo-press-kit"
+        },
+        {
+          "value": 3516,
+          "sourceId": "mitsubishi-us-2013-evo-press-kit"
+        },
+        {
+          "value": 3527,
+          "sourceId": "mitsubishi-us-2015-evo-press-kit"
+        }
+      ],
+      "reason": "Model year. All three are Mitsubishi curb weights for the GSR manual: 3,517 lb (1,595 kg) in the 2010 and 2011 kits, 3,516 lb (1,595 kg, a rounding difference) in the 2013 kit, 3,527 lb (1,600 kg) in the 2015 kit.",
+      "resolution": "Used 3,517 lb because the reference model year is 2010."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

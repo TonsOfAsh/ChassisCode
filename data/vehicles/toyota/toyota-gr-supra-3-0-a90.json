@@ -1,0 +1,163 @@
+{
+  "id": "toyota-gr-supra-3-0-a90",
+  "manufacturer": "Toyota",
+  "model": "GR Supra",
+  "generation": "A90",
+  "variant": "3.0",
+  "subVariant": null,
+  "displayName": "Toyota GR Supra 3.0 (A90)",
+  "aliases": [
+    "Mk5 Supra",
+    "MkV Supra",
+    "A90 Supra",
+    "J29",
+    "Supra 3.0",
+    "GR Supra 3.0 Premium",
+    "A91 Edition",
+    "A91-MT",
+    "MkV Final Edition"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2026
+    },
+    "sourceId": "toyota-2020-supra-debut",
+    "note": "US model years 2020-2026. First: 'The 2020 Supra goes on sale in summer of 2019'. Last: 'For the 2026 model year, Toyota celebrates this legendary sports car with the GR Supra MkV Final Edition' and 'Production of the fifth-generation GR Supra will end Spring 2026' (toyota-2026-supra-final-edition)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "toyota-2020-supra-debut",
+    "note": "Inferred: Toyota's pages describe a two-seat, two-door fixed-roof sports car; the cited page does not use the word coupe for this car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "toyota-2021-supra-release",
+      "note": "'turbocharged 3.0-liter inline-six'. The four-cylinder GR Supra 2.0 is a different variant."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "toyota-gb-supra-tech-specs",
+      "note": "2,998 cc (bore x stroke 82 x 94.6 mm) per Toyota (GB)'s GR Supra technical specifications; the sheet is for the UK market and is used here for the displacement only."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "toyota-2020-supra-debut",
+      "note": "'3.0-liter twin-scroll turbo six': one twin-scroll turbocharger. Toyota Canada's copy of the 2021 release lists '3.0L inline six-cylinder with twin-scroll single turbo' (toyota-canada-2021-supra-release)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-2020-supra-debut",
+    "note": "Inferred from the petrol inline-six described on the cited page; the page does not name the fuel."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "toyota-2020-supra-debut",
+    "note": "'rear-wheel drive design'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "toyota-2023-supra-manual-on-sale",
+    "note": "8-speed automatic only for model years 2020-2022 ('The 8-speed automatic transmission with paddle shifters carries over for 2021', toyota-2021-supra-release). A six-speed manual was added for the 2023 model year: 'The Manual Transmission is available as an option on the Supra 3.0 and 3.0 Premium'. Both remained for 2026 ('available with a manual or automatic transmission', toyota-2026-supra-final-edition)."
+  },
+  "powerHp": {
+    "value": 382,
+    "sourceId": "toyota-2021-supra-release",
+    "note": "Quote: \"boosting output of the Supra's turbocharged 3.0-liter inline-six from 335 hp at 5,000-6,500 rpm to 382 hp at 5,800-6,500 rpm\". The launch 2020 model year was rated 335 hp; 382 hp applied from model year 2021 to the end (2023: \"the 3.0-liter 382-hp straight-six engine\", toyota-2023-supra-manual-on-sale; 2026: '382 horsepower and 368 lb.-ft. of torque', toyota-2026-supra-final-edition), so the reference year uses the 382 hp rating."
+  },
+  "weightLb": {
+    "value": 3389,
+    "sourceId": "toyota-2023-supra-manual-on-sale",
+    "note": "2023 model year with the six-speed manual. Quote: \"bringing the manual equipped Supra in at 3,389 pounds.\" Toyota's sentence does not call the figure curb weight or name the grade. The reference model year is 2023, the first with the manual; 382 hp has applied since 2021. The automatic is 3,400 lb (2021 3.0, 'Weight ... 3,400 lbs.' in the table of toyota-canada-2021-supra-release, which gives the figure in pounds); the 2020 launch release listed a preliminary 'Curb Weight 3,397 lbs.' (toyota-2020-supra-debut)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-2020-supra-debut",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Legend Returns: 2020 Toyota Supra Makes World Debut",
+      "url": "https://pressroom.toyota.com/legend-returns-2020-toyota-supra-makes-world-debut/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-2021-supra-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Toyota GR Supra Races Into 2021 with More Power and First-Ever Four-Cylinder Turbo Model",
+      "url": "https://pressroom.toyota.com/toyota-gr-supra-races-into-2021-with-more-power-and-first-ever-four-cylinder-turbo-model/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-2023-supra-manual-on-sale",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Power Shift: GR Supra Manual Transmission Now on Sale at US Toyota Dealerships (7 September 2022)",
+      "url": "https://pressroom.toyota.com/power-shift-gr-supra-manual-transmission-now-on-sale-at-us-toyota-dealerships/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-2026-supra-final-edition",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Take One Last Lap in the Toyota GR Supra MkV Final Edition (3 April 2025)",
+      "url": "https://pressroom.toyota.com/take-one-last-lap-in-the-toyota-gr-supra-mkv-final-edition/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-canada-2021-supra-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Canada",
+      "title": "Toyota GR Supra Races Into 2021 with More Power and First-Ever Four-Cylinder Turbo Model",
+      "url": "https://media.toyota.ca/releases/toyota-gr-supra-races-into-2021-with-more-power-and-first-ever-four-cylinder-turbo-model",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-gb-supra-tech-specs",
+      "type": "manufacturer",
+      "publisher": "Toyota (GB)",
+      "title": "GR Supra Technical Specifications (29 April 2024)",
+      "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240429-GR-Supra-Tech-Specs.pdf",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3389,
+          "sourceId": "toyota-2023-supra-manual-on-sale"
+        },
+        {
+          "value": 3400,
+          "sourceId": "toyota-canada-2021-supra-release"
+        },
+        {
+          "value": 3397,
+          "sourceId": "toyota-2020-supra-debut"
+        }
+      ],
+      "reason": "Transmission and model year. 3,389 lb is the 2023 manual car; 3,400 lb is the 2021 automatic; 3,397 lb is the preliminary figure for the 2020 automatic.",
+      "resolution": "Used 3,389 lb: the standard car is the manual where one was offered, and the reference model year is 2023."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

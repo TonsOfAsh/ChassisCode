@@ -63,18 +63,18 @@
     "note": "Tremec TR-6060 manual standard, TorqueFlite 8HP90 automatic optional. Dodge's 2022 and 2023 spec sheets still list the manual as standard, but The Drive reports it was withdrawn from 2021 while the powertrain calibration was revised and returned for the final 2023 model year (https://www.thedrive.com/news/2023-dodge-challenger-srt-hellcat-gets-its-manual-back-finally)."
   },
   "powerHp": {
-    "value": 707,
-    "sourceId": "dodge-challenger-srt-specs-2015",
-    "note": "707 bhp (527 kW) @ 6,000 rpm for model years 2015-2018. From model year 2019 the rating rose to 717 hp and 656 lb-ft with no change of name (source dodge-challenger-factsheet-2019)."
+    "value": 717,
+    "sourceId": "dodge-challenger-specs-2023",
+    "note": "Rating for model years 2019-2023, five of the car's nine model years. Quote (Dodge 2023 specifications): \"Power (SAE net) 717 bhp (535 kW) @ 6,000 rpm\", \"Availability Standard — SRT Hellcat\". Dodge's 2019 fact sheet: \"Challenger SRT Hellcat boasts a new rating of 717 horsepower and 656 lb.-ft. of torque\" (source dodge-challenger-factsheet-2019). For model years 2015-2018 the rating was 707 bhp (527 kW) @ 6,000 rpm (source dodge-challenger-srt-specs-2015)."
   },
   "weightLb": {
-    "value": 4449,
-    "sourceId": "dodge-challenger-srt-specs-2015",
-    "note": "2015 with the standard six-speed manual. The optional automatic is 4,439 lb. Dodge's 2023 spec sheet lists 4,415 lb manual and 4,422 lb automatic."
+    "value": 4415,
+    "sourceId": "dodge-challenger-specs-2023",
+    "note": "2023 model, standard body with the six-speed manual. Quote (Dodge 2023 specifications): \"4,415 (2,002) — SRT Hellcat (manual)\"; \"4,422 (2,005) — SRT Hellcat (automatic)\". The Widebody is 4,446 lb. The 2015 car was 4,449 lb with the manual and 4,439 lb with the automatic (source dodge-challenger-srt-specs-2015)."
   },
   "specBasis": {
     "market": "US",
-    "referenceModelYear": 2015,
+    "referenceModelYear": 2023,
     "powerStandard": "SAE net",
     "weightType": "curb",
     "yearType": "model"

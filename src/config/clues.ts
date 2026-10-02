@@ -1,5 +1,5 @@
 import type { Mode } from '../lib/game-types';
-import type { Vehicle } from '../lib/schema';
+import { yearRangeText, type Vehicle } from '../lib/schema';
 
 /**
  * Clue definitions, difficulty tiers and clue order.
@@ -8,6 +8,10 @@ import type { Vehicle } from '../lib/schema';
  * player. A game's mode decides which tier is revealed first; within a tier
  * the order is random, except that country always comes before manufacturer.
  * Model is always second to last and generation last.
+ *
+ * One exception: when the answer has a near-twin in the database (same
+ * manufacturer and model, told apart by a single clue), that clue is brought
+ * forward. See `priorityClues`.
  */
 
 export type ClueId =
@@ -33,11 +37,7 @@ export interface ClueDefinition {
 
 const LB_PER_KG = 2.20462;
 
-const yearRange = (v: Vehicle) => {
-  const { startYear, endYear } = v.production.value;
-  if (endYear === null) return `${startYear}–present`;
-  return startYear === endYear ? `${startYear}` : `${startYear}–${endYear}`;
-};
+const yearRange = (v: Vehicle) => yearRangeText(v.production.value);
 
 export const CLUES: Record<ClueId, ClueDefinition> = {
   country: { label: 'Country', format: (v) => v.country },
@@ -115,17 +115,58 @@ function shuffle<T>(items: T[], random: () => number): T[] {
   return items;
 }
 
+const TIERED_CLUES: readonly ClueId[] = [...CLUE_TIERS.easy, ...CLUE_TIERS.medium, ...CLUE_TIERS.hard];
+
+/**
+ * The clues that should be revealed early when `vehicle` is the answer.
+ *
+ * Some cars have a near-twin: another record with the same manufacturer and
+ * model whose clues differ in just one place (the three R35 GT-R year ranges
+ * differ only in power). A player who has worked out the model would otherwise
+ * have to guess between the twins until that one clue happened to come up.
+ *
+ * Weight is ignored when counting differences, because it nearly always
+ * differs and few players know it. It is used only when it is the sole
+ * difference. Cars told apart by two or more other clues get no priority.
+ */
+export function priorityClues(vehicle: Vehicle, all: readonly Vehicle[]): ClueId[] {
+  const found = new Set<ClueId>();
+  for (const other of all) {
+    if (other.id === vehicle.id || other.manufacturer !== vehicle.manufacturer || other.model !== vehicle.model) continue;
+    const differing = TIERED_CLUES.filter((id) => CLUES[id].format(other) !== CLUES[id].format(vehicle));
+    const useful = differing.filter((id) => id !== 'weight');
+    if (useful.length === 1) found.add(useful[0]!);
+    else if (useful.length === 0 && differing.length === 1) found.add('weight');
+  }
+  return TIERED_CLUES.filter((id) => found.has(id));
+}
+
 /**
  * The clue order for one game in the given mode.
  * `random` returns a number in [0, 1), like Math.random.
+ *
+ * `priority` (from `priorityClues`) is brought forward: in Easy mode to just
+ * after the easy clues, in the other modes to the first or second clue.
  */
-export function drawClueOrder(mode: Mode, random: () => number = Math.random): ClueId[] {
-  const tiered = MODE_GROUPS[mode].flatMap((group) =>
+export function drawClueOrder(mode: Mode, random: () => number = Math.random, priority: readonly ClueId[] = []): ClueId[] {
+  let tiered = MODE_GROUPS[mode].flatMap((group) =>
     shuffle<ClueId>(
       group.flatMap((tier) => [...CLUE_TIERS[tier]]),
       random,
     ),
   );
+  const easy: readonly ClueId[] = CLUE_TIERS.easy;
+  // In Easy mode an easy clue is already among the first three, so it stays put.
+  const early = shuffle(
+    priority.filter((id) => tiered.includes(id) && !(mode === 'easy' && easy.includes(id))),
+    random,
+  );
+  if (early.length > 0) {
+    tiered = tiered.filter((id) => !early.includes(id));
+    // Easy: straight after the easy clues. Otherwise first or second (the first places, if several).
+    const at = mode === 'easy' ? easy.length : early.length === 1 ? Math.floor(random() * 2) : 0;
+    tiered.splice(at, 0, ...early);
+  }
   // Enforce the ordering rules by swapping any pair that came out the wrong way round.
   for (const [first, second] of BEFORE_RULES) {
     const a = tiered.indexOf(first);

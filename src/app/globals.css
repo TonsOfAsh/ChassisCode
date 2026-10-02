@@ -537,6 +537,21 @@ input {
   font-variant-numeric: tabular-nums;
 }
 
+/* Shown beside the Play button; hidden on touch screens, which have no Enter key to hand. */
+.key-hint {
+  margin-left: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+@media (pointer: coarse) {
+  .key-hint {
+    display: none;
+  }
+}
+.button:focus-visible {
+  outline-offset: 3px;
+}
+
 /* ---- Guess list ---------------------------------------------------------- */
 
 .turns-heading {

@@ -52,7 +52,8 @@ Rules for the ambiguous cases:
 ## Field rules
 
 **Identity.** `displayName` is always `Manufacturer Model [Variant] [Sub-variant] (Generation)`,
-with the parenthesis omitted when generation is null. The validator checks this.
+with the parenthesis omitted when generation is null, and the years added inside it for a
+year-split record. The validator checks this.
 `aliases` holds nicknames, engine codes and brand transmission names people might search for
 ("PDK", "Miata", "Godzilla"). `country` is the brand's home country, not where the car was built.
 
@@ -60,9 +61,22 @@ with the parenthesis omitted when generation is null. The validator checks this.
 
 - `market`: US when the car was sold in the US. Otherwise its home market.
 - `yearType`: `model` for US-market records, `calendar` otherwise. See Production below.
-- `referenceModelYear`: the model year the numbers apply to. Use the launch model year, unless the
-  rating changed after the first year and stayed there for most of the run (C5 Z06: 385 hp for 2001,
-  405 hp for 2002 to 2004, so the reference year is 2002). Say so in the power note.
+- `referenceModelYear`: the model year the numbers apply to. Power and weight must both be true of
+  that year.
+  - Use the launch model year, unless a later rating covered more than half of the model years
+    (C5 Z06: 385 hp for 2001, 405 hp for 2002 to 2004, so the record uses 405 hp). Describe the
+    other ratings in the power note.
+  - Within the years that rating applied, use the earliest year for which a qualifying weight
+    exists. Manufacturers often publish only an estimate, or nothing, for the launch year (C6 ZR1:
+    estimate for 2009, final figure in the 2010 table, so the reference year is 2010).
+  - If the rating changed so much that no single figure describes the car (R35 GT-R: 480 hp in
+    2009, 565 hp from 2017), split it into records by year range.
+    Each of those records sets `yearSplit` to true, keeps the same model, generation and variant,
+    and gives its own year range in `production`. The years then appear in the name, "Nissan GT-R
+    (R35, 2012–2016)", and the file id ends with them (`nissan-gt-r-r35-2012-2016`). Add each
+    model year to the aliases ("2014 GT-R") so the car can be found by year. Apply the reference
+    year rule within each range. Ranges must not overlap; a range with no qualifying figures is
+    held back on its own.
 - `powerStandard`: how the manufacturer stated power (SAE net, DIN PS, JIS PS).
 - `weightType`: curb or dry.
 
@@ -78,7 +92,8 @@ Never mix markets within one record. If power is a US figure, weight is a US fig
 
 **Body.** A list of every body style the variant was sold in, in the market named in `specBasis`
 (E36 M3 in the US: coupe, sedan and convertible). A body style sold under its own name is a
-separate record instead (Spider, Targa, Speedster).
+separate record instead (Spider or Spyder, Targa, Speedster, and Roadster where the maker sells it
+as its own model, as with the AMG GT R Roadster). A Cabriolet or Convertible version is not separate.
 
 - `Roadster`: a two-seat open car that has no fixed-roof version of the same variant (S2000, MX-5,
   Elise, 918 Spyder).

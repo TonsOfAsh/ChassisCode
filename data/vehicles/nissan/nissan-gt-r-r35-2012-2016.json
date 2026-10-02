@@ -1,0 +1,164 @@
+{
+  "id": "nissan-gt-r-r35-2012-2016",
+  "manufacturer": "Nissan",
+  "model": "GT-R",
+  "generation": "R35",
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Nissan GT-R (R35, 2012–2016)",
+  "aliases": [
+    "R35 GT-R",
+    "R35",
+    "GTR",
+    "Nissan GTR",
+    "Godzilla",
+    "VR38DETT",
+    "GT-R Premium",
+    "GT-R Black Edition",
+    "DBA-R35",
+    "2012 GT-R",
+    "2013 GT-R",
+    "2014 GT-R",
+    "2015 GT-R",
+    "2016 GT-R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2016
+    },
+    "sourceId": "nissan-us-2012-gt-r-press-kit",
+    "note": "US model years. The R35 GT-R is split into records by year range because its US power rating changed too much for one figure (480 hp in 2009, 565 hp from 2017). This record starts with the 2012 update, when Nissan's 2012 press kit says the engine \"now produces 530 horsepower (versus the previous 485 horsepower)\", and ends with the 2016 model year (nissan-us-2016-gt-r-press-kit), the last before the 2017 restyle and 565 hp rating (nissan-us-2017-gt-r-press-kit)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-us-2013-gt-r-press-kit",
+    "note": "Inferred from Nissan's description: a two-door car with 'Capacity | 4 passengers'. The kit does not use the word coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2013-gt-r-press-kit",
+      "note": "'Designation | VR38DETT'; 'Cylinders / configuration | V6'"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "nissan-us-2013-gt-r-press-kit",
+      "note": "Nissan's US table gives litres only: 'Displacement (liters) | 3.8'. Nissan's US heritage page for a Japanese-market pre-production car gives '3796 cc' (nissan-us-heritage-2008-gt-r), which also rounds to 3.8."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-us-2013-gt-r-press-kit",
+      "note": "'Turbocharger | Twin IHI system'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2013-gt-r-press-kit",
+    "note": "'Recommended fuel | Premium unleaded'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "nissan-us-2013-gt-r-press-kit",
+    "note": "'Drive configuration | Mid-mounted front engine / rear transaxle ATTESA E-TS all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed DCT"
+    ],
+    "sourceId": "nissan-us-2013-gt-r-press-kit",
+    "note": "'Transmission | Dual clutch sequential 6-speed rear transaxle, magnesium paddle shifters'. The only transmission; the 2012, 2014 and 2016 kits describe the same gearbox."
+  },
+  "powerHp": {
+    "value": 545,
+    "sourceId": "nissan-us-2013-gt-r-press-kit",
+    "note": "GT-R Premium, 2013 model year. Quotes: \"545 horsepower @ 6,400 RPM\" and \"horsepower is rated at 545 hp, an increase of 15 hp over the 2012 GT-R's 530 hp\". The 2012 model year alone was rated 530 hp: \"now produces 530 horsepower (versus the previous 485 horsepower)\" (nissan-us-2012-gt-r-press-kit). 545 hp then applied from 2013 to 2016, four of this record's five model years, so it is the figure used: 2014 \"545 horsepower @ 6,400 rpm\" (nissan-us-2014-gt-r-press-kit); 2016 \"545 horsepower @ 6,400 rpm\" (nissan-us-2016-gt-r-press-kit). The 2009 to 2011 cars (480 and 485 hp) and the 2017 to 2024 cars (565 hp) are separate records, as is the Nismo."
+  },
+  "weightLb": {
+    "value": 3829,
+    "sourceId": "nissan-us-2013-gt-r-press-kit",
+    "note": "GT-R Premium (the standard car), 6-speed dual-clutch, 2013 model year. Quote: \"Curb weight kilograms (pounds) | 1,737 (3,829)\". The 2012 kit gives the same figure (\"Curb weight (pounds) 3,829\") and the 2014 kit gives Premium \"Front 2,101 Rear 1,728 Total 3,829\" (Black Edition 3,818, Track Edition 3,796)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2013-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2013 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2013-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2012-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2012 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/release-8d819b8bfca040239270570ba854da79-US-2012-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2014-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2014 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/release-6c0b23219307421aadab564e2adacf86",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2016-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2016 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2016-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2017-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2017 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2017-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-heritage-2008-gt-r",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2008 Nissan GT-R (R35) (heritage collection page)",
+      "url": "https://usa.nissannews.com/en-US/releases/2008-nissan-gt-r-r35",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 545,
+          "sourceId": "nissan-us-2013-gt-r-press-kit"
+        },
+        {
+          "value": 530,
+          "sourceId": "nissan-us-2012-gt-r-press-kit"
+        }
+      ],
+      "reason": "Model year. Nissan rated the 2012 car at 530 hp and the 2013 to 2016 cars at 545 hp.",
+      "resolution": "Used 545 hp: it applied to four of the five model years this record covers, and the reference model year is 2013."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

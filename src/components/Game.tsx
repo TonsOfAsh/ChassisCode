@@ -99,10 +99,40 @@ export function Game({ cars }: { cars: CarOption[] }) {
 
   const result = game?.result;
 
+  // When a round is over, Enter starts the next one. The Play button takes
+  // focus (not on touch screens), and Enter also works from anywhere on the
+  // page except another control, where it keeps its normal meaning.
+  const playAgainRef = useRef<HTMLButtonElement>(null);
+  /** Enter is ignored until this time, so the Enter that made the last guess cannot also start a round. */
+  const enterReadyAt = useRef(0);
+  const over = !!result;
+  useEffect(() => {
+    if (!over) return;
+    enterReadyAt.current = Date.now() + 400;
+    if (!window.matchMedia('(pointer: coarse)').matches) playAgainRef.current?.focus();
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key !== 'Enter' || e.defaultPrevented) return;
+      if (e.repeat || Date.now() < enterReadyAt.current) {
+        e.preventDefault(); // also stops a focused button from firing
+        return;
+      }
+      const target = e.target as HTMLElement | null;
+      if (target === playAgainRef.current) return; // the button handles its own Enter
+      if (target?.closest('button, a, input, select, textarea, label')) return;
+      e.preventDefault();
+      void start(mode);
+    }
+    // Capture phase, so the guard above runs before a focused button reacts.
+    document.addEventListener('keydown', onKeyDown, true);
+    return () => document.removeEventListener('keydown', onKeyDown, true);
+  }, [over, mode, start]);
+
   function compare(carId: string) {
     setCompareId(carId);
     // On a phone the plate is above the guess list; bring it back into view.
     document.querySelector('.plate')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    // Hand the keyboard back to the Play button so Enter still starts the next round.
+    if (!window.matchMedia('(pointer: coarse)').matches) playAgainRef.current?.focus({ preventScroll: true });
   }
 
   const playing = game?.status === 'playing';
@@ -195,9 +225,16 @@ export function Game({ cars }: { cars: CarOption[] }) {
                   <dd>{formatTime(result.elapsedMs)}</dd>
                 </div>
               </dl>
-              <button type="button" className="button" disabled={busy} onClick={() => void start(mode)}>
+              <button
+                ref={playAgainRef}
+                type="button"
+                className="button"
+                disabled={busy}
+                onClick={() => void start(mode)}
+              >
                 Play another car
               </button>
+              <span className="key-hint">or press Enter</span>
             </section>
           )}
 

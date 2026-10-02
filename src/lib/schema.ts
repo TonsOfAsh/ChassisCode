@@ -83,6 +83,12 @@ export const VehicleSchema = z
     generation: z.string().min(1).nullable(),
     variant: z.string().min(1).nullable(),
     subVariant: z.string().min(1).nullable(),
+    /**
+     * True when one car is split into several records by year range because its
+     * rating changed too much for one figure (R35 GT-R). The years then become
+     * part of the display name: "Nissan GT-R (R35, 2012–2016)".
+     */
+    yearSplit: z.boolean().optional(),
     displayName: z.string().min(1),
     /** Extra search terms: nicknames, brand transmission names, engine codes. */
     aliases: z.array(z.string().min(1)),
@@ -154,8 +160,18 @@ export const SOURCED_FIELDS = [
   'weightLb',
 ] as const;
 
+/** "2012–2016", "2020–present", or a single year. */
+export function yearRangeText(production: { startYear: number; endYear: number | null }): string {
+  const { startYear, endYear } = production;
+  if (endYear === null) return `${startYear}–present`;
+  return startYear === endYear ? `${startYear}` : `${startYear}–${endYear}`;
+}
+
 /** The name a record should have, derived from its identity fields. */
-export function expectedDisplayName(v: Pick<Vehicle, 'manufacturer' | 'model' | 'generation' | 'variant' | 'subVariant'>): string {
+export function expectedDisplayName(
+  v: Pick<Vehicle, 'manufacturer' | 'model' | 'generation' | 'variant' | 'subVariant' | 'yearSplit' | 'production'>,
+): string {
   const parts = [v.manufacturer, v.model, v.variant, v.subVariant].filter(Boolean).join(' ');
-  return v.generation ? `${parts} (${v.generation})` : parts;
+  const detail = [v.generation, v.yearSplit ? yearRangeText(v.production.value) : null].filter(Boolean).join(', ');
+  return detail ? `${parts} (${detail})` : parts;
 }

@@ -1,0 +1,116 @@
+{
+  "id": "honda-civic-type-r-fl5",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "FL5",
+  "variant": "Type R",
+  "subVariant": null,
+  "displayName": "Honda Civic Type R (FL5)",
+  "aliases": [
+    "FL5",
+    "FL5 Type R",
+    "Civic Type R FL5",
+    "CTR",
+    "K20C1",
+    "11th-gen Civic Type R",
+    "2023 Civic Type R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "honda-ctr-2023-kit",
+    "note": "US model years. First: Honda's press kit introduces \"the all-new 2023 Honda Civic Type R\". Still on sale: American Honda's consumer site showed the \"2026 CIVIC TYPE R\" with a price and build link on 2026-10-01 (honda-us-ctr-current)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "honda-ctr-2023-kit",
+    "note": "'Based on the all-new 11th generation Civic Hatchback'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-ctr-2023-specs",
+      "note": "'In-Line 4-Cylinder with Turbocharger'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "honda-ctr-2023-specs",
+      "note": "1,996 cc ('Displacement | 1,996 cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "honda-ctr-2023-specs",
+      "note": "'In-Line 4-Cylinder with Turbocharger'; single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-ctr-2023-specs",
+    "note": "Unleaded gasoline, premium recommended"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "honda-ctr-2023-kit",
+    "note": "Front-wheel drive with helical limited-slip differential"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-ctr-2023-specs",
+    "note": "'6-Speed Manual Transmission (6MT) with Rev-Match Control'; no other transmission is offered."
+  },
+  "powerHp": {
+    "value": 315,
+    "sourceId": "honda-ctr-2023-specs",
+    "note": "Quote: \"Horsepower (SAE net) | 315 @ 6,500 rpm\". Press kit (honda-ctr-2023-kit): \"315 hp (SAE net @ 6,500 rpm)\". Honda's consumer site still quotes 315 hp for the 2026 model."
+  },
+  "weightLb": {
+    "value": 3188,
+    "sourceId": "honda-ctr-2023-specs",
+    "note": "Single US trim, 6-speed manual, 2023 model. Quote: \"Curb Weight | 3,188\" (lb)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "honda-ctr-2023-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2023 Honda Civic Type R - Specifications & Features",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/2023-honda-civic-type-r-specifications-features",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-ctr-2023-kit",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2023 Civic Type R Press Kit - Overview",
+      "url": "https://hondanews.com/en-US/releases/release-907c81858bdfe231c1cc3d0f70179fdc-2023-honda-civic-type-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-us-ctr-current",
+      "type": "manufacturer",
+      "publisher": "American Honda (automobiles.honda.com)",
+      "title": "2026 Civic Type R",
+      "url": "https://automobiles.honda.com/civic-type-r",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

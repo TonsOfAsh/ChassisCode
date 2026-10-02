@@ -1,5 +1,5 @@
 import 'server-only';
-import { CLUES, drawClueOrder, isValidClueOrder, type ClueId } from '@/config/clues';
+import { CLUES, drawClueOrder, isValidClueOrder, priorityClues, type ClueId } from '@/config/clues';
 import { isMode, type Clue, type GameView, type Mode, type Turn } from '../game-types';
 import type { Vehicle } from '../schema';
 import { open, seal } from './token';
@@ -71,7 +71,8 @@ export function newGame(mode: Mode, exclude: string[] = []): GameView {
   const candidates = pool.length > 0 ? pool : VEHICLES;
   const vehicle = candidates[Math.floor(Math.random() * candidates.length)];
   if (!vehicle) throw new GameError('The vehicle database is empty.');
-  return view({ v: vehicle.id, m: mode, o: drawClueOrder(mode), n: 1, g: [], t: Date.now() }, 'playing');
+  const order = drawClueOrder(mode, Math.random, priorityClues(vehicle, VEHICLES));
+  return view({ v: vehicle.id, m: mode, o: order, n: 1, g: [], t: Date.now() }, 'playing');
 }
 
 /**

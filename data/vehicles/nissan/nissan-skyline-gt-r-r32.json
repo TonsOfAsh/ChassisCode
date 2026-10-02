@@ -1,0 +1,107 @@
+{
+  "id": "nissan-skyline-gt-r-r32",
+  "manufacturer": "Nissan",
+  "model": "Skyline",
+  "generation": "R32",
+  "variant": "GT-R",
+  "subVariant": null,
+  "displayName": "Nissan Skyline GT-R (R32)",
+  "aliases": [
+    "R32 GT-R",
+    "BNR32",
+    "Godzilla",
+    "RB26DETT",
+    "Skyline GTR",
+    "R32 Skyline"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1989,
+      "endYear": 1994
+    },
+    "sourceId": "nissan-heritage-skyline-gt-r-1989",
+    "note": "Calendar build years. Start: Nissan says \"The eighth generation Skyline R32 was rolled out in May 1989. Three months later, the 'GT-R' was brought back after the 16-year absence.\" End: Supercar Nostalgia (Ben Tyer) says the car was built \"from August 1989 to November 1994 by which time a total of 43,937 cars had been completed\" (supercar-nostalgia-r32-gt-r); no Nissan page stating the end date was opened. Never sold new in the US."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "supercar-nostalgia-r32-gt-r",
+    "note": "'Each R32 GT-R was based around a two-door E-BNR32 unitary steel chassis.'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "nissan-heritage-skyline-gt-r-1989",
+      "note": "'RB26DETT (6-cyl. in line, DOHC)'"
+    },
+    "displacementL": {
+      "value": 2.6,
+      "sourceId": "nissan-heritage-skyline-gt-r-1989",
+      "note": "2,568 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-heritage-skyline-gt-r-1989",
+      "note": "'2.6-liter inline 6-cylinder DOHC twin turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-heritage-skyline-gt-r-1989",
+    "note": "Inferred: petrol RB26DETT engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "nissan-heritage-skyline-gt-r-1989",
+    "note": "ATTESA E-TS, 'the electronically controlled torque split 4WD'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "nissan-heritage-skyline-gt-r-1989",
+    "note": "'5-speed, floor shift'"
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "nissan-heritage-skyline-gt-r-1989",
+    "note": "Quote: \"Engine Max. power 206kW (280PS)/6,800rpm\". 280 PS x 0.98632 = 276.2, rounded to 276 hp. The standard GT-R; the rating was the same for the whole run."
+  },
+  "weightLb": {
+    "value": 3153,
+    "sourceId": "nissan-heritage-skyline-gt-r-1989",
+    "note": "Standard GT-R, 5-speed manual, 1989. Quote: \"Curb weight 1,430kg\". 1,430 kg x 2.20462 = 3,152.6, rounded to 3,153 lb. Supercar Nostalgia gives the same 1430kg."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1989,
+    "powerStandard": "JIS PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "nissan-heritage-skyline-gt-r-1989",
+      "type": "manufacturer",
+      "publisher": "Nissan Motor Co. (Nissan Heritage Collection)",
+      "title": "Skyline GT-R (1989: BNR32)",
+      "url": "https://www.nissan-global.com/EN/HERITAGE/skyline_gt-r_1989.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "supercar-nostalgia-r32-gt-r",
+      "type": "publication",
+      "publisher": "Supercar Nostalgia",
+      "title": "Guide: Nissan R32 Skyline GT-R - a Historical & Technical Appraisal",
+      "url": "https://supercarnostalgia.com/blog/nissan-r32-skyline-gtr",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

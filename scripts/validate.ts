@@ -183,10 +183,25 @@ for (const [id, group] of groupBy(vehicles, (x) => x.v.id))
 for (const [, group] of groupBy(vehicles, (x) => loose(x.v.displayName)))
   if (group.length > 1) error(names(group), `"${group[0]!.v.displayName}" appears ${group.length} times.`);
 
+// Records with the same identity are allowed only as a year split, with ranges that do not overlap.
 for (const [, group] of groupBy(vehicles, (x) =>
   [x.v.manufacturer, x.v.model, x.v.generation, x.v.variant, x.v.subVariant].map((p) => loose(p ?? '')).join('|'),
-))
-  if (group.length > 1) error(names(group), 'Duplicate vehicle identity (same manufacturer, model, generation, variant and sub-variant).');
+)) {
+  if (group.length < 2) continue;
+  if (!group.every((g) => g.v.yearSplit)) {
+    error(
+      names(group),
+      'Duplicate vehicle identity (same manufacturer, model, generation, variant and sub-variant). If this is a split by year range, set yearSplit on every record.',
+    );
+    continue;
+  }
+  const ranges = group
+    .map((g) => ({ g, from: g.v.production.value.startYear, to: g.v.production.value.endYear ?? 9999 }))
+    .sort((a, b) => a.from - b.from);
+  for (let i = 1; i < ranges.length; i++)
+    if (ranges[i]!.from <= ranges[i - 1]!.to)
+      error(names([ranges[i - 1]!.g, ranges[i]!.g]), 'Year-split records have overlapping year ranges.');
+}
 
 // Same term written two different ways
 for (const field of ['manufacturer', 'model', 'generation', 'variant', 'subVariant'] as const) {

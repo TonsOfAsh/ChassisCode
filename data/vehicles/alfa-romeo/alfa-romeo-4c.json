@@ -1,0 +1,115 @@
+{
+  "id": "alfa-romeo-4c",
+  "manufacturer": "Alfa Romeo",
+  "model": "4C",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Alfa Romeo 4C",
+  "aliases": [
+    "4C Coupe",
+    "Alfa 4C",
+    "4C Launch Edition",
+    "TCT",
+    "Alfa TCT",
+    "2015 Alfa Romeo 4C"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2018
+    },
+    "sourceId": "alfa-us-4c-specs-2015",
+    "note": "US model years of the coupe. First: Alfa Romeo's US specification sheet is for the '2015 Alfa Romeo 4C and 4C Spider' ('Introduction Date 4C: Q4 2014'). Last: Alfa Romeo's statement to The Drive (thedrive-4c-coupe-2018): \"While the 4C Coupe is no longer in production for North American market, it remains in production for all other markets, and remains available for sale in North America while supplies last as a 2018MY vehicle.\" The 4C Spider, sold under its own name, continued to the 2020 model year (alfa-us-4c-spider-italia-2019) and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "thedrive-4c-coupe-2018",
+    "note": "Alfa Romeo calls the fixed-roof car the '4C Coupe'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "alfa-us-4c-specs-2015",
+      "note": "'Inline 4-cylinder, liquid-cooled with turbocharger, intercooler and wet sump'"
+    },
+    "displacementL": {
+      "value": 1.7,
+      "sourceId": "alfa-us-4c-specs-2015",
+      "note": "1,742 cc ('Displacement, cc (cu.in.) 1,742 (106.3)'). Alfa Romeo markets the engine as the '1750'."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "alfa-us-4c-specs-2015",
+      "note": "Single turbocharger: 'with turbocharger, intercooler and wet sump'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "alfa-us-4c-specs-2015",
+    "note": "'Unleaded premium - 91 Octane (R+M)/2'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "alfa-us-4c-specs-2015",
+    "note": "'Transverse-mounted mid-engine, rear-wheel drive (RWD)'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed DCT"
+    ],
+    "sourceId": "alfa-us-4c-specs-2015",
+    "note": "'Alfa TCT (Twin-Clutch Transmission)' with six forward ratios ('3rd, 4th, 5th and 6th gear: single cone'); no manual was offered."
+  },
+  "powerHp": {
+    "value": 237,
+    "sourceId": "alfa-us-4c-specs-2015",
+    "note": "Quote: \"Power (SAE net) 237 hp (177 kW) @ 6,000 rpm (136 bhp/liter)\"."
+  },
+  "weightLb": {
+    "value": 2465,
+    "sourceId": "alfa-us-4c-specs-2015",
+    "note": "Coupe, 2015 US model (TCT is the only transmission). Quote: \"Curb Weight, lb. (kg) 2,465 (1,118) – 4C / 2,487 (1,128) – 4C Spider\"."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "alfa-us-4c-specs-2015",
+      "type": "manufacturer",
+      "publisher": "Alfa Romeo USA / FCA US (alfaromeousa.com)",
+      "title": "Specifications: 2015 Alfa Romeo 4C and 4C Spider",
+      "url": "https://www.alfaromeousa.com/content/dam/alfausa/pdf/techsheet/usa/4ccoupe/2015_AR_4C_4CSpider_SP.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-4c-coupe-2018",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "The Alfa Romeo 4C Coupe is Dead in North America",
+      "url": "https://thedrive.com/news/21824/the-alfa-romeo-4c-coupe-is-dead-in-north-america",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "alfa-us-4c-spider-italia-2019",
+      "type": "manufacturer",
+      "publisher": "FCA US (media.stellantisnorthamerica.com)",
+      "title": "Limited-edition 2020 Alfa Romeo 4C Spider Italia Unveiled for North America at Chicago Auto Show",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=20624",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

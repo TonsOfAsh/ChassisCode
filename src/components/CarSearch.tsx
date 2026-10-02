@@ -30,10 +30,11 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
     const mini = new MiniSearch<CarOption & { aliasText: string }>({
       fields: ['name', 'aliasText'],
       storeFields: ['id'],
-      // Typos are forgiven in words but not in codes: "e92" must not match "992".
+      // Typos are forgiven in longer words only. Codes and short names must match
+      // as typed: "e92" must not find "992", nor "amg" find "SMG", nor "sti" find "GTI".
       searchOptions: {
         prefix: true,
-        fuzzy: (term) => (/\d/.test(term) ? false : 0.2),
+        fuzzy: (term) => (term.length < 5 || /\d/.test(term) ? false : 0.2),
         combineWith: 'AND',
         boost: { name: 2 },
       },

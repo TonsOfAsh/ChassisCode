@@ -1,0 +1,135 @@
+{
+  "id": "toyota-gr-corolla",
+  "manufacturer": "Toyota",
+  "model": "GR Corolla",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Toyota GR Corolla",
+  "aliases": [
+    "GR Corolla",
+    "GRC",
+    "Corolla GR",
+    "G16E-GTS",
+    "GR-FOUR",
+    "iMT",
+    "Direct Automatic Transmission",
+    "DAT",
+    "2023 GR Corolla"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "toyota-us-2022-gr-corolla-release",
+    "note": "US model years. First: 'The first-ever 2023 GR Corolla' (release of 14 September 2022). Still on sale: Toyota's US newsroom has a 2026 model-year release, 'Conquer Every Corner in the 2026 Toyota GR Corolla' (toyota-us-2025-gr-corolla-2026-release), and toyota.com lists the GR Corolla as a current model (toyota-us-gr-corolla-page; the page read on the access date was headed '2025 GR Corolla')."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "toyota-us-2022-gr-corolla-release",
+    "note": "'this hot hatch'; 'The broad hatchback design of GR Corolla'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I3",
+      "sourceId": "toyota-us-2022-gr-corolla-release",
+      "note": "'G16E-GTS turbocharged, three-cylinder engine'; the debut release calls it a '1.6L, 3-cylinder direct/port injected turbo engine' (toyota-us-2022-gr-corolla-debut)"
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "toyota-us-2022-gr-corolla-release",
+      "note": "1,618 cc ('Displacing 1,618 cubic centimeters')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "toyota-us-2022-gr-corolla-release",
+      "note": "Single turbocharger: 'G16E-GTS turbocharged, three-cylinder engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-us-2022-gr-corolla-release",
+    "note": "Inferred from the release's description of the turbocharged direct/port-injected petrol engine; no hybrid system is mentioned."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "toyota-us-2022-gr-corolla-release",
+    "note": "'Toyota's GR-FOUR All-Wheel-Drive (AWD) drivetrain'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "toyota-us-2024-gr-corolla-2025-release",
+    "note": "2023 and 2024: manual only ('Exclusively available with an intelligent Manual Transmission (iMT)', toyota-us-2022-gr-corolla-release; '6-speed' per toyota-us-2022-gr-corolla-debut). From model year 2025 an automatic was added: 'The GR Corolla line up is expanding for model year 2025 with the addition of the of the available 8-speed GAZOO Racing Direct Automatic Transmission (DAT) with paddle shifters.' The 2026 release lists 'eight-speed GAZOO Racing Direct Automatic Transmission (DAT) or a six-speed Intelligent Manual Transmission (iMT)' (toyota-us-2025-gr-corolla-2026-release)."
+  },
+  "powerHp": {
+    "value": 300,
+    "sourceId": "toyota-us-2022-gr-corolla-release",
+    "note": "Quote: \"The Core grade and Circuit Edition push out 300 hp and 273 lb.-ft. of torque, while the MORIZO Edition hits 295 lb.-ft.\" Also: \"Displacing 1,618 cubic centimeters, it produces a maximum power of 300 hp and 273 lb-ft. of torque on the Core grade and Circuit Edition and 295 pound-feet of torque in the MORIZO Edition model.\" Power has stayed at 300 hp; torque rose for model year 2025: \"The high-power engine outputs 300 horsepower at 6,500 rpm and 295 lb.-ft. of torque, an increase in torque from the previous model year.\" (toyota-us-2024-gr-corolla-2025-release)."
+  },
+  "weightLb": {
+    "value": 3252,
+    "sourceId": "toyota-us-2022-gr-corolla-release",
+    "note": "2023 Core grade, 6-speed manual (the only transmission in 2023), without the optional front and rear limited-slip differentials. Quote: \"Curb weight for the Core grade comes in at 3,252 pounds (3,262 pounds when equipped with the dual LSD option), Circuit at 3,285 pounds, and MORIZO at 3,186 pounds.\" The two-seat MORIZO Edition figure is a different, lightened trim and is not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-us-2022-gr-corolla-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "First-Ever GR Corolla Rockets Out this Fall (press release, 14 September 2022)",
+      "url": "https://pressroom.toyota.com/first-ever-gr-corolla-rockets-out-this-fall/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2022-gr-corolla-debut",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "Heat for the Streets! Toyota Debuts First-Ever GR Corolla",
+      "url": "https://pressroom.toyota.com/heat-for-the-streets-toyota-debuts-first-ever-gr-corolla/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2024-gr-corolla-2025-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "Ready to Hit the Streets: The 2025 Toyota GR Corolla Adds New Direct Automatic Transmission Option and More (24 September 2024)",
+      "url": "https://pressroom.toyota.com/ready-to-hit-the-streets-the-2025-toyota-gr-corolla-adds-new-direct-automatic-transmission-option-and-more/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-2025-gr-corolla-2026-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "Conquer Every Corner in the 2026 Toyota GR Corolla (25 September 2025)",
+      "url": "https://pressroom.toyota.com/conquer-every-corner-in-the-2026-toyota-gr-corolla/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "toyota-us-gr-corolla-page",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Sales, U.S.A.",
+      "title": "Toyota GR Corolla (consumer model page)",
+      "url": "https://www.toyota.com/grcorolla/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

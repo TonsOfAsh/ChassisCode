@@ -1,0 +1,170 @@
+{
+  "id": "acura-nsx-na1",
+  "manufacturer": "Acura",
+  "model": "NSX",
+  "generation": "NA1",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Acura NSX (NA1)",
+  "aliases": [
+    "NA1",
+    "NA1 NSX",
+    "Original NSX",
+    "First-generation NSX",
+    "Honda NSX",
+    "C30A",
+    "1991 NSX",
+    "3.0 NSX"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1991,
+      "endYear": 1996
+    },
+    "sourceId": "acura-nsx-chronology",
+    "note": "US model years of the 3.0-litre fixed-roof car with the 270 hp manual rating. First: Acura's chronology lists 1991 as \"New model\". Last: for 1997 Acura says \"new 3.2-liter DOHC 24-valve V-6 engine produces 290 hp and 224 lbs-ft torque with 6-speed manual transmission (automatic-equipped models retain 3.0-liter combination)\"; the 1996 press kit (acura-nsx-1996-kit) still lists 'Coupe' curb weights with the 3.0-litre engine. The open-roof NSX-T (from 1995) is sold under its own name and is not part of this record. Automatic-equipped cars kept the 3.0-litre engine after 1996; the 1997 press kit (acura-nsx-1997-kit) says \"The SportShift automatic transmission-equipped NSX continues to utilize the potent 3.0-liter V-6\" (252 hp) but no opened Acura page says whether a fixed-roof automatic was still sold from 1997, so those years are not counted here."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "acura-nsx-1996-kit",
+    "note": "Acura's 1996 press kit lists the fixed-roof car as 'Coupe' beside the 'Open Top' NSX-T; the 1995 kit (acura-nsx-1995-kit) says \"the NSX is now available in hardtop or removable top models\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "acura-nsx-1991-specs",
+      "note": "'3.0 liter, DOHC, 24-valve, V6'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "acura-nsx-1991-specs",
+      "note": "2,977 cc ('181.6 cu. in. (2977 cc)')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "acura-nsx-1991-specs",
+      "note": "Inferred: 'Induction System: Programmed Fuel Injection (PGM-FI) with Variable Volume Induction System'; no turbocharger or supercharger is listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-nsx-1991-specs",
+    "note": "'Premium unleaded'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "acura-nsx-1991-specs",
+    "note": "'Transverse midship-engine/rear wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "acura-nsx-1991-specs",
+    "note": "'5-speed Manual'; '4-speed Automatic with electronically controlled lockup torque converter'. From 1995 the automatic gained SportShift manual control (acura-nsx-chronology)."
+  },
+  "powerHp": {
+    "value": 270,
+    "sourceId": "acura-nsx-1991-specs",
+    "note": "Manual car. Quote: \"270 hp @7100 RPM - 5-speed 252 hp @6600 RPM - Automatic\". The 4-speed automatic is rated 252 hp. Same ratings on Acura's 1992 and 1993 sheets (acura-nsx-1992-specs, acura-nsx-1993-specs)."
+  },
+  "weightLb": {
+    "value": 3010,
+    "sourceId": "acura-nsx-1991-specs",
+    "note": "Coupe with the 5-speed manual, 1991 model. Quote: \"3010lbs. (1365 kg) - 5-speed 3098lbs. (1405 kg)- Automatic\". Acura's 1992 sheet repeats 3,010 lb; the 1993 sheet gives 3,020 lb and the 1996 press kit 3,047 lb for the manual coupe."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1991,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-nsx-1991-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1991 Acura NSX Specifications",
+      "url": "https://acuranews.com/en-US/releases/1991-acura-nsx-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-nsx-1992-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1992 Acura NSX Specifications",
+      "url": "https://acuranews.com/en-US/releases/1992-acura-nsx-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-nsx-1993-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1993 Acura NSX - Specifications",
+      "url": "https://acuranews.com/en-US/releases/release-051b48cb4f8b5927c5bc5a004c34c115-1993-acura-nsx-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-nsx-chronology",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Model Chronology 1991-2005: NSX",
+      "url": "https://acuranews.com/en-US/releases/release-d7827a39293249330e8a1b004c34c076-acura-model-chronology-1991-2005-nsx",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-nsx-1995-kit",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1995 Acura NSX/NSX-T Press Kit",
+      "url": "https://acuranews.com/en-US/releases/1995-acura-nsx-nsx-t-introduction",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-nsx-1996-kit",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1996 Acura NSX/NSX-T Introduction Press Kit",
+      "url": "https://acuranews.com/en-US/releases/1996-acura-nsx-nsx-t-introduction",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-nsx-1997-kit",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1997 Acura NSX Press Kit",
+      "url": "https://acuranews.com/en-US/releases/1997-acura-nsx-engine",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3010,
+          "sourceId": "acura-nsx-1991-specs"
+        },
+        {
+          "value": 3020,
+          "sourceId": "acura-nsx-1993-specs"
+        },
+        {
+          "value": 3047,
+          "sourceId": "acura-nsx-1996-kit"
+        }
+      ],
+      "reason": "Model year. All three are Acura curb weights for the manual fixed-roof car: 3,010 lb on the 1991 and 1992 sheets, 3,020 lb on the 1993 sheet (passenger airbag added), 3,047 lb in the 1996 press kit.",
+      "resolution": "Used 3,010 lb because the reference model year is 1991."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

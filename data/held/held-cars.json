@@ -1,0 +1,465 @@
+{
+  "about": "Cars researched but held back from the game because one figure could not be sourced to the rules in docs/DATA_GUIDE.md. Nothing in this folder is loaded by the game or the validator.",
+  "cars": [
+    {
+      "id": "bmw-m3-e30",
+      "displayName": "BMW M3 (E30)",
+      "heldSince": "2026-10-01",
+      "missing": "A US curb weight from a qualifying source (manufacturer page, major magazine spec panel, or two independent editorial outlets that agree).",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "1988-1991",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "I4",
+        "displacementL": 2.3,
+        "displacementCc": 2302,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "5-speed Manual"
+        ],
+        "powerHp": 192,
+        "powerQuote": "The first M3 produced 192 hp from its 2.3-liter four-cylinder engine during its 1988-1991 model year run.",
+        "powerSource": "https://www.press.bmwgroup.com/usa/article/detail/T0017866EN_US/the-new-bmw-m3-sedan?language=en_US"
+      },
+      "weightCandidates": [
+        {
+          "lb": 2866,
+          "source": "Grassroots Motorsports project-car panel (auto-filled, contains errors)",
+          "url": "https://grassrootsmotorsports.com/project-cars/1988-bmw-m3/"
+        },
+        {
+          "lb": 2735,
+          "source": "Carscoops news item (1,240 kg)",
+          "url": "https://carscoops.com/?p=2066946"
+        },
+        {
+          "lb": 2865,
+          "source": "strictlyeta.net (enthusiast page)"
+        }
+      ],
+      "notes": "BMW Group Classic gives production 1986-1990 and only the European 1,200 kg."
+    },
+    {
+      "id": "bmw-m3-e36",
+      "displayName": "BMW M3 (E36)",
+      "heldSince": "2026-10-01",
+      "missing": "A US curb weight from a qualifying source.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "1995-1999",
+        "body": [
+          "Coupe",
+          "Sedan",
+          "Convertible"
+        ],
+        "engine": "I6",
+        "displacementL": 3.0,
+        "displacementNote": "2,990 cc for 1995; 3,152 cc (3.2) from 1996, same 240 hp",
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "5-speed Manual",
+          "5-speed Automatic"
+        ],
+        "powerHp": 240,
+        "powerQuote": "The next generation arrived in 1995 with a 3.0-liter (and later, 3.2-liter) 240-hp inline-six powerplant.",
+        "powerSource": "https://www.press.bmwgroup.com/usa/article/detail/T0017866EN_US/the-new-bmw-m3-sedan?language=en_US"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3175,
+          "source": "Grassroots Motorsports 1996 M3 panel (auto-filled, contains errors); also implied by BMW M Registry",
+          "url": "https://grassrootsmotorsports.com/project-cars/1996-bmw-m3/"
+        },
+        {
+          "lb": 3117,
+          "source": "Grassroots Motorsports 1997 M3 panel"
+        }
+      ],
+      "notes": "BMW Group Classic US-model pages list no weight."
+    },
+    {
+      "id": "chevrolet-corvette-stingray-c8-2020-2026",
+      "displayName": "Chevrolet Corvette Stingray (C8, 2020–2026)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight from a qualifying source; GM publishes only dry weight for the Stingray. Naming is decided (2026-10-01): this is the 6.2L LT2 car, model years 2020-2026, as a year-split record (yearSplit true), because the 2027 Stingray has a new 6.7L LS6 engine and will be its own record.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2020-2026 (6.2L car)",
+        "body": [
+          "Coupe",
+          "Convertible"
+        ],
+        "engine": "V8",
+        "displacementL": 6.2,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "8-speed DCT"
+        ],
+        "powerHp": 490,
+        "powerQuote": "490 standard horsepower (brochure); 490 / 365 @ 6450 (2021 GM release table); 495 hp with performance exhaust",
+        "dryWeightLb": 3366,
+        "yearSplit": true,
+        "engineChange2027": {
+          "quote": "By offering a bump in power, displacement, and torque over the outgoing 6.2-liter V8, the 6.7L LS6 itself offers some mouth-watering specs: 535 horsepower, 520 lb-ft of torque, and 13.0:1 compression.",
+          "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0630-2027-chevrolet-corvette-stingray-200-mph.html",
+          "note": "Chevrolet's 26 March 2026 release also says \"In 2027, Corvette Stingray will upgrade to LS6\". 2026 as the last LT2 model year in the US is inferred from these; no GM sentence says so directly."
+        }
+      },
+      "weightCandidates": [
+        {
+          "lb": 3535,
+          "source": "Base coupe. GM Authority (Jonathan Lopez, 1 Sep 2019) and Carscoops (Brad Anderson, 29 Aug 2019), both from the same leaked GM document; also in the Edmunds database for 2020 and 2025. Not two independent sources, and not an official GM publication."
+        },
+        {
+          "lb": 3647,
+          "source": "Car and Driver scale weight for a Z51 (optioned) car, relayed by The Drive and Motor1"
+        },
+        {
+          "lb": 3366,
+          "source": "GM's dry weight. GM Authority labels it 'curb weight' in places; Corvette Blogger, citing the GM order guide, calls it dry weight."
+        }
+      ],
+      "notes": "Not obtained: a cc figure. GM's media spec pages (media.chevrolet.com) could not be opened by the research tools; the Stingray spec table for any 2020-2026 model year is the place to look for a 'Base curb weight' row, which GM does publish for the 2027 Grand Sport."
+    },
+    {
+      "id": "ford-mustang-shelby-gt500-s550",
+      "displayName": "Ford Mustang Shelby GT500 (S550)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight that Ford confirms or a major magazine prints. Also the cc figure and a source for the last model year (2022).",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2020-? (2022 not sourced)",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 5.2,
+        "aspiration": "Supercharged",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "7-speed DCT"
+        ],
+        "powerHp": 760,
+        "powerQuote": "The all-new 2020 Mustang Shelby GT500 will produce 760 horsepower and 625 lb.-ft. of torque",
+        "powerSource": "https://www.motor1.com/news/355545/ford-mustang-shelby-gt500-power/"
+      },
+      "weightCandidates": [
+        {
+          "lb": 4225,
+          "source": "Motor Authority, The Drive and Ford Authority on 15 Aug 2019, all relaying one leaked dealer guide; Motor1 says Ford did not confirm it"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ford-gt-1st-gen",
+      "displayName": "Ford GT (1st gen)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight from a second source or a magazine spec panel, and Ford's own release read on a Ford or press site (it was found only as a forum copy).",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2005-2006",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 5.4,
+        "displacementCc": 5409,
+        "aspiration": "Supercharged",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "powerHp": 550,
+        "powerQuote": "Power 550bhp @ 6500rpm (Evo specification panel)",
+        "powerSource": "https://www.evo.co.uk/ford/13406/ford-gt-2004-2006-review-fords-supercar-ferrari-beater"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3485,
+          "source": "duPont Registry (Edward Jones, 25 Jan 2024), not labelled curb"
+        },
+        {
+          "lb": 3300,
+          "source": "Automotive Addicts, 'roughly'"
+        }
+      ],
+      "notes": "Hagerty's buyer's guide gives 2,027 cars for 2005 and 2,011 for 2006."
+    },
+    {
+      "id": "ford-gt-2nd-gen",
+      "displayName": "Ford GT (2nd gen)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight. Ford publishes only a dry weight (1,385 kg / 3,054 lb).",
+      "record": "data/held/ford-gt-2nd-gen.json",
+      "notes": "A complete, validated record exists and uses the dry weight. To release it, replace the weight with a qualifying curb weight, set specBasis.weightType to curb, clear needsReview and move the file to data/vehicles/ford/."
+    },
+    {
+      "id": "nissan-gt-r-r35-2009-2011",
+      "displayName": "Nissan GT-R (R35, 2009–2011)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight from a qualifying source. The R35 was split into three records by year range on 2026-10-01; the 2012–2016 and 2017–2024 records are in the game. Nissan's 2009, 2010 and 2011 US press kits give no curb weight, and the only figures found are in spec databases, which the sourcing rules do not accept on their own.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2009-2011",
+        "yearSplit": true,
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V6",
+        "displacementL": 3.8,
+        "aspiration": "Twin Turbocharged",
+        "fuel": "Gasoline",
+        "drivetrain": "AWD",
+        "transmission": [
+          "6-speed DCT"
+        ],
+        "powerHp": 485,
+        "referenceModelYear": "2010 or 2011 (485 hp applied to two of the three model years)",
+        "powerQuotes": [
+          {
+            "modelYear": 2009,
+            "quote": "480 horsepower @ 6,400 rpm",
+            "url": "https://usa.nissannews.com/en-US/releases/all-new-2009-nissan-gt-r-comes-to-north-america"
+          },
+          {
+            "modelYear": 2010,
+            "quote": "the horsepower rating of the GT-R's 3.8-liter twin turbo V6 engine has been increased to 485 hp (from 480 hp)",
+            "url": "https://usa.nissannews.com/en-US/releases/release-60174a63db4e461fb992fe36fe852cff-2010-nissan-gt-r-press-kit-3"
+          },
+          {
+            "modelYear": 2011,
+            "quote": "485 horsepower at 6,400 rpm and 434 lb-ft of torque at 3,200",
+            "url": "https://usa.nissannews.com/en-US/releases/release-9f615165f18a4f22847ece5e49f105ae-2011-nissan-gt-r-press-kit-2"
+          }
+        ]
+      },
+      "weightCandidates": [
+        {
+          "lb": 3814,
+          "source": "2010 base car: Edmunds, Cars.com and KBB spec databases agree. Databases only; no manufacturer page, magazine spec panel or named-author article."
+        },
+        {
+          "lb": 3829,
+          "source": "2011 Premium (Edmunds, KBB databases); 2009 and 2010 Premium (KBB). Same figure Nissan publishes for 2012 to 2014."
+        },
+        {
+          "lb": 3836,
+          "source": "2009 base car, Edmunds database; KBB says 3,814 for the same car"
+        },
+        {
+          "lb": 3840,
+          "source": "Nissan US heritage page for a Japanese-market right-hand-drive pre-production car quoted with 485 hp: https://usa.nissannews.com/en-US/releases/2008-nissan-gt-r-r35. Not a US production specification."
+        }
+      ],
+      "notes": "To release: a Car and Driver, Road & Track or MotorTrend test of a 2010 or 2011 GT-R with the curb weight in its spec panel would qualify. Then write the record on the pattern of data/vehicles/nissan/nissan-gt-r-r35-2012-2016.json with yearSplit true."
+    },
+    {
+      "id": "toyota-supra-turbo-a80",
+      "displayName": "Toyota Supra Turbo (A80)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight tied to a configuration (manual, fixed roof) and a cc figure. Toyota's own retrospective says only \"At 3,450 pounds, the Turbo model weighed about 125 less than its predecessor\", with no transmission, roof or model year.",
+      "record": "data/held/toyota-supra-turbo-a80.json",
+      "notes": "Everything else is confirmed: 320 hp (Toyota), US model years 1993-1998, 6-speed manual or 4-speed automatic. Sports Car Market prints 321 hp; log that as a discrepancy when releasing."
+    },
+    {
+      "id": "mitsubishi-lancer-evolution-ix",
+      "displayName": "Mitsubishi Lancer Evolution (IX)",
+      "heldSince": "2026-10-01",
+      "missing": "A second source for the curb weight. 3,274 lb comes from one unattributed spec table printed with The Auto Channel's launch review (RS 3,219, Evolution IX 3,274, MR 3,285).",
+      "record": "data/held/mitsubishi-lancer-evolution-ix.json",
+      "notes": "Power is confirmed from Mitsubishi: 286 hp at 6,500 rpm. US model years 2006-2007."
+    },
+    {
+      "id": "mercedes-benz-sls-amg-c197",
+      "displayName": "Mercedes-Benz SLS AMG (C197)",
+      "heldSince": "2026-10-01",
+      "missing": "A US curb weight. Mercedes-Benz USA's release gives \"DIN curb weight of 3,573 pounds\", which is the European DIN figure (1,620 kg) in pounds. Also a manufacturer source for which US model years the standard 563 hp car was sold (KBB style listings point to 2011-2012, before the SLS AMG GT).",
+      "record": "data/held/mercedes-benz-sls-amg-c197.json",
+      "notes": "Power (563 hp), displacement (6,208 cc) and the 7-speed dual-clutch gearbox are confirmed on Mercedes-Benz USA's page."
+    },
+    {
+      "id": "mazda-mx-5-miata-1-8-na",
+      "displayName": "Mazda MX-5 Miata 1.8 (NA)",
+      "heldSince": "2026-10-01",
+      "missing": "A manufacturer or major-magazine source for the 128 hp rating of the 1994 car, any qualifying curb weight for the standard car, the cc figure and the last model year.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "1994-1997 (end year not yet sourced)",
+        "powerHp": 128,
+        "powerNote": "133 hp from 1996",
+        "referenceModelYear": 1994,
+        "transmission": [
+          "5-speed Manual",
+          "4-speed Automatic"
+        ]
+      },
+      "weightCandidates": [
+        {
+          "lb": 2293,
+          "source": "The Auto Channel, Carey Russ, 1996 M Edition review (a different trim and model year; one outlet)",
+          "url": "https://www.theautochannel.com/vehicles/new/reviews/wk9629.html"
+        }
+      ],
+      "sources": [
+        "https://petrolicious.com/blogs/articles/mazda-mx-5-miata-na-buyers-guide",
+        "https://www.theautochannel.com/vehicles/new/reviews/wk9629.html"
+      ]
+    },
+    {
+      "id": "subaru-wrx-sti-gd",
+      "displayName": "Subaru WRX STI (GD)",
+      "heldSince": "2026-10-01",
+      "missing": "A curb weight from a qualifying source, and a cc figure. 3,263 lb appears in two outlets, but one has no named author and neither is a major magazine.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2004-2007",
+        "engine": "Flat-4",
+        "displacementL": 2.5,
+        "aspiration": "Turbocharged",
+        "drivetrain": "AWD",
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "powerHp": 300,
+        "powerQuote": "delivering 300 horsepower at 6000 RPM and 300 lb-ft. peak torque at 4000 RPM",
+        "powerSource": "https://www2020.theautochannel.com/news/2003/04/23/159933.html",
+        "referenceModelYear": 2004,
+        "powerNote": "Re-rated to 293 hp late in the run (implied by Subaru's 2008 release: '305 horsepower, a gain of 12 over the previous model')"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3263,
+          "source": "The Auto Channel, Carey Russ, 2004 review panel",
+          "url": "https://www2020.theautochannel.com/news/2003/06/09/162799.html"
+        },
+        {
+          "lb": 3263,
+          "source": "MotorWeek comparison test, no author named",
+          "url": "https://motorweek.org/road_tests/comparison_tests/2004_subaru_impreza_wrx_sti_vs_2003_mitsubishi_lancer_evolution/"
+        }
+      ]
+    },
+    {
+      "id": "dodge-viper-gts-sr-ii",
+      "displayName": "Dodge Viper GTS (SR II)",
+      "heldSince": "2026-10-01",
+      "missing": "Both power and weight from a Chrysler document or a major magazine's spec panel. Weights found disagree widely (3,383 and 3,622 lb in the same outlet).",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "1996-2002",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V10",
+        "displacementL": 8.0,
+        "displacementCc": 7990,
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "referenceModelYear": 1996
+      },
+      "powerCandidates": [
+        {
+          "hp": 450,
+          "source": "The Auto Channel, John Heilig, 1997 GTS review",
+          "url": "https://www.theautochannel.com/vehicles/new/reviews/1997/heilig96121101.html"
+        },
+        {
+          "hp": 450,
+          "source": "Christian Science Monitor, Paul A. Eisenstein, 5 Jul 1996"
+        }
+      ],
+      "weightCandidates": [
+        {
+          "lb": 3383,
+          "source": "The Auto Channel, John Heilig, 1997 review"
+        },
+        {
+          "lb": 3622,
+          "source": "The Auto Channel, Tom Hagin, 2001 review",
+          "url": "https://www.theautochannel.com/vehicles/new/reviews/2001/solo0119.html"
+        }
+      ]
+    },
+    {
+      "id": "dodge-challenger-srt-demon",
+      "displayName": "Dodge Challenger SRT Demon",
+      "heldSince": "2026-10-01",
+      "missing": "The curb weight and cc figure from Dodge's spec sheet. The sheet exists (https://media.stellantisnorthamerica.com/view-spec.do?id=18249) but could not be read by the research tools; opening it in a browser and reading the curb weight and displacement lines would release this car.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2018 only",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 6.2,
+        "aspiration": "Supercharged",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "8-speed Automatic"
+        ],
+        "powerHp": 808,
+        "powerQuote": "808 bhp (603 kW) @ 6,300 rpm on Premium 91 octane fuel",
+        "powerSource": "https://media.stellantisnorthamerica.com/newsrelease.do?id=18320",
+        "powerNote": "840 hp on 100-octane race fuel with the Demon Crate controller",
+        "referenceModelYear": 2018
+      },
+      "weightCandidates": [
+        {
+          "lb": 4280,
+          "source": "Motorious, Jeffrey N. Ross, 4 Sep 2020 (one outlet)"
+        },
+        {
+          "lb": 4300,
+          "source": "The Drive, approximate"
+        }
+      ]
+    },
+    {
+      "id": "audi-r8-v10-plus-4s",
+      "displayName": "Audi R8 V10 Plus (4S)",
+      "heldSince": "2026-10-01",
+      "missing": "One more US source for the curb weight (a magazine spec panel or an Audi of America spec sheet). Only AutoGuide gives 3,572 lb.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2017-2018",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V10",
+        "displacementL": 5.2,
+        "displacementCc": 5204,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "AWD",
+        "transmission": [
+          "7-speed DCT"
+        ],
+        "powerHp": 610,
+        "powerQuote": "R8 V10 plus | 5.2-liter V10 FSI | seven-speed S tronic with quattro AWD | 610 hp @ 8,250 - 8,700 rpm",
+        "powerSource": "https://audiworld.com/?p=26488",
+        "referenceModelYear": 2017
+      },
+      "weightCandidates": [
+        {
+          "lb": 3572,
+          "source": "AutoGuide, Jonathan Yarkony, 15 Sep 2016",
+          "url": "https://www.autoguide.com/manufacturer/audi/2017-audi-r8-v10-plus-review"
+        }
+      ]
+    }
+  ]
+}

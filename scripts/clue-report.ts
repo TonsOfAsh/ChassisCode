@@ -8,7 +8,7 @@
  *
  *   npm run clue-report
  */
-import { ALL_CLUES, CLUES, CLUE_TIERS, FINAL_CLUES, drawClueOrder } from '../src/config/clues';
+import { ALL_CLUES, CLUES, CLUE_TIERS, FINAL_CLUES, drawClueOrder, priorityClues } from '../src/config/clues';
 import { MODES } from '../src/lib/game-types';
 import { VehicleSchema, type Vehicle } from '../src/lib/schema';
 import { loadRawFiles } from './load';
@@ -24,11 +24,12 @@ const values = new Map(vehicles.map((v) => [v.id, new Map(ALL_CLUES.map((id) => 
 /** Average clue number at which `v` becomes the only match, or null if it never does. */
 function averageUniqueAt(v: Vehicle, mode: (typeof MODES)[number]['id']): number | null {
   const mine = values.get(v.id)!;
+  const priority = priorityClues(v, vehicles);
   let total = 0;
   for (let s = 0; s < SAMPLES; s++) {
     let candidates = vehicles;
     let at = 0;
-    for (const [i, id] of drawClueOrder(mode).entries()) {
+    for (const [i, id] of drawClueOrder(mode, Math.random, priority).entries()) {
       candidates = candidates.filter((o) => values.get(o.id)!.get(id) === mine.get(id));
       if (candidates.length === 1) {
         at = i + 1;
@@ -47,8 +48,14 @@ console.log(`  Easy:   ${label(CLUE_TIERS.easy)}`);
 console.log(`  Medium: ${label(CLUE_TIERS.medium)}`);
 console.log(`  Hard:   ${label(CLUE_TIERS.hard)}`);
 console.log(`  Always last: ${label(FINAL_CLUES)}\n`);
-console.log(`Average clue at which each car becomes the only match (${SAMPLES} games per mode, ${ALL_CLUES.length} clues):\n`);
+const prioritised = vehicles.map((v) => ({ v, p: priorityClues(v, vehicles) })).filter((x) => x.p.length > 0);
+if (prioritised.length > 0) {
+  console.log('Cars with a near-twin, and the clue brought forward when they are the answer:');
+  for (const { v, p } of prioritised) console.log(`  ${v.displayName}: ${label(p)}`);
+  console.log('');
+}
 
+console.log(`Average clue at which each car becomes the only match (${SAMPLES} games per mode, ${ALL_CLUES.length} clues):\n`);
 const rows = vehicles.map((v) => ({ name: v.displayName, at: MODES.map((m) => averageUniqueAt(v, m.id)) }));
 const width = Math.max(...rows.map((r) => r.name.length));
 console.log(`${''.padEnd(width)}  ${MODES.map((m) => m.label.padStart(7)).join('')}`);

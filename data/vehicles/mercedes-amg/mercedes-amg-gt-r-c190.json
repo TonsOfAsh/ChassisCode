@@ -1,0 +1,147 @@
+{
+  "id": "mercedes-amg-gt-r-c190",
+  "manufacturer": "Mercedes-AMG",
+  "model": "GT",
+  "generation": "C190",
+  "variant": "R",
+  "subVariant": null,
+  "displayName": "Mercedes-AMG GT R (C190)",
+  "aliases": [
+    "AMG GT R",
+    "Green Hell",
+    "GT R",
+    "Beast of the Green Hell",
+    "M178",
+    "AMG SPEEDSHIFT DCT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2020
+    },
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "US model years. First: MBUSA's '2018 Mercedes-AMG GT R Coupe Specifications' and its pricing release for 'the 2018 AMG GT R Coupe', 'Arriving in U.S. dealers this summer' (mbusa-gt-r-msrp-2017). MBUSA also published 2019 and 2020 GT R specification sheets (mbusa-2019-gt-r-specs, mbusa-2020-gt-r-specs). Last: Motor Authority, 23 December 2020, headline 'Mercedes-Benz AMG GT R dropped for 2021': the GT Black Series was added for 2021 'at the cost of the slightly tamer GT R variant, at least here in the United States'; 'First launched for 2018' (motorauthority-gt-r-dropped-2021). The GT R Pro and the 2020 GT R Roadster are not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "'Two-door, two passenger coupe'. The AMG GT R Roadster, a limited run sold for 2020 only under its own name, is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2018-gt-r-specs",
+      "note": "'Handcrafted AMG 4.0L V8 biturbo'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2018-gt-r-specs",
+      "note": "3,982 cc ('Displacement (cc) | 3,982'); marketed as 4.0L"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2018-gt-r-specs",
+      "note": "'biturbo' (two turbochargers)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "Inferred from the spec sheet's description of the V8 biturbo petrol engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "'Drive Configuration | Rear Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "'Transmission Type | AMG 7-Speed DCT Dual-Clutch' (AMG SPEEDSHIFT DCT transaxle)"
+  },
+  "powerHp": {
+    "value": 577,
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "Quote: \"Horsepower @ rpm | 577 @ 6,250\". Also MBUSA's pricing release (mbusa-gt-r-msrp-2017): \"handcrafted AMG 4.0L V8 biturbo engine rated at 577 hp\". The 2019 and 2020 MBUSA spec sheets give the same 577 @ 6,250."
+  },
+  "weightLb": {
+    "value": 3594,
+    "sourceId": "mbusa-2018-gt-r-specs",
+    "note": "US curb weight, coupe with the only transmission (7-speed DCT). Quote: \"Curb Weight (lbs) | 3,594\". The 2019 MBUSA sheet reads \"Curb Weight (lbs) | 3,594 est.\" and the 2020 sheet \"TBA\". See discrepancies for the 3,428 lb Euro-spec figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2018-gt-r-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2018 Mercedes-AMG GT R Coupe Specifications",
+      "url": "https://media.mbusa.com/releases/release-650721ac95a85994bb12c2ebbe00b392-2018-mercedes-amg-gt-r-coupe-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-gt-r-msrp-2017",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "Mercedes-AMG GT R MSRP is $157,000",
+      "url": "https://media.mbusa.com/releases/mercedes-amg-gt-r-msrp-is-157000",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2019-gt-r-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2019 Mercedes-AMG GT R Coupe Specifications",
+      "url": "https://media.mbusa.com/news/2019-mercedes-amg-gt-r-coupe-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2020-gt-r-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2020 Mercedes-AMG GT R and GT R PRO Coupe Specifications",
+      "url": "https://media.mbusa.com/releases/release-f57992a15ff49dca22e3786155004fe5-2020-mercedes-amg-gt-r-and-gt-r-pro-coupe",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-gt-r-dropped-2021",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Mercedes-Benz AMG GT R dropped for 2021",
+      "url": "https://www.motorauthority.com/news/1123661_mercedes-benz-amg-gt-r-dropped-for-2021",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3594,
+          "sourceId": "mbusa-2018-gt-r-specs"
+        },
+        {
+          "value": 3428,
+          "sourceId": "mbusa-gt-r-msrp-2017"
+        }
+      ],
+      "reason": "Market and measurement basis. MBUSA's April 2017 pricing release lists \"Weight: 3,428 lbs (Euro spec; US spec may vary)\", a European figure published before US data existed; the US specification sheet gives a US curb weight of 3,594 lb.",
+      "resolution": "Use 3,594 lb, the US curb weight on MBUSA's 2018 GT R specification sheet. The 3,428 lb figure is expressly a Euro-spec number."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

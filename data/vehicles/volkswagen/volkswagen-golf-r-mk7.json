@@ -1,0 +1,161 @@
+{
+  "id": "volkswagen-golf-r-mk7",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "generation": "Mk7",
+  "variant": "R",
+  "subVariant": null,
+  "displayName": "Volkswagen Golf R (Mk7)",
+  "aliases": [
+    "Golf R",
+    "Mk7 Golf R",
+    "Golf R Mk7",
+    "Mk7 R",
+    "Mk7.5 Golf R",
+    "VW Golf R",
+    "Golf 7 R",
+    "4Motion",
+    "EA888",
+    "DSG"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2019
+    },
+    "sourceId": "vw-us-2017-golf-r-release",
+    "note": "US model years. First: 'The latest Golf R, introduced for model year 2015, is the most powerful version of the Golf ever to be sold in this market.' Last: Volkswagen of America's final sheet for this car is the '2019 Golf R Technical Specifications' (vw-us-2019-golf-r-techspecs), and Motor Authority reported on August 7, 2019 that the Golf R was dropped from the 2020 lineup, Volkswagen having confirmed it 'has reached the end of production in Mk7 guise' (motorauthority-golf-r-dropped-2019)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "vw-us-2015-golf-r-techspecs",
+    "note": "Golf hatchback body; inferred from the cited sheet's description of the car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "vw-us-2015-golf-r-techspecs",
+      "note": "'2.0L inline four cylinder, 16V, turbocharged/intercooled, TSI' (EA888)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "vw-us-2015-golf-r-techspecs",
+      "note": "1,984 cc ('Displacement 121 cu in 1984 cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "vw-us-2015-golf-r-techspecs",
+      "note": "'turbocharged/intercooled'; a single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "vw-us-2015-golf-r-techspecs",
+    "note": "'Premium unleaded recommended'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "vw-us-2015-golf-r-techspecs",
+    "note": "'Driven wheels 4Motion permanent all-wheel-drive system with Haldex center differential'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed DCT",
+      "7-speed DCT"
+    ],
+    "sourceId": "vw-us-2016-golf-r-release",
+    "note": "The 2015 car came only with the six-speed DSG; 'Six-speed manual transmission new for 2016', alongside the 'optional six-speed DSG dual-clutch automatic transmission'. The 2017 release still lists 'available six-speed DSG with Tiptronic' (vw-us-2017-golf-r-release). The 2019 car has 'six-speed manual or seven-speed DSG automatic transmissions' (vw-us-2019-golf-r-glance)."
+  },
+  "powerHp": {
+    "value": 292,
+    "sourceId": "vw-us-2015-golf-r-techspecs",
+    "note": "Quote: \"Horsepower (SAE) @ rpm 292 @ 5400\" (sheet titled for the 2015 and 2016 Golf R). The 2016 and 2017 releases repeat 'With 292 horsepower, it has 36 horsepower more than the previous version' (vw-us-2016-golf-r-release, vw-us-2017-golf-r-release). Volkswagen restated the rating for 2019: the 2019 sheet reads \"Horsepower (SAE) @ rpm 288 @ 5400\" (vw-us-2019-golf-r-techspecs) and the 2019 At a Glance says the engine 'puts out 288 hp and 280 lb-feet of torque' (vw-us-2019-golf-r-glance). No 2018 document was opened, so the year the figure changed to 288 hp is confirmed only as 'by 2019'."
+  },
+  "weightLb": {
+    "value": 3283,
+    "sourceId": "vw-us-2015-golf-r-techspecs",
+    "note": "Four-door hatchback with the six-speed manual, standard equipment, 2016 model. Quote: \"Curb Weight: manual 3283lb 1489 kg\"; DSG: \"Curb weight: automatic 3340 lb 1515 kg\". The sheet is titled for both the 2015 and 2016 Golf R. The manual was first sold for model year 2016 (the 2015 car was DSG only, 3,340 lb), so the reference model year is 2016; the power rating is the same in both years. The 2019 sheet gives 3,300 lb manual and 3,373 lb DSG (vw-us-2019-golf-r-techspecs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "vw-us-2015-golf-r-techspecs",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2015 Golf R Technical Specifications / 2016 Golf R Technical Specifications",
+      "url": "https://media.vw.com/assets/documents/original/6387-1646354283566f0c7d73925.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2016-golf-r-release",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2016 Golf R: Volkswagen's Performance Halo (press release)",
+      "url": "https://media.vw.com/assets/documents/original/7255-2016+Golf+R+Release.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2017-golf-r-release",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2017 Golf R: Volkswagen's performance halo (press release, September 12, 2016)",
+      "url": "https://media.vw.com/assets/documents/original/7226-2017+Golf+R+Release.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2019-golf-r-techspecs",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2019 Golf R Technical Specifications",
+      "url": "https://media.vw.com/assets/documents/original/9073-2019GolfRTechSpecsFINAL.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "vw-us-2019-golf-r-glance",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "2019 Volkswagen Golf R: Volkswagen's Rally-Inspired Rocket (At a Glance)",
+      "url": "https://media.vw.com/assets/documents/original/9083-2019GolfRAtaGlance.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-golf-r-dropped-2019",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Golf R dropped from 2020 Volkswagen Golf lineup",
+      "url": "https://www.motorauthority.com/news/1124437_2020-vw-golf-r-dropped",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3283,
+          "sourceId": "vw-us-2015-golf-r-techspecs"
+        },
+        {
+          "value": 3300,
+          "sourceId": "vw-us-2019-golf-r-techspecs"
+        }
+      ],
+      "reason": "Model year. Both are Volkswagen of America curb weights for the manual car: 3,283 lb on the 2015/2016 sheet, 3,300 lb on the 2019 sheet.",
+      "resolution": "Used 3,283 lb, the figure on the sheet that covers the reference (launch) model year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}
