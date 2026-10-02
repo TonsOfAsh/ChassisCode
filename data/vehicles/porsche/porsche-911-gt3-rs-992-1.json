@@ -1,0 +1,160 @@
+{
+  "id": "porsche-911-gt3-rs-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "GT3 RS",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 RS (992.1)",
+  "aliases": [
+    "992 GT3 RS",
+    "992.1 GT3 RS",
+    "GT3 RS 992",
+    "GT3RS",
+    "Weissach Package",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2025
+    },
+    "sourceId": "edmunds-2025-911-gt3-rs",
+    "note": "US model years 2023 to 2025. First: motorauthority-2023-911-gt3-rs covers the debut of \"The 2023 Porsche 911 GT3 RS\", which \"won't reach U.S. dealerships until spring 2023\"; Edmunds lists a 2023 car (edmunds-2023-911-gt3-rs). Last: Edmunds lists a \"2025 Porsche 911 GT3 RS\" with the same 518 hp and 3,268 lbs., and has no 2026 GT3 RS page. No source opened states the last model year in words, so the end year is flagged for review."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2023-911-gt3-rs",
+    "note": "Edmunds: \"2dr Coupe\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "motorauthority-2023-911-gt3-rs",
+      "note": "Motor Authority: \"Power is provided by the naturally aspirated 4.0-liter flat-6 from the standard GT3.\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "porsche-ag-911-gt3-rs-992-tech-data",
+      "note": "3,996 cc. Porsche AG technical data (Portuguese edition): \"Cilindrada 3.996 cm3\""
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "motorauthority-2023-911-gt3-rs",
+      "note": "Motor Authority: \"naturally aspirated 4.0-liter flat-6\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2023-911-gt3-rs",
+    "note": "Edmunds: \"Premium unleaded (required)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-2023-911-gt3-rs",
+    "note": "Edmunds: \"rear wheel drive\". Porsche AG technical data porsche-ag-911-gt3-rs-992-tech-data: \"Tração às rodas traseiras\" (rear-wheel drive)."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "motorauthority-2023-911-gt3-rs",
+    "note": "Motor Authority: \"A 7-speed PDK dual-clutch transmission is standard\". Porsche AG technical data porsche-ag-911-gt3-rs-992-tech-data: \"Caixa de sete velocidades e dupla embraiagem (PDK)\". DCT is Porsche PDK; no manual was offered."
+  },
+  "powerHp": {
+    "value": 518,
+    "sourceId": "porsche-canada-911-gt3-rs",
+    "note": "Quote: \"Power (hp) | 518 hp\" and \"Power (kW) | 386 kW\" (Porsche Canada model page technical data; North American hp rating). The same figure is reported for the US 2023 car by motorauthority-2023-911-gt3-rs: \"New camshafts with modified cam profiles increase output by 16 hp for a total of 518 hp.\" Porsche AG technical data porsche-ag-911-gt3-rs-992-tech-data gives \"386 kW (525 cv)\", i.e. 525 PS. No Porsche Cars North America document could be opened, so the Canadian Porsche page is the manufacturer source."
+  },
+  "weightLb": {
+    "value": 3268,
+    "sourceId": "motorauthority-2023-911-gt3-rs",
+    "note": "Standard car (7-speed PDK, without the Weissach Package). US curb weight reported by two independent editorial outlets with named authors. Quote (Motor Authority, Stephen Edelstein): \"That brings the curb weight down to 3,268 lb, and an available Weissach Package can shave off an additional 17.6 lb with forged magnesium wheels, carbon-fiber exterior parts and CFRP anti-roll bars, rear coupling rods, and rear-axle shear panel.\" Quote (automotiveaddicts-2023-911-gt3-rs, Malcolm Hogan): \"Total curb weight for the new 2023 911 GT3 RS is 3,268 pounds.\" Consistent with Porsche Canada's \"Unladen weight (kerb weight) (kg) | 1,482 kg\" (porsche-canada-911-gt3-rs), which is 3,267 lb. See discrepancies for the European DIN figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-canada-911-gt3-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars Canada",
+      "title": "The 911 GT3 RS (model page with technical data)",
+      "url": "https://porsche.com/canada/en/models/911/911-gt3-rs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-ag-911-gt3-rs-992-tech-data",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (media kit)",
+      "title": "911 GT3 RS technical data, MY P 08/2022 (Portuguese edition)",
+      "url": "https://media.porsche.com/mediakit/911gt3-rs/03-downloads/pag-911-gt3-rs-pt.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-2023-911-gt3-rs",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2023 Porsche 911 GT3 RS makes fast faster",
+      "url": "https://www.motorauthority.com/news/1136852_2023-porsche-911-gt3-rs-makes-fast-faster",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "automotiveaddicts-2023-911-gt3-rs",
+      "type": "publication",
+      "publisher": "Automotive Addicts",
+      "title": "2023 Porsche 911 GT3 RS Breaks Cover as The Ultimate Naturally Aspirated Street-Legal Track Weapon",
+      "url": "https://www.automotiveaddicts.com/79242/2023-porsche-911-gt3-rs-breaks-cover",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2023-911-gt3-rs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2023 Porsche 911 GT3 RS - Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2023/gt3-rs/features-specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2025-911-gt3-rs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2025 Porsche 911 GT3 RS - Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2025/gt3-rs/features-specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3268,
+          "sourceId": "motorauthority-2023-911-gt3-rs"
+        },
+        {
+          "value": "1,482 kg kerb weight (3,267 lb)",
+          "sourceId": "porsche-canada-911-gt3-rs"
+        },
+        {
+          "value": "1,450 kg DIN (3,197 lb)",
+          "sourceId": "porsche-ag-911-gt3-rs-992-tech-data"
+        }
+      ],
+      "reason": "Market and measurement method. Porsche AG's European technical data gives the DIN unladen weight (1,450 kg). The North American curb weight is higher: Porsche Canada lists 1,482 kg, which converts to 3,267 lb, one pound off the 3,268 lb US figure because of rounding.",
+      "resolution": "3,268 lb used: the US curb weight for the standard car as reported by two independent editorial outlets, in line with Porsche's North American kerb weight. The DIN figure is a different standard and is not used for a US record."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Two points. (1) Last US model year: 2025 rests on Edmunds listing a 2025 GT3 RS and no 2026 one; no page opened says in words that 2025 was the last year, or whether the car is still on sale. (2) Power and weight are not from a Porsche Cars North America document (none could be opened): 518 hp is from Porsche Canada's model page plus US press reports, and 3,268 lb is from two US editorial outlets. Both agree with every other source seen, but a PCNA spec sheet would raise confidence to high.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

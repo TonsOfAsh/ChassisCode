@@ -1,0 +1,154 @@
+{
+  "id": "porsche-911-turbo-s-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "Turbo S",
+  "subVariant": null,
+  "displayName": "Porsche 911 Turbo S (992.1)",
+  "aliases": [
+    "992 Turbo S",
+    "992.1 Turbo S",
+    "Turbo S 992",
+    "911 Turbo S Cabriolet",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2025
+    },
+    "sourceId": "stuttcars-992-turbo-s",
+    "note": "US model years 2021 to 2025. Stuttcars: \"Model Years: 2021 - 2025\" and \"sold through 2025 before the hybridized 992.2 arrived\". First: pcna-2021-turbo-s-press-kit and the spec sheet porsche-2021-turbo-s-us-specs name the launch car the \"2021 911 Turbo S\" (\"expected to reach U.S. dealers in late 2020\"). Last: pcna-2024-turbo-50-years refers to \"the current 2025 911 Turbo S (992.1)\"."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "porsche-2021-turbo-s-us-specs",
+    "note": "Spec sheet columns: \"2021 911 Turbo S\" and \"2021 911 Turbo S Cabriolet\". The Cabriolet is the open version of the same variant, so it is listed here rather than as its own record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-2021-turbo-s-us-specs",
+      "note": "Spec sheet: engine type \"Boxer, twin-turbo\", 6 cylinders"
+    },
+    "displacementL": {
+      "value": 3.7,
+      "sourceId": "porsche-2021-turbo-s-us-specs",
+      "note": "3,745 cc. Spec sheet: \"3.745 l\", rounded to 3.7. Porsche's launch press kit pcna-2021-turbo-s-press-kit marketed it as a \"3.8 liter boxer engine\"; pcna-2024-turbo-50-years says \"3.7 liter\". See discrepancies."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "porsche-2021-turbo-s-us-specs",
+      "note": "Spec sheet: \"Boxer, twin-turbo\". Press kit: \"Two VTG turbochargers\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-2021-turbo-s-us-specs",
+    "note": "Spec sheet lists fuel as \"Premium\""
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "porsche-2021-turbo-s-us-specs",
+    "note": "Spec sheet: \"Active all-wheel drive\" (Porsche Traction Management)"
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "porsche-2021-turbo-s-us-specs",
+    "note": "Spec sheet: \"8-speed dual-clutch PDK\". DCT is Porsche PDK; no manual was offered (stuttcars-992-turbo-s: \"8-speed PDK dual-clutch only (no manual on Turbo S)\")."
+  },
+  "powerHp": {
+    "value": 640,
+    "sourceId": "porsche-2021-turbo-s-us-specs",
+    "note": "Quote: \"Maximum Power Output: 640 hp @ 6,750\" (Coupe and Cabriolet columns). Corroborated by pcna-2021-turbo-s-press-kit: \"The most powerful six-cylinder boxer engine currently offered by Porsche now delivers 640 hp, 60 hp more than its predecessor.\" The rating was still 640 hp for 2025 (pcna-2024-turbo-50-years)."
+  },
+  "weightLb": {
+    "value": 3636,
+    "sourceId": "porsche-2021-turbo-s-us-specs",
+    "note": "Coupe with the standard 8-speed PDK and standard equipment. Quote: \"Curb Weight: 3636 lbs. | 3790 lbs.\" under the columns \"2021 911 Turbo S | 2021 911 Turbo S Cabriolet\". The Cabriolet is 3,790 lb. The optional Lightweight Package (about 66 lb lighter per the press kit) is not included."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-2021-turbo-s-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Newsroom)",
+      "title": "2021 Porsche Models Technical Data: U.S. Technical Specifications 2021 911 Turbo S Coupe and Cabriolet",
+      "url": "https://download.newsroom.porsche.com/dam/jcr:8b531ae3-48f0-4d00-bfb9-c29f2676959b/Copy%20of%20U.S.%20Technical%20Specifications%202021%20911%20Turbo%20S%20Coupe%20and%20Cabriolet.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2021-turbo-s-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "PCNA Press Kit: 2021 911 Turbo S Coupe and Cabriolet",
+      "url": "https://download.newsroom.porsche.com/dam/jcr:31d06207-9d2e-4cb0-bedc-0084f8d7f5ce/PCNA%20Press%20Kit_%20911%20Turbo%20S%20Coupe%20and%20Cabriolet%20.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2024-turbo-50-years",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Porsche 911 Turbo 50 Years unveiled during 2024 Monterey Car Week",
+      "url": "https://newsroom.porsche.com/en_US/2024/products/porsche-911-turbo-50-years-anniversary-model-premiere-37083.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "stuttcars-992-turbo-s",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 Turbo S Coupe (992.1) (2021 - 2025)",
+      "url": "https://stuttcars.com/porsche-911-turbo-s-992/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "engine.displacementL",
+      "values": [
+        {
+          "value": 3.7,
+          "sourceId": "porsche-2021-turbo-s-us-specs"
+        },
+        {
+          "value": 3.8,
+          "sourceId": "pcna-2021-turbo-s-press-kit"
+        }
+      ],
+      "reason": "Same engine, described two ways by Porsche. The exact figure in the US spec sheet is 3.745 l (3,745 cc). The 2020 launch press kit markets it as a \"3.8 liter\" engine; Porsche's 2024 release for the 2025 model year calls it \"3.7 liter\".",
+      "resolution": "3.7 used: the guide says to use the cc figure rounded to one decimal of a litre, whatever the marketing says."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 640,
+          "sourceId": "porsche-2021-turbo-s-us-specs"
+        },
+        {
+          "value": 641,
+          "sourceId": "stuttcars-992-turbo-s"
+        }
+      ],
+      "reason": "Stuttcars prints both \"640 bhp @ 6750 rpm\" and \"641 hp @ 6750 rpm\". 641 hp is the conversion of the European 650 PS rating; 640 hp is Porsche's published US rating.",
+      "resolution": "640 used: the manufacturer's US rating as published, per the guide."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,147 @@
+{
+  "id": "bmw-m5-e39",
+  "manufacturer": "BMW",
+  "model": "M5",
+  "generation": "E39",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M5 (E39)",
+  "aliases": [
+    "E39 M5",
+    "S62",
+    "M5 Sedan"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2000,
+      "endYear": 2003
+    },
+    "sourceId": "bmw-us-2019-m5-edition-35",
+    "note": "US model years. BMW NA's M5 history lists the car as '2000 – 2003 E39 M5'; BMW NA's first press kit is 'Press Kit MY 2000' (bmw-us-2000-m5-specs)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2019-m5-edition-35",
+    "note": "'The third generation M5 sedan'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "bmw-us-2000-m5-specs",
+      "note": "'DOHC 32-valve (4-cam) V-8' (S62)"
+    },
+    "displacementL": {
+      "value": 4.9,
+      "sourceId": "bmw-us-2000-m5-specs",
+      "note": "4,941 cc ('Displacement, cu in./cc 4941/302' as printed). BMW marketed it as a 5-liter engine; the rounded cc figure is used."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "bmw-us-2019-m5-edition-35",
+      "note": "'Naturally aspirated V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2000-m5-specs",
+    "note": "'Premium unleaded'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2000-m5-specs",
+    "note": "'Front engine/rear drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "bmw-us-2000-m5-specs",
+    "note": "'Manual transmission Getrag Type D, 6-speed'; no other transmission is listed."
+  },
+  "powerHp": {
+    "value": 394,
+    "sourceId": "bmw-us-2002-m5-specs",
+    "note": "BMW NA's rating from its 2002 sheet. Quote: \"Power @ rpm, hp SAE net 394 @ 6600\". BMW NA's 2019 history gives the same \"394 hp @ 6,600 rpm\" (bmw-us-2019-m5-edition-35). BMW NA's 2000 sheet printed \"Power @ rpm, hp SAE net 400 @ 6600\" (bmw-us-2000-m5-specs) for the same 4,941 cc engine; 400 is numerically the European PS figure. See discrepancies."
+  },
+  "weightLb": {
+    "value": 4023,
+    "sourceId": "bmw-us-2002-m5-specs",
+    "note": "Sedan with the 6-speed manual (the only configuration), from BMW NA's 2002 sheet (curb weight 4,023 lb). The 2000 sheet reads \"Curb weight, lb. 4024\" (bmw-us-2000-m5-specs), and BMW NA's 2019 history repeats 4,024 lb (bmw-us-2019-m5-edition-35)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2002,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2000-m5-specs",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "2000 BMW M5 Specifications",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0021914EN_US/41214",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2002-m5-specs",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "MY 2002 M5 Specs",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0022126EN_US/41380",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2019-m5-edition-35",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The 2020 BMW M5 Edition 35 Years",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0295843EN_US/the-2020-bmw-m5-edition-35-years",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 400,
+          "sourceId": "bmw-us-2000-m5-specs"
+        },
+        {
+          "value": 394,
+          "sourceId": "bmw-us-2002-m5-specs"
+        },
+        {
+          "value": 394,
+          "sourceId": "bmw-us-2019-m5-edition-35"
+        }
+      ],
+      "reason": "BMW NA's 2000 sheet rates the engine 400 hp SAE net at 6,600 rpm; its 2002 sheet and its 2019 history rate the same 4,941 cc engine 394 hp at 6,600 rpm. 400 is numerically the European PS rating, so the later figure is a restatement, not a mechanical change. The 2001 and 2003 sheets were not found.",
+      "resolution": "Used 394 hp with reference model year 2002: it is the figure on BMW NA's later period sheet and the one BMW NA itself uses today for this car."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4024,
+          "sourceId": "bmw-us-2000-m5-specs"
+        },
+        {
+          "value": 4023,
+          "sourceId": "bmw-us-2002-m5-specs"
+        }
+      ],
+      "reason": "Model year: BMW NA's 2000 and 2002 sheets differ by one pound.",
+      "resolution": "Used 4,023 lb to match the 2002 reference year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

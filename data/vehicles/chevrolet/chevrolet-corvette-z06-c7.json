@@ -1,0 +1,170 @@
+{
+  "id": "chevrolet-corvette-z06-c7",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C7",
+  "variant": "Z06",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Z06 (C7)",
+  "aliases": [
+    "C7 Z06",
+    "Z06 C7",
+    "Corvette Z06",
+    "LT4",
+    "Z07",
+    "2015 Corvette Z06"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2019
+    },
+    "sourceId": "cac-2015-production",
+    "note": "US model years. Start: 2015 was the first model year; Corvette Action Center's 2015 model year production listing (Bowling Green Assembly data) shows Z06 coupe 6,980 and Z06 convertible 1,673. End: the 2019 model year price list still includes \"Corvette Z06 Coupe\" (1YZ07) and \"Corvette Z06 Conv\" (1YZ67) (source cac-2019-pricing); the 2020 model year Corvette was the mid-engine C8 (GM: \"Chevrolet Introduces First-Ever Mid-Engine Corvette for 2020\", source gm-2020-c8-release)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-2016-z06-specs",
+    "note": "GM: \"2-door hatchback coupe with removable roof panel or 2-door convertible; rear-wheel drive\". Both bodies were sold from the 2015 model year (source cac-2015-production)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2015-lt4-specs",
+      "note": "LT4. GM: \"LT4 6.2L supercharged V-8\" (source gm-2016-z06-specs)."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2015-lt4-specs",
+      "note": "6,162 cc. GM Powertrain: \"6162 cc (376 ci)\"; GM's 2016 table: \"Displacement (cu in / cc): 376 / 6162\" (source gm-2016-z06-specs)."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "gm-2016-z06-specs"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2016-z06-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2016-z06-specs"
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "gm-2016-z06-specs",
+    "note": "GM table: \"Seven-speed manual with Active Rev Match\" and \"Paddle-shift eight-speed, electronically controlled automatic overdrive\" (a torque-converter automatic). Both were offered from the 2015 model year: GM's January 2014 release names \"a seven-speed manual and an all-new eight-speed automatic transmission\" (source gm-2015-z06-history-release)."
+  },
+  "powerHp": {
+    "value": 650,
+    "sourceId": "gm-2015-lt4-specs",
+    "note": "SAE certified. Quote, GM Powertrain's 2015 Corvette Z06 LT4 engine specifications: \"650 hp (485kW) @ 6400 rpm SAE Certified\". GM's 2016 Z06 table repeats \"Horsepower (hp / kW @ rpm): 650 / 485 @ 6400 – SAE certified\" (source gm-2016-z06-specs). At the January 2014 reveal GM quoted \"an estimated 625 horsepower\" (see discrepancies). GM's European release for the same car prints \"659 hp (485 kW)\", the metric-horsepower equivalent of the same 485 kW, which is not the US rating."
+  },
+  "weightLb": {
+    "value": 3524,
+    "sourceId": "gm-2016-z06-specs",
+    "note": "Manufacturer curb weight, standard Z06 coupe without the Z07 package. Quote, GM's US specification table (2016 model year): \"Curb weight (lb / kg): 3524 / 1598 (coupe) 3582 / 1625 (convertible)\". GM's March 2015 release for the 2015 Z06 prints the identical row, \"Curb weight (lb / kg): 3524 / 1598 (coupe) 3582 / 1625 (convertible)\" (source gm-2015-z06-geneva-release, issued for Europe), and GM Authority reported the same 2015 figures from GM's order guide in August 2014: \"the 650 horsepower, 650 pound-foot 2015 Corvette Z06 Coupe will come in at 3,524 lbs\" (source gmauthority-z06-weight-2014). GM's tables give one figure per body and do not split it by transmission."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2015-lt4-specs",
+      "type": "manufacturer",
+      "publisher": "GM Powertrain (specification sheet reproduced by Corvette Action Center)",
+      "title": "2015 Corvette Z06: LT4 Engine Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015-c7-corvette-z06-lt4-engine-specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2016-z06-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Corvette Action Center)",
+      "title": "2016 Corvette Z06 Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2016-c7-corvette/2016-c7-corvette-z06-specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2015-z06-geneva-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet Europe (press release reproduced by Corvette Action Center)",
+      "title": "Chevrolet Corvette Z06 is the most powerful and technologically advanced Corvette ever (March 2, 2015)",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015-c7-corvette-z06-geneva-press-release.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2015-z06-history-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2015 Corvette Z06: A Quick History of a Fast Car (January 13, 2014)",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015-c7-corvette-z06-press-release3.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-z06-weight-2014",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2015 Corvette Z06 Weight Revealed In Order Guide, by Manoli Katakis (August 18, 2014)",
+      "url": "https://gmauthority.com/blog/2014/08/2015-corvette-z06-weight-revealed-in-order-guide/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2015-production",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2015 Corvette Production Numbers",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2015-c7-corvette/2015-c7-corvette-production-numbers.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2019-pricing",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2019 Corvette Pricing",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-corvette-pricing.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2020-c8-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced by Corvette Action Center)",
+      "title": "Chevrolet Introduces First-Ever Mid-Engine Corvette for 2020",
+      "url": "https://www.corvetteactioncenter.com/specs/c8-corvette/2020-corvette/press-release-2020-corvette-mid-engine-introduction-first-ever.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 650,
+          "sourceId": "gm-2015-lt4-specs"
+        },
+        {
+          "value": 625,
+          "sourceId": "gm-2015-z06-history-release"
+        }
+      ],
+      "reason": "Estimate vs certified rating: GM's January 2014 reveal material quoted \"an estimated 625 horsepower\"; the SAE-certified rating published before the car went on sale is 650 hp at 6,400 rpm.",
+      "resolution": "Used 650 hp, the SAE-certified rating in GM Powertrain's 2015 specification sheet and GM's 2016 table."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

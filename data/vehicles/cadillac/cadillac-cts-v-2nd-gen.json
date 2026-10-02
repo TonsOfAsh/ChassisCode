@@ -1,0 +1,198 @@
+{
+  "id": "cadillac-cts-v-2nd-gen",
+  "manufacturer": "Cadillac",
+  "model": "CTS-V",
+  "generation": "2nd gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Cadillac CTS-V (2nd gen)",
+  "aliases": [
+    "CTS-V Coupe",
+    "CTS-V Wagon",
+    "CTS-V Sport Wagon",
+    "V2",
+    "LSA",
+    "2009 CTS-V"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2015
+    },
+    "sourceId": "gm-2009-ctsv-release",
+    "note": "US model years. Sedan 2009 to 2014: GM introduced the \"2009 Cadillac CTS-V\", and GM Media published a 2014 CTS-V Sedan specification table (source gm-2014-ctsv-sedan-specs). Coupe 2011 to 2015: GM's release \"Art And Science: Cadillac Premieres 2011 CTS-V Coupe\" (source gm-2011-ctsv-coupe-release); Consumer Guide, May 2014, quotes Cadillac announcing \"production of a limited, special-edition 2015 CTS-V Coupe, marking the last chapter of the current model before the next generation of the V-Series debuts next year\", 500 cars (source consumerguide-ctsv-2015). Wagon 2011 to 2014: first appears in GM Media's 2011 material (source gm-2011-ctsv-wagon-features) and last in the 2014 product information (source gm-2014-ctsv-wagon-info)."
+  },
+  "body": {
+    "value": [
+      "Sedan",
+      "Coupe",
+      "Wagon"
+    ],
+    "sourceId": "gm-2012-ctsv-sedan-specs",
+    "note": "Sedan: \"4-door sport luxury sedan, RWD\". Coupe from the 2011 model year (source gm-2011-ctsv-coupe-release). Wagon (CTS-V Sport Wagon) from the 2011 model year (source gm-2011-ctsv-wagon-features). All three share the 556 hp engine and both transmissions."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2012-ctsv-sedan-specs",
+      "note": "LSA. GM: \"6.2L Supercharged V-8\"."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2012-ctsv-sedan-specs",
+      "note": "6,162 cc. GM table: \"Displacement (cu in / cc): 376 / 6162\"."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "gm-2012-ctsv-sedan-specs"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2012-ctsv-sedan-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2012-ctsv-sedan-specs"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "gm-2012-ctsv-sedan-specs",
+    "note": "GM table: \"six-speed manual (Tremec TR6060); six-speed automatic (Hydra-Matic 6L90)\". Both from launch: GM's 2009 release names \"a new, Tremec TR6060 six-speed manual with a dual-disc clutch; and a Hydra-Matic 6L90 six-speed automatic\" (source gm-2009-ctsv-release). The coupe and wagon were offered with the same two gearboxes (sources gm-2011-ctsv-coupe-release, gm-2014-ctsv-wagon-info)."
+  },
+  "powerHp": {
+    "value": 556,
+    "sourceId": "gm-2009-ctsv-release",
+    "note": "Quote, GM Media release for the 2009 CTS-V: \"Rated at 556 horsepower (415 kW) and 551 lb.-ft. of torque (747 Nm)\". GM Media's 2012 sedan table: \"Horsepower (hp / kW @ rpm): 556 / 415 @ 6100*\" with the footnote \"*SAE certified.\" (source gm-2012-ctsv-sedan-specs); the 2014 table repeats it (source gm-2014-ctsv-sedan-specs), so the rating was unchanged for the whole run. GM's preliminary 2009 material estimated 550 hp (see discrepancies)."
+  },
+  "weightLb": {
+    "value": 4222,
+    "sourceId": "gm-2010-ctsv-specs",
+    "note": "Manufacturer curb weight, sedan with the six-speed manual, 2010 model year. Quote, GM's 2010 CTS-V specification table: \"Curb weight, manual, lbs. (kg): 4222 (1915)\"; the automatic is \"4255 (1930)\". GM Media's 2012 table gives the same: \"Curb weight (lb / kg): 4222 / 1915 (manual) 4255 / 1930 (automatic)\" (source gm-2012-ctsv-sedan-specs). GM's preliminary 2009 table had only estimates, \"manual: 4200 / 1905 (est)\" (source gm-2009-ctsv-prelim-specs), so the reference model year is 2010, the first with a final figure; the power rating is the same for every model year. The 2014 table gives 4219 / 1914 (source gm-2014-ctsv-sedan-specs). See discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2009-ctsv-release",
+      "type": "manufacturer",
+      "publisher": "GM Media (press release reproduced by Cadillac V-Net)",
+      "title": "2009 Cadillac CTS-V: Cadillac's Ultimate Expression of Performance and Luxury",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2009/2009_cadillac_cts-v_press_release1.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2009-ctsv-prelim-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Cadillac V-Net)",
+      "title": "2009 Cadillac CTS-V Specifications and Overview (preliminary)",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2009/2009_cadillac_cts-v_specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2010-ctsv-specs",
+      "type": "manufacturer",
+      "publisher": "General Motors (specification tables reproduced by Cadillac V-Net)",
+      "title": "2010 Cadillac CTS-V Specifications",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2010/2010_cadillac_cts-v_specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2012-ctsv-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Cadillac V-Net)",
+      "title": "2012 Cadillac CTS-V Sedan Specifications",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2012/2012_cadillac_cts-v_sedan_specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2014-ctsv-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Cadillac V-Net)",
+      "title": "2014 Cadillac CTS-V Sedan Specifications",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2014/2014-cadillac-cts-v-sedan-specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2011-ctsv-coupe-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Cadillac V-Net)",
+      "title": "Art And Science: Cadillac Premieres 2011 CTS-V Coupe",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2011/2011_cadillac_cts-v_press_release1.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2011-ctsv-wagon-features",
+      "type": "manufacturer",
+      "publisher": "GM Media (reproduced by Cadillac V-Net)",
+      "title": "2011 Cadillac CTS-V Wagon Features",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2011/2011_cadillac_cts-v_wagon_features.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2014-ctsv-wagon-info",
+      "type": "manufacturer",
+      "publisher": "Cadillac (product information reproduced by Cadillac V-Net)",
+      "title": "2014 Cadillac CTS-V Wagon Blends Versatility with High Performance",
+      "url": "https://cadillacvnet.com/tech-center/cts-v/2014/2014-cadillac-cts-v-wagon-product-information.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "consumerguide-ctsv-2015",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "Cadillac Sends Off Second-Generation CTS-V With a Run of 500 Special-Edition Coupes, by Tom Appel (May 12, 2014)",
+      "url": "https://blog.consumerguide.com/cadillac-sends-second-generation-cts-v-run-500-special-edition-coupes/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 556,
+          "sourceId": "gm-2009-ctsv-release"
+        },
+        {
+          "value": 550,
+          "sourceId": "gm-2009-ctsv-prelim-specs"
+        }
+      ],
+      "reason": "Estimate vs final rating: GM's preliminary 2009 table gave \"550 / 410 @ 6200 (est)\" before SAE certification; the production rating is 556 hp at 6,100 rpm.",
+      "resolution": "Used 556 hp, the rating in GM's 2009 release and marked SAE certified in GM Media's 2012 and 2014 tables."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4222,
+          "sourceId": "gm-2010-ctsv-specs"
+        },
+        {
+          "value": 4200,
+          "sourceId": "gm-2009-ctsv-prelim-specs"
+        },
+        {
+          "value": 4219,
+          "sourceId": "gm-2014-ctsv-sedan-specs"
+        }
+      ],
+      "reason": "Estimate and model year: 4,200 lb is GM's pre-production estimate for the 2009 manual sedan (\"est\"); 4,222 lb is the manual sedan in GM's 2010 and 2012 tables; 4,219 lb is the same row in the 2014 table.",
+      "resolution": "Used 4,222 lb, the earliest non-estimated manufacturer figure for the manual sedan (2010 model year, repeated for 2012)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

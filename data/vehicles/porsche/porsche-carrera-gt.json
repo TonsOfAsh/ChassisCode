@@ -1,0 +1,204 @@
+{
+  "id": "porsche-carrera-gt",
+  "manufacturer": "Porsche",
+  "model": "Carrera GT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Porsche Carrera GT",
+  "aliases": [
+    "CGT",
+    "Type 980",
+    "Porsche 980",
+    "2004 Carrera GT",
+    "2005 Carrera GT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2004,
+      "endYear": 2005
+    },
+    "sourceId": "edmunds-2005-carrera-gt",
+    "note": "US model years 2004 to 2005. Edmunds lists a \"2004 Porsche Carrera GT\" (edmunds-2004-carrera-gt) and a \"2005 Porsche Carrera GT\" and no 2006 model; the Porsche press text reproduced by Conceptcarz (porsche-press-carrera-gt-conceptcarz) calls the launch car \"the 2004 Porsche Carrera GT\" and says \"The first Carrera GT models produced at the Porsche plant in Leipzig, Germany, will be delivered to customers at the end of 2003.\" Calendar build years were 2003 to 2006: Porsche's classic model page (porsche-classic-carrera-gt) lists \"Carrera GT 2003-2006\", and production \"concluded on Saturday, May 6, 2006\"."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "porsche-press-carrera-gt-conceptcarz",
+    "note": "Two-seat open car with no fixed-roof version. Porsche: \"The new Porsche roadster possesses a simple-operation roof system. It consists of two individual carbon fiber lightweight shells, each weighing only 5.3 pounds (2.4 kilograms).\" Edmunds lists it as \"2dr Convertible\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "porsche-newsroom-carrera-gt-press-kit",
+      "note": "Porsche Newsroom: \"Engine: 10-Cyl. V\""
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "porsche-newsroom-carrera-gt-press-kit",
+      "note": "5,733 cc. Porsche Newsroom: \"Displacement: 5733 ccm\". Porsche press text: \"technicians at the Development Center in Weissach, Germany, have increased the displacement to 5.7 liters.\""
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "porsche-newsroom-carrera-gt-press-kit",
+      "note": "Porsche Newsroom: \"Both the carbon-fibre chassis and the ten-cylinder naturally aspirated mid-engine are based on pure racing technology.\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2005-carrera-gt",
+    "note": "Edmunds: \"Premium unleaded (required)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-2005-carrera-gt",
+    "note": "Edmunds: \"rear wheel drive\". Mid-engined: Porsche Newsroom describes a \"naturally aspirated mid-engine\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "porsche-press-carrera-gt-conceptcarz",
+    "note": "Porsche: \"Its specially developed six-speed manual gearbox allows it to go from zero to 124 mph (200 km/h) in 9.9 seconds.\" No other transmission was offered. Edmunds: \"6-speed manual\"."
+  },
+  "powerHp": {
+    "value": 605,
+    "sourceId": "porsche-press-carrera-gt-conceptcarz",
+    "note": "Quote: \"Maximum output is rated at 605 horsepower (SAE) at 8,000 rpm, with peak torque of 435 lb.-ft.\" This is Porsche's US (SAE) rating, used as published. The European rating is 450 kW (612 PS): Porsche Newsroom (porsche-newsroom-carrera-gt-press-kit) prints \"Power Output: 450 kW (612 HP)\" and the same Porsche press text says \"Maximum output is 612 horsepower (DIN*) at 8,000 rpm\". Edmunds (edmunds-2005-carrera-gt) lists \"605 hp @ 8,000 rpm\" and MotorWeek (motorweek-2005-carrera-gt) \"605 horsepower\"."
+  },
+  "weightLb": {
+    "value": 3042,
+    "sourceId": "porsche-press-carrera-gt-conceptcarz",
+    "note": "Standard car (6-speed manual, the only transmission; no weight-saving package was offered). Quote: \"With a length of 15.12 feet (4.61 meters), a width of 6.3 feet (1.92 meters), a height of 3.81 feet (1.16 meters) and a wheelbase of 8.96 feet (2.73 meters), the roadster weighs 3,042 pounds (1,380 kilograms).\" Corroborated by Evo's specification panel (evo-carrera-gt), \"Weight: 1380kg\", which is 3,042 lb, by Auto123 (auto123-2003-carrera-gt-preview), \"the car's 1,380 kg (3,042 lb) welter-weight\", and by Edmunds, which lists \"3,042 lbs.\" as curb weight for 2005."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2004,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-press-carrera-gt-conceptcarz",
+      "type": "manufacturer",
+      "publisher": "Porsche (press text reproduced by Conceptcarz, marked \"Source - Porsche\")",
+      "title": "2004 Porsche Carrera GT",
+      "url": "https://www.conceptcarz.com/vehicle/z7741/porsche-carrera-gt.aspx",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-newsroom-carrera-gt-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche Newsroom",
+      "title": "Porsche Carrera GT (Porsche Museum press kit)",
+      "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-Carrera-GT.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-classic-carrera-gt",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Classic)",
+      "title": "Model Overview Carrera GT",
+      "url": "https://www.porsche.com/usa/accessoriesandservices/classic/models/980/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-carrera-gt",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Porsche Carrera GT - review, history, prices and specs",
+      "url": "https://www.evo.co.uk/porsche/carrera-gt",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "auto123-2003-carrera-gt-preview",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "2004 Porsche Carrera GT Preview",
+      "url": "https://www.auto123.com/en/news/amp/2004-porsche-carrera-gt-preview/43522/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-2005-carrera-gt",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2005 Porsche Carrera GT (Program #2402)",
+      "url": "https://motorweek.org/road_tests/2005_porsche_carrera_gt_program_2402/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2004-carrera-gt",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2004 Porsche Carrera GT Specs & Features",
+      "url": "https://www.edmunds.com/porsche/carrera-gt/2004/features-specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2005-carrera-gt",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2005 Porsche Carrera GT Specs & Features",
+      "url": "https://www.edmunds.com/porsche/carrera-gt/2005/features-specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 605,
+          "sourceId": "porsche-press-carrera-gt-conceptcarz"
+        },
+        {
+          "value": "450 kW (612 HP)",
+          "sourceId": "porsche-newsroom-carrera-gt-press-kit"
+        },
+        {
+          "value": "604bhp @ 8000rpm",
+          "sourceId": "evo-carrera-gt"
+        }
+      ],
+      "reason": "Rating standard and market. Porsche rated the engine at 450 kW (612 PS, DIN) in Europe and at 605 horsepower (SAE) for the US; Evo's 604 bhp is the UK conversion of 612 PS.",
+      "resolution": "605 used: Porsche's SAE rating for the US car."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3042,
+          "sourceId": "porsche-press-carrera-gt-conceptcarz"
+        },
+        {
+          "value": 3043,
+          "sourceId": "edmunds-2004-carrera-gt"
+        }
+      ],
+      "reason": "Rounding of 1,380 kg (3,042.4 lb). Edmunds lists 3,043 lbs. for 2004 and 3,042 lbs. for 2005.",
+      "resolution": "3,042 used: the figure in Porsche's own press text, and 1,380 kg converted at 2.20462."
+    },
+    {
+      "field": "engine.displacementL",
+      "values": [
+        {
+          "value": "5733 ccm",
+          "sourceId": "porsche-newsroom-carrera-gt-press-kit"
+        },
+        {
+          "value": "5773cc",
+          "sourceId": "evo-carrera-gt"
+        }
+      ],
+      "reason": "Evo's specification panel prints 5773cc, which looks like a transposition of Porsche's 5,733 cc.",
+      "resolution": "5,733 cc used (Porsche's figure); both round to 5.7."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

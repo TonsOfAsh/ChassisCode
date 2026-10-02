@@ -16,11 +16,11 @@
   "country": "Germany",
   "production": {
     "value": {
-      "startYear": 2013,
+      "startYear": 2014,
       "endYear": 2016
     },
     "sourceId": "stuttcars-911-gt3-991-1",
-    "note": "Stuttcars: premiered March 2013, market launch August 2013, sold as model years 2014-2016. The end year is the last model year; the calendar year production ended is not confirmed (see discrepancies)."
+    "note": "US model years 2014-2016. Previously recorded as calendar years 2013-2016: Stuttcars: premiered March 2013, market launch August 2013, sold as model years 2014-2016. The end year is the last model year; the calendar year production ended is not confirmed (see discrepancies)."
   },
   "body": {
     "value": [
@@ -72,7 +72,8 @@
     "market": "US",
     "referenceModelYear": 2014,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "model"
   },
   "sources": [
     {
@@ -137,7 +138,8 @@
           "sourceId": "renndriver-991-gt3-guide"
         }
       ],
-      "reason": "Stuttcars gives model years (2014-2016) and a 2013 market launch; RennDriver gives \"2013 to 2015\" without saying whether these are calendar or model years. No manufacturer source for the last calendar year of production was found."
+      "reason": "Stuttcars gives model years (2014-2016) and a 2013 market launch; RennDriver gives \"2013 to 2015\" without saying whether these are calendar or model years. No manufacturer source for the last calendar year of production was found.",
+      "resolution": "Settled by the model-year convention: the record now gives US model years 2014-2016, which the cited source states. The calendar year production ended is no longer needed."
     },
     {
       "field": "weightLb",
@@ -155,8 +157,7 @@
       "resolution": "Use 3,153 lb, the figure Porsche Cars North America publishes."
     }
   ],
-  "needsReview": true,
-  "reviewNotes": "Production end year is uncertain: 2016 is the last model year (Stuttcars); another source says 2015. Need a manufacturer or major-publication statement of the last calendar year the 991.1 GT3 was built. Power and weight are manufacturer US figures and are not in doubt.",
+  "needsReview": false,
   "confidence": "high",
   "image": null,
   "dailyEligible": true

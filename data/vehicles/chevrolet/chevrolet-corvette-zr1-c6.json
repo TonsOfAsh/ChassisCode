@@ -1,0 +1,186 @@
+{
+  "id": "chevrolet-corvette-zr1-c6",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C6",
+  "variant": "ZR1",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette ZR1 (C6)",
+  "aliases": [
+    "C6 ZR1",
+    "ZR1 C6",
+    "Corvette ZR1",
+    "LS9",
+    "Blue Devil",
+    "King of the Hill",
+    "2009 Corvette ZR1"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2013
+    },
+    "sourceId": "gm-2009-zr1-power-release",
+    "note": "US model years. Start: GM introduced the car as the \"2009 Chevrolet Corvette ZR1\", and Corvette Action Center's 2009 model year production listing (\"Source: Bowling Green Corvette Assembly Plant\") shows \"ZR1 1,415\" (source cac-2009-production). End: GM Media published a \"2013 Corvette ZR1 Specifications\" table (source gm-2013-zr1-specs), and GM's January 2012 release calls 2013 \"the final year for the current 'C6' generation\" (source gm-2013-427-release)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "gm-2010-zr1-specs",
+    "note": "Fixed-roof coupe only. GM: \"2-door hatchback coupe with fixed roof; rear-wheel drive\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2010-zr1-specs",
+      "note": "LS9. GM: \"6.2L SUPERCHARGED V-8 (LS9)\"."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2010-zr1-specs",
+      "note": "6,162 cc. GM table: \"Displacement (cu in / cc): 376 / 6162\"; the April 2008 power release prints the same line (source gm-2009-zr1-power-release)."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "gm-2009-zr1-power-release",
+      "note": "GM: \"the ZR1's supercharged LS9 V-8\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2010-zr1-specs",
+    "note": "GM table: \"Recommended fuel: premium required\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2010-zr1-specs"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "gm-2010-zr1-specs",
+    "note": "Manual only. GM table: \"Tremec TR6060 close-ratio six-speed manual\"; the same line is in GM's 2013 ZR1 table (source gm-2013-zr1-specs). No automatic was offered."
+  },
+  "powerHp": {
+    "value": 638,
+    "sourceId": "gm-2009-zr1-power-release",
+    "note": "SAE certified, unchanged for every model year. Quote: \"GM Powertrain has completed SAE certification of the ZR1's supercharged LS9 V-8 and the results exceed the estimate: 638 horsepower (476 kW) and 604 lb.-ft. of torque (819 Nm).\" Spec line in the same release: \"Horsepower / kW: 638 / 476 @ 6500 rpm\". GM Media's 2010 table repeats \"638 / 476 @ 6500*\" with the footnote \"*SAE certified.\" (source gm-2010-zr1-specs). The pre-certification estimate at the car's reveal was 620 hp (see discrepancies)."
+  },
+  "weightLb": {
+    "value": 3333,
+    "sourceId": "gm-2010-zr1-specs",
+    "note": "Manufacturer curb weight, standard ZR1 (fixed-roof coupe, six-speed manual, the only configuration). Quote, GM Media specification table for the 2010 model year: \"Curb weight (lb / kg): 3333 / 1512\". This is the earliest GM specification table found that gives a curb weight without an \"est.\" label; it is for the 2010 model year, one year after the reference year. GM's preliminary 2009 table gave \"3350 / 1519 (est)\" (source gm-2009-zr1-prelim-specs). GM Media's 2011 table repeats 3333 / 1512; its 2012 and 2013 tables give \"3353 / 1521\" (source gm-2013-zr1-specs). A Chevy Racing comparison table for the 2009 ZR1 prints \"Weight (lb): 3324\" without calling it curb weight (source gm-2009-zr1-c6r-table). See discrepancies. The reference model year is 2010 to match this table; the power rating is the same for every model year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2009-zr1-power-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "Chevrolet Announces Certified Power Ratings For the New 2009 Corvette ZR1 (April 25, 2008)",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2009/zr1/press2.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2010-zr1-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Corvette Action Center)",
+      "title": "2010 Corvette ZR1 Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2010-corvette/2010-corvette-zr1-specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2009-zr1-prelim-specs",
+      "type": "manufacturer",
+      "publisher": "General Motors (specification table reproduced by Corvette Action Center)",
+      "title": "2009 ZR1 Corvette: Specifications - Preliminary",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press6.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2009-zr1-c6r-table",
+      "type": "manufacturer",
+      "publisher": "Chevy Racing Communications (table reproduced by Corvette Action Center)",
+      "title": "2009 Corvette ZR1 and GT2 C6-R Engine Specifications",
+      "url": "https://www.corvetteactioncenter.com/racing/gt2_c6r_specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2013-zr1-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Corvette Action Center)",
+      "title": "2013 Corvette ZR1 Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2013/2013_zr1_specs.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2013-427-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2013 Corvette Marks 60 Years of Performance with 427 Convertible Collector Edition (January 12, 2012)",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2013/2013_press1.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2009-production",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2009 Corvette Production Numbers",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2009/2009-corvette-production-numbers.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 638,
+          "sourceId": "gm-2009-zr1-power-release"
+        },
+        {
+          "value": 620,
+          "sourceId": "gm-2009-zr1-prelim-specs"
+        }
+      ],
+      "reason": "Estimate vs certified rating: the preliminary table published at the car's reveal gave \"620 / 462 (est.)\"; GM's April 2008 release announced the SAE-certified 638 hp before the car went on sale.",
+      "resolution": "Used 638 hp, the SAE-certified rating the car was sold with in every model year."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3333,
+          "sourceId": "gm-2010-zr1-specs"
+        },
+        {
+          "value": 3350,
+          "sourceId": "gm-2009-zr1-prelim-specs"
+        },
+        {
+          "value": 3324,
+          "sourceId": "gm-2009-zr1-c6r-table"
+        },
+        {
+          "value": 3353,
+          "sourceId": "gm-2013-zr1-specs"
+        }
+      ],
+      "reason": "Estimate, labelling and model year: 3,350 lb is GM's pre-production estimate for 2009 (\"est\"); 3,324 lb appears in Chevy Racing's ZR1 vs C6.R comparison tables as \"Weight (lb)\", not labelled curb weight; 3,333 lb is the \"Curb weight\" row of GM Media's 2010 and 2011 tables; 3,353 lb is the same row in the 2012 and 2013 tables. The spread is 29 lb.",
+      "resolution": "Used 3,333 lb: the earliest non-estimated figure that GM Media labels curb weight, from the model year closest to the 2009 reference year. No final GM Media specification table for the 2009 model year was found."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

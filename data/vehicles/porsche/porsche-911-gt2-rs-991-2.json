@@ -1,0 +1,147 @@
+{
+  "id": "porsche-911-gt2-rs-991-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.2",
+  "variant": "GT2 RS",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT2 RS (991.2)",
+  "aliases": [
+    "991 GT2 RS",
+    "991.2 GT2 RS",
+    "GT2 RS 991",
+    "GT2RS",
+    "Weissach Package",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2019
+    },
+    "sourceId": "edmunds-2019-911-gt2-rs",
+    "note": "US model years 2018 to 2019. First: pcna-2018-911-gt2-rs-press-kit calls it \"The 2018 Porsche 911 GT2 RS\" and says \"It will reach U.S. dealers in early 2018.\" Last: Edmunds lists a \"2019 Porsche 911 GT2 RS\" (and a 2018 one, edmunds-2018-911-gt2-rs) and has no 2020 page; stuttcars-911-gt2-rs-991-2 is titled \"Porsche 911 GT2 RS (991.2) (2018 - 2019)\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2018-911-gt2-rs",
+    "note": "Edmunds: \"2dr Coupe\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2018-911-gt2-rs-press-kit",
+      "note": "Press kit: \"twin-turbo flat-six engine\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "porsche-ag-911-gt2-rs-tech-data",
+      "note": "3,800 cc. Porsche AG technical data: \"Displacement 3,800 cm3\". PCNA: \"The 3.8 liter engine of the 911 GT2 RS was taken from the 911 Turbo S.\""
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pcna-2018-911-gt2-rs-press-kit",
+      "note": "Press kit: \"twin-turbo flat-six\"; Porsche AG technical data: \"Flat engine with twin turbochargers (VTG turbochargers)\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2018-911-gt2-rs",
+    "note": "Edmunds: \"Premium unleaded (required)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2018-911-gt2-rs-press-kit",
+    "note": "Press kit: all 911 GT2 models have \"rear-wheel drive instead of all-wheel drive\". Porsche AG technical data: \"Drive system Rear-wheel drive\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "porsche-ag-911-gt2-rs-tech-data",
+    "note": "Porsche AG technical data: \"Seven-speed Porsche double-clutch transmission\". DCT is Porsche PDK; no manual was offered. PCNA: \"The Porsche Doppelkupplung (PDK) is an innovation rooted in motorsport and is now fitted to the 911 GT2 RS.\""
+  },
+  "powerHp": {
+    "value": 700,
+    "sourceId": "pcna-2018-911-gt2-rs-press-kit",
+    "note": "Quote: \"Weighing 3,241 pounds with a full tank of fuel, the 700 horsepower twin-turbo flat-six engine propels the two-seater from 0 to 60 mph in 2.7 seconds.\" Porsche AG technical data porsche-ag-911-gt2-rs-tech-data gives \"Max. power output 515 kW (700 hp)\"; Porsche Cars North America published 700 hp for the US car and that figure is used as published."
+  },
+  "weightLb": {
+    "value": 3241,
+    "sourceId": "pcna-2018-911-gt2-rs-press-kit",
+    "note": "Standard car (7-speed PDK, without the optional Weissach Package). Quote: \"Weighing 3,241 pounds with a full tank of fuel, the 700 horsepower twin-turbo flat-six engine propels the two-seater from 0 to 60 mph in 2.7 seconds.\" The same press kit says \"The optional Weissach Package offers a 40 pound weight saving for the 911 GT2 RS.\", so 3,241 lb is the car without it. Matches Porsche AG's \"Unladen weight (DIN) 1,470 kg\" (porsche-ag-911-gt2-rs-tech-data), which is 3,241 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2018-911-gt2-rs-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom)",
+      "title": "Porsche 911 GT2 RS U.S. Press Information (PCNA18_0106)",
+      "url": "https://newsroom.porsche.com/dam/jcr:7b4d72bf-075f-4af0-bdbc-88491ef75b14/PCNA18_0106_us.pdf.PDF",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-ag-911-gt2-rs-tech-data",
+      "type": "manufacturer",
+      "publisher": "Porsche AG",
+      "title": "Technical data for 911 GT2 RS",
+      "url": "https://cdn.uc.assets.prezly.com/94f9a582-706f-41cb-a152-3bc74c6c37e9/-/inline/no/pag911gt2rstden.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2018-911-gt2-rs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2018 Porsche 911 GT2 RS - Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2018/gt2-rs/features-specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2019-911-gt2-rs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2019 Porsche 911 GT2 RS - Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2019/gt2-rs/features-specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "stuttcars-911-gt2-rs-991-2",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 GT2 RS (991.2) (2018 - 2019) - Pictures & Gallery",
+      "url": "https://www.stuttcars.com/porsche-911-gt2-rs-991-2/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 700,
+          "sourceId": "pcna-2018-911-gt2-rs-press-kit"
+        },
+        {
+          "value": 690,
+          "sourceId": "edmunds-2019-911-gt2-rs"
+        }
+      ],
+      "reason": "Edmunds' 2019 spec table prints \"690 hp @ 7,000 rpm\", while its 2018 table (edmunds-2018-911-gt2-rs) prints \"700 hp @ 7,000 rpm\" for the same car. No Porsche source opened shows a change in rating; the 690 figure appears to be a database entry error.",
+      "resolution": "700 used: Porsche Cars North America's published rating, matched by Porsche AG's technical data."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,145 @@
+{
+  "id": "chevrolet-corvette-z06-c5",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C5",
+  "variant": "Z06",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Z06 (C5)",
+  "aliases": [
+    "C5 Z06",
+    "Z06 C5",
+    "Corvette Z06",
+    "LS6",
+    "Z06 hardtop",
+    "2002 Corvette Z06"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2001,
+      "endYear": 2004
+    },
+    "sourceId": "gm-2001-corvette-overview",
+    "note": "US model years. Start: GM's 2001 Corvette release (dated July 1, 2000) introduces the Z06 as new for the 2001 model year, so the first cars were built in calendar 2000. End: GM's April 2003 release calls 2004 \"the final chapter in the C5 era\" (source gm-2004-commemorative-release), and the GM Media specification table for 2004 still lists the Z06 (source gm-2004-corvette-specs)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "gm-2002-corvette-release",
+    "note": "Fixed-roof hardtop only; GM lists it as \"Z06 (hardtop)\", based on the former hardtop model."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2002-corvette-release",
+      "note": "5.7L LS6 V8"
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "gm-2002-corvette-release",
+      "note": "350 cu in / 5,665 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-2002-corvette-release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2002-corvette-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2002-corvette-release",
+    "note": "Spec table: \"Rear-drive, front-engine\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "gm-2002-corvette-release",
+    "note": "The M12 six-speed manual is the only transmission offered on the Z06 (also stated in GM's 2001 and 2004 releases, sources gm-2001-corvette-overview and gm-2004-corvette-specs)."
+  },
+  "powerHp": {
+    "value": 405,
+    "sourceId": "gm-2002-corvette-release",
+    "note": "2002 to 2004 rating. Quote: \"The new LS6 V8 delivers 405 horsepower at 6000 rpm\"; spec table Z06 column: \"405 @ 6000 rpm\". The 2001 model was rated 385 hp. Quote (source gm-2001-corvette-overview): \"The LS-6 engine delivers 385 hp @ 6000 rpm\". Reference year is 2002 because the 405 hp rating applied to three of the four model years. The GM Media table for 2004 gives the same \"405 / 302 @ 6000\" (source gm-2004-corvette-specs)."
+  },
+  "weightLb": {
+    "value": 3118,
+    "sourceId": "gm-2002-corvette-release",
+    "note": "Manufacturer curb weight, standard 2002 Z06 (hardtop, six-speed manual, the only configuration). Quote, spec table Z06 column: \"Curb Weight (lbs/kg): 3118 / 1414\". The GM Media table for 2004 gives the same \"3118 / 1414\" (source gm-2004-corvette-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2002,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2002-corvette-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2002 Corvette Press Release - Options - Highlights",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/2002/2002press.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2001-corvette-overview",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2001 Corvette Offers More in Several Dimensions - New Z06 Model Debuts",
+      "url": "https://corvetteactioncenter.com/specs/c5/2001/2001over.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2004-commemorative-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2004 Chevrolet Corvette: Commemorative Edition Celebrates Racing Success",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/2004/04242003a.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2004-corvette-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media Archives (specification table reproduced by Corvette Action Center)",
+      "title": "2004 Corvette Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/2004/specs.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "newport-museum-2004-z06",
+      "type": "publication",
+      "publisher": "Newport Car Museum",
+      "title": "Car of the Month - July, 2023: 2004 Corvette Z06 Commemorative Edition",
+      "url": "https://newportcarmuseum.org/2004-corvette-z06-commemorative-edition/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3118,
+          "sourceId": "gm-2002-corvette-release"
+        },
+        {
+          "value": 3086,
+          "sourceId": "newport-museum-2004-z06"
+        }
+      ],
+      "reason": "Model year and option package: the museum page describes the 2004 Commemorative Edition Z06, an optioned car with a carbon-fiber hood (GM: 10.6 lb lighter than the standard hood), and gives no origin for its 3,086 lb figure. GM's own tables give 3,118 lb for the standard Z06 in both 2002 and 2004.",
+      "resolution": "Used GM's 3,118 lb for the standard 2002 Z06. A weight for an optioned car is not used, and the museum figure is not a manufacturer or major-publication figure."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

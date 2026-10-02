@@ -79,7 +79,8 @@
     "market": "EU",
     "referenceModelYear": 2003,
     "powerStandard": "DIN PS",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "calendar"
   },
   "sources": [
     {

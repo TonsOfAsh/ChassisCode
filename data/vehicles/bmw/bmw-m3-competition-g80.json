@@ -16,11 +16,11 @@
   "country": "Germany",
   "production": {
     "value": {
-      "startYear": 2020,
+      "startYear": 2021,
       "endYear": null
     },
     "sourceId": "bmw-m-m3-generations",
-    "note": "BMW M: G80 'produced since 2020' (series production began at Plant Munich in November 2020; US launch March 2021). Still on sale: on 2026-09-30 bmwusa.com listed the rear-wheel-drive M3 Competition Sedan (503 hp, 8-speed M Steptronic) separately from the M3 Competition xDrive (https://www.bmwusa.com/vehicles/m-series/m3-series/bmw-m3-sedan.html)."
+    "note": "US model years 2021-present. Launched as the 2021 M3 (BMW NA's release is titled 'The New 2021 BMW M3 Sedan and M4 Coupe'). Previously recorded as calendar years 2020-present: BMW M: G80 'produced since 2020' (series production began at Plant Munich in November 2020; US launch March 2021). Still on sale: on 2026-09-30 bmwusa.com listed the rear-wheel-drive M3 Competition Sedan (503 hp, 8-speed M Steptronic) separately from the M3 Competition xDrive (https://www.bmwusa.com/vehicles/m-series/m3-series/bmw-m3-sedan.html)."
   },
   "body": {
     "value": [
@@ -75,7 +75,8 @@
     "market": "US",
     "referenceModelYear": 2021,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "model"
   },
   "sources": [
     {

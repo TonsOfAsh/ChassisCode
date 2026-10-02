@@ -1,0 +1,132 @@
+{
+  "id": "porsche-911-carrera-s-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "Carrera S",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera S (992.1)",
+  "aliases": [
+    "992 Carrera S",
+    "992.1 Carrera S",
+    "Carrera S 992",
+    "911 Carrera S Cabriolet",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2024
+    },
+    "sourceId": "pcna-2020-carrera-s-cabriolet",
+    "note": "US model years 2020 to 2024. First: PCNA calls the launch cars \"The 2020 911 Carrera S and 4S Cabriolet\", \"expected to reach U.S. dealers in late summer 2019\", and the US spec sheet porsche-2020-carrera-s-us-specs is headed \"2020 911 Carrera S\". Last: porsche-2025-carrera-s says \"Porsche is adding the new Carrera S to the 911 model lineup for the 2025 model year\" (the 992.2 successor), and stuttcars-992-carrera-s dates the 992.1 car \"2019 - 2024\" with the \"close of the 992.1 era (2024)\". Stuttcars' 2019 start is the European launch year; in the US the first model year was 2020."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2020-carrera-s-cabriolet",
+    "note": "Quote: \"Like the recently introduced Coupe models, both the 911 Carrera S and 4S Cabriolet now feature the wider body\". The Cabriolet is the open version of the same variant, so it is listed here rather than as its own record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-2020-carrera-s-us-specs",
+      "note": "Spec sheet: engine type \"Boxer, twin-turbo\", 6 cylinders"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "porsche-2020-carrera-s-us-specs",
+      "note": "Spec sheet: \"Displacement (Liters): 3.0 l\". No cc figure is printed in the US spec sheet; the rounded litre figure is used as published."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "porsche-2020-carrera-s-us-specs",
+      "note": "Spec sheet: \"Boxer, twin-turbo\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-2020-carrera-s-us-specs",
+    "note": "Spec sheet lists fuel as \"Premium\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "porsche-2020-carrera-s-us-specs",
+    "note": "Spec sheet: \"Rear-wheel drive\". The all-wheel-drive Carrera 4S is a separate car."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "8-speed DCT"
+    ],
+    "sourceId": "porsche-2020-carrera-s-us-specs",
+    "note": "Spec sheet: \"7-speed manual transmission\" and \"8-speed dual-clutch PDK\". DCT is Porsche PDK, standard at launch; the manual was added during model year 2020 (stuttcars-992-carrera-s: \"7-spd manual (MY2020+)\")."
+  },
+  "powerHp": {
+    "value": 443,
+    "sourceId": "porsche-2020-carrera-s-us-specs",
+    "note": "Quote: \"Maximum power output @ engine speed: 443 hp @ 6500\" (same in the manual and PDK columns). Corroborated by porsche-2020-carrera-s-us-specs-pdk and by pcna-2020-carrera-s-cabriolet: \"The flat-six turbocharged engines make 443 horsepower in the S models.\""
+  },
+  "weightLb": {
+    "value": 3298,
+    "sourceId": "porsche-2020-carrera-s-us-specs",
+    "note": "Coupe with the 7-speed manual. Quote: \"Curb weight (lbs): 3382 lbs. | 3487 lbs. | 3298 lbs. | 3402 lbs.\" under the columns \"2020 911 Carrera S | 2020 911 Carrera 4S | 2020 911 Carrera S with manual transmission | 2020 911 Carrera 4S with manual transmission\". The PDK coupe is 3,382 lb (also in porsche-2020-carrera-s-us-specs-pdk)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-2020-carrera-s-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Newsroom)",
+      "title": "2020 Porsche Models Technical Data: 2020 911 Carrera S and 911 Carrera 4S, PDK and manual transmission, US specifications",
+      "url": "https://newsroom.porsche.jp/dam/jcr:c96d5ec7-0422-48c9-941a-216511da809c/2020_911_Carrera_S_and_911_Carrera_4S_PDK_and_manual_transmission_US_specifications.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-2020-carrera-s-us-specs-pdk",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Newsroom)",
+      "title": "2020 Porsche Models Technical Data: 2020 911 Carrera S and 911 Carrera 4S US specifications",
+      "url": "https://newsroom.porsche.com/dam/jcr:d5712d5c-b376-41d9-8201-09731162e143/2020_911_Carrera_S_and_911_Carrera_4S_US_specifications.pdf.PDF",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2020-carrera-s-cabriolet",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Open-air thrills: The new 2020 Porsche 911 Carrera S and 4S Cabriolet",
+      "url": "https://newsroom.porsche.com/en_US/products/new-2020-porsche-911-carreras-4s-cabriolet-18344.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-2025-carrera-s",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "2025 Porsche 911 Carrera S Coupe and Cabriolet announced",
+      "url": "https://newsroom.porsche.com/en_US/2025/products/porsche-911-carrera-s-and-cabriolet-38321.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "stuttcars-992-carrera-s",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 Carrera S Coupe (992.1) (2019 - 2024)",
+      "url": "https://www.stuttcars.com/porsche-911-carrera-s-992/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

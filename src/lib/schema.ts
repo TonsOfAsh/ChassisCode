@@ -12,6 +12,7 @@ import {
   SOURCE_TYPES,
   TRANSMISSION_PATTERN,
   WEIGHT_TYPES,
+  YEAR_TYPES,
 } from './vocab';
 
 /** A spec value together with the source it came from. */
@@ -116,6 +117,8 @@ export const VehicleSchema = z
         referenceModelYear: year,
         powerStandard: z.enum(POWER_STANDARDS),
         weightType: z.enum(WEIGHT_TYPES),
+        /** Whether `production` holds model years or calendar build years. */
+        yearType: z.enum(YEAR_TYPES),
       })
       .strict(),
 

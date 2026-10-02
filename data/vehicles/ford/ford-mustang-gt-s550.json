@@ -1,0 +1,173 @@
+{
+  "id": "ford-mustang-gt-s550",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S550",
+  "variant": "GT",
+  "subVariant": null,
+  "displayName": "Ford Mustang GT (S550)",
+  "aliases": [
+    "Mustang GT",
+    "S550 GT",
+    "S550 Mustang",
+    "5.0",
+    "Mustang 5.0",
+    "Coyote",
+    "2015 Mustang GT",
+    "2018 Mustang GT",
+    "SelectShift"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "sourceId": "fordauthority-mustang-2023",
+    "note": "US model years 2015-2023. Ford Authority calls 2023 'the ninth and final model year of the pony car's sixth generation', which makes 2015 the first. The 2015 model went on sale in autumn 2014 (source kbb-mustang-specs-2014)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "fordauthority-mustang-2023",
+    "note": "Ford calls the coupe the Fastback. The GT was sold as fastback and convertible (2023: GT Premium 'Available as Fastback ... or Convertible'); 2015 GT convertible pricing is in source kbb-mustang-specs-2014."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-mustang-release-2014"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "ford-mustang-release-2014",
+      "note": "Ford: 'The 5.0-liter V8 powers into a new generation'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-mustang-release-2014"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-release-2014"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-release-2014"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic",
+      "10-speed Automatic"
+    ],
+    "sourceId": "kbb-mustang-specs-2014",
+    "note": "2015-2017: standard 6-speed manual or optional 6-speed SelectShift automatic (KBB, 17 July 2014). From model year 2018 the 6-speed automatic was replaced by a 10-speed automatic (source thedrive-mustang-gt-2018). 2023: six-speed manual or 10-speed automatic (source fordauthority-mustang-2023)."
+  },
+  "powerHp": {
+    "value": 435,
+    "sourceId": "ford-mustang-release-2014",
+    "note": "Launch rating, model years 2015-2017, from Ford's press release of 17 July 2014. Quote: \"These upgrades have boosted output of the V8 to 435 horsepower and 400 lb.-ft. of torque.\" The rating changed twice with no change of name: 460 hp and 420 lb-ft for model years 2018-2021 (source thedrive-mustang-gt-2018), then 450 hp and 410 lb-ft for 2022-2023 to meet emissions rules (source thedrive-mustang-2022; 450 hp also in fordauthority-mustang-2023). No single rating covers most of the nine model years, so the launch year is the reference year."
+  },
+  "weightLb": {
+    "value": 3705,
+    "sourceId": "motorauthority-mustang-specs-2014",
+    "note": "2015 GT fastback with the standard 6-speed manual, base curb weight as released by Ford on 17 July 2014 and reported by Motor Authority. Quote: \"Mustang GT: 3,705 lbs (manual), 3,729 lbs (automatic)\". Same figures attributed to Ford in source torquenews-mustang-weight-2014. Consistent with Ford's own release (source ford-mustang-release-2014: 'Mustang GT has as few as 8.52 pounds per horsepower'; 3,705 / 435 = 8.52). Ford's spec sheet itself could not be opened, so the weight rests on publications. Performance Package and convertible weights are not included."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-release-2014",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (press release of 17 July 2014, reproduced in full by Automotive Addicts)",
+      "title": "2015 Ford Mustang Specs Revealed: GT Gets 435 Horsepower",
+      "url": "https://www.automotiveaddicts.com/44779/2015-ford-mustang-specs-revealed-gt-gets-435-horsepower",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-mustang-specs-2014",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "New 2015 Ford Mustang Specs: EcoBoost Gets 310 HP, Weighs 3,532 Lbs & More",
+      "url": "https://www.motorauthority.com/news/1093331_new-2015-ford-mustang-specs-ecoboost-gets-310-hp-weighs-3532-lbs-more",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "torquenews-mustang-weight-2014",
+      "type": "publication",
+      "publisher": "Torque News",
+      "title": "The 2015 Ford Mustang Gains Way Less than 300 Pounds",
+      "url": "https://www.torquenews.com/106/2015-ford-mustang-gains-way-less-300-pounds",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "jalopnik-mustang-weight-2014",
+      "type": "publication",
+      "publisher": "Jalopnik",
+      "title": "The 2015 Mustang Gains Less Than A Hundred Pounds",
+      "url": "https://jalopnik.com/the-2015-mustang-gains-less-than-a-hundred-pounds-1590194961",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-mustang-specs-2014",
+      "type": "publication",
+      "publisher": "Kelley Blue Book (news article by Bob Nagy)",
+      "title": "2015 Ford Mustang specs detailed",
+      "url": "https://www.kbb.com/car-news/2015-ford-mustang-specs-detailed",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-mustang-gt-2018",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2018 Ford Mustang GT Makes 460 HP, Does 0-60 MPH in Under 4 Seconds",
+      "url": "https://www.thedrive.com/new-cars/12799/2018-ford-mustang-gt-does-0-60-in-under-4-seconds",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-mustang-2022",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2022 Ford Mustang's 5.0L V8 Down 10 HP to Meet Emissions Standards",
+      "url": "https://www.thedrive.com/news/42730/2022-ford-mustangs-5-0l-v8-down-10-hp-to-meet-emissions-standards",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "fordauthority-mustang-2023",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "2023 Ford Mustang",
+      "url": "https://fordauthority.com/fmc/ford/ford-mustang/2023-ford-mustang/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3705,
+          "sourceId": "motorauthority-mustang-specs-2014"
+        },
+        {
+          "value": 3704,
+          "sourceId": "jalopnik-mustang-weight-2014"
+        }
+      ],
+      "reason": "Jalopnik's 3,704 lb (manual GT fastback) came from a pre-release Ford Dealer Source Book in June 2014, before Ford's official release; the 3,705 lb figure is the one Ford released on 17 July 2014. A 1 lb rounding difference.",
+      "resolution": "Used 3,705 lb, Ford's officially released figure, reported identically by Motor Authority and Torque News."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

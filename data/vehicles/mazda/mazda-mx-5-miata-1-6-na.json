@@ -17,11 +17,11 @@
   "country": "Japan",
   "production": {
     "value": {
-      "startYear": 1989,
+      "startYear": 1990,
       "endYear": 1993
     },
     "sourceId": "petrolicious-miata-na",
-    "note": "Years the 1.6 was in the US-market lineup: launched May 1989 as a 1990 model (Mazda), 1.6-litre through model year 1993, 1.8-litre from model year 1994 (Petrolicious). The end year is the last US 1.6 model year; the exact calendar date the last US-market 1.6 was built, and 1.6 production for other markets, were not verified."
+    "note": "US model years 1990-1993. Previously recorded as calendar years 1989-1993: Years the 1.6 was in the US-market lineup: launched May 1989 as a 1990 model (Mazda), 1.6-litre through model year 1993, 1.8-litre from model year 1994 (Petrolicious). The end year is the last US 1.6 model year; the exact calendar date the last US-market 1.6 was built, and 1.6 production for other markets, were not verified."
   },
   "body": {
     "value": [
@@ -77,7 +77,8 @@
     "market": "US",
     "referenceModelYear": 1990,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "model"
   },
   "sources": [
     {

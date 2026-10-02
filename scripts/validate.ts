@@ -155,6 +155,10 @@ for (const file of loadRawFiles(dir)) {
     warn(name, `US-market record uses power standard "${v.specBasis.powerStandard}" instead of SAE net; explain why in the power note.`);
   if (v.specBasis.powerStandard !== 'SAE net' && !v.powerHp.note)
     warn(name, 'Power was converted from a metric rating; put the original figure in the power note.');
+  if (v.specBasis.market === 'US' && v.specBasis.yearType !== 'model')
+    warn(name, 'US-market record gives calendar years; it should give US model years.');
+  if (v.specBasis.market !== 'US' && v.specBasis.yearType !== 'calendar')
+    warn(name, 'Non-US record gives model years; it should give calendar build years.');
   if (v.specBasis.weightType === 'dry') warn(name, 'Weight is a dry weight, not curb weight.');
   if (v.needsReview) warn(name, `Flagged for manual review${v.reviewNotes ? `: ${v.reviewNotes}` : '.'}`);
   if (v.confidence === 'low') warn(name, 'Confidence is low.');

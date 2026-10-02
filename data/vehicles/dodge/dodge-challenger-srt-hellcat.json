@@ -6,23 +6,59 @@
   "variant": "SRT Hellcat",
   "subVariant": null,
   "displayName": "Dodge Challenger SRT Hellcat",
-  "aliases": ["Hellcat", "Challenger Hellcat", "Hellcat Challenger", "Supercharged HEMI", "TorqueFlite", "8HP90", "TR-6060"],
+  "aliases": [
+    "Hellcat",
+    "Challenger Hellcat",
+    "Hellcat Challenger",
+    "Supercharged HEMI",
+    "TorqueFlite",
+    "8HP90",
+    "TR-6060"
+  ],
   "country": "United States",
   "production": {
-    "value": { "startYear": 2014, "endYear": 2023 },
+    "value": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
     "sourceId": "dodge-challenger-srt-release-2014",
-    "note": "Dodge: production of the 2015 Challenger SRT begins at Brampton (Ont.) Assembly in the third quarter of 2014. End year: Challenger production at Brampton ended on 22 December 2023 (GM Authority, source gmauthority-challenger-end-2023). Model years 2015-2023."
+    "note": "US model years 2015-2023. Previously recorded as calendar years 2014-2023: Dodge: production of the 2015 Challenger SRT begins at Brampton (Ont.) Assembly in the third quarter of 2014. End year: Challenger production at Brampton ended on 22 December 2023 (GM Authority, source gmauthority-challenger-end-2023). Model years 2015-2023."
   },
-  "body": { "value": ["Coupe"], "sourceId": "dodge-challenger-srt-specs-2015", "note": "Standard body. The Widebody is an option package and the Redeye, Demon, Super Stock and Jailbreak are separate variants." },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "dodge-challenger-srt-specs-2015",
+    "note": "Standard body. The Widebody is an option package and the Redeye, Demon, Super Stock and Jailbreak are separate variants."
+  },
   "engine": {
-    "configuration": { "value": "V8", "sourceId": "dodge-challenger-srt-specs-2015" },
-    "displacementL": { "value": 6.2, "sourceId": "dodge-challenger-srt-specs-2015", "note": "376 cu in (6,166 cc)" },
-    "aspiration": { "value": "Supercharged", "sourceId": "dodge-challenger-srt-specs-2015" }
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-challenger-srt-specs-2015"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "dodge-challenger-srt-specs-2015",
+      "note": "376 cu in (6,166 cc)"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "dodge-challenger-srt-specs-2015"
+    }
   },
-  "fuel": { "value": "Gasoline", "sourceId": "dodge-challenger-srt-specs-2015" },
-  "drivetrain": { "value": "RWD", "sourceId": "dodge-challenger-srt-specs-2015" },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-challenger-srt-specs-2015"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-challenger-srt-specs-2015"
+  },
   "transmission": {
-    "value": ["6-speed Manual", "8-speed Automatic"],
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
     "sourceId": "dodge-challenger-srt-specs-2015",
     "note": "Tremec TR-6060 manual standard, TorqueFlite 8HP90 automatic optional. Dodge's 2022 and 2023 spec sheets still list the manual as standard, but The Drive reports it was withdrawn from 2021 while the powertrain calibration was revised and returned for the final 2023 model year (https://www.thedrive.com/news/2023-dodge-challenger-srt-hellcat-gets-its-manual-back-finally)."
   },
@@ -36,7 +72,13 @@
     "sourceId": "dodge-challenger-srt-specs-2015",
     "note": "2015 with the standard six-speed manual. The optional automatic is 4,439 lb. Dodge's 2023 spec sheet lists 4,415 lb manual and 4,422 lb automatic."
   },
-  "specBasis": { "market": "US", "referenceModelYear": 2015, "powerStandard": "SAE net", "weightType": "curb" },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
   "sources": [
     {
       "id": "dodge-challenger-srt-specs-2015",

@@ -30,7 +30,13 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
     const mini = new MiniSearch<CarOption & { aliasText: string }>({
       fields: ['name', 'aliasText'],
       storeFields: ['id'],
-      searchOptions: { prefix: true, fuzzy: 0.2, combineWith: 'AND', boost: { name: 2 } },
+      // Typos are forgiven in words but not in codes: "e92" must not match "992".
+      searchOptions: {
+        prefix: true,
+        fuzzy: (term) => (/\d/.test(term) ? false : 0.2),
+        combineWith: 'AND',
+        boost: { name: 2 },
+      },
     });
     mini.addAll(cars.map((c) => ({ ...c, aliasText: c.aliases.join(' ') })));
     return mini;

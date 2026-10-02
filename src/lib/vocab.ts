@@ -109,6 +109,13 @@ export const POWER_STANDARDS = [
   'Other',
 ] as const;
 
+/**
+ * What the production years mean. US-market records give US model years,
+ * which is how US enthusiasts refer to a car and what manufacturers publish.
+ * Other records give the calendar years the car was built.
+ */
+export const YEAR_TYPES = ['model', 'calendar'] as const;
+
 /** Curb weight is preferred. Dry weight is allowed only when no curb figure exists. */
 export const WEIGHT_TYPES = ['curb', 'dry'] as const;
 

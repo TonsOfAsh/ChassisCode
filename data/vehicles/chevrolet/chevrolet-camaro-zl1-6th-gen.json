@@ -1,0 +1,140 @@
+{
+  "id": "chevrolet-camaro-zl1-6th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "6th gen",
+  "variant": "ZL1",
+  "subVariant": null,
+  "displayName": "Chevrolet Camaro ZL1 (6th gen)",
+  "aliases": [
+    "Camaro ZL1",
+    "ZL1",
+    "6th gen ZL1",
+    "Gen 6 ZL1",
+    "LT4",
+    "2017 Camaro ZL1"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2024
+    },
+    "sourceId": "chevrolet-zl1-release-2016",
+    "note": "US model years. Start: Chevrolet's August 2016 release, \"the 2017 Camaro ZL1 will be priced at $62,135 for coupe models and $69,135 for convertibles\". End: GM Authority's 2024 Camaro page lists \"ZL1 Coupe (1AL37)\" and \"ZL1 Convertible (1AL67)\" and states \"The 2024 Camaro is the last production year for the internal combustion powered model.\" (source gmauthority-camaro-2024)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "chevrolet-zl1-release-2016",
+    "note": "Coupe and convertible both sold as ZL1 from 2017 (priced together in Chevrolet's release) through 2024 (source gmauthority-camaro-2024)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-zl1-release-2016",
+      "note": "LT4. Chevrolet: \"supercharged LT4 6.2L V-8 engine\"."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "caranddriver-zl1-manual-2017",
+      "note": "6,162 cc. Car and Driver specification panel: \"Displacement: 376 cu in, 6162 cc\"."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "chevrolet-zl1-release-2016"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "caranddriver-zl1-manual-2017",
+    "note": "Car and Driver panel: \"supercharged and intercooled pushrod 16-valve V-8, aluminum block and heads, direct fuel injection\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "caranddriver-zl1-manual-2017",
+    "note": "Car and Driver panel: \"front-engine, rear-wheel-drive, 4-passenger, 2-door coupe\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
+    "sourceId": "gmauthority-camaro-2024",
+    "note": "GM Authority's reprint of GM's 2024 table lists the ZL1 with \"6-Speed Manual w/ Active Rev Match (MN6)\" or \"10-Speed Auto (MX0)\". Both were offered from 2017: Car and Driver tested a 2017 ZL1 with the 6-speed manual (source caranddriver-zl1-manual-2017), and Chevrolet's 2016 release refers to \"the available 10-speed automatic transmission\" (a torque-converter automatic)."
+  },
+  "powerHp": {
+    "value": 650,
+    "sourceId": "chevrolet-zl1-release-2016",
+    "note": "Quote, Chevrolet release of August 8, 2016: \"650-horsepower (485 kW) supercharged LT4 6.2L V-8 engine\". Car and Driver's specification panel for the 2017 car: \"Power: 650 hp @ 6400 rpm\" (source caranddriver-zl1-manual-2017). GM Authority's reprint of GM's 2024 table: \"650 / 485 @ 6400\" (source gmauthority-camaro-2024-specs), so the rating did not change over the run. Chevrolet's March 2016 reveal material estimated 640 hp, as GM Authority's 2017 ZL1 page records (not cited as a value)."
+  },
+  "weightLb": {
+    "value": 3904,
+    "sourceId": "caranddriver-zl1-manual-2017",
+    "note": "Coupe with the 6-speed manual, 2017 model, not the 1LE package: the curb weight in Car and Driver's specification panel. Quote: \"Curb weight: 3904 lb\". No GM table for the 2017 model year could be opened (GM's pressroom blocks automated access). GM Authority's specification table for the 2024 model gives 3,907 lb for the same configuration: \"Curb Weight Manual (lb. / kg): 3907 / 1772\", with the automatic at 3938 / 1786 and the convertible at 4120 / 1869 (source gmauthority-camaro-2024-specs). See discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-zl1-release-2016",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced by Conceptcarz)",
+      "title": "2017 Camaro ZL1 and 1LE: Get Used to Our Taillights (August 8, 2016)",
+      "url": "https://www.conceptcarz.com/a17302/view/eras.aspx?eraID=3",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-camaro-2024-specs",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro Specifications, by John Florer (March 5, 2024)",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/2024-chevrolet-camaro-specifications/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-camaro-2024",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "caranddriver-zl1-manual-2017",
+      "type": "publication",
+      "publisher": "Car and Driver (syndicated by Yahoo Autos)",
+      "title": "2017 Chevrolet Camaro ZL1 Manual, by Tony Quiroga (May 31, 2017)",
+      "url": "https://autos.yahoo.com/2017-chevrolet-camaro-zl1-manual-190100380.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3904,
+          "sourceId": "caranddriver-zl1-manual-2017"
+        },
+        {
+          "value": 3907,
+          "sourceId": "gmauthority-camaro-2024-specs"
+        }
+      ],
+      "reason": "Model year and source: 3,904 lb is the curb weight in Car and Driver's specification panel for the 2017 manual coupe; 3,907 lb is the manual coupe in GM Authority's specification table for the 2024 model, which does not state where its figures come from. The two differ by 3 lb.",
+      "resolution": "Used 3,904 lb: a major magazine's specification panel for the reference model year, as the weight rule requires when no manufacturer document can be opened."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

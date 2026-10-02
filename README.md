@@ -5,7 +5,7 @@ exact car, and gets another specification after each wrong guess.
 
 ## Status
 
-Phases 1 and 2 of 8 are done: the sourced vehicle data and a playable game in Unlimited mode
+Phases 1 and 2 of 8 are done, and the database is at 44 cars: the sourced vehicle data and a playable game in Unlimited mode
 (random car, clue-by-clue reveal, car search, win and loss summary).
 
 ## Guess comparison
@@ -79,3 +79,4 @@ clue. That only cheats their own Unlimited game. The daily puzzle (Phase 6) will
 | `scripts/build-data.ts` | Bundles the vehicle records for the app (runs automatically) |
 | `docs/DATA_GUIDE.md` | Inclusion rules, field rules and sourcing rules |
 | `docs/PHASE1_FINDINGS.md` | Open questions and records awaiting review |
+| `docs/BATCH1_REPORT.md` | The first 25-car expansion: what was added, what was held back and why |

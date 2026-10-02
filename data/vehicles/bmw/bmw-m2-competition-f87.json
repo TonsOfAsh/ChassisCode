@@ -1,0 +1,115 @@
+{
+  "id": "bmw-m2-competition-f87",
+  "manufacturer": "BMW",
+  "model": "M2",
+  "generation": "F87",
+  "variant": "Competition",
+  "subVariant": null,
+  "displayName": "BMW M2 Competition (F87)",
+  "aliases": [
+    "F87 M2 Competition",
+    "M2C",
+    "M2 Comp",
+    "S55",
+    "M DCT",
+    "DCT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2021
+    },
+    "sourceId": "bmw-us-2018-m2-competition-release",
+    "note": "US model years. First: 'The First Ever 2019 BMW M2 Competition', which \"replaces the BMW M2 Coupe\". Last: BMW NA's Model Year 2021 Update Information lists the M2 Competition with \"No changes for 2021.\" (bmw-us-my2021-updates), and Machines With Souls says \"The F87 is no longer produced, having ended production in 2021\" (mws-f87-m2-buyers-guide). No opened BMW page says in so many words that 2021 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2018-m2-competition-release"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2018-m2-competition-release",
+      "note": "'inline 6-cylinder engine with M TwinPower Turbo technology' (S55)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2018-m2-competition-release",
+      "note": "2,979 cc ('Displacement cm³ 2,979')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2018-m2-competition-release",
+      "note": "'two rapid-response MonoScroll turbochargers'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2018-m2-competition-release",
+    "note": "Inferred from the release's description of the turbocharged petrol S55 engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2018-m2-competition-release",
+    "note": "'Drive type -- RWD'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "bmw-us-2018-m2-competition-release",
+    "note": "'comes standard with a six-speed manual gearbox'; 'The seven-speed M Double Clutch Transmission (M DCT with Drivelogic) can be ordered as an option.'"
+  },
+  "powerHp": {
+    "value": 405,
+    "sourceId": "bmw-us-2018-m2-competition-release",
+    "note": "Quote: \"Engine power hp 405 @ 5,230 – 7,000 405 @ 5,230 – 7,000\". Also: \"The inline 6-cylinder engine with M TwinPower Turbo technology delivers 405 hp between 5,230 and 7,000 rpm.\""
+  },
+  "weightLb": {
+    "value": 3600,
+    "sourceId": "bmw-us-2018-m2-competition-release",
+    "note": "Coupe with the 6-speed manual. Quote: \"Curb weight lbs. 3,600 3,655\" (columns 'M2 Competition Manual' and 'M2 Competition DCT')."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2018-m2-competition-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The First Ever 2019 BMW M2 Competition (press release with specifications)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0280302EN_US/431610",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-my2021-updates",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW Model Year 2021 Update Information",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0313581EN_US/bmw-model-year-2021-update-information?language=en_US",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mws-f87-m2-buyers-guide",
+      "type": "publication",
+      "publisher": "Machines With Souls",
+      "title": "BMW F87 M2 Buyer's Guide",
+      "url": "https://machineswithsouls.com/bmw-f87-m2-buyers-guide/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

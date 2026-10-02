@@ -72,7 +72,8 @@
     "market": "US",
     "referenceModelYear": 2020,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "calendar"
   },
   "sources": [
     {

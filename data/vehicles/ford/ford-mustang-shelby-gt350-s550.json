@@ -1,0 +1,116 @@
+{
+  "id": "ford-mustang-shelby-gt350-s550",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S550",
+  "variant": "Shelby GT350",
+  "subVariant": null,
+  "displayName": "Ford Mustang Shelby GT350 (S550)",
+  "aliases": [
+    "GT350",
+    "Shelby GT350",
+    "Shelby GT350 Mustang",
+    "S550 GT350",
+    "Voodoo",
+    "5.2",
+    "Flat-plane crank",
+    "TR-3160"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2020
+    },
+    "sourceId": "motorauthority-gt350-2015-run",
+    "note": "US model years 2015-2020. A small 2015 model-year run came first: 'Just 137 examples bearing a 2015 VIN will be built', 100 GT350 and 37 GT350R, before production switched to 2016 models (Motor Authority, 28 April 2015). End: Ford announced on 1 October 2020 that the GT350 and GT350R 'will be phased out after 2020', with production ceasing that fall (source motorauthority-gt350-end-2020)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ford-gt350-techspecs-2016",
+    "note": "Ford spec sheet: body style Fastback. No convertible. The GT350R is a separate variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-gt350-techspecs-2016",
+      "note": "5.2-liter flat-plane crank V8"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "ford-gt350-techspecs-2016",
+      "note": "5,163 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-gt350-techspecs-2016",
+      "note": "Described as naturally aspirated in source motorauthority-gt350-end-2020."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-gt350-techspecs-2016"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-gt350-techspecs-2016",
+    "note": "Rear-wheel drive with Torsen limited-slip differential"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-gt350-techspecs-2016",
+    "note": "Tremec TR-3160 six-speed manual, the only transmission. Unchanged to the end of the run (source motorauthority-gt350-end-2020)."
+  },
+  "powerHp": {
+    "value": 526,
+    "sourceId": "ford-gt350-techspecs-2016",
+    "note": "Ford 2016 technical specifications. Quote: \"Horsepower 526 @ 7,500 rpm\". Torque 429 lb.-ft. @ 4,750 rpm. The rating did not change through 2020 (source motorauthority-gt350-end-2020: 'a naturally aspirated V-8 with 526 horsepower and 429 pound-feet of torque')."
+  },
+  "weightLb": {
+    "value": 3760,
+    "sourceId": "ford-gt350-techspecs-2016",
+    "note": "Ford 2016 technical specifications, standard GT350 (six-speed manual, no packages). Quote: \"Curb weight 3,760 lbs.\" The same sheet lists GT350 with Track Package at 3,791 lb and the GT350R at 3,655 lb; neither is used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-gt350-techspecs-2016",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company",
+      "title": "2016 Ford Shelby GT350 Mustang / Ford Shelby GT350R Mustang Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/2015/08/24/gt350-gt350r-tech-specs.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-gt350-2015-run",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Ford To Build Limited Run Of 2015 Model Year Shelby GT350 Mustangs",
+      "url": "https://www.motorauthority.com/news/1098043_ford-to-build-limited-run-of-2015-model-year-shelby-gt350-mustangs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-gt350-end-2020",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2020 is final year for Ford Mustang Shelby GT350",
+      "url": "https://www.motorauthority.com/news/1129799_2020-is-final-year-for-ford-mustang-shelby-gt350",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

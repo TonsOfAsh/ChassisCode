@@ -79,7 +79,8 @@
     "market": "JP",
     "referenceModelYear": 1999,
     "powerStandard": "JIS PS",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "calendar"
   },
   "sources": [
     {

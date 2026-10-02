@@ -18,11 +18,11 @@
   "country": "Japan",
   "production": {
     "value": {
-      "startYear": 2016,
+      "startYear": 2017,
       "endYear": 2021
     },
     "sourceId": "acura-nsx-type-s-reveal-2021",
-    "note": "Standard car only; the 2022 NSX Type S is a separate record. First serial-production car left the Performance Manufacturing Center on 24 May 2016 (Acura release). Acura states every 2022-model-year NSX is a Type S, and Type S production began in January 2022, so 2021 is taken as the last year the standard car was built; the exact last build date of a standard car was not found. The generation as a whole ran 2016-2022."
+    "note": "US model years 2017-2021. Launched as the 2017 NSX (the reference model year); Acura states every 2022 NSX is a Type S, so 2021 is the last model year of the standard car. Previously recorded as calendar years 2016-2021: Standard car only; the 2022 NSX Type S is a separate record. First serial-production car left the Performance Manufacturing Center on 24 May 2016 (Acura release). Acura states every 2022-model-year NSX is a Type S, and Type S production began in January 2022, so 2021 is taken as the last year the standard car was built; the exact last build date of a standard car was not found. The generation as a whole ran 2016-2022."
   },
   "body": {
     "value": [
@@ -79,7 +79,8 @@
     "market": "US",
     "referenceModelYear": 2017,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "model"
   },
   "sources": [
     {

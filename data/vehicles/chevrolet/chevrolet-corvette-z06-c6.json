@@ -1,0 +1,167 @@
+{
+  "id": "chevrolet-corvette-z06-c6",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C6",
+  "variant": "Z06",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Z06 (C6)",
+  "aliases": [
+    "C6 Z06",
+    "Z06 C6",
+    "Corvette Z06",
+    "LS7",
+    "427",
+    "2006 Corvette Z06"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2013
+    },
+    "sourceId": "gm-2006-corvette-release",
+    "note": "US model years. Start: 2006 was the Z06's first model year; GM's January 2005 release said \"Production of the 2006 Corvette Z06 will begin in the second half of 2005\" (source gm-2006-z06-reveal-release), so the first cars were built in calendar 2005. End: GM's January 2012 release calls 2013 \"the final year for the current 'C6' generation\" (source gm-2013-427-release), and Corvette Action Center's final 2013 model year production listing, credited to GM Bowling Green Assembly, includes the Z06 (source cac-2013-production)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "gm-2006-z06-reveal-release",
+    "note": "Fixed-roof coupe only. GM: \"2-door hatchback coupe with fixed roof; rear-drive (Z06)\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2006-corvette-release",
+      "note": "LS7"
+    },
+    "displacementL": {
+      "value": 7.0,
+      "sourceId": "gm-2006-corvette-release",
+      "note": "7,008 cc (GM Media 2007 table: \"Displacement (cu in / cc): 427.6 / 7008\", source gm-2007-corvette-specs); GM's January 2005 reveal table printed 7,011.3 cc (source gm-2006-z06-reveal-release). Either rounds to 7.0. Marketed as \"7.0-liter/427-cubic-inch\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-2006-corvette-release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2006-corvette-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2006-z06-reveal-release"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "gm-2006-z06-reveal-release",
+    "note": "Tremec six-speed manual only; no automatic was offered on the Z06. GM's 2012 release confirms the LS7 cars were still manual-only for 2013 (source gm-2013-427-release)."
+  },
+  "powerHp": {
+    "value": 505,
+    "sourceId": "gm-2006-corvette-release",
+    "note": "SAE certified (J2723). Quote: \"With 505 horsepower (377 kw) and 470 lb.-ft. of torque (637 Nm), it also is the most powerful passenger car engine ever produced by Chevrolet and GM.\" Spec line: \"505 horsepower (377 kw)* @6300 rpm\", footnote \"Horsepower and torque SAE certified.\" GM's January 2005 reveal release gave a preliminary 500 hp at 6,200 rpm (see discrepancies). The GM Media table for 2007 repeats \"505 / 377 @ 6300*\" (source gm-2007-corvette-specs)."
+  },
+  "weightLb": {
+    "value": 3132,
+    "sourceId": "gm-2007-corvette-specs",
+    "note": "Manufacturer curb weight, standard Z06 (fixed-roof coupe, six-speed manual, the only configuration). Quote, GM Media specification table for the 2007 model year, Z06 column: \"Curb weight (lb / kg): 3132 / 1421\". GM's releases for the 2006 model year gave only an estimate, \"Curb weight of 3,130 pounds / 1,420 kg (estimated)\" (source gm-2006-corvette-release), so the first non-estimated GM figure is used. The Auto Channel's August 2006 review of the 2006 Z06 gives the same number for the 2006 car: \"3132 pounds claimed\" and \"Curb weight: 3132 lbs.\" (source autochannel-z06-2006). The reference model year is 2007 to match this table; the power rating is the same for every model year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2006-corvette-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2006 Corvette: Z06 Hits The Ground Running; New Six-Speed Automatic Available for Coupe and Convertible",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2006/press1.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2006-z06-reveal-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced by Corvette Action Center)",
+      "title": "2006 Corvette Z06 press release and specifications (January 10, 2005)",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2006/z06/2006z06press.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2007-corvette-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (specification table reproduced by Corvette Action Center)",
+      "title": "2007 Corvette Specifications (For Release: August 1, 2006)",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2007/2007specs.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autochannel-z06-2006",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2006 Chevrolet Corvette Z06 review by Carey Russ",
+      "url": "https://theautochannel.com/news/2006/08/18/019152.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2013-427-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2013 Corvette 427 Convertible Collector Edition and 60th Anniversary Package press release (January 12, 2012)",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2013/2013_press1.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2013-production",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2013 Corvette Production Numbers",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2013/2013-corvette-production-numbers.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 505,
+          "sourceId": "gm-2006-corvette-release"
+        },
+        {
+          "value": 500,
+          "sourceId": "gm-2006-z06-reveal-release"
+        }
+      ],
+      "reason": "Preliminary vs final rating: the January 2005 reveal release quoted 500 hp at 6,200 rpm before the car was in production; the August 2005 release for the 2006 model year gives the SAE-certified 505 hp at 6,300 rpm.",
+      "resolution": "Used 505 hp, the certified rating the car was sold with, repeated in GM's 2007 specification table."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3132,
+          "sourceId": "gm-2007-corvette-specs"
+        },
+        {
+          "value": 3130,
+          "sourceId": "gm-2006-corvette-release"
+        }
+      ],
+      "reason": "Estimate vs final figure: GM's 2006 model year releases label 3,130 lb \"(estimated)\"; GM's specification table for the 2007 model year gives 3,132 lb with no such label.",
+      "resolution": "Used 3,132 lb, the non-estimated manufacturer figure, which The Auto Channel also reports as the claimed curb weight of the 2006 car."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

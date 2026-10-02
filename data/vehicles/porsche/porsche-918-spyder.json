@@ -69,14 +69,15 @@
   },
   "weightLb": {
     "value": 3691,
-    "sourceId": "edmunds-918-2015",
-    "note": "Standard car without the optional Weissach package (3,602 lb with it). Not taken from a manufacturer document - see discrepancies and reviewNotes."
+    "sourceId": "porsche-stories-918",
+    "note": "Standard car without the optional Weissach Package. Quote (Porsche): \"Critically, that helped keep the weight down to less than 1,674 kg (3691 lbs) – and 1,634 kg (3602 lbs) for the optional weight-saving Weissach Package.\" Porsche's wording is \"less than\" and it does not call the figure curb or DIN weight. Edmunds and duPont Registry give the same 3,691 lb as curb weight (sources edmunds-918-2015, dupont-registry-918)."
   },
   "specBasis": {
     "market": "US",
     "referenceModelYear": 2015,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "calendar"
   },
   "sources": [
     {
@@ -134,6 +135,14 @@
       "title": "Porsche 918 Spyder is no more - last car rolls off production line",
       "url": "https://www.evo.co.uk/porsche/918/16179/porsche-918-spyder-is-no-more-last-car-rolls-off-production-line",
       "accessed": "2026-09-30"
+    },
+    {
+      "id": "porsche-stories-918",
+      "type": "manufacturer",
+      "publisher": "Porsche",
+      "title": "How much is a Porsche 918 Spyder?",
+      "url": "https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder/",
+      "accessed": "2026-10-01"
     }
   ],
   "discrepancies": [
@@ -142,11 +151,7 @@
       "values": [
         {
           "value": 3691,
-          "sourceId": "edmunds-918-2015"
-        },
-        {
-          "value": 3691,
-          "sourceId": "dupont-registry-918"
+          "sourceId": "porsche-stories-918"
         },
         {
           "value": 3715,
@@ -158,7 +163,7 @@
         }
       ],
       "reason": "3,715 lb (3,616 lb with Weissach package) is from Porsche's pre-production specification announcement. 3,691 lb is the production curb weight quoted for the standard car, 3,602 lb with the Weissach package. Porsche AG's IAA 2013 specification lists a DIN unladen weight of 1,634 kg (= 3,602 lb) without naming the configuration; it matches the Weissach-package figure.",
-      "resolution": "Used 3,691 lb: production figure for the standard car (the Weissach package is an option and not a separate record)."
+      "resolution": "Used 3,691 lb: Porsche's own figure for the standard car (the Weissach Package is an option and not a separate record)."
     },
     {
       "field": "powerHp",
@@ -176,8 +181,7 @@
       "resolution": "Used 887 hp, the manufacturer's published US figure."
     }
   ],
-  "needsReview": true,
-  "reviewNotes": "Curb weight (3,691 lb) comes from Edmunds and duPont Registry, not a Porsche document: no Porsche Cars North America spec sheet could be opened. The only manufacturer weight found (1,634 kg DIN) does not say whether it includes the Weissach package. Confirm against a PCNA MY2015 spec sheet. Also note the US '887 hp' is numerically the PS figure (652 kW), recorded here as the US published rating.",
+  "needsReview": false,
   "confidence": "medium",
   "image": null,
   "dailyEligible": true

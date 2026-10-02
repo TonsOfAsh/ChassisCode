@@ -6,33 +6,76 @@
   "variant": "Blackwing",
   "subVariant": null,
   "displayName": "Cadillac CT5-V Blackwing",
-  "aliases": ["CT5 Blackwing", "CT5-V BW", "Blackwing", "CT5V Blackwing", "LT4", "TR6060"],
+  "aliases": [
+    "CT5 Blackwing",
+    "CT5-V BW",
+    "Blackwing",
+    "CT5V Blackwing",
+    "LT4",
+    "TR6060"
+  ],
   "country": "United States",
   "production": {
-    "value": { "startYear": 2021, "endYear": null },
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
     "sourceId": "cadillac-blackwing-release-2021",
-    "note": "Cadillac announced on 10 August 2021 that the 2022 V-Series Blackwings, built at Lansing Grand River Assembly, were on sale. Still in production: Cadillac's January 2024 release covers the facelifted 2025 model (source cadillac-ct5v-release-2024) and cadillac.com lists a 2026 CT5-V Blackwing (https://www.cadillac.com/sedans/preceding-year/ct5-v-blackwing)."
+    "note": "US model years 2022-present. Launched as the 2022 CT5-V Blackwing. Previously recorded as calendar years 2021-present: Cadillac announced on 10 August 2021 that the 2022 V-Series Blackwings, built at Lansing Grand River Assembly, were on sale. Still in production: Cadillac's January 2024 release covers the facelifted 2025 model (source cadillac-ct5v-release-2024) and cadillac.com lists a 2026 CT5-V Blackwing (https://www.cadillac.com/sedans/preceding-year/ct5-v-blackwing)."
   },
-  "body": { "value": ["Sedan"], "sourceId": "cadillac-blackwing-release-2021" },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "cadillac-blackwing-release-2021"
+  },
   "engine": {
-    "configuration": { "value": "V8", "sourceId": "cadillac-blackwing-release-2021" },
-    "displacementL": { "value": 6.2, "sourceId": "cadillac-blackwing-release-2021" },
-    "aspiration": { "value": "Supercharged", "sourceId": "cadillac-blackwing-release-2021" }
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cadillac-blackwing-release-2021"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "cadillac-blackwing-release-2021"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "cadillac-blackwing-release-2021"
+    }
   },
-  "fuel": { "value": "Gasoline", "sourceId": "cadillac-blackwing-release-2021" },
-  "drivetrain": { "value": "RWD", "sourceId": "thedrive-ct5v-blackwing-2021" },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cadillac-blackwing-release-2021"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "thedrive-ct5v-blackwing-2021"
+  },
   "transmission": {
-    "value": ["6-speed Manual", "10-speed Automatic"],
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
     "sourceId": "cadillac-blackwing-release-2021",
     "note": "Tremec six-speed manual standard, 10-speed automatic optional"
   },
-  "powerHp": { "value": 668, "sourceId": "cadillac-blackwing-release-2021", "note": "668 hp (498 kW); unchanged for the facelifted 2025 model" },
+  "powerHp": {
+    "value": 668,
+    "sourceId": "cadillac-blackwing-release-2021",
+    "note": "668 hp (498 kW); unchanged for the facelifted 2025 model"
+  },
   "weightLb": {
     "value": 4123,
     "sourceId": "thedrive-ct5v-blackwing-2021",
     "note": "Manual; automatic is 4,142 lb. The Drive's 2022 spec box; Cadillac's own spec table for the 2025 model lists the identical 4,123 / 4,142 lb (source cadillac-ct5v-release-2024)."
   },
-  "specBasis": { "market": "US", "referenceModelYear": 2022, "powerStandard": "SAE net", "weightType": "curb" },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
   "sources": [
     {
       "id": "cadillac-blackwing-release-2021",

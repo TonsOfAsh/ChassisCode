@@ -1,0 +1,148 @@
+{
+  "id": "bmw-m3-f80",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "F80",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M3 (F80)",
+  "aliases": [
+    "F80 M3",
+    "S55",
+    "M DCT",
+    "DCT",
+    "M3 Sedan",
+    "M3 Competition Package"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2018
+    },
+    "sourceId": "bmw-us-2013-m3-m4-release",
+    "note": "US model years. First: BMW NA says the cars \"will begin sales as 2015 models in early Summer, 2014\". Last: BMW NA's final technical data sheet for this car is for the 2018 model (bmw-us-2018-m3-techdata), and AutoTrader.ca's used review covers the '2015-2018 BMW M3' (autotrader-ca-m3-2015-2018). No opened BMW page says in so many words that 2018 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2015-m3-techdata",
+    "note": "'No of Doors / Seats' 4 / 5. The two-door cars are the separate M4."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2015-m3-techdata",
+      "note": "'in line ... / 6 / 4' (S55)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2015-m3-techdata",
+      "note": "2,979 cc ('Displacement cm³ / inch³ 2979 / 182')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2013-m3-m4-release",
+      "note": "'M TwinPower Turbo technology comprises two fast-responding mono-scroll turbochargers'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2015-m3-techdata",
+    "note": "'Fuel type Premium'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2013-m3-m4-release",
+    "note": "'rear-wheel drive with Active M Differential'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "bmw-us-2013-m3-m4-release",
+    "note": "'standard six-speed manual gearbox'; 'optional 7-speed M Double Clutch Transmission with Drivelogic' (M DCT)."
+  },
+  "powerHp": {
+    "value": 425,
+    "sourceId": "bmw-us-2015-m3-techdata",
+    "note": "Quote: \"Engine power / at rpm bHP / 1/min 425 / 5500-7300 425 / 5500-7300\". Also bmw-us-2013-m3-m4-release: \"With 425 horsepower from 5,500 – 7,300 rpm\". The optional Competition Package (a package, not a separate model) is rated 444 hp at 7,000 rpm per BMW NA's 2018 M3 Competition technical data (bmw-us-2018-m3-competition-techdata)."
+  },
+  "weightLb": {
+    "value": 3540,
+    "sourceId": "bmw-us-2015-m3-techdata",
+    "note": "Sedan with the 6-speed manual, 2015 model. Quote: \"Curb weight (US) Kg / lbs 1631 / 3595 1606 / 3540\" (first column M DCT, second column manual). BMW NA's 2018 sheet gives 3,575 lb manual and 3,630 lb DCT (bmw-us-2018-m3-techdata)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2015-m3-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW U.S. Media Information: Technical Data, 2015 M3 Sedan",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0160684EN_US/391902",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2013-m3-m4-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The All-New BMW M3 Sedan and BMW M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0160684EN_US/the-all-new-bmw-m3-sedan-and-bmw-m4-coupe?language=en_US",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2018-m3-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW U.S. Media Information: Technical Data, 2018 BMW M3 Sedan",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0160684EN_US/391907",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2018-m3-competition-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW U.S. Media Information: Technical Data, 2018 BMW M3 Competition Sedan",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0250284EN_US/387876",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autotrader-ca-m3-2015-2018",
+      "type": "publication",
+      "publisher": "AutoTrader.ca",
+      "title": "2015-2018 BMW M3 Used Vehicle Review",
+      "url": "https://www.autotrader.ca/editorial/expert-reviews/bmw/m3/2015-2018-bmw-m3-used-vehicle-review/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3540,
+          "sourceId": "bmw-us-2015-m3-techdata"
+        },
+        {
+          "value": 3575,
+          "sourceId": "bmw-us-2018-m3-techdata"
+        }
+      ],
+      "reason": "Model year. Both are BMW NA curb weights for the manual sedan: 3,540 lb on the 2015 sheet, 3,575 lb on the 2018 sheet.",
+      "resolution": "Used 3,540 lb because the reference model year is 2015."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

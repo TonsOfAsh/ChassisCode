@@ -46,7 +46,8 @@ Rules for the ambiguous cases:
 | A named package with identical published specs (992.1 GT3 Touring) | Not separate. Add its name to the parent record's aliases. |
 | Cars never sold in the US | Home-market spec, converted to hp and lb, with the market recorded in `specBasis`. |
 | Cars with no generation code | `generation` is null. The Generation clue then shows production years only. |
-| Only a dry weight exists | Use it, set `specBasis.weightType` to `dry`, and set `needsReview`. |
+| Several generations of one model with no chassis code enthusiasts use (Ford GT, Camaro, CTS-V) | Use `1st gen`, `2nd gen` and so on. Put the model year people say ("2005 Ford GT") in the aliases. |
+| The manufacturer publishes only a dry weight | Use a major publication's curb weight. Use the dry weight only if no curb weight exists anywhere; then set `specBasis.weightType` to `dry` and `needsReview`. |
 
 ## Field rules
 
@@ -58,20 +59,26 @@ with the parenthesis omitted when generation is null. The validator checks this.
 **Spec basis.** Every record states which car the numbers describe:
 
 - `market`: US when the car was sold in the US. Otherwise its home market.
-- `referenceModelYear`: the model year the numbers apply to. Use the launch model year unless there is a reason not to.
+- `yearType`: `model` for US-market records, `calendar` otherwise. See Production below.
+- `referenceModelYear`: the model year the numbers apply to. Use the launch model year, unless the
+  rating changed after the first year and stayed there for most of the run (C5 Z06: 385 hp for 2001,
+  405 hp for 2002 to 2004, so the reference year is 2002). Say so in the power note.
 - `powerStandard`: how the manufacturer stated power (SAE net, DIN PS, JIS PS).
 - `weightType`: curb or dry.
 
 Never mix markets within one record. If power is a US figure, weight is a US figure.
 
-**Production.** The years this variant was built, in any market. `endYear` is null if it is still
-in production. Use the variant's own years, not the generation's, when the variant started later or
-ended earlier. Manufacturers rarely publish build dates, so the launch year and the last model year
-are acceptable stand-ins; say in the note which one was used. When a generation code ends at
-different times in different markets, use the years for the market in `specBasis` and describe the
-others in the note.
+**Production.** The first and last year of this variant, not of the whole generation.
 
-**Body.** A list. More than one entry only under the coupe/convertible rule above.
+- US-market records give US model years (`specBasis.yearType` is `model`): 2006 to 2013 for the
+  C6 Z06. Model years are how US enthusiasts refer to a car and what manufacturers publish. A token
+  early run counts if cars were sold with that model year (the 2015 Shelby GT350).
+- Records for any other market give the calendar years the car was built (`yearType` is `calendar`).
+- `endYear` is null if it is still on sale. Describe other markets' years in the note.
+
+**Body.** A list of every body style the variant was sold in, in the market named in `specBasis`
+(E36 M3 in the US: coupe, sedan and convertible). A body style sold under its own name is a
+separate record instead (Spider, Targa, Speedster).
 
 - `Roadster`: a two-seat open car that has no fixed-roof version of the same variant (S2000, MX-5,
   Elise, 918 Spyder).
@@ -83,7 +90,10 @@ others in the note.
 **Engine configuration.** Always the combustion engine. A hybrid V8 is `V8`; its hybrid status
 goes in `fuel`. `Electric` is for battery EVs only.
 
-**Displacement.** Litres, rounded to one decimal, as the manufacturer markets it (3,996 cc is 4.0).
+**Displacement.** The engine's displacement in cc, rounded to one decimal of a litre (3,996 cc is
+4.0). Put the cc figure in the note. If the manufacturer's marketing says something else (Porsche
+called the 3,745 cc 992 Turbo S engine "3.8 liter" at launch), still use the rounded cc figure and
+say so in the note.
 Rotary engines use the nominal figure (1.3 for a 13B). Null for battery EVs only.
 
 **Drivetrain.** `AWD` for every permanent or automatically engaging system, whatever the maker
@@ -111,13 +121,26 @@ is numerically the PS figure (918 Spyder: 887 hp). When a US-market car only has
 convert it, set `powerStandard` to `DIN PS` and explain in the note (Chiron: 1,500 PS = 1,479 hp).
 
 **Weight.** Curb weight in lb for the chosen market. kg is converted at 1 kg = 2.20462 lb and
-rounded. When the variant has several weights, use the coupe with the manual transmission where one is
-offered (otherwise the standard transmission) and standard equipment: no weight-saving options and
-no delete options. Say which configuration it is in the note. If the manufacturer only publishes
-a weight for an optioned car (Weissach Package, Extreme Aero), use a publication's figure for the
-standard car if one exists; otherwise use the manufacturer figure, say so, and set `needsReview`.
-A manufacturer curb weight beats a publication's measured weight. A publication's measured curb
-weight does not replace a manufacturer dry weight; record it as a discrepancy instead.
+rounded. The weight describes the standard car: the coupe with the manual transmission where one is
+offered (otherwise the standard transmission) and standard equipment, with no weight-saving options
+and no delete options. Say which configuration it is in the note.
+
+Take the figure from the first of these that exists:
+
+1. The manufacturer's curb weight for the standard car.
+2. A publication's curb weight for the standard car. This means either the specification panel
+   of a major magazine (Car and Driver, Road & Track, MotorTrend, Evo, Autocar, Top Gear), or the
+   same figure reported by two independent editorial outlets with named authors. Auto-filled spec
+   panels, registries, forums, museum pages and figures worked out by subtraction do not count. Use this when the manufacturer publishes
+   no curb weight, only a dry weight, or only a weight for an optioned car (Weissach Package,
+   Extreme Aero). Set confidence to `medium`.
+3. The manufacturer's dry weight, only when no curb weight exists anywhere. Set
+   `specBasis.weightType` to `dry` (the game then shows "dry" beside the figure) and set
+   `needsReview`.
+
+A weight for an optioned car is never used as the standard car's weight. If steps 1 and 2 both
+fail and only an optioned-car figure exists, use it, say exactly which options it includes in the
+note, and set `needsReview`. When two sources at the same step disagree, record a discrepancy.
 European "DIN" and "EU" weights are different things (EU adds 75 kg for a driver); use DIN, and say
 so in the note.
 
@@ -149,6 +172,17 @@ drive, coupe) may be inferred from the cited page's description of the car. Numb
 Every sourced field has a `sourceId` pointing at an entry in the record's `sources` list. Each
 source records its type, publisher, title, URL and the date it was accessed. Only cite a page that
 was actually opened and that actually states the value.
+
+## Minimum sourcing
+
+A car enters the database only if all of these hold. Otherwise it is held back, not guessed.
+
+- Power comes from a manufacturer page or a major publication's specification panel that was
+  actually opened, and the power note quotes the sentence or table line it came from.
+- Weight meets the weight rule above from a manufacturer or major publication page that was actually
+  opened, and the weight note quotes it. A database is not enough for power or weight.
+- Production years, displacement and transmissions each have a cited source.
+- No unresolved discrepancy on power or weight.
 
 ## Discrepancies
 
@@ -192,7 +226,7 @@ Doubts about any other field are handled with `needsReview`.
   "transmission": { "value": ["6-speed Manual", "7-speed DCT"], "sourceId": "porsche-press-2017", "note": "DCT is Porsche PDK" },
   "powerHp": { "value": 500, "sourceId": "porsche-press-2017" },
   "weightLb": { "value": 3116, "sourceId": "porsche-press-2017", "note": "Manual; PDK is 3,153 lb" },
-  "specBasis": { "market": "US", "referenceModelYear": 2018, "powerStandard": "SAE net", "weightType": "curb" },
+  "specBasis": { "market": "US", "referenceModelYear": 2018, "powerStandard": "SAE net", "weightType": "curb", "yearType": "model" },
   "sources": [
     {
       "id": "porsche-press-2017",

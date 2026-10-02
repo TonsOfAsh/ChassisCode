@@ -16,11 +16,11 @@
   "country": "Japan",
   "production": {
     "value": {
-      "startYear": 1999,
+      "startYear": 2000,
       "endYear": 2003
     },
     "sourceId": "honda-s2000-2004-release",
-    "note": "US-market definition of the AP1: the 2.0-litre car, launched in Japan on 15 April 1999 and sold in the US for model years 2000-2003; the 2.2-litre car (AP2) replaced it for US model year 2004, announced October 2003. This differs by market: in Japan the 2.0-litre F20C car, still designated AP1, continued through the 2003 facelift until the 2.2-litre AP2 arrived in November 2005. All S2000 production ended in June 2009."
+    "note": "US model years 2000-2003. Previously recorded as calendar years 1999-2003: US-market definition of the AP1: the 2.0-litre car, launched in Japan on 15 April 1999 and sold in the US for model years 2000-2003; the 2.2-litre car (AP2) replaced it for US model year 2004, announced October 2003. This differs by market: in Japan the 2.0-litre F20C car, still designated AP1, continued through the 2003 facelift until the 2.2-litre AP2 arrived in November 2005. All S2000 production ended in June 2009."
   },
   "body": {
     "value": [
@@ -76,7 +76,8 @@
     "market": "US",
     "referenceModelYear": 2000,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "model"
   },
   "sources": [
     {

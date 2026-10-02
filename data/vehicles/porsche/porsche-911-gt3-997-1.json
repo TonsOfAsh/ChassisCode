@@ -1,0 +1,198 @@
+{
+  "id": "porsche-911-gt3-997-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "997.1",
+  "variant": "GT3",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 (997.1)",
+  "aliases": [
+    "997 GT3",
+    "997.1 GT3",
+    "GT3 997",
+    "GT3 3.6",
+    "2007 911 GT3",
+    "Mezger"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2007,
+      "endYear": 2008
+    },
+    "sourceId": "pcna-2006-911-gt3-release",
+    "note": "US model years 2007 to 2008. First: the Porsche Cars North America release is headed \"Porsche(R) Unveils Most Powerful Non-Turbo 911(R) in History: The 2007 911 GT3\" and says \"The 2007 Porsche 911 GT3 will be available in North America beginning in August 2006.\" Last: Edmunds lists a \"2008 Porsche 911 GT3\" (edmunds-2008-911-gt3) and its 2009 Porsche 911 page (edmunds-2009-911) lists no GT3 trim; pcna-2019-20-years-gt3 says the 3.8-liter successor came \"For the 2010 model year\". Porsche's classic model page (porsche-classic-997-gt3) labels the car \"911 GT3 (2006-08)\", which are calendar years; Stuttcars (stuttcars-911-gt3-997) dates it 2007 - 2009 for all markets."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-2008-911-gt3",
+    "note": "Edmunds: \"GT3 2dr Coupe (3.6L 6cyl 6M)\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2006-911-gt3-release",
+      "note": "Release: \"The 415-horsepower, 3.6-liter flat-Six engine\""
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "porsche-classic-997-gt3",
+      "note": "3,600 cc. Porsche classic model page, under the later 911 GT3 (2009-12): \"Displacement increased from 3,600 to 3,797 ccm\". Excellence (excellence-2007-911-gt3-specs) prints \"219.60 cu-in/3,600 cc\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-2006-911-gt3-release",
+      "note": "Release: \"among the highest of any naturally aspirated production car\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-2008-911-gt3",
+    "note": "Edmunds: \"Premium unleaded (required)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "excellence-2007-911-gt3-specs",
+    "note": "Excellence: \"Rear-engined, rear-wheel drive\". Edmunds (edmunds-2008-911-gt3): \"rear wheel drive\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "pcna-2006-911-gt3-release",
+    "note": "Release: \"the 2007 911 GT3 features a revised six-speed manual transmission, with lower gear ratios for 2nd through 6th, as well as shortened shift-lever throws.\" No other transmission was offered."
+  },
+  "powerHp": {
+    "value": 415,
+    "sourceId": "pcna-2006-911-gt3-release",
+    "note": "Quote: \"The 415-horsepower, 3.6-liter flat-Six engine produces a specific output of 115.3 horsepower-per-liter, among the highest of any naturally aspirated production car.\" Porsche Cars North America's rating for the 2007 model year, used as published; pcna-2019-20-years-gt3 repeats it: \"Still powered by a 3.6 liter naturally-aspirated flat six, horsepower now crossed the 400 threshold, rising to 415.\" Porsche's classic model page gives \"305 kW (415 PS)\"."
+  },
+  "weightLb": {
+    "value": 3075,
+    "sourceId": "pcna-2019-20-years-gt3",
+    "note": "Standard car (6-speed manual, the only transmission). Quote: \"In spite of the added technology and safety equipment such as new Sport Seats with side airbags, the car tipped the scales at just 3,075 lb (1395 kg) thanks to new weight-saving aluminum doors and luggage compartment lid.\" Porsche Cars North America's figure for the 2007 911 GT3; the sentence does not use the words \"curb weight\", but Edmunds (edmunds-2008-911-gt3) and Excellence (excellence-2007-911-gt3-specs) both list \"3,075 lbs.\" as the curb weight, and MotorWeek (motorweek-2007-911-gt3) says the GT3 will \"tip the scales at a trim 3,075 pounds\"."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2006-911-gt3-release",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (press release rehosted by The Auto Channel)",
+      "title": "Porsche(R) Unveils Most Powerful Non-Turbo 911(R) in History: The 2007 911 GT3 (Atlanta, Feb. 24, 2006)",
+      "url": "https://www2020.theautochannel.com/news/2006/02/24/211606.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2019-20-years-gt3",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Porsche celebrates 20 years of the 911 GT3",
+      "url": "https://newsroom.porsche.com/en_US/products/porsche-celebrates-20-years-911-gt3-18389.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "porsche-classic-997-gt3",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Classic)",
+      "title": "Model 911 GT3 (type 997)",
+      "url": "https://porsche.com/pap/accessoriesandservice/classic/models/997/997-gt3",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "excellence-2007-911-gt3-specs",
+      "type": "publication",
+      "publisher": "Excellence",
+      "title": "2007 911 GT3 Coupe (997 v1)",
+      "url": "https://www.excellence-mag.com/resources/specs/176",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorweek-2007-911-gt3",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2007 Porsche 911 GT3",
+      "url": "https://motorweek.org/road_tests/2007_porsche_911_gt3/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "evo-911-gt3-997",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Porsche 911 GT3 (997, 2006 - 2011): the ultimate modern classic?",
+      "url": "https://www.evo.co.uk/porsche/911-gt3/6503/porsche-911-gt3-997-2006-2011-the-ultimate-modern-classic",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "stuttcars-911-gt3-997",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 GT3 (997) (2007 - 2009)",
+      "url": "https://www.stuttcars.com/porsche-911-gt3-997-2007-2009/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2008-911-gt3",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2008 Porsche 911 GT3 Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2008/gt3/features-specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-2009-911",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2009 Porsche 911 Specs & Features",
+      "url": "https://www.edmunds.com/porsche/911/2009/features-specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 415,
+          "sourceId": "pcna-2006-911-gt3-release"
+        },
+        {
+          "value": "409bhp @ 7600rpm",
+          "sourceId": "evo-911-gt3-997"
+        }
+      ],
+      "reason": "Unit conversion and market. Porsche's rating is 305 kW (415 PS); Evo's UK specification panel converts it to 409 bhp. Porsche Cars North America published 415 horsepower for the US car.",
+      "resolution": "415 used: the manufacturer's published US rating."
+    },
+    {
+      "field": "production",
+      "values": [
+        {
+          "value": "2007-2008 (US model years)",
+          "sourceId": "edmunds-2008-911-gt3"
+        },
+        {
+          "value": "2006-08",
+          "sourceId": "porsche-classic-997-gt3"
+        },
+        {
+          "value": "2007 - 2009",
+          "sourceId": "stuttcars-911-gt3-997"
+        }
+      ],
+      "reason": "Year type and market. Porsche's classic page gives calendar years (2006-08); Stuttcars gives 2007 - 2009 without separating markets. In the US the car was announced as the 2007 911 GT3, Edmunds lists 2007 and 2008 GT3s and no 2009 GT3, and Porsche Cars North America dates the 3.8-liter successor to the 2010 model year.",
+      "resolution": "2007-2008 used: the US model years."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -18,11 +18,11 @@
   "country": "Japan",
   "production": {
     "value": {
-      "startYear": 1991,
-      "endYear": 2002
+      "startYear": 1993,
+      "endYear": 1995
     },
     "sourceId": "mazda-100th-rx7",
-    "note": "Global production of the FD. Start: Mazda states the third-generation RX-7 was launched in 1991. End year 2002 is from Evo ('produced between 1992 and 2002') and Grassroots Motorsports (sold in Japan through the 2002 model year); the Mazda page opened does not give an end year. Sold in the US for model years 1993-1995 only."
+    "note": "US model years 1993-1995. Previously recorded as calendar years 1991-2002: Global production of the FD. Start: Mazda states the third-generation RX-7 was launched in 1991. End year 2002 is from Evo ('produced between 1992 and 2002') and Grassroots Motorsports (sold in Japan through the 2002 model year); the Mazda page opened does not give an end year. Sold in the US for model years 1993-1995 only."
   },
   "body": {
     "value": [
@@ -78,7 +78,8 @@
     "market": "US",
     "referenceModelYear": 1993,
     "powerStandard": "SAE net",
-    "weightType": "curb"
+    "weightType": "curb",
+    "yearType": "model"
   },
   "sources": [
     {

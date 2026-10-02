@@ -75,7 +75,8 @@
     "market": "EU",
     "referenceModelYear": 1987,
     "powerStandard": "DIN PS",
-    "weightType": "dry"
+    "weightType": "dry",
+    "yearType": "calendar"
   },
   "sources": [
     {
