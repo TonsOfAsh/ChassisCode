@@ -8,6 +8,28 @@ exact car, and gets another specification after each wrong guess.
 Phases 1 and 2 of 8 are done: the sourced vehicle data and a playable game in Unlimited mode
 (random car, clue-by-clue reveal, car search, win and loss summary).
 
+## Guess comparison
+
+The most recent wrong guess is shown in a column beside the mystery car with its own value for
+every clue revealed so far: green where it matches the mystery car, red where it does not.
+The next guess replaces it. When the round is over, each guessed car in the guess list has a
+"Show stats" button that puts its full stats in that column, one car at a time.
+A value is green only when it is exactly the same, so "Coupe" against "Coupe / Convertible" is red.
+
+## Difficulty
+
+Eleven clues are sorted into three tiers by how much they help a typical player:
+
+| Tier | Clues |
+|---|---|
+| Easy | Manufacturer, Engine, Country |
+| Medium | Drivetrain, Aspiration, Power, Displacement |
+| Hard | Transmission, Fuel, Body, Weight |
+
+Easy mode reveals the easy tier first, then medium, then hard. Hard mode reverses that.
+Normal mode mixes all eleven. The order within a tier is random each game, except that Country always comes before Manufacturer. Model is always
+clue 12 and Generation always clue 13. The tiers live in `src/config/clues.ts`.
+
 Still to come: the full results screen with car image and share button, the daily puzzle,
 statistics and streaks, and a larger database.
 

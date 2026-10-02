@@ -1,37 +1,64 @@
 /**
- * Clue-order report: for every car, how many cars in the database still match
- * after each clue is revealed. Use it to judge whether a clue order is balanced.
+ * Clue-order report. Clue order is partly random, so this plays many games
+ * per car in each difficulty mode and reports how many clues it takes, on
+ * average, before the car is the only one in the database that still matches.
+ *
+ * This measures a player who knows every spec of every car. Real players
+ * need more clues; use it to compare modes, not to predict scores.
  *
  *   npm run clue-report
  */
-import { CLUES, CLUE_ORDERS, DEFAULT_CLUE_ORDER, clueValues } from '../src/config/clues';
+import { ALL_CLUES, CLUES, CLUE_TIERS, FINAL_CLUES, drawClueOrder } from '../src/config/clues';
+import { MODES } from '../src/lib/game-types';
 import { VehicleSchema, type Vehicle } from '../src/lib/schema';
 import { loadRawFiles } from './load';
+
+const SAMPLES = 400;
 
 const vehicles: Vehicle[] = loadRawFiles().flatMap((f) => {
   const parsed = VehicleSchema.safeParse(f.json);
   return parsed.success ? [parsed.data] : [];
 });
-const order = CLUE_ORDERS[DEFAULT_CLUE_ORDER];
-const all = vehicles.map((v) => ({ v, clues: clueValues(v) }));
+const values = new Map(vehicles.map((v) => [v.id, new Map(ALL_CLUES.map((id) => [id, CLUES[id].format(v)]))]));
 
-const rows = all.map(({ v, clues }) => {
-  const remaining = order.map((_, i) => all.filter((o) => clues.slice(0, i + 1).every((c, j) => o.clues[j] === c)).length);
-  const solvedAt = remaining.findIndex((n) => n === 1);
-  return { name: v.displayName, remaining, solvedAt: solvedAt === -1 ? null : solvedAt + 1 };
-});
+/** Average clue number at which `v` becomes the only match, or null if it never does. */
+function averageUniqueAt(v: Vehicle, mode: (typeof MODES)[number]['id']): number | null {
+  const mine = values.get(v.id)!;
+  let total = 0;
+  for (let s = 0; s < SAMPLES; s++) {
+    let candidates = vehicles;
+    let at = 0;
+    for (const [i, id] of drawClueOrder(mode).entries()) {
+      candidates = candidates.filter((o) => values.get(o.id)!.get(id) === mine.get(id));
+      if (candidates.length === 1) {
+        at = i + 1;
+        break;
+      }
+    }
+    if (!at) return null;
+    total += at;
+  }
+  return total / SAMPLES;
+}
 
-console.log(`Clue order "${DEFAULT_CLUE_ORDER}": ${order.map((id) => CLUES[id].label).join(' > ')}\n`);
-console.log('Cars still matching after each clue (1 = uniquely identified):\n');
+const label = (ids: readonly (keyof typeof CLUES)[]) => ids.map((id) => CLUES[id].label).join(', ');
+console.log('Clue tiers');
+console.log(`  Easy:   ${label(CLUE_TIERS.easy)}`);
+console.log(`  Medium: ${label(CLUE_TIERS.medium)}`);
+console.log(`  Hard:   ${label(CLUE_TIERS.hard)}`);
+console.log(`  Always last: ${label(FINAL_CLUES)}\n`);
+console.log(`Average clue at which each car becomes the only match (${SAMPLES} games per mode, ${ALL_CLUES.length} clues):\n`);
+
+const rows = vehicles.map((v) => ({ name: v.displayName, at: MODES.map((m) => averageUniqueAt(v, m.id)) }));
 const width = Math.max(...rows.map((r) => r.name.length));
-console.log(' '.repeat(width) + '  ' + order.map((_, i) => String(i + 1).padStart(3)).join('') + '   unique at');
-for (const r of rows.sort((a, b) => (a.solvedAt ?? 99) - (b.solvedAt ?? 99)))
-  console.log(r.name.padEnd(width) + '  ' + r.remaining.map((n) => String(n).padStart(3)).join('') + '   ' + (r.solvedAt ? `clue ${r.solvedAt}` : 'NEVER'));
-
-const avg = order.map((_, i) => rows.reduce((s, r) => s + r.remaining[i]!, 0) / rows.length);
-console.log('\n' + 'Average'.padEnd(width) + '  ' + avg.map((n) => n.toFixed(0).padStart(3)).join(''));
-const solved = rows.filter((r) => r.solvedAt);
-if (solved.length)
-  console.log(`\nAverage clue at which a car becomes unique: ${(solved.reduce((s, r) => s + r.solvedAt!, 0) / solved.length).toFixed(1)} of ${order.length}`);
-const never = rows.filter((r) => !r.solvedAt);
-if (never.length) console.log(`Never unique: ${never.map((r) => r.name).join(', ')}`);
+console.log(`${''.padEnd(width)}  ${MODES.map((m) => m.label.padStart(7)).join('')}`);
+for (const r of rows.sort((a, b) => (a.at[1] ?? 99) - (b.at[1] ?? 99)))
+  console.log(
+    r.at.some((x) => x === null)
+      ? `${r.name.padEnd(width)}  NEVER unique: another car has identical clues`
+      : `${r.name.padEnd(width)}  ${r.at.map((x) => x!.toFixed(1).padStart(7)).join('')}`,
+  );
+const ok = rows.filter((r) => r.at.every((x) => x !== null));
+console.log(
+  `\n${'Average'.padEnd(width)}  ${MODES.map((_, i) => (ok.reduce((s, r) => s + r.at[i]!, 0) / (ok.length || 1)).toFixed(1).padStart(7)).join('')}`,
+);

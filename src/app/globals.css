@@ -3,6 +3,10 @@
  * The clue board is drawn as a chassis data plate: pale aluminium, corner
  * rivets, stamped condensed lettering. Yellow is the paint-marker dab a
  * factory inspector leaves on a checked part; it marks the newest clue.
+ *
+ * Layout: on wide screens the plate sits on the left and everything else
+ * (difficulty, search, result, guess list) sits in a panel on the right, sized
+ * so a whole game fits on one screen. On narrow screens it is one column.
  */
 
 :root {
@@ -21,6 +25,12 @@
   --font-stamp: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 
   --radius: 6px;
+
+  /* Plate density. Tightened below for short and narrow screens. */
+  --row-pad: 0.3rem;
+  --value-size: 1.375rem;
+  --guess-size: 1.125rem;
+  --label-size: 0.9375rem;
 }
 
 *,
@@ -81,24 +91,30 @@ input {
 /* ---- Page ---------------------------------------------------------------- */
 
 .page {
-  max-width: 36rem;
+  max-width: 40rem;
   margin: 0 auto;
-  padding: 1.25rem 1rem 4rem;
+  padding: 0.75rem 1rem 1rem;
 }
 
 .masthead {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: 0.25rem 1rem;
 }
 
 .wordmark {
   font-family: var(--font-stamp);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1;
   letter-spacing: 0.01em;
+}
+
+.intro {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.9375rem;
+  color: var(--ink-soft);
 }
 
 .mode {
@@ -106,8 +122,70 @@ input {
   color: var(--ink-soft);
 }
 
-.intro {
-  margin-top: 0.5rem;
+/* One column by default. The search box and result go above the plate so they
+   are on screen without scrolling; the guess list goes below it. */
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+.side {
+  display: contents;
+}
+.modes {
+  order: -3;
+}
+.error,
+.controls,
+.result {
+  order: -2;
+}
+
+/* ---- Difficulty ----------------------------------------------------------- */
+
+.modes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem 0.875rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.modes-options {
+  display: flex;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.mode-option {
+  padding: 0.3rem 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-left: 1px solid var(--ink);
+}
+.mode-option:first-child {
+  border-left: 0;
+}
+.mode-option-selected {
+  background: var(--ink);
+  color: var(--white);
+}
+.mode-option:has(:focus-visible) {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  position: relative;
+}
+.modes:disabled .mode-option {
+  cursor: default;
+}
+
+.modes-hint {
+  font-size: 0.875rem;
   color: var(--ink-soft);
 }
 
@@ -115,8 +193,8 @@ input {
 
 .plate {
   position: relative;
-  margin-top: 1.25rem;
-  padding: 1.5rem 1.75rem 1.25rem;
+  min-width: 0;
+  padding: 1.25rem 1.5rem 1rem;
   background: var(--aluminium);
   border: 1px solid var(--aluminium-edge);
   border-radius: var(--radius);
@@ -126,7 +204,7 @@ input {
 }
 
 .plate-loading {
-  min-height: 34rem;
+  min-height: 30rem;
   display: grid;
   place-items: center;
   color: var(--ink-soft);
@@ -141,35 +219,62 @@ input {
   box-shadow: 0 0 0 1px rgb(21 25 28 / 0.25);
 }
 .rivet-tl {
-  top: 8px;
-  left: 8px;
+  top: 7px;
+  left: 7px;
 }
 .rivet-tr {
-  top: 8px;
-  right: 8px;
+  top: 7px;
+  right: 7px;
 }
 .rivet-bl {
-  bottom: 8px;
-  left: 8px;
+  bottom: 7px;
+  left: 7px;
 }
 .rivet-br {
-  bottom: 8px;
-  right: 8px;
+  bottom: 7px;
+  right: 7px;
 }
 
-.plate-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-bottom: 0.75rem;
+.plate-scroll {
+  /* Positioned so that hidden screen-reader text inside the table is clipped with it. */
+  position: relative;
+  overflow-x: auto;
+}
+
+.clues {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.clues th,
+.clues td {
+  padding: var(--row-pad) 0.75rem var(--row-pad) 0;
+  border-bottom: 1px solid var(--aluminium-line);
+  vertical-align: baseline;
+  font-weight: 400;
+}
+.clues thead th {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--ink);
+  vertical-align: bottom;
+}
+.clues tbody tr:last-child th,
+.clues tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.col-label,
+.clue-label {
+  width: 9.5rem;
 }
 
 .plate-title {
   font-family: var(--font-stamp);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -177,53 +282,44 @@ input {
 
 .plate-title-revealed {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.625rem;
 }
 
 .plate-count {
-  flex: none;
   font-size: 0.875rem;
   color: var(--ink-soft);
   font-variant-numeric: tabular-nums;
-}
-
-.clue {
-  display: grid;
-  grid-template-columns: 1.5rem 7.5rem 1fr;
-  align-items: baseline;
-  column-gap: 0.5rem;
-  padding: 0.4rem 0;
-  border-bottom: 1px solid var(--aluminium-line);
-}
-.clue:last-child {
-  border-bottom: 0;
-}
-
-.clue-number {
-  font-size: 0.8125rem;
-  color: var(--ink-soft);
-  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .clue-label {
-  font-size: 0.9375rem;
+  font-size: var(--label-size);
   color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.clue-number {
+  display: inline-block;
+  width: 1.4rem;
+  margin-right: 0.5rem;
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
 }
 
 .clue-value {
   font-family: var(--font-stamp);
   font-weight: 600;
-  font-size: 1.375rem;
+  font-size: var(--value-size);
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 /* Blank stamping field: a row of empty character cells. */
 .clue-blank {
-  align-self: center;
-  height: 1.15rem;
+  display: block;
+  height: calc(var(--value-size) * 0.85);
   max-width: 9rem;
   border: 1px solid var(--aluminium-edge);
   border-radius: 2px;
@@ -241,11 +337,10 @@ input {
   background: var(--marker);
   border-radius: 45% 55% 50% 50% / 55% 45% 55% 45%;
   text-align: center;
-  width: 1.4rem;
   line-height: 1.4rem;
 }
 
-.clue-newest .clue-value {
+.clue-newest .clue-cell {
   animation: stamp 180ms ease-out;
   transform-origin: left center;
 }
@@ -261,11 +356,52 @@ input {
   }
 }
 
-/* ---- Controls ------------------------------------------------------------ */
-
-.controls {
-  margin-top: 1rem;
+/* The guessed car's column, compared with the mystery car. */
+.clues .col-guess,
+.clues .guess-cell {
+  width: 38%;
+  padding-left: 0.75rem;
+  padding-right: 0;
+  border-left: 1px solid var(--aluminium-line);
+  overflow-wrap: break-word;
 }
+
+.clues .col-guess {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.clues .guess-cell {
+  font-family: var(--font-stamp);
+  font-weight: 600;
+  font-size: var(--guess-size);
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Colour carries the result; the mark repeats it for anyone who cannot tell red from green. */
+.guess-match {
+  color: var(--right);
+}
+.guess-miss {
+  color: var(--wrong);
+}
+.guess-match::before,
+.guess-miss::before {
+  margin-right: 0.3em;
+  font-family: var(--font-text);
+  font-size: 0.75em;
+}
+.guess-match::before {
+  content: '✓';
+}
+.guess-miss::before {
+  content: '✕';
+}
+
+/* ---- Controls ------------------------------------------------------------ */
 
 .search {
   display: flex;
@@ -280,7 +416,7 @@ input {
 
 .search-input {
   width: 100%;
-  height: 3rem;
+  height: 2.75rem;
   padding: 0 0.875rem;
   background: var(--white);
   border: 1px solid var(--ink);
@@ -309,7 +445,7 @@ input {
 }
 
 .search-option {
-  padding: 0.625rem 0.875rem;
+  padding: 0.5rem 0.875rem;
   cursor: pointer;
 }
 .search-option-active {
@@ -318,13 +454,13 @@ input {
 }
 
 .search-empty {
-  padding: 0.625rem 0.875rem;
+  padding: 0.5rem 0.875rem;
   color: var(--ink-soft);
 }
 
 .button {
   flex: none;
-  height: 3rem;
+  height: 2.75rem;
   padding: 0 1.25rem;
   background: var(--ink);
   color: var(--white);
@@ -341,8 +477,8 @@ input {
 }
 
 .link {
-  margin-top: 0.75rem;
-  padding: 0.25rem 0;
+  margin-top: 0.5rem;
+  padding: 0.125rem 0;
   background: none;
   border: 0;
   color: var(--ink);
@@ -356,8 +492,7 @@ input {
 }
 
 .error {
-  margin-top: 1rem;
-  padding: 0.625rem 0.875rem;
+  padding: 0.5rem 0.875rem;
   border-left: 4px solid var(--wrong);
   background: var(--white);
 }
@@ -368,7 +503,6 @@ input {
 /* ---- Result -------------------------------------------------------------- */
 
 .result {
-  margin-top: 1.25rem;
   padding-left: 1rem;
   border-left: 4px solid var(--ink);
 }
@@ -382,14 +516,14 @@ input {
 .result-heading {
   font-family: var(--font-stamp);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1.1;
 }
 
 .stats {
   display: flex;
-  gap: 2rem;
-  margin: 0.75rem 0 1rem;
+  gap: 1.75rem;
+  margin: 0.5rem 0 0.75rem;
 }
 .stats dt {
   font-size: 0.875rem;
@@ -403,11 +537,7 @@ input {
   font-variant-numeric: tabular-nums;
 }
 
-/* ---- Turns --------------------------------------------------------------- */
-
-.turns {
-  margin-top: 1.5rem;
-}
+/* ---- Guess list ---------------------------------------------------------- */
 
 .turns-heading {
   font-size: 0.875rem;
@@ -415,15 +545,41 @@ input {
   color: var(--ink-soft);
 }
 
+/* One column: a compact row of names that wraps, to save height. */
+.turns ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+
 .turns li {
   position: relative;
-  padding: 0.3rem 0 0.3rem 1.5rem;
+  padding: 0.125rem 0 0.125rem 1.25rem;
+  font-size: 0.9375rem;
 }
 .turns li::before {
   position: absolute;
   left: 0;
   font-weight: 600;
 }
+/* After a round: shows that guess's full stats beside the mystery car. */
+.compare {
+  margin-left: 0.5rem;
+  padding: 0 0.4rem;
+  background: none;
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.35;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.compare[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--white);
+}
+
 .turn-wrong::before {
   content: '✕';
   color: var(--wrong);
@@ -442,23 +598,148 @@ input {
   content: '–';
 }
 
-/* ---- Small screens ------------------------------------------------------- */
+/* ---- Wide screens: plate on the left, panel on the right ------------------ */
 
-@media (max-width: 30rem) {
-  .plate {
-    padding: 1.375rem 1.125rem 1rem;
+@media (min-width: 62rem) {
+  .page {
+    max-width: 72rem;
+    padding: 1rem 1.5rem;
   }
-  .clue {
-    grid-template-columns: 1.4rem 6rem 1fr;
+
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    align-items: start;
+    gap: 1.75rem;
+    margin-top: 0.875rem;
   }
-  .clue-label {
+
+  /* The panel is never taller than the screen; a long guess list scrolls inside it. */
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 0;
+    max-height: calc(100dvh - 5.75rem);
+  }
+  .modes,
+  .error,
+  .controls,
+  .result {
+    order: 0;
+    flex: none;
+  }
+  .turns {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .turns ol {
+    display: block;
+    min-height: 0;
+    overflow-y: auto;
+  }
+  /* Buttons line up down the right edge of the panel. */
+  .turns li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .turn-name {
+    flex: 1;
+    min-width: 0;
+  }
+  .compare {
+    flex: none;
+    margin: 0 2px 0 0;
+  }
+  .turns li {
+    padding: 0.2rem 0 0.2rem 1.5rem;
+  }
+}
+
+/* Wide but short (most laptops): tighten the plate so nothing needs scrolling. */
+@media (min-width: 62rem) and (max-height: 50rem) {
+  :root {
+    --row-pad: 0.2rem;
+    --value-size: 1.25rem;
+    --guess-size: 1.0625rem;
+  }
+  .turns li {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     font-size: 0.875rem;
   }
-  .clue-value {
-    font-size: 1.1875rem;
+}
+
+/* ---- Phones -------------------------------------------------------------- */
+
+@media (max-width: 40rem) {
+  :root {
+    --row-pad: 0.22rem;
+    --value-size: 1.0625rem;
+    --guess-size: 0.9375rem;
+    --label-size: 0.8125rem;
+  }
+
+  .page {
+    padding: 0.625rem 0.75rem 1rem;
+  }
+  .wordmark {
+    font-size: 1.5rem;
+  }
+  .intro {
+    font-size: 0.8125rem;
+  }
+  .intro-more,
+  .modes-hint {
+    display: none;
+  }
+  .layout {
+    gap: 0.625rem;
+    margin-top: 0.5rem;
+  }
+
+  .plate {
+    padding: 1rem 0.875rem 0.75rem;
+  }
+  .col-label,
+  .clue-label {
+    width: 6.25rem;
+  }
+  .clues th,
+  .clues td {
+    padding-right: 0.5rem;
+  }
+  .clue-number {
+    width: 1.1rem;
+    margin-right: 0.2rem;
+    font-size: 0.75rem;
+  }
+  .clue-newest .clue-number {
+    line-height: 1.1rem;
+  }
+  .clue-blank {
+    max-width: 5rem;
+  }
+  .plate-title {
+    font-size: 1.125rem;
   }
   .plate-title-revealed {
-    font-size: 1.625rem;
+    font-size: 1.25rem;
+  }
+  .plate-count {
+    font-size: 0.75rem;
+  }
+  .clues .col-guess,
+  .clues .guess-cell {
+    padding-left: 0.5rem;
+  }
+  .clues .col-guess {
+    font-size: 0.8125rem;
+  }
+  .turns li {
+    font-size: 0.875rem;
   }
   .stats {
     gap: 1.5rem;
@@ -466,7 +747,7 @@ input {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .clue-newest .clue-value {
+  .clue-newest .clue-cell {
     animation: none;
   }
 }

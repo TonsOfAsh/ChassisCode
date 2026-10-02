@@ -1,5 +1,20 @@
 /** Types shared by the game API and the browser. Nothing here reveals an answer. */
 
+/** Difficulty: which clues are revealed first. */
+export type Mode = 'easy' | 'normal' | 'hard';
+
+export const MODES: readonly { id: Mode; label: string; hint: string }[] = [
+  { id: 'easy', label: 'Easy', hint: 'Starts with the maker, engine and country.' },
+  { id: 'normal', label: 'Normal', hint: 'Clues come in any order.' },
+  { id: 'hard', label: 'Hard', hint: 'Starts with the least telling specs.' },
+];
+
+export const DEFAULT_MODE: Mode = 'normal';
+
+export function isMode(value: unknown): value is Mode {
+  return MODES.some((m) => m.id === value);
+}
+
 export interface Clue {
   id: string;
   label: string;
@@ -17,6 +32,11 @@ export interface CarOption {
 export interface Turn {
   carId: string | null;
   name: string | null;
+  /**
+   * For a guess: the guessed car's own value for each clue revealed so far,
+   * in clue order, and whether it matches the mystery car. Absent for a skip.
+   */
+  values?: { value: string; match: boolean }[];
 }
 
 export interface GameResult {
@@ -34,6 +54,7 @@ export interface GameResult {
 
 export interface GameView {
   status: 'playing' | 'solved' | 'lost';
+  mode: Mode;
   /** Opaque, encrypted game state. Send it back with the next guess. Absent once the game is over. */
   token?: string;
   /** Labels of all clues, in order, so the board can show what is still hidden. */

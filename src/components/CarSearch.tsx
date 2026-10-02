@@ -62,6 +62,17 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
 
   useEffect(() => setActive(0), [query]);
 
+  // When a turn finishes, put the cursor back in the search box so the next
+  // guess can be typed straight away. Not on a touch screen, where it would
+  // pop the keyboard up over the clue just revealed.
+  const wasDisabled = useRef(true); // true so the box is also ready when a round starts
+  useEffect(() => {
+    if (wasDisabled.current && !disabled && !window.matchMedia('(pointer: coarse)').matches) {
+      inputRef.current?.focus();
+    }
+    wasDisabled.current = disabled;
+  }, [disabled]);
+
   const showList = open && !selected && query.trim().length > 0;
 
   function choose(car: CarOption) {
@@ -120,9 +131,10 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
           autoComplete="off"
           autoCorrect="off"
           spellCheck={false}
-          placeholder="Search for a car, like “GT3 991.2”"
+          placeholder="Search for a car"
           value={query}
-          disabled={disabled}
+          // Never disabled: a disabled field drops the cursor. Guesses are blocked in submit() instead.
+          aria-busy={disabled}
           onChange={(e) => {
             setQuery(e.target.value);
             setSelected(null);
