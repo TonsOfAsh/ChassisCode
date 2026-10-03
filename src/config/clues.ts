@@ -119,9 +119,9 @@ const TIERED_CLUES: readonly ClueId[] = [...CLUE_TIERS.easy, ...CLUE_TIERS.mediu
 
 /** Clues to reveal early for one answer. See `priorityClues`. */
 export interface Priority {
-  /** Revealed first or second (fourth in Easy, straight after the easy clues). */
+  /** Revealed first or second (fourth in Easy, straight after the easy clues; in Hard, first or second of its own tier). */
   first: ClueId[];
-  /** Revealed somewhere in the first four (fourth or fifth in Easy). */
+  /** Revealed somewhere in the first four (fourth or fifth in Easy; in Hard, at the start of its own tier). */
   soon: ClueId[];
 }
 
@@ -172,6 +172,9 @@ export function priorityClues(vehicle: Vehicle, all: readonly Vehicle[]): Priori
  * for everyone.
  *
  * `priority` (from `priorityClues`) is brought forward: see `Priority`.
+ * Hard mode keeps its least-telling-first order: a priority clue moves only to
+ * the front of its own tier, so a deciding manufacturer still comes after
+ * every hard and medium clue.
  */
 export function drawClueOrder(mode: Mode, random: () => number = Math.random, priority: Priority = NO_PRIORITY): ClueId[] {
   let tiered = MODE_GROUPS[mode].flatMap((group) =>
@@ -180,6 +183,7 @@ export function drawClueOrder(mode: Mode, random: () => number = Math.random, pr
       random,
     ),
   );
+  if (mode === 'hard') return [...hardOrder(tiered, priority, random), ...FINAL_CLUES];
   const easy: readonly ClueId[] = CLUE_TIERS.easy;
   // In Easy mode an easy clue is already among the first three, so it stays put.
   const movable = (ids: ClueId[]) => ids.filter((id) => tiered.includes(id) && !(mode === 'easy' && easy.includes(id)));
@@ -214,6 +218,29 @@ export function drawClueOrder(mode: Mode, random: () => number = Math.random, pr
     if (i > j && j !== -1) [tiered[i], tiered[j]] = [tiered[j]!, tiered[i]!];
   }
   return [...tiered, ...FINAL_CLUES];
+}
+
+/** Hard mode: each tier stays together, with its priority clues at the front of it. */
+function hardOrder(tiered: ClueId[], priority: Priority, random: () => number): ClueId[] {
+  const wanted = new Set<ClueId>([...priority.first, ...priority.soon]);
+  // A clue that must come after another (manufacturer after country) brings that one along.
+  for (const [a, z] of BEFORE_RULES) if (wanted.has(z)) wanted.add(a);
+  const out: ClueId[] = [];
+  for (const group of MODE_GROUPS.hard) {
+    const ids: readonly ClueId[] = group.flatMap((tier) => [...CLUE_TIERS[tier]]);
+    const block = tiered.filter((id) => ids.includes(id));
+    const front = block.filter((id) => wanted.has(id));
+    const rest = block.filter((id) => !wanted.has(id));
+    // A single priority clue comes first or second in its tier, as in Normal.
+    if (front.length === 1 && rest.length > 0 && random() < 0.5) out.push(rest.shift()!);
+    out.push(...front, ...rest);
+  }
+  for (const [a, z] of BEFORE_RULES) {
+    const i = out.indexOf(a);
+    const j = out.indexOf(z);
+    if (i > j && j !== -1) [out[i], out[j]] = [out[j]!, out[i]!];
+  }
+  return out;
 }
 
 /** True if `order` contains every clue exactly once, ends with the final clues in order and obeys the ordering rules. */

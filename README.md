@@ -55,15 +55,17 @@ generation) differ in only one or two places. Weight is not counted unless it is
 difference. Without this, a player who had narrowed it down would be guessing until the deciding
 clue happened to come up (the Cayman GT4 and the 911 GT3 differ only in power).
 
-- One clue apart: that clue is revealed first or second in Normal and Hard, and fourth, straight
-  after the easy tier, in Easy.
+- One clue apart: that clue is revealed first or second in Normal, and fourth, straight after the
+  easy tier, in Easy.
 - Two clues apart: one of them (the one that tells apart the most twins, power on a tie) is revealed
   within the first four, or fourth or fifth in Easy.
+- Hard keeps its least-telling-first order: the deciding clue moves only to the front of its own
+  tier. A deciding manufacturer (Scion FR-S and Subaru BRZ) still comes after every hard and medium
+  clue, just at the start of the easy ones.
 
 The game works this out from the data; `npm run clue-report` lists the cars affected.
 
-Still to come: the results screen with a car image and a share button, accounts, and a larger
-database.
+Still to come: car images, accounts, and a larger database.
 
 ## Play it on your computer
 
