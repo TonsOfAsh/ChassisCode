@@ -10,19 +10,23 @@
     "GR 86",
     "ZN8",
     "ZN8 GR86",
-    "Toyota 86",
     "GR86 Premium",
     "FA24",
     "2022 GR86"
   ],
   "country": "Japan",
   "production": {
-    "value": { "startYear": 2022, "endYear": null },
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
     "sourceId": "toyota-us-2022-gr86-thrills",
     "note": "US model years. First: the release is for the 'All-New 2022 Toyota GR 86', with 'Expected arrival at Toyota dealerships in November 2021'. Still on sale: Toyota's US newsroom has a 2027 GR86 vehicle page with the release 'Toyota Turns Up the Thrill for 2027 with New Updates to GR86' (1 June 2026) (toyota-us-2027-gr86-page)."
   },
   "body": {
-    "value": ["Coupe"],
+    "value": [
+      "Coupe"
+    ],
     "sourceId": "toyota-us-2022-gr86-thrills",
     "note": "'front-engine, rear-wheel drive coupe'"
   },
@@ -54,7 +58,10 @@
     "note": "'front-engine, rear-wheel drive coupe'"
   },
   "transmission": {
-    "value": ["6-speed Manual", "6-speed Automatic"],
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
     "sourceId": "toyota-us-2022-gr86-thrills",
     "note": "'Available in a manual transmission (MT) or paddle-shifted automatic (AT)'; both six-speed."
   },

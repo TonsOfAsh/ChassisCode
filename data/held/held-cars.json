@@ -956,6 +956,41 @@
       "heldSince": "2026-10-03",
       "missing": "A Toyota or major-magazine source for power and curb weight.",
       "notes": "Consumer Guide (Tom Appel): 200 hp, 5-speed manual only for Turbos."
+    },
+    {
+      "id": "audi-rs-7-sportback-c8",
+      "displayName": "Audi RS 7 Sportback (C8)",
+      "heldSince": "2026-10-03",
+      "missing": "A US curb weight for the standard 591 hp car (2021-2023) from Audi or a major magazine's specifications.",
+      "notes": "591 hp confirmed (Audi of America release 434, 16 Sep 2020). Audi's current page shows only the 2026 RS 7 performance (621 hp, 4,916 lb), a different variant."
+    },
+    {
+      "id": "hyundai-kona-n",
+      "displayName": "Hyundai Kona N",
+      "heldSince": "2026-10-03",
+      "missing": "A second source for the curb weight (only Autoblog's 3,340 lb) and a Hyundai page for the 286 hp N Grin Shift rating.",
+      "notes": "Confirmed (2023 US brochure): 276 hp, 2.0 turbo I4, 8-speed wet DCT. US model years 2022-2023."
+    },
+    {
+      "id": "chevrolet-corvette-e-ray-c8",
+      "displayName": "Chevrolet Corvette E-Ray (C8)",
+      "heldSince": "2026-10-03",
+      "missing": "A Chevrolet page giving its weight; the only GM figure, 3,774 lb dry (coupe), was found only in outlets.",
+      "notes": "Confirmed: 655 hp combined, 8-speed DCT, AWD, coupe and convertible, launched as a 2024 model."
+    },
+    {
+      "id": "cadillac-cts-v-3rd-gen",
+      "displayName": "Cadillac CTS-V (3rd gen)",
+      "heldSince": "2026-10-03",
+      "missing": "A final curb weight; GM's 4,145 lb is in a table headed 'PRELIMINARY SPECIFICATIONS'.",
+      "notes": "Confirmed: 640 hp, 6,162 cc supercharged V8, 8-speed automatic, RWD sedan, US model years 2016-2019."
+    },
+    {
+      "id": "maserati-mc20",
+      "displayName": "Maserati MC20",
+      "heldSince": "2026-10-03",
+      "missing": "A curb weight figure. Maserati gives only upper limits ('under 1,500 kg', '< 3,620 lb'); The Drive and MoparInsiders print 3,306 lb, which is the 1,500 kg limit converted.",
+      "notes": "Confirmed: 621 hp (Maserati USA, metric hp), 3.0 twin-turbo V6, 8-speed DCT, RWD coupe; US model years 2022-2025. Draft record kept in the batch 8 working folder."
     }
   ]
 }

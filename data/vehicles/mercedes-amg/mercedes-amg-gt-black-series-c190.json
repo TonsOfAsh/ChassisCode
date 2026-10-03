@@ -1,0 +1,125 @@
+{
+  "id": "mercedes-amg-gt-black-series-c190",
+  "manufacturer": "Mercedes-AMG",
+  "model": "GT",
+  "generation": "C190",
+  "variant": "Black Series",
+  "subVariant": null,
+  "displayName": "Mercedes-AMG GT Black Series (C190)",
+  "aliases": [
+    "AMG GT Black Series",
+    "GT Black Series",
+    "Black Series",
+    "M178",
+    "AMG SPEEDSHIFT DCT",
+    "2021 AMG GT Black Series"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2021
+    },
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "US model year 2021 only. MBUSA published '2021 Mercedes-AMG GT Black Series Specifications' and a 2021 quick reference guide (mbusa-2021-gt-bs-qrg). Motor Authority: \"The Black Series name returns to the Mercedes-Benz AMG lineup for 2021\" (motorauthority-gt-bs). Motor1 quotes a Mercedes spokesperson: \"The GT Black Series was planned to be produced for a period of roughly one year and was not limited in numbers\", with 'slightly more than 1,700 units' built (motor1-gt-bs-production)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "'Two-door, two passenger coupe'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2021-gt-bs-specs",
+      "note": "'Handcrafted AMG 4.0-Liter V8 Biturbo engine with flat-plane crankshaft'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2021-gt-bs-specs",
+      "note": "3,982 cc ('Displacement (cc) | 3,982')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2021-gt-bs-specs",
+      "note": "'V8 Biturbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "Inferred from the description of the V8 biturbo engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "'Drive Configuration | Rear Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "'AMG 7-Speed DCT Dual-Clutch' (AMG SPEEDSHIFT DCT 7G)"
+  },
+  "powerHp": {
+    "value": 720,
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "Quote: \"Horsepower @ rpm | 720 @ 6,700-6,900\". MBUSA quick reference guide (mbusa-2021-gt-bs-qrg): \"720 hp at 6,700-6,900 rpm\"."
+  },
+  "weightLb": {
+    "value": 3616,
+    "sourceId": "mbusa-2021-gt-bs-specs",
+    "note": "US curb weight, coupe, 7-speed DCT (the only transmission). Quote (MBUSA specifications sheet): \"Curb Weight (lbs) | 3,616\", with no estimate label. MBUSA's quick reference guide prints the same figure as \"3,616 lbs* (est.)\" (mbusa-2021-gt-bs-qrg). Motor Authority (Viknesh Vijayenthiran) also gives 3,616 pounds (motorauthority-gt-bs). See reviewNotes. Mercedes-Benz USA's quick reference guide prints the same figure as '3,616 lbs* (est.)'. The car was sold for one model year, so no final figure exists; kept with weightQualifier 'preliminary', as for the Corvette ZR1 (C7)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "weightQualifier": "preliminary",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2021-gt-bs-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2021 Mercedes-AMG GT Black Series Specifications",
+      "url": "https://media.mbusa.com/releases/release-35650297d856e41f18a057160c0993ce-2021-mercedes-amg-gt-black-series-specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mbusa-2021-gt-bs-qrg",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2021 Mercedes-AMG GT Black Series Quick Reference Guide",
+      "url": "https://media.mbusa.com/releases/release-9e110a76b364c518148b9c1ade260f59-2021-mercedes-amg-gt-black-series-quick-reference-guide",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-gt-bs",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2021 Mercedes-AMG GT Black Series price, specs, review, info, photos",
+      "url": "https://www.motorauthority.com/news/1128806_2021-mercedes-amg-gt-black-series-price-specs-review-info-photos",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motor1-gt-bs-production",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "Mercedes-AMG GT Black Series Production Has Allegedly Ended",
+      "url": "https://www.motor1.com/news/564615/mercedes-amg-gt-black-production/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight 3,616 lb is unlabelled on MBUSA's spec sheet but marked 'est.' in its quick reference guide; labelled 'preliminary' (one-year car), following the owner's ZR1 (C7) decision.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

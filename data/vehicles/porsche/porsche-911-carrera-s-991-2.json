@@ -1,0 +1,124 @@
+{
+  "id": "porsche-911-carrera-s-991-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.2",
+  "variant": "Carrera S",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera S (991.2)",
+  "aliases": [
+    "991.2 Carrera S",
+    "Carrera S 991.2",
+    "991.2 C2S",
+    "991 II Carrera S",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2019
+    },
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "US model years 2017 to 2019. First: the spec sheet is headed \"2017 Porsche Models Technical Data\" with a \"911 Carrera S\" column (\"Boxer, twin-turbo\"). Last: Kelley Blue Book's 2019 911 page lists the Carrera S with \"420 horsepower @ 6,500 rpm\" and a \"3.0-liter twin-turbocharged flat-6\", and notes that \"the all-new 2020 911\" (992) follows (kbb-2019-911)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "Columns '911 Carrera S' (coupe) and '911 Carrera S Cabriolet'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2017-911-carrera-specs",
+      "note": "'Boxer, twin-turbo' (six-cylinder)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "pcna-2017-911-carrera-specs",
+      "note": "The sheet prints 'Displacement (Liters) 3.0 l' for the Carrera S coupe and no cc figure (the Carrera S Cabriolet column reads '3.8 l', evidently a misprint: the PCNA press information says the Carrera S makes 420 hp \"operating with the same displacement\" as the three-liter Carrera, pcna-2017-911-press-info). Porsche's US Carrera T sheet gives 2,981 cm³ for the 370 hp version of this 3.0-liter engine (pcna-911-carrera-t-specs)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pcna-2017-911-carrera-specs",
+      "note": "'Boxer, twin-turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "Inferred from the sheet's description of a twin-turbo boxer engine; no hybrid system is described."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "'Drivetrain Rear-wheel drive'. The all-wheel-drive Carrera 4S is a different model."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "'Transmission type 7-speed manual / 7-speed PDK'. DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 420,
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "Quote: \"Maximum power output @ engine speed 370 hp @ 6500 420 hp @ 6500 370 hp @ 6500 420 hp @ 6500\" (911 Carrera | 911 Carrera S | 911 Carrera Cabriolet | 911 Carrera S Cabriolet). PCNA press information: \"Operating with the same displacement, the 911 Carrera S makes 420 hp.\" Still 420 hp for 2019 per kbb-2019-911."
+  },
+  "weightLb": {
+    "value": 3175,
+    "sourceId": "pcna-2017-911-carrera-specs",
+    "note": "Coupe with the 7-speed manual, 2017 model. Quote: \"Curb weight (lbs) 3153 lbs. (man.) / 3197 lbs. (PDK) 3175 lbs. (man.) / 3219 lbs. (PDK) 3307 lbs. (man.) / 3351 lbs. (PDK) 3329 lbs. (man.) / 3373 lbs. (PDK)\" (911 Carrera | 911 Carrera S | 911 Carrera Cabriolet | 911 Carrera S Cabriolet). PDK coupe 3,219 lb; Cabriolet 3,329 lb manual."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2017-911-carrera-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "2017 911 Carrera and Carrera S Technical Specifications",
+      "url": "https://newsroom.porsche.com/dam/jcr:8a8a3990-34a8-4ae0-a11e-f4bb53abd5e0/2017_911_Carrera_and_Carrera_S_Technical_Specifications.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "pcna-2017-911-press-info",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom)",
+      "title": "Press Information: 911 Carrera (PCNA18_0115_us)",
+      "url": "https://download.newsroom.porsche.com/dam/jcr:29e27626-6871-4885-93cc-cb48d10b76b9/PCNA18_0115_us.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "pcna-911-carrera-t-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom)",
+      "title": "Technical data for 911 Carrera T (PCNA18_0997_us)",
+      "url": "https://newsroom.porsche.com/dam/jcr:5f199493-a856-4873-86c9-25fe706fdc6d/PCNA18_0997_us.pdf.PDF",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-2019-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/2019/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

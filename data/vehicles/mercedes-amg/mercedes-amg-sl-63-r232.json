@@ -1,0 +1,125 @@
+{
+  "id": "mercedes-amg-sl-63-r232",
+  "manufacturer": "Mercedes-AMG",
+  "model": "SL 63",
+  "generation": "R232",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-AMG SL 63 (R232)",
+  "aliases": [
+    "SL63",
+    "AMG SL 63",
+    "SL 63 4MATIC+",
+    "R232 SL63",
+    "SL63 R232",
+    "M177",
+    "AMG SPEEDSHIFT MCT",
+    "2022 SL63"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "mbusa-sl-pricing-2022",
+    "note": "US model years. First: MBUSA pricing release: \"The highly anticipated 2022 Mercedes-AMG SL represents the rebirth of an icon\"; the SL 'will arrive in U.S. dealerships in the summer'. Still on sale: mbusa.com lists the 2027 AMG SL 63 Roadster (mbusa-2027-sl63). The SL 63 S E PERFORMANCE plug-in hybrid is a separate variant and not part of this record."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "mbusa-2027-sl63",
+    "note": "Sold as the 'AMG SL 63 Roadster', a soft-top open car with no fixed-roof version; mbusa.com lists 4 seats (2+2)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2027-sl63",
+      "note": "'Handcrafted AMG 4.0L V8 biturbo'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "autobild-sl63",
+      "note": "3,982 cc (Auto Bild technical data: 'Hubraum (cm³) 3982'); MBUSA states '4.0L'."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2027-sl63",
+      "note": "'V8 biturbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2027-sl63",
+    "note": "Inferred from the description of the V8 biturbo engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mbusa-2027-sl63",
+    "note": "'AMG Performance 4MATIC+ all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-2027-sl63",
+    "note": "'AMG SPEEDSHIFT® MCT 9-speed', recorded as Automatic as in the other AMG MCT records."
+  },
+  "powerHp": {
+    "value": 577,
+    "sourceId": "mbusa-2027-sl63",
+    "note": "Quote (mbusa.com, 2027 model): \"577 hp @ 5,500-6,500 rpm\". Same rating at launch, MBUSA 2022 pricing release (mbusa-sl-pricing-2022): \"The powertrain in the AMG SL 63 develops 577 hp and delivers 590 lb-ft of torque\". European rating 585 PS (Auto Bild: '430 (585)/5500')."
+  },
+  "weightLb": {
+    "value": 4376,
+    "sourceId": "mbusa-2027-sl63",
+    "note": "US curb weight, 2027 model, 9-speed MCT (the only transmission). Quote (mbusa.com): \"Curb weight 4,376 lbs\"; no estimate label. No MBUSA weight for an earlier model year was found (the 2022 pricing release gives none), so the reference year is 2027, the earliest year with a qualifying weight under the 577 hp rating (unchanged since 2022). Mercedes-Benz Canada lists '1,970 kg' (4,343 lb) for its 2026 car, a different market and year (mbca-2026-sl63)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2027,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2027-sl63",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2027 AMG SL 63 Roadster",
+      "url": "https://mbusa.com/en/vehicles/model/sl/roadster/sl63r4",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mbusa-sl-pricing-2022",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "Mercedes-Benz USA announces pricing and curated trims for all-new Mercedes-AMG SL",
+      "url": "https://media.mbusa.com/releases/mercedes-benz-usa-announces-pricing-and-curated-trims-for-all-new-mercedes-amg-sl",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mbca-2026-sl63",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz Canada",
+      "title": "AMG SL 63 4MATIC+ Roadster",
+      "url": "https://www.mercedes-benz.ca/en/vehicles/model/sl/roadster/sl63r4",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autobild-sl63",
+      "type": "publication",
+      "publisher": "Auto Bild",
+      "title": "Mercedes-AMG SL 63 4Matic+: Test, Motor, Preis",
+      "url": "https://www.autobild.de/artikel/mercedes-amg-sl-63-4matic-test-motor-preis-21739097.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

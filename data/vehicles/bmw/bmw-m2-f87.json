@@ -1,0 +1,114 @@
+{
+  "id": "bmw-m2-f87",
+  "manufacturer": "BMW",
+  "model": "M2",
+  "generation": "F87",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M2 (F87)",
+  "aliases": [
+    "F87 M2",
+    "M2 Coupe",
+    "N55",
+    "M DCT",
+    "DCT",
+    "2016 M2"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2018
+    },
+    "sourceId": "bmw-us-2016-m2-release",
+    "note": "US model years 2016 to 2018. First: BMW NA's release 'The All-New 2016 BMW M2' (13 Oct 2015), US launch in \"spring of 2016\". Last: \"The 2019 BMW M2 Competition replaces the BMW M2 Coupe\" (bmw-us-2019-m2-competition-release); Kelley Blue Book lists a 2018 \"M2 Coupe 2D\" with \"365 @ 6500 RPM\" (kbb-2018-m2)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2016-m2-release"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2016-m2-release",
+      "note": "'6-cylinder inline gasoline engine'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2016-m2-release",
+      "note": "2,979 cc (2,979 cm³)"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "bmw-us-2016-m2-release",
+      "note": "Single TwinScroll turbocharger: \"In the new 6-cylinder inline gasoline engine, this comprises a TwinScroll turbocharger, High Precision Direct Injection, variable camshaft timing (Double-VANOS) and VALVETRONIC variable valve lift control.\" The twin-turbo S55 arrived with the separate M2 Competition."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2016-m2-release",
+    "note": "'6-cylinder inline gasoline engine'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2016-m2-release"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "bmw-us-2016-m2-release",
+    "note": "\"The all-new BMW M2 comes as standard with a six-speed manual gearbox\"; the seven-speed M Double Clutch Transmission (M DCT) was optional."
+  },
+  "powerHp": {
+    "value": 365,
+    "sourceId": "bmw-us-2016-m2-release",
+    "note": "Quote: \"Engine power\" \"365@6500\" (technical data table); text: \"365 bhp at 6,500 rpm\". Still 365 hp for 2018 per kbb-2018-m2."
+  },
+  "weightLb": {
+    "value": 3450,
+    "sourceId": "bmw-us-2016-m2-release",
+    "note": "Coupe with the 6-speed manual, 2016 model. Quote: \"US Curb weight\" \"3505\" (M2 DKG) and \"3450\" (M2 manual) from the technical data table. Kelley Blue Book also gives \"3,450 pounds\" for the 2018 manual (kbb-2018-m2)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2016-m2-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The All-New 2016 BMW M2",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0238507EN_US/the-all-new-2016-bmw-m2",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-us-2019-m2-competition-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The First Ever 2019 BMW M2 Competition (press release with specifications)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0280302EN_US/431610",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-2018-m2",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2018 BMW M2 Specs, Features & Options",
+      "url": "https://www.kbb.com/bmw/m2/2018/specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

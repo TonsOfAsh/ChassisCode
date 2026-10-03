@@ -1,0 +1,125 @@
+{
+  "id": "scion-fr-s-zn6",
+  "manufacturer": "Scion",
+  "model": "FR-S",
+  "generation": "ZN6",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Scion FR-S (ZN6)",
+  "aliases": [
+    "FRS",
+    "ZN6",
+    "ZN6 FR-S",
+    "Scion FRS",
+    "FA20",
+    "FR-S Release Series",
+    "2013 FR-S"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2016
+    },
+    "sourceId": "toyota-us-scion-fr-s-album",
+    "note": "US model years. First: Toyota's newsroom album '2013 – 2014 Scion FR-S [First (1st) Generation]'. Last: Scion's brochure for 'MODEL YEAR 2016' (scion-us-2016-fr-s-brochure); for 2017 'the Scion FR-S adopts the Toyota 86 identity used in other global markets, as Scion and its models transition back to the Toyota brand' (toyota-us-2017-86-release). The 2017 to 2020 car is the separate Toyota 86 record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "scion-us-2014-fr-s-brochure",
+    "note": "Inferred: Scion describes a two-door, rear-wheel-drive boxer-engined sports car; sold only as a coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "scion-us-2014-fr-s-brochure",
+      "note": "'2.0 LITER, 4-CYLINDER, BOXER'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "scion-us-2014-fr-s-brochure",
+      "note": "1,998 cc ('1,998 CC')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "scion-us-2014-fr-s-brochure",
+      "note": "Inferred: the brochure describes a 2.0-liter boxer four with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "scion-us-2014-fr-s-brochure",
+    "note": "Inferred from the brochure's description of a conventional piston engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "scion-us-2014-fr-s-brochure",
+    "note": "'REAR-WHEEL DRIVE'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "scion-us-2014-fr-s-brochure",
+    "note": "'6-SPEED MANUAL OR 6-SPEED AUTOMATIC WITH PADDLE SHIFTERS AND DYNAMIC REV MANAGEMENT™'"
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "scion-us-2014-fr-s-brochure",
+    "note": "2014 model year. Quote: \"HORSEPOWER(1). . . 200 HP @ 7,000 RPM\". No opened page gives the FR-S any other rating; the 205 hp manual rating arrived with the renamed 2017 Toyota 86, which got 'a five-horsepower increase to 205 hp' (toyota-us-2017-86-release)."
+  },
+  "weightLb": {
+    "value": 2758,
+    "sourceId": "scion-us-2014-fr-s-brochure",
+    "note": "2014 model year, 6-speed manual. Quote: \"CURB WEIGHT . . . 2,758 LBS. MT / 2,806 LBS. AT\". No Scion or Toyota weight for the 2013 launch year was found (the 2013 brochure is not on Auto-Brochures), so the reference year is 2014, the earliest year with a manufacturer figure; the power rating is the same in both years."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "scion-us-2014-fr-s-brochure",
+      "type": "manufacturer",
+      "publisher": "Scion (Toyota Motor Sales, U.S.A.; brochure rehosted by Auto-Brochures.com)",
+      "title": "2014 Scion FR-S brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Scion/FR-S/Scion_US%20FR-S_2014.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "scion-us-2016-fr-s-brochure",
+      "type": "manufacturer",
+      "publisher": "Scion (Toyota Motor Sales, U.S.A.; brochure rehosted by Auto-Brochures.com)",
+      "title": "2016 Scion FR-S brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Scion/FR-S/Scion_US%20FR-S_2016.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "toyota-us-scion-fr-s-album",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "2013 – 2014 Scion FR-S [First (1st) Generation]",
+      "url": "https://pressroom.toyota.com/album/2013-2014-scion-fr-s-first-1st-generation/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "toyota-us-2017-86-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "2017 Toyota 86 is the Affordable, Fun-damental Sports Car (12 September 2016)",
+      "url": "https://pressroom.toyota.com/2017-toyota-86-is-affordable-fundamental-sports-car/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

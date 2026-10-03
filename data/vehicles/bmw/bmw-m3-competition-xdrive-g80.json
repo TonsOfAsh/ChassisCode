@@ -1,0 +1,123 @@
+{
+  "id": "bmw-m3-competition-xdrive-g80",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "G80",
+  "variant": "Competition xDrive",
+  "subVariant": null,
+  "displayName": "BMW M3 Competition xDrive (G80)",
+  "aliases": [
+    "G80 M3 Competition xDrive",
+    "M3 xDrive",
+    "M3 Competition M xDrive",
+    "M3 Comp xDrive",
+    "S58",
+    "M Steptronic"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "US model years 2022-present. First: BMW NA's release is titled \"The New 2022 BMW M3 Competition xDrive and M4 Competition xDrive\", with \"Market launch set for August 2021\". The 2021 launch release had announced that \"Summer of 2021 will see the arrival of optional M xDrive for Competition models\" (bmw-us-2021-m3-release). Still on sale: on 2026-10-03 bmwusa.com's M3 technical highlights listed the M3 Competition xDrive Sedan alongside the rear-wheel-drive M3 and M3 Competition (bmwusa-m3-technical-highlights)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "Column 'M3 Competition xDrive Sedan'. The two-door car is the separate M4."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+      "note": "Engine type 'S58B30T0', the S58 inline six (BMW: 'inline six' in bmw-us-2021-m3-release)."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+      "note": "2,993 cc ('Displacement cm³ | 2,993 | 2,993')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2021-m3-release",
+      "note": "The 2022 sheet lists 'Induction | Turbocharged'; BMW NA's launch release for the same S58 engine describes two mono-scroll turbochargers."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "Inferred from the release's description of the turbocharged S58 gasoline engine; no hybrid system is described."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "'M xDrive all-wheel drive', rear-biased with a 2WD mode. The rear-wheel-drive M3 Competition is a separate record."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "'M8HP76 8-speed auto' (8-speed M Steptronic, a torque-converter automatic). No manual was offered on the Competition xDrive."
+  },
+  "powerHp": {
+    "value": 503,
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "Quote: \"Engine power hp | 503 @ 6,250 | 503 @ 6,250\" (M3 Competition xDrive Sedan | M4 Competition xDrive Coupe). Also: \"503 hp and 479 lb.-ft of torque.\" Model years 2022-2024. For 2025 BMW NA raised the rating to 523 hp (bmw-us-2025-m3-release: \"For 2025, the engine under the hood of the new BMW M3 Competition Sedan with M xDrive develops an extra 20 hp thanks to optimized configuration of the engine management system.\" and \"Max output (hp @ RPM) 523 @ 6,250\"). The 503 hp rating covered three of the five model years so far, so the launch rating is used."
+  },
+  "weightLb": {
+    "value": 3990,
+    "sourceId": "bmw-us-2022-m3-m4-competition-xdrive",
+    "note": "Single configuration (automatic sedan), 2022 model. Quote: \"Curb weight lbs. | 3,990 | 3,979\" (M3 Competition xDrive Sedan | M4 Competition xDrive Coupe). BMW NA's 2025 release gives the same 3,990 lb (bmw-us-2025-m3-release)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2022-m3-m4-competition-xdrive",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2022 BMW M3 Competition xDrive and M4 Competition xDrive (press release with technical data)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0330025EN_US/476597",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-us-2021-m3-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2021 BMW M3 Sedan and M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0317577EN_US/the-new-2021-bmw-m3-sedan-and-m4-coupe?language=en_US",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-us-2025-m3-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The new 2025 BMW M3 (press release, May 29, 2024)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0442408EN_US?language=en_US",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmwusa-m3-technical-highlights",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (bmwusa.com)",
+      "title": "BMW M3 Sedan: Technical Highlights",
+      "url": "https://www.bmwusa.com/vehicles/m-series/m3-series/bmw-m3-sedan-technical-highlights.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

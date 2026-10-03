@@ -1,0 +1,123 @@
+{
+  "id": "lexus-is-500-f-sport-performance",
+  "manufacturer": "Lexus",
+  "model": "IS",
+  "generation": null,
+  "variant": "500 F Sport Performance",
+  "subVariant": null,
+  "displayName": "Lexus IS 500 F Sport Performance",
+  "aliases": [
+    "IS 500",
+    "IS 500 F SPORT Performance",
+    "2UR-GSE",
+    "IS 500 Launch Edition",
+    "IS 500 Ultimate Edition",
+    "2022 IS 500"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2025
+    },
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "US model years. First: the release is for the '2022 LEXUS IS 500 F SPORT PERFORMANCE', 'expected to arrive in dealerships later this Fall' (2021). Last: Lexus announced the '2025 Lexus IS 500 Ultimate Edition', 'Limited to 500 units in North America' (19 May 2025) (lexus-us-2025-is500-ultimate), and Lexus says the '2026 IS will only be offered as 350 model with two available grades: F SPORT Design and F SPORT' (9 September 2025) (lexus-us-2026-is-release)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "Lexus: 'THE IS SPORTS SEDAN, UNLEASHED'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "lexus-us-2022-is500-unleashed",
+      "note": "'472-horsepower naturally aspirated 5.0-liter V8 engine'; engine code '5.0-liter 2UR-GSE V8 engine' (lexus-us-2025-is500-ultimate)"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "lexus-us-2022-is500-unleashed",
+      "note": "'5.0-liter V8'. No opened IS 500 page prints the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lexus-us-2022-is500-unleashed",
+      "note": "'naturally aspirated 5.0-liter V8 engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "Inferred from Lexus's description of a naturally aspirated V8; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "Front-engine, rear-wheel drive."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "'eight-speed Sport Direct Shift automatic transmission with lockup torque converter'"
+  },
+  "powerHp": {
+    "value": 472,
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "2022 model year. Quote: \"The IS 500 has a maximum output of 472 hp at 7,100 rpm and 395 lb.-ft. of peak torque at 4,800 rpm.\" Unchanged for 2025: '472 hp and 395-lb.-ft. of torque' (lexus-us-2025-is500-ultimate)."
+  },
+  "weightLb": {
+    "value": 3891,
+    "sourceId": "lexus-us-2022-is500-unleashed",
+    "note": "2022 model year; one configuration (8-speed automatic, RWD). Quote: \"Despite the drastically more powerful engine, the vehicle tips the scales at 3,891 pounds, gaining only 143 pounds of additional curb weight over the standard IS 350 F SPORT.\" Lexus's 10 September 2021 release also gives 3,891 pounds (lexus-us-2022-is500-new-breed)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lexus-us-2022-is500-unleashed",
+      "type": "manufacturer",
+      "publisher": "Lexus (Toyota Motor North America, Lexus USA Newsroom)",
+      "title": "2022 Lexus IS 500 F SPORT Performance: The IS Sports Sedan, Unleashed (22 February 2021, updated 30 July 2021)",
+      "url": "https://pressroom.lexus.com/2022-lexus-is-500-f-sport-performance-the-is-sports-sedan-unleashed/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lexus-us-2022-is500-new-breed",
+      "type": "manufacturer",
+      "publisher": "Lexus (Toyota Motor North America, Lexus USA Newsroom)",
+      "title": "2022 Lexus IS 500: A New Breed of F SPORT Performance (10 September 2021)",
+      "url": "https://pressroom.lexus.com/2022-lexus-is-500-a-new-breed-of-f-sport-performance/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lexus-us-2025-is500-ultimate",
+      "type": "manufacturer",
+      "publisher": "Lexus (Toyota Motor North America, Lexus USA Newsroom)",
+      "title": "2025 Lexus IS 500 Ultimate Edition: The Culmination of Greatness (19 May 2025)",
+      "url": "https://pressroom.lexus.com/2025-lexus-is-500-ultimate-edition-the-culmination-of-greatness/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lexus-us-2026-is-release",
+      "type": "manufacturer",
+      "publisher": "Lexus (Toyota Motor North America, Lexus USA Newsroom)",
+      "title": "2026 Lexus IS: Perfecting the Sport Sedan (9 September 2025)",
+      "url": "https://pressroom.lexus.com/2026-lexus-is-perfecting-the-sport-sedan/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

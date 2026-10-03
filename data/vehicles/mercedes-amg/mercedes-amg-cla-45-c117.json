@@ -1,0 +1,148 @@
+{
+  "id": "mercedes-amg-cla-45-c117",
+  "manufacturer": "Mercedes-AMG",
+  "model": "CLA 45",
+  "generation": "C117",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-AMG CLA 45 (C117)",
+  "aliases": [
+    "CLA45",
+    "CLA45 AMG",
+    "AMG CLA45",
+    "C117 CLA45",
+    "M133",
+    "AMG SPEEDSHIFT DCT",
+    "2014 CLA45"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2019
+    },
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "US model years. First: AutoGuide (Craig Cole, 27 March 2013) says the car reaches dealers 'as a 2014 model' (autoguide-cla45-2014); MBUSA's 2014 CLA brochure covers the 'CLA 45 AMG' (mb-us-cla-brochure-2014). Last: MBUSA's 2019 CLA brochure lists the AMG CLA 45 (mb-us-cla-brochure-2019); no later C117 brochure was found. The 2020-on CLA 45 is the next generation (C118). Sold as the 'Mercedes-Benz CLA45 AMG' at launch and as the 'Mercedes-AMG CLA 45' later."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "Four-door car Mercedes markets as a coupe ('Its four doors open to a roomy cabin'), recorded as a sedan. The CLA Shooting Brake was not sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mb-us-cla-brochure-2016",
+      "note": "'Handcrafted AMG 2.0-liter turbo Direct Injection gasoline inline-4'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mb-us-cla-brochure-2016",
+      "note": "1,991 cc per OPENERS' specification table (openers-cla45): '1,991 cc Inline-4 Twin-Scroll Turbo'. MBUSA states '2.0-liter'."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "mb-us-cla-brochure-2016",
+      "note": "'2.0-liter turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "'gasoline inline-4'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "'AMG Performance 4matic all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "'7-speed AMG SPEEDSHIFT® DCT dual-clutch automatic'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 375,
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "Quote (MBUSA 2016 CLA brochure): \"375 hp @ 6,000 rpm\". The 2017 and 2019 brochures give the same \"375 hp @ 6,000 rpm\" (mb-us-cla-brochure-2017, mb-us-cla-brochure-2019). The 2014 and 2015 models were rated 355 hp; 2015 brochure (mb-us-cla-brochure-2015): \"Handcrafted 2.0-liter Direct Injection turbocharged AMG inline-4 355 hp @ 6,000 rpm\". The 375 hp rating covered four of the six model years, so the reference year is 2016, its first year."
+  },
+  "weightLb": {
+    "value": 3450,
+    "sourceId": "mb-us-cla-brochure-2016",
+    "note": "US curb weight, 7-speed DCT (the only transmission), 2016 model. Quote (MBUSA 2016 CLA brochure): \"Curb weight 3,450 lbs\". The 2015, 2017 and 2019 brochures print the same \"3,450 lbs\"; the 2015 sheet has no estimate label."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mb-us-cla-brochure-2016",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (brochure hosted by auto-brochures.com)",
+      "title": "2016 CLA brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mercedes_Benz/CLA-Class/Mercedes%20Benz_US%20CLA-Class_2016.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mb-us-cla-brochure-2014",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (brochure hosted by auto-brochures.com)",
+      "title": "2014 CLA brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mercedes_Benz/CLA-Class/Mercedes%20Benz_US%20CLA-Class_2014.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mb-us-cla-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (brochure hosted by auto-brochures.com)",
+      "title": "2015 CLA brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mercedes_Benz/CLA-Class/Mercedes%20Benz_US%20CLA-Class_2015.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mb-us-cla-brochure-2017",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (brochure hosted by auto-brochures.com)",
+      "title": "2017 CLA brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mercedes_Benz/CLA-Class/Mercedes%20Benz_US%20CLA-Class_2017.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mb-us-cla-brochure-2019",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (brochure hosted by auto-brochures.com)",
+      "title": "2019 CLA brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mercedes_Benz/CLA-Class/Mercedes%20Benz_US%20CLA-Class_2019.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoguide-cla45-2014",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "2014 Mercedes CLA 45 AMG Sizzles With 355 HP",
+      "url": "https://www.autoguide.com/auto-news/2013/03/2014-mercedes-cla-45-amg-sizzles-with-355-hp.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "openers-cla45",
+      "type": "publication",
+      "publisher": "OPENERS",
+      "title": "The CLA 45 AMG Debuts in New York",
+      "url": "https://openers.jp/en/car/car_motor-show/17228",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

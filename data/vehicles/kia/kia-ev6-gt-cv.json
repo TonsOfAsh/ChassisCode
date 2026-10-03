@@ -1,0 +1,136 @@
+{
+  "id": "kia-ev6-gt-cv",
+  "manufacturer": "Kia",
+  "model": "EV6",
+  "generation": "CV",
+  "variant": "GT",
+  "subVariant": null,
+  "displayName": "Kia EV6 GT (CV)",
+  "aliases": [
+    "EV6 GT",
+    "CV EV6 GT",
+    "2023 EV6 GT",
+    "2025 EV6 GT"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2025
+    },
+    "sourceId": "kia-us-2023-ev6-specs",
+    "note": "US model years. First: Kia America's 2023 EV6 specifications list a GT column, and its 13 December 2022 release says the 2023 EV6 GT goes on sale in Q4 2022 in limited quantities (kia-us-2023-ev6-gt-drive-release). Kia America's 2024 and 2025 EV6 specifications both list a GT column (kia-us-2024-ev6-specs, kia-us-2025-ev6-specs). Last: the 2026 EV6 specifications list only Light, Light Long Range, Wind and GT-Line (kia-us-2026-ev6-specs), and Motor1 (5 March 2026) quotes Kia: 'due to changing market conditions, the 2026 EV6 GT will be delayed until further notice' (motor1-2026-ev6-gt-delayed). Kia calls this a delay, not a cancellation; if the GT returns, the end year must be reopened."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "kia-us-2023-ev6-gt-drive-release",
+    "note": "Kia describes the EV6 as a crossover; crossovers are recorded as SUV."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "kia-us-2023-ev6-gt-drive-release",
+      "note": "'a front-mounted 160kW motor, combined with a rear-mounted 270kW motor'"
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "kia-us-2023-ev6-gt-drive-release",
+      "note": "Battery EV."
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "kia-us-2023-ev6-gt-drive-release"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "kia-us-2023-ev6-gt-drive-release",
+    "note": "77.4-kWh battery pack (2023 to 2024); 84.0 kWh for 2025 (kia-us-2025-ev6-specs)."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "kia-us-2023-ev6-specs",
+    "note": "Drive type row: GT column 'AWD' (dual-motor e-AWD)."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "kia-us-2023-ev6-specs",
+    "note": "'Gear Reduction Unit'"
+  },
+  "powerHp": {
+    "value": 576,
+    "sourceId": "kia-us-2023-ev6-specs",
+    "note": "2023 model year. Quote: \"Horsepower (hp) - AWD 320 hp 320 hp 576 hp\" (columns Wind | GT-Line | GT) and \"Horsepower (kw) - AWD 239 kw 239 kw 430 kW\". Kia's release: \"430 kW (576 hp) and 545 lb.-ft. of torque\" (kia-us-2023-ev6-gt-drive-release). Same 576 hp for 2024 (kia-us-2024-ev6-specs). The facelifted 2025 GT is rated \"601 hp\" and \"641 hp with Launch Mode\" (478 kW) (kia-us-2025-ev6-specs); 576 hp covers two of the three US model years, so the launch rating is used."
+  },
+  "weightLb": {
+    "value": 4795,
+    "sourceId": "kia-us-2023-ev6-specs",
+    "note": "2023 model year; one configuration (AWD). Quote: \"Curb Weight, minimum (lbs.) - AWD 4,502 lbs. 4,502 lbs. 4,795 lbs.\" (columns Wind | GT-Line | GT). Same 4,795 lb for 2024 (kia-us-2024-ev6-specs). The 2025 GT is 4,883 lb (kia-us-2025-ev6-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "kia-us-2023-ev6-specs",
+      "type": "manufacturer",
+      "publisher": "Kia America (Kia Media)",
+      "title": "2023 Kia EV6 Specifications",
+      "url": "https://www.kiamedia.com/us/en/models/ev6/2023/specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kia-us-2024-ev6-specs",
+      "type": "manufacturer",
+      "publisher": "Kia America (Kia Media)",
+      "title": "2024 Kia EV6 Specifications",
+      "url": "https://www.kiamedia.com/us/en/models/ev6/2024/specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kia-us-2025-ev6-specs",
+      "type": "manufacturer",
+      "publisher": "Kia America (Kia Media)",
+      "title": "2025 Kia EV6 Specifications",
+      "url": "https://www.kiamedia.com/us/en/models/ev6/2025/specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kia-us-2026-ev6-specs",
+      "type": "manufacturer",
+      "publisher": "Kia America (Kia Media)",
+      "title": "2026 Kia EV6 Specifications",
+      "url": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kia-us-2023-ev6-gt-drive-release",
+      "type": "manufacturer",
+      "publisher": "Kia America (Kia Media)",
+      "title": "The 576-hp Kia EV6 GT Streaks Across the Nevada Desert During National Media Introduction Drive (13 December 2022)",
+      "url": "https://www.kiamedia.com/us/en/media/pressreleases/19724/the-576-hp-kia-ev6-gt-streaks-across-the-nevada-desert-during-national-media-introduction-drive",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motor1-2026-ev6-gt-delayed",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "Kia's Fastest EV6 Is No Longer Available In The US (5 March 2026)",
+      "url": "https://www.motor1.com/news/789010/2026-kia-ev6-delayed-united-states/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

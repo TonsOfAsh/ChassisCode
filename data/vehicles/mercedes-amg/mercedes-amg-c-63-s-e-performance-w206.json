@@ -1,0 +1,126 @@
+{
+  "id": "mercedes-amg-c-63-s-e-performance-w206",
+  "manufacturer": "Mercedes-AMG",
+  "model": "C 63",
+  "generation": "W206",
+  "variant": "S E Performance",
+  "subVariant": null,
+  "displayName": "Mercedes-AMG C 63 S E Performance (W206)",
+  "aliases": [
+    "C63 S E Performance",
+    "C63 E Performance",
+    "C63",
+    "C63 S",
+    "W206 C63",
+    "C63 W206",
+    "M139",
+    "AMG SPEEDSHIFT MCT",
+    "2024 C63"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "mbusa-c63-se-pricing",
+    "note": "US model years. First: MBUSA pricing release: \"Arriving in U.S. dealerships in spring 2024 and starting at $83,900, the 2024 AMG C 63 S E PERFORMANCE ...\". Still on sale: mbusa.com lists the 2026 AMG C 63 S E PERFORMANCE Sedan (mbusa-2026-c63-se)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mbusa-2026-c63-se",
+    "note": "mbusa.com lists the car as the 'AMG C 63 S E PERFORMANCE Sedan'. No other body of this variant is sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mbusa-2026-c63-se",
+      "note": "'Handcrafted AMG 2.0L inline-4 w/electric exhaust-gas turbocharger and rear 150kW electric motor'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mbusa-2026-c63-se",
+      "note": "1,991 cc per Sports Car Digest's technical data table (sportscardigest-c63-se): \"Displacement 1991 cc\". MBUSA states '2.0L'."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "mbusa-2026-c63-se",
+      "note": "One electric exhaust-gas turbocharger: 'inline-4 w/electric exhaust-gas turbocharger'"
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "mbusa-c63-se-pricing",
+    "note": "Plug-in hybrid with a rear-axle electric motor and a '400-volt AMG high-performance battery' of 6.1 kWh (MBUSA pricing release)."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mbusa-2026-c63-se",
+    "note": "'AMG Performance 4MATIC+ all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-2026-c63-se",
+    "note": "'AMG SPEEDSHIFT® MCT 9-speed' (wet start-up clutch automatic, recorded as Automatic as in the W205 C 63 records). The rear electric motor has its own 'electrically-shifted two-speed gearbox' (MBUSA pricing release)."
+  },
+  "powerHp": {
+    "value": 671,
+    "sourceId": "mbusa-2026-c63-se",
+    "note": "Combined system output. Quote (mbusa.com, 2026 model): \"671 hp @ 6,750 rpm\". Same rating at launch, MBUSA pricing release for the 2024 model (mbusa-c63-se-pricing): \"a 671 hp combined system output and 752 lb-ft combined system torque\"."
+  },
+  "weightLb": {
+    "value": 4817,
+    "sourceId": "mbusa-2026-c63-se",
+    "note": "US curb weight, sedan, 9-speed MCT (the only transmission), 2026 model. Quote (mbusa.com): \"Curb weight 4,817 lbs\"; no estimate label. No MBUSA weight for the 2024 or 2025 model was found, so the reference year is 2026, the earliest year with a qualifying weight under the 671 hp rating (unchanged since 2024). Mercedes-Benz Canada lists '2,165 kg' (4,773 lb), a different market (mbca-c63-se); the European figure is 2,111 kg EU (sportscardigest-c63-se)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2026-c63-se",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2026 AMG C 63 S E PERFORMANCE Sedan",
+      "url": "https://www.mbusa.com/en/vehicles/model/c-class/sedan/c63w4se",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mbusa-c63-se-pricing",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "Mercedes-Benz USA Announces Pricing for all-new Mercedes-AMG C 63 S E PERFORMANCE",
+      "url": "https://media.mbusa.com/releases/release-9f4152df72418545d2aab055e2926bb9-mercedes-benz-usa-announces-pricing-for-all-new-mercedes-amg-c-63-s-e-performance",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mbca-c63-se",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz Canada",
+      "title": "AMG C 63 S E PERFORMANCE Sedan",
+      "url": "https://mercedes-benz.ca/en/vehicles/model/c-class/sedan/c63w4se",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "sportscardigest-c63-se",
+      "type": "publication",
+      "publisher": "Sports Car Digest",
+      "title": "The new Mercedes-AMG C 63 S E PERFORMANCE at a glance",
+      "url": "https://sportscardigest.com/the-new-mercedes-amg-c-63-s-e-performance-at-a-glance/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

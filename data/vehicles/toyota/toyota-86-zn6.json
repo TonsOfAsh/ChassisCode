@@ -1,0 +1,116 @@
+{
+  "id": "toyota-86-zn6",
+  "manufacturer": "Toyota",
+  "model": "86",
+  "generation": "ZN6",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Toyota 86 (ZN6)",
+  "aliases": [
+    "Toyota 86 ZN6",
+    "ZN6 86",
+    "GT86",
+    "86 Hakone Edition",
+    "FA20",
+    "2017 Toyota 86"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "US model years. First: for 2017 'the Scion FR-S adopts the Toyota 86 identity used in other global markets, as Scion and its models transition back to the Toyota brand'; the 2013 to 2016 car is the separate Scion FR-S record. Last: Toyota's newsroom has a 2020 Toyota 86 vehicle page with the release '2020 Toyota 86 Brings a Slice of Legendary Japanese Road to America' (21 October 2019) (toyota-us-2020-86-page); no 2021 Toyota 86 page exists (pressroom.toyota.com/vehicle/2021-toyota-86/ returns 404), and the successor is the 2022 GR86 (toyota-us-2022-gr86-thrills). No opened Toyota page says in so many words that 2020 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "'2+2 sports car'; sold only as a coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "toyota-us-2017-86-release",
+      "note": "'2.0-liter boxer-type four-cylinder engine'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "toyota-us-2017-86-release",
+      "note": "1,998 cc. The 2017 release gives litres only ('2.0-liter aluminum boxer engine'); Toyota's GR 86 release gives the old engine's cc: 'bumping up from 1,998cc to 2,387cc' (toyota-us-2022-gr86-thrills)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "toyota-us-2017-86-release",
+      "note": "Inferred: Toyota describes a 2.0-liter boxer four and mentions no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "Inferred from Toyota's description of a conventional piston engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "'the return of the fundamental, affordable rear-drive sports car'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "'standard six-speed manual transmission'; 'six-speed automatic transmission'"
+  },
+  "powerHp": {
+    "value": 205,
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "2017 model year, manual. Quotes: \"The 2.0-liter aluminum boxer engine delivers 205 hp at 7,000 rpm and 156 lb.-ft. of peak torque at 6,400 rpm.\" and \"the 2.0-liter boxer four in the 2017 Toyota 86 M/T produces 205 hp and 156 lb.-ft. of torque while the automatic has 200 hp and 151 lb.-ft. of torque.\" The 2020 vehicle page still says 'With 205 horsepower moving about 2,800 pounds' (toyota-us-2020-86-page)."
+  },
+  "weightLb": {
+    "value": 2758,
+    "sourceId": "toyota-us-2017-86-release",
+    "note": "2017 model year, 6-speed manual. Quote: \"At a svelte 2,758 lbs. (with six-speed manual transmission), the Toyota 86 is among the lightest sports cars on the market.\" The release names no trim; it is taken to be the standard car. Toyota's release does not use the word 'curb'; the figure matches the Scion FR-S brochure's labelled curb weight (2,758 lb manual) for the same car."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-us-2017-86-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "2017 Toyota 86 is the Affordable, Fun-damental Sports Car (12 September 2016)",
+      "url": "https://pressroom.toyota.com/2017-toyota-86-is-affordable-fundamental-sports-car/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "toyota-us-2020-86-page",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "2020 Toyota 86 vehicle page",
+      "url": "https://pressroom.toyota.com/vehicle/2020-toyota-86/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "toyota-us-2022-gr86-thrills",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "All-New 2022 Toyota GR 86: Thrills Around Every Corner (17 August 2021)",
+      "url": "https://pressroom.toyota.com/all-new-2022-toyota-gr-86-thrills-around-every-corner/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

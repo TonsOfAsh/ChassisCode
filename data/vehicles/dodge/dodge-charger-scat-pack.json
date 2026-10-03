@@ -1,0 +1,162 @@
+{
+  "id": "dodge-charger-scat-pack",
+  "manufacturer": "Dodge",
+  "model": "Charger",
+  "generation": null,
+  "variant": "Scat Pack",
+  "subVariant": null,
+  "displayName": "Dodge Charger Scat Pack",
+  "aliases": [
+    "Charger Scat Pack",
+    "Scat Pack Charger",
+    "Charger R/T Scat Pack",
+    "R/T Scat Pack",
+    "LD Charger Scat Pack",
+    "392 HEMI",
+    "6.4 HEMI",
+    "Charger Scat Pack Widebody",
+    "TorqueFlite",
+    "8HP70"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "sourceId": "dodge-charger-release-2015",
+    "note": "US model years 2015-2023. Dodge: \"All-new 2015 Dodge Charger R/T Scat Pack model (late availability) features a 6.4-liter HEMI V-8\". Sold as the R/T Scat Pack (2016-2018 sheets) and later as the Scat Pack (2023 sheet, source dodge-charger-specs-2023). Charger production at Brampton ended on December 22, 2023 (GM Authority, source gmauthority-challenger-end-2023)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "dodge-charger-specs-2023",
+    "note": "\"E-segment sedan\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-charger-specs-2016",
+      "note": "392 HEMI V-8."
+    },
+    "displacementL": {
+      "value": 6.4,
+      "sourceId": "dodge-charger-specs-2016",
+      "note": "6,417 cc. Dodge 2016 specifications: \"392 cu. in. (6,417 cu. cm)\"; the 2023 sheet repeats it."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "dodge-charger-release-2015",
+      "note": "Dodge: \"best-in-class, naturally aspirated 485 horsepower\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-charger-specs-2016"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-charger-specs-2023",
+    "note": "\"rear-wheel drive (RWD), all-wheel drive (AWD)\", with AWD on the SXT and GT only."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "\"8HP70 TORQUEFLITE AUTOMATIC EIGHT-SPEED: Standard on Charger R/T, R/T Road & Track, R/T Scat Pack and SRT 392\"; no manual was offered. 2023: TorqueFlite 8HP70 \"Standard with 5.7-liter and 392 HEMI V-8 engines\" (source dodge-charger-specs-2023)."
+  },
+  "powerHp": {
+    "value": 485,
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "Quote (Dodge 2016 specifications, 6.4-liter 392 HEMI, \"Standard — R/T Scat Pack and SRT 392\"): \"Power (estimated SAE net) 485 bhp (362 kW) @ 6,000 rpm\". Dodge's Charger sheets for 2016-2018 print 'estimated SAE net' for this engine; the 2023 sheet gives \"Power (SAE net) 485 bhp (362 kW) @ 6,100 rpm\", \"Standard — Scat Pack models\" (source dodge-charger-specs-2023), and Dodge's 2015 launch release gives \"485 horsepower and 475 lb.-ft. of torque\" (source dodge-charger-release-2015), so the rating was 485 hp for the whole run. The 2016-2018 sheets label the rating 'estimated SAE net'; Dodge's 2015 release and 2023 sheet give 485 hp without that label."
+  },
+  "weightLb": {
+    "value": 4395,
+    "sourceId": "dodge-charger-specs-2016",
+    "note": "2016 model (8-speed automatic, the only transmission). Quote (Dodge 2016 specifications, \"Curb Weight, lb. (kg)\"): \"R/T Scat Pack — 4,395 (1987.6)\". The printed kg figure is a copy of the SRT 392 line (\"SRT 392 — 4,382 (1987.6)\"); the lb figure is confirmed by the 2017 sheet, \"R/T Scat Pack, Daytona 392 — 4,395 (1994)\" (source dodge-charger-specs-2017). No Dodge sheet for 2015 could be opened (403), so the reference year is 2016, the earliest year with a Dodge figure. Later figures: 2018 \"R/T Scat Pack, Daytona 392 — 4,389 (1991)\" (dodge-charger-specs-2018), 2023 \"4,361 (1,978) — Scat Pack\" (dodge-charger-specs-2023)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-charger-specs-2016",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2016 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2016_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dodge-charger-specs-2017",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2017 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2017_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dodge-charger-specs-2018",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2018 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2018_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dodge-charger-specs-2023",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Dodge)",
+      "title": "2023 Dodge Charger / Charger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_DG_Charger_ChargerSRT_SP.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dodge-charger-release-2015",
+      "type": "manufacturer",
+      "publisher": "Chrysler Group (Dodge)",
+      "title": "New 2015 Dodge Charger: The World's Only Four-door Muscle Car is the Quickest, Fastest and Most Powerful Sedan in the World",
+      "url": "https://media.stellantisnorthamerica.com/pdf.do?id=16136",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-challenger-end-2023",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "Production Of Camaro Rival Dodge Challenger Ends Today, by Jonathan Lopez (December 22, 2023)",
+      "url": "https://gmauthority.com/blog/2023/12/production-of-camaro-rival-dodge-challenger-ends-today/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4395,
+          "sourceId": "dodge-charger-specs-2016"
+        },
+        {
+          "value": 4389,
+          "sourceId": "dodge-charger-specs-2018"
+        },
+        {
+          "value": 4361,
+          "sourceId": "dodge-charger-specs-2023"
+        }
+      ],
+      "reason": "Model year: all are Dodge curb weights for the (R/T) Scat Pack: 4,395 lb for 2016 and 2017, 4,389 lb for 2018, 4,361 lb for 2023.",
+      "resolution": "Used 4,395 lb because the reference model year is 2016, the earliest year with a Dodge figure."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,126 @@
+{
+  "id": "subaru-brz-zc6",
+  "manufacturer": "Subaru",
+  "model": "BRZ",
+  "generation": "ZC6",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Subaru BRZ (ZC6)",
+  "aliases": [
+    "ZC6",
+    "ZC6 BRZ",
+    "1st gen BRZ",
+    "BRZ Premium",
+    "BRZ Limited",
+    "BRZ tS",
+    "FA20",
+    "2013 BRZ"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2020
+    },
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "US model years. First: Subaru of America's 2013 BRZ specification sheet. Last: Subaru announced 2020 BRZ pricing on 15 August 2019 (subaru-us-2020-brz-pricing), and Torque News (Denis Flierl, 9 June 2021) reports 'Subaru Corporation stopped producing the 2020 BRZ in July 2020, as they didn't make a 2021 model year' (torquenews-brz-no-2021). The next BRZ is the 2022 ZD8."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "'2-door, 2+2 sports car, rear-wheel drive'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "subaru-us-2013-brz-specs",
+      "note": "'4-cylinder, horizontally opposed (Subaru Boxer), die-cast aluminum alloy cylinder block'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "subaru-us-2013-brz-specs",
+      "note": "1,998 cc ('1,998 cc (122 cu. in.)')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "subaru-us-2013-brz-specs",
+      "note": "Inferred: the specification sheet describes a horizontally opposed four with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "Inferred from the sheet's description of a conventional piston engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "'Rear-wheel drive with Torsen® limited-slip differential'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "'Standard: 6-speed manual'; 'Optional: 6-speed automatic with manual shift mode, downshift blipping control and steering wheel paddle shifters'"
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "2013 model year. Quote: \"Horsepower 200 hp @ 7,000 rpm\". Later manual cars were rated 205 hp: Subaru's 2020 pricing release gives the manual BRZ '205 hp' and says the 'optional automatic transmission model has 200 hp' (subaru-us-2020-brz-pricing). Toyota's release for the twin 2017 Toyota 86 describes the same change on its manual car, 'a five-horsepower increase to 205 hp' (toyota-us-2017-86-release); no opened Subaru page states which BRZ model year first got 205 hp. The launch rating is kept because 200 hp covered every car for four of the eight model years and the automatic throughout."
+  },
+  "weightLb": {
+    "value": 2762,
+    "sourceId": "subaru-us-2013-brz-specs",
+    "note": "2013 Premium, 6-speed manual. Quote: \"Curb weight (lbs.) 6-speed manual 6-speed automatic / Premium: 2,762 lbs. / Limited: 2,776 lbs. / Premium: 2,809 lbs. / Limited: 2,822 lbs.\" (manual Premium and Limited, then automatic Premium and Limited). The only 'est.' label on the sheet is on the drag coefficient."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "subaru-us-2013-brz-specs",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (Subaru Media specification sheet)",
+      "title": "2013 Subaru BRZ specifications (2013_SubaruBRZspecs.pdf)",
+      "url": "https://s3.amazonaws.com/subarumedia.iconicweb.com/mediasite/specs/2013_SubaruBRZspecs.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "subaru-us-2020-brz-pricing",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (Subaru Media)",
+      "title": "Subaru Announces Pricing on 2020 BRZ, WRX and WRX STI (15 August 2019)",
+      "url": "https://media.subaru.com/pressrelease/1462/subaru-announces-pricing-2020-brz-wrx-wrx-sti",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "torquenews-brz-no-2021",
+      "type": "publication",
+      "publisher": "Torque News",
+      "title": "Subaru Runs Out Of BRZ - When You Will See The Next-Generation Model (Denis Flierl, 9 June 2021)",
+      "url": "https://www.torquenews.com/1084/subaru-runs-out-brz-when-you-will-see-next-generation-model",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "toyota-us-2017-86-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "2017 Toyota 86 is the Affordable, Fun-damental Sports Car (12 September 2016)",
+      "url": "https://pressroom.toyota.com/2017-toyota-86-is-affordable-fundamental-sports-car/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

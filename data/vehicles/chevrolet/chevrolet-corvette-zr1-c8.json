@@ -1,0 +1,148 @@
+{
+  "id": "chevrolet-corvette-zr1-c8",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C8",
+  "variant": "ZR1",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette ZR1 (C8)",
+  "aliases": [
+    "C8 ZR1",
+    "ZR1 C8",
+    "Corvette ZR1",
+    "LT7",
+    "ZTK",
+    "Twin-turbo Corvette",
+    "2025 Corvette ZR1"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "vette-vues-2025-zr1-release",
+    "note": "US model years from 2025, still on sale. Chevrolet's release of July 25, 2024 (reproduced by Vette Vues) introduces the 2025 Corvette ZR1, which \"will enter production in 2025\" at Bowling Green Assembly. Chevrolet's current site lists the ZR1 for the 2027 model year at \"1,064 Horsepower at 7,000 rpm\" (source chevrolet-corvette-site-2027). The AWD hybrid ZR1X is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "vette-vues-2025-zr1-release",
+    "note": "Chevrolet's release covers \"both coupe and convertible variants\"; the coupe has a removable roof panel. GM Authority: \"A two-door coupe with a removable hard top panel\" and \"A two-door convertible with a retractable hardtop\" (source gmauthority-c8-zr1-overview)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "vette-vues-2025-zr1-release",
+      "note": "LT7 \"5.5L twin-turbocharged DOHC flat-plane crank V8\"."
+    },
+    "displacementL": {
+      "value": 5.5,
+      "sourceId": "vette-vues-2025-zr1-release",
+      "note": "5.5L LT7. No opened page gives a cc figure: Chevrolet's table gives \"5.5L\"; GM Authority's LT7 page gives \"5.5L\" with bore x stroke \"4.104 / 104.25 x 3.1 / 80\" (in. / mm) (source gmauthority-lt7)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "vette-vues-2025-zr1-release",
+      "note": "\"Twin 76 mono-scroll ported shroud ball bearing turbos (67mm MAR compressor), E-Waste gates\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "vette-vues-2025-zr1-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "vette-vues-2025-zr1-release",
+    "note": "Mid-engine, rear-wheel drive; the release describes no front drive (the all-wheel-drive hybrid is the separate ZR1X)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "vette-vues-2025-zr1-release",
+    "note": "\"M1K 8-speed dual clutch (DCT)\"; no manual offered."
+  },
+  "powerHp": {
+    "value": 1064,
+    "sourceId": "vette-vues-2025-zr1-release",
+    "note": "Quote (Chevrolet release, July 25, 2024): \"1,064 horsepower at 7,000 rpm and 828 lb-ft of torque at 6,000 rpm, per SAE guidelines\". The specification table as reproduced reads \"Horsepower (hp / kW): 1,064 / 873 @ 7,000 rpm\" (the kW figure is inconsistent with 1,064 hp, which is 793 kW; the hp figure is used). Unchanged for 2027: chevrolet.com, \"1,064 Horsepower at 7,000 rpm\" (source chevrolet-corvette-site-2027)."
+  },
+  "weightLb": {
+    "value": 3670,
+    "sourceId": "vette-vues-2025-zr1-release",
+    "note": "DRY weight (step 4 of the weight order), base coupe, 2025 model. Quote (Chevrolet specification table): \"Dry Weight (lb.\" Steps 1 to 3 checked first: no Chevrolet curb weight for the 2025 ZR1 was found on any page opened, and no major magazine specification panel could be opened (Car and Driver, Road & Track and MotorTrend are blocked). GM Authority prints the same 3,670 lb as a \"curb weight\" (sources gmauthority-zr1x-heaviest, gmauthority-2027-corvette-weights), but it is Chevrolet's dry figure relabelled, not an independent curb weight. A real curb weight is higher. Weight-order step 4 (dry), as for the Corvette Stingray (C8). GM Authority (one outlet) prints 3,670 lb as a 'curb weight' for 2026-2027, which is not a second independent source. GM's 2027 releases now print 'Base Curb Weight' (e.g. the Grand Sport, gm-2027-grand-sport-release), but none opened gives the ZR1."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "vette-vues-2025-zr1-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced by Vette Vues)",
+      "title": "2025 Chevrolet Corvette ZR1: The Fastest, Most Powerful Corvette Ever (July 25, 2024)",
+      "url": "https://vette-vues.com/2025-chevrolet-corvette-zr1-unveiled/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "chevrolet-corvette-site-2027",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (chevrolet.com)",
+      "title": "Corvette (2027 lineup page; the E-Ray URL opens the lineup)",
+      "url": "https://www.chevrolet.com/performance/corvette/e-ray",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-c8-zr1-overview",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "Chevrolet Corvette C8 ZR1",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/corvette/chevrolet-corvette-c8/chevrolet-corvette-c8-zr1/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-lt7",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "GM LT7 Engine",
+      "url": "https://gmauthority.com/blog/gm/gm-engines/lt7/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-zr1x-heaviest",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "The ZR1X Is The Heaviest Corvette Ever, by George Barta (September 15, 2025)",
+      "url": "https://gmauthority.com/blog/2025/09/the-zr1x-is-the-heaviest-corvette-ever/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-2027-corvette-weights",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2027 Corvette Stingray Barely Heavier Than 2026 Model, by Jonathan Lopez (July 28, 2026)",
+      "url": "https://gmauthority.com/blog/2026/07/2027-corvette-stingray-barely-heavier-than-2026-model/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gm-2027-grand-sport-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (news.gm.com)",
+      "title": "The Chevrolet Grand Sport returns with a new 6.7-liter, 535-horsepower V8 (March 26, 2026)",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/mar/0326-Chevrolet-Grand-Sport-returns-6-7-liter-535-horsepower-V8.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

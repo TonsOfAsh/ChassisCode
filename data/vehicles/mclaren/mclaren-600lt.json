@@ -1,0 +1,114 @@
+{
+  "id": "mclaren-600lt",
+  "manufacturer": "McLaren",
+  "model": "600LT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 600LT",
+  "aliases": [
+    "600LT Coupe",
+    "600LT Coupé",
+    "M838TE",
+    "SSG",
+    "Sports Series",
+    "2019 600LT"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2019
+    },
+    "sourceId": "kbb-600lt-2019",
+    "note": "US model year 2019 only for the coupe, from Kelley Blue Book (a database): \"The 2019 McLaren 600LT is currently limited to a single trim: the Coupe 2D\"; KBB's 2020 600LT page lists only the 'Spider Convertible 2D' (kbb-600lt-2020). McLaren's US media pack (mclaren-us-600lt-media-pack-2018): \"Production will begin October 2018 for around 12 months; volume strictly limited\". No McLaren page names the US model year. The 600LT Spider is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-us-600lt-media-pack-2018",
+    "note": "Two-seat fixed-roof '600LT Coupé'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-us-600lt-media-pack-2018",
+      "note": "\"M838TE engine, 3.8-litre twin-turbo V8, 3,799cc\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "mclaren-us-600lt-media-pack-2018",
+      "note": "3,799 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-us-600lt-media-pack-2018",
+      "note": "\"3.8-litre twin-turbo V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-us-600lt-media-pack-2018"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mclaren-us-600lt-media-pack-2018",
+    "note": "\"Longitudinal mid-engined, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-us-600lt-media-pack-2018",
+    "note": "\"7 Speed SSG. Normal, Sport and Track modes\" (McLaren Seamless Shift Gearbox, recorded as a DCT as in the 570S and 720S records). No manual was offered."
+  },
+  "powerHp": {
+    "value": 592,
+    "sourceId": "mclaren-us-600lt-media-pack-2018",
+    "note": "Quote (McLaren US media pack, September 2018): \"Power bhp/kW @ rpm | 592/441 @ 7,500rpm\"; text: \"peak power of 592bhp (600PS) at 7,500rpm\". powerStandard is DIN PS because McLaren's rating is the metric 600 PS; 600 x 0.98632 = 592 hp, the figure the US document prints."
+  },
+  "weightLb": {
+    "value": 2989,
+    "sourceId": "mclaren-us-600lt-media-pack-2018",
+    "note": "Coupe, 7-speed SSG (the only transmission). Quote (McLaren US media pack): \"DIN Kerb weight [fluids + 90% fuel], lbs | 2,989\". DIN weight, not EU. McLaren does not say which equipment the row assumes; the row carries no footnote. The pack's headline claim, \"220.5lbs lighter* than 570S Coupé DIN kerbweight\", is footnoted \"* with optional Super-Lightweight Carbon Fibre Racing Seats fitted\". McLaren's \"Lightest dry weight, lbs | 2,749\" depends on options and is not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-us-600lt-media-pack-2018",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "600LT: the fourth chapter in the McLaren 'Longtail' story (US media information)",
+      "url": "https://cars.mclaren.press/assets/documents/original/9714-McLaren600LTmediainformationfullpackUSFINAL91418.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-600lt-2019",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 McLaren 600LT Specs, Features & Options",
+      "url": "https://www.kbb.com/mclaren/600lt/2019/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-600lt-2020",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren 600LT (2020 Spider)",
+      "url": "https://www.kbb.com/mclaren/600lt/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

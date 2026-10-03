@@ -1,0 +1,144 @@
+{
+  "id": "ford-mustang-dark-horse-s650",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S650",
+  "variant": "Dark Horse",
+  "subVariant": null,
+  "displayName": "Ford Mustang Dark Horse (S650)",
+  "aliases": [
+    "Dark Horse",
+    "Mustang Dark Horse",
+    "S650 Dark Horse",
+    "Dark Horse S650",
+    "Coyote",
+    "Gen 4 Coyote",
+    "TR-3160",
+    "SelectShift",
+    "2024 Mustang Dark Horse"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "motorweek-mustang-2024-power",
+    "note": "US model years from 2024, still on sale. MotorWeek (December 15, 2022) on the \"2024 Mustang Dark Horse\"; Ford's preliminary technical specifications for the 2024 Mustang list the Dark Horse (source ford-mustang-2024-prelim-techspecs); Ford's US site lists the 2026 Dark Horse (source ford-us-mustang-specs-2026). The supercharged Dark Horse SC (2026) is a different variant."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ford-mustang-2024-prelim-techspecs",
+    "note": "Ford's 2024 preliminary specifications, body styles by trim: Mustang Dark Horse \"Fastback coupe\" (no convertible). Ford's 2026 technical specifications list no Dark Horse convertible weights (source ford-mustang-2026-techspecs)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-mustang-2026-techspecs",
+      "note": "\"5.0L Coyote V8\"."
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "ford-mustang-2024-prelim-techspecs",
+      "note": "5,038 cc. Ford 2024 preliminary specifications: \"307 cu. in. (5,038 cc)\"; 2026 technical specifications: \"5.0/307\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-mustang-2024-prelim-techspecs",
+      "note": "Ford describes the Dark Horse 5.0-liter V8 as \"Naturally aspirated\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "Ratings \"based on premium fuel per SAE J1349 standard\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-2024-prelim-techspecs",
+    "note": "\"Front-engine, Rear Wheel Drive with limited-slip differential\" (TORSEN, 3.73:1 with the manual, 3.55:1 with the automatic)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "\"TREMEC TR-3160\" six-speed manual and \"10-speed SelectShift\" automatic. The same two from launch: Ford 2024 preliminary specifications, \"6-speed manual Getrag Tremec TR-3160\" and \"10-speed SelectShift automatic\" (source ford-mustang-2024-prelim-techspecs)."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "Quote (Ford 2026 Mustang Technical Specifications, horsepower row, Dark Horse column): \"500 @ 7,250\"; ratings \"based on premium fuel per SAE J1349 standard\". Ford's US site: \"500 @ 7,250rpm (93-octane fuel)\" (source ford-us-mustang-specs-2026). The same rating from launch: MotorWeek, December 15, 2022, the 2024 Dark Horse \"will crank out 500 horsepower and 418 lb-ft of torque\" (source motorweek-mustang-2024-power)."
+  },
+  "weightLb": {
+    "value": 3968,
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "Fastback with the 6-speed manual, 2026 model. Quote (Ford's 2026 Mustang Technical Specifications, curb weight rows, Dark Horse column): \"Fastback — Manual Transmission — 3,731 | 3,968\" (GT | Dark Horse) and \"Fastback — Automatic Transmission 3,573 | 3,766 | 4,012\" (EcoBoost | GT | Dark Horse). Ford's consumer site gives the same figures under the heading \"Estimated Base Curb Weights\": \"Dark Horse (auto/manual) 4,012/3,968\" (source ford-us-mustang-specs-2026). Ford's 2024 preliminary specifications gave only estimates (\"Est. curb weight, fastback manual 3,868 lbs.\"), and no Ford figure for 2024 or 2025 could be opened, so the reference year is 2026. See discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-2026-techspecs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (document hosted on the Mustang7G forum)",
+      "title": "2026 Ford Mustang Technical Specifications (07/20/26 v 1.1)",
+      "url": "https://www.mustang7g.com/forums/attachments/2026_mustang_technical_specs-pdf.621639/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-us-mustang-specs-2026",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (Ford.com)",
+      "title": "2026 Ford Mustang specifications",
+      "url": "https://www.ford.com/cars/mustang/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-mustang-2024-prelim-techspecs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (technical specifications PDF posted on the Mustang7G forum)",
+      "title": "Preliminary Technical Specifications, 2024 Ford Mustang (as of Sept. 14, 2022)",
+      "url": "https://www.mustang7g.com/forums/attachments/2024-mustang-technical-specifications-pdf.557718",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorweek-mustang-2024-power",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2024 Ford Mustang Performance Figures Revealed, GT Dishes Out 486 HP (December 15, 2022)",
+      "url": "https://motorweek.org/this_just_in/2024-ford-mustang-performance-figures-revealed-gt-dishes-out-486-hp",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3968,
+          "sourceId": "ford-mustang-2026-techspecs"
+        },
+        {
+          "value": 3868,
+          "sourceId": "ford-mustang-2024-prelim-techspecs"
+        }
+      ],
+      "reason": "Estimate vs later figure: 3,868 lb is Ford's pre-launch estimate for the 2024 Dark Horse fastback manual (\"Est. curb weight\", September 2022); 3,968 lb is the 2026 technical-specification figure for the same configuration. The automatic moved by 99 lb (3,913 est. to 4,012). The GT's figures barely changed between the same two documents (3,730 est. to 3,731), so the 100 lb rise for the Dark Horse is unexplained by any page opened.",
+      "resolution": "Used 3,968 lb, Ford's figure without an estimate label in the technical specifications, with reference model year 2026; an estimate does not count at step 1."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight: Ford's 2026 technical specifications give 3,968 lb (manual fastback) with no estimate label, but Ford.com prints the same figure under 'Estimated Base Curb Weights' (as it does for the GT, whose record accepted this), and it is exactly 100 lb above Ford's September 2022 estimate for the 2024 car (3,868 lb) while the GT's figure did not move. A reviewer should decide whether the 100 lb rise is real (2026 content change) or an error, and look for a final 2024 or 2025 Ford figure.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

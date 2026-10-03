@@ -1,0 +1,149 @@
+{
+  "id": "dodge-challenger-srt-hellcat-redeye",
+  "manufacturer": "Dodge",
+  "model": "Challenger",
+  "generation": null,
+  "variant": "SRT Hellcat Redeye",
+  "subVariant": null,
+  "displayName": "Dodge Challenger SRT Hellcat Redeye",
+  "aliases": [
+    "Redeye",
+    "Challenger Redeye",
+    "Hellcat Redeye",
+    "Redeye Challenger",
+    "Challenger SRT Hellcat Redeye Widebody",
+    "Redeye Widebody",
+    "Supercharged HEMI High Output",
+    "TorqueFlite",
+    "8HP90"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2023
+    },
+    "sourceId": "dodge-challenger-factsheet-2019",
+    "note": "US model years 2019-2023. Dodge's 2019 fact sheet (June 28, 2018) introduces \"the 797-horsepower Dodge Challenger SRT Hellcat Redeye\" as part of \"the most powerful SRT Hellcat lineup ever in 2019\". Dodge's 2023 specifications still list the SRT Hellcat Redeye (source dodge-challenger-specs-2023); Challenger production at Brampton ended on December 22, 2023 (GM Authority, source gmauthority-challenger-end-2023). Sold as its own trim: Mopar Insiders, \"Unlike the Redeye, the SRT HELLCAT gets the option of both a 6-speed manual or 8-speed automatic\" and the Hellcat automatic \"starts out $8,005 cheaper than its standard base SRT HELLCAT Redeye counterpart\" (source moparinsiders-2019-hellcat-pricing)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "dodge-challenger-specs-2023",
+    "note": "Two-door coupe. The Widebody is an option package with its own weight line (\"SRT Hellcat Redeye Widebody\"), not a separate model."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-challenger-specs-2019",
+      "note": "\"Supercharged 6.2-Liter HEMI Hellcat High Output\" V-8."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "dodge-challenger-specs-2023",
+      "note": "6,166 cc. Dodge 2023 specifications: \"Displacement 376 cu. in. (6,166 cu. cm.)\"."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "dodge-challenger-specs-2019"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-challenger-specs-2019",
+    "note": "Rated \"with Premium 91 octane fuel\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-challenger-specs-2019",
+    "note": "Rear-wheel drive; Dodge's sheets offer AWD only with the V-6."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "dodge-challenger-specs-2019",
+    "note": "\"TORQUEFLITE 8HP90 Eight-Speed Automatic: Optional — Challenger SRT Hellcat; standard on SRT Hellcat Redeye\". The TR-6060 manual is listed as \"Standard — Challenger SRT Hellcat\" only; Dodge's 2019 fact sheet: \"TorqueFlite eight-speed automatic\" on the Redeye (source dodge-challenger-factsheet-2019). The 2023 sheet is the same: \"Optional — SRT Hellcat; standard on SRT Hellcat Redeye and SRT Super Stock\"."
+  },
+  "powerHp": {
+    "value": 797,
+    "sourceId": "dodge-challenger-specs-2019",
+    "note": "Quote (Dodge 2019 specifications, Supercharged 6.2-Liter HEMI Hellcat High Output, \"Standard — Challenger SRT Hellcat Redeye\"): \"797 bhp (595 kW) @6,300 rpm with Premium 91 octane fuel\". Unchanged to the end: Dodge 2023 specifications, \"Power 797 bhp (595 kW) @ 6,300 rpm / 807 bhp (601 Kw) @ 6,400 rpm on SRT Super Stock\" (source dodge-challenger-specs-2023)."
+  },
+  "weightLb": {
+    "value": 4451,
+    "sourceId": "dodge-challenger-specs-2019",
+    "note": "2019 model, standard body (8-speed automatic, the only transmission), standard rear seat. Quote (Dodge 2019 specifications, Curb Weight): \"4,451 (2,019) — SRT Hellcat Redeye\"; the row \"4,400 (1,996) — SRT Hellcat Redeye without rear seat\" is a seat-delete option and is not used. The heading carries no preliminary or estimate label. 2023: \"4,430 (2,009) — SRT Hellcat Redeye\" and \"4,481 (2,032) — SRT Hellcat Redeye Widebody\" (source dodge-challenger-specs-2023)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-challenger-specs-2019",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2019 Dodge Challenger / Challenger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2019_DG_Challenger_ChallengerSRT_SP.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dodge-challenger-specs-2023",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Dodge)",
+      "title": "2023 Dodge Challenger / Challenger SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_DG_Challenger_ChallengerSRT_SP.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dodge-challenger-factsheet-2019",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge)",
+      "title": "2019 Dodge Challenger / Challenger SRT Fact Sheet (June 28, 2018)",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=19986",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "moparinsiders-2019-hellcat-pricing",
+      "type": "publication",
+      "publisher": "Mopar Insiders",
+      "title": "2019 Dodge Challenger SRT Hellcat Options and Pricing, by Robert S. Miller (September 1, 2018)",
+      "url": "https://moparinsiders.com/2019-dodge-challenger-srt-hellcat-options-and-pricing/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-challenger-end-2023",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "Production Of Camaro Rival Dodge Challenger Ends Today, by Jonathan Lopez (December 22, 2023)",
+      "url": "https://gmauthority.com/blog/2023/12/production-of-camaro-rival-dodge-challenger-ends-today/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4451,
+          "sourceId": "dodge-challenger-specs-2019"
+        },
+        {
+          "value": 4430,
+          "sourceId": "dodge-challenger-specs-2023"
+        }
+      ],
+      "reason": "Model year: both are Dodge curb weights for the standard-body Redeye, 4,451 lb on the 2019 sheet and 4,430 lb on the 2023 sheet.",
+      "resolution": "Used 4,451 lb because the reference model year is 2019, the launch year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

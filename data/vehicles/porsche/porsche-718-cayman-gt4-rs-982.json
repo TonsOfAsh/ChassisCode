@@ -1,0 +1,124 @@
+{
+  "id": "porsche-718-cayman-gt4-rs-982",
+  "manufacturer": "Porsche",
+  "model": "718 Cayman",
+  "generation": "982",
+  "variant": "GT4 RS",
+  "subVariant": null,
+  "displayName": "Porsche 718 Cayman GT4 RS (982)",
+  "aliases": [
+    "982 GT4 RS",
+    "718 GT4 RS",
+    "Cayman GT4 RS",
+    "GT4 RS 982",
+    "GT4RS",
+    "Weissach Package",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2025
+    },
+    "sourceId": "kbb-2022-718-cayman",
+    "note": "US model years 2022 to 2025. First: Kelley Blue Book's 2022 718 Cayman trim list includes \"GT4 RS Coupe 2D\"; PCNA: world premiere at the Los Angeles Auto Show in November 2021, \"followed by customer deliveries in 2022\" (pcna-2021-718-cayman-gt4-rs). Last: Kelley Blue Book's 2025 718 Cayman page lists the \"718 Cayman GT4 RS\" and says \"production of the 718 Boxster and 718 Cayman is set to end October 2025\"; its 2026 718 Cayman address returns the 2025 page (kbb-2025-718-cayman). No opened Porsche page says in so many words that 2025 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-2022-718-cayman",
+    "note": "\"GT4 RS Coupe 2D\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+      "note": "\"Six-cylinder naturally aspirated boxer engine with gasoline particulate filter\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+      "note": "3,996 cc (\"3,996 cm³\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+      "note": "\"Six-cylinder naturally aspirated boxer engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+    "note": "\"boxer engine with gasoline particulate filter\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+    "note": "\"Rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+    "note": "\"Seven-speed dual clutch transmission (PDK)\"; PCNA: \"offered exclusively with the seven-speed dual-clutch transmission (PDK)\". No manual."
+  },
+  "powerHp": {
+    "value": 493,
+    "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+    "note": "Quote (spec sheet): max. power \"493 hp\" at \"8,400 rpm\". PCNA release: \"Power increases by 79 hp compared to the 718 Cayman GT4 to a total of 493 hp, resulting in a weight-to-power ratio of 6.55 lbs. per hp.\" Kelley Blue Book's 2025 page still gives a \"493-horsepower engine\"."
+  },
+  "weightLb": {
+    "value": 3227,
+    "sourceId": "porsche-718-cayman-gt4-rs-us-specs",
+    "note": "Single configuration (PDK coupe), standard car. Quote (spec sheet): \"Curb Weight (US)\" \"3,227 lbs.\" PCNA release: \"The U.S. curb weight is 3,227 lbs. – 49 lbs. less than a 718 Cayman GT4 with PDK\". No Weissach Package weight was given."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-718-cayman-gt4-rs-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Newsroom)",
+      "title": "718 Cayman GT4 RS Technical Data (US)",
+      "url": "https://download.newsroom.porsche.com/dam/jcr:c84793f0-4df0-4f82-830b-24f76f543988/718%20Cayman%20GT4%20RS%20Technical%20Data.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "pcna-2021-718-cayman-gt4-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Porsche 718 Cayman GT4 RS: world premiere at the Los Angeles Auto Show",
+      "url": "https://newsroom.porsche.com/en_US/2021/products/porsche-718-cayman-gt4-rs-la-auto-show-26468.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-2022-718-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Porsche 718 Cayman",
+      "url": "https://www.kbb.com/porsche/718-cayman/2022/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-2025-718-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Porsche 718 Cayman",
+      "url": "https://www.kbb.com/porsche/718-cayman/2025/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

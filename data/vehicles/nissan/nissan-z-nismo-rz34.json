@@ -1,0 +1,124 @@
+{
+  "id": "nissan-z-nismo-rz34",
+  "manufacturer": "Nissan",
+  "model": "Z",
+  "generation": "RZ34",
+  "variant": "Nismo",
+  "subVariant": null,
+  "displayName": "Nissan Z Nismo (RZ34)",
+  "aliases": [
+    "Z NISMO",
+    "RZ34 Nismo",
+    "Nismo Z",
+    "400Z Nismo",
+    "VR30DDTT",
+    "2024 Z Nismo"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "nissan-us-2024-z-nismo-press-kit",
+    "note": "US model years. First: 'The 2024 Nissan Z NISMO is on sale now with a starting Manufacturer's Suggested Retail Price (MSRP) of $65,750.' Still on sale: 'The 2027 Nissan Z NISMO adds an available six-speed manual transmission' (nissan-us-2027-z-press-kit)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-us-2024-z-nismo-press-kit",
+    "note": "Inferred from Nissan's description of the two-seat Z sports car; sold only as a coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2024-z-nismo-press-kit",
+      "note": "VR30DDTT V6 Twin Turbo"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "nissan-us-2024-z-nismo-press-kit",
+      "note": "2,997 cc ('Displacement' row: '3.0 / 2997')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-us-2024-z-nismo-press-kit",
+      "note": "VR30DDTT V6 Twin Turbo"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2024-z-nismo-press-kit",
+    "note": "Inferred from Nissan's description of a conventional twin-turbo V6; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "nissan-us-2024-z-nismo-press-kit",
+    "note": "'Mid-mounted front-engine / rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "9-speed Automatic"
+    ],
+    "sourceId": "nissan-us-2027-z-press-kit",
+    "note": "2024 to 2026: 'NISMO-tuned 9-speed automatic' only; the 2024 table marks the 6-speed manual '-' for NISMO (nissan-us-2024-z-nismo-press-kit). From 2027: 'The 2027 Nissan Z NISMO adds an available six-speed manual transmission'; 2027 table: '6-speed close-ratio manual w/EXEDY high-performance clutch' S, 'NISMO-tuned 9-speed automatic' O."
+  },
+  "powerHp": {
+    "value": 420,
+    "sourceId": "nissan-us-2024-z-nismo-press-kit",
+    "note": "2024 model year. Quotes: \"420 @ 6,400 rpm\" (specifications table) and \"420 horsepower and 384 lb-ft of torque, increases of 20 hp and 34 lb-ft compared to other Z grades\". Unchanged for 2027: NISMO \"420 @ 6,400 rpm\" (nissan-us-2027-z-press-kit)."
+  },
+  "weightLb": {
+    "value": 3704,
+    "sourceId": "nissan-us-2024-z-nismo-press-kit",
+    "note": "2024 model year, NISMO-tuned 9-speed automatic (the only transmission offered that year). Quote ('Weights' table, Total row, columns Sport MT | Sport AT | Performance MT | Performance AT | NISMO AT): \"3,486 | 3,549 | 3,536 | 3,602 | 3,704\". The 2027 kit gives NISMO MT 3,624 lb and NISMO AT 3,677 lb (nissan-us-2027-z-press-kit); see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2024-z-nismo-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2024 Nissan Z NISMO Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-z-nismo-press-kit",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "nissan-us-2027-z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2027 Nissan Z Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2027-nissan-z-press-kit",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3704,
+          "sourceId": "nissan-us-2024-z-nismo-press-kit"
+        },
+        {
+          "value": 3677,
+          "sourceId": "nissan-us-2027-z-press-kit"
+        }
+      ],
+      "reason": "Model year. Both are Nissan USA totals for the NISMO with the 9-speed automatic: 3,704 lb in the 2024 kit, 3,677 lb in the 2027 kit. The 2027 manual NISMO is 3,624 lb.",
+      "resolution": "Used 3,704 lb because the reference model year is 2024, when the automatic was the only transmission."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,130 @@
+{
+  "id": "acura-integra-type-s-de5",
+  "manufacturer": "Acura",
+  "model": "Integra",
+  "generation": "DE5",
+  "variant": "Type S",
+  "subVariant": null,
+  "displayName": "Acura Integra Type S (DE5)",
+  "aliases": [
+    "DE5",
+    "DE5 Integra",
+    "Integra Type S",
+    "K20C1",
+    "2024 Integra Type S"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "acura-us-2024-integra-type-s-320hp",
+    "note": "US model years. First: Acura's 20 March 2023 release is for the '2024 Acura Integra Type S', which 'will launch this summer'. Still on sale: KBB (Sean Tucker, 20 August 2025) reports 'The high-end 2026 Integra Type S starts at $54,595' and 'The 2026 Acura Integra is on sale now' (kbb-2026-integra-pricing)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "autoguide-2024-integra-type-s-reveal",
+    "note": "AutoGuide (Kyle Patrick, 11 April 2023): 'The pumped-up liftback'; 'The five-door goes on sale this June.' A five-door liftback is recorded as Hatchback."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "acura-us-2024-integra-specs",
+      "note": "'In-Line 4 Cylinder with Turbocharger'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "acura-us-2024-integra-specs",
+      "note": "Acura's table gives litres only (2.0) and bore x stroke 86.0 / 85.9 mm; no cc figure was found on an opened Acura page. AutoGuide says 'The Civic Type R's 2.0-liter turbocharged four-cylinder sits under the vented hood' (autoguide-2024-integra-type-s-reveal), and Honda's 2023 Civic Type R specifications give 'Displacement 1,996 cc' with the same 86.0 mm x 85.9 mm bore and stroke (honda-us-2023-civic-type-r-specs). 1,996 cc rounds to 2.0."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "acura-us-2024-integra-specs",
+      "note": "'In-Line 4 Cylinder with Turbocharger' (single turbocharger)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-us-2024-integra-specs",
+    "note": "'Premium Unleaded 93 Octane'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "acura-us-2024-integra-specs",
+    "note": "'Front-Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "acura-us-2024-integra-specs",
+    "note": "'6-Speed Manual Transmission (6MT) with Rev-Match Control'; the Type S is offered only with this gearbox."
+  },
+  "powerHp": {
+    "value": 320,
+    "sourceId": "acura-us-2024-integra-specs",
+    "note": "2024 model year. Quote (Horsepower, SAE net @ rpm, Type S column): \"320 @ 6,500\". Also Acura's 20 March 2023 release: \"320 horsepower, 310 lb.-ft. of torque\" (acura-us-2024-integra-type-s-320hp)."
+  },
+  "weightLb": {
+    "value": 3219,
+    "sourceId": "acura-us-2024-integra-specs",
+    "note": "2024 model year; one configuration (6-speed manual). Quote (Curb Weight (lbs.), Integra | Type S columns): \"3,084\" | \"3,219\"."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-us-2024-integra-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda Motor Co. (Acura News)",
+      "title": "2024 Acura Integra & Integra Type S Specifications & Features (19 June 2023)",
+      "url": "https://acuranews.com/en-US/releases/2024-acura-integra-integra-type-s-specifications-features",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "acura-us-2024-integra-type-s-320hp",
+      "type": "manufacturer",
+      "publisher": "American Honda Motor Co. (Acura News)",
+      "title": "320 Horsepower Confirmed for Acura Integra Type S, Full Reveal Next Month (20 March 2023)",
+      "url": "https://acuranews.com/en-US/releases/320-horsepower-confirmed-for-acura-integra-type-s-full-reveal-next-month",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoguide-2024-integra-type-s-reveal",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "2024 Acura Integra Type S is Wider, Louder, and Packing 320 HP (Kyle Patrick, 11 April 2023)",
+      "url": "https://www.autoguide.com/auto-news/2023/04/2024-acura-integra-type-s-is-wider-louder-and-packing-320-hp.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-2026-integra-pricing",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "Acura Integra Stays Under $35,000 for 2026 (Sean Tucker, 20 August 2025)",
+      "url": "https://www.kbb.com/car-news/acura-integra-stays-under-35000-for-2026",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "honda-us-2023-civic-type-r-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda Motor Co. (Honda News)",
+      "title": "2023 Honda Civic Type R Specifications & Features",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/2023-honda-civic-type-r-specifications-features",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

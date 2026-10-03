@@ -1,0 +1,140 @@
+{
+  "id": "bmw-m8-competition-coupe-f92",
+  "manufacturer": "BMW",
+  "model": "M8",
+  "generation": "F92",
+  "variant": "Competition",
+  "subVariant": "Coupe",
+  "displayName": "BMW M8 Competition Coupe (F92)",
+  "aliases": [
+    "F92 M8",
+    "M8 Competition",
+    "M8 Comp",
+    "M8 Coupe",
+    "S63",
+    "M Steptronic",
+    "M xDrive"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2025
+    },
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "US model years 2020 and 2022-2025; there was no 2021 model. First: 'The New 2020 BMW M8 Coupe and Convertible' (June 2019), \"Pricing for the new 2020 M8 Coupe is $133,000 ... and $146,000 for the M8 Competition Coupe.\" Gap: BMW NA's MY2021 update says \"The M8 Coupe and Convertible will not be imported for MY21, only the M8 GC.\" (bmw-us-my2021-updates). Return: Autoblog (Zac Palmer, 4 Aug 2021) says the Coupe and Convertible \"didn't see a 2021 model year\" and that for 2022 \"all M8s will be Competition models\" (autoblog-2022-m8-return). Last: bmwblog (Horatiu Boeriu, 22 Dec 2024): M8 Coupe production \"will stop production in early 2025\" and \"There will be no Model Year 2026 version\" (bmwblog-m8-coupe-end); Kelley Blue Book's 2025 M8 Competition Coupe page says \"The 2-door M8 Competition Coupe is being discontinued\" (kbb-2025-m8-competition-coupe). A non-Competition M8 Coupe (600 hp) was sold in the US for model year 2020 only; it is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "Column 'M8 Competition Coupe'. The Convertible (F91) and four-door Gran Coupe (F93) have their own chassis codes and are not part of this record. The owner's rule (3 October 2026) allows splitting bodies when weights differ markedly; the M8 Competition Convertible (F91) is 4,560 lb against the coupe's 4,295 lb."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "bmw-us-2020-m8-release",
+      "note": "4.4-liter V8 with the two turbochargers inside the V"
+    },
+    "displacementL": {
+      "value": 4.4,
+      "sourceId": "bmw-us-2020-m8-release",
+      "note": "4,395 cc ('Displacement | cm³ | 4,395 | 4,395 | 4,395 | 4,395')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2020-m8-release",
+      "note": "Two turbochargers positioned within the V of the engine"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "Inferred from the release's description of the twin-turbo gasoline V8; no hybrid system is described."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "'Drive type: AWD, AWD, AWD, AWD'; 'M xDrive all-wheel drive system'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "Eight-speed M Steptronic with Drivelogic (torque-converter automatic)"
+  },
+  "powerHp": {
+    "value": 617,
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "Quote: \"Engine power | hp | 600 | 617 | 600 | 617\" (M8 Coupe | M8 Competition Coupe | M8 Convertible | M8 Competition Convertible); summary bullet: \"617 hp M8 Competition Coupe and Competition Convertible\". Unchanged later: BMW NA's 2023 M8 Competition release gives \"617 hp at 6,000 rpm\" (bmw-us-2023-m8-competition)."
+  },
+  "weightLb": {
+    "value": 4295,
+    "sourceId": "bmw-us-2020-m8-release",
+    "note": "Single configuration (automatic coupe), 2020 model. Quote: \"Curb weight | lbs. | 4,295 | 4,295 | 4,560 | 4,560\" (M8 Coupe | M8 Competition Coupe | M8 Convertible | M8 Competition Convertible)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2020-m8-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2020 BMW M8 Coupe and Convertible",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0296777EN_US/the-new-2020-bmw-m8-coupe-and-convertible",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-us-my2021-updates",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW Model Year 2021 Update Information",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0313581EN_US/bmw-model-year-2021-update-information?language=en_US",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-us-2023-m8-competition",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "2023 BMW M8 Competition",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0365595EN_US/2023-bmw-m8-competition",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoblog-2022-m8-return",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "2022 BMW M8 Coupe and Convertible return (Zac Palmer, August 4, 2021)",
+      "url": "https://www.autoblog.com/2021/08/04/2022-bmw-m8-coupe-convertible-return",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmwblog-m8-coupe-end",
+      "type": "publication",
+      "publisher": "BMWBLOG",
+      "title": "BMW M8 Coupe production ends early 2025 (Horatiu Boeriu, December 22, 2024)",
+      "url": "https://www.bmwblog.com/2024/12/22/bmw-m8-coupe-production-ends-early-2025/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-2025-m8-competition-coupe",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 BMW M8 Competition Coupe",
+      "url": "https://www.kbb.com/bmw/m8/2025/competition-coupe/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -28,6 +28,19 @@ function splitCodes(text: string): string {
 }
 
 /**
+ * The opposite of splitCodes: joins a word of letters to a number that follows
+ * it, so typing "is500" finds "IS 500" and "sl63" finds "SL 63".
+ */
+function joinCodes(text: string): string {
+  const words = text.split(/[^A-Za-z0-9]+/).filter(Boolean);
+  const joined: string[] = [];
+  for (let i = 0; i + 1 < words.length; i++) {
+    if (/^[A-Za-z]+$/.test(words[i]!) && /^\d/.test(words[i + 1]!)) joined.push(words[i]! + words[i + 1]!);
+  }
+  return joined.join(' ');
+}
+
+/**
  * Search box for choosing a car. The player picks a specific record from the
  * list; free text is never submitted as a guess.
  */
@@ -40,8 +53,8 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
   const [active, setActive] = useState(0);
 
   const index = useMemo(() => {
-    const mini = new MiniSearch<CarOption & { aliasText: string; partText: string }>({
-      fields: ['name', 'aliasText', 'partText'],
+    const mini = new MiniSearch<CarOption & { aliasText: string; partText: string; joinText: string }>({
+      fields: ['name', 'aliasText', 'partText', 'joinText'],
       storeFields: ['id'],
       // Typos are forgiven in longer words only. Codes and short names must match
       // as typed: "e92" must not find "992", nor "amg" find "SMG", nor "sti" find "GTI".
@@ -53,7 +66,9 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
       },
     });
     mini.addAll(
-      cars.map((c) => ({ ...c, aliasText: c.aliases.join(' '), partText: [c.name, ...c.aliases].map(splitCodes).join(' ') })),
+      cars.map((c) => ({ ...c, aliasText: c.aliases.join(' '), partText: [c.name, ...c.aliases].map(splitCodes).join(' '),
+        joinText: [c.name, ...c.aliases].map(joinCodes).join(' '),
+      })),
     );
     return mini;
   }, [cars]);
