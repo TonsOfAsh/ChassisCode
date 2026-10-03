@@ -4,7 +4,6 @@ import MiniSearch from 'minisearch';
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import type { CarOption } from '@/lib/game-types';
 
-const MAX_RESULTS = 8;
 
 interface Props {
   cars: CarOption[];
@@ -105,11 +104,23 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
         if (!a.named) return a.rank - b.rank;
         return b.whole - a.whole || a.c.name.length - b.c.name.length || a.rank - b.rank;
       })
-      .map((x) => x.c)
-      .slice(0, MAX_RESULTS);
+      .map((x) => x.c);
   }, [query, selected, index, byId, excludedIds]);
 
   useEffect(() => setActive(0), [query]);
+
+  // The list shows every match and scrolls; keep the car chosen with the arrow
+  // keys in view. (Mouse hover also moves the highlight but never scrolls.)
+  const listRef = useRef<HTMLUListElement>(null);
+  const keyMoved = useRef(false);
+  useEffect(() => {
+    if (!keyMoved.current) return;
+    keyMoved.current = false;
+    listRef.current?.children[active]?.scrollIntoView({ block: 'nearest' });
+  }, [active]);
+  useEffect(() => {
+    if (listRef.current) listRef.current.scrollTop = 0;
+  }, [query]);
 
   // When a turn finishes, put the cursor back in the search box so the next
   // guess can be typed straight away. Not on a touch screen, where it would
@@ -142,9 +153,11 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
     if (e.key === 'ArrowDown' && results.length) {
       e.preventDefault();
       setOpen(true);
+      keyMoved.current = true;
       setActive((a) => (a + 1) % results.length);
     } else if (e.key === 'ArrowUp' && results.length) {
       e.preventDefault();
+      keyMoved.current = true;
       setActive((a) => (a - 1 + results.length) % results.length);
     } else if (e.key === 'Enter') {
       e.preventDefault();
@@ -194,7 +207,7 @@ export function CarSearch({ cars, excludedIds, disabled, onGuess }: Props) {
           onKeyDown={onKeyDown}
         />
         {showList && (
-          <ul id={listId} className="search-list" role="listbox" aria-label="Matching cars">
+          <ul ref={listRef} id={listId} className="search-list" role="listbox" aria-label="Matching cars">
             {results.length === 0 ? (
               <li className="search-empty" role="presentation">
                 No car matches “{query.trim()}”. Try a model name or chassis code.
