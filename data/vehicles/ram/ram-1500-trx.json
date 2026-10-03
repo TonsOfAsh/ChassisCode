@@ -1,0 +1,116 @@
+{
+  "id": "ram-1500-trx",
+  "manufacturer": "Ram",
+  "model": "1500",
+  "generation": null,
+  "variant": "TRX",
+  "subVariant": null,
+  "displayName": "Ram 1500 TRX",
+  "aliases": [
+    "TRX",
+    "Ram TRX",
+    "Dodge Ram TRX",
+    "DT TRX",
+    "TRX Launch Edition",
+    "TRX Final Edition",
+    "8HP95",
+    "TorqueFlite"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "ram-trx-2024-final-edition",
+    "note": "US model years 2021-2024. Start: Ram's press kit of 17 August 2020 introduces the 'All-new 2021 Ram 1500 TRX' (ram-trx-2021-presskit). End: Ram's release of 30 August 2023 introduces the '2024 Ram 1500 TRX 6.2L Supercharged V8 - Final Edition' and says \"Ram TRX production will conclude at the end of 2023.\" Ram revived the name for the 2027 model year as the Ram 1500 SRT TRX with 777 hp (Motoring Research, 7 January 2026); that truck is not part of this record and would get its own."
+  },
+  "body": {
+    "value": [
+      "Pickup"
+    ],
+    "sourceId": "ram-trx-2021-specs",
+    "note": "Ram's 2021 TRX specification sheet: 'Vehicle Type Crew Cab: 4x4', box length 5 ft 7 in. The Crew Cab with the 5-ft-7-in box is the only TRX configuration and is the standard car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ram-trx-2021-specs",
+      "note": "'6.2-LITER HEMI® SUPERCHARGED V-8'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "ram-trx-2021-specs",
+      "note": "6,166 cc: '376 cu. in. (6,166 cu. cm)'"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "ram-trx-2021-specs",
+      "note": "'6.2-LITER HEMI® SUPERCHARGED V-8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ram-trx-2021-specs"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "ram-trx-2021-specs",
+    "note": "Ram's sheet: transfer case 'BW 48-13 FULL-TIME', modes '4WD Auto, 4WD High, Locked; Neutral; 4WD Low, Locked'. A full-time system with no two-wheel-drive mode, so AWD under the data guide's rule even though Ram calls the truck a 4x4 and the case has a low range."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "ram-trx-2021-specs",
+    "note": "'TORQUEFLITE 8HP95 EIGHT-SPEED AUTOMATIC', the only transmission."
+  },
+  "powerHp": {
+    "value": 702,
+    "sourceId": "ram-trx-2021-specs",
+    "note": "Ram 2021 TRX specification sheet. Quote: \"Power (SAE J2723) 702 hp (523 kW) @ 6,100 rpm\". Torque 650 lb-ft @ 4,800 rpm. Ram's 2024 Final Edition release gives the same rating: 'Rated at 702 horsepower and 650 lb.-ft. of torque' (ram-trx-2024-final-edition)."
+  },
+  "weightLb": {
+    "value": 6350,
+    "sourceId": "ram-trx-2021-specs",
+    "note": "Ram 2021 TRX specification sheet, Crew Cab 4x4 with 5-ft-7-in box (the only configuration). Quote: \"Curb weight 6,350 lbs.\""
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ram-trx-2021-specs",
+      "type": "manufacturer",
+      "publisher": "FCA US (Ram) (spec sheet served from media.stellantisnorthamerica.com)",
+      "title": "2021 Ram 1500 TRX Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_RAM_1500_TRX_Specificationsncds40e91jnt64taolkbbpi9eq.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ram-trx-2021-presskit",
+      "type": "manufacturer",
+      "publisher": "FCA US (Ram) (media.stellantisnorthamerica.com)",
+      "title": "Press Kit: 2021 Ram 1500 TRX - All-new 2021 Ram 1500 TRX: Quickest, Fastest and Most Powerful Mass-produced Truck in the World",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=21977",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ram-trx-2024-final-edition",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Ram) (media.stellantisnorthamerica.com)",
+      "title": "Last Call: 2024 Ram 1500 TRX 6.2L Supercharged V8 - Final Edition Salutes Unprecedented Run as North America's Apex Predator of the Truck World",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=25237",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

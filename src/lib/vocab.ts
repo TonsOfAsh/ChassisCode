@@ -52,6 +52,7 @@ export const BODIES = [
   'Shooting Brake',
   'Targa',
   'SUV',
+  'Pickup',
   'Other',
 ] as const;
 

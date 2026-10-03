@@ -1,0 +1,114 @@
+{
+  "id": "ford-bronco-raptor",
+  "manufacturer": "Ford",
+  "model": "Bronco",
+  "generation": null,
+  "variant": "Raptor",
+  "subVariant": null,
+  "displayName": "Ford Bronco Raptor",
+  "aliases": [
+    "Bronco Raptor",
+    "Warthog",
+    "2022 Bronco Raptor",
+    "Bronco 6th gen Raptor",
+    "3.0 EcoBoost"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "ford-2022-bronco-raptor-tech-specs",
+    "note": "US model years from 2022 (Ford's '2022 Ford Bronco Raptor' technical specifications). Still sold: Ford's US site lists a 2026 Bronco Raptor (ford-com-bronco-raptor)."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "ford-2022-bronco-raptor-tech-specs",
+    "note": "'Midsize four-door rugged 4x4 SUV' (the Raptor is four-door only)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "ford-2022-bronco-raptor-tech-specs",
+      "note": "'3.0-liter EcoBoost 60-degree V6, compacted graphite iron block, aluminum head'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "ford-2022-bronco-raptor-tech-specs",
+      "note": "'180.0 cu. in.' (about 2,950 cc), bore x stroke '85.4 mm x 86.0 mm'."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "motor1-bronco-raptor-418",
+      "note": "EcoBoost twin-turbocharged V6."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-2022-bronco-raptor-tech-specs",
+    "note": "The sheet lists SAE horsepower ratings for regular and premium fuel."
+  },
+  "drivetrain": {
+    "value": "4WD",
+    "sourceId": "ford-2022-bronco-raptor-tech-specs",
+    "note": "'2-speed transfer case with 4H, 4L and 4A mode for automatic on-demand engagement': a two-speed 4x4 system with low range."
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-2022-bronco-raptor-tech-specs",
+    "note": "'10-speed SelectShift automatic' (the only transmission)."
+  },
+  "powerHp": {
+    "value": 418,
+    "sourceId": "ford-com-bronco-raptor",
+    "note": "Ford's US website for the 2026 Bronco Raptor gives 418 hp maximum horsepower (read on ford.com by the project owner on 3 October 2026; the page does not render for the research tools). Ford's 2022 technical specifications printed 'SAE horsepower ... TBD'; the 418 hp / 440 lb-ft rating for the 2022 launch was announced by Ford CEO Jim Farley and reported by Motor1 (motor1-bronco-raptor-418). The rating has not changed since launch."
+  },
+  "weightLb": {
+    "value": 5733,
+    "sourceId": "ford-2022-bronco-raptor-tech-specs",
+    "note": "Manufacturer curb weight, 2022 model year (the only body and transmission). Quote: 'Base curb weight 5,733 lbs.' No estimate label."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-2022-bronco-raptor-tech-specs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (technical specifications reproduced by Bronco II Corral)",
+      "title": "2022 Ford Bronco Raptor Technical Specifications",
+      "url": "https://www.broncoiicorral.com/wp-content/uploads/2022/02/2022-Ford-Bronco-Raptor-Tech-Specs.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-com-bronco-raptor",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company",
+      "title": "Ford Bronco Raptor (ford.com model page, 2026 model year)",
+      "url": "https://www.ford.com/suvs/bronco/models/bronco-raptor/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motor1-bronco-raptor-418",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2022 Ford Bronco Raptor Power Figures Confirmed: 418 HP, 440 LB-FT",
+      "url": "https://www.motor1.com/news/587873/ford-bronco-raptor-horsepower-torque-figures/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

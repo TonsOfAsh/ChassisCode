@@ -1,0 +1,147 @@
+{
+  "id": "jeep-grand-cherokee-trackhawk-wk2",
+  "manufacturer": "Jeep",
+  "model": "Grand Cherokee",
+  "generation": "WK2",
+  "variant": "Trackhawk",
+  "subVariant": null,
+  "displayName": "Jeep Grand Cherokee Trackhawk (WK2)",
+  "aliases": [
+    "Trackhawk",
+    "Jeep Trackhawk",
+    "Grand Cherokee Trackhawk",
+    "WK2 Trackhawk",
+    "Quadra-Trac",
+    "8HP95",
+    "TorqueFlite"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2021
+    },
+    "sourceId": "jeep-trackhawk-2018-presskit",
+    "note": "US model years 2018-2021. Start: Jeep's press kit of 12 April 2017 says 'the 2018 Grand Cherokee Trackhawk will arrive in Jeep showrooms in the fourth quarter of 2017'. Last: Jeep's 2021 Grand Cherokee brochure lists the Trackhawk ('6.2L Supercharged V8 engine, 707 hp and 645 lb-ft of torque') (jeep-grand-cherokee-2021-brochure); the 2022 Grand Cherokee brochure lists only Summit, Summit Reserve, Limited and Trailhawk and no supercharged engine (jeep-grand-cherokee-2022-brochure). No opened Jeep page says in so many words that 2021 was the last model year."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "jeep-trackhawk-2018-specs",
+    "note": "'Four-door sport-utility vehicle', seating 2/3."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "jeep-trackhawk-2018-specs",
+      "note": "'6.2-Liter Supercharged V-8'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "jeep-trackhawk-2018-specs",
+      "note": "6,166 cc: '376 cu. in. (6,166 cu. cm)'"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "jeep-trackhawk-2018-specs",
+      "note": "'6.2-Liter Supercharged V-8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "jeep-trackhawk-2018-specs"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "jeep-trackhawk-2018-specs",
+    "note": "Transfer case 'MP 3015C', 'Single-speed, electronic proportioning', 'Operating Mode Full-time four-wheel drive' (Jeep Quadra-Trac). Full-time with no low range, so AWD under the data guide's rule."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "jeep-trackhawk-2018-specs",
+    "note": "'TorqueFlite 8HP95 Automatic, Eight-Speed Overdrive', the only transmission."
+  },
+  "powerHp": {
+    "value": 707,
+    "sourceId": "jeep-trackhawk-2018-specs",
+    "note": "Jeep 2018 Trackhawk specification sheet. Quote: \"Power (SAE J2723) 707 hp (527 kW) @ 6,000 rpm\". Torque 645 lb-ft. The press kit (jeep-trackhawk-2018-presskit) says 'supercharged 6.2-liter V-8 engine delivering 707 horsepower and 645 lb.-ft. of torque', and the 2021 brochure (jeep-grand-cherokee-2021-brochure) still gives 707 hp. The rating is the same for 2021, the reference year."
+  },
+  "weightLb": {
+    "value": 5356,
+    "sourceId": "caranddriver-2021-trackhawk-specs",
+    "note": "Car and Driver's specifications section for the 2021 Trackhawk (the maker's figures, not a road-test measurement), read by the project owner on 3 October 2026 (the site blocks the research tools): curb weight 5,356 lb. Weight-order step 2 (major magazine specification panel). Jeep's own 2018 sheet gives 5,363 lb, but under the heading 'WEIGHTS (Estimates)', which the data guide does not accept (jeep-trackhawk-2018-specs); see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "jeep-trackhawk-2018-specs",
+      "type": "manufacturer",
+      "publisher": "FCA US (Jeep) (spec sheet served from media.stellantisnorthamerica.com)",
+      "title": "2018 Jeep Grand Cherokee Trackhawk Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2018_JP_GrCherokee_Trackhawk_SP10kge6g0tjfo0bkv87ru3cehu4.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jeep-trackhawk-2018-presskit",
+      "type": "manufacturer",
+      "publisher": "FCA US (Jeep) (media.stellantisnorthamerica.com)",
+      "title": "Press Kit: 2018 Jeep Grand Cherokee Trackhawk",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=18495",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jeep-grand-cherokee-2021-brochure",
+      "type": "manufacturer",
+      "publisher": "FCA US (Jeep) (brochure reproduced by Auto-Brochures.com)",
+      "title": "2021 Jeep Grand Cherokee brochure",
+      "url": "https://www.auto-brochures.com/makes/Jeep/Grand%20Cherokee/Jeep_US%20Grand%20Cherokee_2021.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jeep-grand-cherokee-2022-brochure",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Jeep) (brochure reproduced by Auto-Brochures.com)",
+      "title": "2022 Jeep Grand Cherokee brochure",
+      "url": "https://www.auto-brochures.com/makes/Jeep/Grand%20Cherokee/Jeep_US%20Grand%20Cherokee_2022.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "caranddriver-2021-trackhawk-specs",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2021 Jeep Grand Cherokee Trackhawk Review, Pricing, and Specs (specifications section)",
+      "url": "https://www.caranddriver.com/jeep/grand-cherokee-trackhawk/specs",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 5356,
+          "sourceId": "caranddriver-2021-trackhawk-specs"
+        },
+        {
+          "value": 5363,
+          "sourceId": "jeep-trackhawk-2018-specs"
+        }
+      ],
+      "reason": "Car and Driver's 2021 specifications give 5,356 lb; Jeep's 2018 sheet gives 5,363 lb in a table headed 'WEIGHTS (Estimates)'.",
+      "resolution": "Jeep's figure is labelled an estimate, so the 2021 Car and Driver figure is used and 2021 is the reference year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

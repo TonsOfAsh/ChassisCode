@@ -224,7 +224,13 @@
       "heldSince": "2026-10-01",
       "missing": "A second source for the curb weight. 3,274 lb comes from one unattributed spec table printed with The Auto Channel's launch review (RS 3,219, Evolution IX 3,274, MR 3,285).",
       "record": "data/held/mitsubishi-lancer-evolution-ix.json",
-      "notes": "Power is confirmed from Mitsubishi: 286 hp at 6,500 rpm. US model years 2006-2007."
+      "notes": "Power is confirmed from Mitsubishi: 286 hp at 6,500 rpm. US model years 2006-2007.",
+      "weightCandidates": [
+        {
+          "lb": 3274,
+          "source": "Edmunds, 2006 Lancer Evolution IX (found by the owner, 3 October 2026). A database: matches the existing candidate but does not count on its own."
+        }
+      ]
     },
     {
       "id": "mercedes-benz-sls-amg-c197",
@@ -511,37 +517,6 @@
       "missing": "The independent check did not confirm the draft. The only weight (1,457 kg, Evo, 'claimed') is from a 2026 review and is not tied to the 2022 car; sources disagree on whether '400hp' is PS or bhp (Evo's text says 394bhp); and the draft uses the UK market although the car is sold in the US.",
       "record": "data/held/lotus-emira-v6.json",
       "notes": "Needs a US curb weight and a clear US power rating."
-    },
-    {
-      "id": "ford-focus-rs-mk3",
-      "displayName": "Ford Focus RS (Mk3)",
-      "heldSince": "2026-10-01",
-      "missing": "A US curb weight from a qualifying source. Ford's US media site could not be opened and only one outlet gives a figure.",
-      "confirmed": {
-        "market": "US",
-        "modelYears": "2016-2018",
-        "body": [
-          "Hatchback"
-        ],
-        "engine": "I4",
-        "displacementL": 2.3,
-        "cc": 2261,
-        "aspiration": "Turbocharged",
-        "fuel": "Gasoline",
-        "drivetrain": "AWD",
-        "transmission": [
-          "6-speed Manual"
-        ],
-        "powerHp": 350,
-        "powerQuote": "350 hp @ 6,000 rpm (Ford US 2016 brochure, https://www.auto-brochures.com/makes/Ford/Focus/Ford_US%20FocusST_2016.pdf; same in the 2017 and 2018 brochures)"
-      },
-      "weightCandidates": [
-        {
-          "lb": 3459,
-          "source": "CarPro, Terry Box, 8 Nov 2017: 'Weight: 3,459 pounds.' One outlet; a second named-author outlet would qualify it."
-        }
-      ],
-      "notes": "Closest to release of this batch: one more source for 3,459 lb is enough."
     },
     {
       "id": "jaguar-f-type-r-2016-2020",
@@ -883,6 +858,104 @@
           "source": "forum reproduction of a later Ford sheet; forums not accepted"
         }
       ]
+    },
+    {
+      "id": "dodge-durango-srt-hellcat",
+      "displayName": "Dodge Durango SRT Hellcat",
+      "heldSince": "2026-10-03",
+      "missing": "A final curb weight. Dodge's 2021 sheet gives 5,710 lb and the 2023 sheet 5,575 lb, both under 'WEIGHTS (Estimates)'.",
+      "notes": "Confirmed: 710 hp, 6,166 cc supercharged V8, 8-speed automatic, full-time AWD (2021 sheet, s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_DG_Durango_DurangoSRT_SP.pdf). Model years 2021, then 2023 onward (no 2022); still listed for 2027. Owner found Car and Driver's specifications page (https://www.caranddriver.com/dodge/durango/specs, 2026 Durango); its curb weight for the SRT Hellcat trim would qualify at step 2 (the 4,875 lb found there is the GT RWD). Car and Driver's specifications page (https://www.caranddriver.com/dodge/durango/specs) would qualify if its SRT Hellcat trim shows a curb weight (the owner's first figure, 4,875 lb, was for the GT RWD)."
+    },
+    {
+      "id": "ford-f-150-raptor-2nd-gen",
+      "displayName": "Ford F-150 Raptor (2nd gen)",
+      "heldSince": "2026-10-03",
+      "missing": "A curb weight from Ford or a major magazine. Only one named-author outlet gives one (Automotive Addicts, 5,525 lb, SuperCab); other figures are approximate.",
+      "notes": "Confirmed: 450 hp (Ford 2017 Raptor Key Messages PDF on media.ford.com), high-output 3.5 EcoBoost V6, 10-speed automatic, 2-speed 4WD; SuperCab and SuperCrew; US model years 2017-2020."
+    },
+    {
+      "id": "lamborghini-urus",
+      "displayName": "Lamborghini Urus",
+      "heldSince": "2026-10-03",
+      "missing": "Any qualifying curb weight; Lamborghini's media site cannot be opened and magazine figures are tested or approximate (Carscoops: just under 2,200 kg).",
+      "notes": "Confirmed on lamborghini.com: 650 CV (641 hp), 3,996 cc V8, 8-speed automatic, AWD."
+    },
+    {
+      "id": "audi-rs-q8",
+      "displayName": "Audi RS Q8",
+      "heldSince": "2026-10-03",
+      "missing": "An Audi of America source for horsepower and any qualifying curb weight.",
+      "notes": "First US model year appears to be 2021 (Audi of America release 434, 16 Sep 2020). 591 hp only from secondary reports."
+    },
+    {
+      "id": "aston-martin-dbx",
+      "displayName": "Aston Martin DBX",
+      "heldSince": "2026-10-03",
+      "missing": "Horsepower from Aston Martin or a major magazine panel, and US model years.",
+      "notes": "Weight qualifies at step 2: 2,245 kg (4,949 lb) from Motor Sport (Andrew Frankel) and CompleteCar.ie (Neil Briscoe). Power seen as 542 bhp / 550 PS; 9-speed automatic."
+    },
+    {
+      "id": "tesla-model-s-plaid",
+      "displayName": "Tesla Model S Plaid",
+      "heldSince": "2026-10-03",
+      "missing": "Power and curb weight from Tesla or a major magazine; tesla.com cannot be read. Outlets give 1,020 hp and 4,766 or 4,816 lb (disagree).",
+      "notes": "Three motors, single-speed."
+    },
+    {
+      "id": "tesla-model-3-performance",
+      "displayName": "Tesla Model 3 Performance (2018-2023)",
+      "heldSince": "2026-10-03",
+      "missing": "Any Tesla horsepower rating and curb weight; Tesla did not publish hp for these years.",
+      "notes": ""
+    },
+    {
+      "id": "audi-rs-e-tron-gt",
+      "displayName": "Audi RS e-tron GT (2022-2024)",
+      "heldSince": "2026-10-03",
+      "missing": "A US curb weight from Audi or a major magazine panel, and confirmation that 2024 was the last pre-facelift year.",
+      "notes": "Confirmed (Audi of America release 459): 590 hp, up to 637 hp with overboost; 2-speed transmission; 2022 first model year. InsideEVs gives 5,139 lb (no author)."
+    },
+    {
+      "id": "rivian-r1t-quad-motor",
+      "displayName": "Rivian R1T Quad-Motor",
+      "heldSince": "2026-10-03",
+      "missing": "Rivian horsepower and any qualifying curb weight.",
+      "notes": "MotorWeek: 835 hp total."
+    },
+    {
+      "id": "chevrolet-corvette-zr-1-c4",
+      "displayName": "Chevrolet Corvette ZR-1 (C4)",
+      "heldSince": "2026-10-03",
+      "missing": "A curb weight from GM or a major magazine. GM Heritage kits exist but are image scans; CorvSport's 3,465 lb is one outlet.",
+      "notes": "Confirmed (Chevrolet release reproduced by Corvette Action Center): 375 hp 1990-1992, 405 hp 1993-1995, 5.7-liter LT5; reference year would be 1990."
+    },
+    {
+      "id": "nissan-300zx-twin-turbo-z32",
+      "displayName": "Nissan 300ZX Twin Turbo (Z32)",
+      "heldSince": "2026-10-03",
+      "missing": "US power and curb weight from Nissan or a major magazine panel.",
+      "notes": "Nissan Japan heritage page: 2,960 cc, 280 PS, 1,450 kg (Japanese car)."
+    },
+    {
+      "id": "porsche-911-carrera-993",
+      "displayName": "Porsche 911 Carrera (993)",
+      "heldSince": "2026-10-03",
+      "missing": "Everything: no US Porsche document or magazine panel was found.",
+      "notes": ""
+    },
+    {
+      "id": "mitsubishi-3000gt-vr-4",
+      "displayName": "Mitsubishi 3000GT VR-4",
+      "heldSince": "2026-10-03",
+      "missing": "Everything: no manufacturer or magazine source was found.",
+      "notes": "320 hp from 1994 would make 1994 the reference year; the 1995-1996 Spyder would be separate."
+    },
+    {
+      "id": "toyota-mr2-turbo-sw20",
+      "displayName": "Toyota MR2 Turbo (SW20)",
+      "heldSince": "2026-10-03",
+      "missing": "A Toyota or major-magazine source for power and curb weight.",
+      "notes": "Consumer Guide (Tom Appel): 200 hp, 5-speed manual only for Turbos."
     }
   ]
 }

@@ -1,0 +1,112 @@
+{
+  "id": "lucid-air-sapphire",
+  "manufacturer": "Lucid",
+  "model": "Air",
+  "generation": null,
+  "variant": "Sapphire",
+  "subVariant": null,
+  "displayName": "Lucid Air Sapphire",
+  "aliases": [
+    "Air Sapphire",
+    "Lucid Sapphire",
+    "Sapphire",
+    "Tri-motor Lucid Air",
+    "2024 Lucid Air Sapphire"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "lucid-air-sapphire-specs-2024",
+    "note": "First US model year 2024: Lucid's '2024 Lucid Air Sapphire Technical Specifications'. Electrek (electrek-air-sapphire-2023, Aug 8, 2023): \"Production of the Air Sapphire will begin in September, with deliveries to follow shortly after.\" Still on sale: Lucid's Air Sapphire page (lucid-air-sapphire-page, accessed 2026-10-03) shows the 2027 model year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "electrek-air-sapphire-2023",
+    "note": "\"the world's first fully electric luxury super-sports sedan\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "lucid-air-sapphire-specs-2024",
+      "note": "Three motors: \"Front drive unit: Permanent-Magnet Electric, single motor Rear drive unit: Permanent-Magnet Electric, twin motors\"."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "lucid-air-sapphire-specs-2024"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "lucid-air-sapphire-specs-2024"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "lucid-air-sapphire-specs-2024",
+    "note": "118 kWh battery."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lucid-air-sapphire-specs-2024",
+    "note": "\"Three-Motor All-Wheel Drive\"."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "lucid-air-sapphire-specs-2024",
+    "note": "\"Single-speed (gear ratio 7:1 (front) and 6.8:1 (rear)\"."
+  },
+  "powerHp": {
+    "value": 1234,
+    "sourceId": "lucid-air-sapphire-specs-2024",
+    "note": "Quote: \"Power (total) hp 1,234 (908 kW)\". Lucid publishes a single peak rating (no separate overboost figure); the current Air Sapphire page (lucid-air-sapphire-page) still states \"PEAK POWER: 1,234 hp\". Lucid pairs 1,234 hp with 908 kW; 908 kW is 1,218 hp in SAE terms and 1,234 in metric horsepower (PS), so Lucid's US figure is numerically the PS rating. As with the 918 Spyder, the figure Lucid publishes in the US is used, as published, with powerStandard 'SAE net' (the 918 Spyder record does the same)."
+  },
+  "weightLb": {
+    "value": 5336,
+    "sourceId": "lucid-air-sapphire-specs-2024",
+    "note": "Model year 2024, single configuration. Quote: \"Curb weight lbs 5,336\"."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lucid-air-sapphire-specs-2024",
+      "type": "manufacturer",
+      "publisher": "Lucid Motors",
+      "title": "2024 Lucid Air Sapphire Technical Specifications",
+      "url": "https://lucidmotors.com/media/document/lucid-air-sapphire-technical-specs-2024.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lucid-air-sapphire-page",
+      "type": "manufacturer",
+      "publisher": "Lucid Motors",
+      "title": "Lucid Air Sapphire",
+      "url": "https://lucidmotors.com/air-sapphire",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "electrek-air-sapphire-2023",
+      "type": "publication",
+      "publisher": "Electrek",
+      "title": "Lucid Air Sapphire final specs unveiled with over 1,200hp, 0 to 60 mph in 1.89 seconds",
+      "url": "https://electrek.co/2023/08/08/lucid-air-sapphire-final-specs-unveiled-over-1200hp-0-to-60/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

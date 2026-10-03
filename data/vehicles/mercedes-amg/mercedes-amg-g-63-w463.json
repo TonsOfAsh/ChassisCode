@@ -1,0 +1,46 @@
+{
+  "id": "mercedes-amg-g-63-w463",
+  "manufacturer": "Mercedes-AMG",
+  "model": "G 63",
+  "generation": "W463",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-AMG G 63 (W463)",
+  "aliases": ["G63", "AMG G63", "G63 AMG", "W463A", "G63 G-Wagon", "M177", "AMG SPEEDSHIFT TCT 9G", "2019 G63"],
+  "country": "Germany",
+  "production": {
+    "value": { "startYear": 2019, "endYear": null },
+    "sourceId": "mbusa-2019-g63-specs",
+    "note": "US model years. The second-generation car starts with the 2019 model (Mercedes-Benz USA '2019 Mercedes-AMG G63 Specifications'). Still on sale: mbusa.com lists the 2027 AMG G 63 at 577 hp (mbusa-2027-g63). The earlier W463 G 63 (2013 to 2018 model years) is a different car."
+  },
+  "body": { "value": ["SUV"], "sourceId": "mbusa-2019-g63-specs", "note": "'Four-door, five passenger SUV'" },
+  "engine": {
+    "configuration": { "value": "V8", "sourceId": "mbusa-2019-g63-specs", "note": "'Handcrafted AMG 4.0L V8 biturbo'" },
+    "displacementL": { "value": 4.0, "sourceId": "mbusa-2019-g63-specs", "note": "3,982 cc ('Displacement (cc) | 3,982')" },
+    "aspiration": { "value": "Twin Turbocharged", "sourceId": "mbusa-2019-g63-specs", "note": "'V8 biturbo'" }
+  },
+  "fuel": { "value": "Gasoline", "sourceId": "mbusa-2027-g63", "note": "Gasoline V8. From the 2025 model year an integrated starter-generator was added (mbusa.com 2027: 'Handcrafted AMG 4.0L V8 biturbo with hybrid assist'; Motor1, motor1-2025-g63-review: 'an integrated starter generator (ISG) that adds up to 20 hp'); it is a mild hybrid, so the fuel stays Gasoline." },
+  "drivetrain": { "value": "AWD", "sourceId": "mbusa-2019-g63-specs", "note": "'Permanent four-wheel drive (40 : 60)'. Permanent system, so AWD under the guide." },
+  "transmission": { "value": ["9-speed Automatic"], "sourceId": "mbusa-2019-g63-specs", "note": "'9G-TRONIC 9-speed automatic transmission' (later called AMG SPEEDSHIFT TCT 9G)" },
+  "powerHp": {
+    "value": 577,
+    "sourceId": "mbusa-2019-g63-specs",
+    "note": "Quote: \"Horsepower @ rpm | 577 @ 6,000\". Unchanged through the 2027 model year: mbusa.com \"577 hp @ 6,000 rpm\" (mbusa-2027-g63); the ISG from 2025 adds a temporary boost not included in the rating."
+  },
+  "weightLb": {
+    "value": 5842,
+    "sourceId": "mbusa-2019-g63-specs",
+    "note": "US curb weight, 2019 model, the only transmission. Quote: \"Curb Weight | 5,842\" (lb)."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2019, "powerStandard": "SAE net", "weightType": "curb", "yearType": "model" },
+  "sources": [
+    { "id": "mbusa-2019-g63-specs", "type": "manufacturer", "publisher": "Mercedes-Benz USA", "title": "2019 Mercedes-AMG G63 Specifications", "url": "https://media.mbusa.com/releases/release-79708d14bcfb8a2790547587d31d1c05-2019-mercedes-amg-g63-specifications", "accessed": "2026-10-03" },
+    { "id": "mbusa-2027-g63", "type": "manufacturer", "publisher": "Mercedes-Benz USA", "title": "2027 AMG G 63 SUV", "url": "https://www.mbusa.com/en/vehicles/model/g-class/suv/g63w4", "accessed": "2026-10-03" },
+    { "id": "motor1-2025-g63-review", "type": "publication", "publisher": "Motor1", "title": "2025 Mercedes-AMG G63 Review", "url": "https://www.motor1.com/reviews/719130/2025-mercedes-amg-g63-review/", "accessed": "2026-10-03" }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

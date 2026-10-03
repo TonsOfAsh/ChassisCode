@@ -1,0 +1,53 @@
+{
+  "id": "porsche-cayenne-turbo-e3",
+  "manufacturer": "Porsche",
+  "model": "Cayenne",
+  "generation": "E3",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Porsche Cayenne Turbo (E3)",
+  "aliases": ["E3 Cayenne Turbo", "Cayenne Turbo E3", "9Y0", "Cayenne Turbo Coupe", "Tiptronic S", "2019 Cayenne Turbo"],
+  "country": "Germany",
+  "production": {
+    "value": { "startYear": 2019, "endYear": 2023 },
+    "sourceId": "pcna-2019-cayenne-turbo-release",
+    "note": "US model years. First: PCNA's release is titled 'The new 2019 Cayenne Turbo' and says it is 'Expected to arrive at dealerships in Fall 2018'. Last: KBB's 2023 Cayenne lineup still lists 'Turbo Sport Utility 4D' at 541 hp (kbb-cayenne-2023); its 2024 lineup has no plain Turbo (kbb-cayenne-2024), and PCNA's 2024 release says the 'Turbo E-Hybrid model replaces previous Turbo variant' (pcna-2024-cayenne-turbo-e-hybrid). The Cayenne Turbo Coupe (same engine) is covered by this record."
+  },
+  "body": {
+    "value": ["SUV"],
+    "sourceId": "pcna-2019-cayenne-turbo-release",
+    "note": "Five-door SUV; the later Cayenne Turbo Coupe is also an SUV body."
+  },
+  "engine": {
+    "configuration": { "value": "V8", "sourceId": "porsche-2019-cayenne-us-techdata", "note": "'Twin-turbo V8'" },
+    "displacementL": { "value": 4.0, "sourceId": "porsche-ag-cayenne-turbo-td-2021", "note": "3,996 cc (Porsche AG technical data: 'Displacement 3,996 cm³'). Porsche's US sheet gives '4.0' L." },
+    "aspiration": { "value": "Twin Turbocharged", "sourceId": "porsche-2019-cayenne-us-techdata", "note": "'Twin-turbo V8'; PCNA: 'The turbochargers are arranged inside the cylinder V'" }
+  },
+  "fuel": { "value": "Gasoline", "sourceId": "porsche-ag-cayenne-turbo-td-2021", "note": "'V8 biturbo; with petrol particulate filter'" },
+  "drivetrain": { "value": "AWD", "sourceId": "pcna-2019-cayenne-turbo-release", "note": "'Standard Porsche Traction Management (PTM) all-wheel drive'" },
+  "transmission": { "value": ["8-speed Automatic"], "sourceId": "pcna-2019-cayenne-turbo-release", "note": "'eight-speed Tiptronic S automatic transmission'" },
+  "powerHp": {
+    "value": 541,
+    "sourceId": "porsche-2019-cayenne-us-techdata",
+    "note": "Quote (US 2019 Cayenne technical data, columns Cayenne | Cayenne E-Hybrid | Cayenne S | Cayenne Turbo): \"335 @ 5,300 - 6,400 | 335 @ 5,300 - 6,400 | 434 @ 5,700-6,600 | 541 @ 5,750-6,000\". PCNA release: \"4.0L twin-turbo V8 makes 541 hp, 567 lb-ft of torque\". Porsche AG: 404 kW (550 PS). KBB's 2023 listing still gives 541 hp."
+  },
+  "weightLb": {
+    "value": 4795,
+    "sourceId": "porsche-2019-cayenne-us-techdata",
+    "note": "US curb weight, 2019 Cayenne Turbo SUV, standard 8-speed Tiptronic S. Quote: \"Curb Weight (lbs): 4377 | 5060 | 4454 | 4795\" (Turbo is the fourth column). Porsche AG's MY 2021 sheet gives 'Unladen weight (DIN) 2,175 kg' (porsche-ag-cayenne-turbo-td-2021), which is the same 4,795 lb."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2019, "powerStandard": "SAE net", "weightType": "curb", "yearType": "model" },
+  "sources": [
+    { "id": "porsche-2019-cayenne-us-techdata", "type": "manufacturer", "publisher": "Porsche (Porsche Newsroom)", "title": "2019 Cayenne Technical Data", "url": "https://newsroom.porsche.com:443/dam/jcr:a75cb52c-b40a-479a-9e25-f6bd3f3bfe9e/2019_Cayenne_Technical_Data.pdf.PDF", "accessed": "2026-10-03" },
+    { "id": "pcna-2019-cayenne-turbo-release", "type": "manufacturer", "publisher": "Porsche Cars North America", "title": "The new 2019 Cayenne Turbo", "url": "https://newsroom.porsche.com/en_US/products/the-new-2019-cayenne-turbo-19870.html", "accessed": "2026-10-03" },
+    { "id": "porsche-ag-cayenne-turbo-td-2021", "type": "manufacturer", "publisher": "Porsche AG", "title": "Technical data MY N 04/2021 Cayenne Turbo", "url": "https://download.newsroom.porsche.com/dam/jcr:5e228249-b704-47ab-943f-3fa34d19b003/PAG_Cayenne_Turbo_TD_EN.pdf", "accessed": "2026-10-03" },
+    { "id": "pcna-2024-cayenne-turbo-e-hybrid", "type": "manufacturer", "publisher": "Porsche Cars North America", "title": "The 2024 Porsche Cayenne Turbo E-Hybrid SUV and Coupe", "url": "https://newsroom.porsche.com/en_US/2023/products/The-2024-Porsche-Cayenne-Turbo-E-Hybrid-SUV-and-Coupe-33588.html", "accessed": "2026-10-03" },
+    { "id": "kbb-cayenne-2023", "type": "database", "publisher": "Kelley Blue Book", "title": "2023 Porsche Cayenne", "url": "https://www.kbb.com/porsche/cayenne/2023/", "accessed": "2026-10-03" },
+    { "id": "kbb-cayenne-2024", "type": "database", "publisher": "Kelley Blue Book", "title": "2024 Porsche Cayenne", "url": "https://www.kbb.com/porsche/cayenne/2024/", "accessed": "2026-10-03" }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

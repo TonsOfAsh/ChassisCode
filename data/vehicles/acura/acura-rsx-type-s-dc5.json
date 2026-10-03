@@ -1,0 +1,154 @@
+{
+  "id": "acura-rsx-type-s-dc5",
+  "manufacturer": "Acura",
+  "model": "RSX",
+  "generation": "DC5",
+  "variant": "Type-S",
+  "subVariant": null,
+  "displayName": "Acura RSX Type-S (DC5)",
+  "aliases": [
+    "DC5",
+    "RSX-S",
+    "RSX Type S",
+    "Acura RSX-S",
+    "Honda Integra DC5",
+    "K20A2",
+    "K20Z1",
+    "i-VTEC",
+    "2002 RSX Type-S"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2002,
+      "endYear": 2006
+    },
+    "sourceId": "acura-rsx-2002-brochure",
+    "note": "US model years. First: Acura's 2002 brochure introduces \"the next great sports coupe from Acura, the 2002 RSX\" with the Type-S at \"200 @ 7400 rpm\". Last: the latest Acura specification sheet found is for the 2006 RSX/RSX Type-S (acura-rsx-2006-specs, dated September 1, 2005); no opened Acura page says in so many words that 2006 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "acura-rsx-2002-brochure",
+    "note": "Acura calls it a \"sports coupe\" (\"the next great sports coupe from Acura, the 2002 RSX\"). A three-door liftback coupe, classed as Coupe like the Integra Type R (DC2)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "acura-rsx-2003-specs",
+      "note": "'Engine Type: 16-valve, DOHC, 2.0-liter, i-VTEC 4-cylinder'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "acura-rsx-2003-specs",
+      "note": "1,998 cc ('Displacement: 122.1 cu. in. (1998 cc)'); same on the 2004 and 2006 sheets."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "acura-rsx-2003-specs",
+      "note": "Inferred: 'Induction System: Programmed Fuel Injection (PGM-FI)'; no turbocharger or supercharger is listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-rsx-2003-specs",
+    "note": "Type-S: 'Premium Unleaded'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "acura-rsx-2003-specs",
+    "note": "'Transverse-mounted, front engine, front-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "acura-rsx-2003-specs",
+    "note": "Type-S column: '6-speed manual' only (the base RSX offered a 5-speed manual or 5-speed automatic). The 2002 brochure (acura-rsx-2002-brochure) and the 2004 and 2006 sheets also list only the 6-speed manual for the Type-S."
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "acura-rsx-2003-specs",
+    "note": "2003 model. Quote: \"| Horsepower, SAE Net | 160 hp @ 6500 rpm | 200 hp @ 7400 rpm |\" (second column RSX, third column Type-S). The same 200 hp is in the 2002 brochure (\"Horsepower: 200 @ 7400 rpm\", acura-rsx-2002-brochure) and on the 2004 sheet (\"200 hp @ 7400 rpm\", acura-rsx-2004-specs), so it covered 2002 to 2004, three of the five model years. The 2005 update raised the rating; the 2006 sheet gives \"201hp @ 7800 rpm SAE Net (Rev 8/04)\" under the revised SAE procedure (acura-rsx-2006-specs). No Acura page for the 2005 model was opened, so its rating is not given here."
+  },
+  "weightLb": {
+    "value": 2778,
+    "sourceId": "acura-rsx-2003-specs",
+    "note": "Type-S, 6-speed manual (its only transmission), 2003 model. Quote: \"| Curb Weight | M/T 2721 lbs. (1234 kg) A/T 2789 lbs. (1256 kg) | 2778 lbs. (1260 kg) |\" (third column Type-S). The 2004 sheet repeats \"2778 lbs. (1260 kg)\" (acura-rsx-2004-specs); the 2006 sheet gives \"2840 lbs. (1288 kg)\" (acura-rsx-2006-specs). No Acura weight for the 2002 model was found, so the reference year is 2003, the first year with a manufacturer figure under the 200 hp rating."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2003,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-rsx-2003-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda Motor Co. (hondanews.com)",
+      "title": "2003 Acura RSX Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-213ecdccccb00457c01e65004c34c6a5-2003-acura-rsx-specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "acura-rsx-2004-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda Motor Co. (hondanews.com)",
+      "title": "2004 Acura RSX Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-34d72a086b54bdfac70ff4004c34c4e5-2004-acura-rsx-specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "acura-rsx-2006-specs",
+      "type": "manufacturer",
+      "publisher": "American Honda Motor Co. (hondanews.com)",
+      "title": "2006 Acura RSX/RSX Type-S Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-0daa64f6d63e67bca17317004c34c18f-2006-acura-rsx-rsx-type-s-specifications",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "acura-rsx-2002-brochure",
+      "type": "manufacturer",
+      "publisher": "Acura (brochure hosted by the Auto History Preservation Society)",
+      "title": "2002 Acura RSX brochure, pages 1-4",
+      "url": "https://autohistorypreservationsociety.org/wp-content/uploads/2002-ACURA-Brochure-RSX-Pg-1-4.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autochannel-2002-rsx-type-s",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "Review: 2002 Acura RSX Type S (Carey Russ)",
+      "url": "https://www.theautochannel.com/news/2002/03/10/036932.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2778,
+          "sourceId": "acura-rsx-2003-specs"
+        },
+        {
+          "value": 2767,
+          "sourceId": "autochannel-2002-rsx-type-s"
+        },
+        {
+          "value": 2840,
+          "sourceId": "acura-rsx-2006-specs"
+        }
+      ],
+      "reason": "Model year and source. Acura gives 2,778 lb for the 2003 and 2004 Type-S and 2,840 lb for the 2006 car (after the 2005 update). The Auto Channel's 2002 review panel gives \"Curb Weight | 2767 lbs.\" for a 2002 Type-S; it is a single publication, not a manufacturer figure.",
+      "resolution": "Used Acura's 2,778 lb because the reference model year is 2003."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

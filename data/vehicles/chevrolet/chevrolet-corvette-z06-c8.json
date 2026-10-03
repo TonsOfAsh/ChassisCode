@@ -156,7 +156,7 @@
     }
   ],
   "needsReview": true,
-  "reviewNotes": "Weight is a manufacturer DRY weight (3,500 lb base coupe) because Chevrolet publishes no curb weight for the Z06; per the data guide this requires review. A real curb weight will be higher (CorvetteBlogger derives about 3,721 lb for the coupe from EPA data; that discrepancy is left unresolved); a reviewer should look for a manufacturer curb figure or decide whether a publication figure is acceptable. The 2023 dry weight is cited from GM Authority's reprint of GM's spec table (chevrolet.com confirms the same figure for the 2027 model). Production start 2022 rests on Chevrolet's announced plan, not a start-of-production report.",
+  "reviewNotes": "Weight is a manufacturer DRY weight (3,500 lb base coupe) because Chevrolet publishes no curb weight for the Z06; per the data guide this requires review. A real curb weight will be higher (CorvetteBlogger derives about 3,721 lb for the coupe from EPA data; that discrepancy is left unresolved); a reviewer should look for a manufacturer curb figure or decide whether a publication figure is acceptable. The 2023 dry weight is cited from GM Authority's reprint of GM's spec table (chevrolet.com confirms the same figure for the 2027 model). Production start 2022 rests on Chevrolet's announced plan, not a start-of-production report. Owner, 3 October 2026: Car and Driver gives 3,666 lb for a 2023 Z06 coupe with the Z07 package (https://www.caranddriver.com/chevrolet/corvette-z06); usable only if it is in the specifications section rather than the test results, and then as an optioned-car weight.",
   "confidence": "medium",
   "image": null,
   "dailyEligible": true

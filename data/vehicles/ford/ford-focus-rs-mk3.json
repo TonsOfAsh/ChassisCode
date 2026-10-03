@@ -1,0 +1,138 @@
+{
+  "id": "ford-focus-rs-mk3",
+  "manufacturer": "Ford",
+  "model": "Focus",
+  "generation": "Mk3",
+  "variant": "RS",
+  "subVariant": null,
+  "displayName": "Ford Focus RS (Mk3)",
+  "aliases": [
+    "Focus RS",
+    "Mk3 Focus RS",
+    "RS Mk3",
+    "2.3 EcoBoost",
+    "Focus RS Limited Edition",
+    "Nitrous Blue"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2018
+    },
+    "sourceId": "ford-focus-2016-brochure",
+    "note": "US model years 2016-2018. First: Ford's 2016 Focus US brochure lists the '2016 Focus RS'. Last: the 2018 Focus RS Limited Edition marked 'the end of the latter car's run' (Motor Authority, Viknesh Vijayenthiran, 12 June 2017; motorauthority-focus-rs-limited-2018), and Car and Driver's specifications cover the 2018 car (caranddriver-2018-focus-rs-specs)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "ford-focus-2016-brochure",
+    "note": "Five-door hatchback, the only body."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "ford-focus-2016-brochure",
+      "note": "'2.3L EcoBoost I-4'"
+    },
+    "displacementL": {
+      "value": 2.3,
+      "sourceId": "ford-focus-2016-brochure",
+      "note": "'2.3L' (2,261 cc)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "ford-focus-2016-brochure",
+      "note": "'low-inertia, twin-scroll, single-turbocharged high-output'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-focus-2016-brochure"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "ford-focus-2016-brochure",
+    "note": "'Ford Performance All-Wheel Drive with Dynamic Torque Vectoring'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-focus-2016-brochure",
+    "note": "'6-speed manual', the only transmission."
+  },
+  "powerHp": {
+    "value": 350,
+    "sourceId": "ford-focus-2016-brochure",
+    "note": "Quote (Ford 2016 US brochure): '350 hp @ 6,000 rpm'. The rating did not change through 2018."
+  },
+  "weightLb": {
+    "value": 3434,
+    "sourceId": "caranddriver-2018-focus-rs-specs",
+    "note": "Car and Driver's specifications section for the 2018 Focus RS (the maker's figures, not a road-test measurement), read by the project owner on 3 October 2026 (the site blocks the research tools): curb weight 3,434 lb. Weight-order step 2. No Ford curb weight could be opened, and no qualifying 2016 or 2017 figure was found, so 2018 is the reference year. CarPro (Terry Box) gives 3,459 lb; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-focus-2016-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by auto-brochures.com)",
+      "title": "2016 Ford Focus ST / RS (US brochure)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Focus/Ford_US%20FocusST_2016.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "caranddriver-2018-focus-rs-specs",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "Ford Focus RS Review, Pricing, and Specs (specifications section, 2018)",
+      "url": "https://www.caranddriver.com/ford/focus-rs/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-focus-rs-limited-2018",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2018 Ford Focus RS Limited Edition priced at $41,995",
+      "url": "https://www.motorauthority.com/news/1110947_2018-ford-focus-rs-limited-edition-priced-at-41995",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carpro-focus-rs-2017",
+      "type": "publication",
+      "publisher": "CarPro",
+      "title": "2017 Ford Focus RS Test Drive (Terry Box)",
+      "url": "https://carpro.com/vehicle-reviews/2017-ford-focus-rs-test-drive",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3434,
+          "sourceId": "caranddriver-2018-focus-rs-specs"
+        },
+        {
+          "value": 3459,
+          "sourceId": "carpro-focus-rs-2017"
+        }
+      ],
+      "reason": "Car and Driver's 2018 specifications give 3,434 lb; CarPro's 2017 review gives 3,459 lb.",
+      "resolution": "Car and Driver's specification panel qualifies on its own (step 2); CarPro is a single outlet. 3,434 lb is used."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

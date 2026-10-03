@@ -1,0 +1,125 @@
+{
+  "id": "ford-mustang-svt-cobra-sn95-2003-2004",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "SN95",
+  "variant": "SVT Cobra",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Ford Mustang SVT Cobra (SN95, 2003–2004)",
+  "aliases": [
+    "Terminator",
+    "Terminator Cobra",
+    "SVT Cobra",
+    "Mustang Cobra",
+    "New Edge Cobra",
+    "03 Cobra",
+    "04 Cobra",
+    "2003 Cobra",
+    "2004 Cobra",
+    "2003 SVT Mustang Cobra",
+    "2004 SVT Mustang Cobra",
+    "Mystichrome",
+    "10th Anniversary Cobra",
+    "T-56"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2003,
+      "endYear": 2004
+    },
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "US model years. First: the history panel in Ford's 2004 brochure reads \"2003 SVT MUSTANG COBRA 390 horsepower supercharged 4.6-liter dohc V8 Traction control standard Production: 13,493 units (est.)\". Last: Torque News (Patrick Rall, 6 February 2012) says \"the 2004 model year would be the final year for the F150 Lightning, the SVT Mustang Cobra and the SVT Focus\" (torquenews-svt-20-years); Ford Muscle (Bradley Iger) says \"The 2003-2004 Cobra was the final SVT-developed Mustang\" (fordmuscle-2003-cobra). The SN95 SVT Cobra is split by year range because its rating changed too much for one figure across the generation; this record covers only the supercharged 2003-2004 cars."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "Ford: \"coupe or convertible body styles\"; curb weights are given for both."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-svt-cobra-2004-brochure",
+      "note": "'Longitudinally mounted, 90-degree V8, cast iron block with aluminum heads'"
+    },
+    "displacementL": {
+      "value": 4.6,
+      "sourceId": "ford-svt-cobra-2004-brochure",
+      "note": "4,601 cc ('4,601cc; 280 cu. in.'; bore x stroke '90.2mm x 90.0mm')"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "ford-svt-cobra-2004-brochure",
+      "note": "'Eaton™ Corporation Generation IV Roots-type supercharger with water-to-air intercooler'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "Inferred from Ford's description of a supercharged 4.6-liter DOHC V8; the brochure text read does not state a fuel grade."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "Inferred: the driveline section describes only a rear axle ('8.8-in. ring gear with 3.55:1 limited-slip differential, aluminum case') and the 'independent rear suspension (IRS)'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "'TTC T-56 6-speed manual', the only transmission. Ford Muscle also describes \"a Tremec T-56 six-speed manual gearbox\" (fordmuscle-2003-cobra)."
+  },
+  "powerHp": {
+    "value": 390,
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "2004 model. Horsepower row. Quote: \"390 @ 6,000 rpm\" (torque row \"390 @ 3,500 rpm\"). The same brochure's history panel gives the 2003 car the same rating: \"2003 SVT MUSTANG COBRA 390 horsepower supercharged 4.6-liter dohc V8\". The rating did not change between the two model years."
+  },
+  "weightLb": {
+    "value": 3665,
+    "sourceId": "ford-svt-cobra-2004-brochure",
+    "note": "Coupe with the 6-speed manual (the only transmission), 2004 model. Curb weight row, coupe. Quote: \"3,665 lb. (1,662 kg)\"; convertible \"3,780 lb. (1,715 kg)\". The reference year is 2004 rather than the 2003 launch year because Ford's 2003 SVT Mustang Cobra brochure (auto-brochures.com, Ford_US MustangCobra_2003.pdf) could not be read (HTTP 429 on every attempt), so no 2003 manufacturer weight was opened. The 390 hp rating applies to both years."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2004,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-svt-cobra-2004-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by Auto-Brochures.com)",
+      "title": "2004 Ford SVT Mustang Cobra brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20MustangCobra_2004.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "torquenews-svt-20-years",
+      "type": "publication",
+      "publisher": "Torque News",
+      "title": "Ford's SVT turns 20: a look at the last two decades of performance (Patrick Rall)",
+      "url": "https://www.torquenews.com/106/fords-svt-turns-20-look-last-two-decades-performance",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "fordmuscle-2003-cobra",
+      "type": "publication",
+      "publisher": "Ford Muscle",
+      "title": "Blue Oval Icons: 2003 SVT Mustang Cobra (Bradley Iger)",
+      "url": "https://www.fordmuscle.com/features/blue-oval-icons-2003-svt-mustang-cobra/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

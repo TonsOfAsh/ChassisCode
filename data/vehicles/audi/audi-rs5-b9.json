@@ -23,7 +23,7 @@
       "endYear": 2024
     },
     "sourceId": "dupont-2018-rs5-coupe",
-    "note": "US model years of the coupe. First: duPont Registry (Edward Jones, 12 March 2018) on the '2018 Audi RS 5 Coupe'; Audi of America's 2019 A5 family brochure lists the RS 5 Coupe (audi-us-2019-a5-brochure). Last: The Drive (Beverly Braga, 13 July 2024) reports from Audi's 2025 announcement that 'The 2025 A5 family includes the A5 Sportback, S5 Sportback, and RS5 Sportback', i.e. no coupe for 2025 (thedrive-audi-drops-coupes-2025); Cars.com lists a 2024 RS 5 '2.9 TFSI quattro' at two prices (carscom-2024-rs5), but does not name the bodies. See reviewNotes. The RS 5 Sportback (listed in the 2019 brochure) is not part of this record."
+    "note": "US model years of the coupe. First: duPont Registry (Edward Jones, 12 March 2018) on the '2018 Audi RS 5 Coupe'; Audi of America's 2019 A5 family brochure lists the RS 5 Coupe (audi-us-2019-a5-brochure). Last: The Drive (Beverly Braga, 13 July 2024) reports from Audi's 2025 announcement that 'The 2025 A5 family includes the A5 Sportback, S5 Sportback, and RS5 Sportback', i.e. no coupe for 2025 (thedrive-audi-drops-coupes-2025); Cars.com lists a 2024 RS 5 '2.9 TFSI quattro' at two prices (carscom-2024-rs5), but does not name the bodies. See reviewNotes. The RS 5 Sportback (listed in the 2019 brochure) is not part of this record. The owner confirmed on 3 October 2026 that 2024 was the last coupe year."
   },
   "body": {
     "value": [
@@ -127,7 +127,7 @@
   ],
   "discrepancies": [],
   "needsReview": true,
-  "reviewNotes": "The last US model year of the coupe (2024) is inferred: The Drive reports that Audi's 2025 lineup lists only Sportbacks, and Cars.com shows a 2024 RS 5 but does not name its bodies. No Audi of America page for the 2024 RS 5 Coupe was opened. Also confirm the model name 'RS5' (task brief) versus 'RS5 Coupe' in the style of 'RS6 Avant', and whether the RS 5 Sportback should be its own record.",
+  "reviewNotes": "Two decisions remain: confirm the model name 'RS5' (task brief) versus 'RS5 Coupe' in the style of 'RS6 Avant', and whether the RS 5 Sportback should be its own record. (The last coupe year, 2024, was confirmed by the owner on 3 October 2026.)",
   "confidence": "high",
   "image": null,
   "dailyEligible": true

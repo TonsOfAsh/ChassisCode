@@ -1,0 +1,48 @@
+{
+  "id": "bmw-x5-m-f85",
+  "manufacturer": "BMW",
+  "model": "X5 M",
+  "generation": "F85",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW X5 M (F85)",
+  "aliases": ["F85 X5 M", "X5 M F85", "X5M", "S63", "M Steptronic", "2015 X5 M"],
+  "country": "Germany",
+  "production": {
+    "value": { "startYear": 2015, "endYear": 2018 },
+    "sourceId": "bmw-us-2014-x5m-x6m-release",
+    "note": "US model years. First: BMW NA says both models will 'arrive in US showrooms in the Spring of 2015' as 2015 models. BMW NA published a 2017 X5 M technical data sheet (bmw-us-2017-x5m-techdata). Last: KBB lists a 2018 X5 M at 567 hp (kbb-x5m-2018-specs); the next X5 M was 'Fully redesigned for 2020' and 'Kicks off the third X5 M generation' (edmunds-x5m-2020). No opened BMW page says in so many words that 2018 was the last model year."
+  },
+  "body": { "value": ["SUV"], "sourceId": "bmw-us-2015-x5m-techdata", "note": "'No of Doors / Seats / 5 / 5'; BMW calls it a Sports Activity Vehicle. The X6 M is a separate model." },
+  "engine": {
+    "configuration": { "value": "V8", "sourceId": "bmw-us-2015-x5m-techdata", "note": "'V 90 ° VANOS, Valvetronic / 8 / 4' (S63)" },
+    "displacementL": { "value": 4.4, "sourceId": "bmw-us-2015-x5m-techdata", "note": "4,395 cc ('Displacement cm³ / inch ³ 4395 / 268')" },
+    "aspiration": { "value": "Twin Turbocharged", "sourceId": "bmw-us-2015-x5m-techdata", "note": "'Charging Type / Charging Technique M Twin PowerTurbo / Twin Scroll-Twin Turbo'" }
+  },
+  "fuel": { "value": "Gasoline", "sourceId": "bmw-us-2014-x5m-x6m-release", "note": "Gasoline V8, as described in the release." },
+  "drivetrain": { "value": "AWD", "sourceId": "bmw-us-2014-x5m-x6m-release", "note": "'xDrive intelligent all-wheel drive'" },
+  "transmission": { "value": ["8-speed Automatic"], "sourceId": "bmw-us-2014-x5m-x6m-release", "note": "'eight-speed M Steptronic transmission with Drivelogic' (torque-converter automatic, 'M 8HP75')" },
+  "powerHp": {
+    "value": 567,
+    "sourceId": "bmw-us-2015-x5m-techdata",
+    "note": "Quote: \"Engine power / at rpm hp @ rpm 567 / 6000-6500\". Release: \"567 hp between 6,000 and 6,500 rpm\". BMW NA's 2017 sheet (bmw-us-2017-x5m-techdata): \"Engine power hp@rpm 567@6000-6500\"."
+  },
+  "weightLb": {
+    "value": 5260,
+    "sourceId": "bmw-us-2015-x5m-techdata",
+    "note": "US curb weight, 2015 model, the only transmission. Quote: \"Curb weight (US) Kg / lbs 2386 / 5260\". BMW NA's 2017 sheet gives the same: \"US Curb weight lbs 5260\"."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2015, "powerStandard": "SAE net", "weightType": "curb", "yearType": "model" },
+  "sources": [
+    { "id": "bmw-us-2015-x5m-techdata", "type": "manufacturer", "publisher": "BMW of North America", "title": "BMW U.S. Media Information: Technical Data, 2015 BMW X5 M", "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0195517EN_US/391934", "accessed": "2026-10-03" },
+    { "id": "bmw-us-2014-x5m-x6m-release", "type": "manufacturer", "publisher": "BMW of North America", "title": "The new BMW X5 M and X6 M; the second generation of the BMW M GmbH Ultra High Performance Sports Activity Vehicle and Sports Activity Coupe", "url": "https://www.press.bmwgroup.com/usa/article/detail/T0195517EN_US", "accessed": "2026-10-03" },
+    { "id": "bmw-us-2017-x5m-techdata", "type": "manufacturer", "publisher": "BMW of North America", "title": "2017 BMW X5 M Sports Activity Vehicle Technical Data", "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0195517EN_US/391937", "accessed": "2026-10-03" },
+    { "id": "kbb-x5m-2018-specs", "type": "database", "publisher": "Kelley Blue Book", "title": "2018 BMW X5 M Specs, Features & Options", "url": "https://www.kbb.com/bmw/x5-m/2018/specs/", "accessed": "2026-10-03" },
+    { "id": "edmunds-x5m-2020", "type": "publication", "publisher": "Edmunds (Kurt Niebuhr)", "title": "2020 BMW X5 M Review", "url": "https://edmunds.com/bmw/x5-m/2020/review", "accessed": "2026-10-03" }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

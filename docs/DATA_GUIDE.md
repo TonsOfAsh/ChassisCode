@@ -15,8 +15,9 @@ One file per vehicle: `data/vehicles/<manufacturer-slug>/<id>.json`.
 ## What belongs in the database
 
 Include production, street-legal cars with real enthusiast interest: sports cars, sports sedans,
-hot hatches, muscle cars, supercars, hypercars, track-focused road cars and important historical
-enthusiast cars.
+hot hatches, muscle cars, supercars, hypercars, track-focused road cars, important historical
+enthusiast cars, and performance SUVs, pickups and EVs with a dedicated high-performance version
+(Raptor, TRX, Trackhawk, Urus, Model S Plaid; added 3 October 2026).
 
 Exclude race-only cars, concepts, prototypes, one-offs, commercial vehicles, and ordinary commuter
 or family cars.
@@ -98,6 +99,8 @@ as its own model, as with the AMG GT R Roadster). A Cabriolet or Convertible ver
 - `Roadster`: a two-seat open car that has no fixed-roof version of the same variant (S2000, MX-5,
   Elise, 918 Spyder).
 - `Convertible`: the open version of a car that also exists as a coupe or sedan (M3 Convertible).
+- `SUV`: sport-utility vehicles and crossovers. `Pickup`: pickup trucks; the standard car is the
+  cab and bed of the variant's launch configuration (say which in the note).
 - `Targa`: only when the manufacturer sells it under that name.
 - `Coupe`: two-door sports cars, including those with a rear liftback (RX-7, Supra).
 - `Hatchback`: hatchback versions of mainstream compact cars (Civic Type R, Golf GTI).
@@ -135,6 +138,10 @@ was stated. When the manufacturer's US arm published an hp figure, use it as pub
 is numerically the PS figure (918 Spyder: 887 hp). When a US-market car only has a metric rating,
 convert it, set `powerStandard` to `DIN PS` and explain in the note (Chiron: 1,500 PS = 1,479 hp).
 
+**Boost and overboost ratings.** When the maker advertises a higher rating with overboost,
+launch control or a boost mode (Taycan Turbo S, Ioniq 5 N's N Grin Boost), use that maximum rating
+and give the ordinary rating in the note.
+
 **Weight.** Curb weight in lb for the chosen market. kg is converted at 1 kg = 2.20462 lb and
 rounded. The weight describes the standard car: the coupe with the manual transmission where one is
 offered (otherwise the standard transmission) and standard equipment, with no weight-saving options
@@ -156,6 +163,9 @@ Take the figure from the first of these that exists:
 4. A dry weight: the manufacturer's, or a major magazine's panel figure labelled dry. Set
    `specBasis.weightType` to `dry`; the game shows "(dry)" beside the figure. Say in the note if
    the dry figure is itself for an optioned car.
+
+A manufacturer table headed or labelled as estimates ("est.", "WEIGHTS (Estimates)") does not
+count at step 1; hold the car until a final figure is found (ATS-V, Boss 302, Trackhawk).
 
 Steps 3 and 4 were adopted on 2 October 2026 so that exotic cars can enter the game. They do not
 need `needsReview` on their own account. Never skip a step: an optioned or dry figure is used only

@@ -1,0 +1,143 @@
+{
+  "id": "ford-mustang-shelby-gt500-s197-2013-2014",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S197",
+  "variant": "Shelby GT500",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Ford Mustang Shelby GT500 (S197, 2013–2014)",
+  "aliases": [
+    "GT500",
+    "Shelby GT500",
+    "S197 GT500",
+    "2013 GT500",
+    "2014 GT500",
+    "2013 Shelby GT500",
+    "2014 Shelby GT500",
+    "5.8 GT500",
+    "SVT Performance Package"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2014
+    },
+    "sourceId": "ford-gt500-2013-release",
+    "note": "US model years 2013-2014 for the 5.8-liter, 662-hp car. Start: Ford's release of 15 May 2012 on the '2013 Ford Shelby GT500'. Last: Ford's 2014 Mustang brochure lists the Shelby GT500 at 662 hp (ford-mustang-2014-brochure); the S550 Mustang that followed for 2015 had no GT500. No opened Ford page says in so many words that 2014 was the last model year. The 2007-2012 GT500 (5.4-liter) is a different car."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-mustang-2013-brochure",
+    "note": "Ford's 2013 Mustang brochure lists the Shelby GT500 in its Coupe, Convertible and Glass Roof columns. The standard car is the coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-gt500-2013-release",
+      "note": "'5.8-liter supercharged V8 engine'"
+    },
+    "displacementL": {
+      "value": 5.8,
+      "sourceId": "ford-gt500-2013-release",
+      "note": "Ford: '5.8-liter'. No opened Ford page gives a cc or cubic-inch figure, so the rounded litre figure is Ford's own."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "ford-gt500-2013-release",
+      "note": "'5.8-liter supercharged V8'; 'Twin Vortices Series 2300 blower'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-gt500-2013-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-2014-brochure",
+    "note": "Front engine, rear-wheel drive; the 2014 brochure lists a '3.31:1 gear ratio with limited-slip rear differential'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-mustang-2013-brochure",
+    "note": "'6-speed manual transmission', the only transmission (2014 brochure: '6-speed manual')."
+  },
+  "powerHp": {
+    "value": 662,
+    "sourceId": "ford-gt500-2013-release",
+    "note": "Ford release, 15 May 2012. Quote: \"The 2013 Ford Shelby GT500 is about to go where no Mustang has gone before, with a complete package for everyday drivers and track-day enthusiasts alike, 662 horsepower and top track speeds of more than 200 mph.\" Ford's 2014 brochure: '662 hp @ 6,500 rpm' (ford-mustang-2014-brochure). Ford's earlier 2013 brochure printed the pre-certification 650 hp; see discrepancies."
+  },
+  "weightLb": {
+    "value": 3852,
+    "sourceId": "ford-gt500-2013-release",
+    "note": "Ford release, 15 May 2012. Quote: \"The most powerful engine ever in a North American production car propels the 3,852-pound vehicle to a top track speed of more than 200 mph, yet is exempt from gas-guzzler tax at a projected 15 mpg city, 24 mpg highway\". Ford does not name the body there; John Heilig's review of the coupe (The Auto Channel, 25 Nov 2012) gives the same figure in its spec panel: 'Curb Weight: 3,852 lbs.' (theautochannel-heilig-gt500-2013), so the figure is taken as the standard coupe with the six-speed manual. Ford's release does not call 3,852 lb a curb weight or name the body; the coupe-with-manual reading rests on one review's spec panel, so confidence is medium."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-gt500-2013-release",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (archived copy of Ford's News Center hosted by San Diego State University)",
+      "title": "2013 Ford Shelby GT500 Debuts as Fastest, Most Powerful Mustang Ever with 662 Horsepower, Track Speed of 200 MPH",
+      "url": "https://ophelia.sdsu.edu:8443/ford/09-29-2013/news-center/press-releases-detail/pr-2013-ford-shelby-gt500-debuts-as-35567.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-mustang-2013-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2013 Ford Mustang brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2013.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-mustang-2014-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2014 Ford Mustang brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2014.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "theautochannel-heilig-gt500-2013",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2013 Shelby GT 500 Review By John Heilig",
+      "url": "https://www.theautochannel.com/news/2012/11/25/057897-2013-shelby-gt-500-review-by-john-heilig.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 662,
+          "sourceId": "ford-gt500-2013-release"
+        },
+        {
+          "value": 650,
+          "sourceId": "ford-mustang-2013-brochure"
+        }
+      ],
+      "reason": "Ford's 2013 Mustang brochure was printed with the pre-certification figure ('650 hp @ 6,500 rpm and 600 lb.-ft. of torque'); Ford's May 2012 release and its 2014 brochure give the certified 662 hp.",
+      "resolution": "662 hp, Ford's final SAE rating for the 2013 and 2014 cars."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

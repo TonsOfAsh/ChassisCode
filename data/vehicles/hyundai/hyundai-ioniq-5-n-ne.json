@@ -1,0 +1,118 @@
+{
+  "id": "hyundai-ioniq-5-n-ne",
+  "manufacturer": "Hyundai",
+  "model": "Ioniq 5",
+  "generation": "NE",
+  "variant": "N",
+  "subVariant": null,
+  "displayName": "Hyundai Ioniq 5 N (NE)",
+  "aliases": [
+    "Ioniq 5 N",
+    "N Grin Boost",
+    "N e-shift",
+    "Hyundai N EV"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "motorauthority-ioniq-5-n-price",
+    "note": "First US model year: \"The Hyundai Ioniq 5 N finally reaches dealerships in the U.S. this month. It arrives as a 2025 model\" (March 13, 2024). Still on sale: Hyundai USA's spec page (hyundai-usa-ioniq-5-n-specs, accessed 2026-10-03) lists the 2026 IONIQ 5 N."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "hyundai-usa-ioniq-5-n-specs",
+    "note": "Hyundai USA categorises the IONIQ 5 N as an SUV (crossover)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "hyundai-usa-ioniq-5-n-specs",
+      "note": "\"Permanent Magnet Synchronous Motor\"; Motor Authority (motorauthority-ioniq-5-n-price) describes a \"standard dual-motor all-wheel-drive system\"."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "hyundai-usa-ioniq-5-n-specs"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "hyundai-usa-ioniq-5-n-specs"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "hyundai-usa-ioniq-5-n-specs"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "hyundai-usa-ioniq-5-n-specs",
+    "note": "\"HTRAC All Wheel Drive (AWD)\"."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "hyundai-usa-ioniq-5-n-specs",
+    "note": "\"Single-speed reduction gear Column-mounted Shift-by-Wire (SBW)\". N e-shift is a simulated eight-speed shift feel, not a gearbox."
+  },
+  "powerHp": {
+    "value": 641,
+    "sourceId": "hyundai-usa-ioniq-5-n-specs",
+    "note": "Maximum rating with N Grin Boost. Quote: \"Maximum Power / (with N Grin Boost) 448 kW (601 hp) / (478 kW (641 hp))\". Without N Grin Boost it is 601 hp (448 kW). The same 601/641 hp ratings applied at the 2025 launch: Autoblog (autoblog-ioniq-5-n-us-spec): \"The Ioniq 5 N will produce 641 horsepower when you use the 'N Grin Boost' mode and 601 horsepower without it.\""
+  },
+  "weightLb": {
+    "value": 4861,
+    "sourceId": "hyundai-2025-ioniq5n-specs",
+    "note": "US manufacturer curb weight, 2025 model year (launch year; single configuration). Quote (Hyundai Motor America, '2025 IONIQ 5 N Specifications'): \"Curb Weight (lbs.) 4,861\". The 2026 model page gives the same: \"Curb weight (lbs.) 4861\" (hyundai-usa-ioniq-5-n-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hyundai-usa-ioniq-5-n-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America",
+      "title": "2026 IONIQ 5 N specifications",
+      "url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5-n/compare-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-ioniq-5-n-price",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2025 Hyundai Ioniq 5 N offers 641 hp for $67,475",
+      "url": "https://www.motorauthority.com/news/1142565_2025-hyundai-ioniq-5-n-price",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoblog-ioniq-5-n-us-spec",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "2025 Hyundai Ioniq 5 N boasts 3.25-second 0-60 time, U.S. colors announced",
+      "url": "https://www.autoblog.com/2023/11/15/2025-hyundai-ioniq-5-n-revealed-in-us-spec/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "hyundai-2025-ioniq5n-specs",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America",
+      "title": "2025 IONIQ 5 N Specifications",
+      "url": "https://www.hyundainews.com/assets/documents/original/59548-IONIQ5NSpecs040424.pdf",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}
