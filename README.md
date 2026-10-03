@@ -5,7 +5,7 @@ exact car, and gets another specification after each wrong guess.
 
 ## Status
 
-The database is at 104 cars. The game has a Daily puzzle and an Unlimited mode, a car search, a
+The database is at 125 cars. The game has a Daily puzzle and an Unlimited mode, a car search, a
 guess comparison, and statistics and streaks kept on the player's device.
 
 ## Daily and Unlimited
@@ -23,6 +23,10 @@ guess comparison, and statistics and streaks kept on the player's device.
   each daily was solved on; Unlimited played, win % and average clues per difficulty. They are kept
   in the browser's storage on this device only, until accounts exist. A loss or a missed day ends a
   streak.
+- **Share** (after the daily): copies a spoiler-free result, or opens the phone's share sheet:
+  the date, the clue it was solved on, and one square per turn (🟥 wrong guess, ⬛ skip, 🟩 solved,
+  ❌ not solved). It never names the car.
+- **How to play** opens by itself on a device's first visit, and from the "?" button after that.
 
 ## Guess comparison
 

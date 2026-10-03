@@ -12,14 +12,18 @@ import {
   saveDailyProgress,
   type Stats,
 } from '@/lib/stats';
+import { shareResult, shareText } from '@/lib/share';
 import { CarSearch } from './CarSearch';
 import { Plate } from './Plate';
+import { HelpDialog } from './HelpDialog';
 import { StatsDialog } from './StatsDialog';
 
 /** How many recently played cars to keep out of the next random pick. */
 const RECENT_LIMIT = 10;
 /** Where the chosen Unlimited difficulty is remembered between visits. */
 const MODE_KEY = 'chassiscode.mode';
+/** Set once the how-to-play panel has been seen on this device. */
+const HELP_SEEN_KEY = 'chassiscode.helpSeen';
 
 type Kind = 'daily' | 'unlimited';
 
@@ -73,11 +77,13 @@ export function Game({ cars }: { cars: CarOption[] }) {
   const [error, setError] = useState<string | null>(null);
   const [stats, setStats] = useState<Stats | null>(null);
   const [statsOpen, setStatsOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [shareState, setShareState] = useState<'idle' | 'copied' | 'shared' | 'failed'>('idle');
   const recent = useRef<string[]>([]);
   const started = useRef(false);
-  /** Read by the Enter handler, so Enter inside the stats dialog never starts a round. */
+  /** Read by the Enter handler, so Enter inside a dialog never starts a round. */
   const statsOpenRef = useRef(false);
-  statsOpenRef.current = statsOpen;
+  statsOpenRef.current = statsOpen || helpOpen;
 
   const game = kind === 'daily' ? daily : unlimited;
 
@@ -124,6 +130,11 @@ export function Game({ cars }: { cars: CarOption[] }) {
     }
     if (isMode(stored)) setMode(stored);
     setStats(loadStats());
+    try {
+      if (!window.localStorage.getItem(HELP_SEEN_KEY)) setHelpOpen(true);
+    } catch {
+      // Storage blocked: the panel is not shown automatically.
+    }
     void loadDaily();
   }, [loadDaily]);
 
@@ -237,9 +248,14 @@ export function Game({ cars }: { cars: CarOption[] }) {
         <p className="intro">
           Name the exact car.<span className="intro-more"> Each wrong guess stamps another spec on the plate.</span>
         </p>
-        <button type="button" className="stats-button" onClick={() => setStatsOpen(true)}>
-          Stats
-        </button>
+        <div className="masthead-buttons">
+          <button type="button" className="stats-button" onClick={() => setStatsOpen(true)}>
+            Stats
+          </button>
+          <button type="button" className="help-button" aria-label="How to play" title="How to play" onClick={() => setHelpOpen(true)}>
+            ?
+          </button>
+        </div>
       </header>
 
       <div className="layout">
@@ -359,6 +375,26 @@ export function Game({ cars }: { cars: CarOption[] }) {
               </dl>
               {kind === 'daily' ? (
                 <>
+                  {daily?.daily && (
+                    <div className="share-row">
+                      <button
+                        type="button"
+                        className="button share-button"
+                        onClick={async () => {
+                          const host = window.location.hostname;
+                          const url = host === 'localhost' || host === '127.0.0.1' ? undefined : window.location.origin;
+                          const outcome = await shareResult(shareText(daily, formatDailyDate(daily.daily!.date), url));
+                          setShareState(outcome);
+                          window.setTimeout(() => setShareState('idle'), 2500);
+                        }}
+                      >
+                        Share result
+                      </button>
+                      <span className="share-status" role="status">
+                        {shareState === 'copied' ? 'Copied to clipboard' : shareState === 'failed' ? 'Could not share' : ''}
+                      </span>
+                    </div>
+                  )}
                   {newDailyReady ? (
                     <button type="button" className="button" disabled={busy} onClick={() => void loadDaily()}>
                       Play today’s car
@@ -417,6 +453,19 @@ export function Game({ cars }: { cars: CarOption[] }) {
           )}
         </div>
       </div>
+
+      {helpOpen && (
+        <HelpDialog
+          onClose={() => {
+            setHelpOpen(false);
+            try {
+              window.localStorage.setItem(HELP_SEEN_KEY, '1');
+            } catch {
+              // Not remembered; it may show again next visit.
+            }
+          }}
+        />
+      )}
 
       {statsOpen && stats && summary && (
         <StatsDialog

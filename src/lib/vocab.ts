@@ -119,6 +119,14 @@ export const YEAR_TYPES = ['model', 'calendar'] as const;
 /** Curb weight is preferred. Dry weight is allowed only when no curb figure exists. */
 export const WEIGHT_TYPES = ['curb', 'dry'] as const;
 
+/**
+ * Set only when the weight is not a final figure for the standard car:
+ * - lightweight-options: weight of a car with weight-saving options (guide step 3)
+ * - popular-options: weight of a car with popular options, so heavier than standard
+ * - preliminary: from a manufacturer table published as preliminary
+ */
+export const WEIGHT_QUALIFIERS = ['lightweight-options', 'popular-options', 'preliminary'] as const;
+
 export const SOURCE_TYPES = [
   'manufacturer', // press kit, spec sheet, official site, owner's manual
   'publication', // Car and Driver, Road & Track, MotorTrend, Evo, etc.

@@ -1,0 +1,149 @@
+{
+  "id": "bmw-m5-f90",
+  "manufacturer": "BMW",
+  "model": "M5",
+  "generation": "F90",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M5 (F90)",
+  "aliases": [
+    "F90 M5",
+    "M5 F90",
+    "S63",
+    "M xDrive",
+    "M Steptronic",
+    "2018 M5"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2023
+    },
+    "sourceId": "bmw-us-2018-m5-release",
+    "note": "US model years. First: BMW NA's release of 21 August 2017 is titled 'The All-New 2018 BMW M5' ('Available at certified BMW Centers in spring 2018'). BMW NA's 'The New 2021 BMW M5 Sedan' (bmw-us-2021-m5-release) prices the M5 Sedan at $103,500 alongside the M5 Competition Sedan. Last: Cars.com's 2023 M5 specification page lists the 'Sedan' trim with a '600.0-hp, 4.4-liter, 8 Cylinder Engine' (carscom-2023-m5-specs), and its 2024 page states 'The BMW M5 was not produced in 2024' (carscom-2024-m5); Machines With Souls' F90 buyer's guide says the car was 'Available from 2018' and 'still available from BMW through October of 2023' (mws-f90-m5-guide). No BMW NA page for the 2023 M5 was opened."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2018-m5-techdata",
+    "note": "Doors/seats '4/5'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "bmw-us-2018-m5-techdata",
+      "note": "Cylinders 'V/8/4'; '4.4-liter V8 engine featuring M TwinPower Turbo technology' (bmw-us-2018-m5-release)"
+    },
+    "displacementL": {
+      "value": 4.4,
+      "sourceId": "bmw-us-2018-m5-techdata",
+      "note": "4,395 cc ('Displacement (cc) 4395')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2018-m5-release",
+      "note": "'newly developed twin-scroll turbochargers' (M TwinPower Turbo)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2018-m5-techdata",
+    "note": "Fuel 'RON95 – RON98 (rec.)'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "bmw-us-2018-m5-release",
+    "note": "'M xDrive' all-wheel drive with a selectable 2WD mode."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2018-m5-techdata",
+    "note": "'8-speed M Steptronic transmission with Drivelogic' (torque-converter automatic), the only transmission."
+  },
+  "powerHp": {
+    "value": 600,
+    "sourceId": "bmw-us-2018-m5-techdata",
+    "note": "Quote: \"Max output hp@rpm 600@5700 – 6600\". Release (bmw-us-2018-m5-release): \"600 hp and peak torque of 553 lb-ft\". BMW NA's 2021 (facelift) release keeps the M5 at \"600 hp @ 6,000 rpm\" (bmw-us-2021-m5-release). The M5 Competition (617 hp) and M5 CS are separate variants."
+  },
+  "weightLb": {
+    "value": 4370,
+    "sourceId": "bmw-us-2018-m5-techdata",
+    "note": "2018 M5 Sedan, the only configuration (8-speed automatic, M xDrive). Quote: \"US curb weight lb 4370\". BMW NA's 2021 release gives 4,345 lb (bmw-us-2021-m5-release)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2018-m5-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The all-new BMW M5: technical data (BMW U.S. press attachment)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0273727EN_US/399717",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2018-m5-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The All-New 2018 BMW M5: The Quintessential High-Performance Sedan",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0273727EN_US",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmw-us-2021-m5-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2021 BMW M5 Sedan",
+      "url": "https://press.bmwgroup.com/usa/article/detail/T0309541EN_US/the-new-2021-bmw-m5-sedan",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2023-m5-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2023 BMW M5 specs",
+      "url": "https://cars.com/research/bmw-m5-2023/specs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2024-m5",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2024 BMW M5 specs",
+      "url": "https://cars.com/research/bmw-m5-2024/specs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mws-f90-m5-guide",
+      "type": "publication",
+      "publisher": "Machines With Souls",
+      "title": "BMW F90 M5 Buyer's Guide",
+      "url": "https://machineswithsouls.com/2023/02/05/bmw-f90-m5-buyers-guide/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        { "value": 4370, "sourceId": "bmw-us-2018-m5-techdata" },
+        { "value": 4345, "sourceId": "bmw-us-2021-m5-release" }
+      ],
+      "reason": "Model year: BMW NA gives 4,370 lb for the 2018 M5 and 4,345 lb for the 2021 (facelift) M5.",
+      "resolution": "Used 4,370 lb because the reference model year is 2018."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

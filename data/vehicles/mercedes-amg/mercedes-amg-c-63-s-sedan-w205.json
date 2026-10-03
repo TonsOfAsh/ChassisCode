@@ -1,0 +1,143 @@
+{
+  "id": "mercedes-amg-c-63-s-sedan-w205",
+  "manufacturer": "Mercedes-AMG",
+  "model": "C 63",
+  "generation": "W205",
+  "variant": "S",
+  "subVariant": "Sedan",
+  "displayName": "Mercedes-AMG C 63 S Sedan (W205)",
+  "aliases": [
+    "C63 S",
+    "C63",
+    "C63 AMG",
+    "W205 C63",
+    "C63 S W205",
+    "M177",
+    "AMG SPEEDSHIFT MCT",
+    "C63 S Sedan"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2021
+    },
+    "sourceId": "mbusa-2015-c63-qrg",
+    "note": "US model years of the sedan. First: MBUSA's '2015 Mercedes-AMG C63 S/C63 Sedan Quick Reference Guide' ('March 2015 U.S. dealer launch'); MBUSA also published 2015, 2017 and 2019 sedan specification sheets (mbusa-2015-c-class-sedan-specs, mbusa-2017-c63-sedan-specs, mbusa-2019-c63-sedan-specs). Last: Cars.com lists an 'AMG C 63 S Sedan' trim for 2021 (carscom-2021-c63) but for 2022 shows only the 'AMG C 63 S Cabriolet' (carscom-2022-c63). The C 63 S Coupe (C205) is a separate record (mercedes-amg-c-63-s-coupe-c205); the Cabriolet (A205) is not in the game."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mbusa-2017-c63-sedan-specs",
+    "note": "'Four-door, five passenger sedan'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2017-c63-sedan-specs",
+      "note": "'Handcrafted AMG 4.0L V8 biturbo'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2017-c63-sedan-specs",
+      "note": "3,982 cc ('Displacement (cc) | 3,982'); the 2015 and 2019 sheets give the same figure."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2015-c63-qrg",
+      "note": "'4.0 liter V8 Biturbo' (two turbochargers)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2017-c63-sedan-specs",
+    "note": "Inferred from the sheet's description of the V8 biturbo petrol engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-2017-c63-sedan-specs",
+    "note": "'Drive Configuration | Rear-wheel drive'; the 2019 sheet: 'Rear-Wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automatic",
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-2015-c63-qrg",
+    "note": "2015-2018: 'AMG SPEEDSHIFT MCT 7-Speed Sport Transmission' (2017 sheet: 'AMG 7-Speed SPEEDSHIFT® MCT'). 2019-2021: 'AMG SPEEDSHIFT® MCT 9-Speed' (mbusa-2019-c63-sedan-specs). MCT is a planetary automatic with a wet start-up clutch in place of the torque converter."
+  },
+  "powerHp": {
+    "value": 503,
+    "sourceId": "mbusa-2015-c-class-sedan-specs",
+    "note": "Quote: \"Horsepower @rpm | ... | C63: 469 hp at 5500 rpm / C63 S: 503 hp at 5500 rpm\". Quick reference guide (mbusa-2015-c63-qrg): \"503 hp @ 5,500 – 6,250 rpm\". The 2017 and 2019 sheets give the same \"503 @ 5,500 – 6,250\" (mbusa-2017-c63-sedan-specs, mbusa-2019-c63-sedan-specs). The non-S C 63 (469 hp) is a separate variant."
+  },
+  "weightLb": {
+    "value": 3935,
+    "sourceId": "mbusa-2015-c-class-sedan-specs",
+    "note": "US curb weight, sedan with the only transmission (7-speed MCT), 2015 sheet. Quote: \"Curb weight (lbs.) | 3,417 lbs. | 3,594 lbs. | 4,012 lbs. | 3,693 lbs. | C63: 3,924 lbs./ C63 S: 3,935 lbs.\". The 2017 sheet gives the same: \"C63 S: 3,935\" (mbusa-2017-c63-sedan-specs). The 2019 (facelift) sheet reads \"TBA\". The 2015 sheet also lists a plug-in hybrid C-Class column, which suggests MBUSA updated the page after first publication; its C63 S figure matches the 2017 sheet."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2015-c-class-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2015 Mercedes-Benz C-Class Sedan Specifications",
+      "url": "https://media.mbusa.com/releases/release-22a8dcd7711643aa9b114717a4237dd3-2015-c-class-sedan-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2015-c63-qrg",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2015 Mercedes-AMG C63 S/C63 Sedan Quick Reference Guide",
+      "url": "https://media.mbusa.com/releases/release-4ea45c5c3b5e43aaa474942a5c400e49-2015-mercedes-amg-c63-s-c63-sedan-quick-reference-guide",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2017-c63-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2017 Mercedes-AMG C63 Sedan and C63 S Sedan Specifications",
+      "url": "https://www.media.mbusa.com/releases/2017-mercedes-amg-c63-sedan-and-c63-s-sedan-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2019-c63-sedan-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2019 Mercedes-AMG C 63 and C 63 S Sedan Specifications",
+      "url": "https://media.mbusa.com/releases/release-ff2180eee6724e568fbf52263b1e5160-2019-mercedes-amg-c-63-and-c-63-s-sedan-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2021-c63",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Mercedes-Benz AMG C 63 specs",
+      "url": "https://www.cars.com/research/mercedes_benz-amg_c_63-2021/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2022-c63",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Mercedes-Benz AMG C 63 specs",
+      "url": "https://www.cars.com/research/mercedes_benz-amg_c_63-2022/specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "The last sedan model year (2021) rests on Cars.com trim listings; no MBUSA page for the 2020 or 2021 C 63 S Sedan was opened. Body decision (3 October 2026, owner): the Sedan and the Coupe are separate cars in the game; the Cabriolet is not included.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

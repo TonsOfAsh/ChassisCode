@@ -74,6 +74,7 @@
     "referenceModelYear": 2019,
     "powerStandard": "SAE net",
     "weightType": "curb",
+    "weightQualifier": "lightweight-options",
     "yearType": "calendar"
   },
   "sources": [

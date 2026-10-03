@@ -1,0 +1,130 @@
+{
+  "id": "porsche-cayman-gts-981",
+  "manufacturer": "Porsche",
+  "model": "Cayman",
+  "generation": "981",
+  "variant": "GTS",
+  "subVariant": null,
+  "displayName": "Porsche Cayman GTS (981)",
+  "aliases": [
+    "981 Cayman GTS",
+    "Cayman GTS 981",
+    "981 GTS",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2016
+    },
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "US model years 2015 to 2016. First: the PCNA spec sheet is headed \"2015 Porsche Boxster GTS and Cayman GTS\". Last: kbb-2016-cayman lists a 2016 \"Cayman GTS: 340 hp\"; the successor generation is \"the 2017 718 Cayman\" (pcna-2017-718-cayman-us-press: \"With the 2017 718 Cayman, Porsche is introducing the third generation of the mid-engine sports coupe\"). stuttcars-cayman-gts-981 dates the car 2014-2016, the European launch year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "The open GTS is sold under its own name (Boxster GTS)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+      "note": "\"Water-cooled, mid-mounted, 6-cylinder boxer engine\""
+    },
+    "displacementL": {
+      "value": 3.4,
+      "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+      "note": "Porsche states \"3.4 liter\" and gives no cc figure; the 3,436 cc figure is from openers-cayman-gts (\"3,436 cc Horizontally Opposed 6-Cylinder Direct Injection DOHC\")."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+      "note": "Inferred: the spec sheet describes a water-cooled boxer six with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "Inferred from the spec sheet's description of the boxer six; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "\"Rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "\"Number of gears 6-speed Manual (7-speed PDK)\". DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 340,
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "Quote: \"Maxmimum power output @ engine speed 330 hp @ 6,700 rpm 340 hp @ 7,400 rpm\" (Boxster GTS | Cayman GTS; Porsche's spelling). Still 340 hp for 2016 per kbb-2016-cayman."
+  },
+  "weightLb": {
+    "value": 2965,
+    "sourceId": "pcna-2015-boxster-cayman-gts-specs",
+    "note": "Coupe with the 6-speed manual, minimum (standard-equipment) figure. Quote: \"Curb weight (PDK) (lbs) min / max 2965 / 3097 (3031 / 3164) 2965 / 3109 (3031 / 3175)\" (Boxster GTS | Cayman GTS). Cayman GTS: manual 2,965 lb minimum / 3,109 lb maximum; PDK 3,031 / 3,175 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2015-boxster-cayman-gts-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "2015 Porsche Boxster GTS and Cayman GTS Technical Specifications",
+      "url": "https://newsroom.porsche.com/dam/jcr:edba1e37-315e-4dc2-bf1c-84fac14ab621/2015_Boxster_GTS_and_Cayman_GTS_Technical_Specifications.pdf.PDF",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "openers-cayman-gts",
+      "type": "publication",
+      "publisher": "OPENERS",
+      "title": "The Fastest Boxster & Cayman Have Arrived | Porsche",
+      "url": "https://openers.jp/en/car/car_news/22579",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2016-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 Porsche Cayman",
+      "url": "https://www.kbb.com/porsche/cayman/2016/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2017-718-cayman-us-press",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Porsche 718 Cayman U.S. Press Information",
+      "url": "https://newsroom.porsche.com/dam/jcr:86a2a46d-fa29-42ef-8480-5d50a8d9974d/PCNA18_0111_us.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "stuttcars-cayman-gts-981",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche Cayman GTS (2014 - 2016)",
+      "url": "https://www.stuttcars.com/porsche-cayman-gts-2014-2016/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

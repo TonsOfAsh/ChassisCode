@@ -1,0 +1,131 @@
+{
+  "id": "mazda-mazdaspeed3-2nd-gen",
+  "manufacturer": "Mazda",
+  "model": "Mazdaspeed3",
+  "generation": "2nd gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mazda Mazdaspeed3 (2nd gen)",
+  "aliases": [
+    "MS3",
+    "Mazdaspeed 3",
+    "BL Mazdaspeed3",
+    "2010 Mazdaspeed3",
+    "Mazda3 MPS",
+    "MZR 2.3 DISI Turbo"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2013
+    },
+    "sourceId": "mazda-us-2010-mazdaspeed3-brochure",
+    "note": "US model years. First: Mazda's brochure for the '2010 mazdaspeed 3', 'Based on the all new, all that 2010 MAZDA3 5-Door' (the 2007-2009 car is the first generation). Last: Mazda's 2013 Mazda3 brochure still lists the MAZDASPEED3 at 263 hp (mazda-us-2013-mazda3-brochure); the following Mazda3 generation had no Mazdaspeed version, but no opened Mazda page says in so many words that 2013 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "mazda-us-2010-mazdaspeed3-brochure",
+    "note": "'Based on the all new, all that 2010 MAZDA3 5-Door'; sold only as a 5-door hatchback"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mazda-us-2010-mazdaspeed3-brochure",
+      "note": "'2.3-liter MZR all-aluminum 4-cylinder'"
+    },
+    "displacementL": {
+      "value": 2.3,
+      "sourceId": "mazda-us-2010-mazdaspeed3-brochure",
+      "note": "'2.3-liter MZR'. No opened page gives the cc figure; Carey Russ's spec panel gives '2.3 liters / 138 cu. in.' (theautochannel-russ-2010-mazdaspeed3)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "mazda-us-2013-mazda3-brochure",
+      "note": "'MZR 2.3-liter all-aluminum 4-cylinder turbocharged, intercooled & direct-injected engine'; Mazda's 2009 New York show material calls it the 'MZR 2.3L DISI Turbo' (autoguide-2010-mazdaspeed3-debut)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "theautochannel-russ-2010-mazdaspeed3",
+    "note": "'Fuel Requirement: 91 octane unleaded premium gasoline'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "theautochannel-russ-2010-mazdaspeed3",
+    "note": "'Drivetrain: Transverse front engine, front-wheel drive'. Mazda's brochure lists a 'Torque-sensing conical limited-slip differential'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "mazda-us-2010-mazdaspeed3-brochure",
+    "note": "'Close-ratio 6-speed manual gearbox'; no automatic was offered"
+  },
+  "powerHp": {
+    "value": 263,
+    "sourceId": "mazda-us-2010-mazdaspeed3-brochure",
+    "note": "2010 model year. Quote: \"263 hp @ 5500 rpm/280 lb-ft of torque @ 3000 rpm\". Mazda's 2009 New York show material: \"MZR 2.3L DISI Turbo producing 263 horsepower at 5,500 rpm\" (autoguide-2010-mazdaspeed3-debut). Unchanged through 2013: \"263 hp @ 5,500 rpm\" (mazda-us-2013-mazda3-brochure)."
+  },
+  "weightLb": {
+    "value": 3245,
+    "sourceId": "theautochannel-russ-2010-mazdaspeed3",
+    "note": "2010 Mazdaspeed3 Sport (the base trim), 6-speed manual. No Mazda curb weight was found: the 2010, 2011, 2012 and 2013 Mazda brochures opened give none for the Mazdaspeed3, and Car and Driver is blocked. Same figure from two editorial reviews with named authors: Carey Russ, quote: \"Curb Weight: 3245 lbs.\"; John Heilig (The Auto Page), quote: \"Curb weight: 3,245 lbs.\" (theautochannel-heilig-2010-mazdaspeed3). Both reviews are hosted on The Auto Channel."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mazda-us-2010-mazdaspeed3-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2010 MAZDASPEED3 brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/3/Mazda_US%203_2010-MazdaSpeed.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-us-2013-mazda3-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2013 Mazda3 brochure (US), MAZDASPEED3 key features section",
+      "url": "https://www.auto-brochures.com/makes/Mazda/3/Mazda_US%203_2013-1.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "autoguide-2010-mazdaspeed3-debut",
+      "type": "publication",
+      "publisher": "AutoGuide.com",
+      "title": "U.S.-Spec MazdaSpeed3 Makes Official U.S Debut (reproduces Mazda's 'At a Glance' material)",
+      "url": "https://www.autoguide.com/auto-news/2009/04/us-spec-mazdaspeed3-makes-official-us-debut.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "theautochannel-russ-2010-mazdaspeed3",
+      "type": "publication",
+      "publisher": "The Auto Channel (Carey Russ)",
+      "title": "2010 MAZDASPEED3 Sport 5-Door Review",
+      "url": "https://www2020.theautochannel.com/news/2010/06/03/481160.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "theautochannel-heilig-2010-mazdaspeed3",
+      "type": "publication",
+      "publisher": "The Auto Page / The Auto Channel (John Heilig)",
+      "title": "2010 Mazdaspeed3 Sport review",
+      "url": "https://www2020.theautochannel.com/news/2010/03/06/468218.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

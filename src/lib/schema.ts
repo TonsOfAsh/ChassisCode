@@ -11,6 +11,7 @@ import {
   POWER_STANDARDS,
   SOURCE_TYPES,
   TRANSMISSION_PATTERN,
+  WEIGHT_QUALIFIERS,
   WEIGHT_TYPES,
   YEAR_TYPES,
 } from './vocab';
@@ -123,6 +124,8 @@ export const VehicleSchema = z
         referenceModelYear: year,
         powerStandard: z.enum(POWER_STANDARDS),
         weightType: z.enum(WEIGHT_TYPES),
+        /** What kind of car or table the weight describes, when not the final standard-car figure. */
+        weightQualifier: z.enum(WEIGHT_QUALIFIERS).optional(),
         /** Whether `production` holds model years or calendar build years. */
         yearType: z.enum(YEAR_TYPES),
       })

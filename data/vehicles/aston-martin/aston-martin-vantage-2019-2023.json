@@ -85,6 +85,7 @@
     "referenceModelYear": 2019,
     "powerStandard": "DIN PS",
     "weightType": "dry",
+    "weightQualifier": "lightweight-options",
     "yearType": "model"
   },
   "sources": [

@@ -1,0 +1,106 @@
+{
+  "id": "bmw-m3-g80",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "G80",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M3 (G80)",
+  "aliases": [
+    "G80 M3",
+    "M3 G80",
+    "M3 Sedan",
+    "S58",
+    "2021 M3"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "US model years. First: BMW NA's release (23 September 2020) is titled 'The New 2021 BMW M3 Sedan and M4 Coupe', with availability set for 'March 2021'. Still on sale: on 2026-10-01 bmwusa.com's M3 Sedan page listed the non-Competition rear-wheel-drive M3 with 473 hp and the 'Manual M Transmission' (page marked MY25) (bmwusa-m3-sedan)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "'M3 Sedan'. The two-door car is the separate M4."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2021-m3-m4-release",
+      "note": "'Cylinders | 6' (inline-6 S58)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2021-m3-m4-release",
+      "note": "2,993 cc ('Displacement | 2,993' for the M3 Sedan column)"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2021-m3-m4-release",
+      "note": "'two, mono-scroll turbochargers with electronically controlled wastegates'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "Inferred from the release's description of the gasoline S58 inline-6."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "'Drive type | RWD' (M3 Sedan column); core models are 'delivered with rear-wheel drive and a 6-speed manual transmission'. M xDrive is offered only on the Competition models."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "'Transmission type | LS58 6-speed manual' (M3 Sedan column); the M8HP76 8-speed automatic is listed only for the Competition columns. bmwusa.com still lists the M3 Sedan with the 'Manual M Transmission' (bmwusa-m3-sedan)."
+  },
+  "powerHp": {
+    "value": 473,
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "Quote: \"Engine power (hp) | 473 @ 6,250 | 503 @ 6,250 | 473 @ 6,250 | 503 @ 6,250\" (columns M3 Sedan, M3 Competition, M4 Coupe, M4 Competition). Also: \"473 hp at 6,250 rpm and 406 lb-ft of torque\". bmwusa.com's current (MY25) M3 Sedan page still gives 473 hp (bmwusa-m3-sedan)."
+  },
+  "weightLb": {
+    "value": 3840,
+    "sourceId": "bmw-us-2021-m3-m4-release",
+    "note": "2021 M3 Sedan with the 6-speed manual, its only transmission. Quote: \"Curb weight (lbs.) | 3,840 | 3,890 | 3,830 | 3,880\" (columns M3 Sedan, M3 Competition, M4 Coupe, M4 Competition)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2021-m3-m4-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2021 BMW M3 Sedan and M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0317577EN_US/the-new-2021-bmw-m3-sedan-and-m4-coupe?language=en_US",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bmwusa-m3-sedan",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (bmwusa.com)",
+      "title": "BMW M3 Sedan",
+      "url": "https://www.bmwusa.com/vehicles/m-series/m3-series/bmw-m3-sedan.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

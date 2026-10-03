@@ -1,0 +1,140 @@
+{
+  "id": "porsche-911-turbo-997-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "997.2",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Porsche 911 Turbo (997.2)",
+  "aliases": [
+    "997.2 Turbo",
+    "997 Turbo",
+    "Turbo 997.2",
+    "911 Turbo Cabriolet",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2013
+    },
+    "sourceId": "automotiveaddicts-2010-911-turbo",
+    "note": "US model years 2010 to 2013. First: Automotive Addicts' \"New Porsche 2010 911 Turbo now has 500 horsepower\", which reproduces Porsche's press release, puts US sales in \"January 2010\"; kbb-2010-911 lists the 2010 Turbo with \"500-horsepower\" and direct fuel injection, and PCNA lists the first spec sheet as \"2010 911 Turbo and 911 Turbo S\" (pcna-technical-specifications-index). Last: kbb-2013-911 lists a 2013 Turbo (\"500 horsepower @ 6,000 rpm\") and says \"Only the Turbo models remain on the previous (997) architecture\"; PCNA's next Turbo sheet is the \"2014 911 Turbo and 911 Turbo S (991)\" (pcna-technical-specifications-index)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2011-911-turbo-specs",
+    "note": "Columns \"911 Turbo\" and \"911 Turbo Cabriolet\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2010-911-turbo-specs",
+      "note": "\"6-cylinder horizontally-opposed biturbo engine\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "pcna-2010-911-turbo-specs",
+      "note": "3,800 cc. Quote: \"Displacement 3800 cc\". Same on the 2011 sheet."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pcna-2010-911-turbo-specs",
+      "note": "\"2 turbochargers with variable turbine geometry (VTG), boost-pressure control and VarioCam Plus valve control\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-2010-911-turbo-specs",
+    "note": "Inferred from the spec sheet's engine description; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "pcna-2010-911-turbo-specs",
+    "note": "\"all-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "kbb-2010-911",
+    "note": "\"a standard six-speed manual transmission or Porsche's excellent PDK twin-clutch seven-speed transmission\". Porsche's sheets list \"Manual PDK\" with six forward ratios for the manual and seven for PDK. The reproduced press release (automotiveaddicts-2010-911-turbo): \"seven-speed PDK Doppelkupplungsgetriebe\". DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "pcna-2011-911-turbo-specs",
+    "note": "Quote: \"500 hp @ 6000 rpm\" (911 Turbo and 911 Turbo Cabriolet). The 2010 sheet (pcna-2010-911-turbo-specs) also gives \"500 hp\" for the 911 Turbo (\"500 hp @ 6000-6500 rpm\"), and kbb-2013-911 gives \"500 horsepower @ 6,000 rpm\" for 2013."
+  },
+  "weightLb": {
+    "value": 3461,
+    "sourceId": "pcna-2011-911-turbo-specs",
+    "note": "Coupe with the 6-speed manual. Quote: \"Curb Weight Manual PDK Manual PDK\" / \"3461 lbs 3516 lbs 3627 lbs 3682 lbs\" under the columns \"911 Turbo | 911 Turbo Cabriolet\". PDK coupe 3,516 lb. The 2010 sheet (pcna-2010-911-turbo-specs) prints the same four figures for the 911 Turbo, beside 3,494 / 3,660 lb for the PDK-only Turbo S coupe and cabriolet."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2010-911-turbo-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Specifications: 911 Turbo, 911 Turbo Cabriolet, 911 Turbo S (2010)",
+      "url": "https://newsroom.porsche.com/dam/jcr:e1caf673-3eb3-4641-a124-49757f7a57b7/2010_911_Turbo_Turbo_Cab_S_Specs.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2011-911-turbo-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Specifications: 911 Turbo, 911 Turbo Cabriolet (2011)",
+      "url": "https://newsroom.porsche.com/dam/jcr:bcfffcbc-c291-4b18-ab0a-a7f1ba5feec5/2011_911_Turbo_Specifications.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "automotiveaddicts-2010-911-turbo",
+      "type": "publication",
+      "publisher": "Porsche (press release reproduced by Automotive Addicts)",
+      "title": "New Porsche 2010 911 Turbo now has 500 horsepower",
+      "url": "https://www.automotiveaddicts.com/5992/new-porsche-2010-911-turbo-now-has-500-horsepower",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-technical-specifications-index",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Technical Specifications",
+      "url": "https://newsroom.porsche.com/en_US/media-resources/technical-specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2010-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2010 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/2010/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2013-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2013 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/2013/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

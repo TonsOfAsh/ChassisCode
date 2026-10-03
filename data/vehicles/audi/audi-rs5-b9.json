@@ -1,0 +1,134 @@
+{
+  "id": "audi-rs5-b9",
+  "manufacturer": "Audi",
+  "model": "RS5",
+  "generation": "B9",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi RS5 (B9)",
+  "aliases": [
+    "RS 5",
+    "RS 5 Coupe",
+    "B9 RS5",
+    "RS5 B9",
+    "F5",
+    "2.9 TFSI",
+    "Tiptronic",
+    "quattro"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2024
+    },
+    "sourceId": "dupont-2018-rs5-coupe",
+    "note": "US model years of the coupe. First: duPont Registry (Edward Jones, 12 March 2018) on the '2018 Audi RS 5 Coupe'; Audi of America's 2019 A5 family brochure lists the RS 5 Coupe (audi-us-2019-a5-brochure). Last: The Drive (Beverly Braga, 13 July 2024) reports from Audi's 2025 announcement that 'The 2025 A5 family includes the A5 Sportback, S5 Sportback, and RS5 Sportback', i.e. no coupe for 2025 (thedrive-audi-drops-coupes-2025); Cars.com lists a 2024 RS 5 '2.9 TFSI quattro' at two prices (carscom-2024-rs5), but does not name the bodies. See reviewNotes. The RS 5 Sportback (listed in the 2019 brochure) is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-us-2019-a5-brochure",
+    "note": "RS 5 Coupe column of the brochure; no RS 5 Cabriolet is listed ('——')."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "dupont-2018-rs5-coupe",
+      "note": "'new 2.9-liter V6 biturbo engine'"
+    },
+    "displacementL": {
+      "value": 2.9,
+      "sourceId": "audi-us-2019-a5-brochure",
+      "note": "2,894 cc (bore x stroke 84.5 x 86.0 mm)"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "dupont-2018-rs5-coupe",
+      "note": "'V6 biturbo' (two turbochargers)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2019-a5-brochure",
+    "note": "Inferred from the brochure's description of the 2.9 TFSI petrol engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2019-a5-brochure",
+    "note": "'quattro® all-wheel drive' with 'quattro® sport rear differential'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "audi-us-2019-a5-brochure",
+    "note": "'Eight-speed Tiptronic® automatic transmission and quattro® all-wheel drive' (torque-converter automatic), the only transmission."
+  },
+  "powerHp": {
+    "value": 444,
+    "sourceId": "audi-us-2019-a5-brochure",
+    "note": "Quote: \"Horsepower (@ rpm) | 248 @ 5,000–6,000 | 349 @ 5,400–6,400 | 444 @ 5,700–6,700\" (columns A5, S5, RS 5). duPont Registry on the 2018 launch car: \"delivers 444 horsepower\" (dupont-2018-rs5-coupe). Cars.com lists 444 hp for the 2018 and 2024 RS 5 (carscom-2018-rs5, carscom-2024-rs5)."
+  },
+  "weightLb": {
+    "value": 3968,
+    "sourceId": "audi-us-2019-a5-brochure",
+    "note": "US curb weight, 2019 RS 5 Coupe with the only transmission. Quote: \"Curb weight (lb) Coupe/Cabriolet/Sportback | 3,605/3,990/3,726 | 3,847/4,211/3,935 | 3,968/——/4,057\" (columns A5, S5, RS 5). The 2019 RS 5 Sportback is 4,057 lb. Reference year is 2019, the first year with a manufacturer weight found: Audi of America's 2018 A5 brochure covers only the A5 and S5, and the only 2018 figure found (3,968 lb, Cars.com, carscom-2018-rs5) is a database."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2019-a5-brochure",
+      "type": "manufacturer",
+      "publisher": "Audi of America (brochure hosted by Auto-Brochures.com)",
+      "title": "2019 Audi A5 brochure (US)",
+      "url": "http://www.auto-brochures.com/makes/Audi/A5/Audi_US%20A5_2019.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dupont-2018-rs5-coupe",
+      "type": "publication",
+      "publisher": "duPont Registry",
+      "title": "2018 Audi RS 5 Coupe",
+      "url": "https://news.dupontregistry.com/news/2018-audi-rs-5-coupe-03122018/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "thedrive-audi-drops-coupes-2025",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "Audi Drops Coupes and Convertibles for 2025",
+      "url": "https://www.thedrive.com/news/audi-drops-coupes-and-convertibles-for-2025",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2018-rs5",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2018 Audi RS 5 specs",
+      "url": "https://cars.com/research/audi-rs_5-2018/specs",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2024-rs5",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2024 Audi RS 5 specs",
+      "url": "https://www.cars.com/research/audi-rs_5-2024/specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "The last US model year of the coupe (2024) is inferred: The Drive reports that Audi's 2025 lineup lists only Sportbacks, and Cars.com shows a 2024 RS 5 but does not name its bodies. No Audi of America page for the 2024 RS 5 Coupe was opened. Also confirm the model name 'RS5' (task brief) versus 'RS5 Coupe' in the style of 'RS6 Avant', and whether the RS 5 Sportback should be its own record.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

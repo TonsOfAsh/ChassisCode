@@ -1,0 +1,124 @@
+{
+  "id": "porsche-718-cayman-s-982",
+  "manufacturer": "Porsche",
+  "model": "718 Cayman",
+  "generation": "982",
+  "variant": "S",
+  "subVariant": null,
+  "displayName": "Porsche 718 Cayman S (982)",
+  "aliases": [
+    "982 Cayman S",
+    "718 Cayman S",
+    "Cayman S 982",
+    "718 S",
+    "2.5 turbo",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2025
+    },
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "US model years 2017 to 2025. First: PCNA's U.S. press information: \"With the 2017 718 Cayman, Porsche is introducing the third generation of the mid-engine sports coupe.\" Last: kbb-2025-718-cayman lists a 2025 \"S\" trim with 350 hp and says \"production of the 718 Boxster and 718 Cayman is set to end October 2025\"; Kelley Blue Book shows no 2026 model year (kbb-2026-718-cayman). No opened Porsche page states that 2025 was the last US model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Porsche calls the car a \"mid-engine sports coupe\". The open car is sold under its own name (718 Boxster)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "pcna-2017-718-cayman-us-press",
+      "note": "\"Type Turbocharged flat four-cylinder engine\"; \"No. of cylinders 4\""
+    },
+    "displacementL": {
+      "value": 2.5,
+      "sourceId": "pcna-2017-718-cayman-us-press",
+      "note": "2,497 cc. Quote: \"Displacement 1,988 cm3 2,497 cm3\" (718 Cayman | 718 Cayman S)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "pcna-2017-718-cayman-us-press",
+      "note": "\"Turbocharged flat four-cylinder engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Inferred from the press information's description of a turbocharged flat-four with no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "\"Drive system Mid-engine, rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "\"Six-speed manual transmission with single-disc clutch and dual-mass flywheel; optional seven-speed Doppelkupplungsgetriebe (PDK)\". DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 350,
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Quote: \"Max. power output 300 hp 350 hp at engine speed 6,500 rpm\" (718 Cayman | 718 Cayman S). Still 350 hp for 2025 per kbb-2025-718-cayman (\"350 horsepower and 309 lb-ft of torque\")."
+  },
+  "weightLb": {
+    "value": 2988,
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Coupe with the 6-speed manual. Porsche labels it \"Unladen weight per DIN\" (DIN, without driver). Quote: \"Unladen weight per DIN 2,944/3,010 pounds 2,988/3,054 pounds\" (718 Cayman | 718 Cayman S; figures are Manual/PDK). PDK is 3,054 lb. Same figures on PCNA's 718 Cayman spec sheet pcna-718-cayman-us-specs: \"Unladen weight 2944 / 3010 lbs. 2988 / 3054 lbs.\" under \"Manual/PDK\", with power-to-weight \"8.5 / 8.7 lb./hp\" for the Cayman S."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2017-718-cayman-us-press",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Porsche 718 Cayman U.S. Press Information",
+      "url": "https://newsroom.porsche.com/dam/jcr:86a2a46d-fa29-42ef-8480-5d50a8d9974d/PCNA18_0111_us.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-718-cayman-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "718 Cayman and 718 Cayman S technical specifications",
+      "url": "https://newsroom.porsche.com/dam/jcr:2e05fcd8-e8ce-4b60-8611-9ce844a8242e/PCNA18_1003_us.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2025-718-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Porsche 718 Cayman",
+      "url": "https://www.kbb.com/porsche/718-cayman/2025/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2026-718-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Porsche 718 Cayman (2026 model year query)",
+      "url": "https://www.kbb.com/porsche/718-cayman/2026/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

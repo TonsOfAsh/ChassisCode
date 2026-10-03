@@ -1,0 +1,124 @@
+{
+  "id": "porsche-911-carrera-991-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.1",
+  "variant": "Carrera",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera (991.1)",
+  "aliases": [
+    "991 Carrera",
+    "991.1 Carrera",
+    "Carrera 991",
+    "911 Carrera Cabriolet",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2016
+    },
+    "sourceId": "pcna-2012-911-991-specs",
+    "note": "US model years 2012 to 2016. First: the spec sheet is headed \"2012 Porsche 911 Technical Specifications\" with the column \"911 Carrera (991)\". Last: kbb-2016-911 lists a 2016 Carrera with a \"6-Cyl, 3.4 Liter\" engine and \"350 horsepower @ 7,400 rpm\"; for 2017 the Carrera became the twin-turbo 991.2 (pcna-2017-911-carrera-specs: \"Boxer, twin-turbo\", \"3.0 l\", \"370 hp @ 6500\")."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2013-911-specs",
+    "note": "The 2013 sheet gives \"Curb weight w/ manual (Cabriolet)\" figures, so the Cabriolet is the open version of the same variant. The 2012 sheet covers only the \"Two-plus-two sport coupe\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2012-911-991-specs",
+      "note": "\"Water-cooled, rear-mounted, horizontally opposed 6 cylinder\""
+    },
+    "displacementL": {
+      "value": 3.4,
+      "sourceId": "pcna-2013-911-specs",
+      "note": "3,436 cc. Quote: \"3,436 cm3\" (911 Carrera; Carrera S \"3,800 cm3\"). The 2012 sheet says \"3.4 liters\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-2012-911-991-specs",
+      "note": "Inferred: the sheet describes a water-cooled flat six with no turbocharger or supercharger; the twin-turbo engine arrived with the 2017 car."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-2012-911-991-specs",
+    "note": "Inferred from the spec sheet's engine description; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2012-911-991-specs",
+    "note": "\"Rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2012-911-991-specs",
+    "note": "\"7-speed manual\" and \"7-speed, double-clutch (PDK)\". DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 350,
+    "sourceId": "pcna-2012-911-991-specs",
+    "note": "Quote: \"Maximum Horsepower 350 hp @ 7400 rpm 400 hp @ 7400 rpm\" (911 Carrera (991) | 911 Carrera S (991)). Same on the 2013 sheet and still 350 hp for 2016 per kbb-2016-911."
+  },
+  "weightLb": {
+    "value": 3042,
+    "sourceId": "pcna-2012-911-991-specs",
+    "note": "Coupe with the 7-speed manual. Quote: \"Curb weight w/ manual 3,042 lbs. 3,075 lbs.\" (911 Carrera (991) | 911 Carrera S (991)). PDK coupe 3,086 lb. The 2013 sheet repeats it with the Cabriolet: \"Curb weight w/ manual (Cabriolet) 3,042 lbs. (3,197 lbs.)\"."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2012,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2012-911-991-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "2012 Porsche 911 Technical Specifications, 911 Carrera (991)",
+      "url": "https://newsroom.porsche.com/dam/jcr:6918184a-6bbe-44f3-bf4e-3f8a331dbd46/2012_911_991_Specs.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2013-911-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Technical Specifications 911 Carrera, 911 Carrera S (2013)",
+      "url": "https://newsroom.porsche.com/dam/jcr:e1638451-d7dc-4f0e-a00d-b169cf342b86/2013_911_Technical_Specifications.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2016-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/2016/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-2017-911-carrera-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "2017 911 Carrera and Carrera S Technical Specifications",
+      "url": "https://newsroom.porsche.com/dam/jcr:8a8a3990-34a8-4ae0-a11e-f4bb53abd5e0/2017_911_Carrera_and_Carrera_S_Technical_Specifications.pdf",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

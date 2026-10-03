@@ -1,0 +1,142 @@
+{
+  "id": "mercedes-amg-c-63-s-coupe-c205",
+  "manufacturer": "Mercedes-AMG",
+  "model": "C 63",
+  "generation": "C205",
+  "variant": "S",
+  "subVariant": "Coupe",
+  "displayName": "Mercedes-AMG C 63 S Coupe (C205)",
+  "aliases": [
+    "C63 S Coupe",
+    "C63 Coupe",
+    "C63 AMG Coupe",
+    "C205 C63",
+    "C63 S C205",
+    "M177",
+    "AMG SPEEDSHIFT MCT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2021
+    },
+    "sourceId": "mbusa-2017-c-class-coupe-qrg",
+    "note": "US model years of the coupe. First: MBUSA's '2017 C-Class Coupe Quick Reference Guide' lists the AMG C63 S Coupe. Last: Cars.com lists an 'AMG C 63 S Coupe' trim for 2021 (carscom-2021-c63) and for 2022 shows only the 'AMG C 63 S Cabriolet' (carscom-2022-c63). The C 63 S Sedan (W205) is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mbusa-2018-c63-coupe-specs",
+    "note": "'Two-door, four passenger coupe'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2018-c63-coupe-specs",
+      "note": "'Handcrafted AMG 4.0L V8 biturbo'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2018-c63-coupe-specs",
+      "note": "3,982 cc ('Displacement (cc) | 3,982')."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2018-c63-coupe-specs",
+      "note": "'4.0L V8 biturbo' (two turbochargers)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2018-c63-coupe-specs",
+    "note": "Inferred from the description of the V8 biturbo petrol engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-2018-c63-coupe-specs",
+    "note": "'Drive Configuration | Rear-Wheel Drive'."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automatic",
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-2018-c63-coupe-specs",
+    "note": "2017-2018: 'AMG SPEEDSHIFT MCT 7-speed transmission' (2018 sheet; the 2017 guide: 'AMG SPEEDSHIFT MCT 7-speed sport Transmission'). 2019-2021: the facelifted C63 got the 'AMG SPEEDSHIFT MCT 9G' (carscoops-2019-c63, Michael Gauthier: 'the engine is now connected to an AMG SPEEDSHIFT MCT 9G transmission', naming the 2019 C63 Coupe and Cabriolet; gtspirit-2019-c63, Earl Karanja: 'Saloon, Estate, Coupé and Cabriolet' ... 'AMG Speedshift MCT 9G transmission'). MCT is a planetary automatic with a wet start-up clutch in place of the torque converter."
+  },
+  "powerHp": {
+    "value": 503,
+    "sourceId": "mbusa-2018-c63-coupe-specs",
+    "note": "Quote: \"Horsepower | 469 @ 5,500-6,250 (C 63) | 503 @ 5,500-6,250 (C 63 S)\". The 2017 guide (mbusa-2017-c-class-coupe-qrg): \"C63 S: 503 hp @ 5,500\". The non-S C 63 (469 hp) is a separate variant."
+  },
+  "weightLb": {
+    "value": 4096,
+    "sourceId": "mbusa-2017-c-class-coupe-qrg",
+    "note": "US manufacturer curb weight, C63 S Coupe with the only transmission (7-speed MCT), 2017 model year (weight-order step 1). Quote (2017 guide): \"Curb weight ... C63: 4,074 / C63 S: 4,096\". The 2018 sheet gives the same: \"4,096\" (mbusa-2018-c63-coupe-specs). No MBUSA coupe sheet for 2019-2021 was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2017-c-class-coupe-qrg",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2017 C-Class Coupe Quick Reference Guide",
+      "url": "https://media.mbusa.com/releases/release-f2ff60b549064e8ab6a4a22677980b41-2017-c-class-coupe-quick-reference-guide",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mbusa-2018-c63-coupe-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2018 Mercedes-AMG C 63 Coupe and C 63 S Coupe Specifications",
+      "url": "https://www.media.mbusa.com/releases/specs-2018-mercedes-amg-c63-coupe-and-c63-s-coupe",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscoops-2019-c63",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "2019 Mercedes-AMG C63 facelift (Michael Gauthier)",
+      "url": "https://www.carscoops.com/?p=268694",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gtspirit-2019-c63",
+      "type": "publication",
+      "publisher": "GTspirit",
+      "title": "Official: 2019 Mercedes-AMG C63 Facelift (Earl Karanja)",
+      "url": "https://gtspirit.com/2018/03/27/official-2019-mercedes-amg-c63-facelift/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-2021-c63",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Mercedes-Benz AMG C 63 specs",
+      "url": "https://www.cars.com/research/mercedes_benz-amg_c_63-2021/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2022-c63",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Mercedes-Benz AMG C 63 specs",
+      "url": "https://www.cars.com/research/mercedes_benz-amg_c_63-2022/specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "The last coupe model year (2021) rests on Cars.com trim listings; no MBUSA page for a 2019-2021 C 63 S Coupe was opened, and the 9-speed for those years rests on two named-author outlets. Body decision (3 October 2026, owner): the Sedan and the Coupe are separate cars in the game.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

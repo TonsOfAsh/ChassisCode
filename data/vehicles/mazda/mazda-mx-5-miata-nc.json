@@ -1,0 +1,143 @@
+{
+  "id": "mazda-mx-5-miata-nc",
+  "manufacturer": "Mazda",
+  "model": "MX-5 Miata",
+  "generation": "NC",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mazda MX-5 Miata (NC)",
+  "aliases": [
+    "Miata",
+    "MX-5",
+    "NC Miata",
+    "NC1",
+    "NC2",
+    "NC3",
+    "PRHT",
+    "Power Retractable Hard Top",
+    "MZR 2.0"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2015
+    },
+    "sourceId": "mazda-us-2006-mx5-brochure",
+    "note": "US model years. First: Mazda's '2006 MX-5 MIATA' brochure introduces the 2.0-litre car. Last: Mazda's 2015 MX-5 Miata brochure still lists it (mazda-us-2015-mx5-brochure); the fourth-generation ND was sold as a 2016 model (see the existing ND record). No opened Mazda page states in so many words that 2015 was the last NC model year."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "mazda-us-2015-mx5-brochure",
+    "note": "Two-seat open car sold with a 'Black cloth convertible soft top' or a 'Power Retractable Hard Top' (PRHT). Both are the same variant and both are Roadster under the data guide, which has no separate body value for a retractable hardtop; the PRHT name is in the aliases."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mazda-us-2010-mx5-specs",
+      "note": "'MZR 2.0L DOHC 16-valve 4-cylinder engine with variable valve timing (VVT)'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mazda-us-2010-mx5-specs",
+      "note": "1,999 cc ('Displacement (cc) 1999')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "mazda-us-2010-mx5-specs",
+      "note": "No forced induction is mentioned; the words 'naturally aspirated' do not appear"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mazda-us-2010-mx5-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mazda-us-2015-mx5-brochure",
+    "note": "'Its front-midship-engine placement and rear-wheel-drive layout enhance balance and directional control.'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "mazda-us-2010-mx5-specs",
+    "note": "Manual: '5-speed with short-throw shifter' (Sport), '6-speed close-ratio with short-throw shifter' (Touring, Grand Touring); automatic: '6-speed Sport with Adaptive Shift Logic'. The 2006 brochure lists the same three (mazda-us-2006-mx5-brochure)."
+  },
+  "powerHp": {
+    "value": 167,
+    "sourceId": "mazda-us-2010-mx5-specs",
+    "note": "Manual transmission, 2010 model year. Quote: \"Horsepower - Manual transmission 167 hp @ 7000 rpm - Automatic transmission 158 hp @ 6700 rpm\". The 2009 brochure gives \"167 hp @ 7000 rpm\" (mazda-us-2009-mx5-brochure) and the 2015 brochure \"167 @ 7,000 rpm\" (mazda-us-2015-mx5-brochure). 167 hp applied to 2009-2015, seven of the ten model years. The 2006-2008 cars were rated 170 hp with the manual and 166 hp with the automatic: \"Horsepower, SAE Net 170 @ 6700 rpm\" (mazda-us-2006-mx5-brochure)."
+  },
+  "weightLb": {
+    "value": 2480,
+    "sourceId": "mazda-us-2010-mx5-specs",
+    "note": "Sport (base trim, soft top) with the 5-speed manual, 2010 model year. Quote: \"Curb weight (lbs) - MT 2480 2511 2511 - AT 2542\" (Sport, Touring, Grand Touring). No 2009 Mazda curb weight was found (the 2009 brochure has none), so 2010 is the reference year. The 2015 brochure gives the same 2,480 lb for the 5-speed car and 2,593 lb for a 6-speed PRHT (mazda-us-2015-mx5-brochure). The 2006 brochure gives \"5-speed manual (MX-5, Touring) 2474 lb\" for the 170 hp car (mazda-us-2006-mx5-brochure)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mazda-us-2010-mx5-specs",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2010 MX-5 Miata specifications sheet (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_Specs_2010.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-us-2006-mx5-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2006 MX-5 Miata brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_2006.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-us-2009-mx5-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2009 MX-5 Miata brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_2009.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-us-2015-mx5-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2015 MX-5 Miata brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_2015.pdf",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 167,
+          "sourceId": "mazda-us-2010-mx5-specs"
+        },
+        {
+          "value": 170,
+          "sourceId": "mazda-us-2006-mx5-brochure"
+        }
+      ],
+      "reason": "Model year. Mazda rated the manual car 170 hp for 2006-2008 and 167 hp from 2009 to 2015.",
+      "resolution": "Used 167 hp, the rating for seven of the ten model years; the reference model year is 2010, the first 167 hp year with a Mazda curb weight found."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,139 @@
+{
+  "id": "mercedes-amg-gt-c190",
+  "manufacturer": "Mercedes-AMG",
+  "model": "GT",
+  "generation": "C190",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-AMG GT (C190)",
+  "aliases": [
+    "AMG GT",
+    "AMG GT Coupe",
+    "C190 AMG GT",
+    "M178",
+    "AMG SPEEDSHIFT DCT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2021
+    },
+    "sourceId": "mbusa-2017-gt-specs",
+    "note": "US model years of the base AMG GT coupe. First: MBUSA's '2017 Mercedes-AMG GT and GT S Specifications' has an AMG GT column (456 hp). MBUSA's 2018 sheet and quick reference guide ('In dealers by summer, 2017') cover the 2018 car (mbusa-2018-gt-specs, mbusa-2018-gt-qrg). Hagerty reports the 2021 base model at 523 hp, 'up from 469 in the 2020 models' (hagerty-2021-amg-gt). Last: Cars.com lists an 'AMG GT Coupe' trim for 2021 (carscom-2021-amg-gt) and describes the generation as '2016-2021 AMG GT', with no 2022 or 2023 model year shown (carscom-2022-amg-gt). See reviewNotes. The AMG GT Roadster (from 2018), GT S, GT C, GT R and Black Series are not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mbusa-2018-gt-specs",
+    "note": "'Two-door, two passenger coupe'. The base AMG GT Roadster is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2018-gt-specs",
+      "note": "'Handcrafted AMG 4.0L V8 biturbo'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2018-gt-specs",
+      "note": "3,982 cc ('Displacement (cc) | 3,982'); marketed as 4.0L. The 2017 sheet gives the same."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2018-gt-specs",
+      "note": "'biturbo' (two turbochargers)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mbusa-2018-gt-specs",
+    "note": "Inferred from the sheet's description of the V8 biturbo petrol engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mbusa-2018-gt-specs",
+    "note": "'Drive Configuration | Rear Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mbusa-2018-gt-specs",
+    "note": "'Transmission Type | AMG 7-Speed DCT Dual-Clutch' (AMG SPEEDSHIFT DCT 7-speed transaxle per mbusa-2018-gt-qrg); the 2017 sheet gives the same."
+  },
+  "powerHp": {
+    "value": 469,
+    "sourceId": "mbusa-2018-gt-specs",
+    "note": "Reference model year 2018. Quote: \"Horsepower @ rpm | 469 @ 6,000\" (GT S column: 515 @ 6,000). Quick reference guide (mbusa-2018-gt-qrg): \"4.0L V8 biturbo engine with 469 hp / 465 lb-ft of torque (M178)\". US ratings over the run: 456 hp for 2017 (mbusa-2017-gt-specs: \"Horsepower @ rpm | 456 @ 6,000\"), 469 hp for 2018-2020, and 523 hp for 2021 (hagerty-2021-amg-gt: \"523 hp, up from 469 in the 2020 models\"). 469 hp covers three of the five model years."
+  },
+  "weightLb": {
+    "value": 3560,
+    "sourceId": "mbusa-2018-gt-specs",
+    "note": "US curb weight, coupe with the only transmission (7-speed DCT), 2018 model. Quote: \"Curb Weight (lbs) | 3,560\" (GT S: 3,627). The 2018 quick reference guide and the 2017 sheet give the same 3,560 lb (mbusa-2018-gt-qrg, mbusa-2017-gt-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2018-gt-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2018 Mercedes-AMG GT and GT S Coupe Specifications",
+      "url": "https://media.mbusa.com/news/2018-mercedes-amg-gt-and-gt-s-coupe-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2018-gt-qrg",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2018 Mercedes-AMG GT Coupe Quick Reference Guide",
+      "url": "https://media.mbusa.com/releases/release-d42cd888611cbf2ad68d16529602cbb7-2018-mercedes-amg-gt-coupe-quick-reference-guide",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mbusa-2017-gt-specs",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA",
+      "title": "2017 Mercedes-AMG GT and GT S Specifications",
+      "url": "https://media.mbusa.com/releases/2017-mercedes-amg-gt-and-gt-s-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "hagerty-2021-amg-gt",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "Mercedes adds power and stealth to 2021 AMG GT coupe and roadster",
+      "url": "https://www.hagerty.com/media/?p=89593",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2021-amg-gt",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Mercedes-Benz AMG GT specs",
+      "url": "https://www.cars.com/research/mercedes_benz-amg_gt-2021/specs/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "carscom-2022-amg-gt",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Mercedes-Benz AMG GT specs",
+      "url": "https://www.cars.com/research/mercedes_benz-amg_gt-2022/specs/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "(1) The last US model year (2021) rests on Cars.com listings (generation shown as 2016-2021, no 2022 or 2023 page content); no MBUSA page for a 2021 or later base AMG GT was opened. If a 2022 base coupe was sold, 469 hp would cover only three of six years and the reference-year rule would need revisiting. (2) The 2021 base car was rated 523 hp (Hagerty, a publication; no MBUSA sheet opened), a sizable increase over 469 hp; decide whether a year-split record for 2021 is wanted. It could not be sourced here: no 2021 weight was found.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

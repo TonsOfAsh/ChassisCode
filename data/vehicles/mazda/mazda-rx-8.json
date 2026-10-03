@@ -1,0 +1,149 @@
+{
+  "id": "mazda-rx-8",
+  "manufacturer": "Mazda",
+  "model": "RX-8",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mazda RX-8",
+  "aliases": [
+    "RX8",
+    "SE3P",
+    "RENESIS",
+    "13B-MSP",
+    "Mazda RX 8"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2004,
+      "endYear": 2011
+    },
+    "sourceId": "mazda-us-rx8-2004-brochure",
+    "note": "US model years 2004-2011. First: Mazda's 2004 US brochure. Last: Mazda's 2011 US brochure, titled '2011 Mazda RX-8' (mazda-us-rx8-2011-brochure)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mazda-us-rx8-2005-brochure",
+    "note": "Four-seat sports car with rear-hinged 'Freestyle' rear doors and no centre pillars; recorded as Coupe (no four-door sedan body), as when the car was held."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Rotary",
+      "sourceId": "mazda-us-rx8-2006-brochure",
+      "note": "'1.3-liter RENESIS 2-rotor rotary'"
+    },
+    "displacementL": {
+      "value": 1.3,
+      "sourceId": "mazda-us-rx8-2006-brochure",
+      "note": "'1.3-liter' (nominal rotary displacement)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "mazda-us-rx8-2006-brochure",
+      "note": "No turbocharger or supercharger is listed; the RENESIS is naturally aspirated."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mazda-us-rx8-2006-brochure",
+    "note": "'15.9 U.S. gallons/premium unleaded gasoline'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mazda-us-rx8-2006-brochure",
+    "note": "'Front mid-engine/rear-wheel drive with Power Plant Frame'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic",
+      "6-speed Automatic"
+    ],
+    "sourceId": "mazda-us-rx8-2006-brochure",
+    "note": "2006 brochure: '6-speed manual' and '6-speed Sport AT automatic'. 2004 and 2005 brochures: 6-speed manual and '4-speed Sport AT' automatic (mazda-us-rx8-2004-brochure, mazda-us-rx8-2005-brochure)."
+  },
+  "powerHp": {
+    "value": 232,
+    "sourceId": "mazda-us-rx8-2007-spec-deck",
+    "note": "Manual car. Quote (2007 spec deck): 'Horsepower, SAE net 212 @ 7,500 232 @ 8,500' (automatic, manual); the 2006 brochure (mazda-us-rx8-2006-brochure) and 2011 brochure (mazda-us-rx8-2011-brochure) give the same 232 @ 8500 rpm. 232 hp covers 2006-2011, six of the eight model years. 2004-2005 manual: '238 @ 8500 rpm' (automatic 197 @ 7200) (mazda-us-rx8-2004-brochure)."
+  },
+  "weightLb": {
+    "value": 3045,
+    "sourceId": "mazda-us-rx8-2007-spec-deck",
+    "note": "Manual car, 2007 model year. Quote (Mazda's 2007 US specification deck): 'Curb Weight, Federal Spec (lbs.) 3075 3045' (automatic, manual). The 2008 and 2009 decks give 3,053 and 3,064 lb for the manual (mazda-us-rx8-2008-spec-deck, mazda-us-rx8-2009-spec-deck); no 2006 deck could be opened. Mazda's US brochures print the same figures under the label 'Curb weight with popular options (lb)': 2006 manual 3045 (mazda-us-rx8-2006-brochure), 2004-2005 manual 3029, 2011 manual 3065. Since Mazda labels the same number as a popular-options weight, the record keeps specBasis.weightQualifier 'popular-options': a car without those options is somewhat lighter. Accepted by the owner on 3 October 2026."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "weightQualifier": "popular-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mazda-us-rx8-2004-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (brochure reproduced by auto-brochures.com)",
+      "title": "2004 Mazda RX-8 (US brochure)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/RX-8/Mazda_US%20RX-8_2004.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-us-rx8-2005-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (brochure reproduced by auto-brochures.com)",
+      "title": "2005 Mazda RX-8 (US brochure)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/RX-8/Mazda_US%20RX-8_2005.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-us-rx8-2006-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (brochure reproduced by auto-brochures.com)",
+      "title": "2006 Mazda RX-8 (US brochure)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/RX-8/Mazda_US%20RX-8_2006.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-us-rx8-2011-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (brochure reproduced by auto-brochures.com)",
+      "title": "2011 Mazda RX-8 (US brochure)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/RX-8/Mazda_US%20RX-8_2011.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-us-rx8-2007-spec-deck",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2007 Mazda RX-8 Specification Deck (July 2006)",
+      "url": "https://news.mazdausa.com/download/2007-RX-8-Spec.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-us-rx8-2008-spec-deck",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2008 Mazda RX-8 Specification Deck (issued June 25, 2007)",
+      "url": "https://news.mazdausa.com/download/2008-RX-8-Spec.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-us-rx8-2009-spec-deck",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "2009 Mazda RX-8 Specification Deck (revised April 29, 2008)",
+      "url": "https://news.mazdausa.com/download/2009-RX-8-Spec.pdf",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

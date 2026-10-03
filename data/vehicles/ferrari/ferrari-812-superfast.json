@@ -75,6 +75,7 @@
     "referenceModelYear": 2018,
     "powerStandard": "DIN PS",
     "weightType": "curb",
+    "weightQualifier": "lightweight-options",
     "yearType": "model"
   },
   "sources": [

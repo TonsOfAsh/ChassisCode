@@ -1,0 +1,168 @@
+{
+  "id": "mazda-mx-5-miata-nb",
+  "manufacturer": "Mazda",
+  "model": "MX-5 Miata",
+  "generation": "NB",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mazda MX-5 Miata (NB)",
+  "aliases": [
+    "Miata",
+    "MX-5",
+    "NB Miata",
+    "NB1",
+    "NB2",
+    "BP",
+    "1999 Miata"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2005
+    },
+    "sourceId": "consumerguide-miata-1999-2005",
+    "note": "US model years 1999-2005 (Consumer Guide's used-car review of the 1999-05 Miata, Tom Appel). Mazda's US brochure 'MAZDA FOR 2005' still lists the car (mazda-us-2005-mx5-brochure); the next-generation NC was a 2006 model. This record is the 1.8 naturally aspirated car; the turbocharged Mazdaspeed MX-5 (2004-2005) is a separate variant."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "consumerguide-miata-1999-2005",
+    "note": "'2-door convertible'; a two-seat open car with no fixed-roof version, so Roadster under the data guide"
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mazda-us-2002-mx5-brochure",
+      "note": "'Engine size and type 1.8L 4-cylinder; iron block with light-alloy cylinder head'"
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "mazda-us-2002-mx5-brochure",
+      "note": "'1.8L'. No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "consumerguide-miata-1999-2005",
+      "note": "Consumer Guide describes the standard 'dual-overhead-cam, 1.8-liter 4-cylinder engine' and lists the 'turbocharged' engine only for the separate MazdaSpeed model"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mazda-us-2002-mx5-brochure"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "consumerguide-miata-1999-2005",
+    "note": "'longitudinal front-engine/rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "mazda-us-2002-mx5-brochure",
+    "note": "Curb weight row lists '5-speed /6-speed /automatic'. Consumer Guide: 'A five-speed manual transmission was standard, with 4-speed automatic optional. A 6-speed manual gearbox could go into the LS edition.' Mazda's 2003 brochure: '4-speed automatic overdrive transmission' (mazda-us-2003-mx5-brochure)."
+  },
+  "powerHp": {
+    "value": 142,
+    "sourceId": "mazda-us-2002-mx5-brochure",
+    "note": "2002 model year. Quote: \"Horsepower, SAE Net 142 @ 7000 rpm\". Same in the 2003 brochure (\"142 @ 7000 rpm\", mazda-us-2003-mx5-brochure) and the 2005 brochure (\"Horsepower, SAE Net\" \"142 @ 7000 rpm\", mazda-us-2005-mx5-brochure). 142 hp applied to the 2001-2005 cars, five of the seven model years; the 1999-2000 cars were rated 140 hp. Consumer Guide: \"Mazda's dual-overhead-cam, 1.8-liter 4-cylinder engine produced 140 horsepower until 2001, when it got a boost to 142–not 155, as early announcements stated.\" Mazda originally advertised the 2001 car at 155 hp and later corrected it (The Auto Channel, 2001: \"Mazda said it overstated the horsepower of the 2001 model...by about 8 percent\", theautochannel-2001-miata-hp), which is why 2002, not 2001, is the reference year."
+  },
+  "weightLb": {
+    "value": 2387,
+    "sourceId": "mazda-us-2002-mx5-brochure",
+    "note": "Base car with the standard 5-speed manual, 2002 model year. Quote: \"Curb weight (5-speed /6-speed /automatic) 2387/ 2447/ 2429 lb\". Later Mazda brochures give heavier 5-speed figures: 2003 \"2443/2454/2485 lb\" (mazda-us-2003-mx5-brochure), 2005 \"Curb weight (5-speed/6-speed/automatic)\" \"2447/2441/2474 lb\" (mazda-us-2005-mx5-brochure). No 2001 Mazda brochure or release was opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2002,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mazda-us-2002-mx5-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2002 Mazda Miata brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_2002.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-us-2003-mx5-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2003 Mazda MX-5 Miata brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_2003.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mazda-us-2005-mx5-brochure",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations (via auto-brochures.com)",
+      "title": "2005 Mazda MX-5 Miata brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Mazda/MX-5/Mazda_US%20MX-5_2005-1.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "consumerguide-miata-1999-2005",
+      "type": "publication",
+      "publisher": "Consumer Guide Automotive (Tom Appel)",
+      "title": "1999-05 Mazda Miata (used car review)",
+      "url": "https://consumerguide.com/used/1999-05-mazda-miata/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "theautochannel-2001-miata-hp",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "Mazda overstated 2001 Miata horsepower (news, 19 March 2001)",
+      "url": "https://www2020.theautochannel.com/news/2001/03/19/016973.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2387,
+          "sourceId": "mazda-us-2002-mx5-brochure"
+        },
+        {
+          "value": 2443,
+          "sourceId": "mazda-us-2003-mx5-brochure"
+        },
+        {
+          "value": 2447,
+          "sourceId": "mazda-us-2005-mx5-brochure"
+        }
+      ],
+      "reason": "Model year. All are Mazda US curb weights for the 5-speed manual car: 2,387 lb (2002), 2,443 lb (2003), 2,447 lb (2005).",
+      "resolution": "Used 2,387 lb because the reference model year is 2002, the earliest 142 hp year with a Mazda curb weight found."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 142,
+          "sourceId": "mazda-us-2002-mx5-brochure"
+        },
+        {
+          "value": 140,
+          "sourceId": "consumerguide-miata-1999-2005"
+        }
+      ],
+      "reason": "Model year. 140 hp for 1999-2000, 142 hp for 2001-2005 (the 2001 car was first announced at 155 hp, later corrected to 142).",
+      "resolution": "Used 142 hp, the rating for five of the seven model years."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

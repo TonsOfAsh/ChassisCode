@@ -1,0 +1,145 @@
+{
+  "id": "acura-tlx-type-s-2nd-gen",
+  "manufacturer": "Acura",
+  "model": "TLX",
+  "generation": "2nd gen",
+  "variant": "Type S",
+  "subVariant": null,
+  "displayName": "Acura TLX Type S (2nd gen)",
+  "aliases": [
+    "TLX Type S",
+    "Type S Turbo V6",
+    "TLX Type S PMC Edition",
+    "2021 TLX Type S"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2025
+    },
+    "sourceId": "acura-us-2021-tlx-type-s-on-sale",
+    "note": "US model years. First: Acura says the '2021 Acura TLX Type S' would 'Arrive at Dealerships Mid-June' (20 May 2021). Last: Acura announced on 23 July 2025 that it 'will conclude production of the TLX performance sedan this month' (acura-us-tlx-production-to-conclude); Motor1 reports '2025 will be the final model year for the longstanding luxury sedan' (motor1-tlx-discontinued). No opened Acura page names the final model year in so many words."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "acura-us-2021-tlx-specs",
+    "note": "Four-door sport sedan; the specifications list a '60/40 Split Fold-Down Rear Seatback'. No other body was offered."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "acura-us-2021-tlx-specs",
+      "note": "'Turbo Aluminum-alloy 6-Cylinder'; Acura's releases call it the '3.0-liter Type S Turbo V6'."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "acura-us-2021-tlx-specs",
+      "note": "'Displacement (liters) ... 3.0'. No opened Acura page prints the cc figure; Acura's 22 June 2021 release gives a 'Fully square 86 mm bore and stroke' (acura-us-2021-tlx-type-s-arrives)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "acura-us-2021-tlx-type-s-arrives",
+      "note": "'Single twin-scroll turbocharger' with 'maximum boost of 15.1 psi'. The spec sheet lists the turbo as 'Twin-Scroll'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-us-2021-tlx-type-s-on-sale",
+    "note": "Gasoline turbo V6 with EPA ratings of 19/25/21 mpg; no hybrid version."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "acura-us-2021-tlx-type-s-on-sale",
+    "note": "'Super Handling All-Wheel Drive (SH-AWD) with true torque vectoring' is standard; the spec sheet shows the Type S only in SH-AWD form."
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "acura-us-2021-tlx-specs",
+    "note": "'10-Speed Automatic Transmission'; the release calls it 'A specially-tuned 10-speed automatic transmission' that 'is standard'. No manual offered."
+  },
+  "powerHp": {
+    "value": 355,
+    "sourceId": "acura-us-2021-tlx-specs",
+    "note": "Quote: \"Horsepower @ rpm 272 @ 6500 << << << 355 @ 5500 <<\" (355 in the TLX Type S columns). The May 2021 release adds that horsepower is 'SAE Net. Peak power arrives at 5,500 rpm.' Unchanged later: 2023 spec sheet '355 @ 5,500' (acura-us-2023-tlx-specs) and 2024 spec sheet '355 @ 5,500' (acura-us-2024-tlx-specs)."
+  },
+  "weightLb": {
+    "value": 4221,
+    "sourceId": "acura-us-2021-tlx-specs",
+    "note": "TLX Type S, SH-AWD, 10-speed automatic (the only configuration), 2021 model. Quote: Curb Weight row, SH-AWD: \"3927 | 3982 | 3990 | 4028 | 4221 | 4200\", where 4,221 lb is the standard Type S and 4,200 lb the Type S with the optional Performance Wheel & Tire Package. Acura's 2023 sheet repeats '4,221' for the Type S and 4,200 for the Performance Wheel & Tire version (acura-us-2023-tlx-specs); the 2024 sheet gives the Type S as '4,221' (acura-us-2024-tlx-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-us-2021-tlx-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (American Honda Motor Co.) via AcuraNews.com",
+      "title": "2021 TLX Specifications & Features (2021 Acura TLX Type S Press Kit)",
+      "url": "https://acuranews.com/en-US/releases/release-53541be6030b25a47a2899aba1119170-2021-tlx-specifications-features-5202021",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-us-2021-tlx-type-s-on-sale",
+      "type": "manufacturer",
+      "publisher": "Acura (American Honda Motor Co.) via AcuraNews.com",
+      "title": "Highly Anticipated 2021 Acura TLX Type S To Arrive at Dealerships Mid-June",
+      "url": "https://acuranews.com/en-US/releases/release-53541be6030b25a47a2899aba111cc22-highly-anticipated-2021-acura-tlx-type-s-to-arrive-at-dealerships-mid-june",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-us-2021-tlx-type-s-arrives",
+      "type": "manufacturer",
+      "publisher": "Acura (American Honda Motor Co.) via AcuraNews.com",
+      "title": "2021 Acura TLX Type S Arrives at Dealerships Tomorrow; New Video Highlights Development of Type S Turbo V6",
+      "url": "https://acuranews.com/en-US/releases/release-53541be6030b25a47a2899aba1343426-2021-acura-tlx-type-s-arrives-at-dealerships-tomorrow-new-video-highlights-development-of-type-s-turbo-v6",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-us-2023-tlx-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (American Honda Motor Co.) via AcuraNews.com",
+      "title": "2023 Acura TLX & TLX Type S Specifications & Features",
+      "url": "https://acuranews.com/en-US/releases/release-907c81858bdfe231c1cc3d0f7016b0db-2023-acura-tlx-tlx-type-s-specifications-features",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-us-2024-tlx-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (American Honda Motor Co.) via AcuraNews.com",
+      "title": "2024 Acura TLX & TLX Type S Specifications & Features",
+      "url": "https://acuranews.com/en-US/releases/2024-acura-tlx-tlx-type-s-specifications-features",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "acura-us-tlx-production-to-conclude",
+      "type": "manufacturer",
+      "publisher": "Acura (American Honda Motor Co.) via AcuraNews.com",
+      "title": "Acura TLX Production to Conclude",
+      "url": "https://acuranews.com/en-US/releases/release-5f9c753ac34573a2867fe50f480f38e7-acura-tlx-production-to-conclude",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motor1-tlx-discontinued",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "Dead: Acura TLX",
+      "url": "https://www.motor1.com/news/766747/acura-tlx-discontinued/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

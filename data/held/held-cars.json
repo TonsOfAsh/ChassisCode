@@ -725,6 +725,164 @@
         "powerHp": 197,
         "powerQuote": "197 hp @ 6,000 rpm (Ford 2014 US brochure, https://www.auto-brochures.com/makes/Ford/Fiesta/Ford_US%20Fiesta_2014.pdf; same in 2017 and 2019)"
       }
+    },
+    {
+      "id": "lexus-rc-f",
+      "displayName": "Lexus RC F",
+      "heldSince": "2026-10-02",
+      "missing": "A curb weight for 2020 or later (472 hp covered six of eleven years, so the reference year is 2020+). Lexus spec PDFs return 403 and the 2020+ brochures print no weight.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2015-2025",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 5.0,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "8-speed Automatic"
+        ],
+        "powerHp": 472,
+        "powerQuote": "Now rated at 472 horsepower (+5) at 7,100 rpm (Lexus, https://pressroom.lexus.com/the-pinnacle-of-f-2020-lexus-rcf-and-rcf-track-edition/)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3902,
+          "source": "CarPro (Amy Plemons), 2020 car; one outlet"
+        },
+        {
+          "lb": 3958,
+          "source": "Lexus 2015 brochure, '3,958LB CURB WEIGHT' (467 hp car)"
+        }
+      ]
+    },
+    {
+      "id": "lexus-gs-f",
+      "displayName": "Lexus GS F",
+      "heldSince": "2026-10-02",
+      "missing": "Any US curb weight; Lexus US brochures print none and the spec PDFs return 403.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2016-2020",
+        "body": [
+          "Sedan"
+        ],
+        "engine": "V8",
+        "displacementL": 5.0,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "8-speed Automatic"
+        ],
+        "powerHp": 467,
+        "powerQuote": "delivers 467 horsepower and 389 lb.-ft. of torque (Lexus, https://pressroom.lexus.com/2016-lexus-gs-f-debut/)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 4035,
+          "source": "Lexus Canada 2020 sheet, 'Base Curb Weight kg (lbs.) 1830.00 (4034.5)'; Canadian market"
+        }
+      ]
+    },
+    {
+      "id": "chevrolet-ss",
+      "displayName": "Chevrolet SS",
+      "heldSince": "2026-10-02",
+      "missing": "Any qualifying curb weight; Chevrolet brochures give none and media.chevrolet.com refuses the research tools.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2014-2017 (end year not sourced)",
+        "body": [
+          "Sedan"
+        ],
+        "engine": "V8",
+        "displacementL": 6.2,
+        "cc": 6162,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Automatic",
+          "6-speed Manual (from 2015)"
+        ],
+        "powerHp": 415,
+        "powerQuote": "6.2L V8 SFI (LS3) with 415 hp @ 5900 rpm (Chevrolet 2014 brochure, https://www.auto-brochures.com/makes/Chevrolet/SS/Chevrolet_US%20SS_2014.pdf)"
+      }
+    },
+    {
+      "id": "cadillac-ats-v",
+      "displayName": "Cadillac ATS-V",
+      "heldSince": "2026-10-02",
+      "missing": "A final curb weight; GM's only figure is '3700 / 1678 (est.)'.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2016-2019",
+        "body": [
+          "Coupe",
+          "Sedan"
+        ],
+        "engine": "V6",
+        "displacementL": 3.6,
+        "cc": 3564,
+        "aspiration": "Twin Turbocharged",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Manual",
+          "8-speed Automatic"
+        ],
+        "powerHp": 464,
+        "powerQuote": "3.6L V6 Twin Turbo ... with 464 hp and 445 lb-ft of torque (Cadillac 2017 V-Series brochure, https://www.auto-brochures.com/makes/Cadillac/Cadillac_US%20V-Series_2017.pdf)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3700,
+          "source": "GM table via GM Authority, marked (est.)"
+        },
+        {
+          "lb": 3760,
+          "source": "Car and Driver measured test weight, manual coupe (via cadillacvnet)"
+        }
+      ],
+      "notes": "The sedan may have ended after 2018; not confirmed."
+    },
+    {
+      "id": "ford-mustang-boss-302-s197",
+      "displayName": "Ford Mustang Boss 302 (S197)",
+      "heldSince": "2026-10-02",
+      "missing": "A final curb weight; Ford's 2012 sheet gives '3,631 (est.)'.",
+      "confirmed": {
+        "market": "US",
+        "modelYears": "2012-2013",
+        "body": [
+          "Coupe"
+        ],
+        "engine": "V8",
+        "displacementL": 5.0,
+        "cc": 4951,
+        "aspiration": "Naturally Aspirated",
+        "fuel": "Gasoline",
+        "drivetrain": "RWD",
+        "transmission": [
+          "6-speed Manual"
+        ],
+        "powerHp": 444,
+        "powerQuote": "444 hp @ 7,400 rpm (Ford 2013 US brochure, https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2013.pdf)"
+      },
+      "weightCandidates": [
+        {
+          "lb": 3631,
+          "source": "Ford 2012 technical specifications, '(est.)'"
+        },
+        {
+          "lb": 3632,
+          "source": "forum reproduction of a later Ford sheet; forums not accepted"
+        }
+      ]
     }
   ]
 }

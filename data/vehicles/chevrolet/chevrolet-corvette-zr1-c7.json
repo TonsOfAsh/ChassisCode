@@ -1,0 +1,160 @@
+{
+  "id": "chevrolet-corvette-zr1-c7",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C7",
+  "variant": "ZR1",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette ZR1 (C7)",
+  "aliases": [
+    "C7 ZR1",
+    "ZR1 C7",
+    "Corvette ZR1",
+    "LT5",
+    "2019 Corvette ZR1",
+    "ZTK",
+    "King of the Hill"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2019
+    },
+    "sourceId": "gm-2019-zr1-return-king-release",
+    "note": "US model year 2019 only. GM: \"The 2019 Corvette ZR1 goes on sale next spring\". Corvette Action Center's 2019 year-end production data lists 2,441 ZR1 coupes and 512 ZR1 convertibles (source cac-2019-production). The 2020 model year Corvette was the mid-engine C8: GM, \"Chevrolet Introduces First-Ever Mid-Engine Corvette for 2020\" (source gm-2020-c8-release)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-2019-zr1-convertible-release",
+    "note": "GM: \"the 2019 Corvette ZR1 with the global introduction of the ZR1 convertible\", \"On sale next spring alongside the Corvette ZR1 coupe\". GM's 2019 order guide lists \"ZR1 Coupe\" (1YV07) and \"ZR1 Convertible\" (1YV67) (source gm-2019-corvette-order-guide)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2019-zr1-specs",
+      "note": "GM table: \"LT5 6.2L Supercharged V-8 with direct and port injection\"."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2019-corvette-order-guide",
+      "note": "376 cu in, about 6,162 cc (converted from cu in; no opened GM page prints the cc figure). GM order guide: \"LT5 Engine, 6.2L (376 ci) supercharged V8 DI and PFI\"."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "gm-2019-zr1-return-king-release",
+      "note": "GM: \"a new, more-efficient intercooled supercharger system\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2019-zr1-return-king-release",
+    "note": "Inferred from GM's description of the direct- and port-injected LT5 V-8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-techlink-2019-zr1",
+    "note": "Inferred: no opened page states 'rear-wheel drive' in so many words; GM TechLink describes only the TR6060 manual and 8L90 automatic driveline, with no AWD system."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "gm-techlink-2019-zr1",
+    "note": "GM TechLink: \"standard TR6060 7-speed manual transmission with Active Rev Matching (RPO MEK) or an available 8L90 8-speed automatic transmission with paddle shifters (RPO M5U)\". GM's release: \"It's the first time an automatic transmission has been offered in a ZR1\" (source gm-2019-zr1-return-king-release)."
+  },
+  "powerHp": {
+    "value": 755,
+    "sourceId": "gm-2019-zr1-return-king-release",
+    "note": "Quote: \"rated at an SAE-certified 755 horsepower (563 kW) and 715 lb-ft of torque (969 Nm)\". GM's specification table repeats \"Horsepower (hp @ rpm): 755 @ 6300 rpm (SAE certified)\" (source gm-2019-zr1-specs), and the convertible release gives \"755 horsepower (563 kW) and 715 lb-ft of torque\" (source gm-2019-zr1-convertible-release)."
+  },
+  "weightLb": {
+    "value": 3524,
+    "sourceId": "gm-2019-zr1-specs",
+    "note": "Manufacturer curb weight. Quote, GM's 2019 Corvette ZR1 specification table as reproduced by Corvette Action Center (12 November 2017): \"Curb Weight (lb. / kg): 3524 / 1598\". The table gives one figure, not split by body or transmission; it is taken to be the coupe (the standard body), since GM's convertible release says \"the curb weight difference between the ZR1 coupe and convertible is less than 60 pounds\" (source gm-2019-zr1-convertible-release). Corvette Action Center headed the table \"preliminary specifications for the 2019 Corvette ZR1 from Chevrolet\", but the weight row carries no 'est.' label (the 'GM-EST.' label applies to the fuel economy rows). GM Authority reported the same figure: \"At 3,524 pounds or 1,598 kilos, the ZR1's curb weight is listed as being the same as that of the Z06 coupe\" (source gmauthority-zr1-specs-2017). No later GM table was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "weightQualifier": "preliminary",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2019-zr1-return-king-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2019 Corvette ZR1: Return of the King",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-corvette-zr1-return-king.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2019-zr1-specs",
+      "type": "manufacturer",
+      "publisher": "General Motors (specification table reproduced by Corvette Action Center)",
+      "title": "2019 Corvette ZR1 Specifications from GM",
+      "url": "https://www.corvetteactioncenter.com/c7-corvette-news/2019-corvette-zr1-specifications-gm/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2019-zr1-convertible-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "2019 Corvette ZR1 Convertible Debut",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-corvette-zr1-convertible-debut.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2019-corvette-order-guide",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (order guide reproduced by Corvette Action Center)",
+      "title": "2019 Chevrolet Corvette Order Guide",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-corvette-order-guide.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-techlink-2019-zr1",
+      "type": "manufacturer",
+      "publisher": "General Motors TechLink",
+      "title": "The New King of the Hill: 2019 Corvette ZR1",
+      "url": "https://gm-techlink.com/?p=9926",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-zr1-specs-2017",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2019 Corvette ZR1 Specifications Released",
+      "url": "https://gmauthority.com/blog/2017/11/2019-corvette-zr1-specifications-released/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "cac-2019-production",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "2019 Corvette Final Year End Data",
+      "url": "https://www.corvetteactioncenter.com/specs/c7-corvette/2019-corvette/2019-Corvette-Final-Year-End-Data.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gm-2020-c8-release",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "Chevrolet Introduces First-Ever Mid-Engine Corvette for 2020",
+      "url": "https://www.corvetteactioncenter.com/specs/c8-corvette/2020-corvette/press-release-2020-corvette-mid-engine-introduction-first-ever.html",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true,
+  "reviewNotes": "The only GM curb weight (3,524 lb) is in a GM table that Corvette Action Center introduces as 'the preliminary specifications for the 2019 Corvette ZR1 from Chevrolet' (12 November 2017); the weight row itself carries no estimate label, GM Authority reports the same figure, and no later GM table was found. The ZR1 was sold for one model year only, so there is no later final figure to move to. Owner decision (3 October 2026): keep the car in the game with specBasis.weightQualifier 'preliminary'."
+}

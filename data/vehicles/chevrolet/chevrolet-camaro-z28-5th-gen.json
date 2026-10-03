@@ -1,0 +1,140 @@
+{
+  "id": "chevrolet-camaro-z28-5th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "5th gen",
+  "variant": "Z/28",
+  "subVariant": null,
+  "displayName": "Chevrolet Camaro Z/28 (5th gen)",
+  "aliases": [
+    "Camaro Z/28",
+    "Z28",
+    "5th gen Z/28",
+    "Gen 5 Z/28",
+    "2014 Camaro Z/28",
+    "2015 Camaro Z/28",
+    "LS7",
+    "TR6060"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2015
+    },
+    "sourceId": "chevrolet-camaro-brochure-2015",
+    "note": "US model years 2014-2015. Start: GM Authority's 2014 Camaro Z/28 page, reproducing GM's specifications, covers the 2014 model year, which \"began arriving in dealerships across the United States in the spring of 2014\" (source gmauthority-2014-camaro-z28). Chevrolet's 2015 brochure lists the Z/28. End: Chevrolet's 2016 brochure describes the all-new sixth-generation car and lists only the 1LT, 2LT, 1SS and 2SS; no Z/28 (source chevrolet-camaro-brochure-2016)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2015",
+    "note": "Coupe only. GM's 2014 table: \"Four-passenger, front-engine, rear-drive coupe\" (source gmauthority-2014-camaro-z28)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-camaro-brochure-2015",
+      "note": "\"7.0L LS7 V8, aluminum block and heads\""
+    },
+    "displacementL": {
+      "value": 7.0,
+      "sourceId": "gmauthority-2014-camaro-z28",
+      "note": "7,008 cc. GM's 2014 specification table as printed by GM Authority: \"Displacement (cu in / cc): 427 / 7008\". Chevrolet's 2015 brochure gives \"7.0L\" (source chevrolet-camaro-brochure-2015)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "chevrolet-camaro-brochure-2015",
+      "note": "Inferred: the brochure lists the ZL1's engine as \"supercharged\" and the Z/28's LS7 without forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-camaro-brochure-2015"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gmauthority-2014-camaro-z28",
+    "note": "GM table: \"Four-passenger, front-engine, rear-drive coupe\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2015",
+    "note": "Manual only. Brochure: \"TREMEC TR6060 6-speed manual transmission with close-ratio gearset\". GM's 2014 table: \"Transmission: Tremec TR6060 six-speed manual\" (source gmauthority-2014-camaro-z28)."
+  },
+  "powerHp": {
+    "value": 505,
+    "sourceId": "chevrolet-camaro-brochure-2015",
+    "note": "Quote (Chevrolet 2015 brochure, Z/28 column): \"7.0L LS7 V8, aluminum block and heads\" ... \"505 @ 6100 rpm\". GM's 2014 specification table as printed by GM Authority: \"Horsepower (hp / kW @ rpm): 505 / 376 @ 6100 (SAE certified)\" (source gmauthority-2014-camaro-z28), so the rating was the same for both model years."
+  },
+  "weightLb": {
+    "value": 3820,
+    "sourceId": "chevrolet-camaro-brochure-2015",
+    "note": "Manufacturer curb weight, 2015 model year (the Z/28 came only as a manual coupe). Quote (Chevrolet 2015 brochure, curb weight row, Z/28 column): \"3,820 lbs.\" GM's 2014 specification table as printed by GM Authority gives the same figure with a qualifier: \"Curb weight (lb / kg): 3820 / 1732 (without air conditioning)\" (source gmauthority-2014-camaro-z28); GM Authority says air conditioning was a $1,150 option in 2014, so the figure describes the standard car. The 2014 Chevrolet brochure could not be opened (auto-brochures.com returned HTTP 429 every time), so the reference year is 2015, the earliest year with an opened Chevrolet-hosted figure. SlashGear's October 2013 first-ride article prints \"3,836 pounds\" (source slashgear-z28-2013); see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-camaro-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by auto-brochures.com)",
+      "title": "2015 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2015.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2016",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (reproduced by auto-brochures.com)",
+      "title": "2016 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2016.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "gmauthority-2014-camaro-z28",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2014 Camaro Z/28",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2014-camaro/2014-camaro-z28/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "slashgear-z28-2013",
+      "type": "publication",
+      "publisher": "SlashGear",
+      "title": "2014 Chevrolet Camaro Z/28 Technical Details",
+      "url": "https://www.slashgear.com/2014-chevrolet-camaro-z28-technical-details-16301576",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3820,
+          "sourceId": "chevrolet-camaro-brochure-2015"
+        },
+        {
+          "value": 3836,
+          "sourceId": "slashgear-z28-2013"
+        }
+      ],
+      "reason": "Pre-production figure: SlashGear (Vincent Nguyen, 16 October 2013) wrote \"3,836 pounds\" from a pre-launch ride event, months before the car reached dealers; Chevrolet's 2015 brochure and GM's 2014 specification table both give 3,820 lb.",
+      "resolution": "Used Chevrolet's 3,820 lb, which GM's own tables give for both model years."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -162,6 +162,22 @@ need `needsReview` on their own account. Never skip a step: an optioned or dry f
 when no figure from an earlier step was found. When two sources at the same step disagree, record
 a discrepancy.
 
+**Weight labels.** When the weight is not a final figure for the standard car, set
+`specBasis.weightQualifier`:
+
+- `lightweight-options`: a car with weight-saving options (step 3, or a step 4 dry figure that is
+  itself for an optioned car).
+- `popular-options`: a car with popular options, so heavier than standard. Accepted on 3 October
+  2026 when the manufacturer prints nothing else (Mazda RX-8).
+- `preliminary`: from a manufacturer table published as preliminary, with no later figure
+  (Corvette ZR1 C7, sold for one model year). Keep `needsReview` set.
+
+Leave the field out for an ordinary standard-car figure. The game does not show it.
+
+**Body styles of one variant.** Normally every body of a variant goes in one record. The owner may
+split them into separate cars when the weights differ markedly; then each record names its body in
+`subVariant` (Mercedes-AMG C 63 S Sedan and C 63 S Coupe, 3 October 2026).
+
 European "DIN" and "EU" weights are different things (EU adds 75 kg for a driver); use DIN, and say
 so in the note.
 

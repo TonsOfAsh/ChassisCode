@@ -1,0 +1,122 @@
+{
+  "id": "porsche-boxster-s-981",
+  "manufacturer": "Porsche",
+  "model": "Boxster",
+  "generation": "981",
+  "variant": "S",
+  "subVariant": null,
+  "displayName": "Porsche Boxster S (981)",
+  "aliases": [
+    "981 Boxster S",
+    "Boxster S 981",
+    "981 S",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2016
+    },
+    "sourceId": "jalopnik-2013-boxster",
+    "note": "US model years 2013 to 2016. First: Jalopnik's \"The 2013 Porsche Boxster Is Longer, Wider, Lighter, Better\" (Matt Hardigree): \"The new Boxster goes on sale in the U.S. early this summer with a starting price of $49,500 for the base model and $60,900 for the Boxster S\"; PCNA lists the spec sheet pcna-2013-boxster-specs as \"2013 Boxster and Boxster S\" (pcna-technical-specifications-index). Last: kbb-2016-boxster lists a 2016 Boxster \"S\" with 315 hp and says \"stay tuned for the more sophisticated 2017 Boxster\", the turbocharged 718."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "pcna-2013-boxster-specs",
+    "note": "The Boxster is a two-seat open car with no fixed-roof version of the same model; the coupe is sold as the Cayman."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2013-boxster-specs",
+      "note": "\"Water-cooled, mid-mounted, 6-cylinder boxer engine\""
+    },
+    "displacementL": {
+      "value": 3.4,
+      "sourceId": "pcna-2013-boxster-specs",
+      "note": "3,436 cc. Quote: \"Displacement 2,706 cm3 3,436 cm3\" (Boxster | Boxster S)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-2013-boxster-specs",
+      "note": "Inferred: the spec sheet describes a water-cooled boxer six with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-2013-boxster-specs",
+    "note": "Inferred from the spec sheet's description of the boxer six; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2013-boxster-specs",
+    "note": "\"Rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2013-boxster-specs",
+    "note": "\"Manual transmission 6-speed\"; \"Automatic transmission 7-speed PDK\". DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 315,
+    "sourceId": "pcna-2013-boxster-specs",
+    "note": "Quote: \"Maximum Horsepower 265 hp at 6,700 rpm 315 hp at 6,700 rpm\" (Boxster | Boxster S). Still 315 hp for 2016 per kbb-2016-boxster."
+  },
+  "weightLb": {
+    "value": 2910,
+    "sourceId": "pcna-2013-boxster-specs",
+    "note": "Roadster with the 6-speed manual. Quote: \"Curb weight w/ manual 2,888 lbs. 2,910 lbs.\" (Boxster | Boxster S). PDK: \"Curb weight w/ PDK 2,954 lbs. 2,976 lbs.\""
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2013-boxster-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Technical Specifications: Boxster, Boxster S (2013)",
+      "url": "https://newsroom.porsche.com/dam/jcr:4d1913a9-97f9-4ade-8bc4-fc2cc32caeb9/2013_Boxster_Technical_Specifications.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "jalopnik-2013-boxster",
+      "type": "publication",
+      "publisher": "Jalopnik",
+      "title": "The 2013 Porsche Boxster Is Longer, Wider, Lighter, Better",
+      "url": "https://jalopnik.com/the-2013-porsche-boxster-is-longer-wider-lighter-bet-5875351",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "pcna-technical-specifications-index",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Technical Specifications",
+      "url": "https://newsroom.porsche.com/en_US/media-resources/technical-specifications.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-2016-boxster",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 Porsche Boxster",
+      "url": "https://www.kbb.com/porsche/boxster/2016/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

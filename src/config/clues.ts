@@ -197,12 +197,14 @@ export function drawClueOrder(mode: Mode, random: () => number = Math.random, pr
     tiered.splice(at, 0, ...first);
   } else if (soon.length > 0) {
     const id = soon[0]!;
-    const now = tiered.indexOf(id);
+    // A clue that must come after another (manufacturer after country) brings that one along, just before it.
+    const before = BEFORE_RULES.find(([, z]) => z === id)?.[0];
+    const group = before && tiered.includes(before) ? [before, id] : [id];
     // Easy: fourth or fifth. Otherwise anywhere in the first four. Left alone if already that early.
     const [lo, hi] = mode === 'easy' ? [easy.length, easy.length + 1] : [0, 3];
-    if (now > hi) {
-      tiered = tiered.filter((x) => x !== id);
-      tiered.splice(lo + Math.floor(random() * (hi - lo + 1)), 0, id);
+    if (group.some((x) => tiered.indexOf(x) > hi)) {
+      tiered = tiered.filter((x) => !group.includes(x));
+      tiered.splice(lo + Math.floor(random() * (hi - lo + 2 - group.length)), 0, ...group);
     }
   }
   // Enforce the ordering rules by swapping any pair that came out the wrong way round.

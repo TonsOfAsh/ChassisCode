@@ -1,0 +1,163 @@
+{
+  "id": "infiniti-q60-red-sport-400-2nd-gen",
+  "manufacturer": "Infiniti",
+  "model": "Q60",
+  "generation": "2nd gen",
+  "variant": "Red Sport 400",
+  "subVariant": null,
+  "displayName": "Infiniti Q60 Red Sport 400 (2nd gen)",
+  "aliases": [
+    "Q60 Red Sport",
+    "Q60 RS400",
+    "Red Sport 400",
+    "VR30DDTT",
+    "VR30",
+    "2017 Q60 Red Sport 400"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2022
+    },
+    "sourceId": "infiniti-us-discontinued-q60",
+    "note": "US model years. INFINITI USA: the Q60 'was sold in the U.S. from 2014–2022 (second generation from 2017–2022)' and 'The INFINITI Q60 was discontinued in 2022.' The 2017 Red Sport 400 was priced in INFINITI's 9 September 2016 release (infiniti-us-2017-q60-rs400-pricing); Motor1 quotes INFINITI: 'The Infiniti Q60 sport coupe will not be available in the Americas after the 2022 model year' (motor1-q60-ending)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "infiniti-us-2020-q60-press-kit",
+    "note": "Two-door sports coupe. The previous-generation Q60 Convertible was not continued in this generation."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "infiniti-us-2020-q60-press-kit",
+      "note": "'VR30DDTT DOHC 24-valve' V6"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "infiniti-us-2020-q60-press-kit",
+      "note": "2,997 cc ('3.0 liters / 2,997 cc')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "infiniti-us-2020-q60-press-kit",
+      "note": "'Twin turbochargers' with 'twin water-to-air charge coolers with two water pumps'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "infiniti-us-2020-q60-press-kit",
+    "note": "Gasoline twin-turbo V6; no hybrid version."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "infiniti-us-2017-q60-rs400-pricing",
+    "note": "Offered as Rear-Wheel Drive (RWD) or INFINITI Intelligent All-Wheel Drive (AWD) at a $2,000 higher MSRP ($51,300 RWD, $53,300 AWD for 2017). The record describes the RWD car."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automatic"
+    ],
+    "sourceId": "infiniti-us-2020-q60-press-kit",
+    "note": "'7-speed automatic w/Sport mode and Downshift Rev Matching'. No manual offered."
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "infiniti-us-2020-q60-press-kit",
+    "note": "Quote: \"400 hp @ 6,400 rpm\" (RED SPORT 400 column). The same rating applies for every year: 2017 release '400 horsepower and 350 lb-ft of torque from new VR-series 3.0-liter V6 twin-turbo engine' (infiniti-us-2017-q60-rs400-pricing) and 2022 press kit '400 hp @ 6,400 rpm' (infiniti-us-2022-q60-press-kit)."
+  },
+  "weightLb": {
+    "value": 3882,
+    "sourceId": "infiniti-us-2020-q60-press-kit",
+    "note": "RED SPORT 400 RWD, 7-speed automatic, 2020 model. Quote: \"Front 2,215 Rear 1,667 Total 3,882\" (CURB WEIGHTS (lbs), Q60 RED SPORT 400 RWD column; AWD is 4,047 lb). The 2021 press kit gives the same 3,882 lb (infiniti-us-2021-q60-press-kit); the 2022 press kit gives \"2,233 1,674 3,907\" for the RWD car (infiniti-us-2022-q60-press-kit). The 2018 and 2019 press kits print no curb weights. The 2017 press kit (infiniti-us-2017-q60-press-kit) prints only a metric 'Weights (kg)' table (3.0t 400 RWD 1,752 kg, AWD 1,825 kg) with power also in PS and kW and no market stated, so it was not treated as a US pound figure; the reference year is therefore 2020, the first year with a US curb weight in pounds."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "infiniti-us-2020-q60-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2020 INFINITI Q60 Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/2020-infiniti-q60-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "infiniti-us-2021-q60-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2021 INFINITI Q60 Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/2021-infiniti-q60-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "infiniti-us-2022-q60-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2022 INFINITI Q60 Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/2022-infiniti-q60-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "infiniti-us-2017-q60-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2017 INFINITI Q60 Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/us-2017-infiniti-q60-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "infiniti-us-2017-q60-rs400-pricing",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2017 INFINITI Q60 Red Sport 400 pricing announcement",
+      "url": "https://usa.infinitinews.com/releases/release-a19826b1a9af4861ac3ec8b3047e4401",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "infiniti-us-discontinued-q60",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA",
+      "title": "INFINITI Q60: Waving The Checkered Flag (discontinued vehicles)",
+      "url": "https://www.infinitiusa.com/vehicles/discontinued-vehicles/q60.html",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motor1-q60-ending",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "Infiniti Q60 Production Will End After 2022 [UPDATE]",
+      "url": "https://www.motor1.com/news/604147/infiniti-q60-production-ending-2022/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3882,
+          "sourceId": "infiniti-us-2020-q60-press-kit"
+        },
+        {
+          "value": 3907,
+          "sourceId": "infiniti-us-2022-q60-press-kit"
+        }
+      ],
+      "reason": "Model year. Both are INFINITI USA curb weights for the Red Sport 400 RWD: 3,882 lb in the 2020 and 2021 press kits, 3,907 lb in the 2022 press kit.",
+      "resolution": "Used 3,882 lb because the reference model year is 2020."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

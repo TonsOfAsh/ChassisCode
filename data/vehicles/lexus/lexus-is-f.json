@@ -1,0 +1,146 @@
+{
+  "id": "lexus-is-f",
+  "manufacturer": "Lexus",
+  "model": "IS",
+  "generation": null,
+  "variant": "F",
+  "subVariant": null,
+  "displayName": "Lexus IS F",
+  "aliases": [
+    "ISF",
+    "USE20",
+    "2UR-GSE",
+    "2008 IS F",
+    "2014 IS F"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2014
+    },
+    "sourceId": "lexus-us-2010-is-f-release",
+    "note": "US model years. First: Lexus says the IS F was 'First launched in 2008'; the launch release reproduced by ClubLexus introduces the '2008 Lexus IS F' arriving 'at Lexus dealerships in early 2008' (clublexus-2008-is-f-press-release). Last: Lexus's 2014 IS F product release (lexus-us-2014-is-f-release) and US brochure (lexus-us-2014-is-f-brochure) are the last; Motor Authority reported of the 2014 car that 'this is also the last IS F that will be built' (motorauthority-last-is-f) and that the final example 'destined for a lucky U.S. customer' was built in July 2014 (motorauthority-final-is-f-built)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "lexus-us-2014-is-f-release",
+    "note": "Lexus calls it the 'IS F High-Performance Sedan'. No other body was offered."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "lexus-us-2014-is-f-release",
+      "note": "'Specially built 416-hp, 5-liter V8'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "lexus-us-2014-is-f-brochure",
+      "note": "'5.0L V8 ENGINE'. No opened Lexus page prints the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lexus-us-2010-is-f-release",
+      "note": "Inferred: Lexus describes a 'performance-tuned 5.0-liter V8' and mentions no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lexus-us-2014-is-f-brochure",
+    "note": "Gasoline V8 with EPA ratings of '16 / 23 / 18' mpg; no hybrid version."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lexus-us-2014-is-f-brochure",
+    "note": "'RWD DRIVETRAIN'. A Torsen rear differential became standard for 2010 (lexus-us-2010-is-f-release)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "lexus-us-2010-is-f-release",
+    "note": "'an eight-speed Sport Direct Shift transmission', which Lexus describes as 'the world's first eight-speed Sport Direct-Shift automatic transmission' with a planetary (torque-converter) automatic's refinement. No manual offered."
+  },
+  "powerHp": {
+    "value": 416,
+    "sourceId": "lexus-us-2014-is-f-brochure",
+    "note": "Quote: \"416 HP\" (labelled 'HORSEPOWER', 2014 IS F brochure). Lexus's 2014 release: 'The engine produces a rousing 416 horsepower at 6,600 rpm' (lexus-us-2014-is-f-release); the 2010 release gives the same 'The IS F engine produces 416 horsepower at 6,600 rpm' (lexus-us-2010-is-f-release), and the 2008 launch release gives '416 horsepower from a specially engineered 5.0-liter V8 engine' (clublexus-2008-is-f-press-release). No rating change was found. The 2010 IS brochure also gives \"416 hp @ 6,600\" (lexus-us-is-brochure-2010)."
+  },
+  "weightLb": {
+    "value": 3780,
+    "sourceId": "lexus-us-is-brochure-2010",
+    "note": "Quote (Lexus 2010 US IS brochure, curb weight specifications, 'for mainland U.S.A. vehicles only'): \"IS F | 3,780 lb (1,715 kg)\". The 2012 IS brochure and the 2014 IS F brochure give the same figure (2014: \"3,780LB CURB WEIGHT\", lexus-us-2014-is-f-brochure). No Lexus US curb weight for 2008 or 2009 was found (the 2008 IS brochure covers only the IS 250 and IS 350), so the reference year is 2010, the earliest year with a qualifying figure. The IS F had one transmission, the 8-speed automatic."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lexus-us-is-brochure-2010",
+      "type": "manufacturer",
+      "publisher": "Lexus (US brochure hosted by auto-brochures.com)",
+      "title": "2010 Lexus IS brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/lexus/IS/Lexus_US%20IS_2010.pdf",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "lexus-us-2014-is-f-brochure",
+      "type": "manufacturer",
+      "publisher": "Lexus (US brochure, hosted by auto-brochures.com)",
+      "title": "2014 Lexus IS F brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/lexus/IS/Lexus_US%20ISF_2014.pdf",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lexus-us-2014-is-f-release",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "Lexus IS F High-Performance Sedan Delivers a Thrilling Driving Experience",
+      "url": "https://pressroom.lexus.com/2014-lexus-is-f-sedan-thrilling-driving-experience/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "lexus-us-2010-is-f-release",
+      "type": "manufacturer",
+      "publisher": "Lexus USA Newsroom",
+      "title": "Lexus IS F High-Performance Sedan Enhanced for 2010",
+      "url": "https://pressroom.lexus.com/lexus-is-f-high-performance-sedan-enhanced-for-2010/",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "clublexus-2008-is-f-press-release",
+      "type": "manufacturer",
+      "publisher": "Lexus (press release reproduced by ClubLexus)",
+      "title": "Official Lexus Press Release: 2008 IS-F",
+      "url": "https://clublexus.com/articles/official-lexus-press-release-2008-is-f",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-last-is-f",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "The New Lexus IS F Is The Old IS F, And The Last IS F, Ever",
+      "url": "https://www.motorauthority.com/news/1087166_the-new-lexus-is-f-is-the-old-is-f-and-the-last-is-f-ever",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "motorauthority-final-is-f-built",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "The Final Lexus IS F Has Rolled Off The Line",
+      "url": "https://www.motorauthority.com/news/1093641_the-final-lexus-is-f-has-rolled-off-the-line",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

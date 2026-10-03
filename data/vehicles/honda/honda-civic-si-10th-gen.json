@@ -1,0 +1,141 @@
+{
+  "id": "honda-civic-si-10th-gen",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "10th gen",
+  "variant": "Si",
+  "subVariant": null,
+  "displayName": "Honda Civic Si (10th gen)",
+  "aliases": [
+    "10th-gen Civic Si",
+    "FC Si",
+    "FC1",
+    "FC3",
+    "2017 Civic Si",
+    "Civic Si Coupe",
+    "Civic Si Sedan"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "sourceId": "honda-us-2017-si-on-sale",
+    "note": "US model years. First: American Honda's 12 May 2017 release: \"The all-new 2017 Honda Civic Si Coupe and Civic Si Sedan will go on sale at Honda dealerships beginning tomorrow\". Last: American Honda's 2020 release covers the 2020 Civic Si Sedan and Si Coupe (honda-us-2020-si-launch), and American Honda's Civic Si timeline goes from the 2020 model to the all-new 2022 Civic Si with no 2021 model listed (honda-us-si-timeline)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Sedan"
+    ],
+    "sourceId": "honda-us-2017-si-on-sale",
+    "note": "Sold as the Civic Si Coupe and the Civic Si Sedan, same powertrain and rating. The 10th-generation Civic hatchback was not offered as an Si."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-us-2017-civic-facts-guide",
+      "note": "'1.5-liter, turbocharged and intercooled DOHC 4-cylinder engine with direct injection'; American Honda's 2020 release: 'in-line 4-cylinder engine' (honda-us-2020-si-launch)"
+    },
+    "displacementL": {
+      "value": 1.5,
+      "sourceId": "honda-us-2017-civic-facts-guide",
+      "note": "1,496 cc ('1496 cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "honda-us-2017-civic-facts-guide",
+      "note": "'turbocharged and intercooled'; single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-us-2017-civic-facts-guide",
+    "note": "Direct-injected gasoline engine; no hybrid or other fuel is mentioned"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "tflcar-2017-si-review",
+    "note": "TFLcar: 'All Si models are front-wheel drive and are exclusively equipped with a short-throw 6-speed manual gearbox.' Honda's release lists 'a helical limited-slip differential' but does not use the words front-wheel drive."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-us-2017-si-on-sale",
+    "note": "'short-throw, 6-speed manual transmission'; no automatic or CVT was offered on the Si"
+  },
+  "powerHp": {
+    "value": 205,
+    "sourceId": "honda-us-2017-si-on-sale",
+    "note": "2017 model year, coupe and sedan. Quote: \"Peak output of 205 horsepower arrives 1,300 rpm lower in the rev range (5,700 vs. 7,000 rpm).\" American Honda's 2017 Civic Facts Guide: \"205 horsepower @ 5700 rpm (SAE net)\" (honda-us-2017-civic-facts-guide). Unchanged through 2020: the 2020 release describes a \"205-horsepower, 1.5-liter, direct injected and turbocharged in-line 4-cylinder engine\" (honda-us-2020-si-launch)."
+  },
+  "weightLb": {
+    "value": 2889,
+    "sourceId": "honda-us-2017-si-on-sale",
+    "note": "Si Coupe (the coupe is the standard body for this record), 6-speed manual (the only transmission), 2017 model year. Quote: \"The Si Coupe, at 2,889 pounds, is 113 pounds lighter than before.\" The Si Sedan is heavier: \"Civic Si Sedan curb weight, at 2,906 pounds, is down 96 pounds from the previous model\" (same release); American Honda's 2020 competitive sheet also gives the 2020 Si Sedan at 2,906 lb: \"The Civic Si Sedan's curb weight (2,906 lbs) is lighter than that of any GTI trim\" (honda-us-2020-si-vs-gti)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "honda-us-2017-si-on-sale",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "Stylish, Sporty and Turbocharged 2017 Honda Civic Si Coupe and Sedan On Sale Tomorrow at Dealerships Across U.S. (12 May 2017)",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-9ed8589e511747758932945ff2cdc68d-stylish-sporty-and-turbocharged-2017-honda-civic-si-coupe-and-sedan-on-sale-tomorrow-at-dealerships-across-u-s",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-us-2017-civic-facts-guide",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondainfocenter.com)",
+      "title": "2017 Honda Civic Facts Guide (PDF)",
+      "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/Past-Models/PDFs/2017-Honda-Civic-Facts-Guide.ashx",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-us-2020-si-launch",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2020 Honda Civic Si Launching with Styling and Performance Updates",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-b203e3940f2846a4b0bcbefe39f2609c-2020-honda-civic-si-launching-with-styling-and-performance-updates",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-us-si-timeline",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "Honda Civic Si Timeline and Milestones",
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-5d911be38cf30e49d54f6cb4520829b7-honda-civic-si-timeline-and-milestones",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-us-2020-si-vs-gti",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondainfocenter.com)",
+      "title": "MY20 Civic Si vs. 2019 Volkswagen GTI competitive comparison (PDF)",
+      "url": "https://www.hondainfocenter.com/-/media/Honda-Sales-Tool-Media-Folder/Images/2020-Civic-Si/Printable-References/MY20_CivicSi_19VW_Competitive.ashx",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "tflcar-2017-si-review",
+      "type": "publication",
+      "publisher": "TFLcar",
+      "title": "2017 Honda Civic Si: A Sport-Compact Bargain [Review]",
+      "url": "https://tflcar.com/2017/06/2017-honda-civic-si-coupe-sedan-test-drive-review/",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}
