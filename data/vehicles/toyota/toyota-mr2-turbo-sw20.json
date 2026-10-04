@@ -1,0 +1,139 @@
+{
+  "id": "toyota-mr2-turbo-sw20",
+  "manufacturer": "Toyota",
+  "model": "MR2",
+  "generation": "SW20",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Toyota MR2 Turbo (SW20)",
+  "aliases": [
+    "MR2 Turbo",
+    "SW20",
+    "MK2 MR2",
+    "3S-GTE",
+    "1991 MR2 Turbo"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1991,
+      "endYear": 1995
+    },
+    "sourceId": "cg-mr2-1991-95",
+    "note": "US model years. Consumer Guide (Tom Appel) covers the '1991-95 Toyota MR2': redesigned for 1991 and 'entered its final season without change' in 1995. KBB lists a 1995 MR2 'Turbo Coupe 2D' (kbb-1995-mr2)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "scm-mr2",
+    "note": "Sports Car Market: buyers could choose 'a fixed-roof coupe (rare in the U.S.) or one with a sunroof or T-tops'. T-tops are a roof option, not a separate body."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "kbb-1993-mr2-turbo",
+      "note": "'4-Cyl, Turbo, 2.0 Liter' (database)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "cg-mr2-1991-95",
+      "note": "Consumer Guide: 'a 2.0-liter unit that made 200 horsepower, borrowed from the Toyota Celica All-Trac Turbo'; KBB: '4-Cyl, Turbo, 2.0 Liter'. Consumer Guide elsewhere says '2.1-liter', an evident slip. No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "cg-mr2-1991-95",
+      "note": "'a turbocharged, 200-horsepower ... engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cg-mr2-1991-95"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "scm-mr2",
+    "note": "Mid-engine, rear-wheel drive; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "cg-mr2-1991-95",
+    "note": "'A 5-speed manual transmission was standard, with 4-speed automatic optional for nonturbo models.'"
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "cg-mr2-1991-95",
+    "note": "PROVISIONAL (one article plus a database). Quote (Consumer Guide, Tom Appel): \"Turbo coupes got a turbocharged engine: a 2.0-liter unit that made 200 horsepower, borrowed from the Toyota Celica All-Trac Turbo.\" KBB 1993 Turbo Coupe: \"Horsepower: 200 @ 6600 RPM\" (kbb-1993-mr2-turbo); KBB 1992: \"200 @ 6000 RPM\" (kbb-1992-mr2-turbo); Sports Car Market: the Turbo 'hit the magic 200 mark' (scm-mr2)."
+  },
+  "weightLb": {
+    "value": 2758,
+    "sourceId": "iseecars-1991-mr2",
+    "note": "PROVISIONAL (databases). 1991 Turbo coupe, 5-speed manual. Quote (iSeeCars, 'Turbo 2dr Coupe'): \"Curb Weight | 2758 | lbs\". KBB's 1992 Turbo Coupe 2D agrees: \"Curb Weight: 2758 lbs.\" (kbb-1992-mr2-turbo; next model year). For 1993 both databases give 2,822 lb (kbb-1993-mr2-turbo; iSeeCars 1993), so the weight rose with the 1993 model year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1991,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cg-mr2-1991-95",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "1991-95 Toyota MR2 (used-car review, Tom Appel)",
+      "url": "https://consumerguide.com/used/1991-95-toyota-mr2/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "scm-mr2",
+      "type": "publication",
+      "publisher": "Sports Car Market",
+      "title": "That's Mister Two to You (Jeff Zurschmeide, 17 June 2024)",
+      "url": "https://www.sportscarmarket.com/columns/profiles/affordable-classics/thats-mister-two-to-you",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "iseecars-1991-mr2",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1991 Toyota MR2 specs",
+      "url": "https://www.iseecars.com/car/1991-toyota-mr2-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1992-mr2-turbo",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1992 Toyota MR2 Turbo Coupe 2D",
+      "url": "https://www.kbb.com/toyota/mr2/1992/turbo-coupe-2d/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1993-mr2-turbo",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1993 Toyota MR2 Turbo Coupe 2D",
+      "url": "https://www.kbb.com/toyota/mr2/1993/turbo-coupe-2d/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1995-mr2",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1995 Toyota MR2 trims",
+      "url": "https://www.kbb.com/toyota/mr2/1995/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (200 hp) rests on one article (Consumer Guide) and KBB (database); weight (2,758 lb) rests on iSeeCars (1991) and KBB (1992), both databases. A Toyota press kit or brochure, or a major magazine spec panel, for the 1991 MR2 Turbo would replace them."
+}

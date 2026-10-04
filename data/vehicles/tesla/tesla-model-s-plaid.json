@@ -1,0 +1,162 @@
+{
+  "id": "tesla-model-s-plaid",
+  "manufacturer": "Tesla",
+  "model": "Model S",
+  "generation": null,
+  "variant": "Plaid",
+  "subVariant": null,
+  "displayName": "Tesla Model S Plaid",
+  "aliases": [
+    "Plaid",
+    "Model S Plaid",
+    "S Plaid",
+    "Tri Motor",
+    "Tri-motor Model S",
+    "2021 Model S Plaid"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2026
+    },
+    "sourceId": "carscom-model-s-plaid-2021",
+    "note": "US model years 2021-2026. Start: Cars.com lists a 2021 'Plaid AWD' trim (database). End year is provisional: Drive Tesla Canada (driveteslacanada-s-x-end-2026, Darryn John, 28 Jan 2026): \"the company will discontinue the Model S and Model X in the second quarter of 2026\" (announced by Elon Musk on the Q4 2025 earnings call); Cars.com lists a 2026 'Plaid AWD' trim (carscom-model-s-2026). Basenor (basenor-plaid-relisted-2026) reports Tesla relisted the 'Plaid Tri Motor All-Wheel Drive trim' in March 2026 while 'winding down Model S and Model X production at the Fremont factory in Q2 2026'."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "carscom-model-s-plaid-2021",
+    "note": "Four-door liftback sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "carscom-model-s-plaid-2021",
+      "note": "Three motors: Tesla's US configurator trim is the 'Plaid Tri Motor All-Wheel Drive' (basenor-plaid-relisted-2026). Cars.com: '1020.0-hp, -liter, Electric Motor' (2022 page, carscom-model-s-plaid-2022)."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "carscom-model-s-plaid-2021"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "carscom-model-s-plaid-2021"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "carscom-model-s-plaid-2021"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "carscom-model-s-plaid-2021",
+    "note": "Cars.com trim name 'Plaid AWD'."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "carscom-model-s-plaid-2021",
+    "note": "Cars.com: 'Transmission Options: 1-Speed A/T'."
+  },
+  "powerHp": {
+    "value": 1020,
+    "sourceId": "carscom-model-s-plaid-2021",
+    "note": "PROVISIONAL: spec database and an unsigned article. Cars.com 2021 Plaid AWD quote: \"SAE Net Horsepower @ RPM: 1020\" (the 2022 page is the same, carscom-model-s-plaid-2022). InsideEVs (insideevs-plaid-vs-raven, no author): \"system output: 1,020 hp (about 760 kW)\". Not A Tesla App (notateslaapp-plaid-specs, Kevin Armstrong, 12 Jan 2023): \"Maximum Horsepower: 1,020 hp\". Tesla's own 1,020 hp figure is on tesla.com, which could not be read."
+  },
+  "weightLb": {
+    "value": 4766,
+    "sourceId": "carscom-model-s-plaid-2021",
+    "note": "PROVISIONAL: spec database and an unsigned article. Cars.com 2021 Plaid AWD quote: \"Base Curb Weight: 4,766 lbs\" (2022 page the same, carscom-model-s-plaid-2022). InsideEVs (insideevs-plaid-vs-raven, no author): \"Weight 4,766 lbs (2,162 kg)\". Not A Tesla App (notateslaapp-plaid-specs, 2023 article) prints 4,816 lb, 1.0% higher, in an article about MotorTrend's test, so probably a tested scale weight; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "carscom-model-s-plaid-2021",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Tesla Model S Plaid AWD specs",
+      "url": "https://www.cars.com/research/tesla-model_s-2021/specs/419639/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-model-s-plaid-2022",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Tesla Model S Plaid AWD specs",
+      "url": "https://www.cars.com/research/tesla-model_s-2022/specs/425838/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-model-s-2026",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2026 Tesla Model S",
+      "url": "https://www.cars.com/research/tesla-model_s-2026/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "insideevs-plaid-vs-raven",
+      "type": "publication",
+      "publisher": "InsideEVs",
+      "title": "Tesla Model S Plaid Vs Raven: Weighed, Measured And Raced",
+      "url": "https://insideevs.com/news/521791/tesla-models-plaid-vs-raven/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "notateslaapp-plaid-specs",
+      "type": "publication",
+      "publisher": "Not A Tesla App",
+      "title": "Tesla's Model S Plaid is the fastest car MotorTrend has ever tested",
+      "url": "https://notateslaapp.com/tesla-reference/1146/fastest-car-motortrend-has-ever-tested-tesla-model-s-plaid-top-speed-and-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "driveteslacanada-s-x-end-2026",
+      "type": "publication",
+      "publisher": "Drive Tesla Canada",
+      "title": "Tesla to discontinue Model S and Model X in Q2 2026",
+      "url": "https://driveteslacanada.ca/news/tesla-to-discontinue-model-s-and-model-x-in-q2-2026/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "basenor-plaid-relisted-2026",
+      "type": "enthusiast",
+      "publisher": "Basenor",
+      "title": "Tesla Model S/X Plaid return to US configurator",
+      "url": "https://www.basenor.com/blogs/news/tesla-model-s-x-plaid-return-to-us-configurator",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4766,
+          "sourceId": "carscom-model-s-plaid-2021"
+        },
+        {
+          "value": 4816,
+          "sourceId": "notateslaapp-plaid-specs"
+        }
+      ],
+      "reason": "4,766 lb is given for the 2021-2022 Plaid by Cars.com and InsideEVs; 4,816 lb comes from a January 2023 article about MotorTrend's test, so it is probably a tested scale weight. The two are 1.0% apart, within the provisional-record tolerance.",
+      "resolution": "Used 4,766 lb, given by two sources for the 2021 reference year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power and weight rest on Cars.com (database) and InsideEVs (unsigned article), which agree on 1,020 hp and 4,766 lb; Tesla's own figures (tesla.com, unreadable here) or a major magazine's specification panel would replace them. The last model year (2026) rests on Drive Tesla Canada's report of Tesla's Q4 2025 earnings call and on Cars.com; a Tesla statement that production has ended would replace it."
+}

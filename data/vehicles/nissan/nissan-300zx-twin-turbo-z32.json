@@ -1,0 +1,143 @@
+{
+  "id": "nissan-300zx-twin-turbo-z32",
+  "manufacturer": "Nissan",
+  "model": "300ZX",
+  "generation": "Z32",
+  "variant": "Twin Turbo",
+  "subVariant": null,
+  "displayName": "Nissan 300ZX Twin Turbo (Z32)",
+  "aliases": [
+    "300ZX TT",
+    "Z32",
+    "VG30DETT",
+    "1990 300ZX Twin Turbo"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1990,
+      "endYear": 1996
+    },
+    "sourceId": "supercars-300zx-tt-1990",
+    "note": "PROVISIONAL (enthusiast site). US model years. supercars.net: Nissan sold '6,896 300ZX Twin Turbo cars' in 1990 and production continued through 1996. Nissan's own release confirms the car on sale for 1995 (nissan-smz-release)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "supercars-300zx-tt-1990",
+    "note": "Two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "mt-300zx-longterm-1992",
+      "note": "'V-6, DOHC, 4 valves/cylinder, twin turbocharged'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "mt-300zx-longterm-1992",
+      "note": "2,960 cc ('Engine Displacement, ci/cc | 181/2960'); supercars.net: '180.63 ci/2,960 cc'."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mt-300zx-longterm-1992",
+      "note": "'twin turbocharged'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mt-300zx-longterm-1992"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "supercars-300zx-tt-1990",
+    "note": "Front-engine, rear-wheel drive; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "supercars-300zx-tt-1990",
+    "note": "PROVISIONAL (enthusiast site): '5-Speed manual as standard, optional 4-speed automatic'."
+  },
+  "powerHp": {
+    "value": 300,
+    "sourceId": "nissan-smz-release",
+    "note": "Quote (Nissan North America): \"By 1995, the 300ZX twin turbo was already among the fastest street cars available in the U.S., with 300 horsepower and impressive acceleration to match its aggressive styling.\" Motor Trend's January 1992 panel: \"Horsepower, hp @ rpm, SAE net | 300 @ 6400\" (mt-300zx-longterm-1992); supercars.net (1990): \"300-hp @ 6,400 rpm\". No opened page reports a different US rating in 1990-1996."
+  },
+  "weightLb": {
+    "value": 3422,
+    "sourceId": "supercars-300zx-tt-1990",
+    "note": "PROVISIONAL (enthusiast site and a rehosted magazine panel). 1990 Twin Turbo, 5-speed manual. Quote (supercars.net): \"3,422 lbs / 1,552 Kg\". Motor Trend's January 1992 long-term wrap-up panel, transcribed on twinturbo.net, prints \"Curb weight, lb | 3414\" for its 5-speed Twin Turbo (mt-300zx-longterm-1992; model year of the car not stated), 0.2% lower. KBB's 1992 Turbo Coupe page prints 3,508 lb (kbb-1992-300zx-tt); see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1990,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-smz-release",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (usa.nissannews.com)",
+      "title": "1995 Nissan 300ZXTT (Z32) Steve Millen SMZ (release, 28 February 2010)",
+      "url": "https://usa.nissannews.com/en-US/releases/1995-nissan-300zxtt-z32-steve-millen-smz",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mt-300zx-longterm-1992",
+      "type": "enthusiast",
+      "publisher": "twinturbo.net (transcription of Motor Trend, January 1992)",
+      "title": "Motor Trend Long-Term Wrapup: Nissan 300ZX Twin Turbo (Daniel Charles Ross)",
+      "url": "https://twinturbo.net/nissan/300zx/FAQ/stats/mtjan92.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "supercars-300zx-tt-1990",
+      "type": "enthusiast",
+      "publisher": "supercars.net",
+      "title": "1990 Nissan 300ZX Twin Turbo",
+      "url": "https://www.supercars.net/blog/1990-nissan-300zx-twin-turbo/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1992-300zx-tt",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1992 Nissan 300ZX Turbo Coupe 2D",
+      "url": "https://www.kbb.com/nissan/300zx/1992/turbo-coupe-2d/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3422,
+          "sourceId": "supercars-300zx-tt-1990"
+        },
+        {
+          "value": 3414,
+          "sourceId": "mt-300zx-longterm-1992"
+        },
+        {
+          "value": 3508,
+          "sourceId": "kbb-1992-300zx-tt"
+        }
+      ],
+      "reason": "supercars.net gives 3,422 lb for the 1990 car and Motor Trend 3,414 lb for its long-term car; KBB gives 3,508 lb for the 1992 Turbo Coupe (2.5% higher). Model year or equipment may explain it, but no page says so."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "KBB's 1992 Turbo Coupe weight (3,508 lb) is 2.5% above the 1990 figures used (3,414-3,422 lb). Decide whether this is a model-year difference or whether the car should stay held.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,422 lb) rests on supercars.net (enthusiast) and Motor Trend's 1992 long-term panel as transcribed on twinturbo.net; KBB's 1992 Turbo shows 3,508 lb. Production years and transmissions rest on supercars.net. A Nissan press kit or brochure, or a major magazine spec panel for the 1990 Twin Turbo, would replace them."
+}

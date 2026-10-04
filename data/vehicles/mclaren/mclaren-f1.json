@@ -1,0 +1,177 @@
+{
+  "id": "mclaren-f1",
+  "manufacturer": "McLaren",
+  "model": "F1",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren F1",
+  "aliases": [
+    "McLaren F1 road car",
+    "BMW S70/2",
+    "S70/2"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 1994,
+      "endYear": 1998
+    },
+    "sourceId": "evo-f1",
+    "note": "Calendar years (the car was never officially sold in the US, so the record uses the UK home market). Evo's specification panel: \"On sale | 1994-1998\". Other dates seen: Carscoops says \"The world first met the McLaren F1 on May 28, 1992\" (the unveiling; carscoops-f1-2019); autoplenum.de (a database) gives 1993-1997 (autoplenum-f1); SB Race Engineering gives \"Year of Manufacture - 1992-1998\" (sbrace-f1). BMW Blog: \"one of just 64 cars ever made\" (road cars; bmwblog-f1-2017). Evo's on-sale years are used."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-f1",
+    "note": "Fixed-roof, mid-engined three-seat car; no open road version was sold. Not stated in so many words in the panel."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "evo-f1",
+      "note": "Panel: \"Engine | V12, 6064cc, dohc per bank, 4v per cylinder, variable inlet timing\" (BMW S70/2)"
+    },
+    "displacementL": {
+      "value": 6.1,
+      "sourceId": "evo-f1",
+      "note": "6,064 cc (Evo panel). autoplenum.de: \"6064 cm³\" (autoplenum-f1)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-f1",
+      "note": "Inferred: the panel describes a V12 with variable inlet timing and no turbocharging or supercharging."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-f1",
+    "note": "Petrol V12; not stated in so many words."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-f1",
+    "note": "Mid-engined, rear-wheel drive; inferred from the description of the car, not stated in the panel."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "autoplenum-f1",
+    "note": "autoplenum.de (a database): \"Manuelles Getriebe / 6 Gänge\". No other transmission was offered."
+  },
+  "powerHp": {
+    "value": 618,
+    "sourceId": "evo-f1",
+    "note": "PROVISIONAL (see provisionalNote). Quote (Evo specification panel): \"Max power | 627bhp @ 7500rpm\". The 627 is McLaren's metric figure: BMW Blog (Gabriel Nica, 21 July 2017) \"a 6.1-liter V12 engine making 627 PS\" (bmwblog-f1-2017), and autoplenum.de \"461 kW / 627 PS\" (autoplenum-f1). 627 PS x 0.98632 = 618 hp (461 kW x 1.34102 = 618 hp). Carscoops prints \"627hp\" (carscoops-f1-2019), the same metric figure. See discrepancies."
+  },
+  "weightLb": {
+    "value": 2509,
+    "sourceId": "carscoops-f1-2019",
+    "note": "PROVISIONAL: one named-author article and one database, agreeing. Quote (Carscoops, Michael Karkafiris, 23 March 2019): \"a curb weight of just 2,509lbs (1,138kg)\"; the same author's 29 January 2017 article prints \"curb weight of 2,509lbs (1,138kg)\" (carscoops-f1-2017; same outlet, so not independent). autoplenum.de (a database): \"Leergewicht 1.138 kg\" (autoplenum-f1). SB Race Engineering, a McLaren specialist (enthusiast source): \"Curb weight 1140 kg / 2513 lbs\" (sbrace-f1). 1,138 kg x 2.20462 = 2,509 lb. Single configuration (coupe, 6-speed manual). Not said whether DIN or EU. McLaren's own launch figure is reported to be a dry weight of 1,018 kg, but no McLaren page could be opened."
+  },
+  "specBasis": {
+    "market": "UK",
+    "referenceModelYear": 1994,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "evo-f1",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "McLaren F1 review (John Barker, 30 July 2024)",
+      "url": "https://www.evo.co.uk/mclaren/f1",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscoops-f1-2019",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "Everything You Wanted To Know About McLaren's Iconic F1 In A 40-Minute Video (Michael Karkafiris, 23 March 2019)",
+      "url": "https://carscoops.com/?p=1796862",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscoops-f1-2017",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "How the McLaren F1 became the world's fastest (Michael Karkafiris, 29 January 2017)",
+      "url": "https://www.carscoops.com/2017/01/how-mclaren-f1-became-worlds-fastest/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmwblog-f1-2017",
+      "type": "publication",
+      "publisher": "BMW Blog",
+      "title": "First US Road-Legal McLaren F1 Will Be Up for Grabs at Pebble Beach (Gabriel Nica, 21 July 2017)",
+      "url": "https://www.bmwblog.com/?p=243771",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoplenum-f1",
+      "type": "database",
+      "publisher": "autoplenum.de",
+      "title": "McLaren F1 Coupé 6.1 627 PS (1993-1997)",
+      "url": "https://www.autoplenum.de/auto/mclaren/f1/coupe-1993/6-1-627-ps",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "sbrace-f1",
+      "type": "enthusiast",
+      "publisher": "SB Race Engineering",
+      "title": "McLaren F1 specifications",
+      "url": "https://sbraceengineering.co.uk/mclaren-specialists/mclaren-models-by-year/mclaren-f1-specifications/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "627bhp",
+          "sourceId": "evo-f1"
+        },
+        {
+          "value": "627 PS",
+          "sourceId": "bmwblog-f1-2017"
+        },
+        {
+          "value": "461 kW / 627 PS",
+          "sourceId": "autoplenum-f1"
+        },
+        {
+          "value": "627.1 bhp / 467.6 kW @ 7400 rpm",
+          "sourceId": "sbrace-f1"
+        }
+      ],
+      "reason": "Units. McLaren's rating is 627 PS (461 kW); Evo's panel prints the metric figure as 'bhp', as English-language pages often do (the Ferrari F40 record has the same case). SB Race Engineering (an enthusiast site) instead prints '467.6 kw / 627.1 bhp @ 7400 rpm', i.e. 627 mechanical hp, and gives 7,400 rpm against Evo's 7,500.",
+      "resolution": "Used 627 PS converted at 1 PS = 0.98632 hp: 618 hp, which also equals 461 kW converted. Unresolved between 618 and 627 hp (1.5% apart, within the provisional tolerance); power is listed in the provisionalNote."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,138 kg (2,509 lb)",
+          "sourceId": "carscoops-f1-2019"
+        },
+        {
+          "value": "1,140 kg (2,513 lb)",
+          "sourceId": "sbrace-f1"
+        }
+      ],
+      "reason": "Rounding; the two figures differ by 2 kg (0.2%).",
+      "resolution": "Used 1,138 kg, given by both Carscoops and autoplenum.de."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 2,509 lb (1,138 kg) rests on one named-author outlet (Carscoops, Michael Karkafiris) and autoplenum.de (a database), with SB Race Engineering (enthusiast, 1,140 kg) close behind. A second independent named-author outlet or a major magazine specification panel giving 1,138 kg would make it a normal step-2 figure; failing a curb weight, McLaren's launch-release dry weight (reported as 1,018 kg) from a page that can be opened would replace it at step 4. Power (618 hp) rests on Evo's panel read as PS, which BMW Blog and autoplenum.de support; a McLaren or BMW document stating 627 PS / 461 kW would confirm it."
+}

@@ -1,0 +1,135 @@
+{
+  "id": "volkswagen-golf-gti-mk8",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "generation": "Mk8",
+  "variant": "GTI",
+  "subVariant": null,
+  "displayName": "Volkswagen Golf GTI (Mk8)",
+  "aliases": [
+    "Mk8 GTI",
+    "GTI Mk8",
+    "Golf 8 GTI",
+    "Mk8.5 GTI",
+    "EA888 evo4",
+    "DSG",
+    "2022 GTI"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "US model years. 'The model year 2022 GTI introduces a plethora of interior and handling upgrades for the eighth generation of the original hot hatch.' Still on sale; Volkswagen's current US GTI press kit (vw-us-golf-gti-model-page) describes the same 241 hp EA888 evo4 car."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Golf hatchback; inferred from the release."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "vw-us-2022-golf-gti-r-chicago",
+      "note": "'EA888 2.0-liter turbocharged direct-injection TSI engine' (four-cylinder)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "vw-us-golf-gti-model-page",
+      "note": "1,984 cc: 'The GTI's EA888 evo4 engine displaces 1984cc and produces 241 horsepower'"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "vw-us-2022-golf-gti-r-chicago",
+      "note": "'2.0-liter turbocharged direct-injection TSI engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Inferred: a TSI gasoline engine with no hybrid system."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Front-wheel drive with the VAQ torque-sensing limited-slip front differential; inferred from the release, which gives 4Motion all-wheel drive to the Golf R only."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "'can be paired with a standard six-speed manual transmission or an optional seven-speed DSG® dual-clutch automatic' (DSG is a DCT). The manual was later dropped; the year it ended was not confirmed."
+  },
+  "powerHp": {
+    "value": 241,
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Quote: \"produces 241 horsepower\". Volkswagen's GTI press kit repeats 'produces 241 horsepower at 5,000 rpm' (vw-us-golf-gti-model-page)."
+  },
+  "weightLb": {
+    "value": 3113,
+    "sourceId": "cars-com-2022-gti-s-manual",
+    "note": "PROVISIONAL, from databases. GTI S with the 6-speed manual (the standard car). Cars.com: \"Base Curb Weight: 3,113 lbs\" (2.0T S Manual, 'Transmission Options: M/T 6-Speed M/T'). MotorMatchup gives the same: \"Curb Weight: 3,113 lbs\" for the 2022 Golf GTI 2.0T S Manual (motormatchup-2022-gti-s-manual). The two databases likely draw on the same data supplier. Edmunds lists 3,190 lb for the SE with the 7-speed DSG, a heavier trim (edmunds-2022-gti-se-dsg)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "vw-us-2022-golf-gti-r-chicago",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "Volkswagen introduces 2022 Golf GTI and Golf R at the Chicago Auto Show",
+      "url": "https://media.vw.com/view/releases/1569",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "vw-us-golf-gti-model-page",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "Golf GTI (press kit model page)",
+      "url": "https://media.vw.com/view/models/golf-gti",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2022-gti-s-manual",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Volkswagen Golf GTI S specs & colors",
+      "url": "https://www.cars.com/research/volkswagen-golf_gti-2022/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motormatchup-2022-gti-s-manual",
+      "type": "database",
+      "publisher": "MotorMatchup",
+      "title": "2022 Volkswagen Golf GTI 2.0T S Manual specifications",
+      "url": "https://www.motormatchup.com/catalog/Volkswagen/Golf-GTI/2022/2.0T-S-Manual",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-2022-gti-se-dsg",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2022 Volkswagen Golf GTI features & specs",
+      "url": "https://www.edmunds.com/volkswagen/golf-gti/2022/features-specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,113 lb rests on Cars.com and MotorMatchup (databases) for the 2022 GTI S manual. A Volkswagen of America technical-specifications sheet or a major magazine's spec panel giving the manual GTI S curb weight would replace it."
+}

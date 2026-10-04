@@ -1,0 +1,151 @@
+{
+  "id": "dodge-viper-gts-sr-ii",
+  "manufacturer": "Dodge",
+  "model": "Viper",
+  "generation": "SR II",
+  "variant": "GTS",
+  "subVariant": null,
+  "displayName": "Dodge Viper GTS (SR II)",
+  "aliases": [
+    "Viper GTS",
+    "GTS coupe",
+    "SR II",
+    "T-56",
+    "1997 Viper GTS"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1996,
+      "endYear": 2002
+    },
+    "sourceId": "dupont-viper-1996-2002",
+    "note": "US model years. duPont Registry (Andrew Nabors) covers the '1996-2002' Viper GTS coupe."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "dupont-viper-1996-2002",
+    "note": "GTS coupe; the RT/10 roadster is a separate car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "autochannel-viper-gts-1997",
+      "note": "'8.0-liter V-10'"
+    },
+    "displacementL": {
+      "value": 8.0,
+      "sourceId": "autochannel-viper-gts-1997",
+      "note": "'8.0-liter V-10'. No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "autochannel-viper-gts-1997",
+      "note": "No forced induction; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "autochannel-viper-gts-1997"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "autochannel-viper-gts-1997",
+    "note": "Front-engine, rear-wheel drive; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "autochannel-viper-gts-1997",
+    "note": "'Six-speed manual'; duPont Registry names the Borg-Warner T-56."
+  },
+  "powerHp": {
+    "value": 450,
+    "sourceId": "autochannel-viper-gts-1997",
+    "note": "PROVISIONAL (articles and databases). Quote (The Auto Channel, John Heilig, 1997 GTS): \"450hp@5200 rpm\". duPont Registry (1996-2002 GTS): \"450 hp\" (dupont-viper-1996-2002); KBB 1997 GTS Coupe 2D: \"450 @ 5200 RPM\" (kbb-1997-viper); Edmunds 1997: \"450 hp @ 5,200 rpm\" (edmunds-1997-viper). Reference year 1997, not the 1996 launch year, because the only 1996-specific database page (KBB) prints 415 hp for both the GTS and the RT/10, which does not match any other source for the GTS."
+  },
+  "weightLb": {
+    "value": 3375,
+    "sourceId": "kbb-1997-viper",
+    "note": "PROVISIONAL (a database and two articles). GTS coupe, 6-speed manual, 1997. Quote (KBB 1997 Viper GTS Coupe 2D): \"Curb Weight: 3375 lbs.\". The Auto Channel's 1997 GTS review (John Heilig) prints \"3383 lbs\" (autochannel-viper-gts-1997), 0.2% higher. duPont Registry's 1996-2002 article prints \"Weight: 3,375 lbs\" without saying curb or naming the GTS (dupont-viper-1996-2002). The Auto Channel's 2001 GTS review (Tom Hagin) prints \"3622 pounds\" (autochannel-viper-gts-2001); see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1997,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "autochannel-viper-gts-1997",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "Dodge Viper GTS Coupe (1997) review (John Heilig)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/1997/heilig96121101.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dupont-viper-1996-2002",
+      "type": "publication",
+      "publisher": "duPont Registry",
+      "title": "1996 to 2002 Dodge Viper: price, specs, photos and review (Andrew Nabors)",
+      "url": "https://news.dupontregistry.com/blogs/dodge/1996-to-2002-dodge-viper-price-specs-photos-and-review",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1997-viper",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1997 Dodge Viper specs",
+      "url": "https://www.kbb.com/dodge/viper/1997/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1997-viper",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1997 Dodge Viper specs & features",
+      "url": "https://www.edmunds.com/dodge/viper/1997/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autochannel-viper-gts-2001",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "Dodge Viper GTS Coupe (2001) review (Tom Hagin)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/2001/solo0119.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3375,
+          "sourceId": "dupont-viper-1996-2002"
+        },
+        {
+          "value": 3383,
+          "sourceId": "autochannel-viper-gts-1997"
+        },
+        {
+          "value": 3622,
+          "sourceId": "autochannel-viper-gts-2001"
+        }
+      ],
+      "reason": "Three sources for the 1996-2002 or 1997 GTS agree within 0.3% (duPont Registry, KBB 1997, Heilig 1997); Hagin's 2001 review gives 3,622 lb, 7% higher. The 2001 car had ABS as standard ('anti-lock braking system (ABS) is standard equipment'), but no page says that accounts for the difference."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "The Auto Channel's 2001 GTS review gives 3,622 lb, 7% above the 3,375-3,383 lb found for 1997. Decide whether that is a later-model-year difference (2001 ABS) or a reason to keep the car held.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (450 hp) and weight (3,375 lb) rest on articles (duPont Registry, The Auto Channel) and databases (KBB, Edmunds). A Chrysler/Dodge press kit or spec sheet, or a major magazine spec panel for the 1997 GTS, would replace them."
+}

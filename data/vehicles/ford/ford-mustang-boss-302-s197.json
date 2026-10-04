@@ -1,0 +1,141 @@
+{
+  "id": "ford-mustang-boss-302-s197",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S197",
+  "variant": "Boss 302",
+  "subVariant": null,
+  "displayName": "Ford Mustang Boss 302 (S197)",
+  "aliases": [
+    "Boss 302",
+    "Mustang Boss",
+    "Hi-Po 302",
+    "Road Runner",
+    "2012 Boss 302",
+    "2013 Boss 302"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2013
+    },
+    "sourceId": "ford-2012-boss-302-tech-specs",
+    "note": "US model years. First: Ford's '2012 FORD MUSTANG BOSS 302 TECHNICAL SPECIFICATIONS'. 2013: Ford's 2013 Mustang brochure lists the Boss 302 (ford-2013-mustang-brochure). Last: the end year rests on CJ Pony Parts' '2012-2013 Ford Mustang Boss 302 Guide' (cjpp-boss-302-guide, an enthusiast source); no opened Ford page says 2013 was the last year. The Boss 302 Laguna Seca is a separate trim and not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ford-2012-boss-302-tech-specs",
+    "note": "Inferred from Ford's sheet for the two-door Mustang; Cars.com names the style '2dr Cpe Boss 302' (cars-com-boss-302-2013-specs). No convertible Boss 302 was listed."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-2013-mustang-brochure",
+      "note": "'Hi-Po 302 Ti-VCT V8 engine'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "ford-2012-boss-302-tech-specs",
+      "note": "4,951 cc ('Displacement 302 cu. in./4,951 cc')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-2013-mustang-brochure",
+      "note": "Inferred from the brochure's description of the Hi-Po 302 Ti-VCT V8 (no forced induction mentioned)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-2013-mustang-brochure",
+    "note": "Inferred from the brochure's description of the petrol V8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-2012-boss-302-tech-specs",
+    "note": "Inferred from Ford's sheet for the front-engine, rear-drive Mustang."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-2012-boss-302-tech-specs",
+    "note": "'Standard Six-speed manual'. The 2013 brochure: '6-speed manual transmission'. The only transmission."
+  },
+  "powerHp": {
+    "value": 444,
+    "sourceId": "ford-2013-mustang-brochure",
+    "note": "2013 model year. Quote: \"Hi-Po 302 Ti-VCT V8 engine with 444 hp @ 7,400 rpm and 380 lb.-ft. of torque @ 4,500 rpm\". Ford's 2012 technical specifications gave a preliminary \"Horsepower 440 (est.)\" (ford-2012-boss-302-tech-specs); Cars.com lists the 2013 car at \"444 @ 7400\" (cars-com-boss-302-2013-specs)."
+  },
+  "weightLb": {
+    "value": 3631,
+    "sourceId": "cars-com-boss-302-2013-specs",
+    "note": "PROVISIONAL: a database and an enthusiast source, matching Ford's estimate. Boss 302 coupe, 6-speed manual (the only car), 2013 model year. Cars.com: \"Base Curb Weight: 3,631 lbs\" for the '2dr Cpe Boss 302'. Ford's 2012 sheet gives the same figure as an estimate: \"Manual transmission 3,631 (est.)\" (ford-2012-boss-302-tech-specs, a manufacturer estimate). CJ Pony Parts' guide (C.J. Tragakis) gives \"3,632 lbs\" for the 2012 to 2013 car (cjpp-boss-302-guide, an enthusiast source). No final Ford figure was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-2013-mustang-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by auto-brochures.com)",
+      "title": "2013 Ford Mustang brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2013.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-2012-boss-302-tech-specs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (sheet hosted by MustangSpecs.com)",
+      "title": "2012 Ford Mustang Boss 302 Technical Specifications",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/07/2012_Mustang_Boss_Specs.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-boss-302-2013-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2013 Ford Mustang Boss 302 specs & colors",
+      "url": "https://www.cars.com/research/ford-mustang-2013/specs/349407/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cjpp-boss-302-guide",
+      "type": "enthusiast",
+      "publisher": "CJ Pony Parts",
+      "title": "2012-2013 Ford Mustang Boss 302 Guide, by C.J. Tragakis",
+      "url": "https://www.cjponyparts.com/resources/2012-2013-mustang-boss-302",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 444,
+          "sourceId": "ford-2013-mustang-brochure"
+        },
+        {
+          "value": 440,
+          "sourceId": "ford-2012-boss-302-tech-specs"
+        }
+      ],
+      "reason": "Ford's 2012 sheet gave a preliminary estimate ('440 (est.)'); the published rating is 444 hp.",
+      "resolution": "Used 444 hp, Ford's final rating in the 2013 brochure."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,631 lb rests on Cars.com (a database) and Ford's 2012 technical specifications, which label it '(est.)'; CJ Pony Parts (an enthusiast source) gives 3,632 lb. A final Ford figure (a later Ford technical-specifications sheet or press kit) or a Car and Driver, Road & Track or MotorTrend spec panel would replace it. The end year (2013) rests on CJ Pony Parts; a Ford page would confirm it."
+}

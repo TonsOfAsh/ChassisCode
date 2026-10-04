@@ -1,0 +1,180 @@
+{
+  "id": "maserati-mc20",
+  "manufacturer": "Maserati",
+  "model": "MC20",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Maserati MC20",
+  "aliases": [
+    "MC20 Coupe",
+    "Nettuno",
+    "Maserati Nettuno",
+    "2022 MC20"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2025
+    },
+    "sourceId": "carscom-mc20-2025",
+    "note": "US model years, from Cars.com (a database), whose MC20 history lists the '2025', '2024', '2023' and '2022 Maserati MC20'. First: The Drive's review of the '2022 Maserati MC20' (thedrive-mc20-2021) and KBB's 'all-new 2022 Maserati MC20' (kbb-mc20-2022). Last: Motor1: \"For 2026, Maserati has tweaked the MC20 and given it a new name, MCPura\" (motor1-mcpura); the MCPura is not part of this record, nor is the MC20 Cielo, sold under its own name."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "maserati-us-mc20",
+    "note": "Two-seat fixed-roof coupe with butterfly doors. The open MC20 Cielo is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "maserati-us-mc20",
+      "note": "'V6 90°'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "stellantis-mc20-release",
+      "note": "Maserati: \"Displacement (cc) 3000 cc\". Evo's specification panel gives \"V6, 2992cc, twin-turbo\" (evo-mc20); both round to 3.0."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "stellantis-mc20-release",
+      "note": "'V6 90° MTC twin turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "stellantis-mc20-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "maserati-us-mc20",
+    "note": "'RWD'; Maserati release: 'Rear-wheel drive with rear limited slip self-locking mechanical differential'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "maserati-us-mc20",
+    "note": "'DCT 8-Speed Gearbox'"
+  },
+  "powerHp": {
+    "value": 621,
+    "sourceId": "maserati-us-mc20",
+    "note": "Quote (Maserati USA): \"Max power: 621HP [2]\", footnote \"[2] Max Power: metric HP at 7.500 rpm\". Maserati's launch release (stellantis-mc20-release): \"Max. power output 630 CV @ 7500 rpm\"; 630 x 0.98632 = 621 hp, the figure Maserati USA prints. powerStandard is DIN PS because the rating is the metric 630 CV, as for the McLaren records."
+  },
+  "weightLb": {
+    "value": 3252,
+    "sourceId": "evo-mc20",
+    "note": "DRY weight (weight-order step 4). Quote (Evo specification panel, Adam Towler and Yousuf Ashraf, 25 September 2025): \"Weight | 1475kg (dry)\". 1,475 kg x 2.20462 = 3,252 lb. Coupe, 8-speed DCT (the only transmission). Evo does not say whether this is with options. Steps 1 to 3 are not met: Maserati publishes only upper limits, \"an extremely lightweight car under 1,500 kg (kerb weight)\" and \"homologated weight (kg) <1500kg\" (stellantis-mc20-release), and Maserati USA \"Total Car Weight: < 3620lb\" (maserati-us-mc20). The Drive (Ronan Glon; Basem Wasef) and MoparInsiders (Robert S. Miller) print \"3,306 pounds\", which is Maserati's 1,500 kg upper limit converted, not a curb weight (thedrive-mc20-2021, thedrive-mc20-2022, moparinsiders-mc20). A car ready to drive is heavier than the dry figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "maserati-us-mc20",
+      "type": "manufacturer",
+      "publisher": "Maserati North America",
+      "title": "Maserati MC20",
+      "url": "https://www.maserati.com/us/en/models/mc20",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "stellantis-mc20-release",
+      "type": "manufacturer",
+      "publisher": "Maserati (Stellantis media site)",
+      "title": "Maserati MC20, the brand's new super sports car",
+      "url": "https://www.media.stellantis.com/em-en/maserati/press/maserati-mc20-the-brands-new-super-sports-car",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "thedrive-mc20-2021",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2022 Maserati MC20 Review: An Everyday Supercar Crown for the New Maserati Era",
+      "url": "https://www.thedrive.com/new-cars/40647/2022-maserati-mc20-review-an-everyday-supercar-crown-for-the-new-maserati-era",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "thedrive-mc20-2022",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2022 Maserati MC20 Review: A Powerful Yet Nimble Track Sweeper",
+      "url": "https://www.thedrive.com/new-cars/44018/2022-maserati-mc20-review-a-powerful-yet-nimble-track-sweeper",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "moparinsiders-mc20",
+      "type": "publication",
+      "publisher": "MoparInsiders",
+      "title": "Meet Maserati's New Supercar - The 2022 Maserati MC20",
+      "url": "https://moparinsiders.com/meet-maseratis-new-supercar-the-2022-maserati-mc20/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "evo-mc20",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Maserati MC20 (2020-2025) review (Adam Towler and Yousuf Ashraf, 25 September 2025)",
+      "url": "https://www.evo.co.uk/maserati/mc20/204552/maserati-mc20-2020-2025-review-a-modern-age-supercar-with-an-old-school-heart",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-mc20-2025",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2025 Maserati MC20",
+      "url": "https://www.cars.com/research/maserati-mc20-2025/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-mc20-2022",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Maserati MC20",
+      "url": "https://www.kbb.com/maserati/mc20/2022/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motor1-mcpura",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "The Maserati MC20 Is Dead. Long Live the MCPura",
+      "url": "https://www.motor1.com/news/765286/2026-maserati-mcpura/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,475 kg (3,252 lb) dry",
+          "sourceId": "evo-mc20"
+        },
+        {
+          "value": "3,306 lb",
+          "sourceId": "thedrive-mc20-2021"
+        },
+        {
+          "value": "< 3620 lb",
+          "sourceId": "maserati-us-mc20"
+        }
+      ],
+      "reason": "Maserati states only upper limits ('under 1,500 kg (kerb weight)', '< 3620lb'). The Drive and MoparInsiders print 3,306 lb, which is the 1,500 kg limit converted and so not a curb weight. Evo's panel gives a dry weight of 1,475 kg.",
+      "resolution": "Used Evo's dry 1,475 kg (step 4), since no curb weight, exact or for an optioned car, exists; the upper limits are noted only."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

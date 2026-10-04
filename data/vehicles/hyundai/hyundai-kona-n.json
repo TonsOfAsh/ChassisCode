@@ -1,0 +1,124 @@
+{
+  "id": "hyundai-kona-n",
+  "manufacturer": "Hyundai",
+  "model": "Kona",
+  "generation": null,
+  "variant": "N",
+  "subVariant": null,
+  "displayName": "Hyundai Kona N",
+  "aliases": [
+    "Kona N",
+    "N Grin Shift",
+    "N DCT",
+    "Smartstream G2.0 T-GDi",
+    "2022 Kona N"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2023
+    },
+    "sourceId": "cars-com-kona-n-years",
+    "note": "US model years 2022 and 2023: Cars.com lists Kona N model years '2023' and '2022' only. KBB's first-look article covers the '2022 Hyundai Kona N' (kbb-kona-n-debut-2021). The next-generation Kona launched for 2024 without an N version. End year rests on databases (see provisionalNote)."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "kbb-kona-n-debut-2021",
+    "note": "Subcompact crossover (performance SUV)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "kbb-kona-n-debut-2021",
+      "note": "'turbocharged, 2.0-liter 4-cylinder engine'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "kbb-kona-n-debut-2021",
+      "note": "'2.0-liter'. No opened page prints the cc figure; Cars.com lists '2.0 L/122' (cars-com-2022-kona-n)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "kbb-kona-n-debut-2021",
+      "note": "'turbocharged, 2.0-liter 4-cylinder engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "kbb-kona-n-debut-2021",
+    "note": "Inferred: gasoline turbocharged engine with no hybrid system."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "kbb-kona-n-debut-2021",
+    "note": "'8-speed dual-clutch automatic transmission sends power to the front wheels'; Cars.com: 'Front Wheel Drive'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "kbb-kona-n-debut-2021",
+    "note": "'8-speed dual-clutch automatic transmission'; Autoblog: 'Hyundai's familiar eight-speed dual-clutch automated manual' (autoblog-kona-n-first-drive). No manual in the US."
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "autoblog-kona-n-first-drive",
+    "note": "Quote: \"Its 2.0-liter turbocharged inline-four pumps out 276 horsepower and 289 pound-feet of torque\" (James Riswick). KBB (Sean Tucker): \"turbocharged, 2.0-liter 4-cylinder engine making 276 horsepower\" (kbb-kona-n-debut-2021). Cars.com: \"SAE Net Horsepower @ RPM 276 @ 6000\". N Grin Shift gives a 20-second boost: \"Output is cranked up to 286 hp\" (Autoblog). No Hyundai page advertising the 286 hp figure was opened, so the record uses 276 hp, as the Elantra N record does for the same engine and feature."
+  },
+  "weightLb": {
+    "value": 3340,
+    "sourceId": "autoblog-kona-n-first-drive",
+    "note": "PROVISIONAL. 2022 Kona N, 8-speed DCT (the only configuration). Autoblog (James Riswick): \"Putting that much power in such a small car (3,340 pounds) is as uproariously fun as you'd hope\". Cars.com gives the same: \"Base Curb Weight 3,340 lbs\" (cars-com-2022-kona-n). One article and one database."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "autoblog-kona-n-first-drive",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "2022 Hyundai Kona N First Drive (James Riswick, 10 August 2021)",
+      "url": "https://www.autoblog.com/2021/08/10/2022-hyundai-kona-n-first-drive/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-kona-n-debut-2021",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Hyundai Kona N high-performance compact SUV debuts (Sean Tucker, 27 April 2021)",
+      "url": "https://www.kbb.com/car-news/2022-hyundai-kona-n-high-performance-compact-suv-debuts",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2022-kona-n",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Hyundai Kona N specs & colors",
+      "url": "https://www.cars.com/research/hyundai-kona_n-2022/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-kona-n-years",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "Hyundai Kona N: Prices, Specs & Features by Year",
+      "url": "https://www.cars.com/research/hyundai-kona_n-2024/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,340 lb rests on one article (Autoblog) and one database (Cars.com). The end year (2023) rests on Cars.com's model-year list. A Hyundai Motor America specification sheet or brochure with a curb weight (the 2023 US Kona brochure could not be opened: rate-limited) would replace them; it would also settle whether Hyundai advertises the 286 hp N Grin Shift figure."
+}

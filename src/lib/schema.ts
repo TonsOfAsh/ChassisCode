@@ -142,6 +142,14 @@ export const VehicleSchema = z
     image: ImageSchema.nullable(),
     /** False = playable in Unlimited only, never chosen as a daily answer. */
     dailyEligible: z.boolean(),
+    /**
+     * True when power or weight (or another field) rests on sources below the
+     * minimum-sourcing standard (databases, fan sites, a single article, a tested
+     * figure). Provisional cars are never daily answers. See docs/DATA_GUIDE.md.
+     */
+    provisional: z.boolean().optional(),
+    /** For a provisional record: which figures are provisional and what would replace them. */
+    provisionalNote: z.string().min(1).optional(),
   })
   .strict();
 

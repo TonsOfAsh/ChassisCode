@@ -1,0 +1,179 @@
+{
+  "id": "nissan-gt-r-r35-2009-2011",
+  "manufacturer": "Nissan",
+  "model": "GT-R",
+  "generation": "R35",
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Nissan GT-R (R35, 2009–2011)",
+  "aliases": [
+    "R35 GT-R",
+    "R35",
+    "GTR",
+    "Nissan GTR",
+    "Godzilla",
+    "VR38DETT",
+    "GT-R Premium",
+    "CBA-R35",
+    "2009 GT-R",
+    "2010 GT-R",
+    "2011 GT-R"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2011
+    },
+    "sourceId": "nissan-us-2009-gt-r-release",
+    "note": "US model years. The R35 GT-R is split into records by year range because its US power rating changed too much for one figure (480 hp in 2009, 565 hp from 2017). First: Nissan's release 'All-New 2009 Nissan GT-R Comes to North America'. Last: the 2011 press kit (nissan-us-2011-gt-r-press-kit); for 2012 Nissan says the engine \"now produces 530 horsepower (versus the previous 485 horsepower)\" (nissan-us-2012-gt-r-press-kit), which starts the 2012–2016 record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-us-2010-gt-r-press-kit",
+    "note": "Inferred from Nissan's description of the two-door, four-passenger GT-R; the kit does not use the word coupe. The databases list the styles as 'GT-R Coupe 2D' and 'GT-R Premium Coupe 2D' (kbb-gt-r-2010-specs)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2010-gt-r-press-kit",
+      "note": "'exclusive hand-assembled twin-turbo VR38DETT 3.8-liter V6 engine'"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "nissan-us-2010-gt-r-press-kit",
+      "note": "Nissan's US kit gives litres only ('3.8-liter'). Nissan's US heritage page gives '3796 cc' for the VR38DETT (nissan-us-heritage-2008-gt-r), which also rounds to 3.8."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "nissan-us-2010-gt-r-press-kit",
+      "note": "'twin-turbo VR38DETT'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2010-gt-r-press-kit",
+    "note": "Inferred from the kit's description of the twin-turbo petrol V6."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "nissan-us-2010-gt-r-press-kit",
+    "note": "'Electronically-controlled ATTESA E-TS all-wheel-drive system specifically developed for GT-R'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed DCT"
+    ],
+    "sourceId": "nissan-us-2010-gt-r-press-kit",
+    "note": "'paddle-shifted sequential six-speed dual clutch transmission; manual and automatic modes'. The only transmission."
+  },
+  "powerHp": {
+    "value": 485,
+    "sourceId": "nissan-us-2010-gt-r-press-kit",
+    "note": "2010 model year, GT-R and GT-R Premium. Quote: \"For 2010, the horsepower rating of the GT-R's 3.8-liter twin turbo V6 engine has been increased to 485 hp (from 480 hp)\". 485 hp applied to 2010 and 2011, two of this record's three model years: 2011 \"485 horsepower at 6,400 rpm and 434 lb-ft of torque at 3,200\" (nissan-us-2011-gt-r-press-kit). The 2009 car was rated 480 hp: \"480 horsepower @ 6,400 rpm\" (nissan-us-2009-gt-r-release)."
+  },
+  "weightLb": {
+    "value": 3814,
+    "sourceId": "edmunds-gt-r-2010-specs",
+    "note": "PROVISIONAL: spec databases only. 2010 base GT-R (2dr Coupe, the standard car), 6-speed dual-clutch. Three databases agree. Edmunds: \"Curb weight | 3,814 lbs.\" (2dr Coupe AWD). Cars.com: \"Base Curb Weight: 3,814 lbs\" (cars-com-gt-r-2010-specs). KBB: \"3,814 pounds\" for the GT-R Coupe 2D and \"3,829 pounds\" for the GT-R Premium Coupe 2D (kbb-gt-r-2010-specs). Nissan's 2009 to 2011 US press kits give no curb weight; Nissan's 2012 kit gives 3,829 lb for the Premium, the same as KBB's 2010 Premium figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2010-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2010 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/release-60174a63db4e461fb992fe36fe852cff-2010-nissan-gt-r-press-kit-3",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "nissan-us-2009-gt-r-release",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "All-New 2009 Nissan GT-R Comes to North America",
+      "url": "https://usa.nissannews.com/en-US/releases/all-new-2009-nissan-gt-r-comes-to-north-america",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2011-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2011 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/release-9f615165f18a4f22847ece5e49f105ae-2011-nissan-gt-r-press-kit-2",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-2012-gt-r-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2012 Nissan GT-R Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/release-8d819b8bfca040239270570ba854da79-US-2012-nissan-gt-r-press-kit",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "nissan-us-heritage-2008-gt-r",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2008 Nissan GT-R (R35) (heritage collection page)",
+      "url": "https://usa.nissannews.com/en-US/releases/2008-nissan-gt-r-r35",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-gt-r-2010-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2010 Nissan GT-R Features & Specs",
+      "url": "https://www.edmunds.com/nissan/gt-r/2010/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-gt-r-2010-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2010 Nissan GT-R specs & colors",
+      "url": "https://www.cars.com/research/nissan-gt_r-2010/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-gt-r-2010-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2010 Nissan GT-R Specs, Features & Options",
+      "url": "https://www.kbb.com/nissan/gt-r/2010/specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 485,
+          "sourceId": "nissan-us-2010-gt-r-press-kit"
+        },
+        {
+          "value": 480,
+          "sourceId": "nissan-us-2009-gt-r-release"
+        }
+      ],
+      "reason": "Model year. Nissan rated the 2009 car at 480 hp and the 2010 and 2011 cars at 485 hp.",
+      "resolution": "Used 485 hp: it applied to two of the three model years this record covers, and the reference model year is 2010."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,814 lb for the 2010 base GT-R rests on Edmunds, Cars.com and KBB (databases, all three agree). Nissan's 2009 to 2011 US press kits give no curb weight. A Nissan US specification table for 2010 or 2011, or a Car and Driver, Road & Track or MotorTrend spec panel for a 2010 or 2011 GT-R, would replace it. All other fields come from Nissan."
+}

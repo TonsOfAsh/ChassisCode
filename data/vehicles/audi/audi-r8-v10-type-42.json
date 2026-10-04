@@ -1,0 +1,195 @@
+{
+  "id": "audi-r8-v10-type-42",
+  "manufacturer": "Audi",
+  "model": "R8",
+  "generation": "Type 42",
+  "variant": "V10",
+  "subVariant": null,
+  "displayName": "Audi R8 V10 (Type 42)",
+  "aliases": [
+    "R8 5.2 FSI",
+    "R8 5.2 FSI quattro",
+    "R8 V10 Type 42",
+    "2010 R8 V10",
+    "R tronic",
+    "S tronic",
+    "quattro"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2015
+    },
+    "sourceId": "audi-us-2010-r8-release",
+    "note": "US model years. First: Audi of America, 23 July 2009: \"the 2010 Audi R8 5.2 FSI quattro V10 sports car will start at $146,000, with shipments to authorized Audi R8 dealerships across the country beginning this week\". Last: Kelley Blue Book (a database) lists R8 model years 2008-2012 and 2014-2015 for this generation, with no 2013 model year, and next 2017 (kbb-r8-years); its 2015 page lists the \"V10 Coupe 2D: 525 hp\" (kbb-r8-2015). The R8 V10 Plus (2014-2015, 550 hp) and the R8 Spyder are not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-us-2010-r8-release",
+    "note": "The open R8 Spyder is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "audi-mediacenter-r8-v10"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "audi-mediacenter-r8-v10",
+      "note": "5,204 cc per conceptcarz (a database): \"5204 cc | 317.6 cu in. | 5.2 L.\" (conceptcarz-r8-v10). Audi: \"The 5.2-liter engine uses direct injection\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "audi-mediacenter-r8-v10",
+      "note": "\"the naturally aspirated 5.2-liter engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-mediacenter-r8-v10",
+    "note": "FSI petrol direct injection."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-mediacenter-r8-v10",
+    "note": "\"The quattro permanent all-wheel drive distributes the engine's torque to all four wheels\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-mediacenter-r8-v10",
+    "note": "Audi: \"Audi delivers the R8 5.2 FSI quattro with manual six-speed transmission, or optionally with R tronic\" (R tronic is a single-clutch automated manual; 2010-2012). From the 2014 model year the R tronic was replaced by the 7-speed S tronic dual-clutch gearbox while the manual stayed: Audi release (2luxury2-r8-2013) \"The biggest change to the 2013 R8 is the seven-speed S-tronic transmission\", and KBB's 2014 page lists the V10 Coupe with \"6-speed manual or 7-speed dual-clutch automatic\" (kbb-r8-2014)."
+  },
+  "powerHp": {
+    "value": 525,
+    "sourceId": "audi-us-2010-r8-release",
+    "note": "Quote (Audi of America release of 23 July 2009, reproduced by TFLcar): \"The 10-cylinder 525 hp engine is the same power plant found in the R8 LMS GT3 racecar and is capable of delivering breathtaking performance.\" Audi AG gives the same rating as \"386 kW (525 hp)\" (audi-mediacenter-r8-v10). KBB lists 525 hp for the 2014 and 2015 V10 Coupe too (kbb-r8-2014, kbb-r8-2015)."
+  },
+  "weightLb": {
+    "value": 3715,
+    "sourceId": "iseecars-r8-2010",
+    "note": "PROVISIONAL: databases plus one newspaper review, all within 0.3%. 2010 coupe with the 6-speed manual (the standard car). Quote (iSeeCars, a database): \"5.2 quattro 2dr Coupe 6M\" \"Curb Weight | 3715 | lbs\" and \"5.2 quattro 2dr Coupe 6A\" \"Curb Weight | 3726 | lbs\". KBB (a database): \"5.2 Quattro Coupe 2D\" \"Curb Weight: 3726 pounds\" (transmission listed as automatic; kbb-r8-2010-specs). Dallas Morning News review of a six-speed manual 2010 R8 5.2: \"a car whose restless 525 horses push 3,726 pounds\" (dallasnews-r8-2010; no byline shown). Only iSeeCars separates the manual figure. Audi AG's European figure is \"1,620 kilograms\" for the manual car (audi-mediacenter-r8-v10), which conceptcarz prints as 3,570 lb; it is a European figure, not the US curb weight (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2010-r8-release",
+      "type": "manufacturer",
+      "publisher": "Audi of America (press release reproduced by TFLcar)",
+      "title": "2010 Audi R8 5.2 FSI quattro V10 sports car will start at $146,000 in the U.S. (23 July 2009)",
+      "url": "https://tflcar.com/?p=1750",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "audi-mediacenter-r8-v10",
+      "type": "manufacturer",
+      "publisher": "Audi AG (Audi MediaCenter)",
+      "title": "The Audi R8 5.2 FSI quattro: A new dimension in dynamics",
+      "url": "https://www.audi-mediacenter.com/en/the-audi-r8-5-dot-2-fsi-quattro-2559/a-new-dimension-in-dynamics-2587",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "2luxury2-r8-2013",
+      "type": "manufacturer",
+      "publisher": "Audi AG (release reproduced by 2luxury2)",
+      "title": "Audi debuts R8 V10 plus top model with new 7-speed S tronic for all variants (30 July 2012)",
+      "url": "https://www.2luxury2.com/?p=21490",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "iseecars-r8-2010",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2010 Audi R8 specs",
+      "url": "https://www.iseecars.com/car/2010-audi-r8-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-2010-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2010 Audi R8 specs",
+      "url": "https://www.kbb.com/audi/r8/2010/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dallasnews-r8-2010",
+      "type": "publication",
+      "publisher": "The Dallas Morning News",
+      "title": "Audi R8 5.2: All this and a V-10, too (10 April 2010)",
+      "url": "https://www.dallasnews.com/business/autos/2010/04/10/audi-r8-5-2-all-this-and-a-v-10-too",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-years",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Audi R8 (model years)",
+      "url": "https://www.kbb.com/audi/r8/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-2014",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2014 Audi R8",
+      "url": "https://www.kbb.com/audi/r8/2014/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-2015",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2015 Audi R8",
+      "url": "https://www.kbb.com/audi/r8/2015/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "conceptcarz-r8-v10",
+      "type": "database",
+      "publisher": "conceptcarz.com",
+      "title": "Audi R8 5.2 FSI quattro specifications",
+      "url": "https://www.conceptcarz.com/s16327/shows/shows.aspx",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3715,
+          "sourceId": "iseecars-r8-2010"
+        },
+        {
+          "value": 3726,
+          "sourceId": "kbb-r8-2010-specs"
+        },
+        {
+          "value": "3,570 lb (1,620 kg)",
+          "sourceId": "conceptcarz-r8-v10"
+        }
+      ],
+      "reason": "Transmission and market. iSeeCars gives 3,715 lb for the manual and 3,726 lb for the R tronic car; KBB and the Dallas Morning News give 3,726 lb. 3,570 lb is Audi AG's European 1,620 kg for the manual car converted, not a US curb weight.",
+      "resolution": "Used 3,715 lb, the US figure for the standard manual car; the US figures agree within 0.3%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,715 lb (2010 manual coupe) rests on iSeeCars (a database); the R tronic figure 3,726 lb is given by iSeeCars, KBB (databases) and a Dallas Morning News review. An Audi of America specification sheet (e.g. the 2010 R8 V10 technical sheet hosted on audiworld.com, which refused the fetch) or a Car and Driver, Road & Track or MotorTrend specification panel would replace it. The end year (2015) rests on KBB's model-year list."
+}

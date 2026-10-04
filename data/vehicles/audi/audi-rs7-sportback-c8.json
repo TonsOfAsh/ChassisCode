@@ -1,0 +1,135 @@
+{
+  "id": "audi-rs7-sportback-c8",
+  "manufacturer": "Audi",
+  "model": "RS7 Sportback",
+  "generation": "C8",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi RS7 Sportback (C8)",
+  "aliases": [
+    "RS 7",
+    "C8 RS7",
+    "RS7 C8",
+    "2021 RS 7",
+    "quattro",
+    "Tiptronic",
+    "4.0 TFSI",
+    "RS 7 Sportback"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2023
+    },
+    "sourceId": "audi-usa-rs-release-2020",
+    "note": "US model years 2021-2023 for this standard 591 hp car. Start: Audi of America, 16 Sep 2020: 'a trio of 2021 RS models are now on sale to customers in the U.S. - the highly anticipated RS 6 Avant, the RS 7, and the first RS-SUV, the RS Q8'. End year is provisional and rests on Kelley Blue Book (database): 2023 lists 'RS 7 Sedan 4D', '591 @ 6000 RPM' (kbb-rs-7-2023); 2024 lists only 'RS 7 performance Sedan 4D', '621 @ 6000 RPM' (kbb-rs-7-2024). The RS 7 performance (621 hp) is a separate variant."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "audi-usa-rs-release-2020",
+    "note": "Audi calls it a 'five-door coupe' (a four-door liftback, sold as the Sportback); Kelley Blue Book lists 'RS 7 Sedan 4D' and Cars.com '4dr Car'. Recorded as Sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "audi-usa-rs-release-2020",
+      "note": "'4.0-liter TFSI bi-turbo V8'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "audi-usa-rs-release-2020",
+      "note": "Audi: '4.0-liter TFSI'. Cars.com: 'Displacement 4.0 L/244' (carscom-rs-7-2021). The cc figure was not on a page opened for this car (the same 4.0 TFSI is 3,996 cc in Audi's RS 6/RS Q8 data)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "audi-usa-rs-release-2020",
+      "note": "'bi-turbo V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "carscom-rs-7-2021",
+    "note": "48-volt mild hybrid, so Gasoline per the data guide. Cars.com: 'Twin Turbo Gas/Electric V-8', 'Gasoline/Mild Electric Hybrid'."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "carscom-rs-7-2021",
+    "note": "Cars.com: 'All Wheel Drive' (quattro)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "carscom-rs-7-2021",
+    "note": "Cars.com: 'Transmission Options 8-Speed A/T' (tiptronic torque-converter automatic). Database source; Audi of America's release does not name the gearbox."
+  },
+  "powerHp": {
+    "value": 591,
+    "sourceId": "audi-usa-rs-release-2020",
+    "note": "Quote: \"The five-door coupe is equipped with a 4.0-liter TFSI® bi-turbo V8 that generates 591 horsepower and 590 lb-ft of torque.\" The later RS 7 performance (621 hp) is a separate variant."
+  },
+  "weightLb": {
+    "value": 4938,
+    "sourceId": "carscom-rs-7-2021",
+    "note": "PROVISIONAL: spec databases. 2021 US RS 7, single configuration. Cars.com quote: \"Base Curb Weight 4,938 lbs\". Kelley Blue Book (kbb-rs-7-2021) agrees: \"Curb Weight 4938 pounds\". Two databases agree; no Audi of America or major magazine figure was found. Audi's current US page gives 4,916 lb only for the 2026 RS 7 performance, a different variant."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-usa-rs-release-2020",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Trio of RS models - 2021 RS 6 Avant, RS 7 and Audi RS Q8 - on sale now",
+      "url": "https://media.audiusa.com/view/releases/434",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-rs-7-2021",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Audi RS 7 specs",
+      "url": "https://cars.com/research/audi-rs_7-2021/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-7-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Audi RS 7 specs",
+      "url": "https://www.kbb.com/audi/rs-7/2021/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-7-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Audi RS 7 specs",
+      "url": "https://www.kbb.com/audi/rs-7/2023/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-7-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Audi RS 7 specs",
+      "url": "https://www.kbb.com/audi/rs-7/2024/specs",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "provisionalNote": "Weight rests on Cars.com and Kelley Blue Book (databases, both 4,938 lb); an Audi of America specification sheet or a major magazine's specification panel would replace it. The last US model year (2023), the drivetrain and the transmission also rest on databases (Cars.com, Kelley Blue Book); an Audi of America model-year release or spec sheet would replace them.",
+  "discrepancies": [],
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true
+}

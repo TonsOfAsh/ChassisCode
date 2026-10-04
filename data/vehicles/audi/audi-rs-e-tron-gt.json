@@ -1,0 +1,144 @@
+{
+  "id": "audi-rs-e-tron-gt",
+  "manufacturer": "Audi",
+  "model": "RS e-tron GT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi RS e-tron GT",
+  "aliases": [
+    "e-tron GT RS",
+    "Audi e-tron GT",
+    "2022 RS e-tron GT",
+    "Electric Audi"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2024
+    },
+    "sourceId": "audi-usa-etron-gt-release-2021",
+    "note": "US model years 2022-2024. Start: Audi of America, 9 Feb 2021, 'Introducing the 2022 Audi e-tron GT and RS e-tron GT'. End year is provisional and rests on Kelley Blue Book (database): 2024 lists 'RS e-tron GT Sedan 4D', '590 HP' (kbb-rs-etron-gt-2024); 2025 lists only the 'RS e-tron GT Performance', '912 HP' (kbb-rs-etron-gt-2025), the updated car, which would be its own record."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "kbb-rs-etron-gt-2022",
+    "note": "Kelley Blue Book: 'RS e-tron GT Sedan 4D'; Audi calls it a 'grand turismo' (four-door)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "audi-usa-etron-gt-release-2021",
+      "note": "Two permanently excited synchronous motors, one per axle: 'The RS e-tron GT shares its front motor with the entry e-tron GT but has a more powerful rear motor'."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "audi-usa-etron-gt-release-2021"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "audi-usa-etron-gt-release-2021"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "audi-usa-etron-gt-release-2021"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-usa-etron-gt-release-2021",
+    "note": "'the RS e-tron GT distributes up to 637 horsepower to all four wheels'"
+  },
+  "transmission": {
+    "value": [
+      "2-speed Automatic"
+    ],
+    "sourceId": "audi-usa-etron-gt-release-2021",
+    "note": "'A unique feature in contrast to much of the Audi electric grand tourer's competition is its two-speed transmission' (on the rear axle; Cars.com lists '2-Speed A/T', carscom-rs-etron-gt-2022)."
+  },
+  "powerHp": {
+    "value": 637,
+    "sourceId": "audi-usa-etron-gt-release-2021",
+    "note": "Maximum rating with overboost, per the boost rule. Quote: \"a net 590 horsepower and up to 637 horsepower with overboost\". Ordinary rating 590 hp."
+  },
+  "weightLb": {
+    "value": 5139,
+    "sourceId": "carscom-rs-etron-gt-2022",
+    "note": "PROVISIONAL: spec databases. 2022 US RS e-tron GT, single configuration. Cars.com quote: \"Base Curb Weight: 5,139 lbs\". Kelley Blue Book (kbb-rs-etron-gt-2022): \"Curb Weight 5137 pounds\" (0.04% apart). No Audi of America or major magazine figure was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-usa-etron-gt-release-2021",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "The electric gran turismo: Introducing the 2022 Audi e-tron GT and RS e-tron GT",
+      "url": "https://media.audiusa.com/view/releases/459",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-rs-etron-gt-2022",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Audi RS e-tron GT specs",
+      "url": "https://cars.com/research/audi-rs_e_tron_gt-2022/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-etron-gt-2022",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Audi RS e-tron GT specs",
+      "url": "https://www.kbb.com/audi/rs-e-tron-gt/2022/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-etron-gt-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Audi RS e-tron GT specs",
+      "url": "https://www.kbb.com/audi/rs-e-tron-gt/2024/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-etron-gt-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Audi RS e-tron GT specs",
+      "url": "https://www.kbb.com/audi/rs-e-tron-gt/2025/specs",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 5139,
+          "sourceId": "carscom-rs-etron-gt-2022"
+        },
+        {
+          "value": 5137,
+          "sourceId": "kbb-rs-etron-gt-2022"
+        }
+      ],
+      "reason": "Two databases differ by 2 lb (rounding or data entry).",
+      "resolution": "Used 5,139 lb (Cars.com); the difference is negligible."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight rests on Cars.com and Kelley Blue Book (databases, 5,139 / 5,137 lb); an Audi of America specification sheet or a major magazine's specification panel would replace it. The last pre-update US model year (2024) also rests on Kelley Blue Book; an Audi of America release on the 2025 update would replace it."
+}

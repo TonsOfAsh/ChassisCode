@@ -1,0 +1,159 @@
+{
+  "id": "chevrolet-ss",
+  "manufacturer": "Chevrolet",
+  "model": "SS",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Chevrolet SS",
+  "aliases": [
+    "Chevy SS",
+    "SS sedan",
+    "Holden Commodore",
+    "VF Commodore",
+    "LS3",
+    "TAPshift",
+    "2014 Chevrolet SS"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2017
+    },
+    "sourceId": "chevrolet-2014-ss-brochure",
+    "note": "US model years. First: Chevrolet's 2014 SS brochure. Last: The Drive (Max Goldberg, 17 February 2017): \"the Chevrolet SS was ending production after the 2017 model year\" (thedrive-2017-ss-final-year); no opened Chevrolet page states the end year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "chevrolet-2014-ss-brochure",
+    "note": "'a sophisticated performance sedan'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-2014-ss-brochure",
+      "note": "'6.2L V8 SFI (LS3)'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "chevrolet-2014-ss-brochure",
+      "note": "Chevrolet's brochure gives litres only ('6.2L'); no cc figure was found on an opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "chevrolet-2014-ss-brochure",
+      "note": "Inferred from the brochure's description of the LS3 V8 (no forced induction mentioned)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-2014-ss-brochure",
+    "note": "Inferred from the brochure's description of the petrol LS3 V8 ('SFI')."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "chevrolet-2014-ss-brochure",
+    "note": "'race-tested rear-wheel-drive architecture'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "ttac-2015-ss-manual",
+    "note": "'the 2015 SS can be had with either a six-speed auto or, new for this year, a six-speed manual.' (The Truth About Cars, Cameron Aubernon, 27 November 2014). The 2014 car had only the automatic: '6-speed automatic with TAPshift manual shift control' (chevrolet-2014-ss-brochure)."
+  },
+  "powerHp": {
+    "value": 415,
+    "sourceId": "chevrolet-2014-ss-brochure",
+    "note": "2014 launch rating. Quote: \"6.2L V8 SFI (LS3) with 415 hp @ 5900 rpm and 415 lb.-ft. of torque @ 4600 rpm\"."
+  },
+  "weightLb": {
+    "value": 3975,
+    "sourceId": "creators-2014-ss-maynard",
+    "note": "PROVISIONAL: one named-author article, one unsigned article and three databases, all agreeing. 2014 SS sedan with the 6-speed automatic (the only transmission for 2014; the manual came for 2015). Mark Maynard (Creators Syndicate, 18 February 2014): \"3,975 pounds\". Yahoo Autos Motoramic, no author named: \"3,975 lbs.\" (yahoo-motoramic-2014-ss). Databases: Edmunds \"Curb weight | 3,975 lbs.\" (edmunds-ss-2014-specs), Cars.com \"Base Curb Weight 3,975 lbs\" (cars-com-ss-2014-specs), KBB \"3,975 pounds\" (kbb-ss-2014-specs). Chevrolet's brochure gives no curb weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-2014-ss-brochure",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (General Motors; brochure hosted by auto-brochures.com)",
+      "title": "2014 Chevrolet SS brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/SS/Chevrolet_US%20SS_2014.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "creators-2014-ss-maynard",
+      "type": "publication",
+      "publisher": "Creators Syndicate (Maynard's Garage)",
+      "title": "Yes: Chevy's New Performance Sedan Has Confidence, by Mark Maynard (18 February 2014)",
+      "url": "https://www.creators.com/read/maynards-garage/02/14/yes-chevys-new-performance-sedan-has-confidence",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "yahoo-motoramic-2014-ss",
+      "type": "publication",
+      "publisher": "Yahoo Autos (Motoramic)",
+      "title": "2014 Chevrolet SS, mixing with the best: Motoramic Drives",
+      "url": "https://autos.yahoo.com/blogs/motoramic/2014-chevrolet-ss-mixing-best-motoramic-drives-235300297.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-ss-2014-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2014 Chevrolet SS Features & Specs",
+      "url": "https://www.edmunds.com/chevrolet/ss/2014/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-ss-2014-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2014 Chevrolet SS specs & colors",
+      "url": "https://www.cars.com/research/chevrolet-ss-2014/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-ss-2014-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2014 Chevrolet SS Specs, Features & Options",
+      "url": "https://www.kbb.com/chevrolet/ss/2014/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ttac-2015-ss-manual",
+      "type": "publication",
+      "publisher": "The Truth About Cars",
+      "title": "2015 Chevrolet SS Now Available With Six-Speed Manual, by Cameron Aubernon (27 November 2014)",
+      "url": "https://www.thetruthaboutcars.com/2014/11/2015-chevrolet-ss-now-available-six-speed-manual/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "thedrive-2017-ss-final-year",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "Order Your 2017 Chevy SS While You Still Can, by Max Goldberg (17 February 2017)",
+      "url": "https://www.thedrive.com/news/7732/order-your-2017-chevy-ss-while-you-still-can",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,975 lb for the 2014 automatic sedan rests on one named-author article (Mark Maynard, Creators Syndicate), an unsigned Yahoo Motoramic review and three databases (Edmunds, Cars.com, KBB), all agreeing. A Chevrolet specification sheet (media.chevrolet.com, which refuses the research tools) or a Car and Driver, Road & Track or MotorTrend spec panel for a 2014 SS would replace it. The end year (2017) and the 2015 manual rest on editorial articles, not Chevrolet pages."
+}

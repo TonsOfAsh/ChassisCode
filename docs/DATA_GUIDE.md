@@ -165,7 +165,8 @@ Take the figure from the first of these that exists:
    the dry figure is itself for an optioned car.
 
 A manufacturer table headed or labelled as estimates ("est.", "WEIGHTS (Estimates)") does not
-count at step 1; hold the car until a final figure is found (ATS-V, Boss 302, Trackhawk).
+count at step 1; the car is held, or enters as a provisional record, until a final figure is found
+(Boss 302, CTS-V).
 
 Steps 3 and 4 were adopted on 2 October 2026 so that exotic cars can enter the game. They do not
 need `needsReview` on their own account. Never skip a step: an optioned or dry figure is used only
@@ -222,7 +223,8 @@ was actually opened and that actually states the value.
 
 ## Minimum sourcing
 
-A car enters the database only if all of these hold. Otherwise it is held back, not guessed.
+A car enters the database only if all of these hold. Otherwise it is held back, not guessed, or
+enters as a provisional record (see below).
 
 - Power comes from a manufacturer page or a major publication's specification panel that was
   actually opened, and the power note quotes the sentence or table line it came from.
@@ -230,6 +232,32 @@ A car enters the database only if all of these hold. Otherwise it is held back, 
   opened, and the weight note quotes it. A database is not enough for power or weight.
 - Production years, displacement and transmissions each have a cited source.
 - No unresolved discrepancy on power or weight.
+
+## Provisional records
+
+Adopted on 3 October 2026 so that well-known cars whose figures are hard to source can be played
+while better sources are looked for. A car that cannot meet "Minimum sourcing" may enter as a
+provisional record instead of being held back:
+
+- Allowed for the weak fields: spec databases (Edmunds, KBB, Cars.com), enthusiast sites, owners'
+  registries and club pages (source type `enthusiast`), a single article, or a magazine's tested
+  figure (say "tested" in the note). Every value must still come from a page that was opened and
+  quoted.
+- Still not allowed: unattributed figures, AI-generated text, or a figure for a different trim,
+  market, model year range or generation.
+- Use two agreeing sources where they exist, and say so. When only one exists, the note says that.
+- If the weak sources disagree by more than about 2%, the car stays held until it is known which is
+  right.
+- Set `provisional: true`, `dailyEligible: false` (provisional cars are Unlimited only), a
+  `provisionalNote` naming each provisional field, what it rests on and what would replace it, and
+  `confidence: "low"` (or `"medium"` when only a minor field is provisional). Each provisional
+  field's own note says what kind of source it came from.
+- Manufacturer and major-publication sources are still preferred for every field; only the fields
+  that cannot be sourced properly are provisional.
+- When a proper source turns up, replace the figure, clear `provisional` and `provisionalNote`, and
+  set `dailyEligible` back to true.
+
+`docs/PROVISIONAL.md` lists the provisional cars and what each one needs.
 
 ## Discrepancies
 

@@ -189,5 +189,7 @@
   "reviewNotes": "The Series 2 probably needs splitting into several records: it ran from 2001 with Rover K-series engines (5-speed; e.g. the 134 hp Sport 135 per PistonHeads), switched to Toyota engines in 2004 (111R / US Elise, 6-speed) and later included a supercharged SC model (mentioned by Magneto). This record describes only the US-market 2005 Elise (Toyota 2ZZ-GE, 190 hp), while the production years cover the whole Series 2. Also: curb weight relies on databases (Edmunds, Cars.com) because no Lotus document or publication spec panel with an exact US figure could be opened; production years are not confirmed by a Lotus source and the sources disagree (2001/2002 start, 2009/2010 end).",
   "confidence": "low",
   "image": null,
-  "dailyEligible": true
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight rests on Edmunds and Cars.com (databases), and the production years are not confirmed by a Lotus source. A Lotus Cars USA specification sheet or a major magazine spec panel for the 2005 US Elise would replace the weight."
 }

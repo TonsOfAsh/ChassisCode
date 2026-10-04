@@ -1,0 +1,124 @@
+{
+  "id": "lexus-gs-f",
+  "manufacturer": "Lexus",
+  "model": "GS",
+  "generation": null,
+  "variant": "F",
+  "subVariant": null,
+  "displayName": "Lexus GS F",
+  "aliases": [
+    "GSF",
+    "GS F Sedan",
+    "2UR-GSE",
+    "2016 GS F",
+    "2020 GS F"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2020
+    },
+    "sourceId": "lexus-us-2016-gs-f-debut",
+    "note": "US model years 2016-2020. First: '2016 Lexus GS F Performance Sedan'. Last: Autoblog (Sven Gustafson, 24 April 2020): Lexus will 'discontinue the entire remaining GS lineup, including the 467-horsepower GS F performance sedan, after production there ends in August' (autoblog-gs-discontinued-2020)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "lexus-us-2016-gs-f-debut",
+    "note": "'Performance Sedan'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "lexus-us-2016-gs-f-debut",
+      "note": "'naturally aspirated 5.0-liter V8'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "lexus-us-2016-gs-f-debut",
+      "note": "'5.0-liter'. No opened GS F page prints the cc figure; Cars.com lists '5.0 L/303' (cars-com-2016-gs-f)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lexus-us-2016-gs-f-debut",
+      "note": "'High-revving naturally aspirated 5.0-liter V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lexus-us-2016-gs-f-debut",
+    "note": "Inferred: naturally aspirated gasoline V8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lexus-us-2016-gs-f-debut",
+    "note": "Rear-wheel drive with the Torque Vectoring Differential; inferred from the release ('well beyond that of what a traditional rear-wheel-drive vehicle can offer')."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "lexus-us-2016-gs-f-debut",
+    "note": "'the 8-speed Sport Direct Shift (SPDS) automatic transmission'"
+  },
+  "powerHp": {
+    "value": 467,
+    "sourceId": "lexus-us-2016-gs-f-debut",
+    "note": "Quote: \"High-revving naturally aspirated 5.0-liter V8 produces 467 Horsepower\". Unchanged through 2020 (Autoblog, 2020: 'the 467-horsepower GS F')."
+  },
+  "weightLb": {
+    "value": 4034,
+    "sourceId": "cars-com-2016-gs-f",
+    "note": "PROVISIONAL, from databases. 2016 GS F sedan, 8-speed automatic (the only configuration). Cars.com: \"Base Curb Weight: 4,034 lbs\". Edmunds, '4dr Sedan (5.0L 8cyl 8A)': \"Curb weight: 4,034 lbs.\" (edmunds-2016-gs-f). "
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lexus-us-2016-gs-f-debut",
+      "type": "manufacturer",
+      "publisher": "Lexus (pressroom.lexus.com)",
+      "title": "2016 Lexus GS F Performance Sedan Offers a Dynamic Ride, Luxurious Comfort for Five",
+      "url": "https://pressroom.lexus.com/2016-lexus-gs-f-debut/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoblog-gs-discontinued-2020",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "Lexus GS sedan discontinued (Sven Gustafson, 24 April 2020)",
+      "url": "https://www.autoblog.com/2020/04/24/lexus-gs-sedan-discontinued/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2016-gs-f",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2016 Lexus GS F specs & colors",
+      "url": "https://www.cars.com/research/lexus-gs_f-2016/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-2016-gs-f",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2016 Lexus GS F features & specs",
+      "url": "https://www.edmunds.com/lexus/gs-f/2016/features-specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 4,034 lb rests on Cars.com and Edmunds (databases). A Lexus US specification sheet or a major magazine's spec panel would replace it."
+}

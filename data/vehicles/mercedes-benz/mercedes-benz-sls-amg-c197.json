@@ -11,7 +11,6 @@
     "SLS AMG Gullwing",
     "Gullwing",
     "Mercedes SLS",
-    "SLS AMG Roadster",
     "R197",
     "M159",
     "AMG SPEEDSHIFT DCT"
@@ -27,11 +26,10 @@
   },
   "body": {
     "value": [
-      "Coupe",
-      "Convertible"
+      "Coupe"
     ],
     "sourceId": "kbb-sls-2012-review",
-    "note": "Gullwing coupe from 2011; SLS AMG Roadster added for 2012 ('The roadster loses the gullwing door design'). Listed as Convertible per the data guide because a fixed-roof version of the same variant exists."
+    "note": "Gullwing coupe. The open car added for 2012 was sold under its own name as the SLS AMG Roadster, so under the data guide it is not part of this record."
   },
   "engine": {
     "configuration": {
@@ -75,7 +73,7 @@
   "weightLb": {
     "value": 3573,
     "sourceId": "mbusa-sls-fascination-2009",
-    "note": "Coupe with the only transmission (7-speed DCT), as published in pounds by Mercedes-Benz USA. Quote: \"... a sports chassis with aluminum double-wishbone suspension; and a DIN curb weight of 3,573 pounds.\" MBUSA labels the figure a DIN curb weight. KBB's 2011 SLS AMG specifications list the same 3,573 lb curb weight (kbb-sls-2011-specs, a database, corroboration only). KBB lists 3,661 lb for 2012 without saying which body style. See discrepancies and reviewNotes."
+    "note": "PROVISIONAL: a manufacturer figure labelled DIN, corroborated by databases. Coupe with the only transmission (7-speed DCT), as published in pounds by Mercedes-Benz USA. Quote: \"... a sports chassis with aluminum double-wishbone suspension; and a DIN curb weight of 3,573 pounds.\" MBUSA labels the figure a DIN curb weight, and the release is the US edition of the 2009 world-premiere text, so it may be the European DIN weight (1,620 kg) in pounds rather than a US specification. Two US databases list the same figure for the 2011 coupe: Edmunds \"Curb weight | 3,573 lbs.\" for the '2dr Coupe (6.2L 8cyl 7AM)' (edmunds-sls-2011-specs) and KBB \"3,573 pounds\" for the 'SLS-Class SLS AMG Coupe 2D' (kbb-sls-2011-specs). KBB lists 3,661 lb for 2012 without saying which body style."
   },
   "specBasis": {
     "market": "US",
@@ -107,7 +105,7 @@
       "publisher": "Kelley Blue Book",
       "title": "2011 Mercedes-Benz SLS-Class Specs, Features & Options",
       "url": "https://www.kbb.com/mercedes-benz/sls-class/2011/specs",
-      "accessed": "2026-10-01"
+      "accessed": "2026-10-03"
     },
     {
       "id": "kbb-sls-2012-review",
@@ -140,6 +138,14 @@
       "title": "Mercedes SLS AMG GT review",
       "url": "https://www.evo.co.uk/mercedes/sls/7194/mercedes-sls-amg-gt-review",
       "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-sls-2011-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2011 Mercedes-Benz SLS AMG Features & Specs",
+      "url": "https://www.edmunds.com/mercedes-benz/sls-amg/2011/features-specs/",
+      "accessed": "2026-10-03"
     }
   ],
   "discrepancies": [
@@ -159,9 +165,10 @@
       "resolution": "Use 3,573 lb, the figure in Mercedes-Benz USA's own document."
     }
   ],
-  "needsReview": true,
-  "reviewNotes": "Weight: the 3,573 lb figure comes from a Mercedes-Benz USA release, but MBUSA calls it a 'DIN curb weight' and the release is the US edition of the September 2009 world-premiere text, so it may be the European DIN weight expressed in pounds rather than a separately measured US curb weight. MBUSA's '2011 Mercedes-Benz SLS AMG Technical Data' sheet exists in search results but returned 404, and the body of the 'Comprehensive Product Information' kit could not be read (only its title and date), so no US technical-data table was seen. KBB's 2011 spec table lists the same 3,573 lb. Production: the 2011-2012 model-year range for the standard car rests on KBB's year pages (2012 by a named author, 2013 by 'KBB Editors'); no MBUSA page stating that the SLS AMG GT replaced the standard car for 2013 could be opened.",
-  "confidence": "medium",
+  "needsReview": false,
+  "confidence": "low",
   "image": null,
-  "dailyEligible": true
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,573 lb comes from a Mercedes-Benz USA release that calls it a 'DIN curb weight' (possibly the European DIN figure in pounds), corroborated by Edmunds and KBB (databases), which list the same figure for the 2011 US coupe. MBUSA's '2011 Mercedes-Benz SLS AMG Technical Data' sheet (it returned 404) or a Car and Driver, Road & Track or MotorTrend spec panel for a 2011 SLS AMG would replace it. The 2011 to 2012 model years of the standard 563 hp car rest on KBB's year pages (a named-author review for 2012, 'KBB Editors' for 2013); an MBUSA page saying the SLS AMG GT replaced it for 2013 would confirm the end year."
 }

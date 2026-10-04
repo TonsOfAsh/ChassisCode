@@ -1,0 +1,169 @@
+{
+  "id": "audi-r8-v10-plus-4s",
+  "manufacturer": "Audi",
+  "model": "R8",
+  "generation": "4S",
+  "variant": "V10 Plus",
+  "subVariant": null,
+  "displayName": "Audi R8 V10 Plus (4S)",
+  "aliases": [
+    "R8 V10 plus",
+    "2017 R8 V10 plus",
+    "R8 4S",
+    "R8 Type 4S",
+    "S tronic",
+    "quattro"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2018
+    },
+    "sourceId": "audi-us-2017-r8-release",
+    "note": "US model years. First: Audi of America's release announcing pricing for \"the all-new 2017 R8\". Last: Kelley Blue Book (a database) lists R8 model years 2017, 2018 and then 2020, with no 2019 (kbb-r8-years); its 2017 and 2018 pages list the V10 plus Coupe (kbb-r8-2017-plus, kbb-r8-2018-specs). The 2020 facelift's V10 performance is a different variant."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-us-2017-r8-release",
+    "note": "The open R8 Spyder is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "audi-us-2017-r8-release",
+      "note": "\"5.2-liter V10 FSI\""
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "audi-us-2017-r8-release",
+      "note": "5,204 cc per carsales.com.au (a database, 2017 R8 V10 Plus): \"5204 cc\" (carsales-r8-2017-plus). Audi: \"5.2-liter V10 FSI\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "audi-us-2017-r8-release",
+      "note": "Inferred: a 5.2-liter V10 FSI with no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2017-r8-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2017-r8-release",
+    "note": "\"seven-speed S tronic with quattro AWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-us-2017-r8-release",
+    "note": "\"seven-speed S tronic\" dual-clutch; no manual was offered on this generation."
+  },
+  "powerHp": {
+    "value": 610,
+    "sourceId": "audi-us-2017-r8-release",
+    "note": "Quote (Audi of America release, specification table): \"R8 V10 plus | 5.2-liter V10 FSI | seven-speed S tronic with quattro AWD | 610 hp @ 8,250 - 8,700 rpm\". KBB's 2017 page agrees: \"Horsepower | 610 @ 8250 RPM\" (kbb-r8-2017-plus). KBB's 2018 specifications page shows \"602 @ 8250 RPM\" for the V10 plus Coupe (kbb-r8-2018-specs), not explained by any Audi page opened; the 2017 rating is used. KBB's 602 hp for 2018 is Audi's 610 PS converted (x 0.98632); Audi's US '610 hp' is numerically the PS figure and is used as published, as for the 918 Spyder."
+  },
+  "weightLb": {
+    "value": 3572,
+    "sourceId": "autoguide-r8-plus-2017",
+    "note": "PROVISIONAL: one named-author article and one database, agreeing. Quote (AutoGuide, Jonathan Yarkony, 15 September 2016, Fast Facts table): \"Curb weight: 3,572 pounds (1,620 kg)\". KBB (a database): \"Curb Weight | 3572 lbs.\" for the 2017 R8 V10 plus Coupe 2D (kbb-r8-2017-plus), and \"3,572 pounds\" on its 2018 page (kbb-r8-2018-specs). Coupe, 7-speed S tronic (the only configuration). See discrepancies for a lower figure printed by duPont Registry."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2017-r8-release",
+      "type": "manufacturer",
+      "publisher": "Audi of America (press release reproduced by AudiWorld)",
+      "title": "Audi of America announces pricing for the all-new 2017 R8, the fastest and most powerful Audi production model ever",
+      "url": "https://audiworld.com/?p=26488",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoguide-r8-plus-2017",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "2017 Audi R8 V10 Plus Review (Jonathan Yarkony, 15 September 2016)",
+      "url": "https://www.autoguide.com/manufacturer/audi/2017-audi-r8-v10-plus-review",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-2017-plus",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2017 Audi R8 V10 plus Coupe 2D",
+      "url": "https://www.kbb.com/audi/r8/2017/v10-plus-coupe-2d",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-2018-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2018 Audi R8 Specs, Features & Options",
+      "url": "https://www.kbb.com/audi/r8/2018/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-r8-years",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Audi R8 (model years)",
+      "url": "https://www.kbb.com/audi/r8/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carsales-r8-2017-plus",
+      "type": "database",
+      "publisher": "carsales.com.au",
+      "title": "Audi R8 2017 overview (V10 Plus)",
+      "url": "https://www.carsales.com.au/research/audi/r8/2017/plus/90453648-9f99-4c2a-92e2-c18016322840/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dupontregistry-r8-plus-2018",
+      "type": "publication",
+      "publisher": "duPont Registry",
+      "title": "2018 Audi R8 V10 Plus Specs, Price, Photos & Review (Andrew Nabors, 3 November 2017)",
+      "url": "https://news.dupontregistry.com/blogs/2018-buyers-guide/audi-r8-v10-plus-price-specs-review",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3572,
+          "sourceId": "autoguide-r8-plus-2017"
+        },
+        {
+          "value": 3572,
+          "sourceId": "kbb-r8-2017-plus"
+        },
+        {
+          "value": "3,205.5 lb",
+          "sourceId": "dupontregistry-r8-plus-2018"
+        }
+      ],
+      "reason": "duPont Registry says the 2018 R8 V10 Plus coupe weighs \"3,205.5 pounds\" (about 1,454 kg, converted here) without saying whether this is a curb or dry weight; it is about 10% below the curb figures. It is probably Audi's European dry weight, but no Audi page stating that was opened.",
+      "resolution": "Used 3,572 lb, the figure labelled curb weight by AutoGuide and KBB. A human should confirm that duPont's figure is a dry weight."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Confirm that duPont Registry's 3,205.5 lb is a dry weight, not a competing curb weight.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,572 lb rests on one named-author article (AutoGuide, Jonathan Yarkony) and KBB (a database), agreeing. An Audi of America specification sheet for the 2017 or 2018 R8 or a Car and Driver, Road & Track or MotorTrend specification panel would replace it. The end year (2018) rests on KBB's model-year list."
+}

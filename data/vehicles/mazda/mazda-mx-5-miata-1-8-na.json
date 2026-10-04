@@ -1,0 +1,141 @@
+{
+  "id": "mazda-mx-5-miata-1-8-na",
+  "manufacturer": "Mazda",
+  "model": "MX-5 Miata",
+  "generation": "NA",
+  "variant": "1.8",
+  "subVariant": null,
+  "displayName": "Mazda MX-5 Miata 1.8 (NA)",
+  "aliases": [
+    "Miata",
+    "MX-5",
+    "NA8",
+    "NA Miata",
+    "Eunos Roadster",
+    "1994 Miata"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1994,
+      "endYear": 1997
+    },
+    "sourceId": "petrolicious-miata-na",
+    "note": "US model years. Petrolicious: 'for 1994, Mazda upgraded the powerplant to a 1.8-liter engine'. End (provisional): Edmunds lists a 1997 MX-5 Miata with the 1.8 L (edmunds-1997-miata, database), Petrolicious treats 1997 as the NA's final model year, and Mazda says the next generation 'debuted in 1998 as a 1999 model year' (mazda-nao-miata-25)."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "petrolicious-miata-na",
+    "note": "Two-seat roadster with no fixed-roof version."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "kbb-1994-miata",
+      "note": "KBB: '4-Cyl, 1.8 Liter' (database)"
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "petrolicious-miata-na",
+      "note": "'a 1.8-liter engine'; Edmunds 'Engine Size 1.8 L' (edmunds-1994-miata). No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "petrolicious-miata-na",
+      "note": "No forced induction is mentioned; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "petrolicious-miata-na"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "petrolicious-miata-na",
+    "note": "Front-engine, rear-wheel-drive roadster."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "petrolicious-miata-na",
+    "note": "Petrolicious: 'either a five-speed manual or the much rarer four-speed automatic'."
+  },
+  "powerHp": {
+    "value": 128,
+    "sourceId": "petrolicious-miata-na",
+    "note": "PROVISIONAL (single article plus databases). Quote (Petrolicious, Khris Bharath): \"for 1994, Mazda upgraded the powerplant to a 1.8-liter engine with 128 horsepower and a much sturdier differential.\" Edmunds 1994: \"Horsepower 128 hp @ 6,500 rpm\" (edmunds-1994-miata); KBB 1994: \"128 @ 6500 RPM\" (kbb-1994-miata). From 1996 the rating was 133 hp (Edmunds 1996 and 1997: \"133 hp @ 6,500 rpm\", edmunds-1996-miata, edmunds-1997-miata). Reference year is the launch year 1994; 128 hp and 133 hp each cover two model years."
+  },
+  "weightLb": {
+    "value": 2293,
+    "sourceId": "edmunds-1994-miata",
+    "note": "PROVISIONAL (databases). 1994 '2dr Convertible', 5-speed manual. Quote (Edmunds): \"Curb Weight 2,293 lbs.\" KBB 1994 'Convertible 2D' agrees: \"Curb Weight: 2293 lbs.\" (kbb-1994-miata). Edmunds prints the same figure for 1996 and 1997, so the databases do not show any year-to-year change."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1994,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "petrolicious-miata-na",
+      "type": "publication",
+      "publisher": "Petrolicious",
+      "title": "Mazda MX-5 Miata (NA) Buyer's Guide: History, Trims, Specs, and Market (Khris Bharath)",
+      "url": "https://petrolicious.com/blogs/articles/mazda-mx-5-miata-na-buyers-guide",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "mazda-nao-miata-25",
+      "type": "manufacturer",
+      "publisher": "Mazda North American Operations",
+      "title": "Mazda MX-5 Miata Celebrates 25 Years of Exhilaration (press release, 7 February 2014)",
+      "url": "https://www.prnewswire.com/news-releases/mazda-mx-5-miata-celebrates-25-years-of-exhilaration-244191701.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1994-miata",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1994 Mazda MX-5 Miata specs & features",
+      "url": "https://www.edmunds.com/mazda/mx-5-miata/1994/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1994-miata",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1994 Mazda MX-5 Miata specs",
+      "url": "https://www.kbb.com/mazda/mx-5-miata/1994/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1996-miata",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1996 Mazda MX-5 Miata specs & features",
+      "url": "https://www.edmunds.com/mazda/mx-5-miata/1996/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1997-miata",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1997 Mazda MX-5 Miata specs & features",
+      "url": "https://www.edmunds.com/mazda/mx-5-miata/1997/features-specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (128 hp) rests on one article (Petrolicious) and two databases (Edmunds, KBB); weight (2,293 lb) rests on Edmunds and KBB; the end year 1997 rests on Edmunds' 1997 listing and Petrolicious. A Mazda press kit or brochure, or a major magazine spec panel, for the 1994 1.8 would replace them."
+}

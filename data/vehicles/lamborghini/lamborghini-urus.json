@@ -1,0 +1,169 @@
+{
+  "id": "lamborghini-urus",
+  "manufacturer": "Lamborghini",
+  "model": "Urus",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Lamborghini Urus",
+  "aliases": [
+    "Urus 4.0 V8",
+    "2019 Urus",
+    "Lamborghini SUV",
+    "Lambo Urus"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2022
+    },
+    "sourceId": "kbb-urus-years",
+    "note": "US model years. Kelley Blue Book (a database) lists Urus model years from 2019 (kbb-urus-years); its 2022 page lists the Urus \"Sport Utility 4D\" with \"641 @ 6000 RPM\" (kbb-urus-2022), and its 2023 page lists only the \"Urus S\" and \"Urus Performante\" (kbb-urus-2023), which are separate variants. The Drive: \"2019 Lamborghini Urus\" (thedrive-urus-2019)."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "thedrive-urus-2019"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "thedrive-urus-2019",
+      "note": "\"twin-turbocharged, 4.0-liter V8\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "carsdata-urus-2018",
+      "note": "3,996 cc. cars-data.com (a database): \"4.0 L (3,996 cc)\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "thedrive-urus-2019",
+      "note": "\"twin-turbocharged, 4.0-liter V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "thedrive-urus-2019"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "guideautoweb-urus-2019",
+    "note": "Guide Auto: \"That prodigious output is sent to all four wheels via an eight-speed automatic transmission...\""
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "thedrive-urus-2019",
+    "note": "\"eight-speed automatic gearbox\" (torque converter)"
+  },
+  "powerHp": {
+    "value": 641,
+    "sourceId": "thedrive-urus-2019",
+    "note": "PROVISIONAL: named-author articles and a database, agreeing. Quote (The Drive, Chris Constantine, 4 December 2017): \"650 metric horsepower (641 in U.S. and British ponies)\". WhichCar (Chris Thompson, 5 December 2017): \"478kW twin-turbo V8\" (whichcar-urus-2018); 478 kW x 1.34102 = 641 hp. KBB (a database): \"Horsepower | 641 @ 6000 RPM\" for the 2019 Urus (kbb-urus-2019-specs). 650 CV x 0.98632 = 641 hp. No Lamborghini page stating the rating could be opened in this pass."
+  },
+  "weightLb": {
+    "value": 4844,
+    "sourceId": "iseecars-urus-2019",
+    "note": "PROVISIONAL: a database plus named-author articles, all within 0.2%. Quote (iSeeCars, a database, 2019 Urus): \"Curb Weight | 4844 | lbs\" (2,197 kg). Guide Auto (Michel Deslauriers, 14 February 2018): \"just under 2200 kilograms (4850 lbs.)\" (guideautoweb-urus-2019). Autocar: \"A kerb weight of 2200kg is not embarrassing\" (autocar-urus). cars-data.com (a database): \"2,200 kg (4,850 lb)\" (carsdata-urus-2018). Lamborghini itself is quoted only with an upper limit: \"Lamborghini adds that the Urus weighs less than 2200kg\" (whichcar-urus-2018). It is not certain that iSeeCars' 4,844 lb is a curb rather than a dry figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "thedrive-urus-2019",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2019 Lamborghini Urus Revealed, Packing 641-HP V8 and $200,000 Base Price (Chris Constantine, 4 December 2017)",
+      "url": "https://www.thedrive.com/new-cars/16654/2019-lamborghini-urus-revealed-packing-641-hp-v-8-and-200000-base-price",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "whichcar-urus-2018",
+      "type": "publication",
+      "publisher": "WhichCar",
+      "title": "2018 Lamborghini Urus revealed (Chris Thompson, 5 December 2017)",
+      "url": "https://www.whichcar.com.au/news/2018-lamborghini-urus-revealed",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "guideautoweb-urus-2019",
+      "type": "publication",
+      "publisher": "Guide Auto",
+      "title": "2019 Lamborghini Urus Preview (Michel Deslauriers, 14 February 2018)",
+      "url": "https://www.guideautoweb.com/en/articles/45486/2019-lamborghini-urus-preview/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autocar-urus",
+      "type": "publication",
+      "publisher": "Autocar",
+      "title": "Lamborghini Urus (opinion)",
+      "url": "https://www.autocar.co.uk/node/84952",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "iseecars-urus-2019",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2019 Lamborghini Urus specs",
+      "url": "https://www.iseecars.com/car/2019-lamborghini-urus-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-urus-2019-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Lamborghini Urus specs",
+      "url": "https://www.kbb.com/lamborghini/urus/2019/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-urus-years",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Lamborghini Urus (model years)",
+      "url": "https://www.kbb.com/lamborghini/urus/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-urus-2022",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Lamborghini Urus",
+      "url": "https://www.kbb.com/lamborghini/urus/2022/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-urus-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Lamborghini Urus",
+      "url": "https://www.kbb.com/lamborghini/urus/2023/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carsdata-urus-2018",
+      "type": "database",
+      "publisher": "cars-data.com",
+      "title": "Lamborghini Urus 2018 full specifications",
+      "url": "https://cars-data.com/en/lamborghini/urus/2018/urus--94957/specs",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power and weight are provisional. Power (641 hp = 650 CV) rests on named-author articles (The Drive, WhichCar) and KBB; a Lamborghini press release or technical sheet (lamborghini.com and media.lamborghini.com could not be read) or a major magazine panel would replace it. Weight (4,844 lb) rests on iSeeCars (a database), with Guide Auto, Autocar and cars-data.com giving 'just under' or about 2,200 kg (4,850 lb); Lamborghini states only 'less than 2200kg'. A Lamborghini curb weight, a major magazine specification panel, or failing those a Lamborghini dry weight would replace it. The end year (2022) rests on KBB."
+}

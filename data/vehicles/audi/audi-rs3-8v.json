@@ -1,0 +1,118 @@
+{
+  "id": "audi-rs3-8v",
+  "manufacturer": "Audi",
+  "model": "RS3",
+  "generation": "8V",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi RS3 (8V)",
+  "aliases": [
+    "RS 3",
+    "RS3 Sedan",
+    "8V RS3",
+    "2.5 TFSI",
+    "five-cylinder",
+    "S tronic",
+    "quattro",
+    "2017 RS3",
+    "2018 RS3"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "US model years. First: the 2018 press kit says 'A limited number of 2017 RS 3 models will be produced. These will be the first vehicles arriving in the US' (a token early run, counted). Last: Audi of America's April 2020 release covers 'the 2020 Audi RS 3 Nardo edition' (audi-us-2020-rs3-nardo); J.D. Power's model-year list for the RS 3 runs 2017-2020 then 2022 onward (jdpower-rs3-model-years), the 2022 car being the next generation."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "'All-new 2018 RS 3 sedan'; only the sedan was sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I5",
+      "sourceId": "audi-us-2018-rs3-press-kit",
+      "note": "2.5 TFSI five-cylinder"
+    },
+    "displacementL": {
+      "value": 2.5,
+      "sourceId": "audi-us-2018-rs3-press-kit",
+      "note": "2,480 cc ('151 (cu in) 2480 (cc)')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "audi-us-2018-rs3-press-kit",
+      "note": "TFSI turbocharged five-cylinder; a single turbocharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "Inferred: TFSI gasoline engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "'Seven-speed S tronic dual-clutch automatic transmission and quattro'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "'Seven-speed S tronic dual-clutch automatic transmission' (S tronic is a DCT). No manual."
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "Quote: \"400 @ 5,850-7,000\" (horsepower row). 400 hp applied to model years 2017-2018; for 2019-2020 Audi of America rated the car at 394 hp ('producing 394 horsepower and 354 lb-ft of torque', audi-us-2020-rs3-nardo). The two ratings each cover two model years, so the launch rating is used."
+  },
+  "weightLb": {
+    "value": 3593,
+    "sourceId": "audi-us-2018-rs3-press-kit",
+    "note": "Sedan, 7-speed S tronic (the only configuration), 2018 model year. Quote: \"3,593 (1630 kg)\" (curb weight row of the technical specifications; no estimate label). Cars.com and KBB list the same 3,593 lb for 2017. The 2018 press kit is the earliest opened source with a manufacturer weight, so 2018 is the reference year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2018-rs3-press-kit",
+      "type": "manufacturer",
+      "publisher": "Audi of America (press kit hosted by AudiWorld)",
+      "title": "2018 Audi RS 3 press kit (revised July 2017)",
+      "url": "https://www.audiworld.com/wp-content/uploads/2018/12/2018AudiRS3Presskit.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "audi-us-2020-rs3-nardo",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Audi RS 3 Nardo edition: turning grey skies blue (3 April 2020)",
+      "url": "https://media.audiusa.com/view/releases/402",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jdpower-rs3-model-years",
+      "type": "database",
+      "publisher": "J.D. Power",
+      "title": "Audi RS 3 model years and history",
+      "url": "https://www.jdpower.com/cars/history/audi/rs-3",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

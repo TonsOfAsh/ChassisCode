@@ -115,10 +115,16 @@ for (const file of loadRawFiles(dir)) {
   ]);
   for (const id of sourceIds)
     if (!usedSources.has(id) && !noteText.includes(id)) warn(name, `Source "${id}" is listed but never cited.`);
+  if (v.provisional) {
+    if (v.dailyEligible) error(name, 'Is provisional but dailyEligible is true; provisional cars are Unlimited only.');
+    if (!v.provisionalNote) error(name, 'Is provisional but has no provisionalNote saying what would replace its weak sources.');
+  } else if (v.provisionalNote) error(name, 'Has a provisionalNote but provisional is not true.');
+  for (const s of v.sources)
+    if (s.type === 'enthusiast' && !v.provisional) error(name, `Source "${s.id}" is an enthusiast site, allowed only in provisional records.`);
   const powerSource = v.sources.find((s) => s.id === v.powerHp.sourceId);
-  if (powerSource?.type === 'database') warn(name, 'Power is sourced from a database; prefer a manufacturer or publication source.');
+  if (!v.provisional && powerSource?.type === 'database') warn(name, 'Power is sourced from a database; prefer a manufacturer or publication source.');
   const weightSource = v.sources.find((s) => s.id === v.weightLb.sourceId);
-  if (weightSource?.type === 'database') warn(name, 'Weight is sourced from a database; prefer a manufacturer or publication source.');
+  if (!v.provisional && weightSource?.type === 'database') warn(name, 'Weight is sourced from a database; prefer a manufacturer or publication source.');
 
   // Impossible or suspicious numbers
   const { startYear, endYear } = v.production.value;
@@ -161,7 +167,7 @@ for (const file of loadRawFiles(dir)) {
     warn(name, 'Non-US record gives model years; it should give calendar build years.');
   if (v.specBasis.weightType === 'dry') warn(name, 'Weight is a dry weight, not curb weight.');
   if (v.needsReview) warn(name, `Flagged for manual review${v.reviewNotes ? `: ${v.reviewNotes}` : '.'}`);
-  if (v.confidence === 'low') warn(name, 'Confidence is low.');
+  if (v.confidence === 'low' && !v.provisional) warn(name, 'Confidence is low.');
 }
 
 // ---------------------------------------------------------------------------
@@ -249,8 +255,9 @@ for (const i of [...errors, ...warnings]) console.log(`${i.level}:\n${i.subject}
 
 const review = vehicles.filter((x) => x.v.needsReview).length;
 const noImage = vehicles.filter((x) => !x.v.image).length;
+const provisional = vehicles.filter((x) => x.v.provisional).length;
 console.log(
   `${vehicles.length} vehicles checked in ${join(dir).replace(/\\/g, '/')}\n` +
-    `${errors.length} errors, ${warnings.length} warnings, ${review} flagged for review, ${noImage} without an image`,
+    `${errors.length} errors, ${warnings.length} warnings, ${review} flagged for review, ${provisional} provisional, ${noImage} without an image`,
 );
 process.exit(errors.length > 0 || (strict && warnings.length > 0) ? 1 : 0);

@@ -1,0 +1,149 @@
+{
+  "id": "lexus-rc-f",
+  "manufacturer": "Lexus",
+  "model": "RC",
+  "generation": null,
+  "variant": "F",
+  "subVariant": null,
+  "displayName": "Lexus RC F",
+  "aliases": [
+    "RCF",
+    "RC F Coupe",
+    "2UR-GSE",
+    "RC F Final Edition",
+    "2015 RC F",
+    "2020 RC F"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2025
+    },
+    "sourceId": "lexus-us-rc-brochure-2015",
+    "note": "US model years 2015-2025. First: Lexus's 2015 US brochure, '2015 RC F'. Last: Lexus, 16 January 2025: 'the Lexus RC and RC F will officially be discontinued at the conclusion of this model year' (lexus-us-2025-rc-swan-song), which also describes a 2025 Final Edition."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lexus-us-rc-brochure-2015",
+    "note": "Two-door coupe only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "lexus-us-2020-rc-f",
+      "note": "'naturally aspirated 5.0-liter V8'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "lexus-us-2020-rc-f",
+      "note": "'5.0-liter'. No opened RC F page prints the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lexus-us-2020-rc-f",
+      "note": "'naturally aspirated 5.0-liter V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lexus-us-2020-rc-f",
+    "note": "Inferred: naturally aspirated gasoline V8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "lexus-us-rc-brochure-2015",
+    "note": "'RWD STANDARD DRIVETRAIN'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "lexus-us-rc-brochure-2015",
+    "note": "'EIGHT-SPEED SPORT DIRECT-SHIFT SEQUENTIAL TRANSMISSION WITH PADDLE SHIFTERS' (torque-converter automatic). The 2025 release repeats 'eight-speed Sport Direct-Shift transmission'."
+  },
+  "powerHp": {
+    "value": 472,
+    "sourceId": "lexus-us-2020-rc-f",
+    "note": "Quote: \"472 horsepower (+5) at 7,100 rpm\". Rated 467 hp for 2015-2019 (2015 brochure: '467HP HORSEPOWER') and 472 hp from 2020 to 2025 (Lexus 2025 release: 472 hp); 472 hp covers six of eleven model years, so 2020 is the reference year."
+  },
+  "weightLb": {
+    "value": 3902,
+    "sourceId": "carpro-2020-rc-f",
+    "note": "PROVISIONAL. Standard 2020 RC F (not the Track Edition), 8-speed automatic. CarPro (Amy Plemons): \"Weight: 3,902 pounds.\" Cars.com gives the same for the 2020 RC F RWD: \"Base Curb Weight: 3,902 lbs\" (cars-com-2020-rc-f). One article and one database. For comparison, Lexus's 2015 brochure gives '3,958LB CURB WEIGHT' for the 467 hp car (lexus-us-rc-brochure-2015), and Lexus gives the 2020 Track Edition 3,781 lb ('the Track Edition weighs 176 pounds less than the previous RC F')."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lexus-us-rc-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Lexus (brochure hosted by auto-brochures.com)",
+      "title": "Lexus RC brochure (US, 2015 model year)",
+      "url": "https://www.auto-brochures.com/makes/Lexus/RC/Lexus_US%20RC_2015.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lexus-us-2020-rc-f",
+      "type": "manufacturer",
+      "publisher": "Lexus (pressroom.lexus.com)",
+      "title": "The Pinnacle of F: 2020 Lexus RC F and RC F Track Edition",
+      "url": "https://pressroom.lexus.com/the-pinnacle-of-f-2020-lexus-rcf-and-rcf-track-edition/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lexus-us-2025-rc-swan-song",
+      "type": "manufacturer",
+      "publisher": "Lexus (pressroom.lexus.com)",
+      "title": "2025 Lexus RC and RC F: A Sonorous Swan Song (16 January 2025)",
+      "url": "https://pressroom.lexus.com/?p=72841",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carpro-2020-rc-f",
+      "type": "publication",
+      "publisher": "CarPro",
+      "title": "2020 Lexus RC F performance review (Amy Plemons)",
+      "url": "https://www.carpro.com/vehicle-reviews/2020-lexus-rc-f-performance-review",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2020-rc-f",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2020 Lexus RC F specs & colors",
+      "url": "https://www.cars.com/research/lexus-rc_f-2020/specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3902,
+          "sourceId": "carpro-2020-rc-f"
+        },
+        {
+          "value": 3958,
+          "sourceId": "lexus-us-rc-brochure-2015"
+        }
+      ],
+      "reason": "Model year: 3,958 lb is the 2015 car (467 hp); 3,902 lb is the 2020 car after Lexus's weight reductions.",
+      "resolution": "Used 3,902 lb, the figure for the reference year (2020)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,902 lb for the 2020 car rests on one article (CarPro) and one database (Cars.com). A Lexus specification sheet for 2020 or later (the pressroom spec PDFs return 403) or a major magazine's spec panel would replace it."
+}

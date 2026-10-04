@@ -1,0 +1,149 @@
+{
+  "id": "ford-fiesta-st-mk7",
+  "manufacturer": "Ford",
+  "model": "Fiesta",
+  "generation": "Mk7",
+  "variant": "ST",
+  "subVariant": null,
+  "displayName": "Ford Fiesta ST (Mk7)",
+  "aliases": [
+    "Fiesta ST",
+    "Mk7 Fiesta ST",
+    "Mk7.5 Fiesta ST",
+    "1.6 EcoBoost",
+    "EcoBoost",
+    "2014 Fiesta ST"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2019
+    },
+    "sourceId": "ford-us-fiesta-brochure-2014",
+    "note": "US model years. First: Ford's 2014 US Fiesta brochure lists the ST. Last: the ST is in the 2019 US brochure (ford-us-fiesta-brochure-2019), and Ford confirmed in April 2018 that 'Fiesta production will end next May at Ford's Cuautitlán Assembly facility in Mexico' (foxnews-fiesta-end-2018), i.e. May 2019."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "ford-us-fiesta-brochure-2014",
+    "note": "Five-door hatchback only in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "ford-us-fiesta-brochure-2014",
+      "note": "1.6L EcoBoost four-cylinder"
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "ford-us-fiesta-brochure-2014",
+      "note": "1,596 cc. The brochure says 1.6L; the cc figure is from DSport's spec sheet (Michael Ferrara): \"1,596cc\" (dsport-fiesta-st-2014), a single publication. Cars.com lists '1.6 L/97' (cars-com-2014-fiesta-st)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "ford-us-fiesta-brochure-2014",
+      "note": "EcoBoost turbocharged engine"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-us-fiesta-brochure-2014",
+    "note": "Inferred: gasoline EcoBoost engine."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "ford-us-fiesta-brochure-2014",
+    "note": "Front-wheel drive; inferred from the brochure."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-us-fiesta-brochure-2014",
+    "note": "The ST was offered only with the six-speed manual."
+  },
+  "powerHp": {
+    "value": 197,
+    "sourceId": "ford-us-fiesta-brochure-2014",
+    "note": "Quote: \"197 hp @ 6,000 rpm\". The same rating appears in the 2017 and 2019 US brochures."
+  },
+  "weightLb": {
+    "value": 2720,
+    "sourceId": "cars-com-2014-fiesta-st",
+    "note": "PROVISIONAL, from databases. 2014 Fiesta ST five-door hatchback, 6-speed manual (the only configuration). Cars.com: \"Base Curb Weight: 2,720 lbs\". Edmunds gives the same for the 'ST 4dr Hatchback (1.6L 4cyl Turbo 6M)': \"Curb weight: 2,720 lbs.\" (edmunds-2014-fiesta-st). Motor Authority's 2013 first drive quoted a Ford official putting the US five-door 'somewhere around the 2,700-pound mark' (motorauthority-fiesta-st-first-drive)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-us-fiesta-brochure-2014",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by auto-brochures.com)",
+      "title": "Ford Fiesta brochure (US, 2014 model year)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Fiesta/Ford_US%20Fiesta_2014.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "ford-us-fiesta-brochure-2019",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by auto-brochures.com)",
+      "title": "Ford Fiesta brochure (US, 2019 model year)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Fiesta/Ford_US%20Fiesta_2019.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "foxnews-fiesta-end-2018",
+      "type": "publication",
+      "publisher": "Fox News",
+      "title": "Ford confirms dates when Fiesta, Focus and Taurus production will end",
+      "url": "https://www.foxnews.com/auto/ford-confirms-dates-when-fiesta-focus-and-taurus-production-will-end",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2014-fiesta-st",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2014 Ford Fiesta ST specs & colors",
+      "url": "https://www.cars.com/research/ford-fiesta-2014/specs/357344/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-2014-fiesta-st",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2014 Ford Fiesta ST features & specs",
+      "url": "https://www.edmunds.com/ford/fiesta/2014/st/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-fiesta-st-first-drive",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2014 Ford Fiesta ST first drive (Bengt Halvorson, 30 March 2013)",
+      "url": "https://www.motorauthority.com/news/1083258_2014-ford-fiesta-st-first-drive",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "dsport-fiesta-st-2014",
+      "type": "publication",
+      "publisher": "DSport Magazine",
+      "title": "First Drive: 2014 Ford Fiesta ST (spec sheet)",
+      "url": "https://dsportmag.com/the-cars/first-drive/2014-ford-fiesta-st/3/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 2,720 lb rests on Cars.com and Edmunds (databases), consistent with a Ford official's 'around 2,700 pounds' reported by Motor Authority. The cc figure (1,596) rests on one publication (DSport). A Ford US specification sheet or a major magazine's spec panel would replace both."
+}

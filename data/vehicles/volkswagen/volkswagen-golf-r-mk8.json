@@ -1,0 +1,128 @@
+{
+  "id": "volkswagen-golf-r-mk8",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "generation": "Mk8",
+  "variant": "R",
+  "subVariant": null,
+  "displayName": "Volkswagen Golf R (Mk8)",
+  "aliases": [
+    "Mk8 Golf R",
+    "Golf R Mk8",
+    "Golf 8 R",
+    "Mk8.5 Golf R",
+    "4Motion",
+    "EA888 evo4",
+    "DSG",
+    "2022 Golf R"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "US model years. The release introduces the '2022 Golf GTI and Golf R'. Still on sale (Volkswagen's US Golf R press kit, vw-us-golf-r-model-page)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Golf hatchback; inferred from the release."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "vw-us-2022-golf-gti-r-chicago",
+      "note": "'EA888 2.0-liter turbocharged direct-injection TSI engine' (four-cylinder)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "vw-us-golf-r-model-page",
+      "note": "1,984 cc: 'the EA888 evo4 engine displaces 1,984 cc' (2026 Golf R press kit); the 2022 release calls it the '2.0-liter' EA888 (vw-us-2022-golf-gti-r-chicago)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "vw-us-2022-golf-gti-r-chicago",
+      "note": "'2.0-liter turbocharged direct-injection TSI engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Inferred: a TSI gasoline engine with no hybrid system."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "'4Motion all-wheel-drive system with rear-axle torque vectoring'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "'can be paired with a standard six-speed manual transmission or an optional seven-speed DSG® dual-clutch automatic' (DSG is a DCT). The manual was later dropped: the 2026 press kit lists only 'a 7-speed DSG dual-clutch automatic transmission' (vw-us-golf-r-model-page); the year the manual ended was not confirmed."
+  },
+  "powerHp": {
+    "value": 315,
+    "sourceId": "vw-us-2022-golf-gti-r-chicago",
+    "note": "Quote: \"now makes 315 horsepower\". 315 hp is the launch rating (2022-2024); Volkswagen's current US press kit (2026 model year) says the engine 'now produces 328 horsepower (achieved using premium fuel) at 5,850 rpm' (vw-us-golf-r-model-page); the first model year with 328 hp was not confirmed. The launch rating covers more model years so far, so 2022 is the reference year."
+  },
+  "weightLb": {
+    "value": 3417,
+    "sourceId": "cars-com-2022-golf-r-manual",
+    "note": "PROVISIONAL, from databases. Golf R with the 6-speed manual. Cars.com: \"Base Curb Weight: 3,417 lbs\" (2022 Golf R, 'Transmission Options: M/T 6-Speed M/T'). MotorMatchup gives the same: \"Curb Weight: 3,417 lbs\" for the 2022 Golf R 2.0T Manual (motormatchup-2022-golf-r-manual)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "vw-us-2022-golf-gti-r-chicago",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "Volkswagen introduces 2022 Golf GTI and Golf R at the Chicago Auto Show",
+      "url": "https://media.vw.com/view/releases/1569",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "vw-us-golf-r-model-page",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America",
+      "title": "Golf R (press kit model page)",
+      "url": "https://media.vw.com/view/models/golf-r",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2022-golf-r-manual",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Volkswagen Golf R specs & colors",
+      "url": "https://www.cars.com/research/volkswagen-golf_r-2022/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motormatchup-2022-golf-r-manual",
+      "type": "database",
+      "publisher": "MotorMatchup",
+      "title": "2022 Volkswagen Golf R 2.0T Manual specifications",
+      "url": "https://www.motormatchup.com/catalog/Volkswagen/Golf-R/2022/2.0T-Manual",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,417 lb rests on Cars.com and MotorMatchup (databases) for the 2022 Golf R manual. A Volkswagen of America technical-specifications sheet or a major magazine's spec panel would replace it."
+}

@@ -1,0 +1,146 @@
+{
+  "id": "jaguar-f-type-r-2016-2020",
+  "manufacturer": "Jaguar",
+  "model": "F-Type",
+  "generation": null,
+  "variant": "R",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Jaguar F-Type R (2016–2020)",
+  "aliases": [
+    "F-Type R Coupe",
+    "F-Type R Convertible",
+    "F-Type R AWD",
+    "AJ133",
+    "2016 F-Type R",
+    "2017 F-Type R",
+    "2018 F-Type R",
+    "2019 F-Type R",
+    "2020 F-Type R"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2020
+    },
+    "sourceId": "jaguar-us-f-type-brochure-2016",
+    "note": "US model years. The F-Type R is split by year range: rear-wheel drive and 550 hp for 2015, all-wheel drive and 550 hp for 2016 to 2020, all-wheel drive and 575 hp for 2021 to 2024. This record is the 550 hp all-wheel-drive car. First: Jaguar's US brochure dated 'June 2015/16MY' lists the R with 550 HP and an 'All Wheel Drive System'. Last: the brochure titled 'JAGUAR F-TYPE 2020' still lists '5.0 LITER V8 SUPERCHARGED (550HP) AWD' (jaguar-us-f-type-brochure-2020); the 575 hp car followed for 2021 (jaguar-f-type-r-2021-2024)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "jaguar-us-f-type-brochure-2017",
+    "note": "The brochure gives F-TYPE R weights for both Coupe and Convertible. The R Convertible replaced the V8 S Convertible for 2016 ('The V8 S Roadster is now dead, replaced by a V8 R Roadster', autoguide-f-type-awd-2014). The Convertible keeps the variant name, so it is not a separate record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "jaguar-us-f-type-brochure-2020",
+      "note": "'5.0 LITER V8 SUPERCHARGED (550HP) AWD'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "jaguar-us-f-type-brochure-2020",
+      "note": "5,000 cc (capacity 5,000 cc)"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "jaguar-us-f-type-brochure-2020",
+      "note": "'5.0 LITER V8 SUPERCHARGED'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "jaguar-us-f-type-brochure-2020",
+    "note": "Inferred: supercharged gasoline V8."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "jaguar-us-f-type-brochure-2016",
+    "note": "'All Wheel Drive System'. AutoGuide: 'For 2016, all V8 F-Types will come standard with AWD, including the V8 R Coupe' (autoguide-f-type-awd-2014). The 2020 brochure: '(550HP) AWD'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "jaguar-us-f-type-brochure-2016",
+    "note": "'QuickShift 8-speed automatic transmission' (torque-converter automatic). No manual on the V8."
+  },
+  "powerHp": {
+    "value": 550,
+    "sourceId": "jaguar-us-f-type-brochure-2016",
+    "note": "Quote: \"550HP\" for the F-TYPE R in the brochure dated 'June 2015/16MY'. The same rating in the brochures titled 'JAGUAR F-TYPE 2018' ('Maximum power HP 550', jaguar-us-f-type-brochure-2018), 'JAGUAR F-TYPE 2019' ('MAXIMUM POWER 550HP', jaguar-us-f-type-brochure-2019) and 'JAGUAR F-TYPE 2020' ('MAXIMUM POWER 550HP', jaguar-us-f-type-brochure-2020)."
+  },
+  "weightLb": {
+    "value": 3814,
+    "sourceId": "autoguide-f-type-awd-2014",
+    "note": "PROVISIONAL. R Coupe, all-wheel drive, 8-speed automatic (the only transmission), 2016 model year. AutoGuide (Mike Schlee, 19 November 2014): \"The V8 R Coupe now weighing 3,814 lbs.\" Jaguar's US brochure filed as 2017 (no model year printed) gives the same: \"Weight from lbs\" 3,814 for the R Coupe and 3,847 for the R Convertible (jaguar-us-f-type-brochure-2017); the row is labelled 'Weight from', not curb weight. The 2018-2020 brochures' weight tables could not be read (truncated)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "jaguar-us-f-type-brochure-2016",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE brochure (US, dated June 2015/16MY)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2016.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jaguar-us-f-type-brochure-2017",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE brochure (US, filed as 2017 model year; no model year printed)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2017.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jaguar-us-f-type-brochure-2018",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE 2018 brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2018.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jaguar-us-f-type-brochure-2019",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE 2019 brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2019.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jaguar-us-f-type-brochure-2020",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE 2020 brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2020.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoguide-f-type-awd-2014",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "Jaguar F-Type Gains AWD, Manual Transmission (Mike Schlee, 19 November 2014)",
+      "url": "https://www.autoguide.com/auto-news/2014/11/jaguar-f-type-awd-manual-la-auto-show.html",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,814 lb rests on one article (AutoGuide, for the 2016 car) and a Jaguar US brochure that prints no model year and labels the row 'Weight from' rather than curb weight. A dated Jaguar US specification with a curb weight (2016-2020), or a major magazine's spec panel, would replace it."
+}

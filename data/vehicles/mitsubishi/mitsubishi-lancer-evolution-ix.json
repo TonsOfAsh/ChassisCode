@@ -76,8 +76,8 @@
   },
   "weightLb": {
     "value": 3274,
-    "sourceId": "tac-2005-evo-ix-fulmer",
-    "note": "Standard Lancer Evolution IX (not RS or MR), 5-speed manual, without the Sun, Sound, Leather Package; 2006 model. Quote: \"Curb Weight (lbs/kg) | 3219/1460 | 3274/1485 | 3285/1490\" (columns 'RS', 'Evolution IX', 'MR Edition'); next row: \"Curb Weight with Sun, Sound, Leather Package | N/A | 3338/1520 | N/A\". The figure comes from the three-trim 'TECH SPECS' table (marked 'Last updated: 8/3/05') printed with Mark Fulmer's launch review on The Auto Channel; the table has the form of Mitsubishi's press-kit specification sheet but the page does not attribute it. Mitsubishi's own newsroom pages for this car give no curb weight."
+    "sourceId": "edmunds-evo-2006-specs",
+    "note": "PROVISIONAL: a database, matched by a table printed with a single article. Standard Lancer Evolution IX (not RS or MR), 5-speed manual, 2006 model. Quote (Edmunds, 'IX 4dr Sedan AWD (2.0L 4cyl Turbo 5M)'): \"Curb weight | 3,274 lbs.\". The 'TECH SPECS' table printed with Mark Fulmer's launch review on The Auto Channel (tac-2005-evo-ix-fulmer, marked 'Last updated: 8/3/05', not attributed to Mitsubishi) gives the same: \"Curb Weight (lbs/kg) | 3219/1460 | 3274/1485 | 3285/1490\" (columns 'RS', 'Evolution IX', 'MR Edition'). Mitsubishi's own newsroom pages for this car give no weight."
   },
   "specBasis": {
     "market": "US",
@@ -134,12 +134,21 @@
       "title": "2006 Mitsubishi Lancer Evolution MR Edition Review, by Bruce Hidaka-Gordon (23 March 2007)",
       "url": "https://www.theautochannel.com/news/2007/03/23/041143.html",
       "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-evo-2006-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2006 Mitsubishi Lancer Evolution Features & Specs",
+      "url": "https://www.edmunds.com/mitsubishi/lancer-evolution/2006/features-specs/",
+      "accessed": "2026-10-03"
     }
   ],
   "discrepancies": [],
-  "needsReview": true,
-  "reviewNotes": "Weight rests on one page: the unattributed three-trim specification table printed with The Auto Channel's launch review (3,274 lb for the standard car). It was not found on a Mitsubishi page or in a second editorial outlet, so the guide's weight rule (manufacturer figure, major-magazine panel, or two named-author outlets) is met only if that table is accepted as Mitsubishi's press-kit sheet. Check against Mitsubishi's 2006 press kit or a Car and Driver / Road & Track / MotorTrend panel before publishing. The last model year (2007) is also not stated outright by Mitsubishi.",
-  "confidence": "medium",
+  "needsReview": false,
+  "confidence": "low",
   "image": null,
-  "dailyEligible": true
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,274 lb for the standard 2006 Evolution IX rests on Edmunds (a database), matched by an unattributed table printed with The Auto Channel's launch review. Mitsubishi's 2006 US press-kit specification sheet, or a Car and Driver, Road & Track or MotorTrend spec panel, would replace it. The end year (2007) is inferred from a 2007-model road test and Mitsubishi's 2008 Evolution X release calling the IX the previous generation; no Mitsubishi page states it outright."
 }

@@ -1,0 +1,171 @@
+{
+  "id": "bmw-m3-e36",
+  "manufacturer": "BMW",
+  "model": "M3",
+  "generation": "E36",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M3 (E36)",
+  "aliases": [
+    "E36 M3",
+    "S52",
+    "M3 Coupe",
+    "M3 Sedan",
+    "M3 Convertible",
+    "1995 M3"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1995,
+      "endYear": 1999
+    },
+    "sourceId": "bmw-na-m3-sedan-release",
+    "note": "US model years. Start: BMW NA: 'The next generation arrived in 1995 with a 3.0-liter (and later, 3.2-liter) 240-hp inline-six powerplant.' End (provisional): Edmunds lists a 1999 M3 in '2dr Coupe' and '2dr Convertible' styles (edmunds-1999-m3, database), and BMW Group Classic gives the US convertible's production period as '10/1997 - 08/1999' (bmw-classic-m3-convertible-e36-us). BMW NA's next sentence about the M3 is the E46: 'available as either a coupe or convertible from 2001-2006'."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Sedan",
+      "Convertible"
+    ],
+    "sourceId": "bmw-na-m3-sedan-release",
+    "note": "'In 1997 the first M3 Sedan joined the family and the first M3 Convertible followed shortly thereafter.' The coupe is Edmunds' '2dr Coupe' (edmunds-1995-m3)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-na-m3-sedan-release",
+      "note": "'240-hp inline-six'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "edmunds-1995-m3",
+      "note": "1995 reference car: Edmunds 'Base engine size | 3.0 L' (database); BMW NA: '3.0-liter (and later, 3.2-liter)'. No opened page gave the 1995 cc figure. From 1996 the US engine is 3,152 cc ('3152 cc / 192.3 cu.in', bmw-classic-m3-e36-us), same 240 hp rating."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "bmw-na-m3-sedan-release",
+      "note": "No forced induction is mentioned; inferred from the description of the inline-six."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-na-m3-sedan-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-classic-m3-e36-us",
+    "note": "Front-engined, rear-wheel-drive 3 Series; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "bmw-classic-m3-e36-us",
+    "note": "BMW Group Classic (US sedan): manual five-speed or automatic five-speed; 'approximately 47%' of US sedans had the automatic. Same choice on the US convertible (bmw-classic-m3-convertible-e36-us)."
+  },
+  "powerHp": {
+    "value": 240,
+    "sourceId": "bmw-na-m3-sedan-release",
+    "note": "Quote: \"The next generation arrived in 1995 with a 3.0-liter (and later, 3.2-liter) 240-hp inline-six powerplant.\" US rating, unchanged when the 3.2 arrived. BMW Group Classic's US-model pages print '243 hp (178 kW)', the metric-hp form of the same rating. Edmunds 1995: 'Horsepower | 240 hp @ 6,000 rpm'."
+  },
+  "weightLb": {
+    "value": 3175,
+    "sourceId": "edmunds-1995-m3",
+    "note": "PROVISIONAL (databases). 1995 coupe, 5-speed manual. Quote (Edmunds, '2dr Coupe'): \"Curb weight | 3,175 lbs.\" iSeeCars 1995 M3 agrees: \"Curb Weight 3175 lbs\" (iseecars-1995-m3, database). KBB prints \"Curb Weight | 3241 lbs.\" for the 1995 coupe (kbb-1995-m3), 2.1% higher; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1995,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-na-m3-sedan-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (PressClub USA)",
+      "title": "The new BMW M3 Sedan (press release with M3 history)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0017866EN_US/the-new-bmw-m3-sedan?language=en_US",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-classic-m3-e36-us",
+      "type": "manufacturer",
+      "publisher": "BMW Group Classic",
+      "title": "BMW M3 (E36), US model: technical data",
+      "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-1523-1.bmw-m3-e36-us-model.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "bmw-classic-m3-convertible-e36-us",
+      "type": "manufacturer",
+      "publisher": "BMW Group Classic",
+      "title": "BMW M3 Convertible (E36), US model: technical data",
+      "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-1524-1.bmw-m3-convertible-e36-us-model.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1995-m3",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1995 BMW M3 specs & features",
+      "url": "https://www.edmunds.com/bmw/m3/1995/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "iseecars-1995-m3",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1995 BMW M3 specs",
+      "url": "https://www.iseecars.com/car/1995-bmw-m3-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1995-m3",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1995 BMW M3 specs",
+      "url": "https://www.kbb.com/bmw/m3/1995/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1999-m3",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1999 BMW M3 specs & features",
+      "url": "https://www.edmunds.com/bmw/m3/1999/features-specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3175,
+          "sourceId": "edmunds-1995-m3"
+        },
+        {
+          "value": 3175,
+          "sourceId": "iseecars-1995-m3"
+        },
+        {
+          "value": 3241,
+          "sourceId": "kbb-1995-m3"
+        }
+      ],
+      "reason": "Database figures for the 1995 coupe differ by 2.1%; none names its basis.",
+      "resolution": "Used 3,175 lb, given by two databases (Edmunds, iSeeCars). KBB 3,241 lb is at the edge of the 2% tolerance."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight rests on Edmunds and iSeeCars (databases, 3,175 lb; KBB says 3,241 lb). The end year 1999 rests on Edmunds' 1999 listing and BMW Group Classic's convertible build dates. A BMW of North America spec sheet or brochure, or a major magazine spec panel for the US M3, would replace them."
+}

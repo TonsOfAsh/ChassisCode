@@ -1,0 +1,149 @@
+{
+  "id": "audi-rs-q8",
+  "manufacturer": "Audi",
+  "model": "RS Q8",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi RS Q8",
+  "aliases": [
+    "RSQ8",
+    "RS Q8 SUV",
+    "2021 RS Q8",
+    "quattro",
+    "Tiptronic",
+    "4.0 TFSI"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "audi-usa-rs-release-2020",
+    "note": "US model years 2021-2024. Start: Audi of America, 16 Sep 2020: 'a trio of 2021 RS models are now on sale to customers in the U.S. - the highly anticipated RS 6 Avant, the RS 7, and the first RS-SUV, the RS Q8' (price table '2021 Audi RS Q8 | $114,500'). End year is provisional and rests on Kelley Blue Book (database): its 2024 RS Q8 page lists 'RS Q8 Sport Utility 4D', '591 HP' (kbb-rs-q8-2024), while its 2025 page lists only the 'RS Q8 Performance', '631 HP' (kbb-rs-q8-2025), a separate variant. Some databases (Edmunds, Cars.com) also carry a '2020' RS Q8 page, but Audi of America's release names the US car a 2021 model."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "audi-rsq8-mediacenter",
+    "note": "Audi: 'It combines the power of an RS model with the elegance of a premium coupe and flexibility of an SUV.'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "audi-rsq8-mediacenter",
+      "note": "'biturbo V8 gasoline engine'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "audi-rsq8-mediacenter",
+      "note": "Audi: '4.0 liter V8'. 3,996 cc per audi.com's data for the same 4.0 TFSI in the 2024 updated RS Q8 ('Displacement in cc ... 3996', audi-rsq8-2024-audicom); Cars.com lists '4.0 L/244' for the 2021 US car (carscom-rs-q8-2021)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "audi-rsq8-mediacenter",
+      "note": "'biturbo V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-rsq8-mediacenter",
+    "note": "48-volt mild hybrid, so Gasoline per the data guide: 'Its mild-hybrid system (MHEV) is based on a 48-volt main electrical system.'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-rsq8-mediacenter",
+    "note": "'quattro permanent all-wheel drive system'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "audi-rsq8-mediacenter",
+    "note": "'standard eight-speed tiptronic' (torque-converter automatic)"
+  },
+  "powerHp": {
+    "value": 591,
+    "sourceId": "audi-rsq8-mediacenter",
+    "note": "Audi AG rating converted: Quote: \"441 kW (600 hp), 800 Nm (590.0 lb-ft) of torque between 2,200 and 4,500 rpm.\" 441 kW x 1.34102 = 591.4, so 591 hp. Two US spec databases print the same US figure: Cars.com 'SAE Net Horsepower @ RPM 591 @ 6000' (carscom-rs-q8-2021) and KBB 'Horsepower | 591 @ 6000 RPM' (kbb-rs-q8-2021). No Audi of America page stating the RS Q8's hp was found (the 2020 release gives 591 hp only for the RS 7)."
+  },
+  "weightLb": {
+    "value": 5490,
+    "sourceId": "carscom-rs-q8-2021",
+    "note": "PROVISIONAL: spec databases. 2021 US RS Q8, single configuration. Cars.com quote: \"Base Curb Weight 5,490 lbs\". Kelley Blue Book (kbb-rs-q8-2021) agrees: \"Curb Weight | 5490 pounds\". Two databases agree; no Audi of America or major magazine figure was found. audi.com's EU unladen weight for the 2024 updated car (2,315 kg without driver) is a different market and model year and is not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-usa-rs-release-2020",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Trio of RS models - 2021 RS 6 Avant, RS 7 and Audi RS Q8 - on sale now",
+      "url": "https://media.audiusa.com/view/releases/434",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "audi-rsq8-mediacenter",
+      "type": "manufacturer",
+      "publisher": "Audi AG (Audi MediaCenter)",
+      "title": "Audi RS Q8",
+      "url": "https://audi-mediacenter.com/en/audi-rs-q8-12202",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "audi-rsq8-2024-audicom",
+      "type": "manufacturer",
+      "publisher": "Audi AG",
+      "title": "Audi RS Q8 SUV",
+      "url": "https://www.audi.com/en/audi-rs-q8-12372",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-rs-q8-2021",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Audi RS Q8 specs",
+      "url": "https://cars.com/research/audi-rs_q8-2021/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-q8-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Audi RS Q8 Specs, Features & Options",
+      "url": "https://www.kbb.com/audi/rs-q8/2021/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-q8-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Audi RS Q8 specs",
+      "url": "https://www.kbb.com/audi/rs-q8/2024/specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-rs-q8-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Audi RS Q8 specs",
+      "url": "https://www.kbb.com/audi/rs-q8/2025/specs",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "provisionalNote": "Weight rests on Cars.com and Kelley Blue Book (databases, both 5,490 lb); an Audi of America specification sheet or a major magazine's specification panel would replace it. The last US model year (2024) also rests on Kelley Blue Book; an Audi of America model-year release would replace it. Power is Audi AG's 441 kW converted (manufacturer) and matches the US databases' 591 hp; an Audi of America page giving 591 hp would confirm it.",
+  "discrepancies": [],
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true
+}

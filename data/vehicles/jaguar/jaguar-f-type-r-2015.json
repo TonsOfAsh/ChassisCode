@@ -1,0 +1,157 @@
+{
+  "id": "jaguar-f-type-r-2015",
+  "manufacturer": "Jaguar",
+  "model": "F-Type",
+  "generation": null,
+  "variant": "R",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Jaguar F-Type R (2015)",
+  "aliases": [
+    "F-Type R Coupe",
+    "F-Type R RWD",
+    "rear-drive F-Type R",
+    "AJ133",
+    "2015 F-Type R"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2015
+    },
+    "sourceId": "motorauthority-f-type-coupe-2013",
+    "note": "US model year 2015 only. The F-Type R is split by year range because the car changed twice: rear-wheel drive and 550 hp for 2015, all-wheel drive and 550 hp for 2016 to 2020, all-wheel drive and 575 hp for 2021 to 2024. This record is the rear-drive launch car: '2015 Jaguar F-Type Coupe Preview'; 'the top coupe is called, appropriately, the F-Type R'. For 2016, 'all V8 F-Types will come standard with AWD, including the V8 R Coupe' (autoguide-f-type-awd-2014)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "motorauthority-f-type-coupe-2013",
+    "note": "Coupe only for 2015; the R Convertible arrived for 2016 ('The V8 S Roadster is now dead, replaced by a V8 R Roadster', autoguide-f-type-awd-2014)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "jaguar-us-f-type-brochure-2015",
+      "note": "'5.0 Liter V8 550 Supercharged'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "jaguar-us-f-type-coupe-unveiled-2013",
+      "note": "5,000 cc (engine capacity 5000 cc in the technical table)"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "jaguar-us-f-type-brochure-2015",
+      "note": "'5.0 Liter V8 550 Supercharged'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "jaguar-us-f-type-brochure-2015",
+    "note": "Inferred: supercharged gasoline V8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "motorauthority-f-type-coupe-2013",
+    "note": "Motor Authority on the 2015 coupe: 'to emphasize the F-Type Coupe's rear-drive nature'. Jaguar's launch release describes the range 'driving the rear wheels through ZF eight-speed Quickshift transmissions' (jaguar-us-f-type-coupe-unveiled-2013), and the 2015 brochure lists an 'Electronic Active Differential' for the F-TYPE R. Cars.com lists the 2015 V8 R as 'Rear Wheel Drive' (cars-com-2015-f-type-r). All-wheel drive became standard on the R for 2016 (autoguide-f-type-awd-2014)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "jaguar-us-f-type-brochure-2015",
+    "note": "'QuickShift 8-speed automatic transmission' (ZF torque-converter automatic). No manual on the V8."
+  },
+  "powerHp": {
+    "value": 550,
+    "sourceId": "jaguar-us-f-type-coupe-unveiled-2013",
+    "note": "Quote: \"550@6500\" in the 'Power (hp@rpm)' row for the F-TYPE R Coupe. The 2015 US brochure: '550 HP' (jaguar-us-f-type-brochure-2015)."
+  },
+  "weightLb": {
+    "value": 3638,
+    "sourceId": "cars-com-2015-f-type-r",
+    "note": "PROVISIONAL, from databases. 2015 F-Type R Coupe, rear-wheel drive, 8-speed automatic (the only configuration). Cars.com: 'Base Curb Weight' 3,638 lbs ('2015 Jaguar F-TYPE V8 R specs & colors'). Edmunds, R 2dr Coupe (5.0L 8cyl S/C 8A): \"Curb weight: 3,638 lbs.\" (edmunds-2015-f-type). Motor Authority (Nelson Ireson) reported Jaguar's claim: \"The F-Type R claims an identical curb weight to the F-Type V8 S convertible, at 3,671 pounds.\" (0.9% higher; see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "jaguar-us-f-type-coupe-unveiled-2013",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover media site (en-us)",
+      "title": "Jaguar F-TYPE Coupe Unveiled (20 November 2013)",
+      "url": "https://media.jlr.com/jaguar/en-us/news/2013/11/jaguar-f-type-coupe-unveiled",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "jaguar-us-f-type-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover North America (brochure hosted by auto-brochures.com)",
+      "title": "Jaguar F-TYPE brochure (US, filed as 2015 model year)",
+      "url": "https://www.auto-brochures.com/makes/Jaguar/F-Type/Jaguar_US%20F-Type_2015.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-f-type-coupe-2013",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2015 Jaguar F-Type Coupe Preview: 2013 L.A. Auto Show (Nelson Ireson)",
+      "url": "https://www.motorauthority.com/news/1088586_2015-jaguar-f-type-coupe-preview-2013-l-a-auto-show",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoguide-f-type-awd-2014",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "Jaguar F-Type Gains AWD, Manual Transmission (Mike Schlee, 19 November 2014)",
+      "url": "https://www.autoguide.com/auto-news/2014/11/jaguar-f-type-awd-manual-la-auto-show.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2015-f-type-r",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2015 Jaguar F-TYPE V8 R specs & colors",
+      "url": "https://www.cars.com/research/jaguar-f_type-2015/specs/365503/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-2015-f-type",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2015 Jaguar F-TYPE features & specs",
+      "url": "https://www.edmunds.com/jaguar/f-type/2015/features-specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3638,
+          "sourceId": "cars-com-2015-f-type-r"
+        },
+        {
+          "value": 3671,
+          "sourceId": "motorauthority-f-type-coupe-2013"
+        }
+      ],
+      "reason": "Unknown; 0.9% apart. 3,638 lb is the Cars.com and Edmunds database figure; 3,671 lb is Jaguar's pre-launch claim as reported by Motor Authority.",
+      "resolution": "Used 3,638 lb, where two sources agree; the difference is within the 2% the provisional rules allow."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,638 lb rests on Cars.com and Edmunds (databases); Motor Authority reported Jaguar's claim of 3,671 lb. Jaguar's 2015MY technical specification (a zip on media.jlr.com that could not be opened) or a major magazine's spec panel would replace it."
+}

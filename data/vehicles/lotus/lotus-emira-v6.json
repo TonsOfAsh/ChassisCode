@@ -1,0 +1,181 @@
+{
+  "id": "lotus-emira-v6",
+  "manufacturer": "Lotus",
+  "model": "Emira",
+  "generation": null,
+  "variant": "V6",
+  "subVariant": null,
+  "displayName": "Lotus Emira V6",
+  "aliases": [
+    "Emira V6 First Edition",
+    "Emira V6 SE",
+    "Emira 3.5 V6",
+    "Emira Supercharged",
+    "2GR-FE",
+    "2023 Emira"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "motorauthority-emira-2023",
+    "note": "US model years. Quote (Motor Authority, Stephen Edelstein, 4 October 2021): \"due to start sales in the U.S. in spring 2022 as a 2023 model\". Still on sale: Lotus's US site lists the Emira V6 SE: \"The Emira V6 SE features a supercharged 3.5-litre V6 engine, paired with the coveted 6-speed manual gearbox\" (lotus-us-emira-page)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lotus-emira-v6-first-edition-release",
+    "note": "'an all-new mid-engine premium sports car'; fixed-roof two-seater, no open version."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "lotus-emira-v6-first-edition-release",
+      "note": "'Supercharged 3.5-litre 400hp V6' (Toyota 2GR-FE). The four-cylinder Emira is a separate variant."
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "evo-emira-review",
+      "note": "3,456 cc (Evo specification table: 'V6, 3456cc, supercharged')"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "lotus-emira-v6-first-edition-release",
+      "note": "'Supercharged 3.5-litre 400hp V6'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lotus-emira-v6-first-edition-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "thedrive-emira-2023",
+    "note": "The Drive's spec box: \"3.5-liter supercharged V6 | 6-speed manual | rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "lotus-emira-v6-first-edition-release",
+    "note": "Lotus: 'six-speed manual transmission as standard, optional six-speed auto with paddleshift'. Carscoops on the US car: \"a standard six-speed manual ... but customers can opt for a six-speed automatic transmission for an additional $2,150\" (carscoops-emira-us-price). The automatic is a torque-converter gearbox."
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "lotus-emira-v6-first-edition-release",
+    "note": "Quote (Lotus release): \"Developing 400hp, it's mated to a six-speed manual gearbox with a visible gearchange mechanism and hydraulic power-assisted steering.\" For the US car, Carscoops (Michael Gauthier, 1 October 2021): \"This enables it to produce 400 hp (298 kW / 405 PS) and up to 317 lb-ft\" (carscoops-emira-us-price); Motor Authority: \"in the Emira it generates a peak 400 hp\" (motorauthority-emira-2023). 298 kW x 1.34102 = 400 hp, so Lotus's figure is horsepower, used as published; Lotus does not call it an SAE rating, so powerStandard is Other. The Drive's spec box prints \"Horsepower: 395\" (thedrive-emira-2023); see discrepancies."
+  },
+  "weightLb": {
+    "value": 3097,
+    "sourceId": "thedrive-emira-2023",
+    "note": "PROVISIONAL: Lotus's pre-production target. Weight-order step 3 (curb weight of the lightest-specification car). Quote (The Drive, Alex Goy, 7 June 2022, spec box for the 2023 Emira V6): \"Curb weight: 3,097 pounds\". Motor Authority (Stephen Edelstein, 4 October 2021): \"a 3,097-pound curb weight in its lightest form\" (motorauthority-emira-2023). Two independent named-author outlets give the same figure, and Motor Authority says it is for the lightest form, so it is a car with lightweight options; Lotus does not name them, and a standard car is somewhat heavier. No US curb weight for a standard car was found. Evo's specification table gives \"1457kg (claimed)\" (3,212 lb) for a UK car in a 2026 review (evo-emira-review), a different market and model year, not used. CarExpert (carexpert-emira-2021) reports the figure as Lotus's July 2021 target: 'Lotus is targeting a kerb weight of 1405kg in the car's lightest form' (1,405 kg = 3,097 lb)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lotus-emira-v6-first-edition-release",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars (press release reproduced by The Auto Channel)",
+      "title": "Lotus Confirms Full Specification and Price of All-New Emira V6 First Edition",
+      "url": "https://theautochannel.com/news/2021/09/22/1048693-lotus-confirms-full-specification-and-price-all-new-emira-v6.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "thedrive-emira-2023",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2023 Lotus Emira First Drive Review: Lotus Grows Up, and Just in Time (Alex Goy, 7 June 2022)",
+      "url": "https://thedrive.com/new-cars/2023-lotus-emira-review-lotus-grows-up-and-just-in-time",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-emira-2023",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2023 Lotus Emira price, specs, review, photos, info (Stephen Edelstein, 4 October 2021)",
+      "url": "https://www.motorauthority.com/news/1132819_2023-lotus-emira-price-specs-review-photos-info",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscoops-emira-us-price",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "400 HP Lotus Emira V6 First Edition Coming To America For A Shade Under $94,000 (Michael Gauthier, 1 October 2021)",
+      "url": "https://www.carscoops.com/?p=2320574",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "evo-emira-review",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lotus Emira review",
+      "url": "https://www.evo.co.uk/lotus/emira",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "lotus-us-emira-page",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars",
+      "title": "Lotus Emira (US model page)",
+      "url": "https://www.lotuscars.com/en-US/emira",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carexpert-emira-2021",
+      "type": "publication",
+      "publisher": "CarExpert",
+      "title": "2022 Lotus Emira revealed with Mercedes-AMG power",
+      "url": "https://www.carexpert.com.au/car-news/2022-lotus-emira-revealed-with-mercedes-amg-power",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "400 hp (298 kW / 405 PS)",
+          "sourceId": "carscoops-emira-us-price"
+        },
+        {
+          "value": "395 hp",
+          "sourceId": "thedrive-emira-2023"
+        }
+      ],
+      "reason": "Units: 395 hp is what 400 PS would convert to; Lotus states 400hp, which Carscoops gives as 298 kW / 405 PS.",
+      "resolution": "Used Lotus's 400 hp as published, matching 298 kW."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3097,
+          "sourceId": "thedrive-emira-2023"
+        },
+        {
+          "value": "1,457 kg (3,212 lb) claimed",
+          "sourceId": "evo-emira-review"
+        }
+      ],
+      "reason": "Configuration, market and year: 3,097 lb is the US curb weight in the lightest form; 1,457 kg is Evo's claimed kerb weight for a UK car in a 2026 review.",
+      "resolution": "Used 3,097 lb (US, step 3) and labelled it lightweight-options."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,097 lb (The Drive, Motor Authority) is Lotus's pre-production target for the lightest car (CarExpert: 'targeting a kerb weight of 1405kg'), like an estimate, and it is not stated to be the V6. The first US model year is also provisional: Motor Authority says the car came 'as a 2023 model', while Kelley Blue Book lists the Emira only from 2024. A Lotus Cars USA specification sheet with a final US curb weight, or a major magazine spec panel, would replace the weight."
+}

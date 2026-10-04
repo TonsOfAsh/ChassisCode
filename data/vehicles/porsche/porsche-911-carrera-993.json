@@ -1,0 +1,151 @@
+{
+  "id": "porsche-911-carrera-993",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "993",
+  "variant": "Carrera",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera (993)",
+  "aliases": [
+    "993",
+    "993 Carrera",
+    "Carrera 2",
+    "Tiptronic",
+    "VarioRam",
+    "air-cooled 911",
+    "1996 911 Carrera"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1995,
+      "endYear": 1998
+    },
+    "sourceId": "kbb-1995-911",
+    "note": "PROVISIONAL (databases). US model years. KBB lists a 1995 911 'Carrera Coupe 2D' and 'Carrera Cabriolet 2D', and a 1998 'Carrera Cabriolet 2D' (kbb-1998-911). The 1998 coupe line-up in KBB shows only the 'S' and 'Carrera 4S' coupes."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "kbb-1996-911",
+    "note": "KBB 1996 trims: 'Carrera Coupe 2D' and 'Carrera Cabriolet 2D'. The Targa is sold under its own name and is a separate car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "stuttcars-993-carrera",
+      "note": "'3.6-liter air-cooled flat-six' (enthusiast site)"
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "kbb-1996-911-carrera",
+      "note": "KBB: '6-Cyl, 3.6 Liter'; Edmunds 1996: 'Engine Size 3.6 L' (edmunds-1996-911). No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "stuttcars-993-carrera",
+      "note": "No forced induction on the Carrera; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "stuttcars-993-carrera"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "kbb-1996-911",
+    "note": "Rear-wheel-drive Carrera; the AWD Carrera 4 is a separate trim."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "stuttcars-993-carrera",
+    "note": "PROVISIONAL (enthusiast site): '6-speed manual or with the Tiptronic (automatic transmission)', a '4-speed automatic' with manual override. Edmunds 1996: '6-speed manual'. Automatic is Porsche Tiptronic."
+  },
+  "powerHp": {
+    "value": 282,
+    "sourceId": "kbb-1996-911-carrera",
+    "note": "PROVISIONAL (databases). Quote (KBB 1996 911 Carrera Coupe 2D): \"Horsepower: 282 @ 6300 RPM\". Edmunds 1996 911: \"282 hp @ 6,300 rpm\" (edmunds-1996-911). 1995 cars: KBB 1995 911 'Horsepower: 270 @ 6100 RPM' (kbb-1995-911). Reference year 1996: the 282 hp rating covers 1996-1998, three of the four model years. Stuttcars gives the European 272 and 285 figures."
+  },
+  "weightLb": {
+    "value": 3064,
+    "sourceId": "kbb-1996-911-carrera",
+    "note": "PROVISIONAL (databases). 1996 Carrera coupe, 6-speed manual. Quote (KBB): \"Curb Weight: 3064 lbs.\" iSeeCars 1996 911 agrees: \"Carrera 2dr Coupe ... Curb Weight | 3064 | lbs\" (iseecars-1996-911). Edmunds' 1996 page shows 3,130 lb for its 'Most Popular' style, the Targa, matching iSeeCars' Targa figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1996,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "kbb-1996-911-carrera",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1996 Porsche 911 Carrera Coupe 2D",
+      "url": "https://www.kbb.com/porsche/911/1996/carrera-coupe-2d/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1996-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1996 Porsche 911 trims",
+      "url": "https://www.kbb.com/porsche/911/1996/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1995-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1995 Porsche 911 trims",
+      "url": "https://www.kbb.com/porsche/911/1995/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1998-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1998 Porsche 911 trims",
+      "url": "https://www.kbb.com/porsche/911/1998/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-1996-911",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1996 Porsche 911 specs & features",
+      "url": "https://www.edmunds.com/porsche/911/1996/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "iseecars-1996-911",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1996 Porsche 911 specs",
+      "url": "https://www.iseecars.com/car/1996-porsche-911-specs",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "stuttcars-993-carrera",
+      "type": "enthusiast",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 Carrera (993) (1994 - 1997)",
+      "url": "https://www.stuttcars.com/porsche-911-carrera-1994-1997/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (282 hp) rests on KBB and Edmunds; weight (3,064 lb) rests on KBB and iSeeCars; production years rest on KBB's trim listings (all databases); transmissions and engine layout rest on Stuttcars (enthusiast). A Porsche Cars North America press kit, brochure or technical data sheet, or a major magazine spec panel for the 1996 Carrera, would replace them."
+}

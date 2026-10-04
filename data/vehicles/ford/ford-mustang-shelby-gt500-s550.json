@@ -1,0 +1,158 @@
+{
+  "id": "ford-mustang-shelby-gt500-s550",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S550",
+  "variant": "Shelby GT500",
+  "subVariant": null,
+  "displayName": "Ford Mustang Shelby GT500 (S550)",
+  "aliases": [
+    "GT500",
+    "Shelby GT500",
+    "S550 GT500",
+    "Predator",
+    "5.2 supercharged",
+    "Tremec 7-speed DCT",
+    "2020 GT500"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2022
+    },
+    "sourceId": "ford-gt500-power-release-2019",
+    "note": "US model years 2020-2022. First: 'The all-new 2020 Mustang Shelby GT500'. Last: Cars.com lists a 2022 Shelby GT500 (cars-com-2022-gt500), and Ford Authority says of the 2023 Mustang that the Shelby GT500 was discontinued, removing the 5.2L Predator engine from the lineup (fordauthority-mustang-2023)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "motorauthority-gt500-specs-2019",
+    "note": "Fastback coupe only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "fordauthority-gt500-weight-2019",
+      "note": "'supercharged 5.2L Predator V8'"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "fordauthority-gt500-weight-2019",
+      "note": "'5.2L'. No opened page prints the cc figure; Cars.com lists '5.2 L/315' (cars-com-2020-gt500)."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "fordauthority-gt500-weight-2019",
+      "note": "'supercharged 5.2L Predator V8'; Motor Authority: 'a 2.65-liter Eaton blower'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "motorauthority-gt500-specs-2019",
+    "note": "Inferred: supercharged gasoline V8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "motorauthority-gt500-specs-2019",
+    "note": "'The power is then routed to the rear wheels via a Tremec 7-speed dual-clutch transmission'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "motorauthority-gt500-specs-2019",
+    "note": "'Tremec 7-speed dual-clutch transmission'. No manual."
+  },
+  "powerHp": {
+    "value": 760,
+    "sourceId": "ford-gt500-power-release-2019",
+    "note": "Ford press release (19 June 2019) reproduced by Motor1. Quote: \"The all-new 2020 Mustang Shelby GT500 will produce 760 horsepower and 625 lb.-ft. of torque, making it the most powerful street-legal Ford ever\". Cars.com gives '760 @ 7300' for 2020 and 2022."
+  },
+  "weightLb": {
+    "value": 4225,
+    "sourceId": "motorauthority-gt500-specs-2019",
+    "note": "PROVISIONAL. Base car, 7-speed DCT (the only transmission). Motor Authority (Viknesh Vijayenthiran, 15 August 2019): \"One of the most controversial specs revealed by the manual is the car's curb weight of 4,225 pounds\", from a Ford dealer training manual obtained by the Mustang6G forum. Ford Authority (Jonathan Lopez, same day): \"the base curb weight is tipped to be 4,225 pounds\" (fordauthority-gt500-weight-2019). Ford did not confirm it. Cars.com lists 4,183 lb (cars-com-2020-gt500), 1.0% lower; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-gt500-power-release-2019",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (press release reproduced by Motor1)",
+      "title": "2020 Mustang Shelby GT500 power announcement (19 June 2019)",
+      "url": "https://www.motor1.com/news/355545/ford-mustang-shelby-gt500-power/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-gt500-specs-2019",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2020 Ford Mustang Shelby GT500 specs deep dive (Viknesh Vijayenthiran)",
+      "url": "https://www.motorauthority.com/news/1124390_2020-ford-mustang-shelby-gt500-specs-deep-dive",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "fordauthority-gt500-weight-2019",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "2020 Mustang Shelby GT500 weighs 4,200 pounds (Jonathan Lopez)",
+      "url": "https://fordauthority.com/2019/08/2020-mustang-shelby-gt500-weighs-4200-pounds/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "fordauthority-mustang-2023",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "2023 Ford Mustang (Alex Luft)",
+      "url": "https://fordauthority.com/fmc/ford/ford-mustang/2023-ford-mustang/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2020-gt500",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2020 Ford Shelby GT500 specs & colors",
+      "url": "https://www.cars.com/research/ford-shelby_gt500-2020/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2022-gt500",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Ford Shelby GT500 specs & colors",
+      "url": "https://www.cars.com/research/ford-shelby_gt500-2022/specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4225,
+          "sourceId": "motorauthority-gt500-specs-2019"
+        },
+        {
+          "value": 4183,
+          "sourceId": "cars-com-2020-gt500"
+        }
+      ],
+      "reason": "Unknown. 4,225 lb is from a Ford dealer training manual as reported by Motor Authority and Ford Authority; 4,183 lb is the Cars.com database figure for 2020 and 2022. They differ by 1.0%.",
+      "resolution": "Used 4,225 lb, the figure from a Ford document reported by two named-author outlets; the database figure is within the 2% the provisional rules allow."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 4,225 lb rests on Motor Authority and Ford Authority relaying one leaked Ford dealer training manual (Ford did not confirm it); Cars.com lists 4,183 lb. A Ford specification sheet or a major magazine's spec panel would replace it and settle which figure is right."
+}

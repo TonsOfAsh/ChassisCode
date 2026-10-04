@@ -1,0 +1,127 @@
+{
+  "id": "aston-martin-dbx",
+  "manufacturer": "Aston Martin",
+  "model": "DBX",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin DBX",
+  "aliases": [
+    "DBX V8",
+    "DBX 550",
+    "2021 DBX",
+    "Aston Martin SUV"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "aston-dbx-release",
+    "note": "US model years. First: Motor1's report of the launch: \"The 2021 Aston Martin DBX debuts on the eve of a jammed-packed Los Angeles Auto show\". Last: Kelley Blue Book (a database) lists the 2024 DBX as \"Sport Utility 4D\" (542 hp) and \"707 Sport Utility 4D\" (kbb-dbx-2024), and only the \"707\" for 2025 (kbb-dbx-2025). The DBX707 is a separate variant."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "aston-dbx-release"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "aston-dbx-release",
+      "note": "\"the characterful 4-liter, twin-turbocharged V8 engine found in DB11 and Vantage\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "cardekho-dbx",
+      "note": "3,982 cc. CarDekho (a database, DBX V8 550PS): \"3982 cc\". Aston Martin: \"4-liter\" (aston-dbx-release)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "aston-dbx-release",
+      "note": "\"twin-turbocharged V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "aston-dbx-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "aston-dbx-release",
+    "note": "\"an all-wheel drive system with an active central differential and an electronic rear limited slip differential (eDiff)\""
+  },
+  "transmission": {
+    "value": [
+      "9-speed Automatic"
+    ],
+    "sourceId": "aston-dbx-release",
+    "note": "\"a nine-speed torque convertor automatic gearbox\""
+  },
+  "powerHp": {
+    "value": 542,
+    "sourceId": "aston-dbx-release",
+    "note": "Quote (Aston Martin release, 19 November 2019, Los Angeles, reproduced by Motor1): \"Powered by a new version of the characterful 4-liter, twin-turbocharged V8 engine found in DB11 and Vantage, DBX features an impressive output of 542hp (550PS) and 516ft.-lb (700NM) of torque, carefully tuned to meet the specific needs of this model.\" 550 PS x 0.98632 = 542 hp, the figure Aston Martin prints, so powerStandard is DIN PS. MotorWeek's US first-impressions panel also gives \"Horsepower: 542\" (motorweek-dbx-2021)."
+  },
+  "weightLb": {
+    "value": 4949,
+    "sourceId": "aston-dbx-release",
+    "note": "Quote (Aston Martin release): \"Utilizing bonded aluminum, a construction method Aston Martin has refined through the development of its sports cars, the body structure is both very light and incredibly stiff, assisting in the delivery of an overall curb weight under 5,000 pounds (2,245kg).\" 2,245 kg x 2.20462 = 4,949 lb. Single configuration (9-speed automatic). Motor1's own text rounds it to \"4,940 pounds (2,245 kilograms)\". Aston Martin does not say whether 2,245 kg is DIN or EU. Earlier research found the same 2,245 kg in Motor Sport (Andrew Frankel) and CompleteCar.ie (Neil Briscoe)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "aston-dbx-release",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (press release reproduced by Motor1)",
+      "title": "Aston Martin unveils DBX: an SUV with the soul of a sports car (19 November 2019)",
+      "url": "https://www.motor1.com/news/383278/2021-aston-martin-dbx-debuts/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorweek-dbx-2021",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2021 Aston Martin DBX (first impressions)",
+      "url": "https://motorweek.org/first_impressions/2021-aston-martin-dbx",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-dbx-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Aston Martin DBX",
+      "url": "https://www.kbb.com/aston-martin/dbx/2024/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-dbx-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Aston Martin DBX",
+      "url": "https://www.kbb.com/aston-martin/dbx/2025/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cardekho-dbx",
+      "type": "database",
+      "publisher": "CarDekho",
+      "title": "Aston Martin DBX specifications",
+      "url": "https://www.cardekho.com/aston-martin/dbx/specs",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

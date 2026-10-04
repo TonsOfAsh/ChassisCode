@@ -1,0 +1,140 @@
+{
+  "id": "mitsubishi-3000gt-vr-4",
+  "manufacturer": "Mitsubishi",
+  "model": "3000GT",
+  "generation": null,
+  "variant": "VR-4",
+  "subVariant": null,
+  "displayName": "Mitsubishi 3000GT VR-4",
+  "aliases": [
+    "3000GT VR4",
+    "VR4",
+    "6G72",
+    "GTO",
+    "1994 3000GT VR-4"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1991,
+      "endYear": 1999
+    },
+    "sourceId": "hagerty-1994-3000gt",
+    "note": "PROVISIONAL. US model years. End: Hagerty: 'After 1999, the model was discontinued in the U.S.' Start: Hagerty's valuation tool lists a 1991 3000 GT VR4 (hagerty-1991-3000gt-vr4); Car Throttle says the car 'debuted in 1990' (carthrottle-3000gt-vr4). No opened page states '1991 model year' in words."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hagerty-1994-3000gt",
+    "note": "Hatchback coupe. The 1995-1996 VR-4 Spyder is sold under its own name and is a separate car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "hagerty-1994-3000gt",
+      "note": "'3.0-liter DOHC V-6'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "hagerty-1994-3000gt",
+      "note": "'Its 3.0-liter DOHC V-6 featured twin turbochargers and intercoolers'; KBB 'V6, Twin Turbo, 3.0 Liter'. No opened page gave the VR-4's cc figure."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "hagerty-1994-3000gt",
+      "note": "'twin turbochargers and intercoolers'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hagerty-1994-3000gt"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "hagerty-1994-3000gt",
+    "note": "'The VR4 also featured full-time four-wheel drive and four-wheel steering.'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Manual"
+    ],
+    "sourceId": "hagerty-1994-3000gt",
+    "note": "'1994-99 cars also moved from a Getrag 5-speed manual to a 6-speed version of the same gearbox.' 5-speed for 1991-1993. No automatic on the VR-4 (Hagerty: automatics for base/SL models)."
+  },
+  "powerHp": {
+    "value": 320,
+    "sourceId": "kbb-1994-3000gt-vr4",
+    "note": "PROVISIONAL (database and an unsigned article). Quote (KBB 1994 VR-4 Coupe 2D): \"Horsepower: 320 @ 6000 RPM\". Hagerty: \"From 1994-99, this was raised to 320 hp and 315 lb-ft.\" (hagerty-1994-3000gt). 1991-1993 cars: 'twin turbochargers and intercoolers to produce 300 hp and 307 lb-ft of torque' (Hagerty). Reference year 1994: the 320 hp rating covers six of the nine model years."
+  },
+  "weightLb": {
+    "value": 3803,
+    "sourceId": "kbb-1994-3000gt-vr4",
+    "note": "PROVISIONAL (single database). 1994 VR-4 coupe, 6-speed manual (the only transmission). Quote (KBB): \"Curb Weight: 3803 lbs.\" Only one source for the 1994 figure was found. KBB gives 3,759 lb for 1996 and 3,737 lb for 1999 (kbb-1996-3000gt-vr4, kbb-1999-3000gt-vr4); Car Throttle says 'the early VR-4's weighed in around 3800lbs' (approximate)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1994,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hagerty-1994-3000gt",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "1994 Mitsubishi 3000 GT (valuation tool description)",
+      "url": "https://www.hagerty.com/apps/ValuationTools/1994-Mitsubishi-3000_GT",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "hagerty-1991-3000gt-vr4",
+      "type": "database",
+      "publisher": "Hagerty",
+      "title": "1991 Mitsubishi 3000 GT VR4 (valuation tool)",
+      "url": "https://www.hagerty.com/valuation-tools/mitsubishi/3000_gt/1991/1991-mitsubishi-3000_gt-vr4",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carthrottle-3000gt-vr4",
+      "type": "publication",
+      "publisher": "Car Throttle",
+      "title": "Used Car Buyer's Guide: Mitsubishi 3000GT VR-4",
+      "url": "https://www.carthrottle.com/post/used-car-buyers-guide-mitsubishi-3000gt-vr-4/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1994-3000gt-vr4",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1994 Mitsubishi 3000GT VR-4 Coupe 2D",
+      "url": "https://www.kbb.com/mitsubishi/3000gt/1994/vr-4-coupe-2d",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1996-3000gt-vr4",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1996 Mitsubishi 3000GT VR-4 Coupe 2D",
+      "url": "https://www.kbb.com/mitsubishi/3000gt/1996/vr-4-coupe-2d",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-1999-3000gt-vr4",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1999 Mitsubishi 3000GT VR-4 Coupe 2D",
+      "url": "https://www.kbb.com/mitsubishi/3000gt/1999/vr-4-coupe-2d",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (320 hp) rests on KBB (database) and Hagerty's unsigned valuation text; weight (3,803 lb) rests on KBB alone; the start year 1991 rests on Hagerty's valuation listing. A Mitsubishi Motors America press kit or brochure, or a major magazine spec panel for the 1994 VR-4, would replace them."
+}

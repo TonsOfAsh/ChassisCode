@@ -1,0 +1,144 @@
+{
+  "id": "chevrolet-corvette-e-ray-c8",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C8",
+  "variant": "E-Ray",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette E-Ray (C8)",
+  "aliases": [
+    "E-Ray",
+    "Corvette E-Ray",
+    "C8 E-Ray",
+    "E-Ray C8",
+    "Hybrid Corvette",
+    "AWD Corvette",
+    "LT2",
+    "2024 Corvette E-Ray"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": 2026
+    },
+    "sourceId": "thedrive-e-ray-2023",
+    "note": "US model years 2024-2026. Start: 2024 model (The Drive's '2024 Chevy Corvette E-Ray' first drive; KBB, Sean Tucker, 17 Jan 2023: 'The E-Ray goes on sale in 2023', kbb-e-ray-news-2023). End year is provisional: Cars.com lists a 2026 Corvette E-Ray with '655 @ 6450' (carscom-e-ray-2026), and chevrolet.com's Corvette page (chevrolet-corvette-lineup-2027, at the /e-ray address) now lists Stingray, Grand Sport, Grand Sport X ('721 Combined horsepower'), Z06, ZR1 and ZR1X, with no E-Ray. No GM statement that the E-Ray ended with 2026 was found."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "kbb-e-ray-news-2023",
+    "note": "KBB: offered as a coupe (from $104,295) and a convertible (from $111,295). The coupe has a removable roof panel; the convertible is a retractable hardtop sold under the same E-Ray name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "thedrive-e-ray-2023",
+      "note": "'6.2-liter V8 with a front single-motor electric drive unit'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "thedrive-e-ray-2023",
+      "note": "'6.2-liter V8' (LT2). The cc figure was not on a page opened for this car."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "thedrive-e-ray-2023",
+      "note": "Naturally aspirated 6.2-liter LT2 V8 (no forced induction mentioned)."
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "thedrive-e-ray-2023",
+    "note": "Full hybrid, not plug-in: '1.9-kWh lithium-ion battery' with a front electric motor."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "thedrive-e-ray-2023",
+    "note": "'8-speed dual-clutch automatic | all-wheel drive'; KBB: 'The electric motor powers the front wheels. The V8 powers the rear set.'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "thedrive-e-ray-2023",
+    "note": "'8-speed dual-clutch automatic'"
+  },
+  "powerHp": {
+    "value": 655,
+    "sourceId": "thedrive-e-ray-2023",
+    "note": "PROVISIONAL: publications (combined system output). The Drive spec box (Peter Holderith, 13 Oct 2023), quote: \"655 (495 from V8 @ 6,450 rpm | 160 from electric motor)\". KBB editorial (kbb-e-ray-news-2023, Sean Tucker): \"a total of 655 horsepower\". Cars.com: 'SAE Net Horsepower @ RPM 655 @ 6450' (carscom-e-ray-2024). No Chevrolet page could be opened (news.chevrolet.com URL not found; corvetteactioncenter.com refused)."
+  },
+  "weightLb": {
+    "value": 3774,
+    "sourceId": "thedrive-e-ray-2023",
+    "note": "PROVISIONAL: publications reporting Chevrolet's DRY weight (weight-order step 4), standard coupe, 2024 model. The Drive spec box, quote: \"Dry Weight | 3,774 pounds (coupe) | 3,856 pounds (convertible)\". Carscoops (carscoops-e-ray-2023, Chris Chilton, 17 Jan 2023): \"The E-Ray coupe's dry weight as 3,774 lbs (1,712 kg)\". Cars.com labels it 'Base Curb Weight 3,774 lbs' (carscom-e-ray-2024), but it is the same Chevrolet dry figure. No Chevrolet curb weight was found; a real curb weight is higher (Carscoops: 'almost certainly going to top 4,000 lbs')."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "thedrive-e-ray-2023",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2024 Chevy Corvette E-Ray First Drive Review",
+      "url": "https://www.thedrive.com/car-reviews/2024-chevrolet-corvette-e-ray-first-drive-review-specs-price-options-impressions",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscoops-e-ray-2023",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "2024 Corvette E-Ray AWD Hybrid Is The Quickest 'Vette Ever, Hits 60 In 2.5 Seconds",
+      "url": "https://www.carscoops.com/?p=2589947",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-e-ray-news-2023",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Chevy Corvette E-Ray hybrid is the quickest production Vette ever",
+      "url": "https://www.kbb.com/car-news/2024-chevy-corvette-e-ray-hybrid-quickest-production-vette-ever",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-e-ray-2024",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2024 Chevrolet Corvette E-Ray 1LZ specs",
+      "url": "https://www.cars.com/research/chevrolet-corvette_e_ray-2024/specs/438877/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "carscom-e-ray-2026",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2026 Chevrolet Corvette E-Ray 3LZ specs",
+      "url": "https://www.cars.com/research/chevrolet-corvette_e_ray-2026/specs/475567/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "chevrolet-corvette-lineup-2027",
+      "type": "manufacturer",
+      "publisher": "Chevrolet",
+      "title": "Corvette performance lineup",
+      "url": "https://www.chevrolet.com/performance/corvette/e-ray",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "discrepancies": [],
+  "provisionalNote": "Power (655 hp) and the dry weight (3,774 lb, coupe) rest on publications reporting Chevrolet's figures (The Drive's spec box, Carscoops, KBB editorial); a Chevrolet press release or specification table (news.chevrolet.com, or a GM release reproduced on corvetteactioncenter.com or vette-vues.com) would replace them, and a Chevrolet curb weight would replace the dry figure. The last model year (2026) is inferred from Cars.com and chevrolet.com's current lineup; a GM statement would replace it."
+}

@@ -132,6 +132,7 @@ export const SOURCE_TYPES = [
   'manufacturer', // press kit, spec sheet, official site, owner's manual
   'publication', // Car and Driver, Road & Track, MotorTrend, Evo, etc.
   'database', // last resort
+  'enthusiast', // fan site, owners' registry or club page: provisional records only
 ] as const;
 
 export const CONFIDENCE_LEVELS = ['high', 'medium', 'low'] as const;

@@ -67,12 +67,12 @@
   "powerHp": {
     "value": 320,
     "sourceId": "toyota-supra-history-2019",
-    "note": "Quote: \"The Turbo version, the 2JZ-GTE, employed two sequential turbochargers and produced 320 hp and 315 lb-ft of torque.\" US-market rating; Japanese-market cars were rated lower (276 bhp per scm-supra-turbo-2022)."
+    "note": "Quote: \"The Turbo version, the 2JZ-GTE, employed two sequential turbochargers and produced 320 hp and 315 lb-ft of torque.\" US-market rating; Japanese-market cars were rated lower (276 bhp per scm-supra-turbo-2022). Sports Car Market's profile text also says 'U.S. engines were rated at 320 hp'."
   },
   "weightLb": {
     "value": 3450,
     "sourceId": "toyota-supra-history-2019",
-    "note": "Quote: \"At 3,450 pounds, the Turbo model weighed about 125 less than its predecessor, some of the savings coming from an aluminum hood, roof and bumper supports\". Toyota's retrospective does not name the transmission, roof or model year for this figure; taken as the launch (1993) Turbo."
+    "note": "PROVISIONAL (configuration unknown). Quote (Toyota): \"At 3,450 pounds, the Turbo model weighed about 125 less than its predecessor, some of the savings coming from an aluminum hood, roof and bumper supports\". Toyota's retrospective does not name the transmission, roof or model year; taken as the launch (1993) Turbo. Corroboration: KBB's 1994 Supra Turbo Liftback (automatic) page prints \"Curb Weight: 3415 lbs.\" (kbb-1994-supra-turbo, database), within 1%."
   },
   "specBasis": {
     "market": "US",
@@ -97,11 +97,21 @@
       "title": "1993 Toyota Supra Turbo (profile by Mark R. Brinker, 8 June 2022)",
       "url": "https://www.sportscarmarket.com/profile/1993-toyota-supra-turbo",
       "accessed": "2026-10-01"
+    },
+    {
+      "id": "kbb-1994-supra-turbo",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1994 Toyota Supra Turbo Liftback Hatchback 2D",
+      "url": "https://www.kbb.com/toyota/supra/1994/turbo-liftback-hatchback-2d/",
+      "accessed": "2026-10-03"
     }
   ],
   "discrepancies": [],
   "needsReview": false,
-  "confidence": "high",
+  "confidence": "low",
   "image": null,
-  "dailyEligible": true
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight rests on Toyota's 3,450 lb retrospective figure, which names no transmission, roof or model year, corroborated by KBB's 1994 Turbo automatic (3,415 lb, database). No page gave the cc figure. A Toyota spec sheet or brochure, or a major magazine spec panel, for the 1993 Turbo with the 6-speed manual and fixed roof would replace it."
 }

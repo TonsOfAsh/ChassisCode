@@ -1,0 +1,126 @@
+{
+  "id": "ford-f-150-raptor-2nd-gen",
+  "manufacturer": "Ford",
+  "model": "F-150",
+  "generation": "2nd gen",
+  "variant": "Raptor",
+  "subVariant": null,
+  "displayName": "Ford F-150 Raptor (2nd gen)",
+  "aliases": [
+    "Raptor",
+    "F-150 Raptor",
+    "Ford Raptor",
+    "Gen 2 Raptor",
+    "2017 Raptor",
+    "2019 Raptor",
+    "10R80",
+    "High Output EcoBoost"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "sourceId": "ford-raptor-2017-key-messages",
+    "note": "US model years 2017-2020. Start: Ford's '2017 F-150 Raptor' key messages. End year is provisional: Auto123 (database) lists a 2020 F-150 Raptor SuperCab (auto123-raptor-2020); the 2021 Raptor is the next generation. No Ford page stating that 2020 was the last year of this generation was opened."
+  },
+  "body": {
+    "value": [
+      "Pickup"
+    ],
+    "sourceId": "ford-raptor-2017-key-messages",
+    "note": "Ford: 'Available in both SuperCab and SuperCrew', including 'a Raptor-only SuperCab configuration with 134.2-inch wheelbase'. The standard car here is the SuperCab (5.5-ft box), the launch configuration; the SuperCrew is heavier."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "ford-raptor-2017-key-messages",
+      "note": "'second-generation 3.5-liter high-output EcoBoost V6'"
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "ford-raptor-2017-key-messages",
+      "note": "Ford: '3.5-liter'. The cc figure was not on a page opened for this car."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "auto123-raptor-2020",
+      "note": "Auto123 (database): 'Twin Turbo Regular Unleaded V-6' (2020 Raptor); Ford calls it the 'high-output EcoBoost V6'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-raptor-2017-key-messages"
+  },
+  "drivetrain": {
+    "value": "4WD",
+    "sourceId": "ford-raptor-2017-key-messages",
+    "note": "'advanced four-wheel-drive torque-on-demand transfer case with Terrain Management System' (a two-speed 4x4 with an automatic 4A mode, like the Bronco Raptor)."
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-raptor-2017-key-messages",
+    "note": "'segment-first 10-speed automatic transmission'"
+  },
+  "powerHp": {
+    "value": 450,
+    "sourceId": "ford-raptor-2017-key-messages",
+    "note": "Quote: \"All-new second-generation 3.5-liter high-output EcoBoost V6 engine producing out 510 lb.-ft. of torque and 450 horsepower\". Same rating for 2019: The Auto Channel's spec list, 'HORSEPOWER/TORQUE: 450 hp @ 5,000 rpm/510- lb.-ft. @ 3,500 rpm' (autochannel-raptor-2019)."
+  },
+  "weightLb": {
+    "value": 5552,
+    "sourceId": "autochannel-raptor-2019",
+    "note": "PROVISIONAL: a single named-author article, corroborated by an enthusiast site and a database. 2019 Raptor SuperCab. The Auto Channel (John Heilig) quote: \"CURB WEIGHT: 5,552 lbs.\" F150Hub (f150hub-2nd-gen-raptor, enthusiast): \"5,525 lbs(SuperCab)\" for the 2017-on truck (0.5% lower). Auto123 (auto123-raptor-2020, database) for the 2020 SuperCab 5.5-ft box: \"Curb Weight: 5508.00 (lbs)\" (0.8% lower). Approximate figures ('5,600-pound', The Truth About Cars; '5600-5800 lb', Traction Life) are not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-raptor-2017-key-messages",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company",
+      "title": "2017 Ford F-150 Raptor Key Messages",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/2016/12/05/2017-Ford%20F-150-Raptor-Key-Messages.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autochannel-raptor-2019",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2019 Ford F-150 Raptor SuperCab Review by John Heilig",
+      "url": "https://www.theautochannel.com/news/2019/06/28/670185-2019-ford-f-150-raptor-supercab-review-by-john-heilig.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "f150hub-2nd-gen-raptor",
+      "type": "enthusiast",
+      "publisher": "F150Hub",
+      "title": "2nd Gen Raptor",
+      "url": "https://f150hub.com/trucks/2nd-gen-raptor.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "auto123-raptor-2020",
+      "type": "database",
+      "publisher": "Auto123",
+      "title": "Car Specs Ford F-150 2020 Raptor 4WD SuperCab 5.5' Box",
+      "url": "https://specs2.auto123.com/en/specs/ford/f-150/ford-f-150-2020-raptor-4wd-supercab-55'-box-409453",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "discrepancies": [],
+  "provisionalNote": "Weight rests on one named-author article (The Auto Channel, 5,552 lb, 2019 SuperCab), corroborated within 1% by an enthusiast site (F150Hub, 5,525 lb) and a database (Auto123, 5,508 lb for 2020); a Ford specification sheet or a major magazine's specification panel would replace it. The last model year (2020) rests on Auto123 listing a 2020 Raptor; a Ford release on the 2021 Raptor would replace it. Reference year is 2019 because that is the year the article states; the 450 hp rating applied 2017-2020."
+}

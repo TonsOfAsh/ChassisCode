@@ -1,0 +1,150 @@
+{
+  "id": "cadillac-cts-v-3rd-gen",
+  "manufacturer": "Cadillac",
+  "model": "CTS-V",
+  "generation": "3rd gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Cadillac CTS-V (3rd gen)",
+  "aliases": [
+    "CTS-V3",
+    "Third-gen CTS-V",
+    "LT4",
+    "8L90",
+    "2016 CTS-V"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2019
+    },
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "US model years. First: Cadillac's release 'DETROIT – Cadillac today introduced the 2016 CTS-V' with its '2016 CADILLAC CTS-V PRELIMINARY SPECIFICATIONS'. Last: GM Authority (Jonathan Lopez, 14 October 2019): \"Production of the high-performance 2019 Cadillac CTS-V variant ended back in April\" (gmauthority-last-cts-v); no opened Cadillac page states the end year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "'4-door sport luxury sedan (RWD)'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cadillac-2016-cts-v-release",
+      "note": "'6.2L supercharged V-8' (LT4)"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "cadillac-2016-cts-v-release",
+      "note": "6,162 cc ('Displacement (cu in / cc): 376 / 6162')"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "cadillac-2016-cts-v-release",
+      "note": "'6.2L supercharged V-8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "Inferred from the release's description of the supercharged petrol V8."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "'4-door sport luxury sedan (RWD)'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "'Hydra-Matic 8L90', a 'paddle-shift eight-speed, electronically controlled' automatic. The only transmission."
+  },
+  "powerHp": {
+    "value": 640,
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "2016 launch rating. Quote: \"640 / 477 @ 6400 (SAE certified)\" (hp / kW). Edmunds, Cars.com and KBB list the 2016 car at 640 hp."
+  },
+  "weightLb": {
+    "value": 4145,
+    "sourceId": "cadillac-2016-cts-v-release",
+    "note": "PROVISIONAL: a manufacturer figure from a table headed preliminary, matched by a database. 2016 CTS-V sedan, 8-speed automatic (the only car). Quote: \"4145 / 1880\" (curb weight lb / kg) in the table headed \"2016 CADILLAC CTS-V PRELIMINARY SPECIFICATIONS\". Edmunds gives the same: \"4,145 lbs.\" for the 2016 4dr Sedan (edmunds-cts-v-2016-specs, a database). Cars.com (\"Base Curb Weight: 4,134 lbs\", cars-com-cts-v-2016-specs) and KBB (\"4134 pounds\", kbb-cts-v-2016-specs) list 11 lb less; see discrepancies. No final Cadillac figure was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "weightQualifier": "preliminary",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cadillac-2016-cts-v-release",
+      "type": "manufacturer",
+      "publisher": "Cadillac (General Motors; release and specification table reproduced by Car-Revs-Daily)",
+      "title": "2016 Cadillac CTS-V introduction release and 2016 Cadillac CTS-V Preliminary Specifications",
+      "url": "https://www.car-revs-daily.com/?p=166506",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-cts-v-2016-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2016 Cadillac CTS-V Features & Specs",
+      "url": "https://www.edmunds.com/cadillac/cts-v/2016/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-cts-v-2016-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2016 Cadillac CTS-V specs & colors",
+      "url": "https://www.cars.com/research/cadillac-cts_v-2016/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "kbb-cts-v-2016-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 Cadillac CTS-V Specs, Features & Options",
+      "url": "https://www.kbb.com/cadillac/cts-v/2016/specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "gmauthority-last-cts-v",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "Details Emerge On Last Cadillac CTS-V Ever Produced, by Jonathan Lopez (14 October 2019)",
+      "url": "https://gmauthority.com/blog/2019/10/details-emerge-on-last-cadillac-cts-v-ever-produced/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4145,
+          "sourceId": "cadillac-2016-cts-v-release"
+        },
+        {
+          "value": 4134,
+          "sourceId": "cars-com-cts-v-2016-specs"
+        }
+      ],
+      "reason": "Cadillac's preliminary table and Edmunds give 4,145 lb; Cars.com and KBB give 4,134 lb (0.3% less). The databases do not say where their figures come from; 4,134 may be a later revision.",
+      "resolution": "Used 4,145 lb, the figure in Cadillac's own (preliminary) table, which Edmunds repeats. The difference is well within the 2% tolerance for provisional figures."
+    }
+  ],
+  "needsReview": true,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 4,145 lb comes from Cadillac's table headed 'PRELIMINARY SPECIFICATIONS' (reproduced by Car-Revs-Daily) and is repeated by Edmunds (a database); Cars.com and KBB (databases) give 4,134 lb. A final Cadillac specification sheet for 2016 to 2019, or a Car and Driver, Road & Track or MotorTrend spec panel, would replace it. The end year (2019) rests on GM Authority, not a Cadillac page.",
+  "reviewNotes": "Weight 4,145 lb is from Cadillac's table headed 'PRELIMINARY SPECIFICATIONS' (labelled weightQualifier 'preliminary'); Edmunds agrees, Cars.com and KBB give 4,134 lb. A final Cadillac figure would settle it."
+}

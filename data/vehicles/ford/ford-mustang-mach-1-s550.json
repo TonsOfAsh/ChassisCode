@@ -1,0 +1,160 @@
+{
+  "id": "ford-mustang-mach-1-s550",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S550",
+  "variant": "Mach 1",
+  "subVariant": null,
+  "displayName": "Ford Mustang Mach 1 (S550)",
+  "aliases": [
+    "Mach 1",
+    "Mustang Mach 1",
+    "S550 Mach 1",
+    "Coyote",
+    "5.0",
+    "TR-3160",
+    "SelectShift",
+    "2021 Mach 1"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2023
+    },
+    "sourceId": "ford-us-mustang-brochure-2021",
+    "note": "US model years 2021-2023. First: Ford's 2021 US Mustang brochure introduces the Mach 1. Last: Ford Authority (Alex Luft) calls 2023 'the ninth and final model year of the pony car's sixth generation' and lists the 2023 Mach 1 (fordauthority-mustang-2023)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ford-us-mustang-brochure-2021",
+    "note": "Fastback only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-us-mustang-brochure-2021",
+      "note": "'5.0L Ti-VCT V8'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "ford-us-mustang-brochure-2021",
+      "note": "'5.0L'. No opened page prints the cc figure; Cars.com lists '5.0 L/302' (cars-com-2022-mach-1)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "fordauthority-mustang-2023",
+      "note": "'Naturally aspirated 5.0L V8 Coyote'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "fordauthority-mustang-2023",
+    "note": "'Gasoline'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "fordauthority-mustang-2023",
+    "note": "'RWD'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-us-mustang-brochure-2021",
+    "note": "'TREMEC TR-3160 6-speed manual transmission with Rev Matching' and '10-speed SelectShift automatic transmission'."
+  },
+  "powerHp": {
+    "value": 470,
+    "sourceId": "thedrive-mustang-2022",
+    "note": "Rating for model years 2022-2023, which cover two of the three years. The Drive (Chris Tsui, 13 October 2021): \"the Mach 1's motor is brought down to 470 horses instead of the current version's 480\", with Ford's statement: \"horsepower and torque has been reduced by 10 hp and 10 pound-feet for 2022 model year Mustangs with the 5.0-liter V8 engine.\" Ford Authority (Alex Luft) for 2023: \"Mach 1 | Naturally aspirated 5.0L V8 Coyote | Gasoline | Six-speed manual | RWD | 470 @ 7250\" (fordauthority-mustang-2023). Two named-author outlets agree. The 2021 car was rated 480 hp: Ford's 2021 brochure, '480 HORSEPOWER' (ford-us-mustang-brochure-2021)."
+  },
+  "weightLb": {
+    "value": 3868,
+    "sourceId": "cars-com-2022-mach-1",
+    "note": "PROVISIONAL, from databases. Mach 1 fastback, 6-speed manual (the standard transmission). Cars.com 2022: base curb weight '3,868 lbs'. MotorMatchup, 2023 Mach 1 Fastback with 'Transmission: 6-speed Manual': \"Curb Weight: 3,868 lbs\" (motormatchup-2023-mach-1). Cars.com gives the same 3,868 lb for 2021 (cars-com-2021-mach-1)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-us-mustang-brochure-2021",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by auto-brochures.com)",
+      "title": "Ford Mustang brochure (US, 2021 model year)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2021.pdf",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "thedrive-mustang-2022",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2022 Ford Mustang's 5.0L V8 Down 10 HP to Meet Emissions Standards (Chris Tsui)",
+      "url": "https://www.thedrive.com/news/42730/2022-ford-mustangs-5-0l-v8-down-10-hp-to-meet-emissions-standards",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "fordauthority-mustang-2023",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "2023 Ford Mustang (Alex Luft)",
+      "url": "https://fordauthority.com/fmc/ford/ford-mustang/2023-ford-mustang/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2022-mach-1",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Ford Mustang Mach 1 specs & colors",
+      "url": "https://www.cars.com/research/ford-mustang-2022/specs/426026/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-2021-mach-1",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2021 Ford Mustang Mach 1 specs & colors",
+      "url": "https://www.cars.com/research/ford-mustang-2021/specs/418522/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motormatchup-2023-mach-1",
+      "type": "database",
+      "publisher": "MotorMatchup",
+      "title": "2023 Ford Mustang Mach 1 Fastback specifications",
+      "url": "https://www.motormatchup.com/catalog/Ford/Mustang/2023/Mach-1-Fastback",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 470,
+          "sourceId": "thedrive-mustang-2022"
+        },
+        {
+          "value": 480,
+          "sourceId": "ford-us-mustang-brochure-2021"
+        }
+      ],
+      "reason": "Model year: 480 hp for 2021, 470 hp for 2022-2023 after an emissions recalibration.",
+      "resolution": "Used 470 hp, the rating for two of the three model years; reference year 2022."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,868 lb rests on Cars.com (2021 and 2022) and MotorMatchup (2023, manual), all databases. A Ford specification sheet or a major magazine's spec panel for the 2022 Mach 1 manual would replace it. Power (470 hp) rests on two named-author outlets, not a Ford document."
+}

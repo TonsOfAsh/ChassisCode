@@ -1,0 +1,128 @@
+{
+  "id": "subaru-wrx-sti-gd",
+  "manufacturer": "Subaru",
+  "model": "WRX STI",
+  "generation": "GD",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Subaru WRX STI (GD)",
+  "aliases": [
+    "Impreza WRX STI",
+    "STI",
+    "GD STI",
+    "GDB",
+    "Blobeye STI",
+    "Hawkeye STI",
+    "EJ257",
+    "2004 WRX STI",
+    "2007 WRX STI"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2004,
+      "endYear": 2007
+    },
+    "sourceId": "subaru-us-2004-sti-pricing",
+    "note": "US model years. First: Subaru of America's release 'Subaru Announces 2004 Impreza WRX STi Pricing; The Most Powerful Subaru Ever Offered for Sale in North America'. Last: Subaru's 2008 release introduces the all-new 'third-generation' 5-door WRX STI and compares it with \"the 2007 WRX STI sedan\" (subaru-us-2008-sti-release)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "tac-2004-sti-russ",
+    "note": "'Review: 2004 Subaru WRX STi Sedan'. The 2008 Subaru release also calls the 2007 car 'the 2007 WRX STI sedan' (subaru-us-2008-sti-release)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "subaru-us-2004-sti-pricing",
+      "note": "'Intercooled and turbocharged DOHC boxer engine'"
+    },
+    "displacementL": {
+      "value": 2.5,
+      "sourceId": "subaru-us-2004-sti-pricing",
+      "note": "Subaru gives litres only ('2.5 liter'); no opened page gives a cc figure. Carey Russ's spec panel gives '2.5 liters / 150 cu. in.' (tac-2004-sti-russ)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "subaru-us-2004-sti-pricing",
+      "note": "'Intercooled and turbocharged DOHC boxer engine' (single turbocharger)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "subaru-us-2004-sti-pricing",
+    "note": "Inferred from the release's description of the turbocharged petrol boxer engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "subaru-us-2004-sti-pricing",
+    "note": "'Full-Time All-Wheel Drive system with a Driver Control Center Differential (DCCD)'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "subaru-us-2004-sti-pricing",
+    "note": "'6-speed manual transmission'. The only transmission."
+  },
+  "powerHp": {
+    "value": 300,
+    "sourceId": "subaru-us-2004-sti-pricing",
+    "note": "2004 launch rating. Quote: \"delivering 300 horsepower at 6000 RPM and 300 lb-ft. peak torque at 4000 RPM\". The car was re-rated lower later in the run: Subaru's 2008 release gives the new car \"305-horsepower...a gain of 12 over the previous model\" (subaru-us-2008-sti-release), implying 293 hp for the 2007 car. The lower rating did not cover more than half of the model years, so the launch figure is used."
+  },
+  "weightLb": {
+    "value": 3263,
+    "sourceId": "tac-2004-sti-russ",
+    "note": "PROVISIONAL: two smaller publications, one without a named author. 2004 WRX STi sedan, 6-speed manual (the only car). Quote: \"3263 lbs.\" (curb weight line of the specification panel in Carey Russ's review on The Auto Channel). MotorWeek's 2004 comparison test, with no author named, agrees: the two cars have \"identical 3,263-pound curb weights\" (motorweek-2004-sti-vs-evo, a publication). Subaru's releases give no curb weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2004,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "subaru-us-2004-sti-pricing",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (release reproduced by The Auto Channel)",
+      "title": "Subaru Announces 2004 Impreza WRX STi Pricing; The Most Powerful Subaru Ever Offered for Sale in North America",
+      "url": "https://www2020.theautochannel.com/news/2003/04/23/159933.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "subaru-us-2008-sti-release",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (release reproduced by The Auto Channel)",
+      "title": "Subaru Announces Pricing and Availability of its Performance Flagship, the 2008 Subaru Impreza WRX STI (15 November 2007)",
+      "url": "https://www2020.theautochannel.com/news/2007/11/15/071298.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "tac-2004-sti-russ",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "Review: 2004 Subaru WRX STi Sedan, by Carey Russ",
+      "url": "https://www2020.theautochannel.com/news/2003/06/09/162799.html",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorweek-2004-sti-vs-evo",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2004 Subaru Impreza WRX STi vs. 2003 Mitsubishi Lancer Evolution (comparison test)",
+      "url": "https://motorweek.org/road_tests/comparison_tests/2004_subaru_impreza_wrx_sti_vs_2003_mitsubishi_lancer_evolution/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,263 lb rests on Carey Russ's spec panel on The Auto Channel and on MotorWeek's comparison test (no named author); the two agree, but neither is a major magazine and only one has a named author. A Subaru of America specification sheet, or a Car and Driver, Road & Track or MotorTrend spec panel for a 2004 STi, would replace it."
+}

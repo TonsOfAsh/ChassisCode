@@ -1,0 +1,131 @@
+{
+  "id": "nissan-350z-z33",
+  "manufacturer": "Nissan",
+  "model": "350Z",
+  "generation": "Z33",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Nissan 350Z (Z33)",
+  "aliases": [
+    "Z33",
+    "350Z",
+    "Nissan Z",
+    "Fairlady Z",
+    "VQ35DE",
+    "VQ35HR",
+    "350Z Track",
+    "350Z Enthusiast",
+    "350Z Touring",
+    "350Z Nismo",
+    "2003 350Z"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2003,
+      "endYear": 2008
+    },
+    "sourceId": "nissan-us-2003-350z-press-kit",
+    "note": "US model years of the coupe. First: \"The all-new Nissan 350Z sports car, unveiled in January 2002, went on sale in the United States and Canada in August 2002 as a 2003 model.\" Last: for 2009 the coupe was replaced by the 370Z (\"the first full redesign of the iconic Nissan Z since its re-introduction as a 2003 model\") while only the roadster carried on: \"The 2009 Nissan 350Z Roadster continues to offer sports car lovers high-performance excitement\" (nissan-us-2009-370z-press-kit). The 350Z Roadster (from 2004 to 2009) is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-us-2003-350z-press-kit",
+    "note": "'In addition to the hatchback coupe, a convertible version of the new Nissan Z is planned.' The open car, the 350Z Roadster, is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-us-2003-350z-press-kit",
+      "note": "'The 3.5-liter VQ35DE V6 engine'"
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "nissan-us-2003-350z-press-kit",
+      "note": "Nissan's kit gives litres only ('3.5-liter'); no cc figure was found on an opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "nissan-us-2003-350z-press-kit",
+      "note": "Inferred from the kit's description of the VQ35DE V6 (no forced induction mentioned)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-us-2003-350z-press-kit",
+    "note": "Inferred from the kit's description of the petrol V6."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "nissan-us-2003-350z-press-kit",
+    "note": "'Suspension for the rear-wheel drive vehicle is a 4-wheel independent design.'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "nissan-us-2003-350z-press-kit",
+    "note": "'Both 6-speed close-ratio manual and 5-speed automatic transmissions are available.'"
+  },
+  "powerHp": {
+    "value": 287,
+    "sourceId": "nissan-us-2003-350z-press-kit",
+    "note": "2003 launch rating, both transmissions. Quote: \"The 3.5-liter VQ35DE V6 engine produces 287 horsepower and 274 lb-ft of torque\". Later manual cars were rated higher (300 hp for 2005 and 2006, then 306 hp with the VQ35HR from 2007; Nissan's 2009 kit gives the VQ35HR \"306 horsepower\", nissan-us-2009-370z-press-kit). No later rating covered more than half of the 2003 to 2008 model years, so the launch figure is used."
+  },
+  "weightLb": {
+    "value": 3188,
+    "sourceId": "edmunds-350z-2003-specs",
+    "note": "PROVISIONAL: spec databases only. 2003 base 350Z (2dr Coupe, 6-speed manual), the standard car. Edmunds: \"Curb weight | 3,188 lbs.\" for the '2dr Coupe (3.5L 6cyl 6M)'. Cars.com agrees: \"Base Curb Weight 3,188 lbs\" for the '2dr Cpe Manual Trans' (cars-com-350z-2003-specs). Nissan's 2003 press kit and brochure give no curb weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2003,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-us-2003-350z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2003 Nissan 350Z Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/2003-350z-press-kit",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "nissan-us-2009-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (Nissan USA Newsroom)",
+      "title": "2009 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2009-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-350z-2003-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2003 Nissan 350Z Features & Specs",
+      "url": "https://www.edmunds.com/nissan/350z/2003/features-specs/",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "cars-com-350z-2003-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2003 Nissan 350Z specs & colors",
+      "url": "https://www.cars.com/research/nissan-350z-2003/specs/",
+      "accessed": "2026-10-03"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,188 lb for the 2003 base coupe with the 6-speed manual rests on Edmunds and Cars.com (databases, which agree). A Nissan US specification table for the 2003 350Z, or a Car and Driver, Road & Track or MotorTrend spec panel for a base 2003 coupe, would replace it. All other fields come from Nissan."
+}
