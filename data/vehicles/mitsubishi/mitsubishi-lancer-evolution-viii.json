@@ -1,0 +1,136 @@
+{
+  "id": "mitsubishi-lancer-evolution-viii",
+  "manufacturer": "Mitsubishi",
+  "model": "Lancer Evolution",
+  "generation": "VIII",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mitsubishi Lancer Evolution (VIII)",
+  "aliases": [
+    "Evo VIII",
+    "Evo 8",
+    "Evolution VIII",
+    "Lancer Evo VIII",
+    "Lancer Evolution VIII",
+    "Evo VIII RS",
+    "Evo VIII MR",
+    "4G63",
+    "CT9A",
+    "2003 Lancer Evolution"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2003,
+      "endYear": 2005
+    },
+    "sourceId": "mitsubishi-us-2003-evo-pricing",
+    "note": "US model years 2003-2005. First: Mitsubishi's 4 March 2003 release 'Mitsubishi Motors Announces Pricing on 2003 Lancer Evolution'. Last: Mitsubishi's 22 July 2004 'What's New for 2005' release lists 'Lancer Evolution RS, Lancer Evolution VIII, and Lancer Evolution MR Edition' for 2005 (mitsubishi-us-2005-evo-whats-new); the Evolution IX followed as a 2006 model (separate record)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mitsubishi-us-2004-evo-rs",
+    "note": "Mitsubishi calls it a 'sports sedan'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mitsubishi-us-2005-evo-whats-new",
+      "note": "'2.0-liter DOHC 16-valve I4 intercooled turbo, 4G63'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "mitsubishi-us-2005-evo-whats-new",
+      "note": "Mitsubishi's US releases give '2.0-liter' only; no cc figure for this car was found on an opened Mitsubishi page."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "mitsubishi-us-2005-evo-whats-new",
+      "note": "Single turbocharger: 'intercooled turbo'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mitsubishi-us-2005-evo-whats-new",
+    "note": "Inferred from the turbocharged petrol 4G63 described on the cited page."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mitsubishi-us-2004-evo-rs",
+    "note": "'turbocharged, all-wheel-drive Lancer Evolution'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "6-speed Manual"
+    ],
+    "sourceId": "mitsubishi-us-2005-evo-whats-new",
+    "note": "5-speed manual on the standard car and RS; for 2005 the MR Edition had an exclusive '6-speed M/T close-ratio sport transmission'. For 2004 the 'five-speed manual is the only transmission available' (mitsubishi-us-2004-evo-rs). No automatic."
+  },
+  "powerHp": {
+    "value": 271,
+    "sourceId": "mitsubishi-us-2004-evo-rs",
+    "note": "Quote: \"The Lancer Evolution and Lancer Evolution RS showcase a 2.0-liter 24-valve four-cylinder engine that produces 271 horsepower at 6500 rpm, 273 pound-feet of torque at 3500 rpm, and a power band that starts building just above idle.\" ('24-valve' is the release's error; the 2005 release says 16-valve.) Same rating at launch: \"271 horsepower @ 6,500 rpm and 273 lbs.-ft of torque at 3,500 rpm\" (mitsubishi-us-2003-evo-pricing). For 2005 Mitsubishi rated it 276 hp / 286 lb-ft ('+5 hp increase / +13 lb-ft increase', mitsubishi-us-2005-evo-whats-new); 271 hp covers two of the three model years, so it is used."
+  },
+  "weightLb": {
+    "value": 3321,
+    "sourceId": "mitsubishi-us-2004-evo-rs",
+    "note": "Standard Lancer Evolution (not the RS), 5-speed manual, 2004 model. Quote: \"When the difference between winning and losing can be measured in tenths of a second, the difference between the 3,321-lb Lancer Evolution and the 3,175-lb Lancer Evolution RS becomes significant.\" The sentence does not say 'curb weight'. No Mitsubishi weight for the 2003 model was found, so the reference year is 2004 (same 271 hp rating)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2004,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mitsubishi-us-2004-evo-rs",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (media newsroom)",
+      "title": "2004 Mitsubishi Lancer Evolution RS: a race-ready rally car (4 November 2003)",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-d8243e51c57af0f53c6a6ab94b06fbef-2004-mitsubishi-lancer-evolution-rs-a-race-ready-rally-car",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "mitsubishi-us-2005-evo-whats-new",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (media newsroom)",
+      "title": "Mitsubishi Lancer Evolution - What's New for 2005 (22 July 2004)",
+      "url": "https://media.mitsubishicars.com/en-US/releases/release-692db9fe12cc41d01e21c98d4b06fc02-mitsubishi-lancer-evolution-whats-new-for-2005",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "mitsubishi-us-2003-evo-pricing",
+      "type": "manufacturer",
+      "publisher": "Mitsubishi Motors North America (reproduced by The Auto Channel)",
+      "title": "Mitsubishi Motors Announces Pricing on 2003 Lancer Evolution (4 March 2003)",
+      "url": "https://www2020.theautochannel.com/news/2003/03/04/156497.html",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 271,
+          "sourceId": "mitsubishi-us-2004-evo-rs"
+        },
+        {
+          "value": 276,
+          "sourceId": "mitsubishi-us-2005-evo-whats-new"
+        }
+      ],
+      "reason": "Model year: 271 hp for 2003-2004, 276 hp for 2005 (larger turbo nozzle, new wastegate).",
+      "resolution": "Used 271 hp: it covers two of three model years and the reference year is 2004."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

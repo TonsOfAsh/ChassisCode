@@ -192,6 +192,20 @@
       "heldSince": "2026-10-03",
       "missing": "A curb weight from GM or a major magazine. GM Heritage kits exist but are image scans; CorvSport's 3,465 lb is one outlet.",
       "notes": "Confirmed (Chevrolet release reproduced by Corvette Action Center): 375 hp 1990-1992, 405 hp 1993-1995, 5.7-liter LT5; reference year would be 1990. 3 October 2026 provisional pass: weights disagree by about 5% (CorvSport 3,465 lb manual 1990; Vette registry 3,330 lb), so it stays held. Power confirmed by Chevrolet's ZR1 history release (corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press4.html)."
+    },
+    {
+      "id": "honda-s2000-cr-ap2",
+      "displayName": "Honda S2000 CR (AP2)",
+      "heldSince": "2026-10-04",
+      "missing": "Any curb weight. KBB's 2,855 lb (vs 2,864 lb base) contradicts Honda's stated saving of 51 lb with the hardtop, so even a provisional record is not possible.",
+      "notes": "Confirmed (Honda 2008 pricing release): 237 hp at 7,800 rpm, 6-speed manual; offered for 2008-2009."
+    },
+    {
+      "id": "chevrolet-camaro-ss-4th-gen",
+      "displayName": "Chevrolet Camaro SS (4th gen, 1998-2002)",
+      "heldSince": "2026-10-04",
+      "missing": "A decision and a weight. The SS was a package on the Z28 (Edmunds: 'The SS version of the Z28 makes 320 horsepower'); only Supercars.net gives SS figures (320 bhp, 3,360 lb, unsourced). For the Z28 instead, weights disagree by more than 2% (KBB 3,306, Cars.com 3,446, Encycarpedia 3,428 lb).",
+      "notes": "Z28 power: 305 hp (KBB, Cars.com)."
     }
   ]
 }

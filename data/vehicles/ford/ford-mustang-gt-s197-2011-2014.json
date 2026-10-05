@@ -1,0 +1,178 @@
+{
+  "id": "ford-mustang-gt-s197-2011-2014",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S197",
+  "variant": "GT",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Ford Mustang GT (S197, 2011–2014)",
+  "aliases": [
+    "S197 GT",
+    "S197 Mustang GT",
+    "Coyote",
+    "Mustang 5.0",
+    "5.0 Coyote",
+    "2011 Mustang GT",
+    "2012 Mustang GT",
+    "2013 Mustang GT",
+    "2014 Mustang GT"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2014
+    },
+    "sourceId": "ford-mustang-gt-2011-release",
+    "note": "US model years 2011-2014 for the 5.0-liter GT. Start: Ford's release 'THE 5.0-LITER IS BACK: 2011 FORD MUSTANG GT LEADS CLASS WITH 412 HP'. End: KBB lists a 2014 Mustang GT Coupe 2D at '420 @ 6500 RPM' (kbb-mustang-gt-2014); the S550 followed for 2015. The 2005-2010 S197 GT (4.6 liter) is a different car."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-mustang-gt-2011-release",
+    "note": "Ford's specifications list Coupe and Convertible; John Heilig reviewed the '2011 Ford Mustang GT Convertible' (autochannel-mustang-gt-2011)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-mustang-gt-2011-release",
+      "note": "'all-new 5.0-liter V-8 engine'"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "ford-mustang-gt-2011-release",
+      "note": "4,951 cc: '302 cu. in./4,951 cc'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-mustang-gt-2011-release",
+      "note": "Inferred: no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-gt-2011-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-gt-2011-release",
+    "note": "Rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-gt-2011-release",
+    "note": "'6-speed manual transmission or six-speed automatic'. Cars.com 2011 GT: '6-Speed A/T ... 6-Speed M/T' (cars-com-mustang-gt-2011)."
+  },
+  "powerHp": {
+    "value": 412,
+    "sourceId": "ford-mustang-gt-2011-release",
+    "note": "2011 model year. PROVISIONAL (manufacturer estimate and databases). Ford's pre-launch specification table, reproduced by AutoGuide, gives \"Horsepower 412 @ 6,500 rpm (est.)\"; AutoGuide's text: \"The return of the 5.0-liter brings with it 412-hp at 6500 rpm\". Cars.com 2011 '2dr Cpe GT': \"SAE Net Horsepower: 412 @ 6500\" (cars-com-mustang-gt-2011); KBB 2012 GT Coupe: \"412 @ 6500 RPM\" (kbb-mustang-gt-2012). 2013-2014: 420 hp (KBB 2013 and 2014 GT Coupe: \"420 @ 6500 RPM\", kbb-mustang-gt-2013, kbb-mustang-gt-2014). Each rating covers two of the four years, so the launch year is the reference year."
+  },
+  "weightLb": {
+    "value": 3605,
+    "sourceId": "cars-com-mustang-gt-2011",
+    "note": "PROVISIONAL (databases and one article). 2011 GT coupe. Quote (Cars.com 2011 '2dr Cpe GT'): \"Base Curb Weight: 3,605 lbs\". KBB 2011 GT Coupe 2D (transmission 'Manual'): \"Curb Weight: 3605 lbs.\" (kbb-mustang-gt-2011); KBB 2012: \"3605 lbs.\" (kbb-mustang-gt-2012). AutoGuide's first drive (Mark Atkinson) says it \"weighs only 3,600 lbs\" (autoguide-mustang-gt-2011-first-drive). Ford's pre-launch table, as reproduced by AutoGuide, gives only estimates: \"BASE CURB WEIGHT (POUNDS) Manual transmission 3,875 (est.)\", which do not count (ford-mustang-gt-2011-release). For later years KBB gives 3,602 lb (2013) and 3,618 lb (2014). Heilig's 2011 GT convertible: \"3,720 lbs.\" (autochannel-mustang-gt-2011)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-gt-2011-release",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (release reproduced by AutoGuide)",
+      "title": "Official: 2011 Mustang GT Debuts With 412-hp, 5.0-Liter V8",
+      "url": "https://www.autoguide.com/auto-news/2009/12/official-2011-mustang-gt-debuts-with-412-hp-5-0-liter-v8.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cars-com-mustang-gt-2011",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2011 Ford Mustang GT specs & colors",
+      "url": "https://www.cars.com/research/ford-mustang-2011/specs/323818/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-mustang-gt-2011",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2011 Ford Mustang GT Coupe 2D",
+      "url": "https://www.kbb.com/ford/mustang/2011/gt-coupe-2d/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-mustang-gt-2012",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Ford Mustang GT Coupe 2D",
+      "url": "https://www.kbb.com/ford/mustang/2012/gt-coupe-2d/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-mustang-gt-2013",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2013 Ford Mustang GT Coupe 2D",
+      "url": "https://www.kbb.com/ford/mustang/2013/gt-coupe-2d/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-mustang-gt-2014",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2014 Ford Mustang GT Coupe 2D",
+      "url": "https://www.kbb.com/ford/mustang/2014/gt-coupe-2d/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autoguide-mustang-gt-2011-first-drive",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "2011 Ford Mustang GT: First Drive (Mark Atkinson)",
+      "url": "https://www.autoguide.com/manufacturer/ford/2011-ford-mustang-gt-first-drive-1331.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autochannel-mustang-gt-2011",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2011 Ford Mustang GT Convertible Review (John Heilig)",
+      "url": "https://www.theautochannel.com/news/2010/09/24/498060.html",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3605,
+          "sourceId": "cars-com-mustang-gt-2011"
+        },
+        {
+          "value": 3875,
+          "sourceId": "ford-mustang-gt-2011-release"
+        }
+      ],
+      "reason": "Ford's pre-launch table (as reproduced by AutoGuide) gives '3,875 (est.)' for the manual coupe; Cars.com, KBB and AutoGuide's first drive give 3,600-3,605 lb for the production car.",
+      "resolution": "3,605 lb used: Ford's figure is labelled an estimate and does not count; three later sources agree within 0.2%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,605 lb) rests on databases (Cars.com, KBB) and one article (AutoGuide, '3,600 lbs'), all agreeing; Ford's only figure found is a pre-launch estimate (3,875 lb est.). A final Ford figure (2011 brochure or technical specifications) or a major magazine spec panel would replace it. Power (412 hp) rests on Ford's pre-launch table, labelled \"(est.)\", and on Cars.com and KBB (databases), all agreeing; a final Ford figure would replace it."
+}

@@ -1,0 +1,135 @@
+{
+  "id": "bugatti-veyron-16-4",
+  "manufacturer": "Bugatti",
+  "model": "Veyron",
+  "generation": null,
+  "variant": "16.4",
+  "subVariant": null,
+  "displayName": "Bugatti Veyron 16.4",
+  "aliases": [
+    "Veyron",
+    "Bugatti Veyron",
+    "Veyron 16.4",
+    "EB 16.4",
+    "Veyron coupe",
+    "W16",
+    "8.0 W16",
+    "DSG",
+    "2006 Veyron"
+  ],
+  "country": "France",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2011
+    },
+    "sourceId": "bugatti-veyron-final",
+    "note": "Calendar build years of the coupe, following the Chiron record. Start: Bugatti (bugatti-veyron-2004, 2 March 2004): \"The first vehicles for this exclusive clientele will thus be delivered in the second half of 2005.\" End: Bugatti (24 June 2011): \"The final order for the Bugatti Veyron has been placed by a European customer\", completing the 300 coupés (16.4 and Super Sport); OPENERS (openers-veyron): the last car was \"scheduled for completion this autumn\", ending production of the coupe. US model years could not be sourced: Edmunds (a database) reviews the '2006 Bugatti Veyron 16.4' as all-new and links 2007-2009 (edmunds-veyron-2006), but no source gives the last US model year. The Grand Sport (open) and Super Sport are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bugatti-veyron-final",
+    "note": "Two-seat fixed-roof coupé; the open Grand Sport is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "W16",
+      "sourceId": "bugatti-veyron-final",
+      "note": "\"The 16-cylinder engine with a capacity of 7,993 cm3\"; Evo: \"8.0-litre, quad-turbocharged W16\" (evo-veyron)"
+    },
+    "displacementL": {
+      "value": 8.0,
+      "sourceId": "bugatti-veyron-final",
+      "note": "7,993 cc (\"capacity of 7,993 cm3\")"
+    },
+    "aspiration": {
+      "value": "Quad Turbocharged",
+      "sourceId": "bugatti-veyron-final",
+      "note": "\"four turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-veyron",
+    "note": "Petrol W16"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "evo-veyron",
+    "note": "\"All-wheel-drive, turbochargers and substantial weight set it apart from the lightweight, naturally-aspirated duo\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "evo-veyron",
+    "note": "\"Sending power to the ground is a Ricardo of England seven-speed dual-clutch automatic transmission, capable of shifting in just 150 milliseconds\"; Bugatti: \"seven-gear twin-clutch gearbox\" (bugatti-veyron-final). Edmunds describes it as a 'sequential-shift manual'; it is a dual-clutch gearbox (DSG). No manual was offered."
+  },
+  "powerHp": {
+    "value": 987,
+    "sourceId": "bugatti-veyron-final",
+    "note": "Bugatti's rating is metric: 1,001 PS x 0.98632 = 987 hp. Quote (Bugatti newsroom, 24 June 2011): \"The 16-cylinder engine with a capacity of 7,993 cm3, its four continuously variable camshafts and four turbochargers is capable of a top speed of 253 mph, developing 1,001 PS (736 kW).\" Bugatti's 2004 release (bugatti-veyron-2004): \"1001 PS (736 kW)\". No separate SAE rating for the US was found, so powerStandard is DIN PS, as in the Chiron record. Evo's spec panel prints \"Max power | 987bhp\"; Edmunds (a database) prints \"1001 hp\", the PS figure."
+  },
+  "weightLb": {
+    "value": 4162,
+    "sourceId": "evo-veyron",
+    "note": "1,888 kg x 2.20462 = 4,162 lb. Quote (Evo spec panel, 'Bugatti Veyron 16.4 | Bugatti Super Sport' columns, by Sam Jenkins and Harry Metcalfe): \"Weight | 1888kg | 1990kg\", the first figure for the Veyron 16.4. Evo does not label it kerb or dry; it is treated as curb (Evo panels normally give kerb weight, and Evo marks dry figures as dry). OPENERS (openers-veyron, by Tai Matsuo) prints the same \"1,888 kg\". No Bugatti curb weight was found on the opened Bugatti releases. Single configuration. Under the guide's weight order this is step 2 (a major magazine's specification panel)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "bugatti-veyron-final",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "Final Bugatti Veyron 16.4 sold to a customer in Europe",
+      "url": "https://newsroom.bugatti.com/press-releases/final-bugatti-veyron-16-4-sold-to-a-customer-in-europe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bugatti-veyron-2004",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "The Bugatti Veyron has matured into a superlative sports car",
+      "url": "https://newsroom.bugatti.com/press-releases/the-bugatti-veyron-has-matured-into-a-superlative-sports-car",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "evo-veyron",
+      "type": "publication",
+      "publisher": "Evo (Sam Jenkins, Harry Metcalfe)",
+      "title": "Bugatti Veyron (2005 - 2015): review, history and specs of an icon",
+      "url": "https://www.evo.co.uk/bugatti/veyron",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "openers-veyron",
+      "type": "publication",
+      "publisher": "OPENERS (Tai Matsuo)",
+      "title": "Bugatti Veyron 16.4 | The Ultimate Coupe That Concluded Production",
+      "url": "https://openers.jp/en/car/car_news/12187",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "edmunds-veyron-2006",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2006 Bugatti Veyron 16.4 Review",
+      "url": "https://edmunds.com/bugatti/veyron-164/2006/review",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Production is given in calendar build years (2005-2011), as in the Chiron record, because the last US model year of the coupe could not be sourced (Edmunds shows 2006 as the first, all-new year and links 2007-2009 only). A human should decide whether to keep calendar years for Bugatti or find the US model-year range.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

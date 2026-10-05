@@ -1,0 +1,130 @@
+{
+  "id": "lamborghini-huracan-evo",
+  "manufacturer": "Lamborghini",
+  "model": "Huracán",
+  "generation": null,
+  "variant": "EVO",
+  "subVariant": null,
+  "displayName": "Lamborghini Huracán EVO",
+  "aliases": [
+    "Huracan EVO",
+    "Huracán EVO AWD",
+    "Huracan EVO AWD",
+    "LP 640-4",
+    "LDF",
+    "2020 Huracan EVO"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2023
+    },
+    "sourceId": "kbb-huracan-2020-specs",
+    "note": "US model years, from Kelley Blue Book (a database; no Lamborghini or magazine page naming US model years was found). First: KBB's 2020 Huracán lists \"2020 Lamborghini Huracan EVO Coupe 2D\" at \"631 @ 8000 RPM\". Last: KBB's 2023 specs list \"EVO Coupe 2D\", \"631 @ 8000 RPM\", AWD (kbb-huracan-2023-specs); KBB's 2024 Huracán lists Tecnica, Sterrato, EVO Spyder and STO but no EVO coupe (kbb-huracan-2024). Lamborghini's release is dated 7 January 2019 (lambo-huracan-evo-release). The EVO RWD and EVO Spyder are separate records."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-huracan-2020-specs",
+    "note": "Two-door coupe (\"EVO Coupe 2D\"); the open EVO Spyder is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "lambo-huracan-evo-release",
+      "note": "Naturally aspirated V10"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "lambo-huracan-evo-release",
+      "note": "5,204 cc (\"5.204 cm³ (317.57 cu in)\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "carscoops-huracan-evo",
+      "note": "\"5.2-liter naturally-aspirated V10\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-huracan-evo-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-huracan-evo-release",
+    "note": "\"Electronically controlled all-wheel drive system (Haldex gen. V) with rear mechanical self-locking differential\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "lambo-huracan-evo-release",
+    "note": "\"Dual clutch gearbox LDF (Lamborghini Doppia Frizione) with 7 speeds\". No manual was offered."
+  },
+  "powerHp": {
+    "value": 631,
+    "sourceId": "lambo-huracan-evo-release",
+    "note": "Quote (Lamborghini press release as reproduced by supercars.net): \"The Huracán EVO outputs 640 hp (470 kW) at 8,000 rpm with 600 Nm of torque delivered at 6,500 rpm.\" The 640 is Lamborghini's metric (CV/PS) figure: 640 x 0.98632 = 631 hp. No separate US SAE rating was found, so powerStandard is DIN PS, as in the LP 610-4 record. Carscoops (carscoops-huracan-evo): \"640 PS (631 HP) at 8,000 rpm\"; KBB lists 631 hp."
+  },
+  "weightLb": {
+    "value": 3135,
+    "sourceId": "lambo-huracan-evo-release",
+    "note": "DRY weight. 1,422 kg x 2.20462 = 3,135 lb (the release itself prints \"lb 3.134\"). Quote (Lamborghini technical data as reproduced by supercars.net): \"DRY WEIGHT | kg 1.422 (lb 3.134)\". Carscoops (carscoops-huracan-evo, by Sergiu Tudose): \"1,422 kg (3,135 lbs)\" dry. Under the guide's weight order this is step 4: no curb weight for the standard car and no optioned-car curb weight was found from Lamborghini or a major magazine (Evo's and Top Gear's EVO pages opened give no weight). No opened page says whether the EVO's dry figure assumes options (Evo said the LP 610-4's identical 1,422 kg did), so weightQualifier is not set. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-huracan-evo-release",
+      "type": "manufacturer",
+      "publisher": "Lamborghini (press release reproduced by supercars.net)",
+      "title": "Lamborghini Huracan EVO",
+      "url": "https://www.supercars.net/blog/lamborghini-huracan-evo",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carscoops-huracan-evo",
+      "type": "publication",
+      "publisher": "Carscoops (Sergiu Tudose)",
+      "title": "Lamborghini Huracan Evo breaks cover with 640 PS and rear-wheel steering",
+      "url": "https://www.carscoops.com/2019/01/lamborghini-huracan-evo-breaks-cover-640-ps-rear-wheel-steering/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-huracan-2020-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2020 Lamborghini Huracán specs",
+      "url": "https://www.kbb.com/lamborghini/huracan/2020/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-huracan-2023-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Lamborghini Huracán specs",
+      "url": "https://www.kbb.com/lamborghini/huracan/2023/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-huracan-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2024/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,115 @@
+{
+  "id": "bmw-m4-csl-g82",
+  "manufacturer": "BMW",
+  "model": "M4",
+  "generation": "G82",
+  "variant": "CSL",
+  "subVariant": null,
+  "displayName": "BMW M4 CSL (G82)",
+  "aliases": [
+    "G82 CSL",
+    "M4 CSL",
+    "2023 M4 CSL",
+    "CSL G82",
+    "S58",
+    "Steptronic"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2023
+    },
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "One US model year. BMW: \"the new 2023 BMW M4 CSL\", \"Global production limited to 1,000 units\", production beginning in July 2022 at Plant Dingolfing. RM Sotheby's calls it a \"single-production-year halo car\", \"291 of which were allocated to North America\" (rmsothebys-2023-m4-csl)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "Two-door coupe; release lists doors/seats \"2 / 2\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2023-m4-csl-release",
+      "note": "Release table: \"Config. / no. cylinders / valves Inline / 6 / 24\""
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2023-m4-csl-release",
+      "note": "2,993 cc. Release table: \"Capacity (cc) 2,993\""
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2023-m4-csl-release",
+      "note": "\"two mono-scroll turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "Gasoline inline-six; inferred from the release's description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "\"rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "\"8-speed M Steptronic transmission with Drivelogic\" (a torque-converter automatic); the only transmission."
+  },
+  "powerHp": {
+    "value": 543,
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "Quote (release table): \"Max output (hp @ rpm) 543 @ 6,250\"; text: \"maximum output of 543 hp at 6,250 rpm\". Both readings agree."
+  },
+  "weightLb": {
+    "value": 3640,
+    "sourceId": "bmw-us-2023-m4-csl-release",
+    "note": "US curb weight, the only configuration (coupe, 8-speed automatic). Quote (release table): \"Curb weight (lbs) 3,640\". Confirmed in both the release page and its attachment (bmw-us-2023-m4-csl-attachment)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2023-m4-csl-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (BMW Group PressClub USA)",
+      "title": "The BMW M4 CSL",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0392153EN_US/the-bmw-m4-csl",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bmw-us-2023-m4-csl-attachment",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (BMW Group PressClub USA)",
+      "title": "The 2023 BMW M4 CSL (press release attachment)",
+      "url": "https://press.bmwgroup.com/usa/article/attachment/T0392153EN_US/551699",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rmsothebys-2023-m4-csl",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "2023 BMW M4 CSL (Miami 2024 lot)",
+      "url": "https://rmsothebys.com/auctions/mi24/lots/r0073-2023-bmw-m4-csl/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

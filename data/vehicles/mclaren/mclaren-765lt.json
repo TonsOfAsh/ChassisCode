@@ -1,0 +1,116 @@
+{
+  "id": "mclaren-765lt",
+  "manufacturer": "McLaren",
+  "model": "765LT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 765LT",
+  "aliases": [
+    "765LT Coupe",
+    "765LT Coupé",
+    "McLaren 765",
+    "Longtail",
+    "M840T",
+    "SSG",
+    "Super Series",
+    "2021 765LT"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2021
+    },
+    "sourceId": "kbb-765lt-2021",
+    "note": "US model year 2021 only for the coupe, from Kelley Blue Book (a database): the 2021 listing has one trim, \"Coupe 2D\", \"755 @ 7500 RPM\"; KBB's 2022 765LT lists only the \"765LT Spider Convertible 2D\" (kbb-765lt-2022). McLaren's release (3 March 2020): \"Just 765 individually numbered cars available globally to customer order\", deliveries from September 2020 (mclaren-765lt-release). The 765LT Spider is sold under its own name."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-765lt-release",
+    "note": "Two-seat fixed-roof '765LT Coupé'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-765lt-release",
+      "note": "\"M840T engine, 4.0-litre twin-turbo V8, 3994cc\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mclaren-765lt-release",
+      "note": "3,994 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-765lt-release",
+      "note": "\"4.0-litre twin-turbo V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-765lt-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mclaren-765lt-release",
+    "note": "\"Longitudinal mid-engined, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-765lt-release",
+    "note": "\"7 Speed SSG. Comfort, Sport and Track modes\" (McLaren Seamless Shift Gearbox, recorded as a DCT as in the 720S and 600LT records). No manual was offered."
+  },
+  "powerHp": {
+    "value": 755,
+    "sourceId": "mclaren-765lt-release",
+    "note": "Quote (McLaren 765LT Coupé press release, specification table): \"Power PS (bhp/kW) @ rpm | 765 (755/563) @ 7,500rpm\". powerStandard is DIN PS because McLaren's rating is the metric 765 PS; 765 x 0.98632 = 755 hp, the bhp figure McLaren prints. KBB's 2021 listing gives the same \"755 @ 7500 RPM\". The document is McLaren's global release, not a US-specific version."
+  },
+  "weightLb": {
+    "value": 2952,
+    "sourceId": "mclaren-765lt-release",
+    "note": "Coupe, 7-speed SSG (the only transmission). Quote (McLaren release, specification table): \"DIN kerbweight, kg (lbs) [fluids + 90% fuel] | 1,339 (2,952)\"; text: \"80kg less than 720S coupé at 1,339kg (DIN weight) and just 1,229kg at lightest dry weight\". DIN weight, not EU. The row carries no footnote about optional equipment, though standard equipment is light (\"no audio system in the standard specification\"; \"standard lightweight, carbon fibre-shelled racing seats\"). McLaren's \"Lightest dry weight\" of 1,229 kg (\"Adopting every weight-saving measure available\") depends on options and is not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-765lt-release",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (press release hosted on DocumentCloud)",
+      "title": "McLaren 765LT Coupe Press Release",
+      "url": "https://assets.documentcloud.org/documents/6793113/McLaren-765LT-Coupe-Press-Release.pdf",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-765lt-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 McLaren 765LT",
+      "url": "https://www.kbb.com/mclaren/765lt/2021/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-765lt-2022",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 McLaren 765LT specs",
+      "url": "https://www.kbb.com/mclaren/765lt/2022/specs/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

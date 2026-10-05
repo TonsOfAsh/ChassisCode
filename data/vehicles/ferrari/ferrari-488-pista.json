@@ -1,0 +1,184 @@
+{
+  "id": "ferrari-488-pista",
+  "manufacturer": "Ferrari",
+  "model": "488 Pista",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 488 Pista",
+  "aliases": [
+    "Pista",
+    "Ferrari Pista",
+    "488 Pista Coupe",
+    "2019 488 Pista",
+    "2020 488 Pista",
+    "2021 488 Pista"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2021
+    },
+    "sourceId": "kbb-488pista",
+    "note": "US model years, from Kelley Blue Book (a database; no Ferrari or magazine page naming the US model years was found). KBB's 488 Pista page links 2019, 2020 and 2021 (kbb-488pista); for 2019: \"The 2019 Ferrari 488 Pista is currently limited to a single trim: the Coupe 2D\" (kbb-488pista-2019); the 2021 listing shows \"2021 488 Pista Coupe 2D\" and \"2021 488 Pista Spider Convertible 2D\" (kbb-488pista-2021). Ferrari's press release is dated 6 March 2018 (ferrari-488pista-release). The 488 Pista Spider is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-488pista-release",
+    "note": "Two-seat mid-rear-engined berlinetta (\"the berlinetta's compact yet imposing forms\"); the open car is the separately named 488 Pista Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-488pista-release",
+      "note": "\"Type: V8 - 90° twin turbo\""
+    },
+    "displacementL": {
+      "value": 3.9,
+      "sourceId": "ferrari-488pista-release",
+      "note": "3,902 cc (\"Overall displacement: 3902 cc\")"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "ferrari-488pista-release",
+      "note": "\"V8 - 90° twin turbo\"; CompleteCar: \"3.9-litre twin-turbocharged V8 petrol\" (completecar-488pista)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "completecar-488pista",
+    "note": "\"3.9-litre twin-turbocharged V8 petrol\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "completecar-488pista",
+    "note": "\"seven-speed dual-clutch automatic, rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "completecar-488pista",
+    "note": "\"seven-speed dual-clutch automatic, rear-wheel drive\" (Ferrari's F1 dual-clutch gearbox). No manual was offered."
+  },
+  "powerHp": {
+    "value": 710,
+    "sourceId": "ferrari-488pista-release",
+    "note": "Ferrari's rating is metric: 720 cv x 0.98632 = 710 hp. Quote (Ferrari press release as reproduced by Auto International, Malaysia): \"Max. power output *: 530 kW (720 cv) at 8000 rpm\". No separate SAE rating for the US was found, so powerStandard is DIN PS, as for the 488 GTB and F8 Tributo records. Publications print the same 710 (CAR, carmagazine-488pista: \"Power 710bhp @ 8000rpm\"; Auto Express: \"710bhp\"). KBB lists \"711 @ 8000 RPM\" (from the 530 kW figure: 530 x 1.34102 = 711); the guide's PS conversion is used."
+  },
+  "weightLb": {
+    "value": 2822,
+    "sourceId": "ferrari-488pista-release",
+    "note": "Weight-order step 4: Ferrari's dry weight for a car with lightweight options. Quote (Ferrari release): \"Dry weight**: 1280 kg\", footnote \"**With optional lightweight content\". 1,280 kg x 2.20462 = 2,822 lb. A kerb weight of 1,385 kg (3,053 lb) appears only in Evo's article text (no byline, not a specification panel) and in Auto Express (John McIlroy, autoexpress-488pista), a sister title, which does not meet step 2 or 3; see discrepancies. A standard car with fluids is heavier. KBB's 2020 listing also prints 3,053 lb (kbb-488pista-2020-specs, a database)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-488pista-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari (press release reproduced by Auto International, Malaysia)",
+      "title": "Ferrari 488 Pista: a brilliant track-derived combination of exhilaration and performance",
+      "url": "https://autointernational.com.my/Ferrari 488 Pista - 6 Mar 18.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "evo-488pista",
+      "type": "publication",
+      "publisher": "Evo (print edition, via PressReader)",
+      "title": "Ferrari 488 Pista (evo, 1 September 2018)",
+      "url": "https://www.pressreader.com/uk/evo/20180901/281522226839300",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autoexpress-488pista",
+      "type": "publication",
+      "publisher": "Auto Express (John McIlroy)",
+      "title": "New Ferrari 488 Pista 2019 review",
+      "url": "https://www.autoexpress.co.uk/ferrari/488/103220/new-ferrari-488-pista-2019-review",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "completecar-488pista",
+      "type": "publication",
+      "publisher": "CompleteCar.ie (Dave Humphreys)",
+      "title": "2018 Ferrari 488 Pista review",
+      "url": "https://www.completecar.ie/car-reviews/article/Ferrari/488/488_Pista/1316/8146/2018-Ferrari-488-Pista-review.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carmagazine-488pista",
+      "type": "publication",
+      "publisher": "CAR magazine (Curtis Moldrich)",
+      "title": "New Ferrari 488 Pista driven in the UK",
+      "url": "https://carmagazine.co.uk/car-news/first-official-pictures/ferrari/ferrari-488-pista-news-specs-prices-performance-figures-on-sale-date",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-488pista",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 488 Pista",
+      "url": "https://www.kbb.com/ferrari/488-pista/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-488pista-2019",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Ferrari 488 Pista Specs, Features & Options",
+      "url": "https://www.kbb.com/ferrari/488-pista/2019/specs",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-488pista-2020-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2020 Ferrari 488 Pista Specs, Features & Options",
+      "url": "https://www.kbb.com/ferrari/488-pista/2020/specs",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-488pista-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Ferrari 488 Pista",
+      "url": "https://www.kbb.com/ferrari/488-pista/2021/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "2,822 lb (1,280 kg) dry, with optional lightweight content",
+          "sourceId": "ferrari-488pista-release"
+        },
+        {
+          "value": "3,053 lb (1,385 kg) kerb",
+          "sourceId": "evo-488pista"
+        },
+        {
+          "value": "1,385 kg kerb (Auto Express)",
+          "sourceId": "autoexpress-488pista"
+        }
+      ],
+      "reason": "Ferrari gives only a dry weight (1,280 kg, with optional lightweight content). Evo's article text and Auto Express print a kerb weight of 1,385 kg, exactly 105 kg more, but neither is a specification panel nor two independent named-author outlets.",
+      "resolution": "Used Ferrari's dry figure at weight step 4 (shown as dry in the game); the 1,385 kg kerb figure does not meet steps 2-3."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

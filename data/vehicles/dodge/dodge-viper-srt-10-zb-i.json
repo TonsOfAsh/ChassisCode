@@ -1,0 +1,184 @@
+{
+  "id": "dodge-viper-srt-10-zb-i",
+  "manufacturer": "Dodge",
+  "model": "Viper",
+  "generation": "ZB I",
+  "variant": "SRT-10",
+  "subVariant": null,
+  "displayName": "Dodge Viper SRT-10 (ZB I)",
+  "aliases": [
+    "Viper SRT-10",
+    "SRT-10",
+    "ZB I",
+    "ZB1",
+    "Gen 3 Viper",
+    "8.3 Viper",
+    "2003 Viper",
+    "Viper SRT-10 Coupe",
+    "T-56"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2003,
+      "endYear": 2006
+    },
+    "sourceId": "chrysler-viper-srt10-2002-release",
+    "note": "US model years 2003-2006. Start: Chrysler Group release of 17 July 2002, 'Pricing and Specs Announced for 2003 Dodge Viper SRT-10'. End: KBB lists 2006 'SRT10 Convertible 2D' and 'SRT10 Coupe 2D' (kbb-viper-2006); Edmunds 2008: 'After a one-year hiatus, the Dodge Viper returns for 2008' with 'an 8.4-liter V10' (edmunds-viper-2008-review), so there was no 2007 model year."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "kbb-viper-2006",
+    "note": "2006 trims 'SRT10 Convertible 2D' and 'SRT10 Coupe 2D'. 2003-2005: convertible only (the release calls it a 'true convertible model'); the coupe was added for 2006 ('The all-new 2006 Dodge Viper SRT10 Coupe will be available in Dodge dealerships in the fall of 2005', supercars-viper-coupe-2006)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "motorweek-viper-srt10-2003",
+      "note": "'8.3-Liter [505 Cubic-inches], V10'"
+    },
+    "displacementL": {
+      "value": 8.3,
+      "sourceId": "motorweek-viper-srt10-2003",
+      "note": "'8.3-Liter [505 Cubic-inches]'; the Chrysler release: '505 cu. in. V-10' (chrysler-viper-srt10-2002-release). 8,275 cc per Supercars.net's table ('8275 cc / 505.0 in³', supercars-viper-srt10-2003, an enthusiast source); no manufacturer page with the cc figure was opened."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "motorweek-viper-srt10-2003",
+      "note": "Inferred: no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "motorweek-viper-srt10-2003"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "motorweek-viper-srt10-2003",
+    "note": "Front-engine, rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "cars-com-viper-2003",
+    "note": "'Transmission Options: M/T 6-Speed M/T'; Edmunds 2003: '6-speed manual' (edmunds-viper-2003). Tremec T56 per Supercars.net."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "chrysler-viper-srt10-2002-release",
+    "note": "Quote (Chrysler Group release, 17 July 2002, 2003 Viper SRT-10): \"The 500 horsepower, 525 lb.-ft of torque, 505 cu. in. V-10 super car will carry a Manufacturers Suggested Retail Price (MSRP) of $79,995 (plus $800 destination) when it begins arriving in dealerships around the first of October, 2002.\" KBB 2003: \"500 @ 5200 RPM\" (kbb-viper-2003); Cars.com 2003: \"500 @ 5600\" (cars-com-viper-2003); KBB 2006: \"500 @ 5600 RPM\" (kbb-viper-2006). Edmunds' 2008 review refers to 'the former 510-horsepower V10' (edmunds-viper-2008-review); no other source gives 510 hp for 2003-2006."
+  },
+  "weightLb": {
+    "value": 3357,
+    "sourceId": "kbb-viper-2003",
+    "note": "PROVISIONAL (databases). 2003 convertible (the only body for 2003), 6-speed manual. Quote (KBB 2003 Viper SRT10 Roadster 2D): \"Curb Weight: 3,357 pounds\". Cars.com 2003 '2dr SRT-10 Convertible': \"Base Curb Weight: 3,357 lbs\" (cars-com-viper-2003). Edmunds 2003 'SRT-10 2dr Roadster': \"3,380 lbs.\" (edmunds-viper-2003), and KBB 2006 convertible \"3,380 pounds\" (kbb-viper-2006), 0.7% higher; see discrepancies. Chrysler's release says only 'approximately 100 pounds less than previous models'. The 2006 coupe: '1565 kg / 3450 lbs' (Supercars.net, supercars-viper-coupe-2006, unattributed)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2003,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chrysler-viper-srt10-2002-release",
+      "type": "manufacturer",
+      "publisher": "Chrysler Group (release reproduced by The Auto Channel)",
+      "title": "Pricing and Specs Announced for 2003 Dodge Viper SRT-10-to Hit Dodge Showrooms in October",
+      "url": "https://www2020.theautochannel.com/news/2002/07/17/143950.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "motorweek-viper-srt10-2003",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2003 Dodge Viper SRT-10 road test (Program #2201)",
+      "url": "https://motorweek.org/road_tests/2003_dodge_viper_srt-10_program_2201",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-viper-2003",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2003 Dodge Viper specs",
+      "url": "https://www.kbb.com/dodge/viper/2003/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cars-com-viper-2003",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2003 Dodge Viper specs",
+      "url": "https://www.cars.com/research/dodge-viper-2003/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "edmunds-viper-2003",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2003 Dodge Viper features & specs",
+      "url": "https://www.edmunds.com/dodge/viper/2003/features-specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-viper-2006",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2006 Dodge Viper specs",
+      "url": "https://www.kbb.com/dodge/viper/2006/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "edmunds-viper-2008-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2008 Dodge Viper review",
+      "url": "https://www.edmunds.com/dodge/viper/2008/review/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "supercars-viper-srt10-2003",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "2003 Dodge Viper SRT-10 Convertible",
+      "url": "https://www.supercars.net/blog/?p=195360",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "supercars-viper-coupe-2006",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "2006 Dodge Viper SRT-10 Coupe",
+      "url": "https://www.supercars.net/blog/2006-dodge-viper-srt-10-coupe",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3357,
+          "sourceId": "kbb-viper-2003"
+        },
+        {
+          "value": 3380,
+          "sourceId": "edmunds-viper-2003"
+        }
+      ],
+      "reason": "KBB and Cars.com give 3,357 lb for the 2003 convertible; Edmunds (2003) and KBB (2006) give 3,380 lb, 0.7% higher. No source explains the difference; it may be a later revised figure.",
+      "resolution": "3,357 lb used: two databases agree for the reference year; the spread is within 2%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,357 lb) rests on databases (KBB and Cars.com agree; Edmunds and KBB 2006 give 3,380 lb). A Chrysler/Dodge spec sheet or a major magazine spec panel for the 2003 Viper SRT-10 would replace it. Power (500 hp) is from Chrysler's release."
+}

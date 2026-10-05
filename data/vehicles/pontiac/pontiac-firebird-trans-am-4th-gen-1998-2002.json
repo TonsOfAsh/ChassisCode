@@ -1,0 +1,173 @@
+{
+  "id": "pontiac-firebird-trans-am-4th-gen-1998-2002",
+  "manufacturer": "Pontiac",
+  "model": "Firebird",
+  "generation": "4th gen",
+  "variant": "Trans Am",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Pontiac Firebird Trans Am (4th gen, 1998–2002)",
+  "aliases": [
+    "Trans Am",
+    "Firebird Trans Am",
+    "T/A",
+    "LS1 Trans Am",
+    "WS6",
+    "Ram Air",
+    "1998 Trans Am",
+    "1999 Trans Am",
+    "2000 Trans Am",
+    "2001 Trans Am",
+    "2002 Trans Am",
+    "T-56"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1998,
+      "endYear": 2002
+    },
+    "sourceId": "edmunds-firebird-2002-review",
+    "note": "US model years 1998-2002 for the LS1 Trans Am. End: Edmunds 2002: 'Entering its last year of production, the Firebird gets few changes for 2002.' Start: Edmunds 1998: 'The new-for-1998 LS1 V8 is good for 305 horsepower' (edmunds-firebird-1998-review). The 1993-1997 LT1 Trans Am of the same generation is a different car."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "edmunds-firebird-2002-review",
+    "note": "'convertible versions of the Firebird and the Trans Am (but not the Formula) are available'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cars-com-trans-am-1998",
+      "note": "Cars.com '2dr Cpe Trans Am'; LS1 V8."
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "cars-com-trans-am-1998",
+      "note": "'Displacement: 5.7L/346'. The Auto Channel (Carey Russ, 1999): '5.7 liters / 347 cu. in.' (autochannel-trans-am-1999). No opened page prints the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "edmunds-firebird-1998-review",
+      "note": "Inferred: Corvette-derived LS1, no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cars-com-trans-am-1998"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-firebird-1998-review",
+    "note": "Rear-wheel-drive F-body; inferred."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "edmunds-firebird-2002-review",
+    "note": "'All V8 models come standard with a four-speed automatic transmission; a six-speed manual is a no-cost option.' Cars.com 1998: '6-Speed M/T ... 4-Speed A/T' (cars-com-trans-am-1998)."
+  },
+  "powerHp": {
+    "value": 305,
+    "sourceId": "kbb-firebird-1998",
+    "note": "PROVISIONAL (databases and articles). 1998 Trans Am, standard (non-Ram Air) engine. Quote (KBB 1998 Trans Am Coupe 2D): \"305 @ 5200 RPM\". Cars.com 1998 '2dr Cpe Trans Am': \"SAE Net Horsepower: 305 @ 5200\" (cars-com-trans-am-1998). The Auto Channel (John Heilig, 1998 Trans Am convertible): \"HORSEPOWER/TORQUE: 305 hp @ 5,200 rpm/335 lb-ft @ 4,000 rpm\" (autochannel-trans-am-1998). Edmunds: \"The new-for-1998 LS1 V8 is good for 305 horsepower\" (edmunds-firebird-1998-review). 2002: KBB \"310 @ 5200 RPM\" (kbb-firebird-2002); Edmunds 2002 'standard 310 horsepower'. The Ram Air WS6 Performance and Handling Package added 15 hp (Edmunds 1998; 320 hp, Carey Russ 1999 30th Anniversary: \"320 @ 5200 rpm\"; 325 hp in 2002) and is a package, not a separate trim. Reference year 1998: 305 hp is taken to cover 1998-2000 and 310 hp 2001-2002, but no page opened confirms the 2000 and 2001 Trans Am ratings individually."
+  },
+  "weightLb": {
+    "value": 3479,
+    "sourceId": "kbb-firebird-1998",
+    "note": "PROVISIONAL (databases). 1998 Trans Am coupe; KBB names the automatic, the standard transmission; no source gives a manual-car figure. Quote (KBB 1998 Trans Am Coupe 2D page): \"Curb Weight | 3479 lbs.\" (KBB's general 1998 Firebird page shows 3,453 lb, which is the Formula). Cars.com 1998 '2dr Cpe Trans Am': \"Base Curb Weight: 3,488 lbs\" (cars-com-trans-am-1998), 0.3% higher; see discrepancies. Heilig's 1998 convertible: \"CURB WEIGHT: 3,605 lbs\"; KBB 2002 Trans Am Coupe 2D: \"3,499 pounds\" (kbb-firebird-2002)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1998,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "kbb-firebird-1998",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1998 Pontiac Firebird Trans Am Coupe 2D specs",
+      "url": "https://www.kbb.com/pontiac/firebird/1998/trans-am-coupe-2d/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cars-com-trans-am-1998",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "1998 Pontiac Firebird 2dr Cpe Trans Am specs",
+      "url": "https://www.cars.com/research/pontiac-firebird-1998/specs/105617/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autochannel-trans-am-1998",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "1998 Pontiac Firebird Trans Am review (John Heilig)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/1998/heilig12059702.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autochannel-trans-am-1999",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "1999 Pontiac Firebird 30th Anniversary Trans Am review (Carey Russ)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/1999/russ9919.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "edmunds-firebird-1998-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "1998 Pontiac Firebird review",
+      "url": "https://www.edmunds.com/pontiac/firebird/1998/review/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "edmunds-firebird-2002-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2002 Pontiac Firebird review",
+      "url": "https://www.edmunds.com/pontiac/firebird/2002/review/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-firebird-2002",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2002 Pontiac Firebird specs",
+      "url": "https://www.kbb.com/pontiac/firebird/2002/specs/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3479,
+          "sourceId": "kbb-firebird-1998"
+        },
+        {
+          "value": 3488,
+          "sourceId": "cars-com-trans-am-1998"
+        }
+      ],
+      "reason": "Cars.com gives 3,488 lb for the 1998 Trans Am coupe, KBB 3,479 lb (automatic, the standard transmission); 0.3% apart.",
+      "resolution": "KBB's 3,479 lb used for the standard (automatic) coupe; the difference is well within 2%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (305 hp) rests on databases (KBB, Cars.com) and articles (The Auto Channel, Edmunds), all agreeing. Weight (3,479 lb) rests on KBB's Trans Am page, with Cars.com 3,488 lb (0.3% higher). A Pontiac/GM 1998 press kit, spec sheet or brochure, or a major magazine spec panel for the 1998 Trans Am, would replace both."
+}

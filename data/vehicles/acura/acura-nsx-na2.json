@@ -1,0 +1,119 @@
+{
+  "id": "acura-nsx-na2",
+  "manufacturer": "Acura",
+  "model": "NSX",
+  "generation": "NA2",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Acura NSX (NA2)",
+  "aliases": [
+    "NA2",
+    "NA2 NSX",
+    "3.2 NSX",
+    "C32B",
+    "Honda NSX",
+    "1997 NSX",
+    "2002 NSX",
+    "Facelift NSX",
+    "Fixed-headlight NSX"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1997,
+      "endYear": 2005
+    },
+    "sourceId": "acura-nsx-chronology",
+    "note": "US model years of the 3.2-litre manual NSX. First: Acura's chronology for 1997: \"new 3.2-liter DOHC 24-valve V-6 engine produces 290 hp and 224 lbs-ft torque with 6-speed manual transmission\". Last: 2005, \"no changes; final model year for NSX\". The 2002 facelift (\"pop-up headlights replaced with fixed-position HID\") is part of this record: the guide does not separate a facelift with unchanged engine and rating. Cars with the SportShift automatic kept the 3.0-litre engine (\"The SportShift automatic transmission-equipped NSX continues to utilize the potent 3.0-liter V-6\", acura-nsx-1997-kit) and are not described by this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "acura-nsx-1997-kit",
+    "note": "1997 press kit lists the fixed-roof 'Coupe' beside the 'NSX-T' removable-roof car. As in the NA1 record, the NSX-T (sold under its own name until 2001) is not part of this record. From 2002 Acura's chronology says \"all NSX models feature removable roof panel, NSX-T name dropped\" (acura-nsx-chronology); those 2002-2005 cars are sold simply as NSX, not as a Targa, so they are kept here under Coupe. Consumer Guide's 2005 review describes a \"lift-off 'targa' roof panel\" (cg-nsx-2005)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "acura-nsx-1997-kit",
+      "note": "'3.2-liter, DOHC, 24-valve, VTEC V-6'"
+    },
+    "displacementL": {
+      "value": 3.2,
+      "sourceId": "acura-nsx-1997-kit",
+      "note": "3,179 cc ('194 cu in (3179 cc)')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "acura-nsx-1997-kit",
+      "note": "Inferred: 'Programmed Fuel Injection (PGM-FI) with Variable Volume Induction System'; no turbocharger or supercharger is listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-nsx-1997-kit",
+    "note": "'Premium unleaded 91 octane'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "acura-nsx-1997-kit",
+    "note": "'Transverse mid ship-engine / rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "acura-nsx-1997-kit",
+    "note": "'6-speed manual'. The 3.2-litre engine came only with the manual; the 4-speed SportShift automatic used the 3.0-litre engine. Consumer Guide's 2005 review still lists the '6-speed manual transmission' with the 3.2 (cg-nsx-2005)."
+  },
+  "powerHp": {
+    "value": 290,
+    "sourceId": "acura-nsx-1997-kit",
+    "note": "Manual 3.2-litre, 1997 model. Quote: \"290 hp @7100 rpm\". Acura's chronology repeats 290 hp for 1997 and lists no later power change; Consumer Guide's 2005 review (Tom Appel) gives '290-hp' for the manual 3.2 (cg-nsx-2005), so the rating held to the end."
+  },
+  "weightLb": {
+    "value": 3069,
+    "sourceId": "acura-nsx-1997-kit",
+    "note": "Fixed-roof Coupe, 6-speed manual, 1997 model. Quote (Curb Weight table, Coupe column): \"Manual | 3069 lbs (1392 kg)\". Same table: NSX-T manual 3164 lbs (1435 kg); automatics (3.0-litre) 3113 lbs Coupe and 3208 lbs NSX-T. No Acura weight for the 2002-2005 removable-roof car was opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1997,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-nsx-1997-kit",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1997 Acura NSX Press Kit",
+      "url": "https://acuranews.com/en-US/releases/1997-acura-nsx-engine",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "acura-nsx-chronology",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Model Chronology 1991-2005: NSX",
+      "url": "https://acuranews.com/en-US/releases/release-d7827a39293249330e8a1b004c34c076-acura-model-chronology-1991-2005-nsx",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cg-nsx-2005",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "2005 Acura NSX, by Tom Appel",
+      "url": "https://blog.consumerguide.com/2005-acura-nsx/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Scope decision: this record covers the 3.2-litre manual NSX for 1997-2005 (engine change = separate record per the guide; the 2002 facelift alone is not). The requested framing was '2002-2005 facelift'. From 2002 every US NSX had the removable roof formerly sold as NSX-T, while 1997-2001 the NSX-T was a separately named car excluded here as in the NA1 record; a human should confirm that the 2002-2005 removable-roof cars belong under 'Coupe' in this record. Weight (3,069 lb) is the 1997 fixed-roof Coupe; no Acura figure for the 2002-2005 car was found.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

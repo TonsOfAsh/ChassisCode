@@ -1,0 +1,132 @@
+{
+  "id": "porsche-718-spyder-982",
+  "manufacturer": "Porsche",
+  "model": "718 Spyder",
+  "generation": "982",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Porsche 718 Spyder (982)",
+  "aliases": [
+    "982 Spyder",
+    "718 Spyder",
+    "Boxster Spyder",
+    "982 Boxster Spyder",
+    "Spyder 4.0",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2023
+    },
+    "sourceId": "pcna-2020-718-spyder-gt4",
+    "note": "US model years 2020 to 2023. First: \"The 2020 718 Cayman GT4 and 718 Spyder are available to order now and are expected to reach U.S. dealers in spring 2020.\" Last: Kelley Blue Book lists the 2023 718 Spyder (414 hp, kbb-2023-718-spyder); for 2024 it lists only the Spyder RS, \"lighter, more powerful and considerably more expensive than the non-RS Spyder it replaces\" (kbb-2024-718-spyder). End year rests on KBB (a database)."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "pcna-2020-718-spyder-gt4",
+    "note": "Two-seat open car with \"a manually-operated lightweight fabric top\"; sold under its own name with no fixed-roof version."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+      "note": "Spec sheet: \"Six-cylinder naturally aspirated boxer engine\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+      "note": "3,995 cc. Spec sheet: \"3,995 cm3\""
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+      "note": "Spec sheet: \"Six-cylinder naturally aspirated boxer engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+    "note": "Gasoline flat-six; inferred from the spec sheet's description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+    "note": "Spec sheet: \"Rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2021-718-pdk",
+    "note": "Spec sheet (2020): \"6-speed manual transmission with dual-mass flywheel\". Porsche, 2021: the 4.0-liter 718 models \"have been available to order with the optional seven-speed Porsche dual-clutch transmission (PDK) since June in the U.S.\"; the manual stayed standard. DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 414,
+    "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+    "note": "Quote: \"Max. power output at engine speed: 414 hp / 7,600 rpm\". The press release agrees: \"a new 4.0-liter naturally-aspirated flat-six engine developing 414 horsepower\" (pcna-2020-718-spyder-gt4). KBB still lists 414 hp for 2023."
+  },
+  "weightLb": {
+    "value": 3206,
+    "sourceId": "porsche-2020-718-gt4-spyder-us-specs",
+    "note": "2020 car with the standard 6-speed manual, standard equipment. Quote: \"Curb weight: 3,206 lbs.\" (718 Spyder column; the 718 Cayman GT4 column reads \"3,199 lbs.\"). Confirmed on a second reading of the sheet."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-2020-718-gt4-spyder-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Newsroom)",
+      "title": "Technical Data: 2020 718 Cayman GT4 and 718 Spyder tech specs",
+      "url": "https://newsroom.porsche.com/dam/jcr:a6e80e45-d9d7-4cb8-a43d-16a6da449e0b/2020_718_Cayman_GT4_and_718_Spyder_tech_specs.pdf.PDF",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pcna-2020-718-spyder-gt4",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Pure fun: The 2020 Porsche 718 Cayman GT4 and 718 Spyder",
+      "url": "https://newsroom.porsche.com/en_US/products/porsche-718-spyder-cayman-gt4-naturally-aspired-engine-mid-engine.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pcna-2021-718-pdk",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Optional Porsche dual-clutch transmission further improves performance on 718 models with six-cylinder engine",
+      "url": "https://newsroom.porsche.com/en_US/products/2021-porsche-718-boxster-cayman-pdk-gts-spyder-cayman-gt4-22097.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-2023-718-spyder",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Porsche 718 Spyder",
+      "url": "https://www.kbb.com/porsche/718-spyder/2023/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-2024-718-spyder",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Porsche 718 Spyder",
+      "url": "https://www.kbb.com/porsche/718-spyder/2024/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

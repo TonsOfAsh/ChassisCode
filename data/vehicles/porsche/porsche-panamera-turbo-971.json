@@ -1,0 +1,150 @@
+{
+  "id": "porsche-panamera-turbo-971",
+  "manufacturer": "Porsche",
+  "model": "Panamera",
+  "generation": "971",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Porsche Panamera Turbo (971)",
+  "aliases": [
+    "971 Panamera Turbo",
+    "Panamera Turbo 971",
+    "Panamera Turbo Sport Turismo",
+    "Panamera Turbo Executive",
+    "Panamera 2",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "sourceId": "stuttcars-panamera-turbo-971",
+    "note": "US model years 2017 to 2020. Stuttcars titles the car \"Porsche Panamera Turbo (2017 – 2020)\". Kelley Blue Book lists a 2020 Panamera Turbo and Turbo Sport Turismo (kbb-2020-panamera), and for 2021: \"Panamera Turbo S models, which replace the Panamera Turbo, are powered by a significantly revamped twin-turbo 4.0-liter V8\" (kbb-2021-panamera)."
+  },
+  "body": {
+    "value": [
+      "Sedan",
+      "Wagon"
+    ],
+    "sourceId": "kbb-2020-panamera",
+    "note": "KBB lists the Turbo as \"Sedan 4D\" (a four-door liftback) and the Turbo Sport Turismo (\"the more angular and slightly more practical wagon-like rear end of the Sport Turismo\"), which arrived after launch. A long-wheelbase Executive was also sold; it is the same body style."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "porsche-finder-2017-panamera-turbo",
+      "note": "Porsche Finder: \"4.0-liter twin-turbocharged V8\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "ultimatespecs-2017-panamera-turbo",
+      "note": "3,996 cc. Ultimate Specs: \"Engine displacement : 243.9 cu-in / 3996 cm3\" (database)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "porsche-finder-2017-panamera-turbo",
+      "note": "Porsche Finder: \"4.0-liter twin-turbocharged V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-finder-2017-panamera-turbo",
+    "note": "Gasoline V8; inferred from the listing's description."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "stuttcars-panamera-turbo-971",
+    "note": "Stuttcars: all-wheel drive via Porsche Traction Management (PTM)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "porsche-finder-2017-panamera-turbo",
+    "note": "Porsche Finder: \"8-speed Porsche Doppelkupplung (PDK), with manual actuation and automatic mode\". Cars.com: \"8-Speed A/T\". DCT is Porsche PDK; no manual was offered."
+  },
+  "powerHp": {
+    "value": 550,
+    "sourceId": "porsche-finder-2017-panamera-turbo",
+    "note": "PROVISIONAL (listing data). Quote, Porsche Finder listing of a 2017 Panamera Turbo: \"Maximum power combustion engine 550 hp\" and \"550 hp @ 5750 - 6000 rpm\". Agreeing: Kelley Blue Book \"550 @ 5750 RPM\" (kbb-2017-panamera-turbo) and Cars.com \"550 hp\" (carscom-2017-panamera-turbo), both databases. Porsche's European launch release, reproduced by Stuttcars, gives \"404 kW / 550 hp (at 5,750 rpm)\" (a PS figure; stuttcars-panamera-turbo-971). No Porsche Cars North America spec sheet or release was opened."
+  },
+  "weightLb": {
+    "value": 4398,
+    "sourceId": "porsche-finder-2017-panamera-turbo",
+    "note": "PROVISIONAL (listing data and databases). 2017 Panamera Turbo (standard-wheelbase sedan, PDK). Quote, Porsche Finder: \"Curb weight 4,398 lb\". Kelley Blue Book: \"Curb Weight: 4398 lbs.\" (kbb-2017-panamera-turbo); Cars.com: \"Base Curb Weight: 4,398 lbs\" (carscom-2017-panamera-turbo). Three agreeing figures; TrueDelta's \"4001 lb.\" equals the base Panamera's Cars.com figure and is not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-finder-2017-panamera-turbo",
+      "type": "database",
+      "publisher": "Porsche Finder (Porsche pre-owned listing, Porsche Norwell)",
+      "title": "2017 Porsche Panamera Turbo (pre-owned listing)",
+      "url": "https://finder.porsche.com/us/en-US/details/4XXX25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-2017-panamera-turbo",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2017 Porsche Panamera Turbo Sedan 4D",
+      "url": "https://www.kbb.com/porsche/panamera/2017/turbo-sedan-4d",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carscom-2017-panamera-turbo",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2017 Porsche Panamera Turbo AWD specs",
+      "url": "https://www.cars.com/research/porsche-panamera-2017/specs/391288/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ultimatespecs-2017-panamera-turbo",
+      "type": "database",
+      "publisher": "Ultimate Specs",
+      "title": "Porsche Panamera 2017 Turbo Specs",
+      "url": "https://www.ultimatespecs.com/car-specs/Porsche/106963/Porsche-Panamera-2017-Turbo.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stuttcars-panamera-turbo-971",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche Panamera Turbo (2017 – 2020)",
+      "url": "https://stuttcars.com/porsche-panamera-turbo-2017-2020/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-2020-panamera",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2020 Porsche Panamera",
+      "url": "https://www.kbb.com/porsche/panamera/2020/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-2021-panamera",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Porsche Panamera",
+      "url": "https://www.kbb.com/porsche/panamera/2021/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power and weight are provisional. Power (550 hp) and weight (4,398 lb) rest on a Porsche Finder pre-owned listing for a 2017 Panamera Turbo, with Kelley Blue Book and Cars.com (databases) agreeing exactly; no Porsche Cars North America spec sheet or release was found. A PCNA 2017 Panamera technical-data sheet or a Car and Driver / Road & Track / MotorTrend spec panel would replace both. Production end year and body list rest on KBB."
+}

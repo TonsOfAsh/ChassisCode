@@ -1,0 +1,116 @@
+{
+  "id": "chevrolet-corvette-grand-sport-c6",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C6",
+  "variant": "Grand Sport",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette Grand Sport (C6)",
+  "aliases": [
+    "C6 Grand Sport",
+    "Grand Sport C6",
+    "C6 GS",
+    "LS3",
+    "2010 Corvette Grand Sport",
+    "2011 Corvette Grand Sport"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2013
+    },
+    "sourceId": "gm-2010-grand-sport-highlights",
+    "note": "US model years 2010-2013. Start: GM's 2010 Grand Sport highlights: 'For 2010, it once again becomes part of the Corvette's lineup' and 'The Grand Sport replaces the Corvette's previous Z51 package'. End: GM's 2013 specifications cover the 'Corvette and Corvette Grand Sport' (gm-2013-corvette-specs); the C7 followed for 2014. No opened page says in so many words that 2013 was the last C6 Grand Sport."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-2010-grand-sport-highlights",
+    "note": "'available in coupe and convertible models'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2010-grand-sport-highlights",
+      "note": "'The LS3 6.2L engine'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "gm-2011-corvette-specs",
+      "note": "6,162 cc. GM table: 'Displacement (cu in / cc): 376 / 6162' (2011; the 2013 table prints the same, gm-2013-corvette-specs)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-2011-corvette-specs",
+      "note": "Inferred: no forced induction is listed for the LS3."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-2011-corvette-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2011-corvette-specs",
+    "note": "Front-engine, rear-wheel-drive Corvette; inferred, the table does not use the words 'rear-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "gm-2010-grand-sport-highlights",
+    "note": "'offered with either a six-speed manual or six-speed automatic transmission'; GM's 2011 table: 'six-speed manual' and 'six-speed paddle-shift automatic' (gm-2011-corvette-specs). Manual coupes add a dry-sump oiling system."
+  },
+  "powerHp": {
+    "value": 430,
+    "sourceId": "gm-2011-corvette-specs",
+    "note": "Standard exhaust. Quote (GM 2011 table): \"Horsepower (hp / kW @ rpm): 430 / 321 @ 5900* w/ std. exhaust 436 / 325 @ 5900* w/ opt. exhaust\" (*SAE certified). GM's 2010 Grand Sport highlights: \"The LS3 6.2L engine is rated at 430 horsepower (321 kW) and 424 lb.-ft. of torque\"; the optional exhaust \"elevates the power ratings to 436 horses (325 kW)\" (gm-2010-grand-sport-highlights). The 2013 table prints the same ratings (gm-2013-corvette-specs). The rating did not change 2010-2013."
+  },
+  "weightLb": {
+    "value": 3311,
+    "sourceId": "gm-2011-corvette-specs",
+    "note": "Grand Sport coupe, 2011 model year. Quote (GM 2011 table, Grand Sport column): \"Curb weight (lb / kg): ... 3311 / 1502 (coupe) 3289 / 1492 (convertible)\". GM gives one figure per body, not per transmission. The 2013 table prints the same figures (gm-2013-corvette-specs). Reference year 2011 because no opened 2010 GM page gives a Grand Sport weight (the 2010 table lists only coupe, convertible and Z06; the 2010 highlights and brochure give none)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-2010-grand-sport-highlights",
+      "type": "manufacturer",
+      "publisher": "General Motors (reproduced by Corvette Action Center)",
+      "title": "2010 Corvette Grand Sport highlights",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2010-corvette/2010-corvette-grand-sport-highlights.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gm-2011-corvette-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media (reproduced by Corvette Action Center)",
+      "title": "2011 Corvette Specifications - Base Model - Grand Sport",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2011-corvette/2011-corvette-specifications.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gm-2013-corvette-specs",
+      "type": "manufacturer",
+      "publisher": "General Motors (reproduced by Corvette Action Center)",
+      "title": "2013 Corvette and Corvette Grand Sport Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2013/2013-corvette-specifications.html",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

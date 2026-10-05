@@ -1,0 +1,158 @@
+{
+  "id": "bmw-1-series-m-coupe-e82",
+  "manufacturer": "BMW",
+  "model": "1 Series M Coupe",
+  "generation": "E82",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW 1 Series M Coupe (E82)",
+  "aliases": [
+    "1M",
+    "1M Coupe",
+    "BMW 1M",
+    "E82 1M",
+    "1 Series M",
+    "2011 1M",
+    "N54"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2011
+    },
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "One US model year. BMW: \"The 2011 BMW 1 Series M Coupe will be available in limited quantities\" at US dealers \"in Spring, 2011\". Cars.com lists only the 2011 model year for the 1 Series M (carscom-1-series-m-years)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "Two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2011-1m-release",
+      "note": "\"The twin-turbocharged, all-aluminum, 3.0-liter inline-6 engine\""
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-uk-1m-techspecs",
+      "note": "2,979 cc. BMW UK technical data: \"Effective displacement cm3 2,979\". The US release says \"3.0-liter\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2011-1m-release",
+      "note": "\"twin low-mass turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "Gasoline direct injection (\"High Precision direct injection\"); inferred from the release."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "\"power transmission to the rear wheels\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "\"A close ratio 6-speed manual transmission is used for power transmission to the rear wheels\"; the only transmission."
+  },
+  "powerHp": {
+    "value": 335,
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "Quote: \"Maximum output of 335 hp (250 kW) is delivered at 5,900 rpm.\" The overboost function raises torque only (\"This temporary torque peak of 369 lb-ft\"), not the power rating."
+  },
+  "weightLb": {
+    "value": 3296,
+    "sourceId": "bmw-us-2011-1m-release",
+    "note": "Preliminary (manufacturer preliminary figure). Quote (BMW of North America release, 9 December 2010): \"The new 1 Series M Coupe weighs in at 1,495kg DIN (3,296 lbs, preliminary)\". Cars.com (database) gives the same: \"Base Curb Weight: 3,296 lbs\" (carscom-2011-1-series-m). BMW UK technical data: \"Curb weight -DIN / EU- kg 1,495 / 1,570\" (bmw-uk-1m-techspecs). No final BMW figure was found; the car was sold for one model year. Motor Authority (Nelson Ireson) reports a car weighed at 3,351 lb with a full tank (a measured figure, not used; motorauthority-1m-weighed)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "weightQualifier": "preliminary",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2011-1m-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (BMW Group PressClub USA)",
+      "title": "The All-New BMW 1 Series M Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0092337EN_US/the-all-new-bmw-1-series-m-coupe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bmw-uk-1m-techspecs",
+      "type": "manufacturer",
+      "publisher": "BMW UK (BMW Group PressClub United Kingdom)",
+      "title": "BMW 1 Series M Coupé technical specifications (press attachment)",
+      "url": "https://www.press.bmwgroup.com/united-kingdom/article/attachment/T0110413EN_GB/159995",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carscom-2011-1-series-m",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2011 BMW 1 Series M specs",
+      "url": "https://www.cars.com/research/bmw-1_series_m-2011/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carscom-1-series-m-years",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "BMW 1 Series M research",
+      "url": "https://www.cars.com/research/bmw-1_series_m/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "encycarpedia-2011-1m",
+      "type": "database",
+      "publisher": "Encycarpedia",
+      "title": "BMW 2011 1M Coupe Specs",
+      "url": "https://www.encycarpedia.com/us/bmw/11-1m-coupe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "motorauthority-1m-weighed",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Report on a 2011 BMW 1 Series M Coupe weighed at 3,351 pounds (Nelson Ireson, 25 January 2011)",
+      "url": "https://www.motorauthority.com/news/1054272_2011-bmw-1-series-m-coupe-weighed-3351-pounds",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3296,
+          "sourceId": "bmw-us-2011-1m-release"
+        },
+        {
+          "value": 3461,
+          "sourceId": "encycarpedia-2011-1m"
+        }
+      ],
+      "reason": "DIN vs EU weight. Encycarpedia's 3,461 lb is exactly BMW's EU figure (1,570 kg, which includes a 75 kg driver; bmw-uk-1m-techspecs: \"1,495 / 1,570\"). 3,296 lb is BMW's DIN figure (1,495 kg), which BMW of North America published.",
+      "resolution": "3,296 lb used: the guide uses DIN, not EU, weights."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight 3,296 lb is BMW's DIN figure marked 'preliminary'; the car was sold for one model year, so no final figure exists. Kept with weightQualifier 'preliminary', following the owner's Corvette ZR1 (C7) decision.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

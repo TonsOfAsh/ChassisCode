@@ -1,0 +1,148 @@
+{
+  "id": "toyota-gr-supra-2-0-a90",
+  "manufacturer": "Toyota",
+  "model": "GR Supra",
+  "generation": "A90",
+  "variant": "2.0",
+  "subVariant": null,
+  "displayName": "Toyota GR Supra 2.0 (A90)",
+  "aliases": [
+    "Mk5 Supra",
+    "MkV Supra",
+    "A90 Supra",
+    "Supra 2.0",
+    "Four-cylinder Supra",
+    "B48",
+    "2021 GR Supra 2.0"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "toyota-2021-supra-release",
+    "note": "US model years 2021-2024. First: the 2021 release introduces the \"first-ever four-cylinder\" GR Supra 2.0, \"anticipated to start arriving at Toyota dealers in June\". Still offered for 2023 (\"a new Stratosphere Blue color, which will also be available on Supra 2.0\", toyota-2023-supra-manual) and 2024 (\"or the GR Supra 2.0 grade with an inline 4-cylinder engine that outputs 255-hp\", toyota-2024-supra). Last: Toyota's 2025 page says \"The 2025 GR Supra is available in two grades: 3.0 and 3.0 Premium\" (toyota-2025-supra); MotorWeek (Alex Kellum, 28 June 2024): \"That means the '2.0' grade, and thus the four-cylinder engine itself, has been cut from the lineup.\" (motorweek-2025-supra)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "toyota-2021-supra-release",
+    "note": "Inferred: same two-door fixed-roof body as the GR Supra 3.0; the cited page does not use the word coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "toyota-2021-supra-release",
+      "note": "'2.0-liter inline four-cylinder engine'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "toyota-gb-supra-tech-specs",
+      "note": "1,998 cc per Toyota (GB)'s GR Supra technical specifications ('Displacement 1,998', 'In-line 4-cylinder with single twin-scroll turbo'); a UK-market sheet, used for the displacement only. US releases say '2.0-liter'."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "toyota-canada-2021-supra-release",
+      "note": "One twin-scroll turbocharger: '2.0L inline four-cylinder with twin-scroll single turbo'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-2021-supra-release",
+    "note": "Inferred from the petrol four-cylinder described on the cited page; the page does not name the fuel."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "toyota-2021-supra-release",
+    "note": "Rear-wheel drive, as the 3.0."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "toyota-2024-supra",
+    "note": "\"The Supra 2.0 uses the same 8-speed automatic transmission as the 3.0\". The six-speed manual added for 2023 was offered only on the 3.0 grades (\"The manual transmission will be available as an option on the Supra 3.0 and 3.0 Premium\", toyota-2023-supra-manual)."
+  },
+  "powerHp": {
+    "value": 255,
+    "sourceId": "toyota-2021-supra-release",
+    "note": "Quote: \"The bottom line is 255 hp at 5,000-6,500 rpm and a stout 295 lb.-ft. peak torque at 1,550 to 4,400 rpm.\" Unchanged through 2024 (\"outputs 255-hp and 295 lb.-ft. of torque\", toyota-2024-supra)."
+  },
+  "weightLb": {
+    "value": 3181,
+    "sourceId": "toyota-2021-supra-release",
+    "note": "2021 model, 8-speed automatic (the only transmission). Quote: \"At 3,181 pounds, it is more than 200 pounds lighter than the Supra 3.0 while maintaining that model's exemplary near 50:50 weight distribution.\" Toyota's sentence does not say 'curb weight'; Toyota Canada's copy of the release gives the same in its table: 'Weight ... 3,181 lbs.' (toyota-canada-2021-supra-release)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-2021-supra-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Toyota GR Supra Races Into 2021 with More Power and First-Ever Four-Cylinder Turbo Model",
+      "url": "https://pressroom.toyota.com/toyota-gr-supra-races-into-2021-with-more-power-and-first-ever-four-cylinder-turbo-model/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "toyota-canada-2021-supra-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Canada",
+      "title": "Toyota GR Supra Races Into 2021 with More Power and First-Ever Four-Cylinder Turbo Model",
+      "url": "https://media.toyota.ca/releases/toyota-gr-supra-races-into-2021-with-more-power-and-first-ever-four-cylinder-turbo-model",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "toyota-2023-supra-manual",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Toyota GR Supra Adds Manual Transmission and Enhanced Drive Dynamics for 2023",
+      "url": "https://pressroom.toyota.com/toyota-gr-supra-adds-manual-transmission-and-enhanced-drive-dynamics-for-2023/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "toyota-2024-supra",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "Powerful Performance, Striking Style: The 2024 Toyota GR Supra",
+      "url": "https://pressroom.toyota.com/powerful-performance-striking-style-the-2024-toyota-gr-supra/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "toyota-2025-supra",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America",
+      "title": "2025 Toyota GR Supra",
+      "url": "https://pressroom.toyota.com/vehicle/2025-toyota-gr-supra/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "motorweek-2025-supra",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2025 Toyota GR Supra Drops Four-Cylinder Engine, by Alex Kellum (28 June 2024)",
+      "url": "https://motorweek.org/this-just-in/2025-toyota-gr-supra-drops-four-cylinder-engine",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "toyota-gb-supra-tech-specs",
+      "type": "manufacturer",
+      "publisher": "Toyota (GB)",
+      "title": "GR Supra Technical Specifications (29 April 2024)",
+      "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240429-GR-Supra-Tech-Specs.pdf",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

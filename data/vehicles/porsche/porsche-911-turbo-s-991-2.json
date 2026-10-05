@@ -1,0 +1,107 @@
+{
+  "id": "porsche-911-turbo-s-991-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.2",
+  "variant": "Turbo S",
+  "subVariant": null,
+  "displayName": "Porsche 911 Turbo S (991.2)",
+  "aliases": [
+    "991.2 Turbo S",
+    "991 Turbo S",
+    "Turbo S 991.2",
+    "911 Turbo S Cabriolet",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2019
+    },
+    "sourceId": "stuttcars-991-2-turbo-s",
+    "note": "Model years 2017 to 2019. Stuttcars: \"Model Years: 2017 - 2019\". First year: Porsche's \"2017 Porsche Models Technical Data\" sheet lists the 911 Turbo S (porsche-2017-911-turbo-us-specs). The 992.1 Turbo S followed for model year 2021."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "porsche-2017-911-turbo-us-specs",
+    "note": "Spec sheet columns \"911 Turbo S\" and \"911 Turbo S Cabriolet\"; the Cabriolet is the open version of the same variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-2017-911-turbo-us-specs",
+      "note": "Spec sheet: engine type \"Boxer, twin-turbo\", 6 cylinders"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "porsche-2017-911-turbo-us-specs",
+      "note": "About 3,800 cc. Spec sheet: \"3.8 l\", bore/stroke \"102 mm / 77.5 mm\" (6 cylinders at that bore and stroke give about 3,800 cc)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "porsche-2017-911-turbo-us-specs",
+      "note": "Spec sheet: \"Boxer, twin-turbo\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-2017-911-turbo-us-specs",
+    "note": "Spec sheet lists fuel as \"Premium\""
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "porsche-2017-911-turbo-us-specs",
+    "note": "Spec sheet: \"Active all wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "porsche-2017-911-turbo-us-specs",
+    "note": "Spec sheet: \"7-speed PDK\" (Porsche's dual-clutch); no manual was offered on the Turbo S."
+  },
+  "powerHp": {
+    "value": 580,
+    "sourceId": "porsche-2017-911-turbo-us-specs",
+    "note": "Quote: \"Maximum power output @ engine speed: 540 hp @ 6400 | 540 hp @ 6400 | 580 hp @ 6750 | 580 hp @ 6750\" (columns 911 Turbo | Turbo Cabriolet | Turbo S | Turbo S Cabriolet). Stuttcars prints \"572 bhp @ 6750 rpm\", a conversion, not Porsche's US rating."
+  },
+  "weightLb": {
+    "value": 3527,
+    "sourceId": "porsche-2017-911-turbo-us-specs",
+    "note": "Coupe with the standard (and only) 7-speed PDK, standard equipment. Quote: \"Curb weight (lbs): 3516 lbs. | 3671 lbs. | 3527 lbs. | 3682 lbs.\" (columns 911 Turbo | Turbo Cabriolet | Turbo S | Turbo S Cabriolet). The Turbo S Cabriolet is 3,682 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-2017-911-turbo-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche (Porsche Newsroom)",
+      "title": "2017 Porsche Models Technical Data: 2017 911 Turbo Technical Specifications",
+      "url": "https://newsroom.porsche.com:443/dam/jcr:71ee7b5f-5fe9-4f45-bc6a-3cfdf18b51d5/2017_911_Turbo_Technical_Specifications.pdf.PDF",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stuttcars-991-2-turbo-s",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 Turbo S Coupe (991.2) (2017 – 2019)",
+      "url": "https://www.stuttcars.com/porsche-911-turbo-s-coupe-991-2-2017-2019/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,149 @@
+{
+  "id": "nissan-370z-nismo-z34",
+  "manufacturer": "Nissan",
+  "model": "370Z",
+  "generation": "Z34",
+  "variant": "Nismo",
+  "subVariant": null,
+  "displayName": "Nissan 370Z Nismo (Z34)",
+  "aliases": [
+    "NISMO 370Z",
+    "370Z NISMO",
+    "Z34 Nismo",
+    "370Z NISMO Tech",
+    "VQ37VHR",
+    "SynchroRev Match",
+    "2009 NISMO 370Z"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2020
+    },
+    "sourceId": "nissan-2009-nismo-370z-release",
+    "note": "US model years 2009-2020. First: Nissan's release 'All-New 2009 Nissan NISMO 370Z Offers Racing-Inspired Performance and Style', \"set to go on sale at Nissan retailers nationwide in June 2009\". Continued in 2010 (\"350-horsepower NISMO 370Z are also available\", nissan-us-2010-370z-press-kit) and refreshed for 2015 (nissan-us-2015-370z-press-kit). Last: Nissan's '2020 Nissan 370Z NISMO Specifications' (nissan-2020-nismo-specs); as for the standard 370Z, no opened Nissan page says in so many words that 2020 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "nissan-2015-nismo-specs",
+    "note": "'2015 Nissan 370Z NISMO Coupe Specifications'. No NISMO roadster was sold."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "nissan-2015-nismo-specs",
+      "note": "VQ37VHR DOHC V6"
+    },
+    "displacementL": {
+      "value": 3.7,
+      "sourceId": "nissan-2015-nismo-specs",
+      "note": "Nissan's US tables give litres only ('Displacement (liters) 3.7'); no cc figure was found on an opened Nissan page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "nissan-2015-nismo-specs",
+      "note": "Inferred: the sheet describes a DOHC V6 with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "nissan-2015-nismo-specs",
+    "note": "'Premium unleaded'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "nissan-2015-nismo-specs",
+    "note": "'Mid-mounted front-engine / rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed Automatic"
+    ],
+    "sourceId": "nissan-2015-nismo-specs",
+    "note": "'6-speed manual' and '7-speed auto w/ manual mode and paddle shifters'. Manual only for 2009-2014 (\"The NISMO 370Z is offered only with a close-ratio 6-speed manual transmission\", nissan-2009-nismo-370z-release); the automatic arrived for 2015 with the NISMO Tech (\"two transmission choices are offered for the first time on a Z NISMO model\", nissan-us-2015-370z-press-kit)."
+  },
+  "powerHp": {
+    "value": 350,
+    "sourceId": "nissan-2015-nismo-specs",
+    "note": "Quote: \"Horsepower 350 @ 7,400 RPM\". The same rating applied from launch (\"the 3.7-liter VQ-series V6 produces 350 hp @ 7,400 rpm\", nissan-2009-nismo-370z-release) to 2020 (\"350 @ 7,400 RPM\", nissan-2020-nismo-specs)."
+  },
+  "weightLb": {
+    "value": 3372,
+    "sourceId": "nissan-2015-nismo-specs",
+    "note": "370Z NISMO (non-Tech), 6-speed manual, 2015 model. Quote (Curb (pounds) Total, columns '370Z NISMO' and '370Z NISMO Tech'): \"Total 3,372 ... 3,394\". The reference year is 2015, the earliest year with a Nissan weight found; 350 hp applied throughout. The 2020 sheet gives 3,457 lb (6MT) and 3,486 lb (7AT) (nissan-2020-nismo-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "nissan-2015-nismo-specs",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (spec sheet hosted by the Z Car Club Association, zcca.org)",
+      "title": "2015 Nissan 370Z NISMO Coupe Specifications",
+      "url": "https://zcca.org/wp-content/uploads/2025/10/2015-370Z-NISMO-Specs-8-13.pdf",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nissan-2020-nismo-specs",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (spec sheet hosted by the Z Car Club Association, zcca.org)",
+      "title": "2020 Nissan 370Z NISMO Specifications",
+      "url": "https://zcca.org/wp-content/uploads/2025/10/2020-Nissan-370Z-NISMO-Specifications.pdf",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nissan-us-2015-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (usa.nissannews.com)",
+      "title": "2015 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2015-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nissan-us-2010-370z-press-kit",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (usa.nissannews.com)",
+      "title": "2010 Nissan 370Z Coupe Press Kit",
+      "url": "https://usa.nissannews.com/en-US/releases/us-2010-nissan-370z-coupe-press-kit",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nissan-2009-nismo-370z-release",
+      "type": "manufacturer",
+      "publisher": "Nissan North America (release reproduced by Autoblog.gr)",
+      "title": "All-New 2009 Nissan NISMO 370Z Offers Racing-Inspired Performance and Style",
+      "url": "https://www.autoblog.gr/2009/04/08/nissan-nismo-370z-2009-officially-revealed/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3372,
+          "sourceId": "nissan-2015-nismo-specs"
+        },
+        {
+          "value": 3457,
+          "sourceId": "nissan-2020-nismo-specs"
+        }
+      ],
+      "reason": "Model year: both are Nissan curb weights for the 6-speed manual NISMO, 2015 and 2020.",
+      "resolution": "Used 3,372 lb: the reference model year is 2015, the earliest year with a Nissan weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

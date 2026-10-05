@@ -1,0 +1,130 @@
+{
+  "id": "ferrari-296-gtb",
+  "manufacturer": "Ferrari",
+  "model": "296 GTB",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 296 GTB",
+  "aliases": [
+    "296",
+    "Ferrari 296",
+    "296 GTB Assetto Fiorano",
+    "Assetto Fiorano",
+    "2022 296 GTB"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "kbb-296gtb",
+    "note": "US model years, from Kelley Blue Book (a database; no Ferrari page naming US model years was found). KBB's 296 GTB page links 2022, 2023, 2024, 2025 and 2026 (kbb-296gtb); the 2022 page lists one trim, \"Coupe 2D\", at \"819 hp\" (kbb-296gtb-2022). Still on sale. The open 296 GTS is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-296gtb",
+    "note": "Two-seat mid-rear-engined berlinetta; the open car is the separately named 296 GTS."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "ferrari-296gtb-magazine",
+      "note": "\"a 663cv 120° V6 coupled with an electric motor\""
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "ferrari-296gtb-magazine",
+      "note": "2,992 cc: the name reflects \"its total displacement (2,992cc) and number of cylinders\". Evo spec panel: \"V6, 2992cc, twin-turbo, plus e-motor\" (evo-296gtb)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "evo-296gtb",
+      "note": "Evo spec panel: \"V6, 2992cc, twin-turbo, plus e-motor\""
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "evo-296gtb",
+    "note": "\"it's also a plug-in hybrid, with an EV-only range of around 15 miles\"; Ferrari: \"plug-in hybrid (PHEV) system\" (ferrari-296gtb-magazine)"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-296gtb",
+    "note": "\"powering the rear wheels only (unlike the SF90)\""
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "evo-296gtb",
+    "note": "Evo spec panel: \"Eight-speed, dual-clutch, active E-diff\". No manual was offered."
+  },
+  "powerHp": {
+    "value": 819,
+    "sourceId": "ferrari-296gtb-page",
+    "note": "Combined system output (V6 plus electric motor). Ferrari's rating is metric: 830 cv x 0.98632 = 819 hp. Quote (ferrari.com, US pages): \"830 cv\" maximum power, with the V6 alone \"663 cv\". Ferrari magazine (ferrari-296gtb-magazine): \"a 663cv 120° V6 coupled with an electric motor\" delivering \"a massive 830cv\". No separate SAE rating was found, so powerStandard is DIN PS. Evo's spec panel prints the same: \"819bhp (combined) @ 8000rpm\"; KBB lists 819 hp."
+  },
+  "weightLb": {
+    "value": 3241,
+    "sourceId": "ferrari-296gtb-magazine",
+    "note": "DRY weight. 1,470 kg x 2.20462 = 3,241 lb. Quote (Ferrari magazine): \"The result is a dry weight of just 1470kg, which is class-leading in regards to the overall weight-to-power ratio: 1.77kg/cv\". Evo's spec panel (evo-296gtb, by Adam Towler) prints the same figure labelled dry: \"Weight | 1470kg (dry) (566bhp/ton)\". Under the guide's weight order this is step 4: no curb weight for the standard car (steps 1-2) and no optioned-car curb weight (step 3) was found from Ferrari or a major magazine; the curb weights found were on database pages only. Ferrari's footnote to the dry weight (whether it assumes lightweight options, as on other Ferrari press specifications) was not seen on any opened page, so weightQualifier is not set. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-296gtb-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "Ferrari 296 GTB",
+      "url": "https://www.ferrari.com/en-US/auto/296-gtb",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ferrari-296gtb-magazine",
+      "type": "manufacturer",
+      "publisher": "Ferrari (The Official Ferrari Magazine)",
+      "title": "Defining driving pleasure: Ferrari 296 GTB",
+      "url": "https://www.ferrari.com/magazine/articles/defining-driving-pleasure-ferrari-296-gtb",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "evo-296gtb",
+      "type": "publication",
+      "publisher": "Evo (Adam Towler)",
+      "title": "Ferrari 296 GTB 2025 review – the car the Lamborghini Temerario has to beat",
+      "url": "https://www.evo.co.uk/ferrari/296-gtb",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-296gtb",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 296 GTB",
+      "url": "https://www.kbb.com/ferrari/296-gtb/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-296gtb-2022",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Ferrari 296 GTB",
+      "url": "https://www.kbb.com/ferrari/296-gtb/2022/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,117 @@
+{
+  "id": "volkswagen-golf-r-mk6",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "generation": "Mk6",
+  "variant": "R",
+  "subVariant": null,
+  "displayName": "Volkswagen Golf R (Mk6)",
+  "aliases": [
+    "Mk6 Golf R",
+    "Golf R Mk6",
+    "Mk6 R",
+    "Golf 6 R",
+    "2012 Golf R",
+    "2013 Golf R",
+    "4Motion",
+    "EA888"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2013
+    },
+    "sourceId": "motorauthority-2012-golf-r-specs",
+    "note": "US model years 2012 to 2013. Motor Authority (Nelson Ireson, 4 October 2011) reports Volkswagen's \"official U.S. pricing and specs\" for the 2012 Golf R; Volkswagen's \"2013 Golf R Technical Specifications\" covers 2013 (vw-us-2013-golf-r-techspecs). Cars.com lists this generation as \"2012-2013\" and the next as 2015-2019 (carscom-golf-r-years)."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "vw-us-2013-golf-r-techspecs",
+    "note": "Two-door and four-door hatchbacks (spec sheet rows \"2D/4D\"; Motor Authority: two-door and four-door)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "vw-us-2013-golf-r-techspecs",
+      "note": "Spec sheet: \"2.0L inline four cylinder, 16V, turbocharged/intercooled, TSI\""
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "vw-us-2013-golf-r-techspecs",
+      "note": "1,984 cc. Spec sheet: \"121 cu in 1984 cc\""
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "vw-us-2013-golf-r-techspecs",
+      "note": "\"turbocharged/intercooled\"; a single turbocharger"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "vw-us-2013-golf-r-techspecs",
+    "note": "Gasoline TSI engine; inferred from the spec sheet."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "vw-us-2013-golf-r-techspecs",
+    "note": "Spec sheet: \"4Motion permanent all-wheel-drive system with Haldex® center differential\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "vw-us-2013-golf-r-techspecs",
+    "note": "Spec sheet lists a six-speed manual only. Motor Authority: \"Only a six-speed manual transmission is offered\" (the European car's DSG was not sold in the US)."
+  },
+  "powerHp": {
+    "value": 256,
+    "sourceId": "vw-us-2013-golf-r-techspecs",
+    "note": "Quote (spec sheet): \"Horsepower (SAE) @ rpm 256 @ 6000 (188 kW @ 6000)\". Same rating for 2012: Motor Authority \"256 hp, arriving at 6,000 rpm\" (motorauthority-2012-golf-r-specs)."
+  },
+  "weightLb": {
+    "value": 3325,
+    "sourceId": "vw-us-2013-golf-r-techspecs",
+    "note": "Spec sheet row \"Curb Weight 2D/4D 3325 lb 1508 kg\" (manual, the only transmission; one figure printed under the 2D/4D heading). Motor Authority gives the same 3,325 pounds for the 2012 car. Reference year is 2013 because the 2012 figure has only one publication behind it."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "vw-us-2013-golf-r-techspecs",
+      "type": "manufacturer",
+      "publisher": "Volkswagen of America (reproduced on ManualsLib)",
+      "title": "2013 Golf R Technical Specifications",
+      "url": "https://www.manualslib.com/manual/701224/Volkswagen-2013-Golf-R.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "motorauthority-2012-golf-r-specs",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Report on the official 2012 Volkswagen Golf R US price and specs (Nelson Ireson, 4 October 2011)",
+      "url": "https://www.motorauthority.com/news/1066908_2012-volkswagen-golf-r-official-price-specs-released",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carscom-golf-r-years",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "Volkswagen Golf R research",
+      "url": "https://www.cars.com/research/volkswagen-golf_r/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

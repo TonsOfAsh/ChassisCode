@@ -1,0 +1,170 @@
+{
+  "id": "pontiac-gto-5th-gen",
+  "manufacturer": "Pontiac",
+  "model": "GTO",
+  "generation": "5th gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Pontiac GTO (5th gen)",
+  "aliases": [
+    "GTO",
+    "New GTO",
+    "Goat",
+    "LS2 GTO",
+    "LS1 GTO",
+    "Monaro",
+    "2004 GTO",
+    "2005 GTO",
+    "2006 GTO",
+    "T-56"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2004,
+      "endYear": 2006
+    },
+    "sourceId": "hagerty-gto-2004-2006",
+    "note": "US model years 2004-2006. Hagerty's article is titled 'The 2004-2006 Pontiac GTO was a road rocket and sales bomb' and says 'After three years, Pontiac sold just under 41,000.' Pontiac's 2006 brochure covers 'The 2006 Pontiac GTO' (pontiac-gto-2006-brochure)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hagerty-gto-2004-2006",
+    "note": "Coupe only; Hagerty describes 'a sleek coupe shape'; the brochure calls it a '2+2 coupe'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "pontiac-gto-2006-brochure",
+      "note": "'ENGINE 6.0L Gen IV LS2 V8 (400 hp/400 lb-ft torque)'"
+    },
+    "displacementL": {
+      "value": 6.0,
+      "sourceId": "pontiac-gto-2006-brochure",
+      "note": "2005-2006 LS2: '6.0L'; Cars.com 2006: 'Displacement: 6.0L/364' (cars-com-gto-2006). No opened page prints the cc figure. The 2004 car's LS1 is 5.7 liters (Hagerty: 'The 2004 model came with the 5.7-liter LS1')."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pontiac-gto-2006-brochure",
+      "note": "Inferred: no forced induction is mentioned."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pontiac-gto-2006-brochure"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pontiac-gto-2006-brochure",
+    "note": "Brochure: '400HP+RWD'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "hagerty-gto-2004-2006",
+    "note": "'A four-speed automatic was standard, and the six-speed stick was optional.' Brochure: 'The available Tremec close-ratio 6-speed manual' (pontiac-gto-2006-brochure)."
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "pontiac-gto-2006-brochure",
+    "note": "Reference year 2005, the first year of the 400 hp LS2 rating (2005 and 2006); the 2006 brochure is the manufacturer source for the rating. Quote (Pontiac 2006 brochure): \"ENG INE 6.0L Gen IV LS2 V8 (400 hp/400 lb-ft torque)\". Hagerty: \"When the 2005 GTO arrived it had the 6.0-liter LS2 with 400 horsepower\" and \"The 2004 model came with the 5.7-liter LS1 packing 350 horsepower.\" (hagerty-gto-2004-2006). KBB lists 2004 at \"350 @ 5200 RPM\" (kbb-gto-2004) and 2005 at \"400 @ 5200 RPM\" (kbb-gto-2005). Reference-year rule: 400 hp covers two of the three model years. Reference year 2006, not 2005, because the only manufacturer power source opened is the 2006 brochure and the 2006 weight has two agreeing sources."
+  },
+  "weightLb": {
+    "value": 3725,
+    "sourceId": "cars-com-gto-2006",
+    "note": "PROVISIONAL (databases). Coupe; the same 3,725 lb is given for 2005 (the reference year) and 2006. Quote (Cars.com, 2006 GTO 2dr Coupe): \"Base Curb Weight: 3,725 lbs\". KBB 2006 GTO Coupe 2D (transmission 'Manual'): \"3,725 pounds\" (kbb-gto-2006). KBB gives the same \"3,725 pounds\" for 2005 (kbb-gto-2005) and 2004 (kbb-gto-2004). MotorWeek's 2005 road test mentions a \"3765-pound curb weight\" (motorweek-gto-2005), 1.1% higher; see discrepancies. The 2006 brochure gives no weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pontiac-gto-2006-brochure",
+      "type": "manufacturer",
+      "publisher": "Pontiac (brochure reproduced by Auto-Brochures.com)",
+      "title": "2006 Pontiac GTO brochure",
+      "url": "https://www.auto-brochures.com/makes/Pontiac/GTO/Pontiac_US%20GTO_2006.pdf",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hagerty-gto-2004-2006",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "The 2004-2006 Pontiac GTO was a road rocket and sales bomb",
+      "url": "https://hagerty.com/media/?p=3235",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cars-com-gto-2006",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2006 Pontiac GTO specs & colors",
+      "url": "https://www.cars.com/research/pontiac-gto-2006/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-gto-2006",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2006 Pontiac GTO specs",
+      "url": "https://www.kbb.com/pontiac/gto/2006/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-gto-2005",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2005 Pontiac GTO specs",
+      "url": "https://www.kbb.com/pontiac/gto/2005/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-gto-2004",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2004 Pontiac GTO specs",
+      "url": "https://www.kbb.com/pontiac/gto/2004/specs/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "motorweek-gto-2005",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2005 Pontiac GTO road test (Program #2423)",
+      "url": "https://www.motorweek.org/reviews/road_tests/2005_pontiac_gto_program_2423",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3725,
+          "sourceId": "cars-com-gto-2006"
+        },
+        {
+          "value": 3765,
+          "sourceId": "motorweek-gto-2005"
+        }
+      ],
+      "reason": "Cars.com and KBB give 3,725 lb for every model year; MotorWeek's 2005 road-test text gives 3,765 lb (1.1% higher) without saying whether it is a published or a measured figure.",
+      "resolution": "3,725 lb used: two databases agree for 2006 and KBB gives the same for 2005; the difference is within 2%."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "One record at reference year 2006 (400 hp LS2, 2005-2006) rather than a year split; the 2004 car had the 5.7-liter LS1 at 350 hp (14% less, different displacement). Decide whether 2004 should be its own year-split record.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,725 lb) rests on databases (Cars.com and KBB, agreeing; MotorWeek 3,765 lb within 1.1%). A Pontiac/GM spec sheet or press kit, or a major magazine spec panel, for the 2005-2006 GTO would replace it. Power (400 hp) is from Pontiac's 2006 brochure."
+}

@@ -1,0 +1,163 @@
+{
+  "id": "ferrari-sf90-stradale",
+  "manufacturer": "Ferrari",
+  "model": "SF90 Stradale",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari SF90 Stradale",
+  "aliases": [
+    "SF90",
+    "Ferrari SF90",
+    "SF90 Assetto Fiorano",
+    "Assetto Fiorano",
+    "2020 SF90 Stradale"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2024
+    },
+    "sourceId": "kbb-sf90",
+    "note": "US model years, from Kelley Blue Book (a database; no Ferrari page naming US model years was found). KBB's SF90 page links 2020, 2021, 2022, 2023 and 2024 and names the \"Stradale Coupe 2D\" (kbb-sf90); the 2020 listing has one trim, \"Coupe 2D\", \"986 @ 7500 RPM\" (kbb-sf90-2020); KBB has no 2025 SF90 (kbb-sf90-2025). Ferrari's launch release is dated 5 June 2019 as reproduced (ferrari-sf90-release). The SF90 Spider and SF90 XX are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hagerty-sf90",
+    "note": "Hagerty spec panel: \"2-door, 2-passenger, mid-engine, all-wheel-drive coupe\". The open car is the separately named SF90 Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-sf90-release",
+      "note": "\"90° V8 turbo engine capable of delivering 780 cv\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "ferrari-sf90-specs",
+      "note": "3,990 cc (\"Total displacement 3990 cc\"); release: \"increasing its capacity from 3,902 cc to 3,990 cc\""
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "hagerty-sf90",
+      "note": "Hagerty spec panel: \"4.0-litre DOHC twin-turbo V8\""
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "ferrari-sf90-release",
+    "note": "\"The SF90 Stradale is the first ever Ferrari to feature PHEV (Plug-in Hybrid Electric Vehicle) architecture\""
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "ferrari-sf90-release",
+    "note": "\"The SF90 Stradale is also the first Ferrari sports car to be equipped with 4WD\" (front axle driven by two electric motors; recorded as AWD per the guide)"
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "ferrari-sf90-release",
+    "note": "\"The SF90 Stradale sports a completely redesigned 8-speed, oil-bath, dual-clutch transmission.\" Spec sheet: \"8-speed, F1 dual-clutch transmission\" (ferrari-sf90-specs). No manual was offered."
+  },
+  "powerHp": {
+    "value": 986,
+    "sourceId": "ferrari-sf90-release",
+    "note": "Combined system output (V8 plus three electric motors). Ferrari's rating is metric: 1,000 cv x 0.98632 = 986 hp. Quote (Ferrari press release as reproduced by Auto International): \"Figures such as 1,000 cv, and a weight-to-power ratio of 1.57 kg/cv, and 390 kg of downforce at 250 km/h not only put the SF90 Stradale at the top of its segment ...\". Ferrari's spec sheet (ferrari-sf90-specs): \"Maximum power output* 574 kW (780 cv) @ 7500 rpm\" for the V8 and \"Maximum power electric motors 162 kW (220 cv)\". No separate SAE rating was found, so powerStandard is DIN PS. Hagerty's panel prints \"total system output 986bhp\" and KBB \"986 @ 7500 RPM\"."
+  },
+  "weightLb": {
+    "value": 3461,
+    "sourceId": "ferrari-sf90-specs",
+    "note": "DRY weight of a car with optional extras. 1,570 kg x 2.20462 = 3,461 lb. Quote (Ferrari technical specifications): \"Dry weight** 1570 kg\", footnote \"**With optional extras\". Evo's review (evo-sf90, republished by Crank and Piston): \"weighs 1570kg dry (with lightweight options)\" and gives a \"real-world kerb weight of close to 1700kg\" (an approximation, not used). Hagerty UK's spec panel (hagerty-sf90, by Andrew Frankel) prints \"1750kg (dry weight: 1570kg)\"; Hagerty is not one of the guide's major magazines and no second named-author outlet with 1,750 kg was found, so step 2 is not met, and no optioned-car curb weight (step 3) was found. Under the guide's weight order this is step 4 (a manufacturer dry weight), itself for an optioned car. A standard car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-sf90-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari (press release reproduced by Auto International, Malaysia)",
+      "title": "The Ferrari SF90 Stradale – the new series-production supercar",
+      "url": "https://autointernational.com.my/Ferrari SF90 Stradale – the new series-production supercarr - 5 Jun19.html",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ferrari-sf90-specs",
+      "type": "manufacturer",
+      "publisher": "Ferrari (technical specifications reproduced by Auto International, Malaysia)",
+      "title": "Ferrari SF90 Stradale technical specifications",
+      "url": "https://autointernational.com.my/WebNews/News/Year 2020/Ferrari SF90 Stradale launch - 23 Sept 20/TECHNICAL SPECIFICATIONS.pdf",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hagerty-sf90",
+      "type": "publication",
+      "publisher": "Hagerty UK (Andrew Frankel)",
+      "title": "Ferrari SF90 Stradale review",
+      "url": "https://www.hagerty.co.uk/articles/ferrari-sf90-stradale-review/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "evo-sf90",
+      "type": "publication",
+      "publisher": "Evo (republished by Crank and Piston)",
+      "title": "Ferrari SF90 Stradale 2022 review – driving the game-changing 987bhp hybrid flagship",
+      "url": "https://crankandpiston.com/?p=142931",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-sf90",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari SF90",
+      "url": "https://www.kbb.com/ferrari/sf90/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-sf90-2020",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2020 Ferrari SF90",
+      "url": "https://www.kbb.com/ferrari/sf90/2020/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-sf90-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari SF90 (2025 page)",
+      "url": "https://www.kbb.com/ferrari/sf90/2025/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,570 kg dry, with optional extras",
+          "sourceId": "ferrari-sf90-specs"
+        },
+        {
+          "value": "1,750 kg (Hagerty spec panel, kerb)",
+          "sourceId": "hagerty-sf90"
+        }
+      ],
+      "reason": "Dry vs curb. Ferrari publishes only a dry weight for an optioned car; Hagerty prints a heavier kerb figure, but it is a single outlet outside the guide's major magazines, and Evo describes the real-world kerb weight only as 'close to 1700kg'.",
+      "resolution": "Used Ferrari's dry weight under weight step 4, since no curb weight met steps 1-3."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

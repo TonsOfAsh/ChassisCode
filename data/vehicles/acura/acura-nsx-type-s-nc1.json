@@ -1,0 +1,107 @@
+{
+  "id": "acura-nsx-type-s-nc1",
+  "manufacturer": "Acura",
+  "model": "NSX",
+  "generation": "NC1",
+  "variant": "Type S",
+  "subVariant": null,
+  "displayName": "Acura NSX Type S (NC1)",
+  "aliases": [
+    "NSX Type S",
+    "2022 NSX Type S",
+    "2022 NSX",
+    "Type S NSX",
+    "Sport Hybrid SH-AWD",
+    "9DCT"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2022
+    },
+    "sourceId": "acura-nsx-type-s-reveal-2021",
+    "note": "US model year 2022 only. Quotes: \"In celebration of the final year of second generation NSX production, every 2022 Acura NSX produced at the Performance Manufacturing Center in Marysville, Ohio will be a Type S model.\" and \"Just 350 of the limited run supercar will be built for global distribution, with 300 units destined for U.S. customers\". The standard NC1 NSX (2017-2021) is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "acura-nsx-type-s-reveal-2021",
+    "note": "Inferred: Acura calls it an 'electrified supercar' and its spec sheet gives 'Body Type Multi-Material Spaceframe'; neither opened page uses the word coupe. Same two-door fixed-roof body as the standard NC1 NSX."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "acura-nsx-type-s-specs-2022",
+      "note": "'Twin-Turbo Aluminum-Alloy 75-Degree V-6' plus three electric motors; configuration is the combustion engine."
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "acura-nsx-type-s-specs-2022",
+      "note": "3,493 cc ('Displacement (liters / cc) 3.5 / 3,493')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "acura-nsx-type-s-specs-2022",
+      "note": "'Twin-Turbo Aluminum-Alloy 75-Degree V-6'"
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "acura-nsx-type-s-specs-2022",
+    "note": "'Hybrid Battery Type Lithium-Ion (Li-Ion)'; Acura describes a hybrid powertrain with no external charging."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "acura-nsx-type-s-specs-2022",
+    "note": "'Sport Hybrid SH-AWD (Super Handling All-Wheel Drive)'"
+  },
+  "transmission": {
+    "value": [
+      "9-speed DCT"
+    ],
+    "sourceId": "acura-nsx-type-s-specs-2022",
+    "note": "'9-Speed DCT (Dual-Clutch Transmission)'; Acura 9DCT."
+  },
+  "powerHp": {
+    "value": 600,
+    "sourceId": "acura-nsx-type-s-specs-2022",
+    "note": "Combined system output. Quote: \"System Combined Power (hp) 600\". The engine alone is rated 'Power (hp @ rpm) 520 @ 6500-6850'. The reveal release gives 'Combined System Horsepower (SAE Net)' of '600 (+27)' against the 2021 NSX's 573 (acura-nsx-type-s-reveal-2021)."
+  },
+  "weightLb": {
+    "value": 3960,
+    "sourceId": "acura-nsx-type-s-specs-2022",
+    "note": "Standard equipment. Quote: \"Curb Weight (lbs.) with standard equipment 3,960\". With the optional Lightweight Package: \"Curb Weight (lbs.) with Lightweight Package 3,903\". No estimate label on the sheet."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-nsx-type-s-specs-2022",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "2022 Acura NSX Type S Specifications",
+      "url": "https://acuranews.com/en-US/releases/release-f8bfb43dd94cc82c09a8314c0b1a1794-2022-nsx-specifications",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "acura-nsx-type-s-reveal-2021",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Debuts Limited Production 600hp NSX Type S at Monterey Car Week",
+      "url": "https://acuranews.com/en-US/releases/release-f8bfb43dd94cc82c09a8314c0b0a9a34-2022-acura-nsx-revealed-at-monterey-car-week",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

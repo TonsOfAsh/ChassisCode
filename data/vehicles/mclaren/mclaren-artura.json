@@ -1,0 +1,172 @@
+{
+  "id": "mclaren-artura",
+  "manufacturer": "McLaren",
+  "model": "Artura",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren Artura",
+  "aliases": [
+    "Artura Coupe",
+    "McLaren hybrid",
+    "2023 Artura",
+    "2024 Artura",
+    "2025 Artura",
+    "2026 Artura"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "kbb-artura",
+    "note": "US model years, from Kelley Blue Book (a database): KBB's Artura page lists 2027 and links 2026, 2025, 2024 and 2023 (kbb-artura). US reviews of the launch car are of the '2023 McLaren Artura' (thedrive-artura, motor1-artura). McLaren's launch release (17 February 2021): \"first deliveries to customers commencing in Q3 of this year\" (mclaren-artura-release). Still on sale. The Artura Spider is sold under its own name."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "thedrive-artura",
+    "note": "Two-seat fixed-roof coupe; the open Artura Spider is a separate model."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "mclaren-artura-release",
+      "note": "\"McLaren's all-new, 2,993cc twin-turbocharged V6 petrol engine\""
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "mclaren-artura-release",
+      "note": "2,993 cc (\"At the heart of the Artura's powertrain is McLaren's all-new, 2,993cc twin-turbocharged V6 petrol engine.\")"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-artura-release",
+      "note": "\"2,993cc twin-turbocharged V6\""
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "thedrive-artura",
+    "note": "\"3.0-liter twin-turbo V6 plug-in hybrid | 8-speed dual-clutch | rear-wheel drive\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "thedrive-artura",
+    "note": "\"3.0-liter twin-turbo V6 plug-in hybrid | 8-speed dual-clutch | rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "thedrive-artura",
+    "note": "\"8-speed dual-clutch\"; McLaren's release: \"one more ratio than the existing McLaren transmission\" (the seven-speed SSG). No manual was offered."
+  },
+  "powerHp": {
+    "value": 690,
+    "sourceId": "evo-artura",
+    "note": "Combined system output. Quote (Evo spec panel, 2025 review by Yousuf Ashraf and Jethro Bovingdon): \"Power | 690bhp (combined) @ 7500rpm\". Evo: when the Spider launched in 2024 the combustion engine was raised to 597bhp, and early cars can be remapped to match at no charge. The launch rating was 671 hp (The Drive's 2023 review, thedrive-artura: \"Horsepower | 671 @ 7,500 rpm\"; Motor1: \"Output: 671 Horsepower\", motor1-artura). Reference-year rule: the later rating covers at least three of the five US model years so far (2025-2027; KBB lists \"691 @ 7500 RPM\" for 2025, kbb-artura-2025, and also for 2027), so it is used. McLaren's own metric figure for the update was not seen on an opened page; powerStandard is DIN PS because Evo's bhp figure is the European rating. KBB's 691 is very probably the kW figure converted. KBB also shows 691 for 2024 (kbb-artura-2024), which conflicts with The Drive/Evo timing; see reviewNotes. The Drive (thedrive-artura-retrofit-2024): \"When it debuted, the hybrid McLaren Artura made a total of 671 hp\" and \"For next year's model, McLaren has recalibrated the V6's software for a total output of 690\", so 690 hp starts with the 2025 model year."
+  },
+  "weightLb": {
+    "value": 3303,
+    "sourceId": "evo-artura",
+    "note": "1,498 kg x 2.20462 = 3,303 lb. Coupe, 8-speed dual-clutch (the only transmission). Quote (Evo spec panel, 2025 review): \"Weight | 1498kg\". It is McLaren's DIN kerb weight, unchanged from launch: McLaren release (mclaren-artura-release): \"resulting in a DIN kerbweight of 1,498kg* which is on par with comparable supercars that do not have hybrid powertrains\" (the asterisk's footnote was not reproduced on the opened page). The Drive's 2023 spec panel (thedrive-artura, by Kristen Lee): \"Curb weight | 3,303 pounds\". DIN weight, not EU. McLaren's \"lightest dry weight\" of 1,395 kg depends on options and is not used. Cited from Evo because McLaren's figure is from the 2021 launch release and the reference year is 2025."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-artura-release",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (press release reproduced by Automotive World)",
+      "title": "McLaren unveils all-new, next-generation High-Performance Hybrid supercar: the McLaren Artura",
+      "url": "https://www.automotiveworld.com/news-releases/mclaren-unveils-all-new-next-generation-high-performance-hybrid-supercar-the-mclaren-artura/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "evo-artura",
+      "type": "publication",
+      "publisher": "Evo (Yousuf Ashraf, Jethro Bovingdon)",
+      "title": "McLaren Artura 2025 review",
+      "url": "https://www.evo.co.uk/mclaren/artura",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "thedrive-artura",
+      "type": "publication",
+      "publisher": "The Drive (Kristen Lee)",
+      "title": "2023 McLaren Artura Review",
+      "url": "https://www.thedrive.com/car-reviews/2023-mclaren-artura-review-price-features-info",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "motor1-artura",
+      "type": "publication",
+      "publisher": "Motor1.com",
+      "title": "2023 McLaren Artura First Drive",
+      "url": "https://www.motor1.com/reviews/592158/2023-mclaren-artura-first-drive/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-artura",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren Artura",
+      "url": "https://www.kbb.com/mclaren/artura/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-artura-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 McLaren Artura",
+      "url": "https://www.kbb.com/mclaren/artura/2024/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kbb-artura-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 McLaren Artura",
+      "url": "https://www.kbb.com/mclaren/artura/2025/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "thedrive-artura-retrofit-2024",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "McLaren Will Retrofit Your Artura With an Extra 19 HP for Free (Chris Tsui, 26 February 2024)",
+      "url": "https://www.thedrive.com/news/mclaren-will-retrofit-your-artura-with-an-extra-19-hp-for-free",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 671,
+          "sourceId": "thedrive-artura"
+        },
+        {
+          "value": 690,
+          "sourceId": "evo-artura"
+        }
+      ],
+      "reason": "Model year: 671 hp (680 PS) at launch; raised to 690 bhp (combined) when the Spider launched in 2024, with a free remap for earlier cars.",
+      "resolution": "Used 690 hp under the reference-year rule (the later rating covers most US model years so far)."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "McLaren's release gives 'a DIN kerbweight of 1,498kg*'; the asterisk's footnote was not on the page. If it names lightweight options, weightQualifier 'lightweight-options' should be added.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}
