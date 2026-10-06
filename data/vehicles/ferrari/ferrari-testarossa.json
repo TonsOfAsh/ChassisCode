@@ -1,0 +1,139 @@
+{
+  "id": "ferrari-testarossa",
+  "manufacturer": "Ferrari",
+  "model": "Testarossa",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari Testarossa",
+  "aliases": [
+    "Testa Rossa",
+    "TR",
+    "F110",
+    "Ferrari Testarossa Monospecchio",
+    "Monodado"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1985,
+      "endYear": 1991
+    },
+    "sourceId": "conceptcarz-testarossa",
+    "note": "US model years 1985-1991 (the task's US years). Conceptcarz: \"Originally produced from 1984 to 1991\"; Car and Driver tested a '1985 Ferrari Testarossa' (cd-1985-testarossa-repro). The 512 TR that followed is a separate car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cd-1985-testarossa-repro"
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-12",
+      "sourceId": "cd-1985-testarossa-repro",
+      "note": "\"DOHC flat-12, aluminum block and heads\" (a 180-degree V12)"
+    },
+    "displacementL": {
+      "value": 4.9,
+      "sourceId": "cd-1985-testarossa-repro",
+      "note": "4,943 cc (\"Displacement: 302 cu in, 4943 cc\"); Conceptcarz prints 4942cc."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "cd-1985-testarossa-repro",
+      "note": "No forced induction listed"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-1985-testarossa-repro"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-1985-testarossa-repro",
+    "note": "Mid-engine, rear-wheel drive"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "cd-1985-testarossa-repro",
+    "note": "\"TRANSMISSION: 5-speed manual\". Conceptcarz: \"rear-mounted, five-speed manual transmission\"."
+  },
+  "powerHp": {
+    "value": 380,
+    "sourceId": "cd-1985-testarossa-repro",
+    "note": "US rating. Quote (Car and Driver spec panel, as reproduced): \"Power: 380 hp @ 5750 rpm\". Conceptcarz: \"Initially the U.S. model featured the same engine but with less power at 380 hp.\" and \"The North American Testarossa made 380bhp at 5750rpm\". Jim Koscs (premier-testarossa): \"The U.S.-spec model put out 380 horsepower and 354 lb-ft of torque.\" The European car is rated 390 bhp (supercars-net-testarossa: \"290.8 kw / 390 bhp @ 6300 rpm\")."
+  },
+  "weightLb": {
+    "value": 3766,
+    "sourceId": "cd-1985-testarossa-repro",
+    "note": "PROVISIONAL (single magazine panel, via a third-party reproduction; probably Car and Driver's own weighed figure). US car, standard 5-speed. Quote: \"Curb weight: 3766 lb\". Jim Koscs: \"the Testarossa's weight of nearly 3,800 pounds\" (premier-testarossa), within 1%. Conceptcarz's \"The sports car weight 3,320 pounds\" equals the European 1,506 kg figure (Supercars.net: \"1506 kg\"), basis not stated; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1985,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cd-1985-testarossa-repro",
+      "type": "publication",
+      "publisher": "Car and Driver (September 1986 test, reproduced by motor-news.space)",
+      "title": "Tested: 1985 Ferrari Testarossa",
+      "url": "https://motor-news.space/2020/car-reviews/tested-1985-ferrari-testarossa/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "conceptcarz-testarossa",
+      "type": "publication",
+      "publisher": "Conceptcarz (Daniel Vaughan, Jessica Donaldson)",
+      "title": "Ferrari Testarossa - Model Information",
+      "url": "https://www.conceptcarz.com/vehicle/series.aspx?modelID=553",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "premier-testarossa",
+      "type": "publication",
+      "publisher": "Premier Financial Services (Jim Koscs, Audamotive Communications)",
+      "title": "Model Masterpiece: Ferrari Testarossa",
+      "url": "https://premierfinancialservices.com/2020/03/26/model-masterpiece-ferrari-testarossa",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-net-testarossa",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "Ferrari Testarossa - The Ultimate Guide",
+      "url": "https://www.supercars.net/blog/1984%E2%86%921991-ferrari-testarossa/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3766,
+          "sourceId": "cd-1985-testarossa-repro"
+        },
+        {
+          "value": 3320,
+          "sourceId": "conceptcarz-testarossa"
+        }
+      ],
+      "reason": "Basis and market: 3,320 lb equals 1,506 kg, the European figure printed by Supercars.net as 'curb weight | 1506 kg' (basis and market unstated; it may be a European DIN figure); 3,766 lb is Car and Driver's curb weight for a US car.",
+      "resolution": "Used 3,766 lb, the only figure labelled curb weight for a US car; Koscs's 'nearly 3,800 pounds' supports it."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "1) Weight and power come from Car and Driver's September 1986 test reproduced on motor-news.space (bylined 'Evelyn Reynolds', the reposter); the caranddriver.com original was not opened. The panel's curb weight may be C/D's measured figure rather than Ferrari's. 2) The reproduction is titled '1985 Ferrari Testarossa' but says it is from the September 1986 issue; reference year 1985 follows the title (380 hp applies to all US years). 3) US model years 1985-1991 are the task's; the sources give 1984-1991 production.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,766 lb) rests on a single Car and Driver spec panel read through a third-party reproduction, possibly a measured figure; Koscs's 'nearly 3,800 pounds' agrees. A Ferrari North America curb weight, or the panel opened on caranddriver.com / another major magazine, would replace it. Power (380 hp) is from the same panel and agrees with Conceptcarz and Koscs. Power (380 hp) also rests on the same Car and Driver test panel as reproduced on motor-news.space, corroborated by Conceptcarz and Jim Koscs; a Ferrari North America document would confirm it."
+}

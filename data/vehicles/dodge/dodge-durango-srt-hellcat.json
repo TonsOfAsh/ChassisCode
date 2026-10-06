@@ -1,0 +1,173 @@
+{
+  "id": "dodge-durango-srt-hellcat",
+  "manufacturer": "Dodge",
+  "model": "Durango",
+  "generation": null,
+  "variant": "SRT Hellcat",
+  "subVariant": null,
+  "displayName": "Dodge Durango SRT Hellcat",
+  "aliases": [
+    "Durango Hellcat",
+    "Hellcat Durango",
+    "WD Durango Hellcat",
+    "Durango SRT Hellcat Last Call",
+    "Supercharged HEMI",
+    "TorqueFlite",
+    "8HP95"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "sourceId": "dodge-durango-2021-pricing",
+    "note": "US model years 2021 and 2023 onward; there was no 2022 model. Start: Dodge, 26 August 2020: 'The Durango SRT Hellcat is scheduled to be built exclusively for the 2021 model year.' Return: Dodge's 2023 Durango specification sheet lists the SRT Hellcat (dodge-durango-2023-specs). Motor Authority (Viknesh Vijayenthiran, 6 Sep 2023): it 'went away after one year. But due to popular demand, Dodge revived it for the 2023 model year' (motorauthority-durango-hellcat-2024). ClubAlfa (2 June 2025) reports Dodge confirming 'the return of the Durango SRT HELLCAT for another year' (clubalfa-durango-hellcat-2026); AutoGuide (Michael Accardi, 2 June 2025) on the 2026 model (autoguide-durango-hellcat-2026); Edmunds lists a 2026 SRT Hellcat (edmunds-durango-hellcat-2026). endYear null: still on sale. (Sources as opened on 2026-10-03 for the earlier draft.)"
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "dodge-durango-2021-specs",
+    "note": "'Four-door sport-utility vehicle', three rows."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-durango-2021-specs",
+      "note": "'SUPERCHARGED 6.2-LITER HEMI HELLCAT V-8'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "dodge-durango-2021-specs",
+      "note": "6,166 cc: '376 cu. in. (6,166 cu. cm.)'"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "dodge-durango-2021-specs",
+      "note": "'SUPERCHARGED 6.2-LITER HEMI HELLCAT V-8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-durango-2021-specs"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "dodge-durango-2021-specs",
+    "note": "Transfer case MP3010, 'Single-speed, electronic proportioning', 'Full-time AWD'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "dodge-durango-2021-specs",
+    "note": "'8HP95 TORQUEFLITE AUTOMATIC, EIGHT-SPEED OVERDRIVE', the only transmission."
+  },
+  "powerHp": {
+    "value": 710,
+    "sourceId": "dodge-durango-2021-specs",
+    "note": "Quote (Dodge 2021 specification sheet): \"Power 710 bhp (529 kW) @ 6,100 rpm\". The 2023 sheet: \"Power (est.) (SAE J2723) 710 hp (529 kW) @ 6,100 rpm\" (dodge-durango-2023-specs). Edmunds 2023 and 2026 SRT Hellcat: \"Horsepower | 710 hp @ 6,100 rpm\". The rating is unchanged across the run. Dodge's 2023 sheet also labels power \"(est.)\": \"Power (est.) (SAE J2723) 710 hp (529 kW) @ 6,100 rpm\"."
+  },
+  "weightLb": {
+    "value": 5575,
+    "sourceId": "dodge-durango-2023-specs",
+    "note": "PROVISIONAL (manufacturer estimate plus database). 2023 SRT Hellcat (AWD, the only configuration). Quote (Dodge 2023 specification sheet, table headed \"WEIGHTS (ESTIMATES)\"): \"SRT Hellcat | 6.2-liter | 7,100 (3,221) | 5,575 (2,529) | 1,590 (721)\" (GVWR, curb weight lb (kg), payload). Edmunds agrees for 2023 (\"Curb Weight | 5,575 lbs.\", edmunds-durango-hellcat-2023) and 2026 (\"Curb weight | 5,575 lbs.\", edmunds-durango-hellcat-2026). Dodge's 2021 sheet, also headed \"WEIGHTS (Estimates)\", gave 5,710 lb (dodge-durango-2021-specs); there was no 2022 model."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-durango-2021-specs",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge) (spec sheet served from media.stellantisnorthamerica.com)",
+      "title": "2021 Dodge Durango / Durango SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2021_DG_Durango_DurangoSRT_SP.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "dodge-durango-2023-specs",
+      "type": "manufacturer",
+      "publisher": "Stellantis (Dodge) (spec sheet served from media.stellantisnorthamerica.com)",
+      "title": "2023 Dodge Durango / Durango SRT Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/specs/2023_DG_Durango_DurangoSRT_SP.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "dodge-durango-2021-pricing",
+      "type": "manufacturer",
+      "publisher": "FCA US (Dodge) (media.stellantisnorthamerica.com)",
+      "title": "Dodge Announces Pricing for New 2021 Durango Lineup, Including the 710-horsepower Durango SRT Hellcat – The Most Powerful SUV Ever",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=22047",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "motorauthority-durango-hellcat-2024",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "710-hp Dodge Durango SRT Hellcat returns for one more year",
+      "url": "https://motorauthority.com/news/1140725_2024-dodge-durango-srt-hellcat-revealed",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "clubalfa-durango-hellcat-2026",
+      "type": "publication",
+      "publisher": "ClubAlfa.it",
+      "title": "2026 Dodge Durango SRT HELLCAT announced after \"final\" 2025 Last Call Edition",
+      "url": "https://www.clubalfa.it/en/2026-dodge-durango-srt-hellcat-announced-after-final-2025-last-call-edition-20425",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "autoguide-durango-hellcat-2026",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "Dodge Keeps The Hellcat Alive With 2026 Durango",
+      "url": "https://www.autoguide.com/auto/manufacturers/dodge/dodge-keeps-the-hellcat-alive-with-2026-durango-44620873",
+      "accessed": "2026-10-03"
+    },
+    {
+      "id": "edmunds-durango-hellcat-2023",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2023 Dodge Durango SRT Hellcat Specs & Features",
+      "url": "https://www.edmunds.com/dodge/durango/2023/srt-hellcat/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-durango-hellcat-2026",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2026 Dodge Durango SRT Hellcat Specs & Features",
+      "url": "https://www.edmunds.com/dodge/durango/2026/srt-hellcat/st-402086703/features-specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 5575,
+          "sourceId": "dodge-durango-2023-specs"
+        },
+        {
+          "value": 5710,
+          "sourceId": "dodge-durango-2021-specs"
+        }
+      ],
+      "reason": "Model year. Dodge's 2021 sheet gives 5,710 lb and its 2023 sheet 5,575 lb (same GVWR and payload, 7,100 and 1,590 lb); both are under a 'WEIGHTS (Estimates)' heading. Edmunds gives 5,575 lb for 2023 and 2026.",
+      "resolution": "Reference year 2023, the first year with the 5,575 lb figure that later years keep; both figures are estimates, so the weight is provisional."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (5,575 lb) rests on Dodge's 2023 specification sheet, whose weights are headed 'WEIGHTS (ESTIMATES)', and on Edmunds (database) for 2023 and 2026, which agree. A final (non-estimate) Dodge curb weight for a 2023 or later Durango SRT Hellcat, or a major magazine's specification panel, would replace it. Note that Dodge's 2021 estimate was 5,710 lb and there was no 2022 model."
+}

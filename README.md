@@ -5,7 +5,7 @@ exact car, and gets another specification after each wrong guess.
 
 ## Status
 
-The database is at 221 cars, 43 of them provisional (Unlimited only; see `docs/PROVISIONAL.md`). The game has a Daily puzzle and an Unlimited mode, a car search, a
+The database is at 305 cars, 67 of them provisional (Unlimited only; see `docs/PROVISIONAL.md`). The game has a Daily puzzle and an Unlimited mode, a car search, a
 guess comparison, and statistics and streaks kept on the player's device.
 
 ## Daily and Unlimited

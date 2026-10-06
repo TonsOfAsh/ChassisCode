@@ -1,0 +1,140 @@
+{
+  "id": "porsche-911-r-991-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "991.1",
+  "variant": "R",
+  "subVariant": null,
+  "displayName": "Porsche 911 R (991.1)",
+  "aliases": [
+    "991 R",
+    "911R",
+    "991.1 R",
+    "2016 911 R",
+    "Porsche 911 R"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2016
+    },
+    "sourceId": "kbb-911-2016-specs",
+    "note": "US model year 2016 only. KBB lists \"R Coupe 2D\" for 2016 (kbb-911-2016-specs) and no R trim for 2017 (kbb-911-2017-specs); KBB's news story (kbb-news-911-r-2016) calls it the 2016 Porsche 911 R with \"deliveries slated to begin in the U.S. by late summer\". Porsche: \"Porsche will be building a total of only 991 units of the 911 R\" (porsche-newsroom-911-r-geneva)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-911-2016-specs",
+    "note": "KBB: \"R Coupe 2D\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "porsche-geneva-2016-press-kit",
+      "note": "Technical data: \"Flat engine, 6 cylinders\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "porsche-geneva-2016-press-kit",
+      "note": "3,996 cc. Porsche AG Geneva 2016 press kit technical data: \"3,996 cm³\" displacement."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "porsche-newsroom-911-r-geneva",
+      "note": "\"four-litre, naturally aspirated flat engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "porsche-newsroom-911-r-geneva",
+    "note": "Petrol engine (NEDC consumption quoted in l/100 km); inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "porsche-newsroom-911-r-geneva",
+    "note": "Rear-engined, rear-wheel drive; inferred from the description (no all-wheel-drive system mentioned)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "porsche-geneva-2016-press-kit",
+    "note": "\"six-speed manual transmission\"; no PDK was offered."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "kbb-news-911-r-2016",
+    "note": "PROVISIONAL: US rating from a single named-author article, with an unsigned article and a database agreeing. Quote (KBB news, Matt DeLorenzo, 1 March 2016): \"the 3.8-liter boxer engine produces 500 horsepower\" (the article's \"3.8-liter\" is wrong: the engine is 3,996 cc, see displacement). The Detroit Bureau (no byline): \"500 horsepower 4.0-liter naturally aspirated flat-six engine\" (detroitbureau-911-r-2016); KBB specs (database): \"500 @ 8250 RPM\" (kbb-911-2016-specs). Porsche AG's release gives \"368 kW (500 hp ...)\" (porsche-newsroom-911-r-geneva), where \"hp\" means PS (500 PS = 493 hp), so it is not the US rating and is not used for the value."
+  },
+  "weightLb": {
+    "value": 3021,
+    "sourceId": "kbb-news-911-r-2016",
+    "note": "PROVISIONAL: a single named-author article for the US figure, with unsigned and database corroboration. Quote (KBB news, Matt DeLorenzo, 1 March 2016): \"tipping the scales at just 3,021 lbs\". The Detroit Bureau (no byline): \"curb weight of just 3,021 pounds\" (detroitbureau-911-r-2016); KBB specs (database): \"3021 pounds\" (kbb-911-2016-specs). Porsche AG's figure agrees: \"With its overall weight of 1,370 kilograms, the 911 R undercuts the 911 GT3 RS by 50 kilograms.\" (porsche-geneva-2016-press-kit; 1,370 kg = 3,020 lb), a European DIN figure. Coupe, 6-speed manual, the only configuration."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-newsroom-911-r-geneva",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (Porsche Newsroom)",
+      "title": "Porsche 911 R: successful model at the Geneva Motor Show",
+      "url": "https://newsroom.porsche.com/en/products/porsche-911-r-successful-model-motor-show-geneva-12325.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "porsche-geneva-2016-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (Porsche Newsroom)",
+      "title": "Geneva Motor Show 2016 press kit (PM_Genf_2016_EN4)",
+      "url": "https://download.newsroom.porsche.com/dam/jcr:d7dbd86f-9467-447f-a7f1-588cdd44fa13/PM_Genf_2016_EN4.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-news-911-r-2016",
+      "type": "publication",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 Porsche 911 R: limited numbers, race-ready (Matt DeLorenzo, 1 March 2016)",
+      "url": "https://www.kbb.com/car-news/2016-porsche-911-r-limited-numbers-race-ready/2100000375/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "detroitbureau-911-r-2016",
+      "type": "publication",
+      "publisher": "The Detroit Bureau",
+      "title": "2016 Porsche 911 R",
+      "url": "https://thedetroitbureau.com/?p=104318",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2016-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2016 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2016/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2017-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2017 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2017/specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power and weight are provisional. Power (500 hp, US) rests on one named-author article (KBB news, Matt DeLorenzo), with The Detroit Bureau (no byline) and KBB's spec table agreeing; Porsche AG's '500 hp' is a PS figure. Weight (3,021 lb) rests on the same KBB news article, corroborated by The Detroit Bureau and KBB's spec table, and consistent with Porsche AG's 1,370 kg. A Porsche Cars North America press release or spec sheet for the 2016 911 R, or a Car and Driver, Road & Track or MotorTrend spec panel, would replace both."
+}

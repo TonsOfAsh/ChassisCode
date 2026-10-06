@@ -1,0 +1,157 @@
+{
+  "id": "chevrolet-camaro-v6-6th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "6th gen",
+  "variant": "V6",
+  "subVariant": null,
+  "displayName": "Chevrolet Camaro V6 (6th gen)",
+  "aliases": [
+    "Camaro V6",
+    "6th gen Camaro V6",
+    "Camaro 3.6",
+    "Camaro LT V6",
+    "LGX",
+    "2016 Camaro V6"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2024
+    },
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "US model years 2016-2024. Start: Chevrolet's September 2015 release gives the 2016 Camaro's \"3.6L V-6\" figures. End: GM Authority's 2024 page lists the 3.6L LGX V-6 on the LT trim for 2024 and states \"The 2024 Camaro is the last production year for the internal combustion powered model.\" (source gmauthority-camaro-2024)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2017",
+    "note": "The 2017 brochure lists 3.6L V6 curb weights for coupe and convertible; GM Authority 2024: V6 in both coupe and convertible (source gmauthority-camaro-2024)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "chevrolet-camaro-performance-release-2015",
+      "note": "LGX. \"3.6L V-6\"."
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "chevrolet-camaro-performance-release-2015",
+      "note": "Chevrolet states \"3.6L\". No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gmauthority-camaro-2024-specs",
+      "note": "\"Type: 3.6L V-6 DOHC VVT DI\", \"RPO Code: LGX\" with no forced induction listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-camaro-brochure-2017"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gmauthority-camaro-2024",
+    "note": "GM Authority: \"Drive Wheels | rear-Wheel-Drive\" (Alpha platform, all sixth-generation Camaros)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic",
+      "10-speed Automatic"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2017",
+    "note": "2017 brochure: 3.6L V6 with 6-speed manual or 8-speed automatic; GM Authority 2020: 6-speed manual or 8-speed automatic (source gmauthority-camaro-2020). GM Authority 2024: \"6-Speed Manual\" or \"10-Speed Automatic\" (source gmauthority-camaro-2024). The year the 10-speed replaced the 8-speed on the V6 was not confirmed."
+  },
+  "powerHp": {
+    "value": 335,
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "Quote, Chevrolet's release of September 14, 2015, table row \"2016 Camaro\", 3.6L V-6 column: \"335 hp / 284 lb-ft, 3,435 lbs (auto), 10.3 lbs/hp\". 2017 brochure: \"335 hp @ 6800 rpm\" (source chevrolet-camaro-brochure-2017). Unchanged to the end: GM Authority 2024 \"335 / 250 @ 6800\" (source gmauthority-camaro-2024-specs)."
+  },
+  "weightLb": {
+    "value": 3448,
+    "sourceId": "chevrolet-camaro-brochure-2017",
+    "note": "Manufacturer curb weight, 2017 3.6L V6 coupe with the 6-speed manual. Quote (2017 brochure): \"3,448 lbs. (manual Coupe)\"; automatic coupe \"3,435 lbs. (automatic Coupe, LT only)\"; convertible \"3,715 lbs.\" (manual) and \"3,709 lbs.\" (automatic); the 1LE is \"3,490 lbs.\" The 2018 brochure prints the same figures (source chevrolet-camaro-brochure-2018). Chevrolet's 2016 release gives only the automatic coupe, 3,435 lb, matching the brochure; the 2016 brochure could not be opened (HTTP 429), so 2017 is the reference year. See discrepancies for GM Authority's 2024 figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-camaro-performance-release-2015",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced in full by GM-EFI, marked \"Official Release\")",
+      "title": "Chevrolet Announces Performance Figures for 2016 Camaro (September 14, 2015)",
+      "url": "https://gm-efi.com/chevrolet-announces-performance-figures-for-2016-camaro/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2017",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (brochure hosted by auto-brochures.com)",
+      "title": "2017 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2017.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2018",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (brochure hosted by auto-brochures.com)",
+      "title": "2018 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2018.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmauthority-camaro-2024",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmauthority-camaro-2024-specs",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro Specifications",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/2024-chevrolet-camaro-specifications/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmauthority-camaro-2020",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2020 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2020-chevrolet-camaro/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3448,
+          "sourceId": "chevrolet-camaro-brochure-2017"
+        },
+        {
+          "value": 3411,
+          "sourceId": "gmauthority-camaro-2024-specs"
+        }
+      ],
+      "reason": "Model year: 3,448 lb is Chevrolet's 2017 (and 2018) brochure figure for the V6 manual coupe; 3,411 lb is GM Authority's 2024 specification table, \"LT Coupe | 3411 / 1547 | 3418 / 1550\" (manual | auto), for the 2024 LT coupe, which by then had only the V6.",
+      "resolution": "Used Chevrolet's 2017 figure for the stated reference year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

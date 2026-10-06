@@ -1,0 +1,116 @@
+{
+  "id": "pagani-zonda-f",
+  "manufacturer": "Pagani",
+  "model": "Zonda",
+  "generation": null,
+  "variant": "F",
+  "subVariant": null,
+  "displayName": "Pagani Zonda F",
+  "aliases": [
+    "Zonda F",
+    "Zonda F Coupe",
+    "Zonda C12 F",
+    "C12 F",
+    "7.3 V12"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2011
+    },
+    "sourceId": "evo-zonda-f",
+    "note": "Calendar years. Start: Evo (Jethro Bovingdon, 2 Dec 2022): \"The Zonda F was launched in 2005, at Geneva once again\"; the car tested was \"1 of 25\" coupes. End year PROVISIONAL: Supercar Nostalgia (supercarnostalgia-zonda-f, an enthusiast site): \"Zonda F production ended in 2011 following the completion of 25 Coupes and 25 Roadsters.\" That end year covers the Roadster F as well; when the last coupe was built was not found. The Roadster F is a separate model; the Clubsport (650 CV) is a higher-output version."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-zonda-f",
+    "note": "Coupe; the Zonda Roadster F is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "pagani-zonda-f",
+      "note": "\"Mercedes-Benz AMG 12 cylinder V 60°; 48 valves; displacement 7291 cc\""
+    },
+    "displacementL": {
+      "value": 7.3,
+      "sourceId": "pagani-zonda-f",
+      "note": "7,291 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pagani-zonda-f",
+      "note": "No forced induction listed for the AMG V12."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pagani-zonda-f"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pagani-zonda-f",
+    "note": "\"Longitudinal mid engine; rear wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "pagani-zonda-f",
+    "note": "\"Mechanical 6 speed (+ reverse)\"; Evo: \"The only transmission available was a Cima six-speed manual.\""
+  },
+  "powerHp": {
+    "value": 594,
+    "sourceId": "pagani-zonda-f",
+    "note": "Pagani's rating is metric: 443 kW x 1.34102 = 594 hp (602 CV x 0.98632 = 594 hp). Quote (pagani.com, kW (hp)/rpm column): \"(443) 602/6150\". Evo's spec panel (evo-zonda-f): \"Power | 594bhp @ 6150rpm\". The Clubsport version is listed at \"(478) 650/6200\" and is not this record."
+  },
+  "weightLb": {
+    "value": 2712,
+    "sourceId": "pagani-zonda-f",
+    "note": "DRY weight (step 4), for a car with carbon-ceramic brakes and without the Comfort Pack: 1,230 kg x 2.20462 = 2,712 lb. Quote (pagani.com): \"1230 kg (without Comfort Pack and with CCM brakes)\". Evo's spec panel: \"Weight (dry) | 1230kg\". No curb weight was found (steps 1 to 3). Pagani's qualification suggests the CCM brakes were an option, so the figure is labelled lightweight-options; a standard car would be somewhat heavier."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2005,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "pagani-zonda-f",
+      "type": "manufacturer",
+      "publisher": "Pagani Automobili",
+      "title": "Zonda F",
+      "url": "https://www.pagani.com/zonda-f/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-zonda-f",
+      "type": "publication",
+      "publisher": "Evo (Jethro Bovingdon)",
+      "title": "Pagani Zonda F review - revisiting an analogue icon",
+      "url": "https://www.evo.co.uk/pagani/zonda/205478/pagani-zonda-f-review-revisiting-an-analogue-icon",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercarnostalgia-zonda-f",
+      "type": "enthusiast",
+      "publisher": "Supercar Nostalgia",
+      "title": "Pagani Zonda C12 F 7.3 Guide",
+      "url": "https://supercarnostalgia.com/blog/pagani-zonda-f",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Production end year (2011) is provisional: it rests on an enthusiast site (Supercar Nostalgia) and covers the Zonda F coupe and Roadster F together. A Pagani or major-magazine statement of when the last Zonda F coupe was built would replace it. Power (594 hp) and dry weight (2,712 lb) are from Pagani, confirmed by Evo's spec panel."
+}

@@ -19,6 +19,11 @@ hot hatches, muscle cars, supercars, hypercars, track-focused road cars, importa
 enthusiast cars, and performance SUVs, pickups and EVs with a dedicated high-performance version
 (Raptor, TRX, Trackhawk, Urus, Model S Plaid; added 3 October 2026).
 
+Added 5 October 2026 (the goal is nearly every performance car): the base versions of sports-car
+models (Mustang EcoBoost and V6, Camaro four-cylinder and V6, Audi TT), sporty "M lite" and
+similar models (BMW M340i, M240i), grand tourers, classic sports cars and hypercars from small
+makers (Koenigsegg, Pagani, Hennessey, Rimac). Cars never sold in the US use their home market.
+
 Exclude race-only cars, concepts, prototypes, one-offs, commercial vehicles, and ordinary commuter
 or family cars.
 
@@ -172,6 +177,13 @@ Steps 3 and 4 were adopted on 2 October 2026 so that exotic cars can enter the g
 need `needsReview` on their own account. Never skip a step: an optioned or dry figure is used only
 when no figure from an earlier step was found. When two sources at the same step disagree, record
 a discrepancy.
+
+**Unlabelled weights.** A specification panel or manufacturer table that prints a plain "Weight"
+(Evo, Top Gear, Aston Martin, Rimac) is read as a kerb weight when the same publisher marks dry
+figures as dry (Evo prints "1772kg (dry)"); say so in the note. A figure the source itself calls
+dry, or one that matches the maker's dry weight, is a dry weight. Manufacturer "unladen" (BMW)
+counts as curb; "homologated" weight is used only with a review flag, since it may include a
+driver. Adopted 5 October 2026.
 
 **Weight labels.** When the weight is not a final figure for the standard car, set
 `specBasis.weightQualifier`:

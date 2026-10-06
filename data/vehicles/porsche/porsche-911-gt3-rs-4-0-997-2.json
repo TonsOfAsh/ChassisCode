@@ -1,0 +1,138 @@
+{
+  "id": "porsche-911-gt3-rs-4-0-997-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "997.2",
+  "variant": "GT3 RS 4.0",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 RS 4.0 (997.2)",
+  "aliases": [
+    "997 GT3 RS 4.0",
+    "GT3 RS 4.0",
+    "RS 4.0",
+    "997.2 GT3 RS 4.0",
+    "2011 GT3 RS 4.0"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2012
+    },
+    "sourceId": "kbb-911-2012-specs",
+    "note": "US model years. Porsche's release (aa-2011-911-gt3-rs-4-0) says it \"goes on sale in the United States in late 2011\"; KBB lists a \"GT3 RS 4.0 Coupe 2D\" for 2011 (kbb-911-2011-specs) and a \"2012 Porsche 911 GT3 RS 4.0 Coupe 2D\" (kbb-911-2012-specs; database). Porsche's classic page dates it \"911 GT3 RS 4.0 (2012)\" (porsche-classic-997-gt3). Limited to 600 units worldwide. The 2012 end year rests on KBB's 2012 listing (database) and Porsche's classic-page heading \"911 GT3 RS 4.0 (2012)\"; no Porsche US page for model year 2012 was found."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-911-2011-specs",
+    "note": "KBB: \"GT3 RS 4.0 Coupe 2D\"; Porsche calls it a two-seater."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "aa-2011-911-gt3-rs-4-0",
+      "note": "\"naturally aspirated Porsche flat-six engine\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "supercars-911-gt3-rs-4-0",
+      "note": "3,996 cc. Supercars.net: \"displacement | 3996 cc / 243.85 in³\". Porsche: \"4.0-liter engine\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "aa-2011-911-gt3-rs-4-0",
+      "note": "\"naturally aspirated Porsche flat-six engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "aa-2011-911-gt3-rs-4-0",
+    "note": "Petrol flat-six; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "supercars-911-gt3-rs-4-0",
+    "note": "Supercars.net spec table: \"RWD\", engine position \"Rear, Longitudinal\". Automotive Addicts' introduction (aa-2011-911-gt3-rs-4-0): \"a 6-speed manual transmission will be the only choice to direct power to the rear wheels.\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "aa-2011-911-gt3-rs-4-0",
+    "note": "\"Available exclusively with a six-speed manual transmission\""
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "aa-2011-911-gt3-rs-4-0",
+    "note": "Porsche Cars North America release (Atlanta, 28 April 2011, reproduced by Automotive Addicts, \"[source: Porsche]\"). Quote: \"It achieves its maximum power of 500 hp at 8,250 rpm.\" Porsche's classic page: \"368 kW (500 PS)\" (porsche-classic-997-gt3). Porsche's US arm published 500 hp, used as published. KBB: \"500 @ 8250 RPM\"."
+  },
+  "weightLb": {
+    "value": 2998,
+    "sourceId": "aa-2011-911-gt3-rs-4-0",
+    "note": "Standard car: the lightweight parts are standard equipment (coupe, 6-speed manual, the only configuration). Quote: \"Equipped as standard with lightweight components such as light but strong carbon fiber sport bucket seats, carbon fiber front fenders and luggage compartment lid, and weight-optimized carpets, the two-seater's ready-for-action weight is just 2,998 lbs with a full fuel tank.\" KBB: \"2998 pounds\" (kbb-911-2011-specs). Stuttcars quotes Porsche AG's \"1,360 kilograms with a full tank of fuel\" (stuttcars-911-gt3-rs-4-0)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "aa-2011-911-gt3-rs-4-0",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (reproduced by Automotive Addicts, \"[source: Porsche]\")",
+      "title": "2011 Porsche 911 GT3 RS 4.0 details & images officially revealed",
+      "url": "https://www.automotiveaddicts.com/19467/2011-porsche-911-gt3-rs-4-0-details-images-officially-revealed",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "porsche-classic-997-gt3",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Porsche 911 GT3 (type 997)",
+      "url": "https://www.porsche.com/usa/accessoriesandservices/classic/models/997/997-gt3/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-911-gt3-rs-4-0",
+      "type": "publication",
+      "publisher": "Supercars.net",
+      "title": "Porsche 911 GT3 RS 4.0",
+      "url": "https://www.supercars.net/blog/2011-porsche-911-gt3-rs-4-0",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "stuttcars-911-gt3-rs-4-0",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 GT3 RS 4.0 (997) (2011) (Nicolaos Dellis)",
+      "url": "https://www.stuttcars.com/porsche-911-gt3-rs-4-0-997-2011/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2011-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2011 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2011/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2012-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2012/specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

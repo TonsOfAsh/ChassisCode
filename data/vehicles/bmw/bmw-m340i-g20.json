@@ -1,0 +1,124 @@
+{
+  "id": "bmw-m340i-g20",
+  "manufacturer": "BMW",
+  "model": "M340i",
+  "generation": "G20",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M340i (G20)",
+  "aliases": [
+    "M340",
+    "G20 M340i",
+    "M340i G20",
+    "M340i Sedan",
+    "B58",
+    "Steptronic",
+    "2020 M340i"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "sourceId": "bmw-us-2020-m340i-release",
+    "note": "US model years. First: BMW NA, 'The All-New 2020 BMW M340i and M340i xDrive Sedans', summer 2019 market launch. Still on sale: Edmunds' 2026 M340i page: \"the M340i delivers ... (386 hp, 398 lb-ft) ... standard rear-wheel drive. All-wheel drive (xDrive) is optional\" (edmunds-2026-m340i)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2020-m340i-techdata",
+    "note": "2020 BMW 3 Series sedan. The xDrive car, sold as the M340i xDrive, is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2020-m340i-release",
+      "note": "'3.0-liter inline-six' (B58)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2020-m340i-techdata",
+      "note": "2,998 cc ('Displacement cm³ 2,998')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "bmw-us-2020-m340i-release",
+      "note": "'M TwinPower Turbo technology' with a 'single, Twin-scroll turbocharger'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2020-m340i-release",
+    "note": "Edmunds describes the 2026 car's '48-volt mild hybrid system' (edmunds-2026-m340i); a 48V mild hybrid counts as Gasoline."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2020-m340i-techdata",
+    "note": "Quote: \"Drive type -- RWD AWD\" (M340i, M340i xDrive)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2020-m340i-release",
+    "note": "'8-speed Sport Steptronic transmission' (ZF 8HP); no manual."
+  },
+  "powerHp": {
+    "value": 382,
+    "sourceId": "bmw-us-2020-m340i-techdata",
+    "note": "Quote: \"Engine power hp 382 382\" (M340i, M340i xDrive); release: \"382 hp and peak torque of 369 lb-ft\". Raised to 386 hp for the 2025 update: The Drive (Chris Tsui, 28 May 2024): \"The straight-six M340i gets mild power and torque bumps, now making 386 horsepower and 398 lb-ft of torque, up 4 hp and 29 lb-ft\" (thedrive-2025-3-series). 382 hp covers 2020 to 2024, most of the run so far."
+  },
+  "weightLb": {
+    "value": 3849,
+    "sourceId": "bmw-us-2020-m340i-techdata",
+    "note": "RWD sedan with the 8-speed automatic (the only transmission), 2020 model. Quote: \"Curb weight lbs. 3,849 3,968\" (M340i, M340i xDrive)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2020-m340i-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW U.S. Press Information: Technical Data, 2020 BMW M340i and M340i xDrive Sedans",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0286917EN_US/439806",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bmw-us-2020-m340i-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The All-New 2020 BMW M340i and M340i xDrive Sedans",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0286917EN_US/the-all-new-2020-bmw-m340i-and-m340i-xdrive-sedans?language=en_US",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "thedrive-2025-3-series",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2025 BMW 3 Series Refresh Gives M3 and M340i a Power Boost (Chris Tsui)",
+      "url": "https://www.thedrive.com/news/2025-bmw-3-series-brings-more-power-to-m3-and-m340i",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-2026-m340i",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2026 BMW 3 Series M340i",
+      "url": "https://www.edmunds.com/bmw/3-series/2026/m340i/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

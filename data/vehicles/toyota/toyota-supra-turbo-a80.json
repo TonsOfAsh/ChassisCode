@@ -2,17 +2,20 @@
   "id": "toyota-supra-turbo-a80",
   "manufacturer": "Toyota",
   "model": "Supra",
-  "generation": "A80",
+  "generation": "A80 Mk4",
   "variant": "Turbo",
   "subVariant": null,
-  "displayName": "Toyota Supra Turbo (A80)",
+  "displayName": "Toyota Supra Turbo (A80 Mk4)",
   "aliases": [
     "Mk4 Supra",
     "MkIV Supra",
     "2JZ",
     "2JZ-GTE",
     "A80 Supra",
-    "Supra Twin Turbo"
+    "Supra Twin Turbo",
+    "Supra Mk4",
+    "A80 Mk4",
+    "A80"
   ],
   "country": "Japan",
   "production": {

@@ -1,0 +1,138 @@
+{
+  "id": "audi-tt-8s",
+  "manufacturer": "Audi",
+  "model": "TT",
+  "generation": "8S",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi TT (8S)",
+  "aliases": [
+    "TT Coupe",
+    "8S TT",
+    "TT 8S",
+    "Mk3 TT",
+    "TT 2.0 TFSI",
+    "TT 2.0T",
+    "TT quattro",
+    "S tronic",
+    "quattro",
+    "2016 TT",
+    "2019 TT",
+    "2023 TT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2023
+    },
+    "sourceId": "audi-us-2016-tt-brochure",
+    "note": "US model years. First: Audi of America's 2016 TT brochure (the first 8S model year in the US). Last: Audi of America, 2 November 2023: \"The Audi TT closes production after the 2023 model, ending a chapter of iconic design for the brand\" (audi-us-tt-final-edition-2023)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-us-2019-tt-brochure",
+    "note": "TT Coupe. Audi also sold the open TT Roadster in the US (a separate column in the same tables, 3,395 lb in 2019); Audi markets it under its own name with its own model page (media.audiusa.com/models/tt-roadster), so it is left out of this record. TTS and TT RS are separate variants."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "audi-us-2019-tt-brochure",
+      "note": "'2.0-liter four-cylinder'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "audi-us-2019-tt-brochure",
+      "note": "1,984 cc ('1,984/82.5 x 92.8')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "audi-us-2021-tt-techspecs",
+      "note": "2.0 TFSI: a single turbocharger with direct injection."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2021-tt-techspecs",
+    "note": "TFSI petrol engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2019-tt-brochure",
+    "note": "'quattro® all-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed DCT",
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-us-2019-tt-brochure",
+    "note": "2019 on: 'Seven-speed S tronic® dual-clutch automatic transmission and quattro® all-wheel drive'. 2016 to 2018: 'Six-speed S tronic® dual-clutch transmission with quattro® all-wheel drive' (audi-us-2016-tt-brochure, audi-us-2018-tt-press-kit). S tronic is a DCT. No manual in the US."
+  },
+  "powerHp": {
+    "value": 228,
+    "sourceId": "audi-us-2019-tt-brochure",
+    "note": "Quote: \"Horsepower (@ rpm) 228 @ 5,000–6,700 228 @ 5,000–6,700 288 @ 5,400–6,200\" (TT Coupe, TT Roadster, TTS). 2016 to 2018 the TT was rated 220 hp: \"220 @ 4,500–6,200\" (audi-us-2016-tt-brochure; 2018 press kit \"220 @ 4,500-6,200 (162 kW)\", audi-us-2018-tt-press-kit). 228 hp covers 2019 to 2023 (five of eight model years), so the reference year is 2019; Audi's 2021 sheet and the 2023 Final Edition release also give 228 hp (audi-us-2021-tt-techspecs, audi-us-tt-final-edition-2023)."
+  },
+  "weightLb": {
+    "value": 3208,
+    "sourceId": "audi-us-2019-tt-brochure",
+    "note": "TT Coupe, 7-speed S tronic (the only transmission), 2019 model. Quote: \"Curb weight (lb) 3,208 3,395 3,263\" (TT Coupe, TT Roadster, TTS). Other Audi of America figures for the coupe: 3,186 lb (2016 brochure), 3,164 lb (2018 press kit), 3,197 lb (2021 sheet: 'Curb Weight (lbs) 3,197')."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2019-tt-brochure",
+      "type": "manufacturer",
+      "publisher": "Audi of America (brochure hosted by auto-brochures.com)",
+      "title": "2019 Audi TT US brochure",
+      "url": "https://www.auto-brochures.com/makes/Audi/TT/Audi_US%20TT_2019.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "audi-us-2016-tt-brochure",
+      "type": "manufacturer",
+      "publisher": "Audi of America (brochure hosted by auto-brochures.com)",
+      "title": "2016 Audi TT US brochure",
+      "url": "https://www.auto-brochures.com/makes/Audi/TT/Audi_US%20TT_2016.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "audi-us-2018-tt-press-kit",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "2018 Audi TT / TTS / TT RS press kit (revised July 2017)",
+      "url": "https://media.audiusa.com/assets/documents/original/3098-2018+Audi+TT+Press+kit.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "audi-us-2021-tt-techspecs",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "2021 Audi TT Model Line Technical Specifications",
+      "url": "https://media.audiusa.com/assets/documents/original/8253-FINAL2021TTTechSpecs.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "audi-us-tt-final-edition-2023",
+      "type": "manufacturer",
+      "publisher": "Audi of America",
+      "title": "Audi TT Roadster Final edition celebrates a legacy of the original Audi design icon",
+      "url": "https://media.audiusa.com/view/releases/588",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

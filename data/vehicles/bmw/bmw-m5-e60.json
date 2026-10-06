@@ -1,0 +1,125 @@
+{
+  "id": "bmw-m5-e60",
+  "manufacturer": "BMW",
+  "model": "M5",
+  "generation": "E60",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M5 (E60)",
+  "aliases": [
+    "E60 M5",
+    "M5 E60",
+    "S85",
+    "V10 M5",
+    "SMG",
+    "SMG III",
+    "M5 Sedan",
+    "2006 M5"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2010
+    },
+    "sourceId": "edmunds-2006-m5",
+    "note": "US model years. First: Edmunds, 2006 M5 review: \"The high-performance M5 returns to the BMW lineup for 2006, this time packing a 500-horsepower V10 engine.\" Last: Edmunds reviews the 2010 M5 (edmunds-2010-m5), and J.D. Power's M5 model-year list (a database) goes from 2010 to 2013 (the next generation), with no 2011 or 2012 (jdpower-m5-history). No opened page states in so many words that 2010 was the last E60 model year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2009-m5-m6-brochure",
+    "note": "'M5 Sedan'. The E61 M5 Touring was not sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "bmw-us-2009-m5-m6-brochure",
+      "note": "'5.0/V-10/4' (litres/cylinders/valves per cylinder)"
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "bmw-us-2009-m5-m6-brochure",
+      "note": "4,999 cc ('4999' cu cm)"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "edmunds-2010-m5",
+      "note": "'the 5.0-liter V10 pumps out a maximum 500 hp at 7,750 rpm'; no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2009-m5-m6-brochure"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-2010-m5",
+    "note": "Rear-wheel drive; no xDrive M5 in this generation."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "edmunds-2010-m5",
+    "note": "\"The standard transmission is the seven-speed sequential manual gearbox (SMG) ... A conventional six-speed manual transmission is a no-cost option.\" For 2006 Edmunds mentions only the SMG (edmunds-2006-m5). SMG is an automated manual."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "bmw-us-2009-m5-m6-brochure",
+    "note": "Quote: \"Nominal output @ rpm hp 500 @ 7750 500 @ 7750 500 @ 7750\" (M5 Sedan, M6 Coupe, M6 Convertible). Same rating for 2006: \"500 horsepower at 7,750 rpm\" (edmunds-2006-m5)."
+  },
+  "weightLb": {
+    "value": 4012,
+    "sourceId": "bmw-us-2009-m5-m6-brochure",
+    "note": "Quote: \"Weight M5 Sedan M6 Coupe M6 Convertible / Unladen lb 4012 3909 4398\". BMW NA's 2009 US brochure gives one figure, not split by transmission (standard SMG; the 6-speed manual is a no-cost option). Reference year is 2009 because this is the earliest BMW NA weight that could be opened: the 2006 brochure (autocatalogarchive.com) returned 403 and the 2008 brochure returned 429."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2009,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2009-m5-m6-brochure",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (brochure hosted by auto-brochures.com)",
+      "title": "2009 BMW M5 / M6 US brochure",
+      "url": "https://www.auto-brochures.com/makes/BMW/5%20Series/BMW_US%20M5_2009.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-2006-m5",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2006 BMW M5 review",
+      "url": "https://www.edmunds.com/bmw/m5/2006/review/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-2010-m5",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2010 BMW M5 review",
+      "url": "https://www.edmunds.com/bmw/m5/2010/review/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "jdpower-m5-history",
+      "type": "database",
+      "publisher": "J.D. Power",
+      "title": "BMW M5 model years",
+      "url": "https://www.jdpower.com/cars/history/bmw/m5",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,142 @@
+{
+  "id": "chevrolet-camaro-2-0t-6th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "6th gen",
+  "variant": "2.0T",
+  "subVariant": null,
+  "displayName": "Chevrolet Camaro 2.0T (6th gen)",
+  "aliases": [
+    "Camaro 2.0T",
+    "Camaro Turbo",
+    "Camaro 1LT",
+    "Camaro 2LT",
+    "Camaro 1LS",
+    "Camaro four-cylinder",
+    "LTG",
+    "2016 Camaro 2.0T"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2023
+    },
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "US model years 2016-2023. Start: Chevrolet's September 2015 release gives the 2016 Camaro's \"2.0L Turbo\" figures. End: GM Authority's 2024 Camaro page records the \"deletion of the turbocharged 2.0L LTG engine\" for 2024 (source gmauthority-camaro-2024). GM Authority's 2020 page lists the LTG on the LS and LT trims (source gmauthority-camaro-2020)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2017",
+    "note": "The 2017 brochure lists 2.0L Turbo curb weights for both coupe and convertible."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "gmauthority-camaro-2020",
+      "note": "LTG. GM Authority: \"2.0L Turbocharged I-4 (LTG)\"; Motor Authority: \"the 2.0-liter turbo four\" (source motorauthority-camaro-2016-specs)."
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "chevrolet-camaro-performance-release-2015",
+      "note": "Chevrolet states \"2.0L\". No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "chevrolet-camaro-brochure-2017",
+      "note": "\"2.0L Turbo\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-camaro-brochure-2017"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gmauthority-camaro-2024",
+    "note": "GM Authority: \"Like all sixth-generation units of the Chevrolet Camaro, the 2024 Camaro rides on GM's Alpha platform\" with \"Drive Wheels | rear-Wheel-Drive\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "chevrolet-camaro-brochure-2017",
+    "note": "2017 brochure: 2.0L Turbo with 6-speed manual or 8-speed automatic. The 2016 release lists 0-60 times for both \"(man.)\" and \"(auto.)\" (source chevrolet-camaro-performance-release-2015); GM Authority 2020: 6-speed manual or 8-speed automatic (source gmauthority-camaro-2020)."
+  },
+  "powerHp": {
+    "value": 275,
+    "sourceId": "chevrolet-camaro-performance-release-2015",
+    "note": "Quote, Chevrolet's release of September 14, 2015, table row \"2016 Camaro\", 2.0L Turbo column: \"275 hp / 295 lb-ft, 3,339 lbs (auto), 12.1 lbs/hp\". 2017 brochure: \"275 hp @ 5500 rpm\" (source chevrolet-camaro-brochure-2017). Unchanged through 2020 at least: GM Authority \"275 / 205 @ 5600 rpm\" (source gmauthority-camaro-2020; the rpm differs from the brochure's 5500)."
+  },
+  "weightLb": {
+    "value": 3354,
+    "sourceId": "chevrolet-camaro-brochure-2017",
+    "note": "Manufacturer curb weight, 2017 2.0L Turbo coupe with the 6-speed manual. Quote (2017 brochure): \"3,354 lbs. (manual Coupe)\"; automatic coupe \"3,339 lbs. (automatic Coupe, LT only)\"; convertible \"3,647 lbs.\" (manual) and \"3,627 lbs.\" (automatic). The 2018 brochure prints the same figures (source chevrolet-camaro-brochure-2018). Chevrolet's 2016 release gives only the automatic coupe, 3,339 lb, matching the brochure; the 2016 brochure could not be opened (HTTP 429), so 2017 is the first year with a manual figure and is the reference year. The brochure was read through the summarising fetch tool, which reproduced 3,354 four times across the two brochures."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-camaro-performance-release-2015",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (press release reproduced in full by GM-EFI, marked \"Official Release\")",
+      "title": "Chevrolet Announces Performance Figures for 2016 Camaro (September 14, 2015)",
+      "url": "https://gm-efi.com/chevrolet-announces-performance-figures-for-2016-camaro/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2017",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (brochure hosted by auto-brochures.com)",
+      "title": "2017 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2017.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "chevrolet-camaro-brochure-2018",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (brochure hosted by auto-brochures.com)",
+      "title": "2018 Chevrolet Camaro brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2018.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmauthority-camaro-2024",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmauthority-camaro-2020",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2020 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2020-chevrolet-camaro/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-camaro-2016-specs",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2016 Chevrolet Camaro Performance Specs Confirmed, by Viknesh Vijayenthiran (September 14, 2015)",
+      "url": "https://www.motorauthority.com/news/1098440_2016-chevrolet-camaro-performance-spes-confirmed",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

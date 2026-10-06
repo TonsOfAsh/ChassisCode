@@ -1,0 +1,137 @@
+{
+  "id": "lamborghini-temerario",
+  "manufacturer": "Lamborghini",
+  "model": "Temerario",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Lamborghini Temerario",
+  "aliases": [
+    "L411",
+    "LB634",
+    "HPEV",
+    "2026 Temerario"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2026,
+      "endYear": null
+    },
+    "sourceId": "kbb-temerario",
+    "note": "US model years, from Kelley Blue Book (a database): its Temerario page shows only \"2026 Lamborghini Temerario\", and its 2025 address also shows the 2026 car (kbb-temerario-2025). Edmunds' first drive (edmunds-temerario-2026, Jonathan Elfalan, 25 July 2025) is of the \"2026 Lamborghini Temerario\". PistonHeads (pistonheads-temerario, 18 August 2024): \"first deliveries expected in 2025\". Still on sale."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-temerario",
+    "note": "Two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "evo-temerario",
+      "note": "Evo panel: \"Engine | V8, 3995cc, twin-turbo, plus three 110kW e-motors\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "lambo-temerario-page",
+      "note": "3,995.2 cc (\"3995.2 cm³ (243.8 cu in)\")"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pistonheads-temerario",
+      "note": "PistonHeads: \"all-new 3,995cc, twin-turbo, dry-sumped 'hot-V' V8 called L411\""
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "pistonheads-temerario",
+    "note": "PistonHeads: \"plug-in hybrid, four-wheel drive\"; \"3.8kWh battery pack\" with \"up to 7kW of charging rate possible\". Lamborghini's US page lists an EPA \"24 MPGe\" electricity+gasoline rating."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "pistonheads-temerario",
+    "note": "PistonHeads: \"plug-in hybrid, four-wheel drive\" with an \"e-4WD system including real torque vectoring\" (electric front axle)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "evo-temerario",
+    "note": "Evo: \"an eight-speed DCT gearbox shared with the Revuelto\"; PistonHeads: \"The eight-speed DCT for Temerario is new\"."
+  },
+  "powerHp": {
+    "value": 907,
+    "sourceId": "lambo-temerario-page",
+    "note": "Combined system output. Quote (Lamborghini model page): \"MAX POWER (COMBINED ICE+EE): 920 CV / 677kW\". 920 CV x 0.98632 = 907 hp. Evo panel (evo-temerario): \"Power | 907bhp (combined)\"; KBB: \"Horsepower-Combined | 907 @ 9000 RPM\"; Edmunds: \"a combined 907 hp\". No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3726,
+    "sourceId": "evo-temerario",
+    "note": "DRY weight (guide step 4). Quote (Evo spec panel, review by Richard Meaden and John Barker): \"Weight | 1690kg (dry) (545bhp/ton)\". 1,690 x 2.20462 = 3,726 lb. PistonHeads (pistonheads-temerario): \"Dry weight is claimed to be 1,690kg\". No curb weight for the standard car (steps 1 and 2) and no optioned-car curb weight (step 3) was found from Lamborghini or a major magazine; Lamborghini's model page gives no weight. No opened page says whether the dry figure assumes options (Edmunds describes an optional Alleggerita package)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-temerario-page",
+      "type": "manufacturer",
+      "publisher": "Automobili Lamborghini",
+      "title": "Temerario",
+      "url": "https://www.lamborghini.com/en-en/models/temerario",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-temerario",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lamborghini Temerario review – does the Ferrari 296 fighter deliver or disappoint?",
+      "url": "https://www.evo.co.uk/lamborghini/temerario",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "pistonheads-temerario",
+      "type": "publication",
+      "publisher": "PistonHeads",
+      "title": "All-new 920hp Lamborghini Temerario revealed",
+      "url": "https://www.pistonheads.com/news/ph-eurocars/all-new-920hp-lamborghini-temerario-revealed/48875",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-temerario-2026",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "The 2026 Lamborghini Temerario Is One of the Fastest, Friendliest Lambos You'll Ever Drive",
+      "url": "https://www.edmunds.com/car-news/2026-lamborghini-temerario-first-drive-review.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-temerario",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2026 Lamborghini Temerario",
+      "url": "https://www.kbb.com/lamborghini/temerario/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-temerario-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2026 Lamborghini Temerario (2025 address)",
+      "url": "https://www.kbb.com/lamborghini/temerario/2025/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

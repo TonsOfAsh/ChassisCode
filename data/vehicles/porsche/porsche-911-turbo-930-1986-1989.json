@@ -1,0 +1,141 @@
+{
+  "id": "porsche-911-turbo-930-1986-1989",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "930",
+  "variant": "Turbo",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Porsche 911 Turbo (930, 1986–1989)",
+  "aliases": [
+    "930",
+    "930 Turbo",
+    "Porsche 930",
+    "911 Turbo 3.3",
+    "Widowmaker",
+    "1986 911 Turbo",
+    "1987 911 Turbo",
+    "1988 911 Turbo",
+    "1989 911 Turbo",
+    "G50"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1986,
+      "endYear": 1989
+    },
+    "sourceId": "excellence-1986-911-turbo-coupe",
+    "note": "US model years 1986-1989, after the 911 Turbo's absence from the US for 1980-1985. Excellence has spec pages for the 1986, 1987, 1988 and 1989 911 Turbo Coupe (this page and excellence-1989-911-turbo-coupe); automobile-catalog's North American listing says 'since October 1985' for the 1986 car (automobile-catalog-1986-911-turbo-na, search-result title). The 1976-1979 US cars are not in this record."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "excellence-1987-911-turbo-cabriolet",
+    "note": "Coupe throughout; Cabriolet listed by Excellence for 1987. The Turbo Targa, sold under its own name, is not covered by this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "excellence-1986-911-turbo-coupe",
+      "note": "\"Type: Flat 6\""
+    },
+    "displacementL": {
+      "value": 3.3,
+      "sourceId": "excellence-1986-911-turbo-coupe",
+      "note": "3,299 cc (\"Displacement: 201.24 cu-in/3.299 cc\")"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "excellence-1986-911-turbo-coupe",
+      "note": "\"Induction: Turbocharged\" (single turbocharger)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "excellence-1986-911-turbo-coupe",
+    "note": "\"Required Octane: Premium unleaded (91+)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "excellence-1986-911-turbo-coupe",
+    "note": "\"Rear-engined, rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual",
+      "5-speed Manual"
+    ],
+    "sourceId": "excellence-1986-911-turbo-coupe",
+    "note": "1986-1988: \"Options: 4-speed manual\" (also excellence-1988-911-turbo-coupe); 1989: \"5-speed manual\" (excellence-1989-911-turbo-coupe)."
+  },
+  "powerHp": {
+    "value": 282,
+    "sourceId": "excellence-1986-911-turbo-coupe",
+    "note": "PROVISIONAL (publication spec page, no named author; outside the major list). US rating, all four model years. Quote: \"Horsepower: 282 @ 5500 rpm\" (identical on the 1987, 1988 and 1989 pages). automobile-catalog's North American listing title gives \"210 kW / 286 PS / 282 hp\" (search result; the page refuses fetches)."
+  },
+  "weightLb": {
+    "value": 2976,
+    "sourceId": "excellence-1986-911-turbo-coupe",
+    "note": "PROVISIONAL (single publication). Coupe, 4-speed manual. Quote: \"Curb Weight: 2,976 lbs.\" Excellence prints the same figure on its 1988 and 1989 coupe pages and its 1987 Cabriolet page, which suggests a generic figure rather than a per-body value."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1986,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "excellence-1986-911-turbo-coupe",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1986 911 Turbo Coupe (930) | Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/375",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "excellence-1989-911-turbo-coupe",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1989 911 Turbo Coupe (930) | Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/378",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "excellence-1988-911-turbo-coupe",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1988 911 Turbo Coupe (930) | Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/377",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "excellence-1987-911-turbo-cabriolet",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1987 911 Turbo Cabriolet (930) | Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/379",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "automobile-catalog-1986-911-turbo-na",
+      "type": "database",
+      "publisher": "automobile-catalog.com",
+      "title": "1986 Porsche 911 Turbo Specs Review (210 kW / 286 PS / 282 hp) (since October 1985 for North America)",
+      "url": "https://www.automobile-catalog.com/car/1986/2681645/porsche_911_turbo.html",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Power and weight come only from Excellence magazine's spec database (no author, outside the major list). Excellence gives the same 2,976 lb for coupe, Targa and Cabriolet, so the figure may not be body-specific. A Porsche Cars North America brochure or press kit for 1986-1989 (auto-brochures.com's 1975-1977 US 911 brochures are scanned and unreadable; none for 1986-89 is listed) or a major magazine spec panel would confirm. The 1976-1979 ranges were held back (see the batch report).",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (282 hp) and weight (2,976 lb, coupe) rest on Excellence magazine's spec pages (power also matches automobile-catalog's North American listing). A Porsche Cars North America spec sheet/brochure or a major magazine spec panel for a 1986-1989 US 911 Turbo would replace both."
+}

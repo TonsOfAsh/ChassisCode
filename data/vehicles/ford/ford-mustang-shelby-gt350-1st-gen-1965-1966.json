@@ -1,0 +1,136 @@
+{
+  "id": "ford-mustang-shelby-gt350-1st-gen-1965-1966",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "1st gen",
+  "variant": "Shelby GT350",
+  "subVariant": null,
+  "displayName": "Ford Mustang Shelby GT350 (1st gen, 1965–1966)",
+  "aliases": [
+    "1965 GT350",
+    "1966 GT350",
+    "1965 Shelby GT350",
+    "1966 Shelby GT350",
+    "Shelby GT 350",
+    "K-Code 289",
+    "Hi-Po 289",
+    "Shelby Mustang"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1965,
+      "endYear": 1966
+    },
+    "sourceId": "supercars-gt350-1966",
+    "note": "US model years 1965-1966, the years with the 306 hp K-Code 289. Quote (Supercars.net, 1966 GT350): \"Like the previoud year the 1966 GT350 had the K-Code 289 in³ V8 which offered 306 horsepower was kept as standard\". The 1965 car is covered by Hagerty's 1965 valuation page and Supercars.net's 1965 page (supercars-gt350-1965). Hagerty notes the GT350 name ran to 1969 with other engines; those years are not in this record. Encycarpedia gives the year 1965 only in its page title."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hagerty-gt350-1965",
+    "note": "\"white 2+2 fastbacks\" (Mustang fastback, counted as Coupe)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "supercars-gt350-1965",
+      "note": "\"K-Code 289 in³ V8\""
+    },
+    "displacementL": {
+      "value": 4.7,
+      "sourceId": "encycarpedia-gt350-1965",
+      "note": "\"4,727 cc\" (Encycarpedia); 289 cu in is about 4,736 cc. Both round to 4.7."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "hagerty-gt350-1965",
+      "note": "\"8-cyl. 289cid/306hp 4bbl\"; carburetted, no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hagerty-gt350-1965"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "hagerty-gt350-1965",
+    "note": "Front-engine, rear-wheel drive; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual"
+    ],
+    "sourceId": "supercars-gt350-1965",
+    "note": "\"Borg-Warner T10 4-Speed Manual\" (Supercars.net, 1965 and 1966 pages); Hagerty: \"Borg Warner four-speed\". The opened pages name no other transmission."
+  },
+  "powerHp": {
+    "value": 306,
+    "sourceId": "hagerty-gt350-1965",
+    "note": "PROVISIONAL (database and enthusiast pages, no Shelby/Ford document opened). Manufacturer rating as published in the period: SAE gross (pre-1972 US practice; powerStandard \"Other\"). Quote (Hagerty valuation tools): \"8-cyl. 289cid/306hp 4bbl\". Supercars.net: \"228.2 kw / 306 bhp @ 6000 rpm\" (supercars-gt350-1965). Encycarpedia: \"306 BHP @ 6,000 RPM\" (encycarpedia-gt350-1965). Over-Drive Magazine: \"Horsepower: 306 @ 6000 RPM\" (overdrive-hipo-289). Supercars.net 1966 page: \"228.2 kw / 306 bhp @ 6000 rpm\" (supercars-gt350-1966)."
+  },
+  "weightLb": {
+    "value": 2800,
+    "sourceId": "encycarpedia-gt350-1965",
+    "note": "PROVISIONAL (database, enthusiast page and a valuation-guide description). Quote (Encycarpedia): \"Kerb Weight 1,270 kg\" = 2,800 lb. Hagerty: \"2,800-pound car\" (hagerty-gt350-1965). Supercars.net: \"curb weight | 1262 kg / 2780 lbs\" (supercars-gt350-1965), 0.7% lower. Standard road car (not the GT350R). Supercars.net prints the same 2,780 lb for the 1966 car (supercars-gt350-1966)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1965,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hagerty-gt350-1965",
+      "type": "database",
+      "publisher": "Hagerty",
+      "title": "1965 Shelby GT350 (Hagerty Valuation Tools)",
+      "url": "https://www.hagerty.com/apps/valuationtools/1965-shelby-gt350",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-gt350-1965",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "1965 Shelby GT350 Fastback",
+      "url": "https://www.supercars.net/blog/1965-shelby-gt350-fastback",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "encycarpedia-gt350-1965",
+      "type": "database",
+      "publisher": "Encycarpedia",
+      "title": "1965 Ford Shelby Mustang GT350 Specs",
+      "url": "https://www.encycarpedia.com/ford/65-shelby-mustang-gt350-fastback",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "overdrive-hipo-289",
+      "type": "publication",
+      "publisher": "Over-Drive Magazine",
+      "title": "The Hi-Po 289 CID V-8 and Shelby GT 350 and 350 GT-R V-8s",
+      "url": "https://over-drive-magazine.com/2022/10/21/the-hi-po-289-cid-v-8-and-shelbys-mods/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-gt350-1966",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "1966 Shelby GT350 Fastback",
+      "url": "https://www.supercars.net/blog/1966-shelby-gt350-fastback",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (306 hp SAE gross) and weight (2,800 lb) rest on Hagerty valuation pages, Encycarpedia, Supercars.net (1965 and 1966 pages) and Over-Drive Magazine, agreeing within 0.7%. A Shelby American/Ford specification or a major magazine spec panel for the 1965-1966 GT350 would replace them.",
+  "yearSplit": true,
+  "reviewNotes": "1966 options (automatic transmission, convertible, Hertz GT350H) were not checked; the opened pages name only the 4-speed manual fastback. Later GT350 years (1967-1969, other engines) are not covered."
+}

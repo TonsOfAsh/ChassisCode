@@ -1,0 +1,148 @@
+{
+  "id": "lamborghini-gallardo-superleggera",
+  "manufacturer": "Lamborghini",
+  "model": "Gallardo",
+  "generation": null,
+  "variant": "Superleggera",
+  "subVariant": null,
+  "displayName": "Lamborghini Gallardo Superleggera",
+  "aliases": [
+    "Gallardo SL",
+    "Gallardo Superleggera 2008",
+    "e-gear",
+    "2008 Gallardo Superleggera"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2008
+    },
+    "sourceId": "kbb-gallardo-2008",
+    "note": "US model year 2008 only, from Kelley Blue Book (a database): the 2008 Gallardo lists \"Superleggera Coupe 2D\"; the 2007 Gallardo lists only \"Spyder Roadster 2D\" and \"Coupe 2D\" (kbb-gallardo-2007), and the existing LP 560-4 record found the 2009 trims are LP 560-4 only. Lamborghini's release (Geneva, March 2007): \"can be ordered through the dealer network starting March 2007\". Lambocars gives calendar production years \"2007 – 2008\". This is the 2007 Superleggera, not the later LP 570-4 Superleggera."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lambo-sl-release",
+    "note": "Coupe only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "lambo-sl-release",
+      "note": "\"4,961 cm3 V10\""
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "lambo-sl-release",
+      "note": "4,961 cc (\"4,961 cm3 V10\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-sl-release",
+      "note": "Naturally aspirated V10 per the release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-sl-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "supercars-gallardo-sl",
+    "note": "supercars.net: \"4WD w/Viscous Traction System\" (Viscous Traction permanent four-wheel drive, as on every Gallardo of the period)"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "supercars-gallardo-sl",
+    "note": "supercars.net: \"6-Speed Manual w/Optional Robotized E-Gear\". LamboCars prints the identical table (lambocars-gallardo-sl), so the manual rests on ONE source. Lamborghini's release says the car \"comes with robotized mechanical e-gear as standard\" and does not mention a manual. e-gear is a single-clutch automated manual on the six-speed gearbox."
+  },
+  "powerHp": {
+    "value": 523,
+    "sourceId": "lambo-sl-release",
+    "note": "Quote (Lamborghini release, reproduced in full by LamboCars): \"Now 530 hp is reached in 8,000 min-1.\" The 530 is Lamborghini's metric (CV/PS) figure: 530 x 0.98632 = 523 hp. Top Gear (6 March 2007): \"power has been upped fractionally to 522bhp\" (topgear-gallardo-sl). No separate US SAE rating was found, so powerStandard is DIN PS. KBB lists \"520 - 530 hp\" for the 2008 Gallardo range."
+  },
+  "weightLb": {
+    "value": 3241,
+    "sourceId": "supercars-gallardo-sl",
+    "note": "PROVISIONAL: rests on ONE source. Quote (supercars.net, \"Editorial Team\" spec table): \"1470 kg / 3241 lbs\" (curb). LamboCars' table (lambocars-gallardo-sl) is word-for-word identical, so it is the same source, not an independent second one. NO US-market weight has been found, and the market the 1,470 kg figure describes is unknown. Lamborghini gives only a European empty (dry) figure, 100 kg below the standard Gallardo's \"weight when empty (1,430 kg)\", i.e. 1,330 kg, and says the US car saves less: \"a 100 kg reduction in weight (USA 70 kg)\" (jalopnik-gallardo-sl, the release reproduced); no US figure is printed, so the 1,330 kg dry figure is not a US weight. Top Gear calls 1,330 kg \"kerb weight\" (topgear-gallardo-sl), contrary to Lamborghini's own wording."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-sl-release",
+      "type": "manufacturer",
+      "publisher": "LamboCars (Lamborghini press release reproduced in full)",
+      "title": "The Official Press Release Of Gallardo Superleggera",
+      "url": "https://www.lambocars.com/the-official-press-release-of-gallardo-superleggera/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "jalopnik-gallardo-sl",
+      "type": "manufacturer",
+      "publisher": "Jalopnik (Mike Spinelli; Lamborghini press release reproduced)",
+      "title": "Weight Watchers: The Lamborghini Gallardo Superleggera",
+      "url": "https://jalopnik.com/weight-watchers-the-lamborghini-gallardo-superleggera-239936",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-gallardo-sl",
+      "type": "publication",
+      "publisher": "Supercars.net (Editorial Team)",
+      "title": "2007→2008 Lamborghini Gallardo Superleggera",
+      "url": "https://www.supercars.net/blog/2007%E2%86%922008-lamborghini-gallardo-superleggera",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "lambocars-gallardo-sl",
+      "type": "enthusiast",
+      "publisher": "LamboCars",
+      "title": "Lamborghini Gallardo Superleggera specs & performance",
+      "url": "https://www.lambocars.com/lamborghini-gallardo-superleggera-specs-performance/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-gallardo-sl",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Lamborghini Gallardo Superleggera (Geneva show news)",
+      "url": "https://www.topgear.com/car-news/supercar/lamborghini-gallardo-superleggera-news-geneva-show-lamborghini-gallardo",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-gallardo-2008",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 Lamborghini Gallardo",
+      "url": "https://www.kbb.com/lamborghini/gallardo/2008/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-gallardo-2007",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2007 Lamborghini Gallardo",
+      "url": "https://www.kbb.com/lamborghini/gallardo/2007/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "No US-market weight found; 1,470 kg is from one source of unknown market, and the 6-speed manual rests on that same source. A human should confirm both.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "weightLb is provisional: 1,470 kg (3,241 lb) \"curb\" rests on a single source, the supercars.net spec table (LamboCars' table is word-for-word identical, so not independent). No US-market weight has been found and the market of the 1,470 kg figure is unknown; Lamborghini's only figure is a European dry weight (1,330 kg) and it says the US car saves 70 kg rather than 100 kg. transmission's 6-speed manual rests on the same single source (Lamborghini's release names e-gear as standard only). Replace with a Lamborghini US curb or dry figure or a major magazine spec panel, and a source confirming the manual. Power is from Lamborghini; production years from KBB."
+}

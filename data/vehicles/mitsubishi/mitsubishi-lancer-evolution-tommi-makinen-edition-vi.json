@@ -1,0 +1,134 @@
+{
+  "id": "mitsubishi-lancer-evolution-tommi-makinen-edition-vi",
+  "manufacturer": "Mitsubishi",
+  "model": "Lancer Evolution",
+  "generation": "VI",
+  "variant": "Tommi Mäkinen Edition",
+  "subVariant": null,
+  "displayName": "Mitsubishi Lancer Evolution Tommi Mäkinen Edition (VI)",
+  "aliases": [
+    "Evo VI TME",
+    "Evo 6.5",
+    "TME",
+    "Tommi Makinen Edition",
+    "Makinen Edition",
+    "Lancer Evolution VI Tommi Mäkinen Edition",
+    "Evo 6 Tommi Makinen",
+    "CP9A",
+    "4G63"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2000,
+      "endYear": 2000
+    },
+    "sourceId": "motorfan-evo-vi-tme",
+    "note": "Calendar years, Japan. Quote (Motor-Fan, 竹村 純): \"1999（平成11）年12月10日、三菱自動車は...「トミー・マキネン・エディション（TME）」を翌2000年1月8日に発売することを発表した。\" (on sale 8 January 2000). The Gulliver catalog (database) lists the GSR TME sold \"平成12年1月〜平成12年9月\" (January–September 2000); Evo's panel: \"On sale 2000\". Never sold new in the US, so the home market is used."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "evo-evo-vi-makinen",
+    "note": "Four-door sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "evo-evo-vi-makinen",
+      "note": "\"In-line 4-cyl, 1997cc, turbo\" (4G63)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "evo-evo-vi-makinen",
+      "note": "1,997 cc"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "evo-evo-vi-makinen",
+      "note": "Single turbocharger (titanium-aluminide turbine on the TME per Motor-Fan)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-evo-vi-makinen"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "evo-evo-vi-makinen",
+    "note": "\"Front engine, four-wheel drive\"; catalog: \"FULL4WD\"."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "evo-evo-vi-makinen",
+    "note": "\"Five-speed manual\"; catalog: \"５MT\"."
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "evo-evo-vi-makinen",
+    "note": "Quote (Evo specification panel): \"Max power 276bhp @ 6500rpm\", which is the Japanese 280 PS rating x 0.98632 = 276 hp. The 280 PS figure is given by the Gulliver catalog (gulliver-evo-vi-tme-gsr, database): \"280ps (206kW) / 6500rpm\". No Mitsubishi document was found."
+  },
+  "weightLb": {
+    "value": 3009,
+    "sourceId": "evo-evo-vi-makinen",
+    "note": "Evo specification panel (step 2), GSR: 1,365 kg x 2.20462 = 3,009 lb. Quote: \"Weight 1365kg\" (unlabelled; read as kerb since Evo marks dry figures as dry). Evo describes the car as Japanese-market (UK cars were personal imports). The Gulliver catalog (database) lists the Japanese GSR TME at \"車両重量 1360kg\" (2,998 lb). The lighter RS grade is not described."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 2000,
+    "powerStandard": "JIS PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "evo-evo-vi-makinen",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Sub 20K performance cars - Mitsubishi Evo VI Makinen Edition (29 January 2009)",
+      "url": "https://www.evo.co.uk/mitsubishi/evo/14037/mitsubishi-evo-vi-makinen-edition",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorfan-evo-vi-tme",
+      "type": "publication",
+      "publisher": "Motor-Fan (竹村 純)",
+      "title": "ランサーエボリューションVI トミー・マキネン・エディション",
+      "url": "https://motor-fan.jp/article/1346881/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gulliver-evo-vi-tme-gsr",
+      "type": "database",
+      "publisher": "Gulliver (221616.com) catalog",
+      "title": "Mitsubishi Lancer GSR Evolution VI Tommi Mäkinen Edition (GF-CP9A, January–September 2000)",
+      "url": "https://221616.com/catalog/mitsubishi/lancer/199510_200009/4006139/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3009,
+          "sourceId": "evo-evo-vi-makinen"
+        },
+        {
+          "value": 2998,
+          "sourceId": "gulliver-evo-vi-tme-gsr"
+        }
+      ],
+      "reason": "Evo prints 1,365 kg; the Japanese catalog listing gives 1,360 kg for the GSR TME (0.4% apart). Possibly rounding or a car built for UK import.",
+      "resolution": "Used Evo's panel figure, which qualifies at step 2; a database is not acceptable for weight."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "End year 2000 rests on Evo (\"On sale 2000\") and a catalog sales period ending September 2000; some sources say the TME stayed on sale until the Evolution VII (2001). Evo says UK TMEs were personal imports of Japanese cars, so its 1,365 kg is a Japanese-market figure; the catalog gives 1,360 kg (0.4% apart).",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

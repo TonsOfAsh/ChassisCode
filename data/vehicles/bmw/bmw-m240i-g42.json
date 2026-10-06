@@ -1,0 +1,125 @@
+{
+  "id": "bmw-m240i-g42",
+  "manufacturer": "BMW",
+  "model": "M240i",
+  "generation": "G42",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M240i (G42)",
+  "aliases": [
+    "M240",
+    "G42 M240i",
+    "M240i G42",
+    "M240i Coupe",
+    "B58",
+    "Steptronic",
+    "2023 M240i"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "edmunds-2023-m240i-specs",
+    "note": "US model years of the rear-wheel-drive M240i. BMW NA's July 2021 launch release introduced the 2022 '230i and BMW M240i xDrive Coupes', with '230i xDrive and M240i Coupes to follow' (bmw-us-2022-2-series-coupe-release). Edmunds (a database) lists a 2023 'M240i' with 'rear wheel drive'; no 2022 RWD M240i was found. Still on sale: BMW USA's current 2 Series Coupe technical data lists the M240i with 'Rear-wheel drive' (bmwusa-2026-2-series-coupe-techdata). The 2022-on M240i xDrive is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2022-2-series-coupe-release",
+    "note": "2 Series Coupe (G42). There is no G42 convertible."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2022-2-series-coupe-release",
+      "note": "'3.0-liter inline 6-cylinder BMW TwinPower turbo engine' (B58)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmwusa-2026-2-series-coupe-techdata",
+      "note": "2,998 cc"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "bmw-us-2022-2-series-coupe-release",
+      "note": "'BMW TwinPower turbo': BMW's B58 releases describe a 'single, Twin-scroll turbocharger' (bmw-us-2020-m340i-release, same engine)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmwusa-2026-2-series-coupe-techdata",
+    "note": "Gasoline engine (a 48-volt mild hybrid on the later version)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmwusa-2026-2-series-coupe-techdata",
+    "note": "'Rear-wheel drive' (M240i column; the M240i xDrive column is 'All-wheel drive')."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmwusa-2026-2-series-coupe-techdata",
+    "note": "'8-speed, automatic' (Sport Steptronic); no manual."
+  },
+  "powerHp": {
+    "value": 382,
+    "sourceId": "bmwusa-2026-2-series-coupe-techdata",
+    "note": "Quote (BMW USA technical data table, M240i column for the non-hybrid car): \"Horsepower 382 @ 5,800-6,500\"; BMW NA's 2022 launch release: the engine 'delivers 382 hp @ 5,800 – 6,500 rpm'. Edmunds (a database) lists the 2023 M240i at '382 hp @ 5,800 rpm'. BMW USA's table now also lists a 48-volt mild-hybrid M240i Coupe rated '386 @ 5,200 - 6,250' (3,854 lb); the model year that version began was not established."
+  },
+  "weightLb": {
+    "value": 3748,
+    "sourceId": "bmwusa-2026-2-series-coupe-techdata",
+    "note": "RWD coupe, 8-speed automatic (the only transmission). Quote (BMW USA technical data table, non-hybrid version; columns 230i / 230i xDrive / M240i / M240i xDrive): \"Curb Weight (lbs) 3,446 3,594 3,748 3,871\". Edmunds lists the same 3,748 lb for the 2023 M240i, the first model year of the RWD car, which is the reference year. The later mild-hybrid M240i is 3,854 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmwusa-2026-2-series-coupe-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (bmwusa.com)",
+      "title": "BMW 2 Series Coupe: technical specifications",
+      "url": "https://www.bmwusa.com/vehicles/2-series/2-series-coupe/bmw-2er-coupe-technische-daten.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bmw-us-2022-2-series-coupe-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New 2022 BMW 2 Series Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0337210EN_US/the-new-2022-bmw-2-series-coupe?language=en_US",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-2023-m240i-specs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2023 BMW 2 Series M240i Specs & Features",
+      "url": "https://www.edmunds.com/bmw/2-series/2023/m240i/st-401976466/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bmw-us-2020-m340i-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The All-New 2020 BMW M340i and M340i xDrive Sedans",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0286917EN_US/the-all-new-2020-bmw-m340i-and-m340i-xdrive-sedans?language=en_US",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true,
+  "reviewNotes": "BMW USA's table lists both a 382 hp non-hybrid M240i (3,748 lb) and a 386 hp 48-volt mild-hybrid M240i (3,854 lb) without model years. The record uses the 382 hp car (2023 reference year); find the year the mild hybrid began and decide whether the record needs a year split."
+}

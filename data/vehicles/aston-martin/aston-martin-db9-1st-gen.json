@@ -1,0 +1,163 @@
+{
+  "id": "aston-martin-db9-1st-gen",
+  "manufacturer": "Aston Martin",
+  "model": "DB9",
+  "generation": "1st gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin DB9 (1st gen)",
+  "aliases": [
+    "Aston DB9",
+    "DB9 Coupe",
+    "VH platform DB9",
+    "2005 DB9",
+    "2009 DB9",
+    "Touchtronic"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2012
+    },
+    "sourceId": "edmunds-db9-2005",
+    "note": "US model years. First: Edmunds lists the 2005 DB9 '2dr Coupe (5.9L 12cyl 6M)' and '(6A)' at '450 hp @ 6,000 rpm'; Aston's launch release (supercars-db9-release) gives a US price of '$163,900'. Last: Edmunds' 2013 review (edmunds-db9-2013-review) says 'The 2013 Aston Martin DB9 receives a significant refresh ... the engine and chassis greatly revised' with '510 horsepower', so 2012 is the last model year of this car; no opened page says '2012' in so many words. Car & Classic (carandclassic-db9-guide) dates the big 2012 update. UK build began early 2004."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "supercars-db9-release",
+    "note": "2+2 coupe. The DB9 Volante is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "evo-db9-buying",
+      "note": "'V12, 5935cc'"
+    },
+    "displacementL": {
+      "value": 5.9,
+      "sourceId": "evo-db9-buying",
+      "note": "5,935 cc (Evo: 'V12, 5935cc'; Aston release: '5935 cc', supercars-db9-release)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "supercars-db9-release",
+      "note": "'quad-cam 48-valve' V12 with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-db9-2005",
+    "note": "'Base engine type: Gas'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-db9-2005",
+    "note": "'Rear wheel drive'; Aston: 'The DB9 is fitted with a rear transaxle' (supercars-db9-release)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "supercars-db9-release",
+    "note": "Aston: 'Two transmissions are offered: a six-speed ZF automatic gearbox and a new six-speed Graziano manual gearbox.' The automatic is Aston's Touchtronic. Car & Classic (carandclassic-db9-guide): 'By mid-2011, the manual gearbox was dropped'."
+  },
+  "powerHp": {
+    "value": 450,
+    "sourceId": "evo-db9-buying",
+    "note": "Quote (Evo specification panel, 2004 DB9): \"Power: 450bhp @ 6000rpm\". Aston's launch release (supercars-db9-release): '450bhp and maximum torque 420lb ft'; Edmunds (edmunds-db9-2005) gives the US 2005 car '450 hp @ 6,000 rpm', so the US rating is the same figure. Reference year 2005: 450 hp applied to 2005-2008 and the 2008 Geneva update raised it to 470 bhp (Evo: 'a power upgrade to 470bhp'; Car & Classic: 'A further facelift in 2008 saw a power bump to 470 bhp'), i.e. 2009-2012 in the US. Each rating covers four of the eight model years, not more than half, so the launch rating is used."
+  },
+  "weightLb": {
+    "value": 3880,
+    "sourceId": "evo-db9-buying",
+    "note": "Step 2 of the weight order (major magazine specification panel; no Aston page with a weight could be opened). Quote (Evo specification panel, 2004 DB9): \"Weight: 1760kg\". 1,760 kg x 2.20462 = 3,880 lb. Evo does not say kerb or dry or which gearbox; Aston's coupe kerb weights were 'initially quoted 1710kg manual, 1760kg auto, later revised to 1760kg & 1800kg respectively' (AstonMartins.com, an enthusiast site, not cited), so 1,760 kg is the revised manual figure, i.e. the standard car. Car & Classic (carandclassic-db9-guide, no named author) gives '1760 kg (early)' for the coupe."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "evo-db9-buying",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Used Aston Martin DB9 (2003-2016) (Stuart Gallagher, Richard Meaden, Bob Harper, 19 March 2025)",
+      "url": "https://www.evo.co.uk/aston-martin/db9",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-db9-release",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (press release reproduced by Supercars.net)",
+      "title": "2004 Aston Martin DB9 (press release)",
+      "url": "https://www.supercars.net/blog/2004-aston-martin-db9/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-db9-2005",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2005 Aston Martin DB9 Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/db9/2005/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-db9-2013-review",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2013 Aston Martin DB9 Review & Ratings",
+      "url": "https://www.edmunds.com/aston-martin/db9/2013/review/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carandclassic-db9-guide",
+      "type": "publication",
+      "publisher": "Car & Classic",
+      "title": "Aston Martin DB9: Models, Specs, and Buyer's Guide",
+      "url": "https://www.carandclassic.com/buyer-guides/aston-martin-db9-models-and-specs",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3880,
+          "sourceId": "evo-db9-buying"
+        },
+        {
+          "value": 3968,
+          "sourceId": "edmunds-db9-2005"
+        }
+      ],
+      "reason": "Initial vs revised factory figures, and transmission. AstonMartins.com (enthusiast site, not cited): 'initially quoted 1710kg manual, 1760kg auto, later revised to 1760kg & 1800kg respectively'. 1,710 kg (3,770 lb) was the initial manual figure (no citable page gives it); Edmunds' 'Curb Weight: 3,968 lbs.' (1,800 kg), printed for both manual and automatic, is the revised automatic figure.",
+      "resolution": "Used Evo's 1,760 kg, which matches the revised manual (standard car) figure."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3880,
+          "sourceId": "evo-db9-buying"
+        },
+        {
+          "value": 3770,
+          "sourceId": "supercars-db9-release"
+        }
+      ],
+      "reason": "Supercars.net's specification table on the launch-release page prints 'curb weight | 1710 kg / 3770 lbs'; Evo's panel gives 1,760 kg.",
+      "resolution": "Used Evo's 1,760 kg (a major magazine panel); Supercars.net's table is not the release text and is not attributed to Aston Martin."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

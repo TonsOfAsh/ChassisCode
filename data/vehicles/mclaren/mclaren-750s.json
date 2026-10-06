@@ -1,0 +1,123 @@
+{
+  "id": "mclaren-750s",
+  "manufacturer": "McLaren",
+  "model": "750S",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 750S",
+  "aliases": [
+    "750S Coupe",
+    "750S Coupé",
+    "McLaren 750",
+    "M840T",
+    "SSG",
+    "Super Series",
+    "2024 750S"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "kbb-750s",
+    "note": "US model years, from Kelley Blue Book (a database): the 750S page lists model years 2024, 2025, 2026 and 2027; the 2024 specs page lists \"750S Coupe 2D\" with \"740 @ 7500 RPM\" (kbb-750s-2024-specs). Still listed for the 2027 model year, so endYear is null. McLaren's release says the car \"is available to order now\". The 750S Spider is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-750s-release",
+    "note": "Two-seat fixed-roof coupe; the Spider is a separate model name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-750s-release",
+      "note": "\"M840T engine, 4.0-litre twin-turbo V8, 3,994cc\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mclaren-750s-release",
+      "note": "3,994 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-750s-release",
+      "note": "\"4.0-litre twin-turbo V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-750s-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mclaren-750s-release",
+    "note": "\"Longitudinal mid-engined, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-750s-release",
+    "note": "\"7 Speed SSG. Comfort, Sport and Track modes\" (McLaren Seamless Shift Gearbox, recorded as a DCT as in the 720S and 765LT records). No manual was offered."
+  },
+  "powerHp": {
+    "value": 740,
+    "sourceId": "mclaren-750s-release",
+    "note": "Quote (McLaren 750S technical information, reproduced in full by Automotive World, \"SOURCE: McLaren\"): \"Power PS (bhp/kW) @ rpm | 750 (740/552) @ 7,500rpm\". McLaren's rating is the metric 750 PS; 750 x 0.98632 = 740 hp, the bhp figure McLaren prints, so powerStandard is DIN PS. KBB's 2024 listing gives the same \"740 @ 7500 RPM\" (kbb-750s-2024-specs). This is McLaren's global release, not a US-specific version."
+  },
+  "weightLb": {
+    "value": 3062,
+    "sourceId": "mclaren-750s-release",
+    "note": "Coupe, 7-speed SSG (the only transmission). Quote (McLaren technical information): \"DIN weight [fluids + 90% fuel], kg (lbs) – coupe | 1,389 (3,062)\"; text: \"Already 30kg lighter than the 720S coupe at 1,389kg (DIN)\". DIN weight, not EU. McLaren's \"Lightest dry weight, kg (lbs) – coupe | 1,277 (2,815)\" depends on weight-saving options and is not used. MotorWeek (Jessica Ray) quotes the same \"dry weight of just 2,815 lbs\" (motorweek-750s)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-750s-release",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (technical information reproduced in full by Automotive World)",
+      "title": "McLaren 750S technical information",
+      "url": "https://www.automotiveworld.com/?p=399237",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-750s",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren 750S",
+      "url": "https://www.kbb.com/mclaren/750s/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-750s-2024-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 McLaren 750S specs",
+      "url": "https://www.kbb.com/mclaren/750s/2024/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorweek-750s",
+      "type": "publication",
+      "publisher": "MotorWeek (Jessica Ray)",
+      "title": "Meet the New McLaren 750S",
+      "url": "https://motorweek.org/this_just_in/meet-the-new-mclaren-750s",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

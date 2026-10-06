@@ -1,0 +1,129 @@
+{
+  "id": "ferrari-12cilindri",
+  "manufacturer": "Ferrari",
+  "model": "12Cilindri",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 12Cilindri",
+  "aliases": [
+    "12 Cilindri",
+    "Dodici Cilindri",
+    "Ferrari 12Cilindri"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "kbb-12cilindri",
+    "note": "US model years. KBB lists the '2025 Ferrari 12 Cilindri' (coupe and Spider) and no other model year yet. Still on sale. The 12Cilindri Spider is a separate car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carmag-12cilindri",
+    "note": "Front-engined V12 berlinetta; the open 12Cilindri Spider is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "ferrari-12cilindri-spec",
+      "note": "Ferrari: 'V12 – 65° – Dry sump'"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "ferrari-12cilindri-spec",
+      "note": "6,496 cc. Ferrari: '6496 cm3'; CAR panel: '6496cc V12' (carmag-12cilindri)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "topgear-12cilindri",
+      "note": "Top Gear: 'this engine continues in production impressively hybrid and turbo-free.'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-12cilindri-spec",
+    "note": "Footnote: '*With 98 RON petrol'. Top Gear: 'this engine continues in production impressively hybrid and turbo-free' (topgear-12cilindri)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carmag-12cilindri",
+    "note": "CAR panel: 'Transmission: Eight-speed DCT, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "ferrari-12cilindri-spec",
+    "note": "Ferrari: '8-speed DCT'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 819,
+    "sourceId": "ferrari-12cilindri-spec",
+    "note": "Ferrari's rating is metric: 830 cv x 0.98632 = 818.6, rounded to 819 hp. Quote (Ferrari specification sheet as rehosted by Auto International): \"830 cv @ 9250 rpm\", footnote '*With 98 RON petrol, including 5 cv dynamic ram effect'. CAR's panel prints '819bhp @ 9250rpm' (carmag-12cilindri); KBB's US listing shows '819 @ 9250 RPM' (kbb-12cilindri). No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3439,
+    "sourceId": "ferrari-12cilindri-spec",
+    "note": "DRY weight: 1,560 kg x 2.20462 = 3,439.2, rounded to 3,439 lb. Quote (Ferrari specification sheet, 12Cilindri Tailor Made release, February 2026): \"Dry weight 1560 kg\", footnote '**With optional lightweight content'. The sheet does not name the body, but it is the coupe: Ferrari's separate 12Cilindri Spider sheet gives \"Dry weight** 1620 kg\" (ferrari-12cilindri-spider-spec), and CAR's coupe review states 'sends 1,560kg (dry weight) of Ferrari hurtling towards the horizon' (carmag-12cilindri). No kerb weight was found (Top Gear's review prints none). Step 4 of the weight order (manufacturer dry weight), itself for a car with lightweight options, so a standard car is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-12cilindri-spec",
+      "type": "manufacturer",
+      "publisher": "Ferrari (specification sheet rehosted by Auto International, Malaysia)",
+      "title": "Ferrari 12Cilindri Tailor Made: Specifications (February 2026)",
+      "url": "https://autointernational.com.my/WebNews/Overseas/Year%202026/Feb%2026/Ferrari%2012Cilindri%20Tailor%20Made/Specifications.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ferrari-12cilindri-spider-spec",
+      "type": "manufacturer",
+      "publisher": "Ferrari (specification sheet rehosted by Auto International, Malaysia)",
+      "title": "Ferrari 12Cilindri Spider Specification (June 2024)",
+      "url": "https://autointernational.com.my/WebNews/Overseas/Year%202024/Jun%2024/Ferrari%2012Cilindri%20Spider%20-%2016%20Jun%2024/Ferrari%2012Cilindri%20Spider_Specification.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carmag-12cilindri",
+      "type": "publication",
+      "publisher": "CAR Magazine",
+      "title": "Ferrari 12Cilindri review",
+      "url": "https://carmagazine.co.uk/car-reviews/ferrari/12cilindri",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-12cilindri",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Ferrari 12Cilindri review",
+      "url": "https://www.topgear.com/car-reviews/ferrari/12cilindri",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-12cilindri",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Ferrari 12 Cilindri (model year listing and specifications)",
+      "url": "https://www.kbb.com/ferrari/12cilindri/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

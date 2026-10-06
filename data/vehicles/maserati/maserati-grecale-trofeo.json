@@ -1,0 +1,153 @@
+{
+  "id": "maserati-grecale-trofeo",
+  "manufacturer": "Maserati",
+  "model": "Grecale",
+  "generation": null,
+  "variant": "Trofeo",
+  "subVariant": null,
+  "displayName": "Maserati Grecale Trofeo",
+  "aliases": [
+    "Grecale Trofeo SUV",
+    "Nettuno",
+    "Maserati Nettuno",
+    "2023 Grecale Trofeo"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "carscom-grecale-trofeo-2023",
+    "note": "US model years. First: Cars.com (a database) lists the '2023 Maserati Grecale' 'Trofeo AWD'; Maserati North America, 18 January 2023: the Grecale is 'now available to test-drive and purchase at Maserati showrooms across North America' (stellantis-grecale-na-on-sale). Still on sale: Edmunds (Kyle Patrick, 18 June 2026) on the 2027 Grecale: \"The Trofeo remains the ICE range-topper\" (edmunds-2027-maserati-update)."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "stellantis-grecale-techdata"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "stellantis-grecale-techdata",
+      "note": "'Twin-turbo V6 90° MTC'"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "maserati-grecale-catalogue",
+      "note": "3,000 cc as printed ('Displacement 1995 cc | 1995 cc | 3000 cc', GT / Modena / Trofeo); the US table gives '3.0L' (stellantis-grecale-techdata). Maserati's GranTurismo table gives the same Nettuno V6 as 2,992 cc."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "stellantis-grecale-techdata",
+      "note": "'Twin-turbo V6 90° MTC'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "stellantis-grecale-techdata",
+    "note": "The Trofeo V6 has no mild-hybrid system (the four-cylinder GT and Modena are 'L4 MHEV with BSG')."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "stellantis-grecale-techdata",
+    "note": "'Four-wheel drive with limited slip self-locking electronic rear differential': a permanent all-wheel-drive system."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "stellantis-grecale-techdata",
+    "note": "'8-speed Gen2 8HP75' (ZF eight-speed automatic)"
+  },
+  "powerHp": {
+    "value": 523,
+    "sourceId": "stellantis-grecale-techdata",
+    "note": "Quote (US and Canada technical table, columns Trofeo / Modena / GT): \"Peak output (hp): 523 hp @ 6500 rpm | 325 hp @ 5750 rpm | 296 hp @ 5750 rpm\". Maserati NA's on-sale release: '523-hp V6, derived from the MC20 Nettuno engine' (stellantis-grecale-na-on-sale). European rating 530 CV ('Max. power output 300 CV | 330 CV | 530 CV', maserati-grecale-catalogue); 530 x 0.98632 = 523 hp."
+  },
+  "weightLb": {
+    "value": 4629,
+    "sourceId": "stellantis-grecale-techdata",
+    "note": "Quote (US and Canada technical table, columns Trofeo / Modena / GT): \"Homologated weight (lbs) 4,629 4,431 4,431\". The European table gives 'Homologated weight (kg) 2,027 1,895 1,870' (2,027 kg = 4,469 lb). Kelley Blue Book (a database) also lists the 2023 Trofeo at \"Curb Weight | 4629 pounds\" (kbb-grecale-2023-specs); Cars.com (a database) lists \"Base Curb Weight 4,469 lbs\", which is the European kg figure converted (carscom-grecale-trofeo-2023). Maserati labels the US figure 'homologated weight', not 'curb weight'; see reviewNotes."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "stellantis-grecale-techdata",
+      "type": "manufacturer",
+      "publisher": "Maserati North America (Stellantis media site)",
+      "title": "Grecale: the new Maserati SUV (technical specifications, Europe + LATAM and US and Canada tables)",
+      "url": "https://www.media.stellantis.com/us-en/maserati/press/grecale-the-new-maserati-suv-1",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "stellantis-grecale-na-on-sale",
+      "type": "manufacturer",
+      "publisher": "Maserati North America (Stellantis media site)",
+      "title": "All-New Maserati Grecale SUV Available for Purchase in North America",
+      "url": "https://www.media.stellantis.com/us-en/maserati/press/all-new-maserati-grecale-suv-available-for-purchase-in-north-america",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "maserati-grecale-catalogue",
+      "type": "manufacturer",
+      "publisher": "Maserati",
+      "title": "Maserati Grecale digital catalogue (MY22, English)",
+      "url": "https://www.maserati.com/content/dam/maserati/international/Brochures/my22/grecale/Maserati_Grecale_Digital_Catalogue_EN.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscom-grecale-trofeo-2023",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2023 Maserati Grecale Trofeo AWD specs",
+      "url": "https://www.cars.com/research/maserati-grecale-2023/specs/431063/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-grecale-2023-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Maserati Grecale specs",
+      "url": "https://www.kbb.com/maserati/grecale/2023/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-2027-maserati-update",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2027 Maserati GranTurismo, GranCabrio and Grecale Get Subtle Face-Lifts (Kyle Patrick)",
+      "url": "https://www.edmunds.com/car-news/2027-maserati-granturismo-grancabrio-grecale.html",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4629,
+          "sourceId": "stellantis-grecale-techdata"
+        },
+        {
+          "value": 4469,
+          "sourceId": "carscom-grecale-trofeo-2023"
+        }
+      ],
+      "reason": "Market: 4,629 lb is Maserati's US and Canada homologated weight; 4,469 lb (Cars.com) is Maserati's European homologated weight of 2,027 kg converted.",
+      "resolution": "Used 4,629 lb, the manufacturer's US figure, which Kelley Blue Book also lists."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Maserati's US table labels 4,629 lb 'Homologated weight (lbs)', not 'curb weight'. It is the only US weight Maserati publishes for the Grecale Trofeo and is a precise figure (not an upper limit as with the MC20), so it is used at weight step 1. An owner should confirm that a Maserati 'homologated weight' is accepted as a curb weight.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

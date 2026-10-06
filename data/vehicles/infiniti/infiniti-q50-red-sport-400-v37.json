@@ -1,0 +1,130 @@
+{
+  "id": "infiniti-q50-red-sport-400-v37",
+  "manufacturer": "Infiniti",
+  "model": "Q50",
+  "generation": "V37",
+  "variant": "Red Sport 400",
+  "subVariant": null,
+  "displayName": "Infiniti Q50 Red Sport 400 (V37)",
+  "aliases": [
+    "Q50 Red Sport",
+    "Q50 RS400",
+    "Red Sport 400",
+    "VR30DDTT",
+    "VR30",
+    "2016 Q50 Red Sport 400"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2024
+    },
+    "sourceId": "infiniti-us-2016-q50-press-kit",
+    "note": "US model years. The 2016 Q50 press kit introduces the Red Sport 400; the 2024 press kit (infiniti-us-2024-q50-press-kit) still lists 'LUXE, SENSORY and RED SPORT 400'. Motor1 (motor1-q50-dead) quotes INFINITI: 'the INFINITI Q50 sedan will not be available in the United States and Canada after the 2024 model year.'"
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "infiniti-us-2016-q50-press-kit",
+    "note": "Four-door sports sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "infiniti-us-2016-q50-press-kit",
+      "note": "'VR30DDTT DOHC 24-valve' V6"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "infiniti-us-2016-q50-press-kit",
+      "note": "2,997 cc ('3.0 liters / 2,997 cc')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "infiniti-us-2016-q50-press-kit",
+      "note": "Twin turbochargers with water-cooled intercooling."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "infiniti-us-2016-q50-press-kit"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "infiniti-us-2016-q50-press-kit",
+    "note": "Offered in rear-wheel drive and all-wheel drive; the record describes the RWD car."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automatic"
+    ],
+    "sourceId": "infiniti-us-2016-q50-press-kit",
+    "note": "'7-speed automatic w/Sport mode and Downshift Rev Matching'. No manual offered."
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "infiniti-us-2016-q50-press-kit",
+    "note": "Quote (2016 press kit, Q50 Red Sport 400): \"400 hp @ 6,400 rpm\". The 2024 press kit gives '400 maximum horsepower at 6,400 rpm and 350 lb-ft'."
+  },
+  "weightLb": {
+    "value": 3853,
+    "sourceId": "infiniti-us-2016-q50-press-kit",
+    "note": "Red Sport 400 RWD, 7-speed automatic, 2016. Quote (CURB WEIGHTS (lbs), column 'Q50 Red Sport 400 RWD'): \"Front Rear Total 2,158 1,695 3,853\" (AWD: 2,288 1,717 4,005). The 2024 press kit gives 3,880 lb for the RWD car."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "infiniti-us-2016-q50-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2016 INFINITI Q50 Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/us-2016-infiniti-q50-press-kit",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "infiniti-us-2024-q50-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2024 INFINITI Q50 Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/2024-infiniti-q50-press-kit",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motor1-q50-dead",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "Dead: Infiniti Q50",
+      "url": "https://www.motor1.com/news/730907/infiniti-q50-dead/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3853,
+          "sourceId": "infiniti-us-2016-q50-press-kit"
+        },
+        {
+          "value": 3880,
+          "sourceId": "infiniti-us-2024-q50-press-kit"
+        }
+      ],
+      "reason": "Model year. Both are INFINITI USA curb weights for the Red Sport 400 RWD.",
+      "resolution": "Used 3,853 lb because the reference model year is 2016."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

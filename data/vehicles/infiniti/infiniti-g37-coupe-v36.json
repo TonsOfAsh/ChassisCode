@@ -1,0 +1,117 @@
+{
+  "id": "infiniti-g37-coupe-v36",
+  "manufacturer": "Infiniti",
+  "model": "G37",
+  "generation": "V36",
+  "variant": "Coupe",
+  "subVariant": null,
+  "displayName": "Infiniti G37 Coupe (V36)",
+  "aliases": [
+    "G37 Coupe",
+    "G37S",
+    "G37 Sport 6MT",
+    "VQ37VHR",
+    "VVEL",
+    "2008 G37 Coupe",
+    "CV36"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2013
+    },
+    "sourceId": "infiniti-us-2013-g-coupe-press-kit",
+    "note": "US model years. The 2008 press kit (infiniti-us-2008-g37-coupe-press-kit): the car was 'set to arrive at INFINITI retailers nationwide in August 2007' as the 2008 model; the 2013 G Coupe press kit calls 2013 'the sixth year of its current generation design'. The G37 Convertible (2009 on), the AWD G37x Coupe and the IPL G Coupe are not covered by this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "infiniti-us-2008-g37-coupe-press-kit",
+    "note": "Two-door sport coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "infiniti-us-2008-g37-spec",
+      "note": "Infiniti USA specification: '3.7-liter (3,696cc) V6'"
+    },
+    "displacementL": {
+      "value": 3.7,
+      "sourceId": "infiniti-us-2008-g37-spec",
+      "note": "3,696 cc ('3.7-liter (3,696cc) V6')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "infiniti-us-2008-g37-coupe-press-kit",
+      "note": "'3.7-liter VVEL 24-valve DOHC V6'; no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "infiniti-us-2008-g37-coupe-press-kit"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "infiniti-us-2008-g37-coupe-press-kit",
+    "note": "Rear-wheel drive at launch; the AWD G37x Coupe (2009 on) is sold as its own model and not covered here."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Automatic",
+      "7-speed Automatic"
+    ],
+    "sourceId": "infiniti-us-2008-g37-coupe-press-kit",
+    "note": "2008: 'electronically controlled 5-speed automatic transmission' or 'close-ratio lightweight 6-speed manual transmission' (manual on the G37 Coupe Sport 6MT). The 2013 G Coupe press kit (infiniti-us-2013-g-coupe-press-kit) lists a '7-speed automatic transmission with manual mode' and the Sport 6MT's '6-speed manual transmission'."
+  },
+  "powerHp": {
+    "value": 330,
+    "sourceId": "infiniti-us-2008-g37-spec",
+    "note": "Quote (Infiniti USA 2008 G37 Coupe specification): \"Horsepower 330 hp @ 7,000 rpm\". Press kit: '330 horsepower and 270 lb-ft of torque'. The 2013 G Coupe press kit gives the same '330 horsepower and 270 lb-ft of torque' (the IPL G Coupe's 348 hp is a separate model)."
+  },
+  "weightLb": {
+    "value": 3668,
+    "sourceId": "infiniti-us-2008-g37-spec",
+    "note": "G37 Coupe Sport 6MT (the manual car), 2008. Quote (Infiniti USA specification, columns 'G37 Coupe G37 Coupe Journey G37 Coupe Sport 6MT'): \"Curb weight 3,616 lb 3,624 lb 3,668 lb\" (repeated on a second request). The base automatic coupe is 3,616 lb; the Sport 6MT also carries sport equipment. 2013 G Coupe press kit: Journey 3,633 lb, Sport 6MT 3,708 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "infiniti-us-2008-g37-spec",
+      "type": "manufacturer",
+      "publisher": "Infiniti USA (PDF hosted by allcarcentral.com)",
+      "title": "2008 Infiniti G37 Specification",
+      "url": "https://www.allcarcentral.com/Infiniti-pdf/Infiniti_G37_2008_Specification-Infiniti%20USA.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "infiniti-us-2008-g37-coupe-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2008 INFINITI G37 Coupe Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/release-d27c7f0c05a5407d96c549c91a5a7274-2008-infiniti-g37-coupe-press-kit",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "infiniti-us-2013-g-coupe-press-kit",
+      "type": "manufacturer",
+      "publisher": "INFINITI USA Newsroom",
+      "title": "2013 INFINITI G Coupe Press Kit",
+      "url": "https://usa.infinitinews.com/en-US/releases/release-1d977a3811484bc89bc2de866f938e4e-us-2013-infiniti-g-coupe-press-kit",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

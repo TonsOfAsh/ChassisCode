@@ -2,10 +2,10 @@
   "id": "audi-r8-v10-type-42",
   "manufacturer": "Audi",
   "model": "R8",
-  "generation": "Type 42",
+  "generation": "Type 42 / 1st gen",
   "variant": "V10",
   "subVariant": null,
-  "displayName": "Audi R8 V10 (Type 42)",
+  "displayName": "Audi R8 V10 (Type 42 / 1st gen)",
   "aliases": [
     "R8 5.2 FSI",
     "R8 5.2 FSI quattro",
@@ -13,7 +13,11 @@
     "2010 R8 V10",
     "R tronic",
     "S tronic",
-    "quattro"
+    "quattro",
+    "R8 1st gen",
+    "first gen R8",
+    "R8 Type 42",
+    "Type 42"
   ],
   "country": "Germany",
   "production": {

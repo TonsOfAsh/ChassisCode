@@ -1,0 +1,115 @@
+{
+  "id": "lamborghini-murcielago-lp-670-4-superveloce",
+  "manufacturer": "Lamborghini",
+  "model": "Murciélago",
+  "generation": null,
+  "variant": "LP 670-4 SuperVeloce",
+  "subVariant": null,
+  "displayName": "Lamborghini Murciélago LP 670-4 SuperVeloce",
+  "aliases": [
+    "Murcielago SV",
+    "Murcielago SuperVeloce",
+    "LP670-4 SV",
+    "LP670 SV",
+    "e-gear",
+    "2010 Murcielago SV"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2010
+    },
+    "sourceId": "kbb-murcielago-2010",
+    "note": "US model year 2010 only, from Kelley Blue Book (a database): the 2010 Murciélago lists \"LP 670-4 SuperVeloce Coupe 2D\". The existing LP 640 record found that KBB's 2011 Murciélago address returns the 2010 page and the Aventador replaced it for 2012. Lamborghini's release (Geneva, March 2009): \"limited to just 350 units\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lambo-sv-release",
+    "note": "Coupe only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "lambo-sv-release",
+      "note": "\"12 cylinders at 60°\""
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "lambo-sv-release",
+      "note": "6,496 cc (\"Displacement 6496 cc. (396.41 in3)\"); Evo: \"V12, 6496cc\" (evo-murcielago)"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-sv-release",
+      "note": "Naturally aspirated V12 per the release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-sv-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-sv-release",
+    "note": "\"Permanent all-wheel drive with Viscous Traction system\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "lambo-sv-release",
+    "note": "\"Gearbox 6-speed e-gear\" as standard; \"As a no-premium option, the SuperVeloce is available with a six-speed manual transmission.\" (e-gear is a single-clutch automated manual)"
+  },
+  "powerHp": {
+    "value": 661,
+    "sourceId": "lambo-sv-release",
+    "note": "Quote (Lamborghini release and technical data, reproduced in full by AutoGuide): \"Maximum power 670 hp (493 kW) at 8000 rpm\". The 670 is Lamborghini's metric (CV/PS) figure: 670 x 0.98632 = 661 hp. Evo's spec table agrees: \"661bhp @ 8000rpm\" (evo-murcielago). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3450,
+    "sourceId": "lambo-sv-release",
+    "note": "DRY weight (step 4): no curb weight for the standard car, and no optioned-car curb weight, was found from Lamborghini or a major magazine. Quote (Lamborghini technical data): \"Dry weight 1565 Kg. (3450.2 lb)\". 1,565 x 2.20462 = 3,450 lb. Evo's table agrees: \"1565kg (dry) (429bhp/ton)\" (evo-murcielago). The release does not say whether this is with options."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-sv-release",
+      "type": "manufacturer",
+      "publisher": "AutoGuide (Lamborghini press release reproduced in full)",
+      "title": "Lamborghini LP670 SuperVeloce",
+      "url": "https://www.autoguide.com/auto-news/2009/03/lamborghini-lp670-superveloce.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-murcielago",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lamborghini Murciélago (2001 - 2011) review",
+      "url": "https://www.evo.co.uk/lamborghini/murcielago",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-murcielago-2010",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2010 Lamborghini Murciélago",
+      "url": "https://www.kbb.com/lamborghini/murcielago/2010/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

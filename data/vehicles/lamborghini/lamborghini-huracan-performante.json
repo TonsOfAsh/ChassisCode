@@ -1,0 +1,130 @@
+{
+  "id": "lamborghini-huracan-performante",
+  "manufacturer": "Lamborghini",
+  "model": "Huracán",
+  "generation": null,
+  "variant": "Performante",
+  "subVariant": null,
+  "displayName": "Lamborghini Huracán Performante",
+  "aliases": [
+    "Huracan Performante",
+    "Huracan LP640-4 Performante",
+    "LP 640-4 Performante",
+    "ALA",
+    "LDF",
+    "2018 Huracan Performante"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2019
+    },
+    "sourceId": "kbb-huracan-2018-specs",
+    "note": "US model years, from Kelley Blue Book (a database): the 2018 Huracán specs list \"Performante Coupe 2D\" and the 2019 specs list \"Huracan Performante Coupe 2D\" (kbb-huracan-2019-specs). The existing Huracán EVO record starts with the 2020 model year. The Performante Spyder is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-huracan-2018-specs",
+    "note": "Coupe; \"Performante Spyder Convertible 2D\" is listed separately."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "evo-performante",
+      "note": "Evo spec table: \"V10, 5204cc\""
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "evo-performante",
+      "note": "5,204 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "carmag-performante",
+      "note": "\"5,2-litre, ten-cylinder\" engine with no forced induction (naturally aspirated V10)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "carmag-performante"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "carmag-performante",
+    "note": "\"all-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "carmag-performante",
+    "note": "\"seven-speed dual clutch transmission\" (Lamborghini LDF). No manual."
+  },
+  "powerHp": {
+    "value": 631,
+    "sourceId": "cd-performante",
+    "note": "Quote (Car and Driver specifications block, Jared Gall, 23 February 2018, republished by Yahoo Autos): \"Power: 631 hp @ 8000 rpm\". Evo's spec table agrees: \"631bhp @ 8000rpm\" (evo-performante). Lamborghini's rating is the metric 640 CV (carmag: \"470 kW at 8 000 r/min\", carmag-performante); 640 x 0.98632 = 631 hp, so powerStandard is DIN PS. KBB prints 640 for 2018 and 631 for 2019, the same rating in different units. No Lamborghini page stating the rating could be opened (media.lamborghini.com redirects)."
+  },
+  "weightLb": {
+    "value": 3047,
+    "sourceId": "evo-performante",
+    "note": "DRY weight (step 4): no curb weight for the standard car, and no optioned-car curb weight, was found from Lamborghini or a major magazine spec panel. Quote (Evo spec table, Ethan Jupp, David Vivian, Adam Towler): \"Weight | 1382kg (dry) (464bhp/ton)\". 1,382 x 2.20462 = 3,047 lb. CarMag: \"dry weight is a claimed 1 382 kg\" (carmag-performante). Car and Driver's \"Curb weight: 3429 lb\" is the weight of its test car and is not used (cd-performante). Evo does not say whether the dry figure is with options."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cd-performante",
+      "type": "publication",
+      "publisher": "Car and Driver (republished by Yahoo Autos)",
+      "title": "2018 Lamborghini Huracán Performante",
+      "url": "https://autos.yahoo.com/2018-lamborghini-huracan-performante-153500211.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-performante",
+      "type": "publication",
+      "publisher": "Evo (Ethan Jupp, David Vivian, Adam Towler)",
+      "title": "Lamborghini Huracán Performante (2017-2019) review",
+      "url": "https://www.evo.co.uk/lamborghini/huracan/19398/lamborghini-huracan-performante-2017-2019-review-the-wild-alternative-to",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carmag-performante",
+      "type": "publication",
+      "publisher": "CAR magazine South Africa",
+      "title": "Lamborghini Huracán Performante roars in Geneva",
+      "url": "https://www.carmag.co.za/news/new-models/lamborghini-huracan-perfomante-roars-in-geneva/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-huracan-2018-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2018 Lamborghini Huracán specs",
+      "url": "https://www.kbb.com/lamborghini/huracan/2018/specs",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-huracan-2019-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Lamborghini Huracán specs",
+      "url": "https://www.kbb.com/lamborghini/huracan/2019/specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

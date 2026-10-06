@@ -1,0 +1,117 @@
+{
+  "id": "ford-mustang-boss-429-1st-gen",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "1st gen",
+  "variant": "Boss 429",
+  "subVariant": null,
+  "displayName": "Ford Mustang Boss 429 (1st gen)",
+  "aliases": [
+    "Boss 429",
+    "1969 Boss 429",
+    "1970 Boss 429",
+    "429 Boss",
+    "Toploader",
+    "Semi-Hemi",
+    "Kar Kraft"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1969,
+      "endYear": 1970
+    },
+    "sourceId": "silodrome-boss-429",
+    "note": "US model years 1969-1970. Quote (Silodrome, Ben Branch): \"Production totaled about 1,359 cars—859 in 1969 and 499 in 1970\". Encycarpedia: production years 1969, 1970 (encycarpedia-boss-429)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "silodrome-boss-429",
+    "note": "SportsRoof fastback (counted as Coupe)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "supercars-boss-429",
+      "note": "429 V8"
+    },
+    "displacementL": {
+      "value": 7.0,
+      "sourceId": "supercars-boss-429",
+      "note": "\"7030 cc / 429.0 in³\""
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "silodrome-boss-429",
+      "note": "No forced induction; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "silodrome-boss-429"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "silodrome-boss-429",
+    "note": "Front-engine, rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual"
+    ],
+    "sourceId": "silodrome-boss-429",
+    "note": "\"Every Boss 429 came with a close-ratio Toploader 4-speed manual\"."
+  },
+  "powerHp": {
+    "value": 375,
+    "sourceId": "silodrome-boss-429",
+    "note": "PROVISIONAL (articles and a database, no Ford document opened). Manufacturer rating as published in the period: SAE gross (pre-1972 US practice; powerStandard \"Other\"). Quote (Silodrome, Ben Branch): \"Ford rated the 429 V8 at 375 bhp and 450 lb-ft\". Supercars.net (Nick Dellis): \"279.6 kw / 374.9 bhp @ 5200 rpm\" (supercars-boss-429). Encycarpedia: \"375 BHP @ 5,200 RPM\" (encycarpedia-boss-429)."
+  },
+  "weightLb": {
+    "value": 3530,
+    "sourceId": "supercars-boss-429",
+    "note": "PROVISIONAL (enthusiast page and a database). Quote (Supercars.net, Nick Dellis, 1969 Boss 429): \"Curb Weight | 1601 kg / 3530 lbs\". Encycarpedia: \"Kerb Weight 1,590 kg\" = 3,505 lb (encycarpedia-boss-429), 0.7% lower. 4-speed manual (the only transmission)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1969,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "silodrome-boss-429",
+      "type": "publication",
+      "publisher": "Silodrome",
+      "title": "1969 Ford Mustang Boss 429 (Ben Branch)",
+      "url": "https://silodrome.com/1969-ford-mustang-boss-429/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-boss-429",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "1969 Ford Mustang BOSS 429 (Nick Dellis)",
+      "url": "https://www.supercars.net/blog/1969-ford-mustang-boss-429",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "encycarpedia-boss-429",
+      "type": "database",
+      "publisher": "Encycarpedia",
+      "title": "1969 Ford Mustang Boss 429 Specs",
+      "url": "https://www.encycarpedia.com/ford/69-mustang-boss-429-fastback",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (375 hp SAE gross) rests on Silodrome, Supercars.net and Encycarpedia, agreeing; weight (3,530 lb) rests on Supercars.net and Encycarpedia (3,505 lb), 0.7% apart. A Ford 1969 specification or a major magazine spec panel for the Boss 429 would replace them."
+}

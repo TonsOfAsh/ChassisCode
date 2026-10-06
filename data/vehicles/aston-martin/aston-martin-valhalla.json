@@ -1,0 +1,113 @@
+{
+  "id": "aston-martin-valhalla",
+  "manufacturer": "Aston Martin",
+  "model": "Valhalla",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin Valhalla",
+  "aliases": [
+    "Aston Valhalla",
+    "AM-RB 003",
+    "2026 Valhalla"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2026,
+      "endYear": null
+    },
+    "sourceId": "motorauthority-valhalla-2026",
+    "note": "US model years. Motor Authority (Viknesh Vijayenthiran, 11 December 2024): 'The striking mid-engine supercar will arrive in the U.S. as a 2026 model', 'deliveries set to begin in the second half of 2025'. Aston (am-valhalla-release-2024): 'Production due to start in Q2 2025', 'first deliveries of the limited 999 units to commence in H2 2025'. Still in production; endYear null."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "am-valhalla-release-2024",
+    "note": "Mid-engined two-seat coupe ('supercar')."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "am-valhalla-release-2024",
+      "note": "'flat plane crank 4.0-litre twin-turbo V8 engine'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "evo-valhalla-review",
+      "note": "3,982 cc (Evo panel: 'V8, 3982cc, twin-turbo, plus three e-motors'). Aston: '4.0-litre twin-turbo V8' (am-valhalla-release-2024)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "am-valhalla-release-2024",
+      "note": "'4.0-litre twin-turbo V8'"
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "am-valhalla-release-2024",
+    "note": "'1079PS / 1100Nm PHEV powertrain'; 14 km Pure EV range."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "motorauthority-valhalla-2026",
+    "note": "Three electric motors: 'two driving the front wheels independently and one positioned between the V-8 and' the transmission; Aston: 'torque-vectoring front axle e-motors' (am-valhalla-release-2024). The front axle is electrically driven, so the car is AWD."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "am-valhalla-release-2024",
+    "note": "'all-new 8-speed Dual Clutch Transmission' with integrated e-motor."
+  },
+  "powerHp": {
+    "value": 1064,
+    "sourceId": "am-valhalla-release-2024",
+    "note": "Quote (Aston Martin, 11 December 2024): \"1079PS / 1100Nm PHEV powertrain combines bespoke 828PS flat plane crank 4.0-litre twin-turbo V8 engine with three E-motors delivering a further 251PS\". 1,079 PS x 0.98632 = 1,064.2 hp, rounded to 1,064 (combined system output). Motor Authority (motorauthority-valhalla-2026): \"The Valhalla produces a combined 1,064 hp\"; Evo panel (evo-valhalla-review): \"1064bhp (total)\"."
+  },
+  "weightLb": {
+    "value": 3649,
+    "sourceId": "am-valhalla-release-2024",
+    "note": "Dry weight (weight-order step 4): Aston publishes no curb weight, and Evo (evo-valhalla-review) writes: \"Aston Martin quotes the Valhalla's overall dry weight as 1655kg, and does not communicate a with-fluids figure.\" Quote (Aston Martin): \"dry lightweight mass of 1655kg\". Motor Authority (motorauthority-valhalla-2026): \"Aston Martin lists a dry weight of 3,648 pounds when equipped with lightweight options\". 1,655 kg x 2.20462 = 3,648.6 lb, rounded to 3,649 (Motor Authority truncates to 3,648). The figure is for a car with lightweight options; a standard car is somewhat heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "am-valhalla-release-2024",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "Valhalla: The ultimate driver's supercar (11 December 2024)",
+      "url": "https://media.astonmartin.com/valhalla-the-ultimate-drivers-supercar/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-valhalla-2026",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2026 Aston Martin Valhalla ready for production with 1,064 hp (11 December 2024)",
+      "url": "https://www.motorauthority.com/news/1145252_2026-aston-martin-valhalla-price",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-valhalla-review",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Aston Martin Valhalla review (James Taylor, 29 March 2026)",
+      "url": "https://www.evo.co.uk/aston-martin/valhalla",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

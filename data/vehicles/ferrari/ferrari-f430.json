@@ -1,0 +1,122 @@
+{
+  "id": "ferrari-f430",
+  "manufacturer": "Ferrari",
+  "model": "F430",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari F430",
+  "aliases": [
+    "430",
+    "Ferrari 430",
+    "F430 Berlinetta",
+    "F430 F1"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2009
+    },
+    "sourceId": "classic-f430-coupe",
+    "note": "US model years. Classic.com: 'The base model Ferrari F430 Berlinetta (Type F131) was produced for model years 2005 to 2009', with US-market 2005 cars listed (e.g. VIN ZFFEW58A350141572, Newport Beach, CA). Hagerty's valuation tool (hagerty-f430) lists model years 2005 to 2009; KBB (kbb-f430) lists 2006 to 2009 with 2009 as the latest. Evo: 'launched in the autumn of 2004'. The F430 Spider and 430 Scuderia are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "classic-f430-coupe",
+    "note": "Two-seat mid-engined berlinetta; the open car is the separately named F430 Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "evo-f430",
+      "note": "Evo panel: 'Engine | V8, 4308cc'"
+    },
+    "displacementL": {
+      "value": 4.3,
+      "sourceId": "evo-f430",
+      "note": "4,308 cc. Evo panel: 'V8, 4308cc'"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-f430",
+      "note": "No forced induction is mentioned; inferred from the description of the 4.3-litre V8."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-f430",
+    "note": "Petrol V8; fuel type inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-f430",
+    "note": "Evo panel: 'Six-speed manual or F1 automated manual, rear-wheel drive, E-Diff'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "evo-f430",
+    "note": "Evo panel: 'Transmission | Six-speed manual or F1 automated manual, rear-wheel drive, E-Diff'."
+  },
+  "powerHp": {
+    "value": 483,
+    "sourceId": "evo-f430",
+    "note": "Quote (Evo specification panel, Peter Tomalin, 24 Jan 2020): \"Max power | 483bhp @ 8500rpm\". Ferrari rates power in cv; Evo's figure is that metric rating expressed in bhp, so powerStandard is DIN PS. The cv figure itself was not seen on an opened page (the ferrari.com F430 page opened gives no numbers). No separate US SAE rating was found."
+  },
+  "weightLb": {
+    "value": 3194,
+    "sourceId": "evo-f430",
+    "note": "1,449 kg x 2.20462 = 3,194 lb. Quote (Evo specification panel): \"Weight | 1449kg (339bhp/ton)\" (repeated on a second request). Step 2 of the weight order (a major magazine's specification panel): no Ferrari curb weight was found on an opened page. The panel does not say which gearbox or options, nor whether the figure is a kerb weight, though its power-to-weight figure is computed from it; European-specification figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "evo-f430",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari F430 used buying guide",
+      "url": "https://www.evo.co.uk/ferrari/f430",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "classic-f430-coupe",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Ferrari F430 Berlinetta market",
+      "url": "https://www.classic.com/m/ferrari/f430/coupe/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "hagerty-f430",
+      "type": "database",
+      "publisher": "Hagerty",
+      "title": "Ferrari F430 (Hagerty Valuation Tools)",
+      "url": "https://www.hagerty.com/valuation-tools/ferrari/f430",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-f430",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari F430",
+      "url": "https://www.kbb.com/ferrari/f430/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

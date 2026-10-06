@@ -1,0 +1,150 @@
+{
+  "id": "aston-martin-db11-v12",
+  "manufacturer": "Aston Martin",
+  "model": "DB11",
+  "generation": null,
+  "variant": "V12",
+  "subVariant": null,
+  "displayName": "Aston Martin DB11 V12",
+  "aliases": [
+    "DB11",
+    "Aston DB11 V12",
+    "DB11 Launch Edition",
+    "2017 DB11",
+    "2018 DB11 V12"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2018
+    },
+    "sourceId": "edmunds-db11-2017",
+    "note": "US model years. First: Edmunds lists the 2017 DB11 '2dr Coupe (5.2L 12cyl Turbo 8A)' at '600 hp @ 6,500 rpm'; Aston's launch release (am-db11-release-2016, 1 March 2016) gives a US price of '$211,995' and says 'first deliveries of the DB11 car are scheduled to begin during the fourth quarter of 2016'. Last: Edmunds' 2018 page (edmunds-db11-2018) still lists 'a turbocharged 5.2-liter V12 engine (600 hp, 516 lb-ft)'; for 2019 (edmunds-db11-2019) the V12 is '630 hp', i.e. the separate DB11 AMR, which replaced this variant. No Aston page states the US model years."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "am-db11-release-2016",
+    "note": "2+2 coupe. The DB11 Volante is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "evo-db11-buying",
+      "note": "'V12, 5204cc, twin-turbo'"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "evo-db11-buying",
+      "note": "5,204 cc (Evo: 'V12, 5204cc, twin-turbo'; Aston: '5204cc', am-db11-release-2016)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "am-db11-release-2016",
+      "note": "'5.2-litre twin-turbo V12'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-db11-2017",
+    "note": "Petrol V12; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "am-db11-release-2016",
+    "note": "'Front mid-mounted engine, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "am-db11-release-2016",
+    "note": "'Rear mid-mounted ZF eight-speed automatic gearbox with electronic shift-by-wire control system'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 600,
+    "sourceId": "am-db11-release-2016",
+    "note": "Quote (Aston Martin launch release): \"Maximum power: 447kW (600bhp / 608PS) at 6500 rpm\". 608 PS x 0.98632 = 599.7 hp, rounded to 600. Edmunds gives the US 2017 car '600 hp @ 6,500 rpm' (edmunds-db11-2017); Evo's panel (evo-db11-buying) gives '600bhp @ 6500rpm'. The 2019-on V12 car is the separate DB11 AMR (630 bhp)."
+  },
+  "weightLb": {
+    "value": 4123,
+    "sourceId": "evo-db11-buying",
+    "note": "Step 2 of the weight order (major magazine specification panel; Aston publishes only a dry weight). Quote (Evo specs table, 'Aston Martin DB11' column): \"Weight | 1870kg\". 1,870 kg x 2.20462 = 4,122.6 lb, rounded to 4,123. Evo's panel does not say kerb or dry; it is read as a kerb figure because it is exactly 100 kg above Aston's quoted dry weight ('1770 kg dry weight', am-db11-release-2016) and Evo labels dry figures '(dry)' elsewhere. Standard (only) transmission: 8-speed automatic."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "am-db11-release-2016",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (press release hosted on SlideShare)",
+      "title": "Aston Martin DB11 press release (1 March 2016)",
+      "url": "https://www.slideshare.net/slideshow/aston-martin-db11-press-releae/58930684",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-db11-buying",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Aston Martin DB11 (Yousuf Ashraf and Ethan Jupp, 18 November 2025)",
+      "url": "https://www.evo.co.uk/aston-martin/db11",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-db11-2017",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2017 Aston Martin DB11 Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/db11/2017/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-db11-2018",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2018 Aston Martin DB11",
+      "url": "https://www.edmunds.com/aston-martin/db11/2018/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-db11-2019",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2019 Aston Martin DB11",
+      "url": "https://www.edmunds.com/aston-martin/db11/2019/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4123,
+          "sourceId": "evo-db11-buying"
+        },
+        {
+          "value": 3902,
+          "sourceId": "am-db11-release-2016"
+        },
+        {
+          "value": 3902,
+          "sourceId": "edmunds-db11-2017"
+        }
+      ],
+      "reason": "Kerb vs dry. Aston's release gives '1770 kg dry weight' (3,902 lb). Edmunds lists 'Curb Weight: 3,902 lbs.', which is Aston's dry figure converted, not a curb weight. Evo's panel gives 1,870 kg, 100 kg above the dry figure.",
+      "resolution": "Used Evo's panel figure as the standard car's kerb weight (step 2), which ranks above a dry weight (step 4)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

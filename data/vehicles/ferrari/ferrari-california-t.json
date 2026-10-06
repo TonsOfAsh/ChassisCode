@@ -1,0 +1,162 @@
+{
+  "id": "ferrari-california-t",
+  "manufacturer": "Ferrari",
+  "model": "California T",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari California T",
+  "aliases": [
+    "California",
+    "Ferrari California T",
+    "F149M",
+    "HELE"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2018
+    },
+    "sourceId": "kbb-california",
+    "note": "US model years. KBB's California listing links model years 2009 to 2018; its 2015 page is headed 'Used 2015 Ferrari California' with the trim 'T Convertible 2D' (kbb-california-2015) and its 2018 car is the 'California T Convertible 2D', while 'years 2014 and 2013 are know as California 30'. Revealed at Geneva in March 2014 (justcars-californiat); the Australian launch was in 2014 (carshowroom-californiat). The earlier naturally aspirated California is a separate car. Body: the owner confirmed on 5 October 2026 that 'Convertible' is right for the California T (2+2 with a folding hard-top, no coupe version)."
+  },
+  "body": {
+    "value": [
+      "Convertible"
+    ],
+    "sourceId": "kbb-california-2015",
+    "note": "KBB: trim 'T Convertible 2D' (kbb-california-2015); Top Gear: '2dr' (topgear-californiat-spec). A 2+2 with a folding hard top and no fixed-roof version. 'Convertible' is used because the guide's 'Roadster' is defined as a two-seat car; see reviewNotes."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "justcars-californiat",
+      "note": "Ferrari specification as printed by Just Cars: 'direct-injection 90 V8'"
+    },
+    "displacementL": {
+      "value": 3.9,
+      "sourceId": "justcars-californiat",
+      "note": "3,855 cc. Just Cars: '3,855 cc'; Top Gear: 'Engine Capacity: 3,855cc' (topgear-californiat-spec); Asphalte.ch: 'Displacement is 3855 cm3' (asphalte-californiat)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "evo-californiat",
+      "note": "Evo panel: 'V8, 3855cc, twin-turbocharged'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "justcars-californiat",
+    "note": "Footnote: '* With 98 octane fuel'."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "kbb-california",
+    "note": "KBB: 'Drivetrain: RWD'. Front-engined, rear-wheel drive."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "carshowroom-californiat",
+    "note": "Ferrari specification table as printed by CarShowroom: 'F1, dual clutch 7 gears + Reverse'; Just Cars: 'F1-style 7-speed dual-clutch'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 552,
+    "sourceId": "justcars-californiat",
+    "note": "Ferrari's rating is metric: 560 cv x 0.98632 = 552.3, rounded to 552 hp. Quote (Ferrari specification as printed by Just Cars): \"Maximum power * 412 kW (560 cv) at 7500 rpm\" (reproduced on a second request), footnote '* With 98 octane fuel'. CarShowroom's printed Ferrari table: 'Maximum power* | 412 kW (560 cv) @ 7500 rpm' (carshowroom-californiat). Evo's panel prints '553bhp @ 7500rpm' and KBB's US listing '553 hp @ 7500 RPM' (one horsepower apart by rounding). No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3813,
+    "sourceId": "carshowroom-californiat",
+    "note": "Ferrari's figure in pounds: 3,813 lb (1,730 kg). Quote (Ferrari specification table as printed by CarShowroom, Marc Greig, 18 June 2014): \"Kerb weight** | 3813 lb\", beside \"Dry weight** | 3582 lb\", footnote \"** With lightweight optional equipment\" (reproduced on a second request). The same table supplies the power and transmission entries. KBB's US listing for the 2018 California T Convertible 2D shows a curb weight of '3813 lbs.' (kbb-california); its 2015 page shows '3582 lbs.' (kbb-california-2015), the dry figure. Ferrari's dry weight is 1,625 kg (justcars-californiat: \"Dry weight** 1625 kg\", footnote \"** With lightweight optional equipment\"; Asphalte.ch: 'Dry weight is claimed at 1625kg'); the kerb figure is exactly 105 kg above it. Top Gear's auto-filled spec page prints 'Minimum Kerbweight: 1,625kg' (topgear-californiat-spec), the dry number. Step 3 of the weight order: Ferrari's kerb weight for a car with lightweight optional equipment; no standard-car curb weight was found, and a standard car is somewhat heavier. Folding hard-top 2+2 with the 7-speed dual-clutch gearbox (the only configuration)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "justcars-californiat",
+      "type": "publication",
+      "publisher": "Just Cars (Mike Ryan)",
+      "title": "Ferrari's new California T",
+      "url": "https://www.justcars.com.au/news-and-reviews/ferrari-s-new-california-t/12513",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carshowroom-californiat",
+      "type": "publication",
+      "publisher": "CarShowroom (Marc Greig)",
+      "title": "2015 Ferrari California T Launched in Australia",
+      "url": "https://carshowroom.com.au/news/2015-ferrari-california-t-launched-in-australia",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "asphalte-californiat",
+      "type": "publication",
+      "publisher": "Asphalte.ch (J-C Etter)",
+      "title": "Ferrari California T",
+      "url": "https://www.asphalte.ch/news/2014/02/ferrari-california-t-en/amp/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-californiat",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari California T review - Is the California T a true Ferrari?",
+      "url": "https://www.evo.co.uk/ferrari/california-t",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-californiat-spec",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Ferrari California T 2dr Auto [HELE] specifications",
+      "url": "https://www.topgear.com/car-reviews/ferrari/california-t/t-2dr-auto-hele/spec",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-california",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2018 Ferrari California (model year listing and specifications)",
+      "url": "https://www.kbb.com/ferrari/california/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-california-2015",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2015 Ferrari California (T Convertible 2D)",
+      "url": "https://www.kbb.com/ferrari/california/2015/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,813 lb (1,730 kg) kerb, with lightweight optional equipment",
+          "sourceId": "carshowroom-californiat"
+        },
+        {
+          "value": "1,625 kg (3,583 lb) dry, with lightweight optional equipment",
+          "sourceId": "justcars-californiat"
+        }
+      ],
+      "reason": "Dry vs kerb. Ferrari's specification gives both; the kerb figure is 105 kg above the dry one. KBB's 2015 page shows the dry figure (3,582 lb) as curb weight, its 2018 page the kerb figure (3,813 lb).",
+      "resolution": "Used the kerb figure under weight step 3 (an optioned car's curb weight), since a curb weight ranks above a dry weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

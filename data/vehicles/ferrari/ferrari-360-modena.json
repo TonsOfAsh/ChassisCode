@@ -1,0 +1,150 @@
+{
+  "id": "ferrari-360-modena",
+  "manufacturer": "Ferrari",
+  "model": "360 Modena",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 360 Modena",
+  "aliases": [
+    "360",
+    "Ferrari 360",
+    "F131",
+    "360 F1"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2004
+    },
+    "sourceId": "classic-360",
+    "note": "US model years. Classic.com: 'The Ferrari 360 Modena - F1 is the base model coupe of the Ferrari 360, in production between 1999 to 2004'; its listings include US-market 1999 model-year cars (e.g. VIN ZFFYR51A7X0117552, sold at Barrett-Jackson, Las Vegas) and no 2005 Modena coupes. Hagerty's valuation tool (hagerty-360) lists model years 1999 to 2005 for the 360 range, which includes the Spider. MotorWeek tested a 2000 model-year car (motorweek-360). Evo: 'revealed in spring 1999 at the Geneva motor show in berlinetta form'. The 360 Spider and Challenge Stradale are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-360",
+    "note": "Two-seat mid-engined berlinetta; the open car is the separately named 360 Spider."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-360-page",
+      "note": "Ferrari: 'The longitudinally mid mounted 90 degree V8 engine'"
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "ferrari-360-page",
+      "note": "3,586 cc. Ferrari: 'had an actual cubic capacity of 3586cc'; Evo panel: 'V8, naturally-aspirated, 3586cc'"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-360",
+      "note": "Evo panel: 'Engine | V8, naturally-aspirated, 3586cc'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-360",
+    "note": "Petrol V8; fuel type inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-360",
+    "note": "Evo panel: 'Six-speed manual gearbox (F1 optional), rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "ferrari-360-page",
+    "note": "Ferrari: 'a six speed plus reverse transmission in unit with the engine. The gearbox was available with standard manual control via the traditional lever in the open gate, or an upgraded and more sophisticated version of the \"F1\" system'. The F1 paddle-shift gearbox is an automated manual."
+  },
+  "powerHp": {
+    "value": 395,
+    "sourceId": "ferrari-360-page",
+    "note": "Ferrari's rating is metric: 400 cv x 0.98632 = 395 hp. Quote (ferrari.com): \"a claimed power output of 400bhp, which equates to 112 bhp/litre\" (ferrari.com prints its cv figure as 'bhp', as on its F40 page; Evo's panel converts the same rating to 394bhp: \"Max power | 394bhp @ 8500rpm\"). US figure: MotorWeek's 2000 model-year test (motorweek-360) gives 'Horsepower: 395'. No separate SAE rating from Ferrari was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3064,
+    "sourceId": "evo-360",
+    "note": "1,390 kg x 2.20462 = 3,064 lb. Quote (Evo specification panel, Peter Tomalin, 30 Aug 2020): \"Weight (kerb) | 1390kg\". Step 2 of the weight order (a major magazine's specification-panel curb weight): no Ferrari curb weight was found on an opened page (the ferrari.com text gives no weight). The panel does not say which gearbox or options; a European-specification figure, no US-specific figure found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1999,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-360-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "360 Modena (1999)",
+      "url": "https://www.ferrari.com/en-US/auto/360-modena",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-360",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari 360 Modena: history, specs and buying guide",
+      "url": "https://www.evo.co.uk/ferrari/360/19057/ferrari-360-modena-history-specs-and-buying-guide",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorweek-360",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2000 Ferrari 360 Modena (Program #1922)",
+      "url": "https://motorweek.org/road_tests/2000_ferrari_360_modenaprogram_1922/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "classic-360",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Ferrari 360 Modena - F1 market",
+      "url": "https://www.classic.com/m/ferrari/360/modena-f1/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "hagerty-360",
+      "type": "database",
+      "publisher": "Hagerty",
+      "title": "Ferrari 360 (Hagerty Valuation Tools)",
+      "url": "https://www.hagerty.com/valuation-tools/ferrari/360",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "400 cv (395 hp)",
+          "sourceId": "ferrari-360-page"
+        },
+        {
+          "value": "394 bhp",
+          "sourceId": "evo-360"
+        },
+        {
+          "value": "395 hp",
+          "sourceId": "motorweek-360"
+        }
+      ],
+      "reason": "Rounding of the conversion from Ferrari's metric rating (400 x 0.98632 = 394.5).",
+      "resolution": "Used 395 hp: the guide's conversion rounded to the nearest whole number, which matches the US figure printed by MotorWeek."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

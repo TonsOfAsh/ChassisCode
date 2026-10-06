@@ -1,0 +1,128 @@
+{
+  "id": "rimac-nevera",
+  "manufacturer": "Rimac",
+  "model": "Nevera",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Rimac Nevera",
+  "aliases": [
+    "Nevera",
+    "Rimac Nevera",
+    "C_Two",
+    "Rimac C_Two"
+  ],
+  "country": "Croatia",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "autonext-nevera-end",
+    "note": "Calendar years, as in the Bugatti records. AutoNext (Beau Ackx, 4 Oct 2026): \"Nico Rosberg took delivery of car number one in August 2022\" and \"Rimac Automobili will stop building the Nevera once car number 71 is finished at the end of this year\" (\"the last car in December 2026\"), so still in production. Rimac (rimac-nevera-usa, 13 June 2023): \"production and deliveries of the Nevera are currently underway\" and the first US delivery. The Nevera R is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "rimac-nevera",
+    "note": "Two-seat coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "rimac-nevera",
+      "note": "\"Four independent surface-mounted, carbon-sleeve, permanent-magnet electric motors\""
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "rimac-nevera",
+      "note": "Battery EV (\"120 kWh\" battery)."
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "rimac-nevera"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "rimac-nevera",
+    "note": "\"120 kWh\" battery."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "rimac-nevera",
+    "note": "\"Four-wheel drive with software-controlled torque vectoring\""
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "rimac-nevera",
+    "note": "\"Two single speed gearboxes\" (front) and a \"Double single speed gearbox\" (rear)."
+  },
+  "powerHp": {
+    "value": 1888,
+    "sourceId": "rimac-nevera",
+    "note": "Rimac's rating is in kW: 1,408 kW x 1.34102 = 1,888 hp. Quote (rimac-automobili.com): \"Power outputs 1408 kW / 1914hp\". The 1,914 figure is metric horsepower (1,408 kW = 1,914 PS); it is converted from kW as for the Chiron. No separate US rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 5071,
+    "sourceId": "rimac-nevera",
+    "note": "Rimac's weight (step 1): 2,300 kg x 2.20462 = 5,071 lb. Quote: \"Weight 2300 kg\". Rimac does not label it curb or dry; treated as curb (a battery EV has no meaningful dry weight distinct from curb apart from fluids). Single configuration."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "rimac-nevera",
+      "type": "manufacturer",
+      "publisher": "Rimac Automobili",
+      "title": "Nevera",
+      "url": "https://www.rimac-automobili.com/nevera/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rimac-nevera-usa",
+      "type": "manufacturer",
+      "publisher": "Rimac Newsroom",
+      "title": "First Customer Rimac Nevera Lands in the USA (June 13, 2023)",
+      "url": "https://www.rimac-newsroom.com/press-releases/rimac-nevera/first-customer-rimac-nevera-lands-in-the-usa",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autonext-nevera-end",
+      "type": "publication",
+      "publisher": "AutoNext (Beau Ackx)",
+      "title": "Rimac Nevera production ends at 71 cars, less than half the plan",
+      "url": "https://www.autonext.co/news/rimac-nevera-production-ends-71-cars-nevera-r-20-of-40-planned-190",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "1408 kW / 1914hp",
+          "sourceId": "rimac-nevera"
+        },
+        {
+          "value": 1888,
+          "sourceId": "rimac-nevera"
+        }
+      ],
+      "reason": "Units: Rimac's \"1914hp\" is metric horsepower (PS); 1,408 kW is 1,888 hp.",
+      "resolution": "Stored 1,888 hp from Rimac's kW figure, per the guide's kW conversion (as for the Chiron)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

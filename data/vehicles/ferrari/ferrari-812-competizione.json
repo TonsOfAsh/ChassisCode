@@ -1,0 +1,121 @@
+{
+  "id": "ferrari-812-competizione",
+  "manufacturer": "Ferrari",
+  "model": "812 Competizione",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 812 Competizione",
+  "aliases": [
+    "812 Comp",
+    "812C",
+    "Ferrari 812 Competizione"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2023
+    },
+    "sourceId": "kbb-812comp",
+    "note": "US model years. KBB's 812 Competizione listing is headed 'Used 2023 Ferrari 812 Competizione' and links a 2022 model year. Revealed in May 2021 (Ferrari specification sheet rehosted by Auto International, May 2021). Limited series. The open 812 Competizione A is a separate car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carmag-812comp",
+    "note": "Two-seat front-engined V12 berlinetta; the targa-topped 812 Competizione A is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "ferrari-812comp-spec",
+      "note": "Ferrari: 'V12 - 65°'"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "ferrari-812comp-spec",
+      "note": "6,496 cc. Ferrari: 'Overall displacement 6496 cc'; PistonHeads: 'Engine: 6496cc V12' (pistonheads-812comp)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "carmag-812comp",
+      "note": "CAR specs panel: '6496cc 48v naturally-aspirated V12'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-812comp-spec",
+    "note": "Footnote: 'With 98 octane-rated petrol'."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carmag-812comp",
+    "note": "CAR specs panel: 'Transmission: Seven-speed twin-clutch, rear-wheel drive' (the car has four-wheel steering, not four-wheel drive)."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "ferrari-812comp-spec",
+    "note": "Ferrari: '7-speed F1 DCT'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 819,
+    "sourceId": "ferrari-812comp-spec",
+    "note": "Ferrari's rating is metric: 830 cv x 0.98632 = 818.6, rounded to 819 hp. Quote (Ferrari specification sheet as rehosted by Auto International): \"Max. power output**: 610 kW (830 cv) at 9,250 rpm\", footnote 'With 98 octane-rated petrol and 5 cv of dynamic ram effect'. CAR's panel prints '819bhp @ 9250rpm' (carmag-812comp); PistonHeads 'Power (hp): 830@9,250rpm'. KBB's 2022 spec page shows '789 @ 8500 RPM', the 812 Superfast's figure, and is disregarded. No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3278,
+    "sourceId": "ferrari-812comp-spec",
+    "note": "DRY weight: 1,487 kg x 2.20462 = 3,278.3, rounded to 3,278 lb. Quote (Ferrari specification sheet): \"Dry weight 1,487 kg\", footnote 'With optional equipment'. CAR's panel and text agree ('1487kg dry weight', carmag-812comp), as does PistonHeads ('Weight: 1.487kg (dry weight)', pistonheads-812comp). No kerb weight was found: Ferrari's sheet gives none, and the Top Gear and CAR reviews opened print none. Step 4 of the weight order (manufacturer dry weight), and the dry figure is itself for a car with optional (lightweight) equipment, so a standard car is heavier. Autocar's specification panel is reported to read 'Kerb weight 1487kg (dry, 1700kg est fuelled)'; that page returned an error (HTTP 402) and could not be opened here, so it is not cited. In any case its 1,487 kg is labelled dry and its 1,700 kg is Autocar's own estimate of a fuelled car, not a published kerb weight, so neither qualifies at steps 1 to 3."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-812comp-spec",
+      "type": "manufacturer",
+      "publisher": "Ferrari (specification sheet rehosted by Auto International, Malaysia)",
+      "title": "812 Competizione and 812 Competizione A specs (May 2021)",
+      "url": "https://autointernational.com.my/WebNews/Overseas/Year%202021/May%2021/Ferrari%20812%20Competizione%20and%20812%20Competizione%20A%20%20-%20%2019%20May%2021/812%20COMPETIZIONE%20AND%20812%20COMPETIZIONE%20A.%20specs.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carmag-812comp",
+      "type": "publication",
+      "publisher": "CAR Magazine",
+      "title": "Ferrari 812 Competizione (2021) review: super, faster",
+      "url": "https://carmagazine.co.uk/car-reviews/ferrari/812-competizione",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "pistonheads-812comp",
+      "type": "publication",
+      "publisher": "PistonHeads",
+      "title": "2021 Ferrari 812 Competizione | PH Review",
+      "url": "https://www.pistonheads.com/news/ph-driven/2021-ferrari-812-competizione-ph-review/44909",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-812comp",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2023 Ferrari 812 Competizione (model year listing)",
+      "url": "https://www.kbb.com/ferrari/812-competizione/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

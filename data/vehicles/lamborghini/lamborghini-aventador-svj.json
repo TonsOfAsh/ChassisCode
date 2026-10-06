@@ -1,0 +1,141 @@
+{
+  "id": "lamborghini-aventador-svj",
+  "manufacturer": "Lamborghini",
+  "model": "Aventador",
+  "generation": null,
+  "variant": "SVJ",
+  "subVariant": null,
+  "displayName": "Lamborghini Aventador SVJ",
+  "aliases": [
+    "Aventador LP 770-4 SVJ",
+    "LP 770-4",
+    "Aventador SVJ Coupe",
+    "Superveloce Jota",
+    "SVJ 63",
+    "ISR",
+    "2019 Aventador SVJ",
+    "2020 Aventador SVJ",
+    "2021 Aventador SVJ"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2021
+    },
+    "sourceId": "kbb-aventador-2019",
+    "note": "US model years, from Kelley Blue Book (a database). First: KBB's 2019 Aventador lists \"SVJ Coupe 2D\" and says \"There's a new ultra-performance Aventador SVJ model for 2019\". Last: KBB's 2021 Aventador lists \"SVJ Coupe 2D\" (kbb-aventador-2021); its 2022 Aventador lists only \"Ultimae Coupe 2D\" and \"Ultimae Convertible 2D\" (kbb-aventador-2022). Lamborghini's release (motor1-aventador-svj-release): \"The first customers will take delivery of the new Lamborghini Aventador SVJ at the beginning of 2019\"; \"Production is limited to 900 units\". The SVJ Roadster is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "motor1-aventador-svj-release",
+    "note": "Two-door coupe. The Aventador SVJ Roadster is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "lambo-aventador-svj-history",
+      "note": "Lamborghini: V12, \"Displacement: 6,498 cm³\""
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "lambo-aventador-svj-history",
+      "note": "6,498 cc (\"Displacement: 6,498 cm³\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-aventador-svj",
+      "note": "Evo panel: \"Engine | 6.5-litre naturally aspirated V12\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-aventador-svj-history"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "motor1-aventador-svj-release",
+    "note": "Lamborghini release: four-wheel drive (permanent) with rear-wheel steering (LRS)."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "motor1-aventador-svj-release",
+    "note": "Lamborghini release (motor1-aventador-svj-release): \"optimized seven-speed Independent Shifting Road (ISR) gearbox\". ISR is a single-clutch automated manual, as in the LP 700-4 record. No manual offered."
+  },
+  "powerHp": {
+    "value": 759,
+    "sourceId": "lambo-aventador-svj-history",
+    "note": "Quote (Lamborghini history page): \"Max. power: 566 kW (770 CV) at 8,500 rpm\". 770 CV x 0.98632 = 759 hp. Lamborghini's English release (motor1-aventador-svj-release) prints the metric figure as hp: \"the SVJ features an increase in power to 770 hp (566 kW) at maximum 8,500 rpm\". Evo panel (evo-aventador-svj): \"Power | 759bhp\"; KBB: \"759 horsepower\". No separate US SAE rating was found, so powerStandard is DIN PS, as in the LP 700-4 record."
+  },
+  "weightLb": {
+    "value": 3362,
+    "sourceId": "motor1-aventador-svj-release",
+    "note": "DRY weight (guide step 4). Quote (Lamborghini release of 23 August 2018 as reproduced by Motor1): \"The SVJ weight just 3,362 pounds (1,525 kilograms) dry\". 1,525 x 2.20462 = 3,362 lb. Evo spec panel (evo-aventador-svj): \"Weight | 1525kg (dry)\". No curb weight for the standard car (steps 1 and 2) and no optioned-car curb weight (step 3) was found from Lamborghini or a major magazine. No opened page says whether the dry figure assumes options. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-aventador-svj-history",
+      "type": "manufacturer",
+      "publisher": "Automobili Lamborghini",
+      "title": "Aventador SVJ (history)",
+      "url": "https://www.lamborghini.com/en-en/history/aventador-svj",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motor1-aventador-svj-release",
+      "type": "manufacturer",
+      "publisher": "Motor1 (Lamborghini press release reproduced)",
+      "title": "Lamborghini Aventador SVJ Is A 770-HP Track Monster",
+      "url": "https://www.motor1.com/news/263420/lamborghini-aventador-svj-supercar/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-aventador-svj",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lamborghini Aventador SVJ (2018 - 2022) review – old-school in the best possible way",
+      "url": "https://www.evo.co.uk/lamborghini/aventador/svj",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-aventador-2019",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2019 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2019/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-aventador-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2021/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-aventador-2022",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2022 Lamborghini Aventador",
+      "url": "https://www.kbb.com/lamborghini/aventador/2022/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

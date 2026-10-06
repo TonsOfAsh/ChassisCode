@@ -1,0 +1,149 @@
+{
+  "id": "ford-mustang-ecoboost-s550",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S550",
+  "variant": "EcoBoost",
+  "subVariant": null,
+  "displayName": "Ford Mustang EcoBoost (S550)",
+  "aliases": [
+    "Mustang EcoBoost",
+    "S550 EcoBoost",
+    "EcoBoost Mustang",
+    "2.3 EcoBoost",
+    "2015 Mustang EcoBoost",
+    "SelectShift"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "sourceId": "fordauthority-mustang-2023",
+    "note": "US model years 2015-2023. Ford announced the 2015 EcoBoost on 17 July 2014 (source ford-mustang-release-2014). Ford Authority on the 2023 car, which still offers the \"Turbocharged 2.3L I4 EcoBoost\": \"The 2023 Ford Mustang represents the ninth and final model year of the pony car's sixth generation.\" The S650 EcoBoost (2024-) is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "fordauthority-mustang-2023",
+    "note": "Ford calls the coupe the Fastback. 2023: \"Available as Fastback (body code P8T) or Convertible (body code P8U)\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "ford-mustang-release-2014",
+      "note": "\"the 2.3-liter EcoBoost engine\"; KBB: \"2.3-liter EcoBoost 4-cylinder\" (source kbb-mustang-specs-2014)."
+    },
+    "displacementL": {
+      "value": 2.3,
+      "sourceId": "ford-mustang-release-2014",
+      "note": "Ford states \"2.3-liter\". No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "ford-mustang-brochure-2015",
+      "note": "Single turbocharger. Ford brochure: \"2.3L EcoBoost: Twin-scroll turbocharger optimized for quick acceleration response\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-brochure-2015"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-release-2014",
+    "note": "Rear-wheel-drive pony car; categorical, from Ford's description of the Mustang range."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic",
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-brochure-2015",
+    "note": "2015: \"6-speed manual or SelectShift automatic transmission\" (Ford brochure; KBB: \"standard 6-speed manual transmission\" and \"optional 6-speed SelectShift automatic\", source kbb-mustang-specs-2014). From 2018 the 10-speed automatic replaced the 6-speed automatic: The Drive, \"Ford's 10-speed automatic transmission will be available in the Mustang for the first time\" (source thedrive-mustang-gt-2018). 2023: \"six-speed manual transmission or 10-speed automatic\" (source fordauthority-mustang-2023)."
+  },
+  "powerHp": {
+    "value": 310,
+    "sourceId": "ford-mustang-release-2014",
+    "note": "Quote, Ford's release of 17 July 2014: \"Producing 310 horsepower and 320 lb.- ft. of torque, the 2.3-liter EcoBoost engine fits the bill for a true Mustang powerplant\". Ford's 2015 brochure: \"310 hp and 320 lb.-ft. of torque\" (source ford-mustang-brochure-2015). The horsepower rating never changed: for 2018 \"engine output remains at 310 horsepower\" while torque rose to 350 lb-ft (source thedrive-mustang-gt-2018), and the 2023 car makes \"310 horsepower and 350 pound-feet of torque\" (source fordauthority-mustang-2023). The 2020-2023 High Performance Package (330 hp) is an option package, not a separate trim."
+  },
+  "weightLb": {
+    "value": 3532,
+    "sourceId": "motorauthority-mustang-specs-2014",
+    "note": "2015 EcoBoost fastback with the standard 6-speed manual, base curb weight as released by Ford on 17 July 2014 and reported by two independent named-author outlets (weight step 2). Quote, Motor Authority (Nelson Ireson): \"Mustang EcoBoost: 3,532 lbs (manual), 3,524 lbs (automatic)\". Quote, Torque News (Patrick Rall, source torquenews-mustang-weight-2014): \"2015 Ford Mustang EcoBoost Manual Transmission Fastback – 3,532\". Consistent with Ford's release (source ford-mustang-release-2014): \"the EcoBoost-powered fastback now carrying fewer than 11.4 pounds per horsepower\" (3,532 / 310 = 11.39). Ford's specification sheet itself could not be opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-release-2014",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (press release of 17 July 2014, reproduced in full by Automotive Addicts)",
+      "title": "2015 Ford Mustang Specs Revealed: GT Gets 435 Horsepower",
+      "url": "https://www.automotiveaddicts.com/44779/2015-ford-mustang-specs-revealed-gt-gets-435-horsepower",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ford-mustang-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by auto-brochures.com)",
+      "title": "2015 Ford Mustang brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2015.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-mustang-specs-2014",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "New 2015 Ford Mustang Specs: EcoBoost Gets 310 HP, Weighs 3,532 Lbs & More, by Nelson Ireson (July 17, 2014)",
+      "url": "https://www.motorauthority.com/news/1093331_new-2015-ford-mustang-specs-ecoboost-gets-310-hp-weighs-3532-lbs-more",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "torquenews-mustang-weight-2014",
+      "type": "publication",
+      "publisher": "Torque News",
+      "title": "The 2015 Ford Mustang Gains Way Less than 300 Pounds, by Patrick Rall (July 22, 2014)",
+      "url": "https://www.torquenews.com/106/2015-ford-mustang-gains-way-less-300-pounds",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-mustang-specs-2014",
+      "type": "publication",
+      "publisher": "Kelley Blue Book (news article by Bob Nagy, July 17, 2014)",
+      "title": "2015 Ford Mustang specs detailed",
+      "url": "https://www.kbb.com/car-news/2015-ford-mustang-specs-detailed",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "thedrive-mustang-gt-2018",
+      "type": "publication",
+      "publisher": "The Drive",
+      "title": "2018 Ford Mustang GT Makes 460 HP, Does 0-60 MPH in Under 4 Seconds, by Justin Hughes (July 24, 2017)",
+      "url": "https://www.thedrive.com/new-cars/12799/2018-ford-mustang-gt-does-0-60-in-under-4-seconds",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "fordauthority-mustang-2023",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "2023 Ford Mustang",
+      "url": "https://fordauthority.com/fmc/ford/ford-mustang/2023-ford-mustang/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

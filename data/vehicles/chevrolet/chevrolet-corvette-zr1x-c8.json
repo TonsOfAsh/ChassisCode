@@ -1,0 +1,151 @@
+{
+  "id": "chevrolet-corvette-zr1x-c8",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C8",
+  "variant": "ZR1X",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette ZR1X (C8)",
+  "aliases": [
+    "C8 ZR1X",
+    "ZR1X C8",
+    "Corvette ZR1X",
+    "ZR1X",
+    "LT7",
+    "eAWD",
+    "Hybrid Corvette",
+    "2026 Corvette ZR1X"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2026,
+      "endYear": null
+    },
+    "sourceId": "gm-zr1x-reveal",
+    "note": "US model years from 2026, still on sale. GM (17 June 2025) introduced the \"2026 Corvette ZR1X\"; chevrolet.com lists the 2027 Corvette ZR1X (chevrolet-zr1x-2027)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-zr1x-reveal",
+    "note": "\"ZR1X will be available in coupe or hardtop convertible body style\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-zr1x-reveal",
+      "note": "\"LT7 twin-turbo V8\"; front-axle electric motor."
+    },
+    "displacementL": {
+      "value": 5.5,
+      "sourceId": "gm-zr1x-reveal",
+      "note": "\"5.5-liter\" LT7; no cc figure on the pages opened (as in the Corvette ZR1 (C8) record)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "gm-zr1x-reveal",
+      "note": "\"LT7 twin-turbo V8\""
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "gm-zr1x-reveal",
+    "note": "Full hybrid (not plug-in): the twin-turbo V8 drives the rear axle and a front-axle electric motor (\"186 horsepower and 145 lb-ft\") the front."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "gm-zr1x-reveal",
+    "note": "Electrified all-wheel drive (eAWD): rear V8, front electric motor."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "gm-zr1x-reveal",
+    "note": "\"8-speed dual-clutch transmission\"; no manual."
+  },
+  "powerHp": {
+    "value": 1250,
+    "sourceId": "gm-zr1x-reveal",
+    "note": "Combined system output. Quote (GM, 17 June 2025): \"With 1,250 horsepower and electrified all-wheel drive, ZR1X is a true American hypercar\"; \"LT7 twin-turbo V8: 1,064 horsepower at 7,000 rpm\" and \"Front-axle motor: 186 horsepower and 145 lb-ft of torque\". chevrolet.com (2027): \"The Corvette ZR1X produces a combined 1,250 horsepower from its twin-turbocharged LT7 V8 engine and front electric drive unit.\" (chevrolet-zr1x-2027)."
+  },
+  "weightLb": {
+    "value": 3914,
+    "sourceId": "chevrolet-ca-zr1x-2027",
+    "note": "DRY weight (step 4), base coupe, 2027 model. Quote (Chevrolet Canada): \"The 2027 Corvette ZR1X coupe has a dry weight of 1,775 kg (3,914 lb.) with the convertible slightly heavier at 1,820 kg (4,013 lb.).\" Corvette Blogger (corvetteblogger-2027-weights, Keith Cornett, 29 Jul 2026) prints the same 3,914 lb coupe / 4,013 lb convertible dry weights from GM's 2027 Fleet Order Guide. GM Authority (gmauthority-zr1x-heaviest, George Barta, 15 Sep 2025) prints 3,914 lb for the 2026 coupe, labelled curb, as it does for Chevrolet's ZR1 dry figure. Steps 1 to 3 checked: no Chevrolet curb weight and no major magazine panel was found. chevrolet.com prints 3,978 lb for the coupe; see discrepancies. Chevrolet Canada is a Canadian page for the same car; no US Chevrolet page with 3,914 was opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2027,
+    "powerStandard": "SAE net",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-zr1x-reveal",
+      "type": "manufacturer",
+      "publisher": "General Motors (news.gm.com)",
+      "title": "Introducing the 2026 Corvette ZR1X: A true American hypercar (June 17, 2025)",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/jun/0617-2026-Corvette-ZR1X-hypercar.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "chevrolet-zr1x-2027",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (chevrolet.com)",
+      "title": "Corvette ZR1X (2027)",
+      "url": "https://www.chevrolet.com/performance/corvette/zr1x",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "chevrolet-ca-zr1x-2027",
+      "type": "manufacturer",
+      "publisher": "Chevrolet Canada (chevrolet.ca)",
+      "title": "2027 Corvette ZR1X",
+      "url": "https://www.chevrolet.ca/en/performance/corvette-zr1x",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "corvetteblogger-2027-weights",
+      "type": "publication",
+      "publisher": "Corvette Blogger (Keith Cornett)",
+      "title": "2027 Corvette Stingray Coupe with LS6 Makes Big Power, Weighs Just 26 Pounds More (July 29, 2026)",
+      "url": "https://www.corvetteblogger.com/2026/07/29/2027-corvette-stingray-coupe-with-ls6-makes-big-power-weighs-just-26-pounds-more/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmauthority-zr1x-heaviest",
+      "type": "publication",
+      "publisher": "GM Authority (George Barta)",
+      "title": "The ZR1X Is The Heaviest Corvette Ever (September 15, 2025)",
+      "url": "https://gmauthority.com/blog/2025/09/the-zr1x-is-the-heaviest-corvette-ever/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3914,
+          "sourceId": "chevrolet-ca-zr1x-2027"
+        },
+        {
+          "value": 3978,
+          "sourceId": "chevrolet-zr1x-2027"
+        }
+      ],
+      "reason": "Chevrolet's US page says \"The Corvette ZR1X coupe has a dry weight of 3,978 pounds with the convertible slightly heavier at 4,013 pounds.\" 3,978 lb is the figure GM Authority gives for the 2026 convertible, and Chevrolet Canada and GM's 2027 Fleet Order Guide (via Corvette Blogger) give the coupe 3,914 lb, so the US page appears to carry a wrong coupe figure.",
+      "resolution": "Stored 3,914 lb, given by Chevrolet Canada, GM's Fleet Order Guide and GM Authority (2026); the difference is 1.6%."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Chevrolet's own pages disagree on the coupe dry weight (US 3,978 lb, Canada 3,914 lb); 3,914 lb is stored on the weight of the other sources. A human should confirm against a GM US spec sheet. Reference year is 2027 because the first Chevrolet weight found is for 2027; GM Authority gives the same 3,914 lb for 2026.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

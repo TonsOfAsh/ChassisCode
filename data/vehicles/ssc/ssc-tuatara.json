@@ -1,0 +1,139 @@
+{
+  "id": "ssc-tuatara",
+  "manufacturer": "SSC",
+  "model": "Tuatara",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "SSC Tuatara",
+  "aliases": [
+    "SSC Tuatara",
+    "Shelby SuperCars Tuatara",
+    "2020 SSC Tuatara",
+    "5.9 twin-turbo V8",
+    "CIMA"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "sourceId": "motor1-tuatara-2020",
+    "note": "US model years from 2020 (\"2020 SSC Tuatara Debuts With 1,750 HP, Wild Looks\"). Production of customer cars began in 2019 (motorauthority-tuatara-delivery, Viknesh Vijayenthiran, 29 July 2019: \"Pre-production of the Tuatara has been up and running ... for several months\"; first delivery planned for 16 August 2019). SSC's 2018 release (ssc-tuatara-release-2018) says production is limited to a 100-unit run. No end of production was found, so endYear is null."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ssc-tuatara-model",
+    "note": "SSC spec table: \"Design Configuration\" / \"Coupe\"; two-seat mid-engined coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ssc-tuatara-model",
+      "note": "SSC spec table: \"Powertrain Configuration\" / \"Mid-Engine SSC V8\""
+    },
+    "displacementL": {
+      "value": 5.9,
+      "sourceId": "ssc-tuatara-release-2018",
+      "note": "SSC: \"Twin-turbo 5.9 liter V8\"; no cc figure found."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "ssc-tuatara-model",
+      "note": "SSC spec table: \"Turbos\" / \"Twin Turbo\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ssc-tuatara-model",
+    "note": "Flex-fuel: rated on 91-octane gasoline and on E85."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "supercars-net-tuatara",
+    "note": "Supercars.net: \"Mid-engine, rear-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "ssc-tuatara-model",
+    "note": "Quote (SSC spec table): \"Drivetrain Configuration\" / \"CIMA 7 Speed Robotized Manual\"; Motor Authority: \"seven-speed automated manual transmission\". Supercars.net (supercars-net-tuatara) wrongly calls it a \"CIMA 7-speed semi-automatic dual-clutch\"."
+  },
+  "powerHp": {
+    "value": 1750,
+    "sourceId": "ssc-tuatara-model",
+    "note": "SSC's maximum rating, on E85, stored as published (powerStandard Other; SSC does not name a standard). Quote (SSC model page): \"Horsepower [E85]\" / \"1,750 HP\"; on 91 octane: \"1350 HORSEPOWER\". SSC release (2018): \"1,750 horsepower / E85 Fuel\", \"1,350 horsepower / 91 Octane Fuel\"."
+  },
+  "weightLb": {
+    "value": 2750,
+    "sourceId": "ssc-tuatara-model",
+    "note": "DRY weight (step 4), SSC's figure in lb. Quote (SSC model page): \"Dry Weight\" / \"2750 LBS\". Motor Authority (motorauthority-tuatara-2018): \"the dry weight of the Tuatara come in at only 2,750 pounds\"; Motor1 (2020): \"dry weight of 2,750 pounds (1,247 kilograms)\". No curb weight from SSC or a major magazine was found; The Drive (James Gilboy, 16 January 2020) reported only \"an anticipated curb weight of below 3,000 pounds\". Supercars.net (supercars-net-tuatara) mislabels the same 2,750 lb as \"curb weight\"; SSC labels it dry."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "Other",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ssc-tuatara-model",
+      "type": "manufacturer",
+      "publisher": "SSC North America",
+      "title": "SSC Tuatara",
+      "url": "https://www.sscnorthamerica.com/model/tuatara",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ssc-tuatara-release-2018",
+      "type": "manufacturer",
+      "publisher": "SSC North America",
+      "title": "Tuatara Released (24 August 2018)",
+      "url": "https://sscnorthamerica.com/news/tuatara-released",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motor1-tuatara-2020",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2020 SSC Tuatara Debuts With 1,750 HP, Wild Looks",
+      "url": "https://www.motor1.com/news/397523/2020-scc-tuatara-hypercar-debuts/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-tuatara-delivery",
+      "type": "publication",
+      "publisher": "Motor Authority (Viknesh Vijayenthiran)",
+      "title": "First SSC Tuatara hypercar delivery (29 July 2019)",
+      "url": "https://www.motorauthority.com/news/1120684_first-ssc-tuatara-hypercar-delivery",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-tuatara-2018",
+      "type": "publication",
+      "publisher": "Motor Authority (Viknesh Vijayenthiran)",
+      "title": "SSC Tuatara is America's 1,750-hp all-carbon challenge to Bugatti, Koenigsegg (25 August 2018)",
+      "url": "https://www.motorauthority.com/news/1118431_ssc-tuatara-is-americas-1750-hp-all-carbon-challenge-to-bugatti-koenigsegg",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-net-tuatara",
+      "type": "publication",
+      "publisher": "Supercars.net",
+      "title": "The SSC Tuatara",
+      "url": "https://www.supercars.net/blog/?p=458952",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Production start uses model year 2020 from Motor1's headline although customer production began in 2019; whether any cars carried a 2019 model year, and whether production has ended, were not found. The Tuatara Striker and Aggressor variants are not covered.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

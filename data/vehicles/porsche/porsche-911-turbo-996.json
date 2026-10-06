@@ -1,0 +1,143 @@
+{
+  "id": "porsche-911-turbo-996",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "996",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Porsche 911 Turbo (996)",
+  "aliases": [
+    "996 Turbo",
+    "996TT",
+    "Turbo 996",
+    "2001 911 Turbo",
+    "Tiptronic S",
+    "Mezger"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2001,
+      "endYear": 2005
+    },
+    "sourceId": "kbb-911-2005-specs",
+    "note": "US model years. First: The Auto Channel's 2001 Porsche review (autochannel-2001-porsche) describes the new 911 Turbo for 2001 and KBB lists a \"911 Turbo Coupe 2D\" for 2001 (kbb-911-2001-specs). The coupe is listed through 2004 (kbb-911-2004-specs: \"2004 Porsche 911 Turbo Coupe 2D\", \"2004 Porsche 911 Turbo Cabriolet 2D\"); for 2005 KBB lists the Turbo Cabriolet 2D (and the separate Turbo S) but no non-S Turbo coupe. The Turbo S is a separate trim, not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "kbb-911-2004-specs",
+    "note": "Coupe from 2001; the Cabriolet (KBB: \"2004 Porsche 911 Turbo Cabriolet 2D\") from 2004."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "autochannel-2001-porsche",
+      "note": "\"3.6-liter twin-turbocharged horizontally-opposed six-cylinder\""
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "excellence-2001-911-turbo",
+      "note": "3,600 cc (Excellence: \"219.60 cu-in/3,600cc\")."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "autochannel-2001-porsche",
+      "note": "\"twin-turbocharged\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "autochannel-2001-porsche",
+    "note": "Petrol flat-six; inferred."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "autochannel-2001-porsche",
+    "note": "\"a sophisticated all-wheel drive system\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "autochannel-2001-porsche",
+    "note": "\"The standard transmission is a six-speed manual, but, for the first time in the Turbo, a five-speed 'Tiptronic' automatic with manual shifting is offered.\" Excellence: \"6-speed manual, 5-speed Tiptronic S\"."
+  },
+  "powerHp": {
+    "value": 415,
+    "sourceId": "autochannel-2001-porsche",
+    "note": "PROVISIONAL: a named-author publication spec line, not a Porsche page. Quote (The Auto Channel, Carey Russ): \"Peak horsepower: 415 @ 6000 rpm\". Agreeing: Excellence magazine's 2001 911 Turbo spec page \"415 @ 6000 rpm\" (excellence-2001-911-turbo), MotorWeek \"415\" (motorweek-2001-911-turbo), KBB \"415 @ 6000 RPM\" for 2001 and 2004 (kbb-911-2001-specs, kbb-911-2004-specs; database). The optional X50 power kit and the Turbo S are not part of this record."
+  },
+  "weightLb": {
+    "value": 3395,
+    "sourceId": "excellence-2001-911-turbo",
+    "note": "PROVISIONAL: an unsigned magazine spec page and a database, agreeing. Coupe, 6-speed manual. Quote (Excellence, 2001 911 Turbo Coupe): \"3,395 lbs. manual/3,494 lbs. Tiptronic S\". KBB (database) for the 2001 911 Turbo Coupe 2D: \"3395 pounds\" (kbb-911-2001-specs); KBB lists 3,388 lb for 2004 (kbb-911-2004-specs)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2001,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "autochannel-2001-porsche",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2001 Porsche 911 Turbo (Carey Russ)",
+      "url": "https://theautochannel.com/vehicles/new/2001info/porsche.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "excellence-2001-911-turbo",
+      "type": "publication",
+      "publisher": "Excellence",
+      "title": "2001 911 Turbo Coupe (996) specifications",
+      "url": "https://www.excellence-mag.com/resources/specs/72",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorweek-2001-911-turbo",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2001 Porsche 911 Turbo road test",
+      "url": "https://motorweek.org/road_tests/2001_porsche_911_turbo_program_2001",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2001-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2001 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2001/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2004-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2004 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2004/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2005-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2005 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2005/specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power and weight are provisional. Power (415 hp) rests on a named-author Auto Channel spec line, agreeing with Excellence, MotorWeek and KBB. Weight (3,395 lb, manual coupe) rests on Excellence magazine's unsigned spec page and KBB (database), agreeing. A Porsche Cars North America press kit or brochure for the 2001 911 Turbo, or a Car and Driver, Road & Track or MotorTrend spec panel, would replace both. Production years rest on KBB year listings."
+}

@@ -2,17 +2,20 @@
   "id": "audi-r8-v10-plus-4s",
   "manufacturer": "Audi",
   "model": "R8",
-  "generation": "4S",
+  "generation": "4S / 2nd gen",
   "variant": "V10 Plus",
   "subVariant": null,
-  "displayName": "Audi R8 V10 Plus (4S)",
+  "displayName": "Audi R8 V10 Plus (4S / 2nd gen)",
   "aliases": [
     "R8 V10 plus",
     "2017 R8 V10 plus",
     "R8 4S",
     "R8 Type 4S",
     "S tronic",
-    "quattro"
+    "quattro",
+    "R8 2nd gen",
+    "second gen R8",
+    "4S"
   ],
   "country": "Germany",
   "production": {

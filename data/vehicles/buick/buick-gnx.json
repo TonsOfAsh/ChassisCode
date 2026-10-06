@@ -1,0 +1,125 @@
+{
+  "id": "buick-gnx",
+  "manufacturer": "Buick",
+  "model": "GNX",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Buick GNX",
+  "aliases": [
+    "1987 GNX",
+    "Grand National Experimental",
+    "Regal GNX",
+    "Grand National",
+    "McLaren ASC",
+    "200-4R"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1987,
+      "endYear": 1987
+    },
+    "sourceId": "streetmuscle-gnx",
+    "note": "US model year 1987 only. Quote (Street Muscle, Jim Campisano): \"Buick made 547 GNXs in 1987.\" Classic Industries: \"A total of 547 GNXs were produced\", 1987 only (classicindustries-gnx)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "conceptcarz-gnx",
+    "note": "Conceptcarz page title: \"1987 Buick Regal Coupe\". Sports Car Market describes the Grand National as a \"mid-size rear-drive sedan\" (in the sense of a mid-size car); Conceptcarz is cited for the body."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "classicindustries-gnx",
+      "note": "\"3.8 Liter V6 engine\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "classicindustries-gnx",
+      "note": "\"3.8 Liter V6 engine\" (Classic Industries). Sports Car Market's \"a turbocharged 231-ci V6\" describes the earlier Grand National engine, not specifically the GNX. No opened page printed the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "scm-gnx-1987",
+      "note": "\"a special Garrett T-3 turbocharger\"; single turbo."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "scm-gnx-1987"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "scm-gnx-1987",
+    "note": "Front-engine, rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Automatic"
+    ],
+    "sourceId": "scm-gnx-1987",
+    "note": "\"Turbo Hydramatic 200-4R transmission was modified with a custom torque converter and fluid cooler.\" The four-speed count is read from the 200-4R designation; no opened page states it. Classic Industries: \"Beefed up TH200-4R transmission\"."
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "scm-gnx-1987",
+    "note": "PROVISIONAL (articles, no Buick document opened). Buick's 1987 US rating (SAE net). Quote (Sports Car Market, Tom Glatch): \"Buick rated this engine at 276 hp at 4,400 rpm, but in truth it probably produced over 300 hp.\" Street Muscle (Jim Campisano): \"Horsepower was rated at 276 and torque 360 lbs-ft.\" (streetmuscle-gnx). Classic Industries (Patrick McCarthy): \"276 horsepower\" (classicindustries-gnx). Conceptcarz (Daniel Vaughan): \"conservatively rated at 276 horsepower and 360 lb-ft of torque\" (conceptcarz-gnx)."
+  },
+  "weightLb": {
+    "value": 3545,
+    "sourceId": "streetmuscle-gnx",
+    "note": "PROVISIONAL (single article, tested-style figure). Quote (Street Muscle, Jim Campisano): \"If you use Car and Driver's times and 3,545-lb curbweight (minus driver), that's somewhere around 285-294 horsepower\". A curb weight used by Street Muscle alongside Car and Driver's times; the article does not explicitly attribute the weight. Not a Buick figure. Only one source found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1987,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "scm-gnx-1987",
+      "type": "publication",
+      "publisher": "Sports Car Market",
+      "title": "1987 Buick GNX (profile by Tom Glatch, 1 January 2015)",
+      "url": "https://www.sportscarmarket.com/profile/1987-buick-gnx",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "streetmuscle-gnx",
+      "type": "publication",
+      "publisher": "Street Muscle",
+      "title": "Buick GNX: The Legend That Outshines Reality (Jim Campisano)",
+      "url": "https://www.streetmusclemag.com/?p=2066",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "classicindustries-gnx",
+      "type": "publication",
+      "publisher": "Classic Industries",
+      "title": "Buick GNX specs (Patrick McCarthy)",
+      "url": "https://news.classicindustries.com/buick-gnx-specs",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "conceptcarz-gnx",
+      "type": "publication",
+      "publisher": "Conceptcarz",
+      "title": "1987 Buick GNX (Daniel Vaughan, February 2016)",
+      "url": "https://www.conceptcarz.com/profile/23747,10979/news.aspx",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight is a single article's curb weight used alongside Car and Driver's test times, not explicitly attributed; a Buick 1987 GNX specification or a major magazine spec panel should confirm it. The transmission speed count (4) is read from the 200-4R name, not stated on an opened page.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (276 hp) rests on four articles agreeing (Sports Car Market, Street Muscle, Classic Industries, Conceptcarz); weight (3,545 lb) rests on a single article (Street Muscle) that uses it alongside Car and Driver's times. A Buick 1987 GNX press release or specification, or a major magazine spec panel, would replace them."
+}

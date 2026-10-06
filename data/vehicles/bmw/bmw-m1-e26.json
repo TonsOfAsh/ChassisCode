@@ -1,0 +1,111 @@
+{
+  "id": "bmw-m1-e26",
+  "manufacturer": "BMW",
+  "model": "M1",
+  "generation": "E26",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M1 (E26)",
+  "aliases": [
+    "E26 M1",
+    "M88",
+    "BMW M1 E26"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1978,
+      "endYear": 1981
+    },
+    "sourceId": "bmw-classic-m1",
+    "note": "Calendar years. BMW Group Classic: \"1978 - 1981\". BMW press release (bmw-us-m1-30-years): 1978–1981, 445 built in total, 399 of them road cars."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-m1-30-years",
+    "note": "Mid-engined two-seat coupe with spaceframe and plastic body."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-classic-m1",
+      "note": "\"Six-cylinder in-line engine (M88)\""
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "bmw-classic-m1",
+      "note": "3,453 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "bmw-classic-m1",
+      "note": "\"four valves per cylinder and mechanical injection\"; no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-classic-m1"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-m1-30-years",
+    "note": "Mid-engine with ZF transaxle driving the rear wheels."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "bmw-us-m1-30-years",
+    "note": "\"ZF five-speed manual gearbox with integrated final drive\"; Evo: \"ZF five-speed manual, 40 per cent LSD\"."
+  },
+  "powerHp": {
+    "value": 273,
+    "sourceId": "bmw-classic-m1",
+    "note": "BMW's rating of 277 PS (204 kW) at 6,500 rpm x 0.98632 = 273 hp (204 kW x 1.34102 = 274 hp). Quote (BMW Group Classic): \"277 hp (204 kW) at 6500 rpm\"; quote (BMW press release, bmw-us-m1-30-years): \"204 kW (277 bhp)\". The kW figure shows the 277 is PS. Evo's panel (evo-bmw-m1): \"Max power: 273bhp @ 6500rpm\"."
+  },
+  "weightLb": {
+    "value": 2866,
+    "sourceId": "evo-bmw-m1",
+    "note": "Evo specification panel (step 2): 1,300 kg x 2.20462 = 2,866 lb. Quote: \"Weight (kerb): 1300kg\". No BMW weight for the road car was found on the pages opened (the BMW release gives only the Procar's 1,020 kg)."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 1978,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "bmw-classic-m1",
+      "type": "manufacturer",
+      "publisher": "BMW Group Classic",
+      "title": "BMW M1 (E26)",
+      "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-234-1.bmw-m1-e26.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bmw-us-m1-30-years",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (BMW Group PressClub USA)",
+      "title": "Icons for connoisseurs: thirty years of the BMW M1",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0017968EN_US/icons-for-connoisseurs-thirty-years-of-the-bmw-m1",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-bmw-m1",
+      "type": "publication",
+      "publisher": "Evo (John Barker, Bob Harper)",
+      "title": "BMW M1 review – the most underrated 1970s supercar?",
+      "url": "https://www.evo.co.uk/bmw/m1",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

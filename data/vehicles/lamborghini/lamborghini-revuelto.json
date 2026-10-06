@@ -1,0 +1,131 @@
+{
+  "id": "lamborghini-revuelto",
+  "manufacturer": "Lamborghini",
+  "model": "Revuelto",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Lamborghini Revuelto",
+  "aliases": [
+    "LB744",
+    "L545",
+    "HPEV",
+    "2024 Revuelto",
+    "2025 Revuelto",
+    "2026 Revuelto"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "kbb-revuelto",
+    "note": "US model years, from Kelley Blue Book (a database): its Revuelto page lists 2026, 2025 and 2024 in the year selector. Still on sale. Carscoops (carscoops-revuelto) reports the reveal on 29 March 2023."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-revuelto",
+    "note": "Two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "lambo-revuelto-page",
+      "note": "Lamborghini: \"a new V12 engine, three electric motors and a dual-clutch e-gearbox\"; Evo panel: \"Engine | 6.5-litre V12 & three electric motors\"."
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "lambo-revuelto-page",
+      "note": "6,498.5 cc (\"6498.5 cm³ (396.6 cu in)\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "topgear-revuelto",
+      "note": "Top Gear: \"The headline figures for this nat asp monster are 814bhp at 9,250rpm\"."
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "carscoops-revuelto",
+    "note": "Carscoops: \"3.8 kWh battery charges in 30 minutes using a 7 kW supply\"; Top Gear (topgear-revuelto): \"There's a 3.8kWh battery pack\"."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "carscoops-revuelto",
+    "note": "Carscoops: \"two 148 hp (150 PS) units in the nose driving the front wheels\" with the V12 and a third motor driving the rear."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "evo-revuelto",
+    "note": "Evo: \"an eight-speed DCT gearbox\"; Carscoops: \"eight-speed dual-clutch transmission\"."
+  },
+  "powerHp": {
+    "value": 1001,
+    "sourceId": "lambo-revuelto-page",
+    "note": "Combined system output. Quote (Lamborghini model page): \"Max power (combined ICE+EE): 1015 CV/ 747 kW\". 1,015 CV x 0.98632 = 1,001 hp. Evo panel (evo-revuelto): \"Power | 1001bhp\"; Carscoops (carscoops-revuelto): \"1,001 hp (1,015 PS)\"; KBB: \"Horsepower-Combined | 1001 @ 9250 RPM\". V12 alone: \"814 hp (825 PS)\" (Carscoops). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3907,
+    "sourceId": "evo-revuelto",
+    "note": "DRY weight (guide step 4). Quote (Evo spec panel, review by Richard Meaden, Jethro Bovingdon and Yousuf Ashraf): \"Weight | 1772kg (dry)\". 1,772 x 2.20462 = 3,907 lb. Carscoops (carscoops-revuelto): \"dry weight of 3,907 lbs (1,772 kg)\"; Top Gear (topgear-revuelto): \"Lamborghini claims a dry weight of 1,772kg, which means over 1,900kg with fluids.\" No curb weight for the standard car (steps 1 and 2) and no optioned-car curb weight (step 3) was found from Lamborghini or a major magazine; Lamborghini's model page gives no weight. No opened page says whether the dry figure assumes options."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-revuelto-page",
+      "type": "manufacturer",
+      "publisher": "Automobili Lamborghini",
+      "title": "Revuelto",
+      "url": "https://www.lamborghini.com/en-en/models/revuelto-models/revuelto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-revuelto",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lamborghini Revuelto review – Sant'Agata's finest and the best new supercar you can buy",
+      "url": "https://www.evo.co.uk/lamborghini/revuelto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscoops-revuelto",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "Lamborghini Unleashes New Revuelto LB744 To Hunt Down Ferraris With 1,001 Hybrid Horses",
+      "url": "https://www.carscoops.com/2023/03/1001-hp-lamborghini-lb744-revuelto-phev-can-hit-62-mph-in-2-5-seconds/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-revuelto",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Lamborghini Revuelto review",
+      "url": "https://www.topgear.com/car-reviews/lamborghini/revuelto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-revuelto",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Lamborghini Revuelto",
+      "url": "https://www.kbb.com/lamborghini/revuelto/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

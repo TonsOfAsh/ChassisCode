@@ -1,0 +1,130 @@
+{
+  "id": "mercedes-amg-one",
+  "manufacturer": "Mercedes-AMG",
+  "model": "ONE",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-AMG ONE",
+  "aliases": [
+    "AMG ONE",
+    "Project ONE",
+    "Mercedes-AMG Project ONE"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2023
+    },
+    "sourceId": "topgear-amg-one",
+    "note": "Calendar years of customer deliveries; the car was never sold in the US, so the record uses the German home market. Top Gear (Ollie Marriage): \"the first of the 275 customers receiving their £2.3m toys in autumn 2022 and the last by the end of 2023.\" Limited to 275 cars (classiccars-journal-amg-one)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "topgear-amg-one",
+    "note": "Two-seat fixed-roof hypercar; inferred from the review."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "mercedes-amg-one-site",
+      "note": "Mercedes-AMG: \"1.6-litre V6 turbo petrol engine\""
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "mb-press-amg-one-autointl",
+      "note": "1,599 cc. Mercedes-Benz press release technical data: \"Displacement | 1599 cc\"."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "topgear-amg-one",
+      "note": "\"1.6-litre single turbocharged V6\""
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "mercedes-amg-one-site",
+    "note": "Mercedes-AMG: an \"E PERFORMANCE plug-in hybrid\" system."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mb-press-amg-one-autointl",
+    "note": "Quote (Mercedes-Benz press release): \"It features the AMG Performance 4MATIC+ fully variable all-wheel drive with hybrid-driven rear axle and electrically driven front axle with torque vectoring.\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "classiccars-journal-amg-one",
+    "note": "\"7-speed automated manual gearbox\" (Mercedes-AMG site: \"automated 7-speed manual transmission\")."
+  },
+  "powerHp": {
+    "value": 1049,
+    "sourceId": "mb-press-amg-one-autointl",
+    "note": "Combined system output. Quote (Mercedes-Benz press release technical data, reproduced by Auto International): \"Max. system output | 782 kW (1063 hp)\" (the \"hp\" is PS). 782 kW x 1.34102 = 1,049 hp (1,063 PS x 0.98632 = 1,048 hp). Mercedes-AMG site: \"782/1,063 kW/hp\" (mercedes-amg-one-site). Top Gear: \"Peak combined power is a claimed 1,049bhp\" (topgear-amg-one)."
+  },
+  "weightLb": {
+    "value": 3737,
+    "sourceId": "topgear-amg-one",
+    "note": "PROVISIONAL: a single named-author article (prose, not a spec panel, and not labelled kerb or dry) with a database agreeing. Quote (Top Gear, Ollie Marriage): \"Given that the One weighs a bloated 1,695kg, it's within the clutches of a lot of less expensive cars, not least Ferrari's ballistic SF90 Stradale.\" autotijd.be (database): \"Kerb (curb) weight DIN | 1,695 kg\" (autotijd-amg-one). 1,695 kg x 2.20462 = 3,737 lb. Uncounted corroboration: ClassicCars.com Journal prints a technical-data table with \"Kerb weight according to DIN | kg | 1695\" but without byline or attribution (classiccars-journal-amg-one). Single configuration."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "mb-press-amg-one-autointl",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz (press release reproduced by Auto International, \"From Mercedes-Benz Press Release\")",
+      "title": "The new Mercedes-AMG ONE: Formula 1 technology for the road",
+      "url": "https://autointernational.com.my/Mercedes_The%20new%20Mercedes-AMG%20ONE_%20Formula%201%20technology%20for%20the%20road%20%20-%202%20July%2022.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "mercedes-amg-one-site",
+      "type": "manufacturer",
+      "publisher": "Mercedes-AMG",
+      "title": "Mercedes-AMG ONE hypercar",
+      "url": "https://www.mercedes-amg.com/en/home/vehicles/amg-one/hypercar.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "classiccars-journal-amg-one",
+      "type": "publication",
+      "publisher": "ClassicCars.com Journal",
+      "title": "Mercedes-AMG ONE Production Version Unveiled",
+      "url": "https://journal.classiccars.com/?p=267101",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-amg-one",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Mercedes-Benz AMG One review (Ollie Marriage)",
+      "url": "https://www.topgear.com/car-reviews/mercedes-benz/amg-one",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autotijd-amg-one",
+      "type": "database",
+      "publisher": "autotijd.be",
+      "title": "Mercedes AMG One V6 AWD (2022-2024) weight",
+      "url": "https://autotijd.be/en/weight/mercedes/amg-one/v6-1063-hp-awd-3534",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 1,695 kg (3,737 lb) rests on Top Gear's review prose (Ollie Marriage, one named-author article, figure not labelled kerb or dry), with autotijd.be (database) agreeing that it is a DIN kerb weight; an unattributed ClassicCars.com Journal table also shows it but is not counted. The Mercedes-Benz press release technical data with the weight row (Mercedes media site), or an Evo, Autocar or Top Gear specification panel, would replace it. Power is from the Mercedes-Benz press release."
+}

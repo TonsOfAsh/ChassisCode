@@ -1,0 +1,132 @@
+{
+  "id": "alfa-romeo-8c-competizione",
+  "manufacturer": "Alfa Romeo",
+  "model": "8C",
+  "generation": null,
+  "variant": "Competizione",
+  "subVariant": null,
+  "displayName": "Alfa Romeo 8C Competizione",
+  "aliases": [
+    "8C",
+    "Alfa 8C",
+    "8C Coupe",
+    "Alfa Romeo 8C Coupe",
+    "2008 8C Competizione"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2009
+    },
+    "sourceId": "scm-8c-profile",
+    "note": "US model years. US cars are sold as 2008 models (TTAC, SCM and Ulrich all describe the '2008 Alfa Romeo 8C Competizione'). SCM gives coupe production as \"2007–09\"; no opened page confirms a 2009 US model year, so endYear 2009 is the end of production. The 8C Spider is a separate car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "scm-8c-profile",
+    "note": "\"Only 500 Alfa 8C Competizione coupes will be built\" (egm-8c-review); \"90 for the U.S. market\" (SCM)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "evo-8c",
+      "note": "\"V8, 4691cc, 32v\""
+    },
+    "displacementL": {
+      "value": 4.7,
+      "sourceId": "evo-8c",
+      "note": "4,691 cc (\"V8, 4691cc, 32v\"); Supercar Nostalgia also \"4691cc\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-8c",
+      "note": "No forced induction listed"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-8c"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ttac-8c-rare-rides",
+    "note": "Front-engined with a rear transaxle; inferred from the descriptions"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "ttac-8c-rare-rides",
+    "note": "\"The transmission, which had six speeds, was an automated manual\". Ulrich: \"six-speed, Formula One-style automated manual transmission\". SCM calls it a \"twin-clutch transaxle\", which the other sources contradict."
+  },
+  "powerHp": {
+    "value": 444,
+    "sourceId": "ttac-8c-rare-rides",
+    "note": "PROVISIONAL (named-author articles; no manufacturer page opened). Alfa Romeo's 450 CV/PS rating converted: 450 x 0.98632 = 444 hp. Quote (TTAC, Corey Lewis): \"Power on offer was a considerable 444 horses and 354 lb-ft of torque.\" SCM (Jeff Zurschmeide): \"444 horsepower and 354 lb-ft of torque\". Evo's spec panel: \"450bhp @ 7000rpm\"; Lawrence Ulrich (US launch review): \"a new, 4.7-liter V8 with 450 horsepower\"; these print the metric figure. No US-specific rating from Alfa Romeo/Maserati North America was found."
+  },
+  "weightLb": {
+    "value": 3494,
+    "sourceId": "ttac-8c-rare-rides",
+    "note": "PROVISIONAL (one named-author article plus an enthusiast site). Quote (TTAC): \"Lighter construction methods kept weight down to 3,494 pounds.\" Supercar Nostalgia (supercarnostalgia-8c): \"The 8C Competizione weighed 1585kg\" (= 3,494 lb). SCM calls it the curb weight: \"curb weight of the 8C about a bag of doughnuts under 3,500 pounds\". Evo's text also gives 1585kg (\"helping keep the 8C's weight down to 1585kg\", evo-8c, if listed) without a label."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ttac-8c-rare-rides",
+      "type": "publication",
+      "publisher": "The Truth About Cars (Corey Lewis)",
+      "title": "Rare Rides: A 2008 Alfa Romeo 8C Competizione, Exquisitely Italian",
+      "url": "https://www.thetruthaboutcars.com/2020/07/rare-rides-a-2008-alfa-romeo-8c-competizione-exquisitely-italian/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "scm-8c-profile",
+      "type": "publication",
+      "publisher": "Sports Car Market (Jeff Zurschmeide)",
+      "title": "2008 Alfa Romeo 8C Competizione",
+      "url": "https://www.sportscarmarket.com/profile/2008-alfa-romeo-8c-competizione-2",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "egm-8c-review",
+      "type": "publication",
+      "publisher": "egmCarTech (Lawrence Ulrich)",
+      "title": "Review: 2008 Alfa Romeo 8C Competizione test drive",
+      "url": "https://www.egmcartech.com/2008/04/24/review-2008-alfa-romeo-8c-competizione-test-drive/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-8c",
+      "type": "publication",
+      "publisher": "Evo (Jethro Bovingdon)",
+      "title": "Alfa Romeo 8C Competizione",
+      "url": "https://www.evo.co.uk/alfa-romeo/8c",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercarnostalgia-8c",
+      "type": "enthusiast",
+      "publisher": "Supercar Nostalgia",
+      "title": "Alfa Romeo 8C Competizione & 8C Spider Guide",
+      "url": "https://supercarnostalgia.com/blog/alfa-romeo-8c-competizione-8c-spider",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "1) Weight 1,585 kg / 3,494 lb is called a curb weight only by Sports Car Market; no Alfa Romeo figure was opened. 2) Power: 450 CV converted to 444 hp; whether Alfa/Maserati North America published a US hp figure (Ulrich says '450 horsepower') is unconfirmed. 3) US model years beyond 2008 are unconfirmed (endYear 2009 is SCM's end of production).",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (444 hp from 450 CV) rests on TTAC and Sports Car Market (agreeing), with Evo's panel and Ulrich printing 450; weight (3,494 lb) rests on TTAC and Supercar Nostalgia (1,585 kg), basis unstated. An Alfa Romeo/Maserati press kit or a major magazine (Car and Driver, Road & Track, MotorTrend, Evo, Autocar) spec panel with a labelled weight would replace both."
+}

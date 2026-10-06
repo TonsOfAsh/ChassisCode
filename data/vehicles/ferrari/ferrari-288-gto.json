@@ -1,0 +1,128 @@
+{
+  "id": "ferrari-288-gto",
+  "manufacturer": "Ferrari",
+  "model": "288 GTO",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 288 GTO",
+  "aliases": [
+    "GTO",
+    "Ferrari GTO",
+    "288"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1984,
+      "endYear": 1986
+    },
+    "sourceId": "autosportive-288gto",
+    "note": "Calendar build years (never sold new in the US). L'Automobile Sportive (Sébastien Dupuis) heads its page 'FERRARI 288-GTO (1984 - 1986)'. Sources disagree on the last year: Conceptcarz 'During its production run from 1984 through 1985, 272 vehicles were produced' (conceptcarz-288gto); duPont Registry (Khris Bharath) 'Built between 1984 and 1987' (dupont-288gto). 272 were built (silodrome-288gto: 'Ferrari built 272 examples'). See reviewNotes. End year: sources disagree (Conceptcarz 1985, L'Automobile Sportive 1986, duPont Registry 1987); the owner accepted 1986 on 5 October 2026."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-mag-gto",
+    "note": "Two-seat mid-engined berlinetta; no open version."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-mag-gto",
+      "note": "Ferrari: 'Displacement of the V8 is actually reduced to 2.8 litres'"
+    },
+    "displacementL": {
+      "value": 2.9,
+      "sourceId": "autosportive-288gto",
+      "note": "2,855 cc. L'Automobile Sportive: 'Cylindrée: 2855 cm3'; Silodrome: 'from 2855cc' (silodrome-288gto). Ferrari's magazine calls it 2.8 litres; the guide rounds the cc figure."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "ferrari-mag-gto",
+      "note": "Ferrari: 'twin IHI turbochargers that boost with a vicious kick'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "silodrome-288gto",
+    "note": "Silodrome: 'Weber-Marelli electronic fuel injection'; petrol engine inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "autosportive-288gto",
+    "note": "L'Automobile Sportive: 'Boîte de vitesses (rapports): BVM 5 rapports, propulsion'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "ferrari-mag-gto",
+    "note": "Ferrari: 'the five-speed manual gearbox on view at the rear of the car'"
+  },
+  "powerHp": {
+    "value": 395,
+    "sourceId": "ferrari-mag-gto",
+    "note": "Home-market (European) rating, metric: 400 CV x 0.98632 = 394.5, rounded to 395 hp. Quote (Ferrari magazine): \"The result is a brutal 400 CV punch in a feathery body weighing just 1160kg before fluids\" (reproduced on a second request). L'Automobile Sportive: 'Puissance: 400 ch à 7000 tr/mn'. Never sold new in the US, so the home-market rating is used."
+  },
+  "weightLb": {
+    "value": 2557,
+    "sourceId": "ferrari-mag-gto",
+    "note": "DRY weight: 1,160 kg x 2.20462 = 2,557.4, rounded to 2,557 lb. Quote (Ferrari magazine): \"a feathery body weighing just 1160kg before fluids\". Silodrome (Ben Branch): 'total weight of 1160 kgs (2557.4 lbs)' (silodrome-288gto); duPont Registry: 'Around 1,160 kilograms (2,557 pounds)' on a dry basis (dupont-288gto); L'Automobile Sportive: 'Données constructeur (kg): 1160'. No kerb weight was found in a manufacturer page or a major magazine panel (Evo's 288 GTO page could not be found). Step 4 of the weight order (manufacturer dry weight)."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 1984,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "ferrari-mag-gto",
+      "type": "manufacturer",
+      "publisher": "Ferrari (Ferrari Magazine)",
+      "title": "Honouring a legend: the Ferrari GTO",
+      "url": "https://www.ferrari.com/magazine/articles/honouring-a-legend-the-ferrari-gto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autosportive-288gto",
+      "type": "publication",
+      "publisher": "L'Automobile Sportive (Sébastien Dupuis)",
+      "title": "Ferrari 288 GTO",
+      "url": "https://www.automobile-sportive.com/guide/ferrari/288gto.php",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "silodrome-288gto",
+      "type": "publication",
+      "publisher": "Silodrome (Ben Branch)",
+      "title": "A Brief History of the Ferrari 288 GTO",
+      "url": "https://silodrome.com/ferrari-288gto/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "dupont-288gto",
+      "type": "publication",
+      "publisher": "duPont Registry (Khris Bharath)",
+      "title": "Market Spotlight: Ferrari 288 GTO",
+      "url": "https://news.dupontregistry.com/blogs/features/market-spotlight-ferrari-288-gto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "conceptcarz-288gto",
+      "type": "database",
+      "publisher": "Conceptcarz",
+      "title": "1984 Ferrari 288 GTO",
+      "url": "https://www.conceptcarz.com/w8809/ferrari-288-gto.aspx",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

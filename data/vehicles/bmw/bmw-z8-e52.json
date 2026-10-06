@@ -1,0 +1,113 @@
+{
+  "id": "bmw-z8-e52",
+  "manufacturer": "BMW",
+  "model": "Z8",
+  "generation": "E52",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW Z8 (E52)",
+  "aliases": [
+    "E52 Z8",
+    "S62",
+    "BMW Z8 E52",
+    "Z8 Roadster",
+    "2000 BMW Z8"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2000,
+      "endYear": 2003
+    },
+    "sourceId": "scm-2001-z8",
+    "note": "US model years. Quote (Sports Car Market, Stephen Serio, 1 May 2009): \"Years produced: 2000–03\", \"Number produced: 5,703\". BMW NA's MY 2001 press kit (bmw-us-2001-z8-presskit) notes the car was \"introduced at the 1999 Frankfurt Auto Show\"."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "bmw-us-2001-z8-specs",
+    "note": "Two-seat roadster with no fixed-roof version; a removable hardtop was supplied."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "bmw-us-2001-z8-specs",
+      "note": "\"DOHC 32-valve (four-cam) V8\""
+    },
+    "displacementL": {
+      "value": 4.9,
+      "sourceId": "bmw-us-2001-z8-specs",
+      "note": "4,941 cc: \"Displacement, cu in./cc 302 / 4941\""
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "bmw-us-2001-z8-specs",
+      "note": "S62 V8, no forced induction listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2001-z8-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2001-z8-specs",
+    "note": "\"Drive system Front engine/rear drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "bmw-us-2001-z8-specs",
+    "note": "\"Getrag Type D, six-speed\"; the only transmission offered."
+  },
+  "powerHp": {
+    "value": 394,
+    "sourceId": "bmw-us-2001-z8-specs",
+    "note": "Quote (BMW NA 2001 Z8 Technical Specifications): \"Power @ rpm, hp SAE net 394 @ 6600\"."
+  },
+  "weightLb": {
+    "value": 3495,
+    "sourceId": "bmw-us-2001-z8-specs",
+    "note": "BMW NA curb weight. Quote: \"Curb weight, lb. 3495 (w/hardtop) (3554)\", i.e. 3,495 lb, 3,554 lb with the hardtop fitted. Reference year is 2001 rather than the 2000 launch model year because BMW NA's MY2000 Z8 specification sheet was searched for and not found (the 2000 attachment found on the BMW USA PressClub covers the Z3); the 394 hp rating is the same for both years."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2001,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2001-z8-specs",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "2001 BMW Z8 Technical Specifications",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0022006EN_US/41319",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bmw-us-2001-z8-presskit",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "Press Kit MY 2001: BMW Z8 (29 November 2000)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0022006EN_US",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "scm-2001-z8",
+      "type": "publication",
+      "publisher": "Sports Car Market (Stephen Serio)",
+      "title": "2001 BMW Z8 Roadster (1 May 2009)",
+      "url": "https://www.sportscarmarket.com/?p=2323",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,120 @@
+{
+  "id": "ferrari-purosangue",
+  "manufacturer": "Ferrari",
+  "model": "Purosangue",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari Purosangue",
+  "aliases": [
+    "Ferrari SUV",
+    "Ferrari Purosangue"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "kbb-purosangue",
+    "note": "US model years. KBB's Purosangue listing is headed 2025 and links a '2024' model year; no earlier US model year is listed. Still on sale. Ferrari unveiled the car in September 2022 (ferrari-purosangue-release)."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "ferrari-purosangue-release",
+    "note": "Ferrari: 'the first ever four-door, four-seater car in the Prancing Horse's 75-year history'. Ferrari avoids the word SUV, but under the data guide's vocabulary a high-riding four-door all-wheel-drive car is an SUV."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "ferrari-purosangue-release",
+      "note": "Ferrari: 'Type V12 – 65° – dry sump'"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "ferrari-purosangue-release",
+      "note": "6,496 cc. Ferrari: 'Overall displacement 6496 cc'; Evo panel: 'V12, 6496cc' (evo-purosangue)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ferrari-purosangue-release",
+      "note": "Ferrari: 'Maranello's iconic naturally-aspirated V12'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-purosangue-release",
+    "note": "Footnote: 'with 98 RON petrol'. Top Gear: 'no hybrid assistance whatsoever' (topgear-purosangue)."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "ferrari-purosangue-release",
+    "note": "Ferrari: 'The Power Transfer Unit (PTU) is coupled in front of the engine to provide a unique 4×4 transmission.' Automatically engaging front drive, so AWD under the guide."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "ferrari-purosangue-release",
+    "note": "Ferrari: 'Gearbox 8-speed F1 DCT'."
+  },
+  "powerHp": {
+    "value": 715,
+    "sourceId": "ferrari-purosangue-release",
+    "note": "Ferrari's rating is metric: 725 cv x 0.98632 = 715.1, rounded to 715 hp. Quote (Ferrari release as reproduced by the Ferrari Owners' Club, 'This article is from Ferrari Media'): \"Max. power output* 725 cv at 7750 rpm\", footnote 'with 98 RON petrol, including 5 cv of dynamic ram'. Evo's panel prints '715bhp @ 7750rpm' (evo-purosangue); KBB's US listing shows '715 hp' (kbb-purosangue). No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 4482,
+    "sourceId": "ferrari-purosangue-release",
+    "note": "DRY weight: 2,033 kg x 2.20462 = 4,481.99, rounded to 4,482 lb. Quote (Ferrari release): \"Dry weight** 2033 kg\", footnote '**With optional lightweight content'. Evo's panel agrees and labels it dry: \"Weight | 2033kg (dry) (357bhp/ton)\", and its text says 'Bone dry and with lightweight options fitted, the Purosangue is 2033kg.' (evo-purosangue). No kerb weight was found: Ferrari's release gives none, Top Gear's review prints none and KBB's listing has none. Step 4 of the weight order (manufacturer dry weight), itself for a car with lightweight options, so a standard car in running order is considerably heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-purosangue-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari (press release reproduced by the Ferrari Owners' Club UK)",
+      "title": "Ferrari Purosangue: Unlike Any Other (13 September 2022)",
+      "url": "https://ferrariownersclub.co.uk/?p=87831",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-purosangue",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "New 2023 Ferrari Purosangue review – there's no SUV quite like it",
+      "url": "https://www.evo.co.uk/ferrari/purosangue",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-purosangue",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Ferrari Purosangue review",
+      "url": "https://www.topgear.com/car-reviews/ferrari/purosangue",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-purosangue",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari Purosangue (model year listing and specifications)",
+      "url": "https://www.kbb.com/ferrari/purosangue/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

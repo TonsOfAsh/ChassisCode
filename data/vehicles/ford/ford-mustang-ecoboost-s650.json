@@ -1,0 +1,116 @@
+{
+  "id": "ford-mustang-ecoboost-s650",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S650",
+  "variant": "EcoBoost",
+  "subVariant": null,
+  "displayName": "Ford Mustang EcoBoost (S650)",
+  "aliases": [
+    "Mustang EcoBoost",
+    "S650 EcoBoost",
+    "EcoBoost Mustang",
+    "2.3 EcoBoost",
+    "2024 Mustang EcoBoost",
+    "SelectShift"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "motorweek-mustang-2024-power",
+    "note": "US model years from 2024, still on sale (Ford.com lists the 2026 \"Mustang® EcoBoost® Fastback\", \"Premium Fastback\", \"Convertible\" and \"Premium Convertible\", source ford-us-mustang-specs-2026). MotorWeek, December 15, 2022, on the 2024 car: \"The EcoBoost turbo four-banger...generat[es] 315 horsepower and 350 lb-ft of torque from its 2.3-liter power plant.\""
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-us-mustang-specs-2026",
+    "note": "Ford calls the coupe the Fastback. Ford.com weight row \"EcoBoost® 3,573 3,724\" under Fastback and Convertible columns."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "ford-mustang-2026-techspecs",
+      "note": "\"2.3L EcoBoost® I-4\"."
+    },
+    "displacementL": {
+      "value": 2.3,
+      "sourceId": "ford-mustang-2026-techspecs",
+      "note": "Ford: \"2.3/137.5\" (liters/cubic inches). No cc figure printed; 137.5 cu in is about 2,253 cc, which also rounds to 2.3."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "ford-mustang-2026-techspecs",
+      "note": "\"Single twin-scroll turbocharger\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "\"87 minimum/91+ recommended\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "\"Front engine, rear-wheel drive with limited-slip rear differential.\""
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "EcoBoost transmission row: \"10-speed automatic\" (torque-converter SelectShift); Ford.com also lists only \"10-speed automatic\" (source ford-us-mustang-specs-2026). No manual is offered with the S650 EcoBoost in the US."
+  },
+  "powerHp": {
+    "value": 315,
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "Quote, Ford's 2026 technical specifications, 2.3L EcoBoost I-4 column: \"315 @ 5,500\" hp and \"350 @ 3,000\" lb-ft. Ford.com: \"315 @ 5,500 rpm (93-octane fuel)\" (source ford-us-mustang-specs-2026). Same rating from launch: MotorWeek on the 2024 car, \"315 horsepower and 350 lb-ft of torque\", \"an appreciated bump from the Eco's current 310 horsepower\" (source motorweek-mustang-2024-power)."
+  },
+  "weightLb": {
+    "value": 3573,
+    "sourceId": "ford-mustang-2026-techspecs",
+    "note": "EcoBoost Fastback with the 10-speed automatic (the only transmission), 2026 model. Quote (Ford's 2026 Mustang Technical Specifications, row \"Curb Weight—Fastback/Auto (lbs.)\", EcoBoost column): \"3,573\"; the table is not labelled as estimates. Ford.com gives the same under the heading \"Estimated Base Curb Weights\": \"EcoBoost® 3,573 3,724\" (fastback, convertible; source ford-us-mustang-specs-2026). No final Ford figure for 2024 or 2025 could be opened (Ford's September 2022 preliminary sheet gave only estimates), so the reference year is 2026, as in the S650 GT record."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-2026-techspecs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (document hosted on the Mustang7G forum)",
+      "title": "2026 Ford Mustang Technical Specifications (07/20/26 v 1.1)",
+      "url": "https://www.mustang7g.com/forums/attachments/2026_mustang_technical_specs-pdf.621639/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ford-us-mustang-specs-2026",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (Ford.com)",
+      "title": "2026 Ford Mustang specifications",
+      "url": "https://www.ford.com/cars/mustang/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorweek-mustang-2024-power",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2024 Ford Mustang Performance Figures Revealed, GT Dishes Out 486 HP (December 15, 2022)",
+      "url": "https://motorweek.org/this_just_in/2024-ford-mustang-performance-figures-revealed-gt-dishes-out-486-hp",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "lamborghini-huracan-sto",
+  "manufacturer": "Lamborghini",
+  "model": "Huracán",
+  "generation": null,
+  "variant": "STO",
+  "subVariant": null,
+  "displayName": "Lamborghini Huracán STO",
+  "aliases": [
+    "Huracan STO",
+    "Super Trofeo Omologata",
+    "STO",
+    "2021 Huracán STO",
+    "2022 Huracán STO",
+    "2023 Huracán STO",
+    "2024 Huracán STO"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "kbb-huracan-2021",
+    "note": "US model years, from Kelley Blue Book (a database): KBB's 2021 Huracán lists \"STO Coupe 2D\" (\"The range-topping 2021 Huracan STO Coupe 2D\"), and its 2024 Huracán lists \"STO Coupe 2D\" (kbb-huracan-2024), whose year selector ends at 2024. Motor1 (motor1-huracan-sto): customer deliveries from spring 2021, US price $327,838. Evo dates the car 2021-2023 (UK)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-huracan-sto",
+    "note": "Two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "evo-huracan-sto",
+      "note": "Evo panel: \"Engine | V10, 5204cc\". Lamborghini (lambo-huracan-sto-page): \"5.2-liter V10 naturally aspirated engine\"."
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "lambo-huracan-sto-page",
+      "note": "5,204 cc (Lamborghini: \"5,204 cm³ (317.57 cu in)\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "lambo-huracan-sto-page",
+      "note": "\"5.2-liter V10 naturally aspirated engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-huracan-sto-page"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-huracan-sto",
+    "note": "Evo: rear-wheel drive only, with \"the front driveshafts removed\". Motor1 (motor1-huracan-sto): rear-wheel-drive layout."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "evo-huracan-sto",
+    "note": "Evo: \"The engine and 7-speed DCT 'box remain absolutely sublime.\" (Lamborghini LDF dual-clutch.) No manual offered."
+  },
+  "powerHp": {
+    "value": 631,
+    "sourceId": "lambo-huracan-sto-page",
+    "note": "Quote (Lamborghini model page): \"Max. power: 470/640 at 8,000 rpm\" (kW/CV). 640 CV x 0.98632 = 631 hp. Evo spec panel (evo-huracan-sto): \"Power | 631bhp @ 8000rpm\". No separate US SAE rating was found, so powerStandard is DIN PS, as in the other Huracán records. Motor1's \"630 horsepower (470 kilowatts)\" is a rounded US conversion of the same rating."
+  },
+  "weightLb": {
+    "value": 2952,
+    "sourceId": "evo-huracan-sto",
+    "note": "DRY weight (guide step 4). Quote (Evo spec panel, review by Jethro Bovingdon, Stuart Gallagher and John Barker): \"Weight | 1339kg (dry)\"; text: \"a dry weight of 1339kg… some 43kg lighter than the Performante\". 1,339 x 2.20462 = 2,952 lb. Motor1 (motor1-huracan-sto, reproducing the launch figures): \"dry weight of 1,339 kg (2,951 lbs)\". No curb weight for the standard car (step 1 or 2) and no optioned-car curb weight (step 3) was found from Lamborghini or a major magazine; Lamborghini's model page gives no weight. No opened page says whether the dry figure assumes options. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-huracan-sto-page",
+      "type": "manufacturer",
+      "publisher": "Automobili Lamborghini",
+      "title": "Huracán STO",
+      "url": "https://www.lamborghini.com/en-en/models/huracan/huracan-sto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-huracan-sto",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Lamborghini Huracán STO (2021 - 2023) review – the ultimate hardcore Huracán",
+      "url": "https://www.evo.co.uk/lamborghini/huracan-sto",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motor1-huracan-sto",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "2021 Lamborghini Huracán STO revealed",
+      "url": "https://www.motor1.com/news/455113/2021-lamborghini-huracan-sto-reveal/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-huracan-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2021/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-huracan-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2024/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

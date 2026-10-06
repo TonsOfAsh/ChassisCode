@@ -1,0 +1,115 @@
+{
+  "id": "porsche-959",
+  "manufacturer": "Porsche",
+  "model": "959",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Porsche 959",
+  "aliases": [
+    "959",
+    "959 Komfort",
+    "Porsche 959 Komfort",
+    "Gruppe B",
+    "Group B Porsche",
+    "PSK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1986,
+      "endYear": 1988
+    },
+    "sourceId": "stuttcars-959",
+    "note": "Calendar build years; the car was never sold new in the US, so the record uses the German home market. Stuttcars: \"Production: 1986 - 1988, 1992 - 1993\" and \"292 Standard Production Cars\". The small later batch built in 1992-1993 is excluded. Evo titles its review \"Porsche 959 (1987-1988) review\" (evo-959), which reflects customer deliveries; the guide's build-year rule gives 1986. Porsche (porsche-newsroom-959-30-years): production \"limited to 292 vehicles\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-959",
+    "note": "Fixed-roof coupe; inferred from the review's description of the car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "evo-959",
+      "note": "Evo panel: \"Flat-six, 2849cc, turbocharged\"; Porsche: \"six-cylinder boxer engine\""
+    },
+    "displacementL": {
+      "value": 2.8,
+      "sourceId": "evo-959",
+      "note": "2,849 cc (Evo panel: \"Flat-six, 2849cc, turbocharged\"). Porsche calls it \"2.85-litre\"; the rounded cc figure is 2.8."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "porsche-newsroom-959-30-years",
+      "note": "Porsche: \"innovative sequential turbocharging and intercooling\". Sequential twin turbos count as Twin Turbocharged."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-959",
+    "note": "Petrol flat-six; inferred."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "porsche-newsroom-959-30-years",
+    "note": "Porsche: \"an electronically controlled trans-axle all-wheel drive\"; Evo: Porsche-Steuer Kupplung (PSK) four-wheel-drive system."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "porsche-newsroom-959-30-years",
+    "note": "Porsche: \"a six-speed gearbox\"; Stuttcars (stuttcars-959): \"6-speed manual\"."
+  },
+  "powerHp": {
+    "value": 444,
+    "sourceId": "porsche-newsroom-959-30-years",
+    "note": "Porsche AG rating 450 PS. Quote: \"the 2.85-litre six-cylinder boxer engine produced 450 hp\" (Porsche AG's English text uses \"hp\" for PS). 450 PS x 0.98632 = 444 hp. Evo's panel agrees: \"Power | 444bhp @ 6500rpm\" (evo-959). The 959 Sport (Evo: 508bhp) is a separate variant and not part of this record."
+  },
+  "weightLb": {
+    "value": 3197,
+    "sourceId": "evo-959",
+    "note": "Komfort, the standard car (6-speed manual). Quote (Evo specification panel, Porsche 959 Komfort column): \"Weight | 1450kg (311bhp/ton)\". Evo marks dry figures as dry, so the plain \"Weight\" is read as a kerb weight. 1,450 kg x 2.20462 = 3,197 lb. The lighter 959 Sport is listed by Evo at 1350kg. Stuttcars (stuttcars-959) says \"kerb weight of just under 1500kg\". No Porsche page giving the weight could be read (newsroom PDFs returned binary data)."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 1987,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "porsche-newsroom-959-30-years",
+      "type": "manufacturer",
+      "publisher": "Porsche AG (Porsche Newsroom)",
+      "title": "Porsche celebrates 30 years of the 959",
+      "url": "https://newsroom.porsche.com/en/history/porsche-959-classic-oldtimer-grand-prix-2015-nuerburgring-11303.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-959",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Porsche 959 (1987-1988) review (Ethan Jupp and Henry Catchpole)",
+      "url": "https://www.evo.co.uk/porsche/959",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "stuttcars-959",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "The Porsche 959 Story",
+      "url": "https://www.stuttcars.com/porsche-model-research/porsche-supercars/porsche-959-research/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,141 @@
+{
+  "id": "ford-mustang-v6-s550",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S550",
+  "variant": "V6",
+  "subVariant": null,
+  "displayName": "Ford Mustang V6 (S550)",
+  "aliases": [
+    "Mustang V6",
+    "S550 V6",
+    "V6 Mustang",
+    "3.7 V6",
+    "Cyclone V6",
+    "2015 Mustang V6",
+    "SelectShift"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2017
+    },
+    "sourceId": "kbb-mustang-specs-2014",
+    "note": "US model years 2015-2017. Start: KBB, July 17, 2014, on the 2015 Mustang: \"3.7-liter V6 will now carry a 300-horsepower rating\". End: Motor Authority, January 17, 2017: \"As part of the popular pony car's 2018 refresh, Ford is killing the entry level engine\" and \"If you want to get your hands on a V-6 Mustang, the 2017 coupe and convertible models are still on dealer lots.\" (source motorauthority-mustang-v6-dropped-2017)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "motorauthority-mustang-v6-dropped-2017",
+    "note": "Ford calls the coupe the Fastback. \"the 2017 coupe and convertible models\"; KBB 2015 prices a \"V6 convertible\" (source kbb-mustang-specs-2014)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "ford-mustang-brochure-2015",
+      "note": "Ford 2015 brochure: '3.7L Ti-VCT V6'."
+    },
+    "displacementL": {
+      "value": 3.7,
+      "sourceId": "ford-mustang-brochure-2015",
+      "note": "Ford 2015 brochure: '3.7L Ti-VCT V6'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-mustang-brochure-2015",
+      "note": "\"3.7L V6: All-aluminum DOHC with Ti-VCT helps deliver ...\"; no forced induction listed."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-brochure-2015"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-release-2014",
+    "note": "Rear-wheel-drive pony car; categorical, from Ford's description of the Mustang range."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-brochure-2015",
+    "note": "Ford brochure, 3.7L V6: \"6-speed manual or SelectShift automatic transmission\"; KBB: \"standard 6-speed manual transmission\" and \"optional 6-speed SelectShift automatic\" (source kbb-mustang-specs-2014). The 10-speed automatic arrived for 2018, after the V6 was dropped."
+  },
+  "powerHp": {
+    "value": 300,
+    "sourceId": "ford-mustang-brochure-2015",
+    "note": "Quote (Ford's 2015 brochure): \"3.7L Ti-VCT V6 300 hp @ 6,500 rpm 280 lb.-ft. of torque @ 4,000 rpm\". Ford's release of 17 July 2014 (ford-mustang-release-2014): 'a standard 300-horsepower V6'. No rating change is reported for 2016-2017."
+  },
+  "weightLb": {
+    "value": 3526,
+    "sourceId": "motorauthority-mustang-specs-2014",
+    "note": "2015 V6 fastback with the standard 6-speed manual, base curb weight as released by Ford on 17 July 2014 and reported by two independent named-author outlets (weight step 2). Quote, Motor Authority (Nelson Ireson): \"Mustang V-6: 3,526 lbs (manual), 3,530 lbs (automatic)\". Quote, Torque News (Patrick Rall, source torquenews-mustang-weight-2014): \"2015 Ford Mustang V6 Manual Transmission Fastback – 3,526\". Ford's specification sheet itself could not be opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-release-2014",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (press release of 17 July 2014, reproduced in full by Automotive Addicts)",
+      "title": "2015 Ford Mustang Specs Revealed: GT Gets 435 Horsepower",
+      "url": "https://www.automotiveaddicts.com/44779/2015-ford-mustang-specs-revealed-gt-gets-435-horsepower",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ford-mustang-brochure-2015",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure hosted by auto-brochures.com)",
+      "title": "2015 Ford Mustang brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2015.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-mustang-specs-2014",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "New 2015 Ford Mustang Specs: EcoBoost Gets 310 HP, Weighs 3,532 Lbs & More, by Nelson Ireson (July 17, 2014)",
+      "url": "https://www.motorauthority.com/news/1093331_new-2015-ford-mustang-specs-ecoboost-gets-310-hp-weighs-3532-lbs-more",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "torquenews-mustang-weight-2014",
+      "type": "publication",
+      "publisher": "Torque News",
+      "title": "The 2015 Ford Mustang Gains Way Less than 300 Pounds, by Patrick Rall (July 22, 2014)",
+      "url": "https://www.torquenews.com/106/2015-ford-mustang-gains-way-less-300-pounds",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-mustang-specs-2014",
+      "type": "publication",
+      "publisher": "Kelley Blue Book (news article by Bob Nagy, July 17, 2014)",
+      "title": "2015 Ford Mustang specs detailed",
+      "url": "https://www.kbb.com/car-news/2015-ford-mustang-specs-detailed",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-mustang-v6-dropped-2017",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Ford Mustang V-6 discontinued as part of 2018 refresh, by Brandon Turkus (January 17, 2017)",
+      "url": "https://www.motorauthority.com/news/1108392_ford-mustang-v-6-discontinued-as-part-of-2018-refresh",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

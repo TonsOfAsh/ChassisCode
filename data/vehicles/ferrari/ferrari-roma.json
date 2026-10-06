@@ -1,0 +1,128 @@
+{
+  "id": "ferrari-roma",
+  "manufacturer": "Ferrari",
+  "model": "Roma",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari Roma",
+  "aliases": [
+    "Ferrari Roma",
+    "Roma Coupe"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "kbb-roma-2021",
+    "note": "US model years. KBB's 2021 Ferrari Roma page links model years '2024', '2023' and '2022'; its 2025 address returns the 2024 car (kbb-roma). Evo: 'The Roma coupe was first delivered to customers in 2020 but when the Roma Spider arrived in 2023, Ferrari stopped taking orders for the hard-top car' and 'The Roma has been replaced by the Amalfi' (evo-roma). The Roma Spider is a separate car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-roma",
+    "note": "Front-engined 2+ coupe; the open Roma Spider is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-roma-spec",
+      "note": "Ferrari: 'Type V8 - 90° turbo'"
+    },
+    "displacementL": {
+      "value": 3.9,
+      "sourceId": "ferrari-roma-spec",
+      "note": "3,855 cc. Ferrari: 'Overall displacement 3855 cc'; Evo panel: '3855cc, twin-turbo' (evo-roma)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "evo-roma",
+      "note": "Evo panel: 'Engine | 3855cc, twin-turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-roma-spec",
+    "note": "Footnote: '*With 98 octane petrol'."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-roma",
+    "note": "Front-engined, rear-wheel-drive coupe; inferred from the description (no driven front axle)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "ferrari-roma-spec",
+    "note": "Ferrari: '8-speed F1 dual-clutch gearbox'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 612,
+    "sourceId": "ferrari-roma-spec",
+    "note": "Ferrari's rating is metric: 620 cv x 0.98632 = 611.5, rounded to 612 hp. Quote (Ferrari technical specifications as rehosted by Auto International): \"Max.poweroutput* 456 kW (620 cv) at 5750 - 7500 rpm\". ferrari.com also gives '620 cv at 7500 rpm' (ferrari-roma-page). KBB's US listing shows '612 hp' (kbb-roma); Evo prints 611bhp. No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3461,
+    "sourceId": "ferrari-roma-spec",
+    "note": "Ferrari's figure: 1,570 kg x 2.20462 = 3,461.3, rounded to 3,461 lb. Quote (Ferrari technical specifications): \"Kerb weight** 1570 kg\" (beside \"Dry weight** 1472 kg\"), footnote \"**With optional content\". Evo's panel prints the same: \"Weight | 1570kg (395bhp/ton)\" (evo-roma); KBB's US listing shows '3461 lbs.' (kbb-roma). Coupe with the 8-speed dual-clutch gearbox (the only configuration). Step 3 of the weight order: the manufacturer's kerb weight for a car with optional content (the options are not named; very probably Ferrari's lightweight options), since no standard-car figure was found; a standard car is somewhat heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-roma-spec",
+      "type": "manufacturer",
+      "publisher": "Ferrari (technical specifications rehosted by Auto International, Malaysia)",
+      "title": "Ferrari Roma Technical Specifications (Ferrari Roma: La Nuova Dolce Vita, 2019)",
+      "url": "https://autointernational.com.my/WebNews/Overseas/Year%202019/FERRARI%20ROMA%20LA%20NUOVA%20DOLCE%20VITA%20%20-%208%20Dec%2019/Ferrari%20Roma%20Technical%20Specifications.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ferrari-roma-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "Ferrari Roma",
+      "url": "https://www.ferrari.com/en-EN/auto/ferrari-roma",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-roma",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari Roma (2020 - 2026) review – the entry-level Ferrari better than an SF90",
+      "url": "https://www.evo.co.uk/ferrari/roma",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-roma",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2024 Ferrari Roma (specifications)",
+      "url": "https://www.kbb.com/ferrari/roma/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-roma-2021",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2021 Ferrari Roma (model year listing)",
+      "url": "https://www.kbb.com/ferrari/roma/2021/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

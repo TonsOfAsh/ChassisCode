@@ -1,0 +1,152 @@
+{
+  "id": "aston-martin-v8-vantage-2006-2008",
+  "manufacturer": "Aston Martin",
+  "model": "V8 Vantage",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Aston Martin V8 Vantage (2006–2008)",
+  "aliases": [
+    "4.3 Vantage",
+    "V8 Vantage 4.3",
+    "Aston V8 Vantage",
+    "2006 V8 Vantage",
+    "2007 V8 Vantage",
+    "2008 V8 Vantage",
+    "Sportshift"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2008
+    },
+    "sourceId": "edmunds-v8-vantage-2006",
+    "note": "US model years of the 4.3-litre car. First: Edmunds lists the 2006 V8 Vantage '2dr Coupe (4.3L 8cyl 6M)' at '380 hp @ 7,300 rpm'. Last: AstonMartins.com (astonmartins-v8-vantage-4-3, enthusiast site) lists '2006MY, 2007MY, 2008MY' and says the car 'was replaced with an improved 2009MY version' with a '4.7 litre V8 engine'; Edmunds lists the 2009 car as '4.7L' with '420 hp' (edmunds-v8-vantage-2009). Split from the 4.7-litre car (2009 on) because the engine changed (4.3 to 4.7 litres) as well as the rating; the 4.7-litre range is held back for lack of qualifying sources. UK build began autumn 2005."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-v8-vantage-buying",
+    "note": "Two-seat coupe. The V8 Vantage Roadster is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "evo-v8-vantage-buying",
+      "note": "'V8 4280cc'"
+    },
+    "displacementL": {
+      "value": 4.3,
+      "sourceId": "evo-v8-vantage-buying",
+      "note": "4,280 cc (Evo panel: 'V8 4280cc')."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-v8-vantage-buying",
+      "note": "Evo: 'V8 4280cc', with no turbocharger or supercharger; AstonMartins.com (astonmartins-v8-vantage-4-3): '4.3 litre quad cam 32 valve dry sumped V8 engine'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-v8-vantage-2006",
+    "note": "'Gas', 'Premium unleaded (required)'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-v8-vantage-2006",
+    "note": "'rear wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "astonmartins-v8-vantage-4-3",
+    "note": "Provisional (enthusiast site). AstonMartins.com: 'standard 6 speed Graziano manual gearbox'; 'Sportshift automated manual optional from 2007.5MY'. Sportshift is an automated manual. Edmunds 2006 and 2007 (edmunds-v8-vantage-2006, edmunds-v8-vantage-2007) list only the '6-speed manual' coupe. No manufacturer or magazine page confirming Sportshift for 2007-2008 US cars was opened; only one source gives it."
+  },
+  "powerHp": {
+    "value": 380,
+    "sourceId": "evo-v8-vantage-buying",
+    "note": "Quote (Evo specification panel, V8 Vantage (2005)): \"Power | 380bhp @ 7300rpm\". Edmunds gives the US 2006 car '380 hp @ 7,300 rpm' (edmunds-v8-vantage-2006), so the US rating is the same figure. Edmunds' 2007 page prints '379 hp @ 7,000 rpm', database variations not supported by any Aston or magazine figure. The 2009-on 4.7-litre car (420 bhp) is outside this record."
+  },
+  "weightLb": {
+    "value": 3594,
+    "sourceId": "evo-v8-vantage-buying",
+    "note": "Step 2 of the weight order (major magazine specification panel; no Aston page with a weight could be opened). Quote (Evo specification panel, V8 Vantage (2005)): \"Weight | 1630kg\". 1,630 kg x 2.20462 = 3,593.5 lb, rounded to 3,594. Evo's text calls it the kerb weight: the early car's 'final kerb weight was a little disappointing at 1630kg'. AstonMartins.com (astonmartins-v8-vantage-4-3, enthusiast site) also mentions 'the 1570kg machine' and lists 'Kerb Weight: 1630 kg'. Manual coupe (standard car)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2006,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "evo-v8-vantage-buying",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Aston Martin V8 Vantage (2005 - 2017) (Yousuf Ashraf, Ethan Jupp, John Barker, 27 August 2026)",
+      "url": "https://www.evo.co.uk/aston-martin/v8-vantage",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-v8-vantage-2006",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2006 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2006/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-v8-vantage-2007",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2007 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2007/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-v8-vantage-2009",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2009 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2009/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "astonmartins-v8-vantage-4-3",
+      "type": "enthusiast",
+      "publisher": "AstonMartins.com",
+      "title": "V8 Vantage 4.3",
+      "url": "https://astonmartins.com/car/v8-vantage-4-3/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3594,
+          "sourceId": "evo-v8-vantage-buying"
+        },
+        {
+          "value": 3461,
+          "sourceId": "edmunds-v8-vantage-2006"
+        }
+      ],
+      "reason": "Edmunds 2006 gives 3,461 lb (1,570 kg), a figure AstonMartins.com also mentions; Evo calls 1,630 kg (3,594 lb) the car's 'final kerb weight', and Edmunds 2007 gives 3,594 lb.",
+      "resolution": "Used Evo's 1,630 kg, which Evo labels the kerb weight; 1,570 kg is not explained by any opened source."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Transmission is provisional: the optional Sportshift (6-speed automated manual, from 2007.5MY) rests only on AstonMartins.com, an enthusiast site; Edmunds lists only the manual coupe for 2006-2007. An Aston Martin US release, brochure or magazine spec panel for a 2007-2008 V8 Vantage listing Sportshift would replace it. Power and weight rest on Evo's specification panel."
+}

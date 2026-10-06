@@ -1,0 +1,214 @@
+{
+  "id": "chevrolet-camaro-z28-4th-gen-1998-2002",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "4th gen",
+  "variant": "Z28",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Chevrolet Camaro Z28 (4th gen, 1998–2002)",
+  "aliases": [
+    "Camaro Z28",
+    "Z28",
+    "LS1 Camaro",
+    "LS1 Z28",
+    "4th gen Z28",
+    "F-body",
+    "1998 Camaro Z28",
+    "1999 Camaro Z28",
+    "2000 Camaro Z28",
+    "2001 Camaro Z28",
+    "2002 Camaro Z28",
+    "T56",
+    "Z/28"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1998,
+      "endYear": 2002
+    },
+    "sourceId": "encycarpedia-camaro-z28-1998",
+    "note": "US model years 1998-2002, the LS1 Z28. encyCARpedia's Z28 coupe pages cover 'Model Years: 1998, 1999, 2000' and '2001, 2002' (encycarpedia-camaro-z28-2001). Start: Edmunds 1998: \"For 1998, more power and speed are on tap. The Z28 gets a detuned Corvette LS1 engine\" (edmunds-camaro-1998-review). End: Edmunds 2002: \"Chevrolet has officially announced that this will be the last year of Camaro production\" (edmunds-camaro-2002-review). The 1993-1997 LT1 Z28 of the same generation is a different car."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "carscom-camaro-z28-1998",
+    "note": "Cars.com lists '2dr Cpe Z28' and '2dr Convertible Z28'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "carscom-camaro-z28-1998",
+      "note": "Cars.com '2dr Cpe Z28'; 5.7-litre LS1 V8."
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "carscom-camaro-z28-1998",
+      "note": "Cars.com: 'Displacement: 5.7L/350'. No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "edmunds-camaro-1998-review",
+      "note": "Inferred: Corvette-derived LS1, no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "carscom-camaro-z28-1998"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carscom-camaro-z28-1998",
+    "note": "Cars.com: \"Rear Wheel Drive\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "carscom-camaro-z28-1998",
+    "note": "Cars.com: '6-Speed M/T' and '4-Speed A/T'. encyCARpedia: 'Transmission (MT) 6 Speeds' and 'Transmission (AT) 4 Speeds'."
+  },
+  "powerHp": {
+    "value": 305,
+    "sourceId": "kbb-camaro-z28-1998",
+    "note": "PROVISIONAL (databases and articles). 1998 Z28. Quote (KBB 1998 Z28 Coupe 2D): \"Horsepower | 305 @ 5200 RPM\". Cars.com '2dr Cpe Z28': \"SAE Net Horsepower @ RPM: 305 @ 5200\" (carscom-camaro-z28-1998). Edmunds 1998 review: \"The Z28 gets a detuned Corvette LS1 engine that makes 305 horsepower and 335 foot-pounds of torque\" (edmunds-camaro-1998-review). encyCARpedia (1998-2000): \"Peak Power: 305 hp @ 5,200 RPM\". The SS package (320 hp, SLP) is not part of this record. From 2001 the rating was 310 hp: Edmunds 2001: \"an additional five horsepower for the LS1-powered Z28\" (edmunds-camaro-2001-review); KBB 2001 \"310 @ 5200 RPM\" (kbb-camaro-z28-2001); Cars.com 2001 \"310 @ 5200\" (carscom-camaro-z28-2001); Edmunds 2002: \"the Z28 is good for 310 horsepower\" (edmunds-camaro-2002-review). Reference year 1998: 305 hp covers three of the five years."
+  },
+  "weightLb": {
+    "value": 3446,
+    "sourceId": "carscom-camaro-z28-1998",
+    "note": "PROVISIONAL (databases). 1998 Z28 coupe; Cars.com does not say which transmission (the automatic was standard). Quote (Cars.com '2dr Cpe Z28'): \"Base Curb Weight: 3,446 lbs\". Edmunds 1998 Camaro Z28: \"Curb weight | 3,439 lbs.\" (edmunds-camaro-z28-1998). auto123 1998 Z28: \"Curb Weight: 1559 kg\" = 3,437 lb (auto123-camaro-z28-1998). encyCARpedia 1998 Z28 coupe: \"Curb Weight: 3,428 lbs\" (encycarpedia-camaro-z28-1998). All four within 0.5%. KBB's 3,306 lb is the base coupe's figure; see discrepancies. 2001: Cars.com \"3,439 lbs\", encyCARpedia \"3,428 lbs\" (unchanged). No source gives the weight of the manual car specifically."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1998,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "carscom-camaro-z28-1998",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "1998 Chevrolet Camaro 2dr Cpe Z28 specs",
+      "url": "https://www.cars.com/research/chevrolet-camaro-1998/specs/104953/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "encycarpedia-camaro-z28-1998",
+      "type": "database",
+      "publisher": "encyCARpedia",
+      "title": "Chevrolet Camaro Z28 Coupe specs (1998-2000)",
+      "url": "https://www.encycarpedia.com/us/chevrolet/98-camaro-z28-coupe",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-camaro-z28-1998",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1998 Chevrolet Camaro Z28 Coupe 2D specs",
+      "url": "https://www.kbb.com/chevrolet/camaro/1998/z28-coupe-2d/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-camaro-1998-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "1998 Chevrolet Camaro review",
+      "url": "https://www.edmunds.com/chevrolet/camaro/1998/review/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-camaro-z28-1998",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1998 Chevrolet Camaro Z28 Specs & Features",
+      "url": "https://www.edmunds.com/chevrolet/camaro/1998/st-17143/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "auto123-camaro-z28-1998",
+      "type": "database",
+      "publisher": "auto123",
+      "title": "1998 Chevrolet Camaro Z28 technical specifications",
+      "url": "https://www.auto123.com/en/new-cars/technical-specs/chevrolet/camaro/1998/base/z28/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-camaro-coupe-1998",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1998 Chevrolet Camaro Coupe 2D specs",
+      "url": "https://www.kbb.com/chevrolet/camaro/1998/coupe-2d/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscom-camaro-z28-2001",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2001 Chevrolet Camaro 2dr Cpe Z28 specs",
+      "url": "https://www.cars.com/research/chevrolet-camaro-2001/specs/11625/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "encycarpedia-camaro-z28-2001",
+      "type": "database",
+      "publisher": "encyCARpedia",
+      "title": "Chevrolet Camaro Z28 Coupe specs (2001-2002)",
+      "url": "https://www.encycarpedia.com/us/chevrolet/01-camaro-z28-coupe",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-camaro-z28-2001",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2001 Chevrolet Camaro Z28 Coupe 2D specs",
+      "url": "https://www.kbb.com/chevrolet/camaro/2001/z28-coupe-2d/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-camaro-2001-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2001 Chevrolet Camaro review",
+      "url": "https://www.edmunds.com/chevrolet/camaro/2001/review/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-camaro-2002-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2002 Chevrolet Camaro review",
+      "url": "https://www.edmunds.com/chevrolet/camaro/2002/review/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3446,
+          "sourceId": "carscom-camaro-z28-1998"
+        },
+        {
+          "value": 3306,
+          "sourceId": "kbb-camaro-z28-1998"
+        }
+      ],
+      "reason": "KBB's Z28 Coupe 2D page gives 3,306 lb, but KBB gives exactly the same 3,306 lb for the 1998 base V6 Coupe 2D (200 hp, kbb-camaro-coupe-1998), so KBB's figure is the base coupe's, not the Z28's. The Z28-specific figures agree: Cars.com 3,446, Edmunds 3,439 (edmunds-camaro-z28-1998), auto123 1,559 kg = 3,437 (auto123-camaro-z28-1998), encyCARpedia 3,428 lb (0.5% spread).",
+      "resolution": "Cars.com's 3,446 lb used (trim-specific Z28 coupe page); KBB's 3,306 lb belongs to the base coupe."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (305 hp) rests on KBB and Cars.com (databases) and Edmunds' review; weight (3,446 lb) rests on Cars.com, with Edmunds 3,439 lb, auto123 3,437 lb and encyCARpedia 3,428 lb agreeing (databases); KBB's 3,306 lb is the base V6 coupe's figure. A Chevrolet/GM 1998 press kit, specification sheet or brochure, or a major magazine's specification panel for the 1998 Z28, would replace both. KBB's 3,306 lb is taken to be the base coupe's figure because KBB prints the same for the V6 coupe; that is likely but not proven."
+}

@@ -1,0 +1,120 @@
+{
+  "id": "mclaren-gt",
+  "manufacturer": "McLaren",
+  "model": "GT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren GT",
+  "aliases": [
+    "McLaren Grand Tourer",
+    "M840TE",
+    "SSG",
+    "2020 McLaren GT"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2023
+    },
+    "sourceId": "kbb-gt",
+    "note": "US model years, from Kelley Blue Book (a database): the GT page lists model years 2020, 2021, 2022 and 2023, with one trim, \"Coupe 2D\", \"612 @ 7500 RPM\". The GTS that followed is a separate model. McLaren's release: \"Order now for delivery towards the end of 2019\"; Carscoops (Sergiu Tudose, 15 May 2019): \"Pricing in the U.S. starts from $210,000\" with deliveries \"towards the end of 2019\" (carscoops-gt)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-gt-release",
+    "note": "Two-seat fixed-roof grand tourer with a rear luggage hatch; coupe body only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-gt-release",
+      "note": "\"4.0-litre twin-turbocharged McLaren V8\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "topgear-gt-spec",
+      "note": "3,994 cc: Top Gear spec page \"Engine Capacity: 3,994cc\"; McLaren's release says \"4.0-litre\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-gt-release",
+      "note": "\"twin-turbocharged V8 engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-gt-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "topgear-gt-spec",
+    "note": "Top Gear spec page: \"Drive Train: Rear Wheel Drive\" (mid-engined)."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-gt-release",
+    "note": "\"7-speed SSG transmission\" (McLaren Seamless Shift Gearbox, recorded as a DCT as in other McLaren records). No manual."
+  },
+  "powerHp": {
+    "value": 612,
+    "sourceId": "mclaren-gt-release",
+    "note": "Quote (McLaren release reproduced by conceptcarz, \"Source - McLaren\"): \"With 620PS from its 4.0-litre, twin-turbocharged V8 engine, the power-to-weight ratio of the superlight new McLaren GT is a remarkable 405PS-per-tonne.\" 620 x 0.98632 = 612 hp, so powerStandard is DIN PS. Carscoops: \"612 HP (620 PS)\" (carscoops-gt); KBB: \"612 @ 7500 RPM\" (kbb-gt)."
+  },
+  "weightLb": {
+    "value": 3373,
+    "sourceId": "mclaren-gt-release",
+    "note": "Coupe, 7-speed SSG (the only transmission). Quote (McLaren release): \"At 1,530kg (DIN), the McLaren GT is more than 130kg lighter than its closest core competitor\". DIN kerb weight, not EU; 1,530 x 2.20462 = 3,373 lb. Carscoops prints \"1,530 kg (3,373 lbs)\" (carscoops-gt) and Top Gear's spec page \"Minimum Kerbweight: 1,530kg\" (topgear-gt-spec). No US-specific figure was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-gt-release",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (press release reproduced by conceptcarz)",
+      "title": "2019 McLaren GT",
+      "url": "https://www.conceptcarz.com/z29734/mclaren-gt.aspx",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-gt-spec",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "McLaren GT V8 2dr SSG Auto specs",
+      "url": "https://www.topgear.com/car-reviews/mclaren/v8-2dr-ssg-auto/spec-10",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscoops-gt",
+      "type": "publication",
+      "publisher": "Carscoops (Sergiu Tudose)",
+      "title": "McLaren GT",
+      "url": "https://carscoops.com/?p=1831171",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-gt",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren GT",
+      "url": "https://www.kbb.com/mclaren/gt/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

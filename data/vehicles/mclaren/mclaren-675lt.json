@@ -1,0 +1,124 @@
+{
+  "id": "mclaren-675lt",
+  "manufacturer": "McLaren",
+  "model": "675LT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 675LT",
+  "aliases": [
+    "675LT Coupe",
+    "675LT Coupé",
+    "McLaren 675",
+    "Longtail",
+    "M838TL",
+    "SSG",
+    "Super Series",
+    "2016 675LT"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2016
+    },
+    "sourceId": "kbb-675lt",
+    "note": "US model year 2016 only, from Kelley Blue Book (a database): KBB lists one model year, the 2016 675LT, \"Coupe 2D\", \"666 horsepower @ 7,100 rpm\". McLaren's release: \"Limited production to 500 coupés, which are all sold out\", first deliveries \"scheduled to begin in July\" 2015. The 675LT Spider is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-675lt-release",
+    "note": "Coupe; the Spider is a separate model name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-675lt-release",
+      "note": "\"3.8-litre twin-turbocharged V8 engine\" (M838TL)"
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "evo-675lt",
+      "note": "3,799 cc: Evo spec table \"V8, 3799cc, twin-turbo\"; supercars.net \"3799 cc\" (supercars-675lt)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-675lt-release",
+      "note": "\"3.8-litre twin-turbocharged V8 engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-675lt-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "supercars-675lt",
+    "note": "supercars.net spec table: \"RWD\" (mid-engined)."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-675lt-release",
+    "note": "\"seven-speed SSG transmission\" (McLaren Seamless Shift Gearbox, recorded as a DCT). No manual."
+  },
+  "powerHp": {
+    "value": 666,
+    "sourceId": "mclaren-675lt-release",
+    "note": "Quote (McLaren release reproduced by conceptcarz, \"Source - McLaren\"): \"Power of 675PS (666bhp) at 7,100rpm\". 675 x 0.98632 = 666 hp, so powerStandard is DIN PS. Evo's spec table agrees: \"666bhp @ 7100rpm\" (evo-675lt); KBB lists \"666 horsepower @ 7,100 rpm\" for the 2016 car (kbb-675lt)."
+  },
+  "weightLb": {
+    "value": 2928,
+    "sourceId": "evo-675lt",
+    "note": "Step 2 (major magazine spec panel). Quote (Evo spec table, Ethan Jupp and David Vivian): \"Weight | 1328kg (510bhp/ton)\". Evo marks dry figures as dry and does not here, so it is read as a kerb weight (guide, \"Unlabelled weights\"); 1,328 x 2.20462 = 2,928 lb. Evo's is a UK-market figure; no US figure was found. McLaren's release gives only a dry weight: \"dry weight of just 1,230kg (2,712 lb)\", not used because a step 2 kerb figure exists. Single configuration (coupe, 7-speed SSG). Caution: 1,328 kg is a UK (Evo) figure and could not be confirmed as a McLaren DIN figure; it equals McLaren's 1,230 kg dry weight plus 98 kg, the same offset as for the 650S."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-675lt-release",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (press release reproduced by conceptcarz)",
+      "title": "McLaren 675LT",
+      "url": "https://www.conceptcarz.com/z24789/McLaren-675LT.aspx",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-675lt",
+      "type": "publication",
+      "publisher": "Evo (Ethan Jupp, David Vivian)",
+      "title": "McLaren 675LT review",
+      "url": "https://www.evo.co.uk/mclaren/675lt",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-675lt",
+      "type": "publication",
+      "publisher": "Supercars.net (McLaren Automotive story with spec table)",
+      "title": "2015 McLaren 675LT Coupé",
+      "url": "https://www.supercars.net/blog/?p=206421",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-675lt",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren 675LT",
+      "url": "https://www.kbb.com/mclaren/675lt/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

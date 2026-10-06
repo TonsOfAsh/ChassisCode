@@ -1,0 +1,137 @@
+{
+  "id": "pagani-huayra",
+  "manufacturer": "Pagani",
+  "model": "Huayra",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Pagani Huayra",
+  "aliases": [
+    "Huayra Coupe",
+    "Pagani Huayra Coupe",
+    "M158",
+    "AMG M158",
+    "6.0 twin-turbo V12"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2018
+    },
+    "sourceId": "carscoops-huayra-final",
+    "note": "Calendar years. Start: Evo's first drive (evo-huayra, Jethro Bovingdon, 1 Jun 2012) lists \"On sale: Now\" and says over 90 orders had been taken; Carscoops: \"The Pagani Huayra Coupe was introduced in 2011\" (the 2011 Geneva reveal). End: Carscoops (Brad Anderson, 30 Jul 2018): \"only now has the 100th and final unit been delivered\" and \"With production of the Huayra coupe completed, Pagani can focus its energy on building 100 units of the Huayra Roadster.\" The Roadster and BC are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carscoops-huayra-final",
+    "note": "Gullwing coupe; the Huayra Roadster is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "pagani-huayra",
+      "note": "\"Mercedes-AMG M158 V12 twin-Turbo\""
+    },
+    "displacementL": {
+      "value": 6.0,
+      "sourceId": "pagani-huayra",
+      "note": "5,980 cc (\"5980 cc\")"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pagani-huayra",
+      "note": "\"V12 twin-Turbo\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pagani-huayra"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "topgear-huayra",
+    "note": "Top Gear: \"seven-speed sequential driving the rear wheels only\"; Evo: \"being rear-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "pagani-huayra",
+    "note": "\"transverse sequential seven speed gearbox; AMT robotyzed system with driving programs\""
+  },
+  "powerHp": {
+    "value": 730,
+    "sourceId": "pagani-huayra",
+    "note": "Pagani's rating is metric: 544 kW x 1.34102 = 730 hp. Quote (pagani.com): \"544 kW (730hp) @ 5.800 rpm\" (the 730 is Pagani's CV figure; 730 CV x 0.98632 = 720 hp). Evo's spec panel prints \"720bhp @ 5800rpm\" (evo-huayra). No separate US rating was found, so powerStandard is DIN PS, as in the Bugatti records."
+  },
+  "weightLb": {
+    "value": 2976,
+    "sourceId": "pagani-huayra",
+    "note": "DRY weight (step 4): 1,350 kg x 2.20462 = 2,976 lb. Quote (pagani.com): \"1.350 kg (changing according to the model)\", listed as dry weight. Steps 1 to 3 checked: no Pagani curb weight was found; Evo gives \"1350kg (dry)\" in the text of its review (not the panel) and Top Gear's review (topgear-huayra) \"1,350kg\" unlabelled. Single configuration."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2012,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "pagani-huayra",
+      "type": "manufacturer",
+      "publisher": "Pagani Automobili",
+      "title": "Huayra",
+      "url": "https://www.pagani.com/huayra/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-huayra",
+      "type": "publication",
+      "publisher": "Evo (Jethro Bovingdon)",
+      "title": "Pagani Huayra review - can it step out from the Zonda's shadow?",
+      "url": "https://www.evo.co.uk/pagani/huayra/7158/pagani-huayra-review-can-it-step-out-from-the-zondas-shadow",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-huayra",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Pagani Huayra Review",
+      "url": "https://www.topgear.com/car-reviews/pagani/huayra",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscoops-huayra-final",
+      "type": "publication",
+      "publisher": "Carscoops (Brad Anderson)",
+      "title": "Pagani Huayra L'Ultimo Delivered In The U.S. As The Final Coupe (July 30, 2018)",
+      "url": "https://www.carscoops.com/2018/07/pagani-huayra-lultimo-delivered-u-s-final-coupe/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "544 kW (730 hp/CV)",
+          "sourceId": "pagani-huayra"
+        },
+        {
+          "value": 720,
+          "sourceId": "evo-huayra"
+        }
+      ],
+      "reason": "Units: Pagani's \"730hp\" is its metric (CV) figure; 730 CV = 720 hp, while 544 kW = 730 hp. The 1 hp difference comes from Pagani rounding.",
+      "resolution": "Stored 730 hp from Pagani's kW figure, per the guide's kW conversion."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

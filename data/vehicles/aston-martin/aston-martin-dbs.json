@@ -1,0 +1,156 @@
+{
+  "id": "aston-martin-dbs",
+  "manufacturer": "Aston Martin",
+  "model": "DBS",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin DBS",
+  "aliases": [
+    "DBS V12",
+    "Aston DBS V12",
+    "Casino Royale DBS",
+    "2009 DBS",
+    "2012 DBS",
+    "Touchtronic 2"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2012
+    },
+    "sourceId": "edmunds-dbs-model-years",
+    "note": "US model years. Edmunds lists the DBS model years 2009, 2011, 2012 and then 2022-2023 (the later DBS Superleggera era); its 2008 page has no 2008 cars, and its 2010 specs page (edmunds-dbs-2010) lists the 2010 coupe at '510 hp @ 6,500 rpm'. US News (usnews-dbs-2009) reviews the car 'when the 2009 DBS was new'; AutoGuide (autoguide-dbs-2009, Colum Wood, 25 February 2009) reviews the 2009 car. Edmunds' 2013 DB9 review (edmunds-db9-2013-review-dbs) calls the DBS 'discontinued'. Aston's release (jalopnik-dbs-release-2007): 'Deliveries of the DBS are expected to commence during quarter one 2008'. UK model years were MY2008-MY2013 per AstonMartins.com (enthusiast site, not cited)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "jalopnik-dbs-release-2007",
+    "note": "2+2 coupe. The DBS Volante is sold under its own name and is not part of this record. Not to be confused with the 1967-1972 DBS or the 2019-on DBS Superleggera."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "jalopnik-dbs-release-2007",
+      "note": "'5935cc V12'"
+    },
+    "displacementL": {
+      "value": 5.9,
+      "sourceId": "jalopnik-dbs-release-2007",
+      "note": "5,935 cc (Aston: '5935cc V12'). Aston calls it 6.0-litre ('6.0-litre V12'); the rounded cc figure is used."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "jalopnik-dbs-release-2007",
+      "note": "'6.0-litre V12' with no turbocharger or supercharger mentioned."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-dbs-2010",
+    "note": "Petrol V12; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "jalopnik-dbs-release-2007",
+    "note": "'Front-mid mounted engine, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "usnews-dbs-2009",
+    "note": "'Available with two transmissions -- a six-speed manual transmission or a 'Touchtronic 2' six-speed with an electronic shift-by-wire control system'. Launch cars were manual only; the automatic became optional in late 2008 per AstonMartins.com (enthusiast site, not cited)."
+  },
+  "powerHp": {
+    "value": 510,
+    "sourceId": "jalopnik-dbs-release-2007",
+    "note": "Quote (Aston Martin release reproduced by Jalopnik): \"Max power: 380kW (510bhp/517 PS) at 6500rpm\". 517 PS x 0.98632 = 509.9 hp, rounded to 510. US figures agree: Edmunds 2010 '510 hp @ 6,500 rpm' (edmunds-dbs-2010), US News 'a 510-horsepower V12 engine' (usnews-dbs-2009). No rating change during the run."
+  },
+  "weightLb": {
+    "value": 3737,
+    "sourceId": "jalopnik-dbs-release-2007",
+    "note": "Step 1 of the weight order (manufacturer figure for the launch car, which was manual only, i.e. the standard car). Quote (Aston Martin release reproduced by Jalopnik): \"Weight: 1695kg (3737lb)\". 1,695 kg x 2.20462 = 3,736.8 lb, rounded to 3,737, as Aston printed. AstonMartins.com (enthusiast site, not cited): 'Kerb Weight (unladen mass): 1695 kg (manual), 1740 kg (auto)'. AutoGuide (autoguide-dbs-2009): 'At 3,737 lbs'."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2009,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "jalopnik-dbs-release-2007",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (press release reproduced by Jalopnik)",
+      "title": "Aston Martin DBS Details, Cinematic Photo Spread (Mike Spinelli, 17 August 2007)",
+      "url": "https://jalopnik.com/aston-martin-dbs-details-cinematic-photo-spread-290707",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "usnews-dbs-2009",
+      "type": "publication",
+      "publisher": "U.S. News & World Report",
+      "title": "2009 Aston Martin DBS Review, Pricing, & Pictures",
+      "url": "https://cars.usnews.com/cars-trucks/aston-martin/dbs/2009",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autoguide-dbs-2009",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "2009 Aston Martin DBS Coupe Review (Colum Wood, 25 February 2009)",
+      "url": "https://www.autoguide.com/manufacturer/aston-martin/2008-aston-martin-dbs-1047.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-dbs-model-years",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Aston Martin DBS (model years)",
+      "url": "https://www.edmunds.com/aston-martin/dbs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-dbs-2010",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2010 Aston Martin DBS Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/dbs/2010/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-db9-2013-review-dbs",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2013 Aston Martin DB9 Review & Ratings",
+      "url": "https://www.edmunds.com/aston-martin/db9/2013/review/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3737,
+          "sourceId": "jalopnik-dbs-release-2007"
+        },
+        {
+          "value": 4089,
+          "sourceId": "edmunds-dbs-2010"
+        }
+      ],
+      "reason": "Edmunds lists 'Curb Weight: 4,089 lbs.' (about 1,855 kg) identically for the manual and automatic coupe; this matches no Aston coupe figure (1,695 kg manual per Aston; 1,740 kg auto per AstonMartins.com, not cited) and is likely a Volante or database error.",
+      "resolution": "Used Aston's 1,695 kg for the manual coupe."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

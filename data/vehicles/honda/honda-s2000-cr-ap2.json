@@ -1,0 +1,157 @@
+{
+  "id": "honda-s2000-cr-ap2",
+  "manufacturer": "Honda",
+  "model": "S2000",
+  "generation": "AP2",
+  "variant": "CR",
+  "subVariant": null,
+  "displayName": "Honda S2000 CR (AP2)",
+  "aliases": [
+    "S2000 CR",
+    "S2K CR",
+    "Club Racer",
+    "S2000 Club Racer",
+    "AP2 CR",
+    "F22C1",
+    "2008 S2000 CR",
+    "2009 S2000 CR"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2009
+    },
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "US model years 2008-2009. Start: \"The S2000 CR is an entirely new trim level for 2008.\" 2009: Honda's 2009 S2000 release describes the \"club racer-inspired S2000 CR trim, first offered in the 2008 model year\" and its weight savings (honda-s2000-2009-release). End: \"The 2009 Honda S2000 will be the final model year produced\" (honda-s2000-final-2009)."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "'2-seat, open-topped roadster configuration'. The CR replaces the soft top with a removable aluminium hardtop ('Removable aluminum hardtop'); it is still the open two-seater, so Roadster, as for the S2000 (AP2) record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-s2000-cr-intro-2008",
+      "note": "'2.2-liter, DOHC, 16-valve, VTEC 4-cylinder engine'"
+    },
+    "displacementL": {
+      "value": 2.2,
+      "sourceId": "honda-s2000-cr-intro-2008",
+      "note": "Honda's 2008 release gives '2.2-liter'; the cc figure, 2,157 cc, is from Honda's 2006 S2000 specifications for the same F22C1 engine ('2157/131.6', honda-s2000-specs-2006). The 2008 comparison table gives the CR the same 237 hp @ 7800 rpm as the 2008 S2000."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "honda-s2000-cr-intro-2008",
+      "note": "Inferred: DOHC VTEC four with no turbocharger or supercharger mentioned."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "Not stated in so many words; gasoline VTEC engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "'front-engine, rear-wheel-drive platform'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "'Close-ratio 6-speed manual transmission'; manual only."
+  },
+  "powerHp": {
+    "value": 237,
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "Quote (Honda comparison table, horsepower row): \"237 @ 7800 rpm\" for the 2007 S2000, 2008 S2000 and 2008 S2000 CR alike. Edmunds' 2008 CR page agrees: \"Horsepower | 237 hp @ 7,800 rpm\" (edmunds-s2000-cr-2008)."
+  },
+  "weightLb": {
+    "value": 2813,
+    "sourceId": "honda-s2000-cr-intro-2008",
+    "note": "Standard CR, 2008: hardtop fitted, without the optional air conditioning and audio system (both are factory options on the CR, so the standard car has neither). Quote (Honda comparison table, weight row): \"2855 | 2864 | 2813 w/o AC and Audio (2765 w/o hardtop) | AC/Audio +46 -51 (-99 w/o hardtop)\" (columns 2007 S2000, 2008 S2000, 2008 S2000 CR, CR difference). Honda's text: \"Relative to the base 2008 S2000, cumulative weight savings total 51 pounds (hardtop installed) and 99 pounds (hardtop removed).\" (also in honda-s2000-cr-2008-release, 13 Sep 2007). So 2,864 - 51 = 2,813 lb; with the AC and audio options the CR is 2,859 lb (+46)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "honda-s2000-cr-intro-2008",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2008 Honda S2000 & S2000 CR - Introduction",
+      "url": "https://hondanews.com/en-US/ahm-collection-hall/releases/release-ce4824181b908ba0b57377004c34be6f-2008-honda-s2000-and-s2000-cr-introduction",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "honda-s2000-cr-2008-release",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2008 Honda S2000 Elevates Sports Car Formula with Tightly-focused CR 'Club Racer' Edition",
+      "url": "https://hondanews.com/en-US/releases/release-40d504f97b506d9833a52a004c34bdfb-2008-honda-s2000-elevates-sports-car-formula-with-tightly-focused-cr-club-racer-edition",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "honda-s2000-2009-release",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2009 Honda S2000 Defines Racing-Inspired Performance",
+      "url": "https://hondanews.com/en-US/ahm-collection-hall/releases/release-ce852f36e8a0586e7c3ddf004c34bc7f-2009-honda-s2000-defines-racing-inspired-performance",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "honda-s2000-final-2009",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2009 Will Be Final Model Year of Production for Honda S2000",
+      "url": "https://hondanews.com/en-US/releases/release-94b06ebeefdab837e7efec004c34bbae-2009-will-be-final-model-year-of-production-for-honda-s2000",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "honda-s2000-specs-2006",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2006 Honda S2000 Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-5a35f67b82f245d1db31c6004c34c121-2006-honda-s2000-specifications",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "edmunds-s2000-cr-2008",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2008 Honda S2000 CR Specs & Features",
+      "url": "https://www.edmunds.com/honda/s2000/2008/st-100946102/features-specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2813,
+          "sourceId": "honda-s2000-cr-intro-2008"
+        },
+        {
+          "value": 2855,
+          "sourceId": "edmunds-s2000-cr-2008"
+        }
+      ],
+      "reason": "Equipment. Honda gives 2,813 lb for the CR without the optional air conditioning and audio system, and says those options add 46 lb (2,859 lb). Edmunds' CR page prints 2,855 lb (\"Curb weight | 2,855 lbs.\"), which is close to the optioned car (and equals Honda's 2007 S2000 figure).",
+      "resolution": "Honda's own 2,813 lb is used: it is the manufacturer's figure for the standard CR (options not fitted)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

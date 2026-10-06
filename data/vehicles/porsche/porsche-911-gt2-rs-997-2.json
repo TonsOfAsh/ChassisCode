@@ -1,0 +1,148 @@
+{
+  "id": "porsche-911-gt2-rs-997-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "997.2",
+  "variant": "GT2 RS",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT2 RS (997.2)",
+  "aliases": [
+    "997 GT2 RS",
+    "997.2 GT2 RS",
+    "GT2 RS 997",
+    "GT2RS",
+    "2011 GT2 RS",
+    "Widowmaker",
+    "M97/70"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2012
+    },
+    "sourceId": "kbb-911-2012-specs",
+    "note": "US model years. First: the Porsche release reproduced by Conceptcarz (conceptcarz-2011-911-gt2-rs) calls it \"the new 2011 Porsche 911 GT2 RS\" and says it \"will be available in the U.S. October 2010\". KBB lists a \"GT2 RS Coupe 2D\" for 2011 (kbb-911-2011-specs) and a \"2012 Porsche 911 GT2 RS Coupe 2D\" (kbb-911-2012-specs; database), which is the end year used. Porsche's classic-model page (porsche-classic-997-gt2) dates the car \"(2011-12)\". Limited to 500 units worldwide."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-911-2011-specs",
+    "note": "KBB: \"GT2 RS Coupe 2D\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "conceptcarz-2011-911-gt2-rs",
+      "note": "\"The 3.6 liter six-cylinder boxer engine features two variable turbine geometry turbochargers\""
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "conceptcarz-2011-911-gt2-rs",
+      "note": "\"3.6 liter\". No page opened stated the cc figure; every source gives 3.6 litres, which is the rounded value whatever the exact cc."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "conceptcarz-2011-911-gt2-rs",
+      "note": "\"two variable turbine geometry turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "conceptcarz-2011-911-gt2-rs",
+    "note": "Petrol boxer engine; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "conceptcarz-2011-911-gt2-rs",
+    "note": "\"provides power to the rear wheels exclusively\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "conceptcarz-2011-911-gt2-rs",
+    "note": "\"through a six-speed manual gearbox\""
+  },
+  "powerHp": {
+    "value": 620,
+    "sourceId": "conceptcarz-2011-911-gt2-rs",
+    "note": "US rating as published by Porsche (Atlanta release, reproduced by Conceptcarz with \"Source - Porsche\"). Quote: \"The power: 620 hp. The weight: 3,020 lb (1,370 kilograms) in road trim with all fluids on board.\" The same release is on The Auto Channel (autochannel-2011-911-gt2-rs). Porsche's classic page gives \"456 kW (620 PS)\" (porsche-classic-997-gt2); Porsche's US arm published 620 hp, used as published. KBB also \"620 @ 6500 RPM\"."
+  },
+  "weightLb": {
+    "value": 3020,
+    "sourceId": "conceptcarz-2011-911-gt2-rs",
+    "note": "Standard car (the only configuration: coupe, 6-speed manual). Quote: \"The weight: 3,020 lb (1,370 kilograms) in road trim with all fluids on board.\" Porsche's classic page: \"Unladen weight further reduced to 1,370 kg\" (porsche-classic-997-gt2)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "conceptcarz-2011-911-gt2-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (reproduced by Conceptcarz, \"Source - Porsche\")",
+      "title": "2011 Porsche 911 GT2 RS Pricing, Research, & Pictures",
+      "url": "https://www.conceptcarz.com/z18425/news.aspx",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autochannel-2011-911-gt2-rs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (reproduced by The Auto Channel)",
+      "title": "Porsche 911 GT2 RS - Most Powerful, Street Legal Porsche Ever",
+      "url": "https://www2020.theautochannel.com/news/2010/05/12/477191.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "porsche-classic-997-gt2",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Porsche 911 GT2 (type 997)",
+      "url": "https://www.porsche.com/usa/accessoriesandservices/classic/models/997/997-gt2/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2011-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2011 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2011/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2012-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2012/specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3020,
+          "sourceId": "conceptcarz-2011-911-gt2-rs"
+        },
+        {
+          "value": 3075,
+          "sourceId": "kbb-911-2011-specs"
+        }
+      ],
+      "reason": "KBB's 2011 table lists \"3075 pounds\" for the GT2 RS Coupe 2D; Porsche's release gives 3,020 lb (1,370 kg) in road trim with all fluids. Database entry versus manufacturer figure.",
+      "resolution": "3,020 lb used: Porsche's own figure, matched by Porsche's classic-model page (1,370 kg)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

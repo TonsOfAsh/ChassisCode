@@ -1,0 +1,131 @@
+{
+  "id": "bugatti-chiron-super-sport",
+  "manufacturer": "Bugatti",
+  "model": "Chiron",
+  "generation": null,
+  "variant": "Super Sport",
+  "subVariant": null,
+  "displayName": "Bugatti Chiron Super Sport",
+  "aliases": [
+    "Chiron SS",
+    "Chiron Super Sport longtail",
+    "W16",
+    "8.0 W16",
+    "DSG",
+    "L'Ultime"
+  ],
+  "country": "France",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2024
+    },
+    "sourceId": "bugatti-css-deliveries",
+    "note": "Calendar years, following the existing Chiron record (no source stating US model years was found). Bugatti's release of 8 June 2021: delivery \"is scheduled to start early 2022\" (bugatti-css-release); first customer deliveries announced 4 April 2022. Last: the final (500th) Chiron, \"L'Ultime\", is \"a Super Sport\", announced 30 May 2024 (bugatti-chiron-end). The 30-car Chiron Super Sport 300+ is a different variant and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bugatti-css-release",
+    "note": "Two-seat fixed-roof coupe with an extended \"longtail\" rear, \"by approximately 25 centimeters\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "W16",
+      "sourceId": "bugatti-css-release",
+      "note": "\"8.0-liter W16 engine\""
+    },
+    "displacementL": {
+      "value": 8.0,
+      "sourceId": "evo-css",
+      "note": "7,993 cc: Evo spec table \"W16, 7993cc, quad-turbo\"; Bugatti says \"8.0-liter\""
+    },
+    "aspiration": {
+      "value": "Quad Turbocharged",
+      "sourceId": "evo-css",
+      "note": "Evo: \"quad-turbo\"; Bugatti mentions \"modifications to the turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bugatti-css-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "tfl-css",
+    "note": "TFLcar: \"Power still makes its way to all four wheels through a 7-speed dual-clutch automatic\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "bugatti-css-release",
+    "note": "\"seven-gear dual-clutch transmission\""
+  },
+  "powerHp": {
+    "value": 1578,
+    "sourceId": "bugatti-css-release",
+    "note": "Quote (Bugatti release, 8 June 2021): \"Bugatti thoroughly overhauled the 8.0-liter W16 engine for the Chiron Super Sport, boosting its performance by 100 PS to 1,176 kW/1,600 PS.\" 1,600 x 0.98632 = 1,578 hp. Evo's spec table agrees: \"1578bhp @ 7050-7100rpm\" (evo-css); TFLcar prints 1,577 hp (tfl-css). No separate SAE rating for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 4398,
+    "sourceId": "evo-css",
+    "note": "Step 2 (major magazine spec panel). Quote (Evo, Steve Sutcliffe, 19 May 2023, Chiron Super Sport v Rimac Nevera spec table): \"Bugatti Chiron Super Sport | 1995kg\"; text: \"The Bugatti is more than 300kg lighter at 1995kg to the Rimac's 2300kg.\" Evo marks dry figures as dry and does not here, so it is read as a kerb weight (guide, \"Unlabelled weights\"). 1,995 x 2.20462 = 4,398 lb. Bugatti's release gives no total, only that \"the vehicle weight was reduced by a further 23 kilograms\". Single configuration. Caution: 1,995 kg equals the base Chiron's widely used figure (the existing Chiron record's 4,400 lb), while Bugatti says the Super Sport \"was reduced by a further 23 kilograms\", so Evo may have printed the base car's figure. The checker reports that autotijd.be also gives 1,995 kg; that page's weight table could not be opened in this pass and is not cited."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "bugatti-css-release",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "The Bugatti Chiron Super Sport: the quintessence of luxury and speed",
+      "url": "https://newsroom.bugatti.com/press-releases/the-bugatti-chiron-super-sport-the-quintessence-of-luxury-and-speed",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bugatti-css-deliveries",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "Bugatti delivers first Chiron Super Sports to customers",
+      "url": "https://newsroom.bugatti.com/api/en/press-releases/pdf/bugatti-delivers-first-chiron-super-sports-to-customers",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bugatti-chiron-end",
+      "type": "manufacturer",
+      "publisher": "Bugatti Newsroom",
+      "title": "'L'Ultime': celebrating the end of the incomparable Chiron era",
+      "url": "https://newsroom.bugatti.com/en/press-releases/celebrating-the-end-of-the-incomparable-chiron-era",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-css",
+      "type": "publication",
+      "publisher": "Evo (Steve Sutcliffe)",
+      "title": "Bugatti Chiron Super Sport v Rimac Nevera",
+      "url": "https://www.evo.co.uk/hypercars/205892/bugatti-chiron-super-sport-v-rimac-nevera",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "tfl-css",
+      "type": "publication",
+      "publisher": "TFLcar",
+      "title": "273 MPH Bugatti Chiron Super Sport Debuts, Packing 1,577 Horsepower",
+      "url": "https://tflcar.com/2021/06/bugatti-chiron-super-sport-debut/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight: Evo's 1,995 kg equals the base Chiron's figure although Bugatti says the Super Sport is 23 kg lighter; a human should confirm whether 1,995 kg is the Super Sport's own curb weight. Production uses calendar years because no US model years were found.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

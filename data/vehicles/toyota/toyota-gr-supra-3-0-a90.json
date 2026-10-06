@@ -2,10 +2,10 @@
   "id": "toyota-gr-supra-3-0-a90",
   "manufacturer": "Toyota",
   "model": "GR Supra",
-  "generation": "A90",
+  "generation": "A90 Mk5",
   "variant": "3.0",
   "subVariant": null,
-  "displayName": "Toyota GR Supra 3.0 (A90)",
+  "displayName": "Toyota GR Supra 3.0 (A90 Mk5)",
   "aliases": [
     "Mk5 Supra",
     "MkV Supra",
@@ -15,7 +15,10 @@
     "GR Supra 3.0 Premium",
     "A91 Edition",
     "A91-MT",
-    "MkV Final Edition"
+    "MkV Final Edition",
+    "Supra Mk5",
+    "A90 Mk5",
+    "A90"
   ],
   "country": "Japan",
   "production": {

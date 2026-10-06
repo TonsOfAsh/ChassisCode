@@ -1,0 +1,122 @@
+{
+  "id": "ferrari-458-speciale",
+  "manufacturer": "Ferrari",
+  "model": "458 Speciale",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 458 Speciale",
+  "aliases": [
+    "Speciale",
+    "458 S",
+    "Ferrari 458 Speciale",
+    "F136"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2015
+    },
+    "sourceId": "kbb-458speciale",
+    "note": "US model years. KBB's 458 Speciale listing is headed 'Used 2015 Ferrari 458 Speciale' and links a 2014 model year. Evo titles the car 'Ferrari 458 Speciale (2013 - 2015)' (calendar years; revealed in August 2013). The open 458 Speciale A (Aperta) is a separate car."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carmag-458speciale",
+    "note": "Two-seat mid-engined berlinetta; the open Speciale A is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-458speciale-page",
+      "note": "Ferrari: 'Type V8 - 90°'"
+    },
+    "displacementL": {
+      "value": 4.5,
+      "sourceId": "ferrari-458speciale-page",
+      "note": "4,497 cc. Ferrari: 'Overall displacement 4497 cc'; Evo panel: 'V8, 4497cc' (evo-458speciale)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "carmag-458speciale",
+      "note": "CAR: 'The naturally aspirated V8 is unchanged at 4.5 litres'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-458speciale-page",
+    "note": "Petrol V8 with no hybrid system; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carmag-458speciale",
+    "note": "CAR specs panel: 'Transmission: Seven-speed dual-clutch, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "ferrari-458speciale-page",
+    "note": "Ferrari: '7-speed F1 dual-clutch transmission'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 597,
+    "sourceId": "ferrari-458speciale-page",
+    "note": "Ferrari's rating is metric: 605 cv x 0.98632 = 596.7, rounded to 597 hp. Quote (ferrari.com specification): \"Maximum power** 445 kW (605 cv) at 9000 rpm\" (reproduced on a second request; footnote text not shown). Evo's and CAR's panels print 597bhp ('597bhp @ 9000rpm'). KBB's US listing shows '605 hp', the metric number. No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3075,
+    "sourceId": "ferrari-458speciale-page",
+    "note": "Ferrari's figure: 1,395 kg x 2.20462 = 3,075.4, rounded to 3,075 lb. Quote (ferrari.com specification): \"Kerb weight* 1395 kg\", beside \"Dry weight* 1290 kg\" (reproduced on a second request). The text of the * footnote was not shown on the page, but the kerb figure is exactly 105 kg above the dry one, the pattern of Ferrari's figures with lightweight options (as for the 458 Italia, F12berlinetta and Roma), so it is treated as an optioned car's curb weight: step 3 of the weight order. No standard-car curb weight was found; a standard car is somewhat heavier. Coupe with the 7-speed dual-clutch gearbox (the only configuration). KBB's US listing shows '3,075 lbs' (kbb-458speciale). CAR's panel gives the dry figure: 'Weight / material: 1290kg (dry)/aluminium' (carmag-458speciale)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-458speciale-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "Ferrari 458 Speciale",
+      "url": "https://www.ferrari.com/en-EN/auto/458-speciale",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-458speciale",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari 458 Speciale (2013 - 2015): the best driver's car of the last 25 years",
+      "url": "https://www.evo.co.uk/ferrari/458-speciale",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carmag-458speciale",
+      "type": "publication",
+      "publisher": "CAR Magazine",
+      "title": "Ferrari 458 Speciale (2013) review",
+      "url": "https://carmagazine.co.uk/car-reviews/ferrari/ferrari-458-speciale-2013-review",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-458speciale",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2015 Ferrari 458 Speciale (model year listing and specifications)",
+      "url": "https://www.kbb.com/ferrari/458-speciale/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,137 @@
+{
+  "id": "koenigsegg-agera-r",
+  "manufacturer": "Koenigsegg",
+  "model": "Agera",
+  "generation": null,
+  "variant": "R",
+  "subVariant": null,
+  "displayName": "Koenigsegg Agera R",
+  "aliases": [
+    "Agera R",
+    "Koenigsegg Agera R",
+    "5.0 twin-turbo V8"
+  ],
+  "country": "Sweden",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2014
+    },
+    "sourceId": "koenigsegg-agera-r",
+    "note": "Calendar years. Quote (Koenigsegg): \"18 EXAMPLES PRODUCED FROM 2011 TO 2014\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "koenigsegg-agera-r",
+    "note": "Two-seat coupe with removable roof."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "koenigsegg-agera-r-specs",
+      "note": "\"Koenigsegg aluminum 5,0L V8\""
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "koenigsegg-agera-r-specs",
+      "note": "\"5,0L\"; no cc figure on Koenigsegg's page."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "koenigsegg-agera-r-specs",
+      "note": "\"Twin-turbo, 1.4 bar boost pressure\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gtspirit-agera-r-road-test",
+    "note": "Runs on 95-octane gasoline or E85 biofuel (flex-fuel)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gtspirit-agera-r-road-test",
+    "note": "\"Power is routed to the rear wheels through a 7-speed dual clutch gearbox.\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "koenigsegg-agera-r-specs",
+    "note": "\"Specially developed 7-speed dual-clutch, 1 input shaft transmission\""
+  },
+  "powerHp": {
+    "value": 1140,
+    "sourceId": "koenigsegg-agera-r-specs",
+    "note": "Koenigsegg's maximum rating, on E85. Quote (Koenigsegg technical specifications): \"Power output: 1140 hp at 7100 rpm – redline @ 7500 rpm\"; model page: \"1140 BHP Output\". GTSpirit road test (gtspirit-agera-r-road-test, Des Sellmeyer, 27 May 2013): \"The Koenigsegg Agera R produces 960hp on 95 octane regular fuel and 1,140hp running on E85 bio fuel.\" At the 2011 launch GTSpirit reported \"1,115hp at 6,900rpm\" (gtspirit-agera-r-2011); the 1,140 hp rating is the one Koenigsegg publishes now and covers most of the run. Stored as published (powerStandard Other); no kW figure was on the pages opened."
+  },
+  "weightLb": {
+    "value": 3164,
+    "sourceId": "koenigsegg-agera-r-specs",
+    "note": "Koenigsegg curb weight (step 1): 1,435 kg x 2.20462 = 3,164 lb. Quote: \"Curb weight: 1435 kg (all fluids plus 50% fuel)\"; also \"Dry weight: 1330 kg\" (GTSpirit 2011: \"dry weight of 1,330kg\")."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2012,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "koenigsegg-agera-r-specs",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Technical specifications: Agera R",
+      "url": "https://www.koenigsegg.com/technical-specifications-agera-r",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "koenigsegg-agera-r",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Agera R",
+      "url": "https://www.koenigsegg.com/model/agera-r",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gtspirit-agera-r-road-test",
+      "type": "publication",
+      "publisher": "GTspirit (Des Sellmeyer)",
+      "title": "Road Test: Koenigsegg Agera R (May 27, 2013)",
+      "url": "https://gtspirit.com/2013/05/27/road-test-koenigsegg-agera-r/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gtspirit-agera-r-2011",
+      "type": "publication",
+      "publisher": "GTspirit",
+      "title": "Koenigsegg Agera R Specifications (March 21, 2011)",
+      "url": "https://gtspirit.com/2011/03/21/koenigsegg-agera-r-specifications/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 1140,
+          "sourceId": "koenigsegg-agera-r-specs"
+        },
+        {
+          "value": 1115,
+          "sourceId": "gtspirit-agera-r-2011"
+        }
+      ],
+      "reason": "Model year: 1,115 hp was the figure reported at the March 2011 launch; Koenigsegg now publishes 1,140 hp (E85) for the Agera R.",
+      "resolution": "Stored Koenigsegg's current 1,140 hp, which covers most of the 2011-2014 run; reference year 2012."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Power is Koenigsegg's E85 rating (1,140 hp); on 95-octane gasoline it is 960 hp. A human should confirm the E85 figure is the one to show, consistently with the Jesko. Reference year 2012 assumes the 1,140 hp rating applied from the 2012 cars; the exact changeover year was not found. Whether the Agera R was sold new in the US was not confirmed, so the home market is used.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

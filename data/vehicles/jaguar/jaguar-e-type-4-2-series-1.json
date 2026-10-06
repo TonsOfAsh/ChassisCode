@@ -1,0 +1,120 @@
+{
+  "id": "jaguar-e-type-4-2-series-1",
+  "manufacturer": "Jaguar",
+  "model": "E-Type",
+  "generation": "Series 1",
+  "variant": "4.2",
+  "subVariant": null,
+  "displayName": "Jaguar E-Type 4.2 (Series 1)",
+  "aliases": [
+    "XK-E",
+    "E-Type 4.2",
+    "Series 1 E-Type",
+    "S1 E-Type",
+    "4.2 Litre",
+    "E-Type FHC",
+    "E-Type OTS",
+    "XK6"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 1965,
+      "endYear": 1967
+    },
+    "sourceId": "supercarnostalgia-etype-42-s1",
+    "note": "US model years 1965-1967 (the task's US years; no opened page states US model years). Build dates: \"Jaguar built 12,583 examples of the 4.2-litre Series 1 between October 1964 and July 1967\". The later 'Series 1.5' (from August 1967, US cars with Stromberg carburettors and 245 bhp per this page) is not covered."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "supercarnostalgia-etype-42-s1",
+    "note": "Fixed Head Coupe (FHC) and Open Two Seater (OTS); the OTS has a fixed-roof sibling, so it is 'Convertible'. The 2+2 coupe (from 1966) is a longer-wheelbase car and is not described by these figures."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "supercarnostalgia-etype-42-s1",
+      "note": "Dual overhead cam straight six (XK engine)"
+    },
+    "displacementL": {
+      "value": 4.2,
+      "sourceId": "supercarnostalgia-etype-42-s1",
+      "note": "4,235 cc: \"displacement went from 3781cc to 4235cc\". Classic & Sports Car: \"4235cc 'six'\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "supercarnostalgia-etype-42-s1",
+      "note": "Triple SU carburettors; no forced induction"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "supercarnostalgia-etype-42-s1"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "csc-etype-buyers-guide",
+    "note": "\"four-speed manual or (2+2 only) three-speed auto, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual"
+    ],
+    "sourceId": "csc-etype-buyers-guide",
+    "note": "\"four-speed manual or (2+2 only) three-speed auto, RWD\"; the automatic was 2+2 only, so the coupe and OTS had the 4-speed manual. Supercar Nostalgia: \"Jaguar's own full-synchromesh unit\"."
+  },
+  "powerHp": {
+    "value": 265,
+    "sourceId": "csc-etype-buyers-guide",
+    "note": "PROVISIONAL (publication outside the major list, plus an enthusiast site). Jaguar's rating, an SAE gross figure per the batch rule for pre-1980 cars; neither page names the standard. Quote (Classic & Sports Car, Malcolm McKay, spec panel): \"265bhp @ 5400rpm\". Quote (Supercar Nostalgia): \"While the 4.2-litre engine produced the same headline 265bhp as before, this was now delivered at 5400rpm as opposed to 5500rpm.\" The automobile-catalog search-result title for the US 1967 4.2 XK-E Coupe also gives \"265 hp (for North America U.S.)\" (automobile-catalog-xke-42-coupe-1967; page itself refused the fetch)."
+  },
+  "weightLb": {
+    "value": 2716,
+    "sourceId": "supercarnostalgia-etype-42-s1",
+    "note": "PROVISIONAL (single enthusiast source). Fixed Head Coupe, 1,232 kg x 2.20462 = 2,716 lb; the OTS is 1,219 kg (2,687 lb). Quote: \"Weight was officially unchanged from the outgoing 3.8 (1219kg for the OTS Roadster and 1232kg for the FHC).\" The page does not say whether this is a kerb or dry figure, nor which market. Classic & Sports Car's panel gives only a range for all S1-S2 E-types, \"2688-3192lb (1197-1422kg)\", which contains this figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1965,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "supercarnostalgia-etype-42-s1",
+      "type": "enthusiast",
+      "publisher": "Supercar Nostalgia",
+      "title": "Jaguar E-type 4.2 Series 1",
+      "url": "https://supercarnostalgia.com/blog/jaguar-e-type-42-series-1",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "csc-etype-buyers-guide",
+      "type": "publication",
+      "publisher": "Classic & Sports Car",
+      "title": "Jaguar E-type S1, S1.5 & S2 buyer’s guide: what to pay and what to look for",
+      "url": "https://www.classicandsportscar.com/features/buyers-guide-jaguar-e-type-s1-s15-s2",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "automobile-catalog-xke-42-coupe-1967",
+      "type": "database",
+      "publisher": "automobile-catalog.com",
+      "title": "1967 Jaguar 4.2 XK-E Coupe Specs Review (198 kW / 269 PS / 265 hp) (for North America U.S.)",
+      "url": "https://www.automobile-catalog.com/car/1967/1277180/jaguar_4_2_xk-e_coupe.html",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight basis unknown: the only specific figure (1,232 kg FHC, Supercar Nostalgia, described as 'officially' unchanged from the 3.8) is not labelled kerb or dry and not tied to the US market. A readable Jaguar US brochure or a period US road-test spec panel should confirm both power (265 bhp SAE gross) and weight. auto-brochures.com's 1965 US E-Type brochure is a scanned PDF with no readable text.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (265 hp SAE gross) rests on Classic & Sports Car's spec panel (not a major-list magazine) and Supercar Nostalgia, agreeing. Weight (2,716 lb, FHC) rests on a single enthusiast page (1,232 kg, kerb/dry and market not stated). A Jaguar US brochure or a major magazine's spec panel for the 1965-67 4.2 coupe would replace both."
+}

@@ -1,0 +1,149 @@
+{
+  "id": "maserati-granturismo-trofeo-2nd-gen",
+  "manufacturer": "Maserati",
+  "model": "GranTurismo",
+  "generation": "2nd gen",
+  "variant": "Trofeo",
+  "subVariant": null,
+  "displayName": "Maserati GranTurismo Trofeo (2nd gen)",
+  "aliases": [
+    "GranTurismo Trofeo",
+    "GT Trofeo",
+    "Nettuno",
+    "Maserati Nettuno",
+    "2024 GranTurismo Trofeo",
+    "new GranTurismo"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "carscom-granturismo-trofeo-2024",
+    "note": "US model years. First: Cars.com (a database) lists the '2024 Maserati GranTurismo' 'Trofeo 3.0L'; duPont Registry reviews 'the 2024 Maserati GranTurismo Trofeo' (Gabriel Vega, 27 October 2023, dupont-granturismo-trofeo-2024). Still on sale: Edmunds (Kyle Patrick, 18 June 2026) on the 2027 update: \"The top Trofeo models ... climbing 40 hp to a total of 582 hp\" (edmunds-2027-maserati-update)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "stellantis-granturismo-2022-techdata",
+    "note": "GranTurismo coupe. The open GranCabrio is sold under its own name and is not part of this record; the Folgore is a separate electric variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "stellantis-granturismo-2022-techdata",
+      "note": "'Six cylinders, V6 90°' (Nettuno)"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "stellantis-granturismo-2022-techdata",
+      "note": "2,992 cc ('2992 cc')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "stellantis-granturismo-us-release",
+      "note": "'3.0-liter V-6 Nettuno Twin Turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "stellantis-granturismo-2022-techdata"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "stellantis-granturismo-2022-techdata",
+    "note": "All-wheel drive; duPont Registry: 'its all-wheel drive system, a GT first' (dupont-granturismo-trofeo-2024)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "stellantis-granturismo-2022-techdata",
+    "note": "'8HP75 Gen2' (ZF eight-speed automatic), the only transmission."
+  },
+  "powerHp": {
+    "value": 542,
+    "sourceId": "stellantis-granturismo-2022-techdata",
+    "note": "Quote (Maserati launch release technical table, columns Modena / Trofeo): \"Max. power output | 490 CV (365 kW) @ 6500 rpm | 550 CV (410 kW) @ 6500 rpm\". 550 CV x 0.98632 = 542 hp. The US figure is the same: duPont Registry \"It produces 542 horsepower and 479 pound-feet of torque\" (dupont-granturismo-trofeo-2024); Cars.com '542 hp' (carscom-granturismo-trofeo-2024). Maserati's US release prints the metric figure as '550-hp' (stellantis-granturismo-us-release). powerStandard is DIN PS because the maker's rating is the metric 550 CV, as for the MC20. Modena and Trofeo are separate trims (Modena 490 CV). The 2027 update raises the Trofeo to 582 hp (edmunds-2027-maserati-update; Maserati USA's current Trofeo page: 'AT 582 HP AND 479 LB-FT', maserati-us-granturismo-trofeo); 542 hp covers 2024 to 2026."
+  },
+  "weightLb": {
+    "value": 3957,
+    "sourceId": "carscom-granturismo-trofeo-2024",
+    "note": "PROVISIONAL (spec databases). Cars.com, Trofeo 3.0L: \"Base Curb Weight 3,957 lbs\"; Kelley Blue Book's 2024 GranTurismo page also shows \"3957 lbs.\" but names no trim (kbb-granturismo-trofeo-2024), so only Cars.com is Trofeo-specific; but both equal Maserati's European 'Homologated weight (kg) | 1795 | 1795' (Modena, Trofeo; stellantis-granturismo-2022-techdata) converted (1,795 x 2.20462 = 3,957), so they are probably not an independent US figure, and Maserati does not say whether its homologated weight includes a driver. Maserati USA's page has a curb-weight field but it does not render. Coupe, 8-speed automatic. TrueDelta (a database) gives 1,847 kg for the 2024 coupe without naming a trim; it is not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "stellantis-granturismo-2022-techdata",
+      "type": "manufacturer",
+      "publisher": "Maserati (Stellantis media site)",
+      "title": "New Maserati GranTurismo (technical specifications)",
+      "url": "https://www.media.stellantis.com/em-en/maserati/press/new-maserati-granturismo-1",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "stellantis-granturismo-us-release",
+      "type": "manufacturer",
+      "publisher": "Maserati North America (Stellantis media site)",
+      "title": "The New Maserati GranTurismo",
+      "url": "https://www.media.stellantis.com/us-en/maserati/press/the-new-maserati-granturismo",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "maserati-us-granturismo-trofeo",
+      "type": "manufacturer",
+      "publisher": "Maserati North America",
+      "title": "GranTurismo Trofeo",
+      "url": "https://www.maserati.com/us/en/models/granturismo/granturismo-trofeo",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscom-granturismo-trofeo-2024",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2024 Maserati GranTurismo Trofeo 3.0L specs",
+      "url": "https://www.cars.com/research/maserati-granturismo-2024/specs/435340/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-granturismo-trofeo-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Maserati GranTurismo Trofeo",
+      "url": "https://www.kbb.com/maserati/granturismo/2024/trofeo",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "dupont-granturismo-trofeo-2024",
+      "type": "publication",
+      "publisher": "duPont Registry",
+      "title": "Review: The 2024 Maserati GranTurismo Trofeo Doesn't Split The Difference (Gabriel Vega)",
+      "url": "https://news.dupontregistry.com/blogs/articles/review-the-2024-maserati-granturismo-trofeo-doesnt-split-the-difference",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-2027-maserati-update",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2027 Maserati GranTurismo, GranCabrio and Grecale Get Subtle Face-Lifts (Kyle Patrick)",
+      "url": "https://www.edmunds.com/car-news/2027-maserati-granturismo-grancabrio-grecale.html",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "weightLb is provisional: 3,957 lb rests on two spec databases (Cars.com and Kelley Blue Book) that agree, and that figure equals Maserati's European homologated weight of 1,795 kg converted. Replace it with a Maserati North America curb weight for the GranTurismo Trofeo, or a major US magazine's specification-panel curb weight (Car and Driver, MotorTrend, Road & Track). Power and all other fields are from manufacturer sources.",
+  "reviewNotes": "Power: the checker reports Maserati North America printing '550-hp' for the Trofeo; under the 918 Spyder precedent a US figure published as hp would be used as published. The release was not opened here, so 542 hp (550 CV converted, as Cars.com and duPont Registry give) stands for now."
+}

@@ -1,0 +1,135 @@
+{
+  "id": "mercedes-benz-300-sl-w198",
+  "manufacturer": "Mercedes-Benz",
+  "model": "300 SL",
+  "generation": "W198",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Mercedes-Benz 300 SL (W198)",
+  "aliases": [
+    "300 SL Gullwing",
+    "Gullwing",
+    "300SL",
+    "300 SL Coupe",
+    "Flügeltürer",
+    "W 198",
+    "W198 I",
+    "M198"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1954,
+      "endYear": 1957
+    },
+    "sourceId": "rm-1957-300-sl-gullwing",
+    "note": "Build years of the Gullwing coupe (no page opened gives US model years; the record uses build years, which is how these cars are listed, e.g. RM Sotheby's \"1957 Mercedes-Benz 300 SL Gullwing\"). RM Sotheby's: \"more than 1,000 of the 1,400 cars produced between 1954 and early 1957 were delivered through Hoffman\" (the US distributor). Automobile-Sportive: \"1954-1957\" for the Gullwing (\"1957-1963\" for the Roadster; autosportive-300-sl). The Newport Car Museum gives \"1954-1956\" (newport-1955-300-sl). The car was sold new in the US, so this is a US-market record. The 300 SL Roadster (W198 II, 1957-1963) is a separate car and not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "rm-1957-300-sl-gullwing",
+    "note": "Gullwing coupe; the open car was sold as the 300 SL Roadster."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "rm-1957-300-sl-gullwing",
+      "note": "\"fuel-injected, 3.0-liter (2,996-cc), OHC straight-six\""
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "rm-1957-300-sl-gullwing",
+      "note": "2,996 cc (RM: \"3.0-liter (2,996-cc)\"; Automobile-Sportive: \"2996 cm3\")."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "rm-1957-300-sl-gullwing",
+      "note": "Fuel-injected straight-six with no forced induction mentioned; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "rm-1957-300-sl-gullwing",
+    "note": "Fuel-injected petrol engine; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "autosportive-300-sl",
+    "note": "\"AR\" (propulsion arrière, rear-wheel drive)."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual"
+    ],
+    "sourceId": "rm-1957-300-sl-gullwing",
+    "note": "\"four-speed manual gearbox\"; Automobile-Sportive: \"BVM 4\"."
+  },
+  "powerHp": {
+    "value": 212,
+    "sourceId": "rm-1957-300-sl-gullwing",
+    "note": "PROVISIONAL: an unsigned auction catalogue and an enthusiast article, agreeing. Quote (RM Sotheby's auction catalogue): \"240 bhp at 6,100 rpm (SAE) and 215 bhp at 5,800 rpm (DIN)\". The 240 is the period US SAE gross rating; the DIN figure is Mercedes-Benz's net rating of 215 PS, used under the batch rule for classic cars (prefer the maker's net figure over SAE gross and mention the gross). Automobile-Sportive (Sébastien Dupuis): \"Puissance: 215 / 222 ch à 5800 tr/mn\" (Gullwing / Roadster; autosportive-300-sl). 215 PS x 0.98632 = 212 hp. The Newport Car Museum prints \"210 hp @ 6,100 rpm\" (newport-1955-300-sl), within 1%. Rating unchanged 1954-1957, so the launch year is the reference year."
+  },
+  "weightLb": {
+    "value": 2855,
+    "sourceId": "newport-1955-300-sl",
+    "note": "PROVISIONAL: a museum page (enthusiast type) and an enthusiast article. Quote (Newport Car Museum, 1955 300 SL Gullwing): \"Curb weight – 2,855 lbs\". Automobile-Sportive (Sébastien Dupuis): \"Poids (kg): 1295 / 1330\" (Gullwing / Roadster; autosportive-300-sl); the figure is not labelled kerb or dry. 1,295 kg x 2.20462 = 2,855 lb, so Newport's figure is very likely the same European 1,295 kg converted rather than an independent US figure. Coupe, 4-speed manual, the only configuration."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1954,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "rm-1957-300-sl-gullwing",
+      "type": "enthusiast",
+      "publisher": "RM Sotheby's",
+      "title": "1957 Mercedes-Benz 300 SL Gullwing | Monterey 2017 (auction catalogue, no byline)",
+      "url": "https://rmsothebys.com/auctions/mo17/lots/r178-1957-mercedesbenz-300-sl-gullwing/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autosportive-300-sl",
+      "type": "enthusiast",
+      "publisher": "Automobile-Sportive",
+      "title": "Mercedes-Benz 300 SL (Sébastien Dupuis)",
+      "url": "https://www.automobile-sportive.com/guide/mercedes/300sl.php",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "newport-1955-300-sl",
+      "type": "enthusiast",
+      "publisher": "Newport Car Museum",
+      "title": "Car of the Month – July, 2025: 1955 Mercedes-Benz 300 SL Gullwing",
+      "url": "https://newportcarmuseum.org/1955-mercedes-benz-300-sl-gullwing/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "215 bhp (DIN) / 240 bhp (SAE)",
+          "sourceId": "rm-1957-300-sl-gullwing"
+        },
+        {
+          "value": "210 hp",
+          "sourceId": "newport-1955-300-sl"
+        }
+      ],
+      "reason": "Rating standards: 215 is Mercedes-Benz's DIN rating in PS, 240 the period US SAE gross rating; Newport's 210 hp appears to be the DIN figure converted or rounded differently.",
+      "resolution": "215 PS (DIN), the maker's net rating, converted to 212 hp; the SAE gross figure is recorded in the note."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power and weight are provisional. Power (215 PS DIN = 212 hp) rests on RM Sotheby's unsigned auction catalogue and Automobile-Sportive (enthusiast), agreeing. Weight (2,855 lb, 1,295 kg) rests on the Newport Car Museum page and Automobile-Sportive's unlabelled 1,295 kg, which are probably the same European figure. Production years are build years. A Mercedes-Benz Classic technical data page or period Mercedes-Benz brochure for the 300 SL coupe (W 198 I), or a major magazine spec panel, would replace both."
+}

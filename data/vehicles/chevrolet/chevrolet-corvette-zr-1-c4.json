@@ -1,0 +1,181 @@
+{
+  "id": "chevrolet-corvette-zr-1-c4",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C4",
+  "variant": "ZR-1",
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette ZR-1 (C4)",
+  "aliases": [
+    "C4 ZR-1",
+    "ZR-1 C4",
+    "Corvette ZR-1",
+    "King of the Hill",
+    "LT5",
+    "1990 Corvette ZR-1",
+    "ZR1 C4",
+    "C4 ZR1"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1990,
+      "endYear": 1995
+    },
+    "sourceId": "chevrolet-zr1-history-release",
+    "note": "US model years 1990-1995. Chevrolet: \"Total production of the 1990-95 ZR-1 was 6,939\" and \"the ZR-1's 1995 final year\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "corvsport-1990-specs",
+    "note": "CorvSport's ZR-1 entry: 'LT5 5.7 OHV 350 V-8. Multi-Port Fuel Injection (COUPE)'; the ZR-1 was not offered as a convertible."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-zr1-history-release",
+      "note": "Chevrolet: 'The all-aluminum LT5 engine ... sharing only a 5.7-liter displacement with other small-block engines'."
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "cac-lt5-engine-specs",
+      "note": "5,727 cc: '349 cu in, 5727 cc' (Corvette Action Center LT5 specifications). Vette Vues: '349 in3, 5727 cm3' (vettevues-1990-specs)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "chevrolet-zr1-history-release",
+      "note": "Inferred: LT5 DOHC V8, no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-zr1-history-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "chevrolet-zr1-history-release",
+    "note": "Front-engine, rear-wheel-drive Corvette; inferred."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "vettevues-1990-specs",
+    "note": "Vette Vues' 1990 ZR-1 specifications: '6-speed Manual Transmission'. The ZR-1 was manual only (CorvSport's '4 Speed Auto Transmission (Standard)' line applies to the base car)."
+  },
+  "powerHp": {
+    "value": 375,
+    "sourceId": "chevrolet-zr1-history-release",
+    "note": "Quote (Chevrolet ZR1 history release, reproduced by Corvette Action Center): \"the ZR-1's 375-horespower (280 kW) LT5 V-8 engine\"; \"a horsepower increase to 405 (302 kW) in 1993\". Corvette Action Center's LT5 specifications: 1990-1992 \"375 hp @ 6,000 rpm\", 1993-1995 \"405 hp @ 5,800 rpm\" (cac-lt5-engine-specs). Reference year 1990: each rating covers three of the six model years, so the launch year is used."
+  },
+  "weightLb": {
+    "value": 3465,
+    "sourceId": "corvsport-1990-specs",
+    "note": "PROVISIONAL (enthusiast sites and a database). 1990 ZR-1 coupe, 6-speed manual (the only transmission). Quote (CorvSport, Cameron Martel, 1990 Corvette specifications): ZR-1 row \"Curb Weight – Manual (LBS)\": \"3,465\"; base coupe (manual) \"3,330\" lbs. Vette Vues (unsigned, 1990 ZR1 specifications): \"Curb weight: 3,465 lbs\" (vettevues-1990-specs). Edmunds 1990 ZR1 2dr Coupe: \"Curb weight | 3,465 lbs.\" (edmunds-corvette-zr1-1990). The Vette Registry's 3,330 lb (vetteregistry-1990-zr1) is the base L98 coupe's figure (Corvette Action Center 1990 specifications: row \"Curb Weight\": \"3330 (6-speed) 3284 (Auto.)\" for the L98 coupe, cac-1990-specs); see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1990,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-zr1-history-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (release reproduced by Corvette Action Center)",
+      "title": "Corvette ZR1: It's Good to Be the King",
+      "url": "https://www.corvetteactioncenter.com/specs/c6/2009/zr1/2009_zr1_press4.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cac-lt5-engine-specs",
+      "type": "enthusiast",
+      "publisher": "Corvette Action Center",
+      "title": "1990-1995 Corvette ZR-1 LT5 Engine Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c4/zr1/1990-1995-corvette-zr-1-lt5-engine-specs.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "corvsport-1990-specs",
+      "type": "enthusiast",
+      "publisher": "CorvSport",
+      "title": "1990 Corvette Performance & Specifications",
+      "url": "https://www.corvsport.com/1990-corvette-specifications/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "vettevues-1990-specs",
+      "type": "enthusiast",
+      "publisher": "Vette Vues",
+      "title": "1990 Corvette Specifications",
+      "url": "https://vette-vues.com/1990-corvette-specifications-values-options-performance/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-corvette-zr1-1990",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 1990 Chevrolet Corvette ZR1 Specs & Features",
+      "url": "https://www.edmunds.com/chevrolet/corvette/1990/zr1/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cac-1990-specs",
+      "type": "enthusiast",
+      "publisher": "Corvette Action Center",
+      "title": "1990 Corvette Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c4/1990/90specs.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "vetteregistry-1990-zr1",
+      "type": "enthusiast",
+      "publisher": "Corvette Registry (vetteregistry.net)",
+      "title": "1990 Corvette ZR1 Specifications, Options and Production Numbers",
+      "url": "https://www.vetteregistry.net/corvette-stats-1990-ZR1/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3465,
+          "sourceId": "corvsport-1990-specs"
+        },
+        {
+          "value": 3330,
+          "sourceId": "vetteregistry-1990-zr1"
+        }
+      ],
+      "reason": "The Vette Registry's ZR1 page gives 3,330 lb, which is the 1990 base (L98) coupe with the 6-speed: CorvSport gives 3,330 lb for the base manual coupe and 3,465 lb for the ZR-1, and Corvette Action Center's 1990 table gives 3,330 lb for the L98 coupe (6-speed).",
+      "resolution": "The 3,330 lb figure belongs to a different car (the base coupe), so the ZR-1 figure of 3,465 lb (CorvSport, Vette Vues, Edmunds) is used."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 375,
+          "sourceId": "chevrolet-zr1-history-release"
+        },
+        {
+          "value": 380,
+          "sourceId": "vettevues-1990-specs"
+        }
+      ],
+      "reason": "Vette Vues and Edmunds print 380 hp @ 6,200 rpm; Chevrolet's release and its LT5 specifications give 375 hp for 1990-1992.",
+      "resolution": "The manufacturer's 375 hp is used."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,465 lb) rests on CorvSport and Vette Vues (enthusiast sites) and Edmunds (database), which agree; the Vette Registry's 3,330 lb is the base coupe's figure. A GM/Chevrolet 1990 ZR-1 press kit or specification sheet, or a major magazine's specification panel for the 1990 ZR-1, would replace it."
+}

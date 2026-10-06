@@ -1,0 +1,154 @@
+{
+  "id": "lotus-exige-s-series-2",
+  "manufacturer": "Lotus",
+  "model": "Exige",
+  "generation": "Series 2",
+  "variant": "S",
+  "subVariant": null,
+  "displayName": "Lotus Exige S (Series 2)",
+  "aliases": [
+    "Exige S",
+    "Exige S2",
+    "Supercharged Exige",
+    "2ZZ-GE",
+    "2007 Exige S"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2007,
+      "endYear": 2008
+    },
+    "sourceId": "kbb-exige-s-2008",
+    "note": "US model years. KBB lists the Exige S for 2007 and 2008 only (the 2009 page redirects to 2008); kbb-exige-s-2007 lists the 2007 car. Lotus Cars USA announced it on 30 November 2006 as 'expected in limited numbers at dealerships throughout the U.S. later this year'. The 2008 to 2011 Exige S 240 and Exige S 260 are separate, more powerful models, and the later V6 Exige S was never sold in the US (Motor Authority, motorauthority-exige-v6: 'Lotus' Exige S is ban from sale in the U.S. due to the car not meeting local airbag safety regulations')."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cars-com-exige-s-2007",
+    "note": "Cars.com: '2dr Coupe S'. Two-seat mid-engined fixed-roof coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "cars-com-exige-s-2007",
+      "note": "Cars.com: 'Gas I4'; KBB: '4-Cyl, Supercharged, 1.8L'"
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "lotus-us-exige-s-release",
+      "note": "'the 1.8 liter engine' (Lotus Cars USA); Cars.com: '1.8L/110'. The cc figure was not seen on an opened page."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "lotus-us-exige-s-release",
+      "note": "'The addition of a supercharger and intercooler to the 1.8 liter engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cars-com-exige-s-2007",
+    "note": "Cars.com: 'Gas I4'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cars-com-exige-s-2007",
+    "note": "Cars.com: 'Rear Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "lotus-us-exige-s-release",
+    "note": "'six-speed aluminum gearbox'; manual only (Cars.com: '6-Speed M/T')."
+  },
+  "powerHp": {
+    "value": 220,
+    "sourceId": "lotus-us-exige-s-release",
+    "note": "Quote (Lotus Cars USA release, 30 November 2006): \"The addition of a supercharger and intercooler to the 1.8 liter engine has raised the horsepower 16 percent (to 220 hp from 190)\" (repeated on a second request). MotorWeek's 2007 test (motorweek-exige-s-2007) also gives 220. KBB lists 218 hp for the 2008 Exige S (kbb-exige-s-2008)."
+  },
+  "weightLb": {
+    "value": 2077,
+    "sourceId": "lotus-us-exige-s-release",
+    "note": "Quote (Lotus Cars USA release): \"Weighing just 2,077 pounds, the Exige S sprints to 60 mph in a blistering 4.1 seconds\" (repeated on a second request). Cars.com lists 'Base Curb Weight 2,077 lbs' for the 2007 Exige S and MotorWeek says it 'tips the scales at 2,077' pounds. Single body and transmission."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lotus-us-exige-s-release",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars USA (release reproduced by Velocity Automotive Journal)",
+      "title": "Lotus lineup gets a serious Boost with Supercharged Exige S",
+      "url": "https://www.velocityjournal.com/models/16386/story/1004",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorweek-exige-s-2007",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2007 Lotus Exige S",
+      "url": "https://motorweek.org/road_tests/2007_lotus_exige_s/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cars-com-exige-s-2007",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2007 Lotus Exige S Specs, Dimensions & Colors",
+      "url": "https://www.cars.com/research/lotus-exige_s-2007/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-exige-s-2007",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2007 Lotus Exige S Specs, Features & Options",
+      "url": "https://www.kbb.com/lotus/exige-s/2007/specs",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-exige-s-2008",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 Lotus Exige S Specs, Features & Options",
+      "url": "https://www.kbb.com/lotus/exige-s/2008/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-exige-v6",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Lotus Confirms Exige V6 Cup Track Car For U.S.",
+      "url": "https://www.motorauthority.com/news/1078602_lotus-confirms-exige-v6-cup-track-car-for-u-s",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 220,
+          "sourceId": "lotus-us-exige-s-release"
+        },
+        {
+          "value": 218,
+          "sourceId": "kbb-exige-s-2008"
+        }
+      ],
+      "reason": "Model year and source type: 220 hp is Lotus Cars USA's rating at launch (2007); 218 hp is a database listing for the 2008 car, not confirmed by Lotus.",
+      "resolution": "Used the Lotus Cars USA rating for the 2007 reference year."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "porsche-911-dakar-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "Dakar",
+  "subVariant": null,
+  "displayName": "Porsche 911 Dakar (992.1)",
+  "aliases": [
+    "992 Dakar",
+    "911 Dakar",
+    "992.1 Dakar",
+    "Dakar",
+    "2023 911 Dakar",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2024
+    },
+    "sourceId": "stuttcars-911-dakar",
+    "note": "US model years. Stuttcars (Nicolaos Dellis) dates the car \"2023 - 2024\". First: \"The 2023 Porsche 911 Dakar\" (pcna-911-dakar-2022), \"expected to begin arriving in U.S. dealers in Spring 2023\". Last: KBB lists \"Dakar Coupe 2D\" for 2024 (kbb-911-2024-specs; database). Limited to 2,500 units globally."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "stuttcars-911-dakar",
+    "note": "Two-door coupe based on the 911 Carrera 4 GTS; KBB 2024 lists it as \"Dakar Coupe 2D\" (kbb-911-2024-specs)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-911-dakar-2022",
+      "note": "\"3.0-liter twin-turbo Boxer engine\""
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "porsche-ag-911-dakar-td",
+      "note": "2,981 cc. Porsche AG technical data: \"Displacement 2,981 cm3\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pcna-911-dakar-2022",
+      "note": "\"3.0-liter twin-turbo Boxer engine\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-911-dakar-2022",
+    "note": "Petrol engine; inferred."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "pcna-911-dakar-2022",
+    "note": "\"Porsche Traction Management (PTM) all-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "pcna-911-dakar-2022",
+    "note": "\"The engine is paired with an eight-speed PDK\". DCT is Porsche PDK; no manual was offered."
+  },
+  "powerHp": {
+    "value": 473,
+    "sourceId": "pcna-911-dakar-2022",
+    "note": "Quote: \"The 3.0-liter twin-turbo Boxer engine makes 473 hp and 420 lb.-ft. of torque.\" Porsche AG: \"Maximum power output 353 kW (480 PS) at engine speed 6,500 1/min\" (porsche-ag-911-dakar-td). KBB: \"473 @ 6500 RPM\"."
+  },
+  "weightLb": {
+    "value": 3552,
+    "sourceId": "pcna-911-dakar-2022",
+    "note": "Standard car (coupe, 8-speed PDK, the only configuration). Quote: \"Lightweight glass also helps save mass so that the 911 Dakar has a curb weight of 3,552 lbs.\" KBB 2024: \"3552 pounds\". Porsche AG: \"Unladen weight (DIN) 1,605 kg\" (porsche-ag-911-dakar-td)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-911-dakar-2022",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom)",
+      "title": "The 2023 Porsche 911 Dakar",
+      "url": "https://newsroom.porsche.com/en_US/2022/products/porsche-911-dakar-world-premiere-auto-show-los-angeles-30426.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "porsche-ag-911-dakar-td",
+      "type": "manufacturer",
+      "publisher": "Porsche AG",
+      "title": "911 Dakar technical data",
+      "url": "https://newsroom.porsche.com/dam/jcr:5cac90b3-71ec-4021-b0fd-ec1e4bbfc087/pag-911-dakar-td-en.pdf.PDF",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "stuttcars-911-dakar",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 Dakar (992.1) (2023 – 2024) (Nicolaos Dellis)",
+      "url": "https://www.stuttcars.com/porsche-911-dakar-992-2023/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-911-2024-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Porsche 911 Specs, Features & Options",
+      "url": "https://www.kbb.com/porsche/911/2024/specs/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

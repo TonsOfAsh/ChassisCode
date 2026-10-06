@@ -1,0 +1,153 @@
+{
+  "id": "ferrari-f12berlinetta",
+  "manufacturer": "Ferrari",
+  "model": "F12berlinetta",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari F12berlinetta",
+  "aliases": [
+    "F12",
+    "F12 Berlinetta",
+    "Ferrari F12"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2017
+    },
+    "sourceId": "kbb-f12",
+    "note": "US model years. KBB's F12berlinetta listing is headed 2017 and links model years '2016', '2015', '2014' and '2013'. Evo: 'Built to replace the 599 GTB in 2012, the F12 was on sale for five years until it was succeeded by the 812 Superfast' (evo-f12), titling it '(2012-2017)' (calendar years; unveiled at Geneva in March 2012 per the Ferrari release reproduced by Autoblog). The open F12 variants (F60America) and the F12tdf are separate cars."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-f12",
+    "note": "Two-seat front-engined V12 berlinetta; no open version of this variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "autoblog-f12-release",
+      "note": "Ferrari release as reproduced by Autoblog: '65-degree V12'"
+    },
+    "displacementL": {
+      "value": 6.3,
+      "sourceId": "justcars-f12",
+      "note": "6,262 cc. Ferrari specification as printed by Just Cars: 'Total displacement 6262 cc' (justcars-f12); Top Gear: 'V12, 6262cc, 65 degree vee angle' (topgear-f12)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "topgear-f12",
+      "note": "Top Gear: 'naturally aspirated V12'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "autoblog-f12-release",
+    "note": "Petrol V12 with no hybrid system; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "topgear-f12",
+    "note": "Top Gear: '730bhp through the rear wheels'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "evo-f12-driven",
+    "note": "Evo: 'All that mumbo is transmitted to the 315-section rear tyres via a 7-speed dual clutch transaxle and Ferrari's E-Diff.' Ferrari's release (autoblog-f12-release) calls it the 'F1 dual-clutch transmission'. No manual was offered."
+  },
+  "powerHp": {
+    "value": 730,
+    "sourceId": "autoblog-f12-release",
+    "note": "Ferrari's rating is metric: 740 cv x 0.98632 = 729.9, rounded to 730 hp. Quote (Ferrari release of 29 February 2012 as reproduced by Autoblog): \"Maximum power output 740 CV at 8500 rpm\" (reproduced on a second request). Evo's and Top Gear's panels print the same 730bhp (Evo: 'Power | 730bhp'). KBB's US listing shows '740 @ 8250 RPM', the metric number. No separate SAE rating published by Ferrari for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3594,
+    "sourceId": "evo-f12",
+    "note": "1,630 kg x 2.20462 = 3,593.5, rounded to 3,594 lb. Coupe with the 7-speed dual-clutch gearbox (the only configuration). Quote (Evo specification panel): \"Weight | 1630kg\" (unlabelled; Evo marks dry figures as dry elsewhere). Top Gear calls the same figure the kerb weight: \"kerbweight of 1630kg\" (topgear-f12). Ferrari gives only a dry weight: \"Dry weight* 1525 kg\" (autoblog-f12-release); Ferrari's specification as printed by Just Cars (justcars-f12, Mike Ryan, 2 December 2012) gives the footnote: \"*With lightweight options\". 1,630 kg is exactly 105 kg above that optioned dry weight, so it is treated as step 3 of the weight order (an optioned car's curb weight): no standard-car curb weight was found, and a standard car is somewhat heavier. KBB's US listing shows '3594 lbs.' (kbb-f12)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "weightQualifier": "lightweight-options",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "autoblog-f12-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari (press release reproduced by Autoblog)",
+      "title": "Ferrari F12berlinetta debuts at Geneva (includes \"Announcing the F12berlinetta: the fastest Ferrari ever built\", 29 February 2012)",
+      "url": "https://www.autoblog.com/2012/03/06/2012-ferrari-f12-berlinetta-geneva-2012/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "justcars-f12",
+      "type": "publication",
+      "publisher": "Just Cars (Mike Ryan)",
+      "title": "Fastest Ferrari confirmed for Australia",
+      "url": "https://www.justcars.com.au/news-and-reviews/fastest-ferrari-confirmed-for-australia/6972",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-f12",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari F12 Berlinetta (2012-2017): review, specs and buying guide",
+      "url": "https://www.evo.co.uk/ferrari/f12-berlinetta",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-f12-driven",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari F12 Berlinetta driven",
+      "url": "https://www.evo.co.uk/ferrari/599/12895/ferrari-f12-berlinetta-driven",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-f12",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Top Gear drives Ferrari F12 Berlinetta",
+      "url": "https://www.topgear.com/car-news/supercars/top-gear-drives-ferrari-f12-berlinetta",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-f12",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2017 Ferrari F12berlinetta (model year listing and specifications)",
+      "url": "https://www.kbb.com/ferrari/f12berlinetta/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,630 kg (3,594 lb) kerb",
+          "sourceId": "evo-f12"
+        },
+        {
+          "value": "1,525 kg (3,362 lb) dry, with lightweight options",
+          "sourceId": "justcars-f12"
+        }
+      ],
+      "reason": "Dry vs kerb. Ferrari's release lists only a dry weight; Evo's panel and Top Gear give 1,630 kg, 105 kg more.",
+      "resolution": "Used the published kerb figure under weight step 3 (very probably an optioned car), since no standard-car curb weight was found and a curb weight ranks above a dry weight."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

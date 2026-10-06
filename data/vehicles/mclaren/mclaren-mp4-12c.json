@@ -1,0 +1,133 @@
+{
+  "id": "mclaren-mp4-12c",
+  "manufacturer": "McLaren",
+  "model": "MP4-12C",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren MP4-12C",
+  "aliases": [
+    "12C",
+    "McLaren 12C",
+    "MP4 12C",
+    "12C Coupe",
+    "M838T",
+    "SSG",
+    "2012 MP4-12C",
+    "2013 12C",
+    "2014 12C"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2012,
+      "endYear": 2014
+    },
+    "sourceId": "kbb-mp4-12c",
+    "note": "US model years, from Kelley Blue Book (a database): its MP4-12C page shows 2014 with 2013 and 2012 in the year selector. New Atlas (newatlas-12c-2013) describes the upgraded \"2013 model year\" car. No McLaren page naming the US model years was found. The 12C Spider is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carsuk-12c-2013",
+    "note": "Fixed-roof two-seater. The 12C Spider is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "carsuk-12c-2013",
+      "note": "\"Engine configuration | V8 twin turbo\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "carsuk-12c-2013",
+      "note": "3,799 cc (\"Engine displacement (cc) | 3799\")"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "carsuk-12c-2013",
+      "note": "\"V8 twin turbo\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "carsuk-12c-2013"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carsuk-12c-2013",
+    "note": "\"Drivetrain layout | Longitudinal mid-engine, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "carsuk-12c-2013",
+    "note": "\"Transmission | 7 Speed SSG with Pre-Cog\" (McLaren Seamless Shift Gearbox, a dual-clutch unit). No manual was offered."
+  },
+  "powerHp": {
+    "value": 616,
+    "sourceId": "newatlas-12c-2013",
+    "note": "Quote (New Atlas, Noel McKeegan, 8 June 2012, spec table marked \"Source: McLaren Automotive\"): \"A 25 hp increase in power that gives the 12C's 3.8-litre twin turbo V8 engine a maximum output of 616 hp (625 PS)\"; table: \"PS / rpm: 625 / 7500\". Cars UK (carsuk-12c-2013): \"25PS (25hp) power increase takes McLaren 12C's maximum output to 625PS (616hp)\". 625 x 0.98632 = 616 hp. Reference-year rule: the launch (2012 model year) car had 25 PS less, 600 PS (592 hp); the 625 PS rating applies from the 2013 model year (upgrades \"from October 2012\", offered free to existing owners) and covers two of the three US model years, so the record uses 616 hp at reference year 2013. No US-specific McLaren document was found; powerStandard is DIN PS because McLaren's rating is metric. KBB lists \"616 hp\" for 2014."
+  },
+  "weightLb": {
+    "value": 3161,
+    "sourceId": "newatlas-12c-2013",
+    "note": "Coupe, 7-speed SSG (the only transmission). Quote (McLaren's 2013 model-year spec table as printed by New Atlas, \"Source: McLaren Automotive\"): \"DIN weight (kg / lbs): 1434 / 3161\". Cars UK (carsuk-12c-2013) prints the same row. DIN weight, not EU. The same table gives \"Dry weight (kg / lbs): 1336 / 2945\" and \"Dry weight with lightweight options (kg / lbs): 1301 / 2868\", not used. McLaren does not say which equipment the DIN figure assumes; it is a worldwide figure, not US-specific."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "newatlas-12c-2013",
+      "type": "publication",
+      "publisher": "New Atlas",
+      "title": "McLaren MP4-12C gets performance makeover",
+      "url": "https://newatlas.com/2013-mclaren-mp4-12c/22871/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carsuk-12c-2013",
+      "type": "publication",
+      "publisher": "Cars UK",
+      "title": "2013 McLaren MP4-12C Upgrades: Press Release",
+      "url": "https://www.carsuk.net/2013-mclaren-mp4-12c-upgrades-press-release/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-mp4-12c",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren MP4-12C",
+      "url": "https://www.kbb.com/mclaren/mp4-12c/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 592,
+          "sourceId": "newatlas-12c-2013"
+        },
+        {
+          "value": 616,
+          "sourceId": "newatlas-12c-2013"
+        }
+      ],
+      "reason": "Model year: the launch car had 600 PS (592 hp); McLaren added 25 PS for the 2013 model year (625 PS, 616 hp).",
+      "resolution": "Used 616 hp under the reference-year rule (the later rating covers 2013 and 2014, two of three US model years)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

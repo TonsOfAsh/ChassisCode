@@ -1,0 +1,129 @@
+{
+  "id": "plymouth-barracuda-hemi-cuda-3rd-gen",
+  "manufacturer": "Plymouth",
+  "model": "Barracuda",
+  "generation": "3rd gen",
+  "variant": "Hemi 'Cuda",
+  "subVariant": null,
+  "displayName": "Plymouth Barracuda Hemi 'Cuda (3rd gen)",
+  "aliases": [
+    "Hemi Cuda",
+    "'Cuda",
+    "1970 Hemi Cuda",
+    "426 Hemi",
+    "E-body",
+    "Shaker",
+    "TorqueFlite",
+    "1971 Hemi Cuda"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1970,
+      "endYear": 1971
+    },
+    "sourceId": "ocw-hemi-cuda-1970-gunnell",
+    "note": "US model years 1970-1971. Old Cars Weekly (Gunnell): \"The 426-cube, 425-hp Hemi was a new 'Cuda option\" (1970). Supercars.net: \"Changes for 1971 were minimal and included a more complex 6 inlet grille design and fender gill louvers.\" (supercars-hemi-cuda-1970). Old Cars Weekly (2009): \"the 1971 Hemi Cudas are even rarer and more expensive\" (ocw-hemi-cuda-1970). Reference year 1970."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ocw-hemi-cuda-1970",
+    "note": "\"Only 652 1970 Hemi Cuda hardtops were built, and just 14 convertibles were sold in the U.S. market\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "supercars-hemi-cuda-1970",
+      "note": "426 Hemi V8"
+    },
+    "displacementL": {
+      "value": 7.0,
+      "sourceId": "supercars-hemi-cuda-1970",
+      "note": "\"6981 cc / 426.0 in³\""
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ocw-hemi-cuda-1970-gunnell",
+      "note": "\"dual Carter AFB four-barrel carburetors\"; no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ocw-hemi-cuda-1970-gunnell"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ocw-hemi-cuda-1970-gunnell",
+    "note": "Front-engine, rear-wheel drive with a \"Dana 9-3/4-inch differential\"; inferred."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual",
+      "3-speed Automatic"
+    ],
+    "sourceId": "ocw-hemi-cuda-1970-gunnell",
+    "note": "\"New Process A-833 four-speed manual gearbox or the 727 TorqueFlite automatic\". The opened pages do not state the TorqueFlite's number of speeds; see reviewNotes."
+  },
+  "powerHp": {
+    "value": 425,
+    "sourceId": "ocw-hemi-cuda-1970-gunnell",
+    "note": "PROVISIONAL (articles, no Chrysler document opened). Manufacturer rating as published in the period: SAE gross (pre-1972 US practice; powerStandard \"Other\"). Quote (Old Cars Weekly, John Gunnell): \"The 426-cube, 425-hp Hemi was a new 'Cuda option\". Gold Eagle: \"Officially rated at 425 bhp and 490 lb-ft of torque\" (goldeagle-hemi-cuda-1970). Supercars.net: \"316.9 kw / 425.0 bhp @ 5000 rpm\" (supercars-hemi-cuda-1970). Old Cars Weekly (2009): \"425 advertised hp\" (ocw-hemi-cuda-1970)."
+  },
+  "weightLb": {
+    "value": 3620,
+    "sourceId": "supercars-hemi-cuda-1970",
+    "note": "PROVISIONAL (single numeric source, enthusiast page). Quote (Supercars.net, 1970 Hemi 'Cuda): \"Curb Weight | 1642 kg / 3620 lbs\". Gold Eagle's \"curb weight just under 3,700 lbs\" (goldeagle-hemi-cuda-1970) is not a figure and does not count as a second source. Body and transmission not stated (Supercars.net lists the 4-speed manual)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1970,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ocw-hemi-cuda-1970-gunnell",
+      "type": "publication",
+      "publisher": "Old Cars Weekly",
+      "title": "Car of the Week: 1970 Plymouth Hemi 'Cuda (John Gunnell)",
+      "url": "https://www.oldcarsweekly.com/features/car-of-the-week-1970-plymouth-hemi-cuda",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ocw-hemi-cuda-1970",
+      "type": "publication",
+      "publisher": "Old Cars Weekly",
+      "title": "Car of the Week: 1970 Hemi 'Cuda (1 July 2009)",
+      "url": "https://www.oldcarsweekly.com/features/car-of-the-week-1970-hemi-cuda",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "supercars-hemi-cuda-1970",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "1970 Plymouth HEMI 'Cuda",
+      "url": "https://www.supercars.net/blog/1970-plymouth-hemi-cuda/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "goldeagle-hemi-cuda-1970",
+      "type": "enthusiast",
+      "publisher": "Gold Eagle (Cool Rides Online)",
+      "title": "Muscle Mondays: 1970 Plymouth Hemi 'Cuda",
+      "url": "https://www.goldeagle.com/?p=20416",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight rests on one numeric source (Supercars.net). The TorqueFlite automatic is entered as 3-speed, but no opened page states its speed count. No opened page gives a 1971 power or weight figure; Supercars.net says changes for 1971 were minimal.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (425 hp SAE gross) rests on articles (Old Cars Weekly x2, Gold Eagle, Supercars.net), agreeing. Weight (3,620 lb) rests on a single numeric source (Supercars.net). A Plymouth 1970 specification or a major magazine spec panel for the Hemi 'Cuda would replace them."
+}

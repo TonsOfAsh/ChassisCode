@@ -1,0 +1,129 @@
+{
+  "id": "aston-martin-db12",
+  "manufacturer": "Aston Martin",
+  "model": "DB12",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin DB12",
+  "aliases": [
+    "DB12 Coupe",
+    "Aston DB12",
+    "Super Tourer",
+    "2024 DB12"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "dupont-db12-2024",
+    "note": "US model years. duPont Registry News (Gabriel Vega, 24 May 2023) introduces the car as the '2024 Aston Martin DB12'. Aston (am-db12-release-2023, 24 May 2023): 'Deliveries scheduled to begin Q3 2023'. Still on sale; endYear null."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "am-db12-release-2023",
+    "note": "2+2 coupe. The DB12 Volante is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "am-db12-release-2023",
+      "note": "'4.0 Twin-Turbo V8 engine'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "am-db12-brochure",
+      "note": "Aston brochure: '4.0 litres'. No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "am-db12-release-2023",
+      "note": "'4.0 Twin-Turbo V8 engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "am-db12-release-2023",
+    "note": "Petrol V8; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "am-db12-release-2023",
+    "note": "Rear-wheel drive with an Electronic Rear Differential."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "am-db12-release-2023",
+    "note": "'8-speed automatic transmission'; brochure: 'automatic ZF 8-speed transmission' (am-db12-brochure)."
+  },
+  "powerHp": {
+    "value": 671,
+    "sourceId": "am-db12-release-2023",
+    "note": "Quote (Aston Martin, 24 May 2023): \"class-leading 680PS/671bhp at 6000rpm and 800Nm/590lb ft between 2750-6000rpm\". 680 PS x 0.98632 = 670.7 hp, rounded to 671. duPont Registry gives the US car '671 Horsepower' (dupont-db12-2024)."
+  },
+  "weightLb": {
+    "value": 3715,
+    "sourceId": "evo-db12-reveal",
+    "note": "Dry weight (weight-order step 4): no manufacturer or magazine-panel curb weight and no curb weight from two named-author outlets was found. Quote (Evo, Stuart Gallagher, 30 May 2023): \"Aston Martin quotes a 1685kg dry weight for the DB12\". 1,685 kg x 2.20462 = 3,714.8 lb, rounded to 3,715. Top Gear (topgear-db12-reveal, Ollie Marriage): \"this comes in at 1,685kg. That's a dry weight\"; its 'reckon on around 1,820kg' is the writer's own estimate and is not used. duPont Registry: '3,714-pound dry weight' (dupont-db12-2024). No opened page says whether the dry figure is for an optioned car."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "am-db12-release-2023",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "Introducing the Aston Martin DB12: The world's first Super Tourer (24 May 2023)",
+      "url": "https://media.astonmartin.com/introducing-the-aston-martin-db12the-worlds-first-super-tourer/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "am-db12-brochure",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "DB12 Brochure",
+      "url": "https://www.astonmartin.com/en-us/models/brochures/db12-brochure",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-db12-reveal",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "2023 Aston Martin DB12 arrives with new design, interior and 671bhp V8 (Stuart Gallagher, 30 May 2023)",
+      "url": "https://www.evo.co.uk/aston-martin/db12/205581/2023-aston-martin-db12-arrives-with-new-design-interior-and-671bhp-v8",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-db12-reveal",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "This is the new 671bhp Aston Martin DB12 (Ollie Marriage, 24 May 2023)",
+      "url": "https://www.topgear.com/car-news/first-look/new-671bhp-aston-martin-db12",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "dupont-db12-2024",
+      "type": "publication",
+      "publisher": "duPont Registry News",
+      "title": "2024 Aston Martin DB12 Debuts As A 671-HP V8 Grand Tourer (Gabriel Vega, 24 May 2023)",
+      "url": "https://news.dupontregistry.com/blogs/aston-martin-news/2024-aston-martin-db12-debuts",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

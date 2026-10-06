@@ -1,0 +1,159 @@
+{
+  "id": "aston-martin-one-77",
+  "manufacturer": "Aston Martin",
+  "model": "One-77",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin One-77",
+  "aliases": [
+    "One 77",
+    "Aston One-77"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2012
+    },
+    "sourceId": "am-media-one-77",
+    "note": "Calendar build years (home market). Aston Martin's media site gives '2010-2012'; Aston's own past-models page (am-one-77-past-model) says produced 2009-2012, counting from the 2009 reveal; Aston's release reproduced by Zercustoms (zercustoms-one-77-release) says 'The first deliveries will begin in early 2011'; Evo's panel (evo-one-77-a-z) gives 'Years made 2011-12'. 77 cars."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "am-one-77-past-model",
+    "note": "Two-seat coupe ('carbon fibre monocoque clad in a seamless bodyshell')."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "am-one-77-past-model",
+      "note": "'7312 cc V12, Alloy quad overhead camshaft, 48-valve'"
+    },
+    "displacementL": {
+      "value": 7.3,
+      "sourceId": "am-one-77-past-model",
+      "note": "7,312 cc (Aston: '7312 cc V12'). Evo's panel prints '7299cc' (evo-one-77-a-z); both round to 7.3."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "zercustoms-one-77-release",
+      "note": "'the most powerful naturally aspirated road car engine in the world today'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "zercustoms-one-77-release",
+    "note": "Petrol V12; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "am-one-77-past-model",
+    "note": "Front-mid V12 with a 'Rear mid-mounted, six-speed automated manual gearbox' (rear transaxle), i.e. rear-wheel drive."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "am-one-77-past-model",
+    "note": "'Rear mid-mounted, six-speed automated manual gearbox with auto shift manual/select shift manual (ASM/SSM) electric hydraulic control system'. The same page also carries a generic line '6-speed manual with optional 5-speed automatic', which contradicts this and every other source and is treated as a template error. Top Gear: 'robotised six-speed, single-clutch manual, with paddleshifters' (topgear-one-77-driving)."
+  },
+  "powerHp": {
+    "value": 750,
+    "sourceId": "zercustoms-one-77-release",
+    "note": "Quote (Aston Martin press release reproduced by Zercustoms): \"The 7.3 liter V12 engine, as part of the development process, has been certified at 750bhp and 750Nm of torque, positioning it as the most powerful naturally aspirated road car engine in the world today.\" Aston stated the rating in bhp, so it is used as published (powerStandard Other). Evo's panel (evo-one-77-a-z): 'Max power 750bhp'; Top Gear (topgear-one-77-review): 'Rated at 750bhp and 553lb ft'. Aston's 2009 reveal release promised 'no less than 700 bhp' (pre-production)."
+  },
+  "weightLb": {
+    "value": 3594,
+    "sourceId": "am-one-77-past-model",
+    "note": "Step 1 of the weight order (manufacturer figure). Quote (Aston Martin past-models page): \"1630 kg\" under the heading Weight, with no kerb or dry label. 1,630 kg x 2.20462 = 3,593.5 lb, rounded to 3,594. Top Gear (topgear-one-77-driving): 'it weighs 1,630kg'. Read as a kerb weight because Aston and Top Gear give it without a dry label; Aston's 2009 reveal release gave 'a projected weight of 1,500 kg' (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "UK",
+    "referenceModelYear": 2011,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "am-one-77-past-model",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "Aston Martin One-77 (2009-2012) - The 7.3L V12 Hypercar (past models)",
+      "url": "https://www.astonmartin.com/en-us/models/past-models/one-77",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "am-media-one-77",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "ONE-77 (Aston Martin media site)",
+      "url": "https://media.astonmartin.com/one-77/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "zercustoms-one-77-release",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (press release reproduced by Zercustoms)",
+      "title": "Aston Martin One 77 Specs",
+      "url": "http://www.zercustoms.com/news/Aston-Martin-One-77-Specs.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motordesktop-one-77-2009-release",
+      "type": "manufacturer",
+      "publisher": "Aston Martin (press release reproduced by Motor Desktop)",
+      "title": "2010 Aston Martin One-77 (Aston Martin press release, 3 March 2009)",
+      "url": "https://www.motordesktop.com/aston-martin/2010-aston-martin-one-77/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-one-77-a-z",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "A-Z Supercars: Aston Martin One-77 (19 February 2013)",
+      "url": "https://www.evo.co.uk/aston-martin/v12-vantage/12994/a-z-supercars-aston-martin-one-77",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-one-77-review",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Aston Martin One-77 review",
+      "url": "https://www.topgear.com/car-reviews/aston-martin/one-77",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-one-77-driving",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Aston Martin One-77 Driving, Engines & Performance",
+      "url": "https://www.topgear.com/car-reviews/aston-martin/one-77/driving",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3594,
+          "sourceId": "am-one-77-past-model"
+        },
+        {
+          "value": 3307,
+          "sourceId": "motordesktop-one-77-2009-release"
+        }
+      ],
+      "reason": "Projection vs final figure. Aston's March 2009 reveal release gave 'a projected weight of 1,500 kg' (3,307 lb) for the unfinished car; Aston's later past-models page and Top Gear give 1,630 kg.",
+      "resolution": "Used the final 1,630 kg."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,138 @@
+{
+  "id": "aston-martin-valkyrie",
+  "manufacturer": "Aston Martin",
+  "model": "Valkyrie",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin Valkyrie",
+  "aliases": [
+    "Valkyrie Coupe",
+    "Aston Valkyrie",
+    "AM-RB 001",
+    "Project 003 Valkyrie"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2024
+    },
+    "sourceId": "am-valkyrie-first-customer-2021",
+    "note": "Calendar build years (home market). First: Aston Martin, 4 November 2021: the first customer car was complete at Gaydon with deliveries 'in the coming weeks', of '150 cars'. Last: Motor Authority (motorauthority-valkyrie-end-2024, Viknesh Vijayenthiran, 27 November 2024): 'the final Valkyrie will be built before the end of 2024', listing '150 examples of the Valkyrie coupe, an additional 85 examples of the Valkyrie Spider, and 40 examples of the track-only Valkyrie AMR Pro'. That end date is for the whole Valkyrie family; no opened page says when the last coupe was built, so the coupe may have ended earlier (see reviewNotes)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "topgear-valkyrie-stats",
+    "note": "Fixed-roof coupe. The Valkyrie Spider and the track-only AMR Pro are sold under their own names and are not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "topgear-valkyrie-stats",
+      "note": "'6,498cc nat asp V12 + e-motor'"
+    },
+    "displacementL": {
+      "value": 6.5,
+      "sourceId": "topgear-valkyrie-stats",
+      "note": "6,498 cc (Top Gear: '6,498cc nat asp V12 + e-motor'). Aston calls it 6.5-litre."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "topgear-valkyrie-stats",
+      "note": "'6,498cc nat asp V12 + e-motor'"
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "topgear-valkyrie-review",
+    "note": "Top Gear: an integrated electric motor drawing from a '1.8kWh battery pack'; Aston: 'hybrid V12 powertrain' (am-valkyrie-first-customer-2021). Not a plug-in; no opened page mentions charging."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "topgear-valkyrie-stats",
+    "note": "'7spd sequential manual, RWD'"
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "topgear-valkyrie-review",
+    "note": "Top Gear: 'seven-speed gearbox is a single clutch sequential by Ricardo', shifted by paddles; Top Gear's stats page lists '7spd sequential manual' (topgear-valkyrie-stats). A single-clutch paddle-shift sequential is an automated manual under the guide."
+  },
+  "powerHp": {
+    "value": 1139,
+    "sourceId": "am-valkyrie-first-customer-2021",
+    "note": "Quote (Aston Martin): \"Boasting a hybrid V12 powertrain developing a maximum power of 1,155PS\". 1,155 PS x 0.98632 = 1,139.2 hp, rounded to 1,139. Combined V12 plus e-motor output. Top Gear's stats panel (topgear-valkyrie-stats) agrees: \"Power: 1,139bhp @ 10,600rpm\"; Motor Authority (motorauthority-valkyrie-end-2024): \"The combined output for the car is 1,139 hp\". Earlier pre-production figures of 1,160bhp (CAR magazine) are superseded by Aston's production rating."
+  },
+  "weightLb": {
+    "value": 2987,
+    "sourceId": "topgear-valkyrie-stats",
+    "note": "Step 2 of the weight order (major magazine specification panel; no Aston curb weight was found). Quote (Top Gear): \"Weight (DIN): 1,355kg\". DIN weight is the unladen kerb weight without driver. 1,355 kg x 2.20462 = 2,987 lb. The same panel gives \"Weight (as tested): 1,340kg\". Top Gear's review (topgear-valkyrie-review) gives '1,270kg before fluids are added' (a dry figure, see discrepancies)."
+  },
+  "specBasis": {
+    "market": "UK",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "am-valkyrie-first-customer-2021",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "First Aston Martin Valkyrie customer car complete (4 November 2021)",
+      "url": "https://www.astonmartin.com/en-us/our-world/news/2021/11/4/first-aston-martin-valkyrie-customer-car-complete",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-valkyrie-stats",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Aston Martin Valkyrie: all the stats and facts on the V12 F1 car for the road",
+      "url": "https://www.topgear.com/car-news/supercars/aston-martin-valkyrie-all-stats-and-facts-v12-f1-car-road",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-valkyrie-review",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Aston Martin Valkyrie review",
+      "url": "https://www.topgear.com/car-reviews/aston-martin/valkyrie",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-valkyrie-end-2024",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Aston Martin Valkyrie production ends in 2024 (Viknesh Vijayenthiran, 27 November 2024)",
+      "url": "https://www.motorauthority.com/news/1145149_aston-martin-valkyrie-production-ends-in-2024",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2987,
+          "sourceId": "topgear-valkyrie-stats"
+        },
+        {
+          "value": 2800,
+          "sourceId": "topgear-valkyrie-review"
+        }
+      ],
+      "reason": "DIN kerb vs dry. Top Gear's stats panel gives 'Weight (DIN): 1,355kg'; its review gives '1,270kg before fluids are added' (2,800 lb), a dry figure.",
+      "resolution": "Used the DIN kerb figure (weight-order step 2), which ranks above a dry weight."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Market: the Valkyrie was delivered worldwide and US cars are believed to exist, but no opened page confirms US sale or gives US model years, so the record uses the home market (UK) with calendar build years. If US sale and model years are sourced, switch to a US record. End year 2024 is Motor Authority's date for the last Valkyrie of any body; the coupe run may have ended earlier.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

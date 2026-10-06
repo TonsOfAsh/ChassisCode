@@ -1,0 +1,127 @@
+{
+  "id": "cadillac-ats-v",
+  "manufacturer": "Cadillac",
+  "model": "ATS-V",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Cadillac ATS-V",
+  "aliases": [
+    "ATS-V Coupe",
+    "ATS-V Sedan",
+    "ATS V",
+    "LF4",
+    "Cadillac ATSV",
+    "2016 ATS-V",
+    "2019 ATS-V"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2019
+    },
+    "sourceId": "streetmuscle-ats-v-2019",
+    "note": "US model years 2016-2019. Street Muscle (Micah Wright, 29 Apr 2019): \"Upon its release within the American market, the 2016 ATS-V won instant praise\"; the article reviews a 2019 ATS-V coupe and reports Cadillac's \"decision to eliminate all forms of the ATS and CTS\". The sedan may have ended after the 2018 model year (not confirmed); the coupe ran to 2019."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Sedan"
+    ],
+    "sourceId": "cadillac-v-series-brochure-2017",
+    "note": "Cadillac's 2017 V-Series brochure offers the ATS-V as a coupe and a sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "cadillac-v-series-brochure-2017",
+      "note": "'3.6L V6 Twin Turbo Direct-Injection(DI)'"
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "cadillac-v-series-brochure-2017",
+      "note": "'3.6L'. 3,564 cc per conceptcarz (database): \"Displacement : | 3564 cc | 217.5 cu in. | 3.6 L.\" (conceptcarz-ats-v-2016)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "cadillac-v-series-brochure-2017",
+      "note": "'3.6L V6 Twin Turbo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cadillac-v-series-brochure-2017"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cadillac-v-series-brochure-2017",
+    "note": "'Rear-Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "cadillac-v-series-brochure-2017",
+    "note": "Standard '6-speed manual'; optional '8-speed automatic with Performance Algorithm Shifting'."
+  },
+  "powerHp": {
+    "value": 464,
+    "sourceId": "cadillac-v-series-brochure-2017",
+    "note": "Quote (Cadillac 2017 V-Series brochure): \"3.6L V6 Twin Turbo Direct-Injection(DI) with 464 hp and 445 lb-ft of torque\". The same 464 hp appears in both articles used for weight (2016 and 2019), so the rating did not change."
+  },
+  "weightLb": {
+    "value": 3803,
+    "sourceId": "streetmuscle-ats-v-2019",
+    "note": "PROVISIONAL (one editorial outlet). Coupe with the 6-speed manual (the standard car), 2019. GM's only figure found is an estimate (3,700 lb marked '(est.)', reported via GM Authority; not re-opened). Quote (Street Muscle, Micah Wright, 29 Apr 2019, 2019 ATS-V coupe, '6-speed manual with active rev matching', spec table): \"Curb Weight | 3,803 lbs\". Cheers & Gears (William Maley, 30 Sep 2016) prints the same \"Curb Weight: 3,803 lbs\" for a 2016 coupe with the eight-speed automatic (cheersandgears-ats-v-2016); it is a community site and its car is not the standard one, so it supports but does not qualify. Car and Driver's specifications page (3,803 lb per the owner) could not be opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cadillac-v-series-brochure-2017",
+      "type": "manufacturer",
+      "publisher": "Cadillac (brochure hosted by auto-brochures.com)",
+      "title": "2017 Cadillac V-Series brochure",
+      "url": "https://www.auto-brochures.com/makes/Cadillac/Cadillac_US%20V-Series_2017.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "streetmuscle-ats-v-2019",
+      "type": "publication",
+      "publisher": "Street Muscle",
+      "title": "Cadillac ATS-V Coupe Review: A Six-Speed Manual Turbo Swan Song",
+      "url": "https://www.streetmusclemag.com/features/2019-cadillac-ats-v-coupe-review-a-six-speed-manual-turbo-swan-song/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cheersandgears-ats-v-2016",
+      "type": "publication",
+      "publisher": "Cheers & Gears",
+      "title": "Review: 2016 Cadillac ATS-V Coupe",
+      "url": "https://www.cheersandgears.com/articles/reviews/review-2016-cadillac-ats-v-coupe-r3813/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "conceptcarz-ats-v-2016",
+      "type": "database",
+      "publisher": "conceptcarz.com",
+      "title": "2016 Cadillac ATS-V Specifications & Dimensions",
+      "url": "https://www.conceptcarz.com/s24731/cadillac-ats-v.aspx",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,803 lb) rests on one editorial outlet (Street Muscle, 2019 manual coupe), with Cheers & Gears printing the same figure for a 2016 automatic coupe. GM's final curb weight, or Car and Driver's specifications panel read directly, would replace it. The sedan's last model year (2018 or 2019) is also unconfirmed."
+}

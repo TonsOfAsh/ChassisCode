@@ -2,10 +2,10 @@
   "id": "toyota-gr-supra-2-0-a90",
   "manufacturer": "Toyota",
   "model": "GR Supra",
-  "generation": "A90",
+  "generation": "A90 Mk5",
   "variant": "2.0",
   "subVariant": null,
-  "displayName": "Toyota GR Supra 2.0 (A90)",
+  "displayName": "Toyota GR Supra 2.0 (A90 Mk5)",
   "aliases": [
     "Mk5 Supra",
     "MkV Supra",
@@ -13,7 +13,10 @@
     "Supra 2.0",
     "Four-cylinder Supra",
     "B48",
-    "2021 GR Supra 2.0"
+    "2021 GR Supra 2.0",
+    "Supra Mk5",
+    "A90 Mk5",
+    "A90"
   ],
   "country": "Japan",
   "production": {

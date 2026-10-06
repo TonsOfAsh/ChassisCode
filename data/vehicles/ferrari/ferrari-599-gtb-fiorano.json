@@ -1,0 +1,147 @@
+{
+  "id": "ferrari-599-gtb-fiorano",
+  "manufacturer": "Ferrari",
+  "model": "599 GTB Fiorano",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 599 GTB Fiorano",
+  "aliases": [
+    "599",
+    "Ferrari 599",
+    "599 GTB",
+    "F140",
+    "HGTE",
+    "599 HGTE"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2007,
+      "endYear": 2012
+    },
+    "sourceId": "kbb-599",
+    "note": "US model years. KBB: 'Ferrari 599 GTB Fiorano (2007-2012)', with 2007 to 2011 model-year pages linked. Evo titles the car 'Ferrari 599 GTB (2006 - 2012)' (build years; unveiled at the 2006 Geneva show per Drive). The 599 GTO and SA Aperta are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-599",
+    "note": "Two-seat front-mid-engined V12 berlinetta."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "drive-599",
+      "note": "Ferrari specification as printed by Drive; Evo panel: 'Engine | V12, 5999cc'"
+    },
+    "displacementL": {
+      "value": 6.0,
+      "sourceId": "drive-599",
+      "note": "5,999 cc. Ferrari specification as printed by Drive: 'Total displacement 366.08 cu in 5998.953 cc'; Evo panel: 'V12, 5999cc'"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-599",
+      "note": "Evo: 'a naturally aspirated V12 – a derivative of the engine at the heart of the Enzo'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-599",
+    "note": "Petrol V12; fuel type inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-599",
+    "note": "Front-mid-mounted V12 ('entirely behind the front axle') driving the rear wheels; rear-wheel drive inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "drive-599",
+    "note": "Ferrari specification as printed by Drive: 'Gearbox (six gears + reverse) Manual or F1'. Evo: 'only 30 buyers opted for' the manual. The F1 paddle-shift gearbox is an automated manual."
+  },
+  "powerHp": {
+    "value": 612,
+    "sourceId": "drive-599",
+    "note": "Ferrari's rating is metric: 620 CV x 0.98632 = 612 hp. Quote (Ferrari specification as printed by Drive): \"Maximum power 456 kW** (620 CV) at 7600 rpm\" (reproduced on a second request; the article body also writes '620 hp at 7,600 rpm'). Evo's panel prints 611bhp: \"Power | 611bhp @ 7600rpm\" (rounding). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3722,
+    "sourceId": "drive-599",
+    "note": "Ferrari's own figure in pounds. Quote (Ferrari specification as printed by Drive): \"Kerb weight 3722 lb* 1689.788 kg\" (beside \"Dry weight 3482 lb* 1580.828 kg\"). The asterisk's footnote was not reproduced on the page, so it is not known whether the figures assume optional equipment or which gearbox they describe; probably the F1 car, which nearly all buyers chose. Evo's specification panel agrees: \"Weight | 1690kg\" (evo-599; 3,726 lb). Step 1 of the weight order. European specification; no US-specific figure found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "drive-599",
+      "type": "manufacturer",
+      "publisher": "Ferrari (specifications reproduced by Drive)",
+      "title": "Ferrari 599 GTB Fiorano",
+      "url": "https://www.drive.com.au/news/ferrari-599-gtb-fiorano/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-599",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari 599 GTB (2006 - 2012) review: a V12 Ferrari for less than a Porsche 911",
+      "url": "https://www.evo.co.uk/ferrari/599",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-599",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 599 GTB Fiorano",
+      "url": "https://www.kbb.com/ferrari/599-gtb-fiorano/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,722 lb / 1,689.788 kg (kerb)",
+          "sourceId": "drive-599"
+        },
+        {
+          "value": "1,690 kg (3,726 lb)",
+          "sourceId": "evo-599"
+        }
+      ],
+      "reason": "Rounding and unit conversion: both describe the same Ferrari kerb weight; the spec sheet's pound and kilogram figures do not convert exactly into each other.",
+      "resolution": "Used Ferrari's published pound figure, 3,722 lb."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "620 CV (612 hp)",
+          "sourceId": "drive-599"
+        },
+        {
+          "value": "611 bhp",
+          "sourceId": "evo-599"
+        }
+      ],
+      "reason": "Rounding of the conversion from Ferrari's metric rating (620 x 0.98632 = 611.5).",
+      "resolution": "Used 612 hp, the guide's conversion rounded to the nearest whole number."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

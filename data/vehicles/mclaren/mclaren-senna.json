@@ -1,0 +1,113 @@
+{
+  "id": "mclaren-senna",
+  "manufacturer": "McLaren",
+  "model": "Senna",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren Senna",
+  "aliases": [
+    "Senna",
+    "M840TR",
+    "SSG",
+    "2019 Senna",
+    "McLaren Senna Coupe"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2019,
+      "endYear": 2019
+    },
+    "sourceId": "mpgbuddy-senna",
+    "note": "US model years: EPA data as listed by MPG Buddy (a database): \"The EPA has rated the McLaren Automotive Senna for one model year, the 2019 McLaren Automotive Senna\". McLaren (mclaren-us-senna-media-info-2018): \"Production limited to 500 units, all hand-assembled at the McLaren Production Centre in Woking, Surrey, England, from Q3 2018 - and all allocated to customers\". Some secondary sources list a 2020 model year as well; no opened page confirmed one. The Senna GTR (track only) and Senna LM are not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-us-senna-media-info-2018",
+    "note": "Fixed-roof two-seater with dihedral doors."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mclaren-us-senna-media-info-2018",
+      "note": "\"M840TR engine, 4.0-liter twin-turbo V8, 3,994cc\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mclaren-us-senna-media-info-2018",
+      "note": "3,994 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mclaren-us-senna-media-info-2018",
+      "note": "\"4.0-liter twin-turbo V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mclaren-us-senna-media-info-2018"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "mclaren-us-senna-media-info-2018",
+    "note": "\"Longitudinal mid-engined; rear-wheel-drive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "mclaren-us-senna-media-info-2018",
+    "note": "\"7 Speed SSG (Seamless Shift Gearbox)\", McLaren's dual-clutch unit. No manual was offered."
+  },
+  "powerHp": {
+    "value": 789,
+    "sourceId": "mclaren-us-senna-media-info-2018",
+    "note": "Quote (McLaren media information, US version, updated 31 July 2018): \"M840TR engine produces 789bhp and 590lb ft\"; power row \"789/588 @ 7,250 rpm\" (bhp/kW). McLaren's global release as reproduced by Cuore Sportivo (cuoresportivo-senna): \"800PS (789bhp) and 800Nm (590lb ft)\". 800 x 0.98632 = 789 hp. powerStandard is DIN PS because McLaren's rating is the metric 800 PS, as in the 720S record."
+  },
+  "weightLb": {
+    "value": 2886,
+    "sourceId": "mclaren-us-senna-media-info-2018",
+    "note": "Single body and transmission. Quote (McLaren media information, US version): \"DIN Curb weight, kg (lbs) [fluids + 90% fuel] 2,885.9lbs\", rounded to 2,886 lb (1,309 kg). DIN weight, not EU. McLaren's \"Lightest dry weight, lbs 2,641\" (1,198 kg) depends on options and is not used. McLaren does not say which equipment the DIN curb weight assumes."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-us-senna-media-info-2018",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive",
+      "title": "The McLaren Senna: the ultimate road-legal track car (media information, US version, updated 31 July 2018)",
+      "url": "https://cars.mclaren.press/assets/documents/original/9588-McLarenSennamediainformationupdatedforGTDUSversion731.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cuoresportivo-senna",
+      "type": "manufacturer",
+      "publisher": "Cuore Sportivo (McLaren press material reproduced)",
+      "title": "The McLaren Senna: the ultimate road-legal track car",
+      "url": "https://cuoresportivo.com/en/news/press-releases/the-mclaren-senna-the-ultimate-road-legal-track-car/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "mpgbuddy-senna",
+      "type": "database",
+      "publisher": "MPG Buddy (EPA data)",
+      "title": "McLaren Automotive Senna",
+      "url": "https://mpgbuddy.com/cars/mclaren-automotive/senna",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

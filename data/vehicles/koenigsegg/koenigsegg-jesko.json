@@ -1,0 +1,123 @@
+{
+  "id": "koenigsegg-jesko",
+  "manufacturer": "Koenigsegg",
+  "model": "Jesko",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Koenigsegg Jesko",
+  "aliases": [
+    "Jesko Attack",
+    "Koenigsegg Jesko Attack",
+    "LST",
+    "Light Speed Transmission",
+    "5.0 twin-turbo V8"
+  ],
+  "country": "Sweden",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "motor1-jesko-first",
+    "note": "Calendar years. Start: Motor1 reports the handover of \"the first production Jesko\" to dealer Esser Automotive at Ängelholm and says \"We first saw the Koenigsegg Jesko break cover over four years ago at the 2019 Geneva Motor Show\", which places it in 2023 (the article is undated). Auto Express (autoexpress-jesko, Luke Wilkinson, 16 Jul 2021) expected deliveries in spring 2022. Still in production: Koenigsegg, \"125 Jesko Attack and Jesko Absolut will be produced\" (koenigsegg-jesko-attack). The standard car is now sold as the Jesko Attack; the Jesko Absolut is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "koenigsegg-jesko-attack",
+    "note": "Two-seat coupe (removable roof panel)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "koenigsegg-jesko-specs",
+      "note": "\"Koenigsegg twin turbo aluminum 5.0 L V8, 4 valves per cylinder\""
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "koenigsegg-jesko-specs",
+      "note": "\"5.0 L\"; Koenigsegg's specification page gives no cc figure."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "koenigsegg-jesko-specs",
+      "note": "\"twin ceramic ball bearing turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "koenigsegg-jesko-specs",
+    "note": "Runs on gasoline or E85 (flex-fuel); \"Gasoline: 1280 hp\"."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "autoexpress-jesko",
+    "note": "Auto Express describes rear-wheel drive with active rear-wheel steering; Koenigsegg's specification page names an electronic differential (KED)."
+  },
+  "transmission": {
+    "value": [
+      "9-speed DCT"
+    ],
+    "sourceId": "koenigsegg-jesko-specs",
+    "note": "\"Koenigsegg 9-speed Light Speed Transmission (LST)\": a multi-clutch gearbox with \"nine forward gears and seven wet, multi-disc clutches\" (koenigsegg-jesko-attack). It is neither a classic dual-clutch nor a single-clutch automated manual; recorded as DCT as the nearest generic type."
+  },
+  "powerHp": {
+    "value": 1600,
+    "sourceId": "koenigsegg-jesko-specs",
+    "note": "Koenigsegg's maximum rating, on E85. Quote (Koenigsegg technical specifications): \"Gasoline: 1280 hp at 7800 rpm\" and \"E85: 1600 hp\"; model page: \"1280 hp on standard gasoline and 1600 hp on E85 biofuel\" and \"1600 HP Power Output\". Stored as published (powerStandard Other): Koenigsegg gives no kW or PS figure on the pages opened. Auto Express converts these as metric figures (\"1,262 bhp on regular petrol\", \"1,578 bhp on E85\"); Motor1 prints \"1,280 horsepower\" and \"1,600 hp\". On gasoline the car makes 1,280 hp."
+  },
+  "weightLb": {
+    "value": 3131,
+    "sourceId": "koenigsegg-jesko-specs",
+    "note": "Koenigsegg curb weight (step 1): 1,420 kg x 2.20462 = 3,131 lb. Quote: \"Curb weight: 1420 kg\"; also \"Dry weight: 1320 kg\"."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2023,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "koenigsegg-jesko-specs",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Technical specifications: Jesko Attack",
+      "url": "https://www.koenigsegg.com/technical-specifications-jesko-attack",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "koenigsegg-jesko-attack",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Jesko Attack",
+      "url": "https://www.koenigsegg.com/model/jesko-attack",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motor1-jesko-first",
+      "type": "publication",
+      "publisher": "Motor1.com",
+      "title": "First Production Koenigsegg Jesko Will Soon Be Delivered To Customer",
+      "url": "https://www.motor1.com/news/670150/first-production-koenigsegg-jesko-delivered-customer/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autoexpress-jesko",
+      "type": "publication",
+      "publisher": "Auto Express (Luke Wilkinson)",
+      "title": "New 1,578bhp Koenigsegg Jesko hypercar ready for production",
+      "url": "https://www.autoexpress.co.uk/koenigsegg/jesko",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Two choices for a human: (1) power is Koenigsegg's E85 rating (1,600 hp), following the guide's maximum-rating rule for boost modes; the gasoline rating is 1,280 hp. (2) Koenigsegg's \"hp\" may be metric (Auto Express converts 1,600 to 1,578 bhp); it is stored as published. Production start (2023) is inferred from an undated Motor1 article. Market is the home market (EU); whether the Jesko was sold new in the US was not confirmed.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

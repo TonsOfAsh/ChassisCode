@@ -1,0 +1,123 @@
+{
+  "id": "mclaren-650s",
+  "manufacturer": "McLaren",
+  "model": "650S",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren 650S",
+  "aliases": [
+    "650S Coupe",
+    "650S Coupé",
+    "McLaren 650",
+    "M838T",
+    "SSG",
+    "2015 650S",
+    "2016 650S"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2016
+    },
+    "sourceId": "kbb-650s",
+    "note": "US model years, from Kelley Blue Book (a database): KBB's 650S pages list only 2016 and 2015 in the year selector, and its 2017 address shows \"Used 2016 McLaren 650S\" (kbb-650s-2017). McLaren's press pack of March 2014 (as reproduced by PistonHeads, pistonheads-650s-press-pack) gives availability \"from Spring 2014 launch\"; Evo dates the car 2014-2017 (UK). No McLaren page naming the first or last US model year was found. The 650S Spider is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "pistonheads-650s-press-pack",
+    "note": "Fixed-roof two-seater. The 650S Spider is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "pistonheads-650s-press-pack",
+      "note": "Quote (McLaren press pack): \"Engine Configuration V8 Twin Turbo / 3799cc\"; \"McLaren M838T twin turbo V8 engine\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "pistonheads-650s-press-pack",
+      "note": "3,799 cc"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pistonheads-650s-press-pack",
+      "note": "\"V8 Twin Turbo\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pistonheads-650s-press-pack"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pistonheads-650s-press-pack",
+    "note": "\"Longitudinal Mid-Engine, RWD\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "pistonheads-650s-press-pack",
+    "note": "\"Transmission 7 Speed SSG\" (McLaren Seamless Shift Gearbox, a dual-clutch unit). No manual was offered."
+  },
+  "powerHp": {
+    "value": 641,
+    "sourceId": "pistonheads-650s-press-pack",
+    "note": "Quote (McLaren press pack, March 2014, reproduced by PistonHeads): \"The 650S badge designation refers to the power output - 650PS (641 bhp)\"; table: \"PS / rpm 650 / 7250\". 650 x 0.98632 = 641 hp. Evo's spec panel (evo-650s): \"Power | 641bhp @ 7500rpm\" (same output; the peak rpm differs from the press pack's 7,250). No US-specific McLaren document was found; powerStandard is DIN PS because McLaren's rating is the metric 650 PS, as in the 570S and 720S records. KBB lists \"641 hp\". The rating did not change during the run."
+  },
+  "weightLb": {
+    "value": 3148,
+    "sourceId": "evo-650s",
+    "note": "1,428 kg x 2.20462 = 3,148 lb. Coupe, 7-speed SSG (the only transmission). Guide step 2 (major magazine spec panel). Quote (Evo spec panel, used-car review by Sam Jenkins and James Taylor): \"Weight | 1428kg\". The panel does not label it kerb or dry; it is about 98 kg above McLaren's dry figure and Evo labels dry weights \"(dry)\" in its panels, so it is read as a kerb weight. No McLaren kerb weight for the 650S was opened (step 1). McLaren's own press pack gives only a dry weight: \"Dry Weight (kg / lbs) 1330 / 2932\" (pistonheads-650s-press-pack); KBB's \"2932 lbs.\" curb weight is that dry figure. A UK magazine figure, not a US-specific one."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pistonheads-650s-press-pack",
+      "type": "manufacturer",
+      "publisher": "PistonHeads (McLaren press pack reproduced in full)",
+      "title": "McLaren 650S: full press pack",
+      "url": "https://www.pistonheads.com/news/ph-britishcars/mclaren-650s-full-press-pack/29710",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-650s",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Used McLaren 650S (2014 - 2017) review – a 207mph supercar for Audi RS3 money",
+      "url": "https://www.evo.co.uk/mclaren/650s",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-650s",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "McLaren 650S",
+      "url": "https://www.kbb.com/mclaren/650s/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-650s-2017",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2016 McLaren 650S (2017 address)",
+      "url": "https://www.kbb.com/mclaren/650s/2017/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

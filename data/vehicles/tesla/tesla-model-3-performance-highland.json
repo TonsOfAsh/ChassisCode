@@ -1,0 +1,145 @@
+{
+  "id": "tesla-model-3-performance-highland",
+  "manufacturer": "Tesla",
+  "model": "Model 3",
+  "generation": "Highland",
+  "variant": "Performance",
+  "subVariant": null,
+  "displayName": "Tesla Model 3 Performance (Highland)",
+  "aliases": [
+    "Model 3 Performance",
+    "Highland Performance",
+    "Model 3 Highland Performance",
+    "M3P",
+    "2024 Model 3 Performance"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "edmunds-model-3-performance-2024",
+    "note": "US model years 2024 onward: Edmunds lists a '2024 Tesla Model 3 Performance'; InsideEVs covers the launch of the '2024 Tesla Model 3 Performance' (insideevs-model-3-performance-2024); Electrek (Fred Lambert, 1 Oct 2026) reports the US car still on sale with a revised rating (electrek-model-3-2026-update). The 2018-2023 Model 3 Performance is a different car (held)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "edmunds-model-3-performance-2024",
+    "note": "Edmunds: 'Performance Sedan'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "edmunds-model-3-performance-2024",
+      "note": "Edmunds: 'Electric'. Two motors, one per axle."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "edmunds-model-3-performance-2024"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "edmunds-model-3-performance-2024"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "edmunds-model-3-performance-2024"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "edmunds-model-3-performance-2024",
+    "note": "Edmunds: 'all wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "edmunds-model-3-performance-2024",
+    "note": "Edmunds: '1-speed direct drive'."
+  },
+  "powerHp": {
+    "value": 510,
+    "sourceId": "edmunds-model-3-performance-2024",
+    "note": "PROVISIONAL (database and articles quoting Tesla). Quote (Edmunds 2024 Model 3 Performance): \"Horsepower | 510 hp\". InsideEVs: \"Tesla says that this car has an astounding 510 horsepower, which bests the outgoing model's 455 HP\" (insideevs-model-3-performance-2024). SoyaCincau quotes the US Tesla website: \"510hp of peak power and a 0-60mph time of 2.9 seconds, up to a top speed of 163mph\" (soyacincau-model-3-performance-2024); Chinese-built cars for other markets are rated 460 hp. Electrek (1 Oct 2026): \"Tesla listed the car at 510 hp when it launched in 2024\" and peak power is now \"'improved' at 528 hp\" (electrek-model-3-2026-update); reference year 2024 uses the launch rating."
+  },
+  "weightLb": {
+    "value": 4054,
+    "sourceId": "edmunds-model-3-performance-2024",
+    "note": "PROVISIONAL (databases). 2024 Model 3 Performance (one configuration). Quote (Edmunds): \"Curb weight | 4,054 lbs.\" KBB 2024 Model 3 specs, Performance Sedan 4D column: \"Curb Weight | ... | 4054 pounds\" (kbb-model-3-2024). The two agree."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "edmunds-model-3-performance-2024",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2024 Tesla Model 3 Performance Specs & Features",
+      "url": "https://www.edmunds.com/tesla/model-3/2024/st-402033789/features-specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "kbb-model-3-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Tesla Model 3 specs",
+      "url": "https://www.kbb.com/tesla/model-3/2024/specs/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "insideevs-model-3-performance-2024",
+      "type": "publication",
+      "publisher": "InsideEVs",
+      "title": "2024 Tesla Model 3 Performance Revealed: 510 Horsepower, 0-60 In 2.9 Seconds, $53k",
+      "url": "https://insideevs.com/news/717148/tesla-model-3-performance-ludicrous/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "soyacincau-model-3-performance-2024",
+      "type": "publication",
+      "publisher": "SoyaCincau",
+      "title": "Tesla Model 3 Performance: Why only 460hp for non-US models?",
+      "url": "https://soyacincau.com/2024/04/24/tesla-model-3-performance-us-versus-the-rest-of-the-world/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "electrek-model-3-2026-update",
+      "type": "publication",
+      "publisher": "Electrek",
+      "title": "Tesla Model 3 gets range and performance boost, plus a new 16-inch screen in US",
+      "url": "https://electrek.co/2026/10/01/tesla-model-3-us-16-inch-screen-performance-528-hp/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 510,
+          "sourceId": "edmunds-model-3-performance-2024"
+        },
+        {
+          "value": 528,
+          "sourceId": "electrek-model-3-2026-update"
+        }
+      ],
+      "reason": "Date. Tesla listed 510 hp at the 2024 launch; Electrek reports that from October 2026 Tesla lists 528 hp for the US car.",
+      "resolution": "Reference year 2024, so the launch rating of 510 hp is used."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (510 hp) rests on Edmunds (database) and on InsideEVs and SoyaCincau reporting Tesla's US website; weight (4,054 lb) rests on Edmunds and KBB (databases), which agree. Tesla's own specification page (tesla.com, unreadable here) or a major magazine's specification panel for the 2024 Model 3 Performance would replace both. Tesla raised the listed rating to 528 hp in October 2026."
+}

@@ -1,0 +1,134 @@
+{
+  "id": "audi-s4-b9",
+  "manufacturer": "Audi",
+  "model": "S4",
+  "generation": "B9",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Audi S4 (B9)",
+  "aliases": [
+    "S 4",
+    "B9 S4",
+    "S4 B9",
+    "S4 Sedan",
+    "3.0 TFSI",
+    "Tiptronic",
+    "quattro",
+    "2018 S4",
+    "2019 S4"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2025
+    },
+    "sourceId": "jdpower-s4-history",
+    "note": "US model years, from J.D. Power's S4 model-year list (a database), which shows '2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2016' (no 2017: the B9 S4 arrived in the US as a 2018 model). Last: Edmunds (Steven Ewing, 16 July 2024): \"Audi's long-running compact sedan will change its name from A4 to A5\" (edmunds-a5-s5-first-look); the S5 sedan replaces the S4. No opened page states in so many words that 2025 was the last S4 model year."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "audi-us-2019-a4-brochure",
+    "note": "'2019 Audi S4 Sedan'. The S4 Avant was not sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "audi-us-2019-a4-brochure",
+      "note": "'3.0-liter six-cylinder'; the brochure also says '3.0-liter TFSI® V6 engine'."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "audi-us-2019-a4-brochure",
+      "note": "2,995 cc ('Displacement (cc) ... 2,995', S4 column)"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "audi-us-2019-a4-brochure",
+      "note": "Induction 'Twin-scroll turbocharged/TFSI®': one twin-scroll turbocharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2019-a4-brochure",
+    "note": "TFSI direct-injection petrol engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2019-a4-brochure",
+    "note": "'quattro® all-wheel drive' standard"
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "audi-us-2019-a4-brochure",
+    "note": "'Eight-speed Tiptronic® automatic transmission', the only transmission."
+  },
+  "powerHp": {
+    "value": 349,
+    "sourceId": "audi-us-2019-a4-brochure",
+    "note": "Quote: \"Horsepower (@ rpm) ... 349 @ 5,400–6,400\" (S4 column of the 2019 Audi A4/S4 US brochure; the same request twice gave 349). Launch-year rating: the 2018 S4 was rated 354 hp (automobile-catalog, a database: '2018 Audi S4 Specs Review (264 kW / 359 PS / 354 hp) ... for North America', autocatalog-s4-2018); from 2019 Audi rated it 349 hp, still listed for 2024 ('2024 Audi S4 ... 349 hp ... for North America', autocatalog-s4-2024). 349 hp covers 2019 to 2025, most of the run, so the reference year is 2019."
+  },
+  "weightLb": {
+    "value": 3858,
+    "sourceId": "audi-us-2019-a4-brochure",
+    "note": "Sedan with the 8-speed automatic (the only transmission), 2019 model. Quote: \"Curb weight (lb) 3,450 3,627 3,825 3,858\" (columns A4, A4 quattro, A4 allroad, S4)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2019,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2019-a4-brochure",
+      "type": "manufacturer",
+      "publisher": "Audi of America (brochure hosted by auto-brochures.com)",
+      "title": "2019 Audi A4 / S4 US brochure",
+      "url": "https://www.auto-brochures.com/makes/Audi/A4/Audi_US%20A4_2019.pdf",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "jdpower-s4-history",
+      "type": "database",
+      "publisher": "J.D. Power",
+      "title": "Audi S4 model years",
+      "url": "https://www.jdpower.com/cars/history/audi/s4",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "edmunds-a5-s5-first-look",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2026 Audi A5 and S5 First Look: A4 Replacement Offers More of the Same",
+      "url": "https://www.edmunds.com/car-news/2026-audi-a5-s5-sedan-first-look.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autocatalog-s4-2018",
+      "type": "database",
+      "publisher": "automobile-catalog.com",
+      "title": "2018 Audi S4 Specs Review (for North America)",
+      "url": "https://www.automobile-catalog.com/car/2018/2601980/audi_s4.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autocatalog-s4-2024",
+      "type": "database",
+      "publisher": "automobile-catalog.com",
+      "title": "2024 Audi S4 Specs Review (for North America)",
+      "url": "https://www.automobile-catalog.com/car/2024/3006935/audi_s4.html",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

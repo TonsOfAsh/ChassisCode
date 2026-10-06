@@ -1,0 +1,141 @@
+{
+  "id": "hennessey-venom-f5",
+  "manufacturer": "Hennessey",
+  "model": "Venom F5",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Hennessey Venom F5",
+  "aliases": [
+    "Venom F5",
+    "Hennessey F5",
+    "Venom F5 Coupe",
+    "Fury V8",
+    "Fury",
+    "6.6 twin-turbo V8"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2023
+    },
+    "sourceId": "hennessey-sweet-16",
+    "note": "Calendar years of customer deliveries of the 24 coupes, as in the Bugatti records (Hennessey publishes no US model years). Quote (Hennessey, 4 July 2023): \"The twin-turbocharged, 6.6-liter V8 Venom F5 Coupe sold out in 2021, with customer deliveries taking place from 2021-2023.\" and \"Hennessey introduced the Venom F5 Coupe in December 2020 and all 24 units quickly sold out following its Car Week appearance in 2021.\" The Roadster, Revolution and F5-M are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hennessey-sweet-16",
+    "note": "The Venom F5 Coupe; the open Venom F5 Roadster is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "hennessey-f5-site",
+      "note": "\"6.6 L TWIN TURBO V8\" (Hennessey's 'Fury' V8)."
+    },
+    "displacementL": {
+      "value": 6.6,
+      "sourceId": "hennessey-f5-site",
+      "note": "\"6.6 L\"; no cc figure was found on any page opened."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "hennessey-f5-site",
+      "note": "\"6.6 L TWIN TURBO V8\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "motorauthority-f5",
+    "note": "Petrol twin-turbo V8 (no hybrid system described)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "motorauthority-f5",
+    "note": "Motor Authority describes a \"mechanical limited-slip rear differential\"; Hennessey's Roadster release lists \"Rear-wheel drive\" for the related Roadster (hennessey-roadster-release)."
+  },
+  "transmission": {
+    "value": [
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "motorauthority-f5",
+    "note": "\"CIMA 7-speed single-clutch automated manual transmission\"; Hennessey's Roadster release: \"7-speed single-clutch automated gearbox\"."
+  },
+  "powerHp": {
+    "value": 1817,
+    "sourceId": "hennessey-f5-site",
+    "note": "Quote (Hennessey Special Vehicles Venom F5 page): \"1,817 hp\" with \"1,193 lb-ft\". Hennessey's Roadster release (hennessey-roadster-release): \"twin-turbocharged, 6.6-liter, 'Fury' V8 engine rated at an astonishing 1,817 bhp\" (\"1,817 bhp @ 8,000 rpm\"). Hennessey states hp; no SAE certification is stated, so powerStandard is Other."
+  },
+  "weightLb": {
+    "value": 2998,
+    "sourceId": "robbreport-f5",
+    "note": "PROVISIONAL: publications, DRY weight (weight-order step 4, but not from the manufacturer or a major magazine). Quote (Robb Report): \"The vehicle's tech figures are as eye-catching as its carbon-fiber bodywork and include a zero-to-62 mph time of 2.6 seconds, 1,193 ft lbs of torque and a dry weight of 2,998 pounds.\" The same 2,998 lb, unlabelled, in Motor Authority (motorauthority-f5, Joel Feder, 15 Dec 2020): \"In total, the car weighs 2,998 pounds\", and ClassicCars.com Journal (classiccars-f5, Larry Edsall, 15 Dec 2020): \"The car weighs 2,998 pounds\". All three report the December 2020 reveal. No Hennessey page opened gives a coupe weight (Hennessey's 2023 release gives the Roadster a \"curb weight of just over 3,000 pounds\"; its 2022 Roadster release gives the Roadster 3,098 lb). No curb weight for the coupe was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "Other",
+    "weightType": "dry",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "hennessey-f5-site",
+      "type": "manufacturer",
+      "publisher": "Hennessey Special Vehicles",
+      "title": "Venom F5",
+      "url": "https://www.hennesseyspecialvehicles.com/venom-f5/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "hennessey-sweet-16",
+      "type": "manufacturer",
+      "publisher": "Hennessey (hennesseymedia.com)",
+      "title": "Hennessey Celebrates 'Sweet 16' Venom F5 Hypercar Delivery (July 4, 2023)",
+      "url": "https://www.hennesseymedia.com/press-releases/hennessey-celebrates-sweet-16-venom-f5-hypercar-delivery/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "hennessey-roadster-release",
+      "type": "manufacturer",
+      "publisher": "Hennessey (release on PR Newswire)",
+      "title": "Hennessey Presents the World's Fastest and Most Powerful Roadster (Aug. 18, 2022)",
+      "url": "https://www.prnewswire.com/news-releases/hennessey-presents-the-worlds-fastest-and-most-powerful-roadster-301608598.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motorauthority-f5",
+      "type": "publication",
+      "publisher": "Motor Authority (Joel Feder)",
+      "title": "Hennessey Venom F5 arrives with $2.1M price tag and 1,817 horsepower, aims for 311 mph",
+      "url": "https://www.motorauthority.com/news/1130645_hennessey-venom-f5-arrives-with-2-1m-price-tag-and-1-817-horsepower-aims-for-311-mph",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "robbreport-f5",
+      "type": "publication",
+      "publisher": "Robb Report",
+      "title": "John Hennessey on His All-New 1,817 HP Venom F5 Hypercar—and Going for 310 MPH",
+      "url": "https://robbreport.com/motors/cars/john-hennessey-interview-production-version-hennessey-venom-f5-reveal-1234586857/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "classiccars-f5",
+      "type": "publication",
+      "publisher": "ClassicCars.com Journal (Larry Edsall)",
+      "title": "Hennessey unveils $2.1-million, 300-mph Venom F5 supercar",
+      "url": "https://journal.classiccars.com/2020/12/15/hennessey-unveils-venom-f5-supercar/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (2,998 lb, dry) is provisional: it rests on publications reporting the December 2020 reveal (Robb Report labels it dry; Motor Authority and ClassicCars.com Journal print the same figure unlabelled), not on a Hennessey document or a major magazine panel. A Hennessey specification sheet or a Car and Driver / Road & Track / MotorTrend / Evo / Top Gear panel giving the coupe's curb (or labelled dry) weight would replace it. Power (1,817 hp) is from Hennessey."
+}

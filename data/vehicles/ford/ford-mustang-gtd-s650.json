@@ -1,0 +1,122 @@
+{
+  "id": "ford-mustang-gtd-s650",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S650",
+  "variant": "GTD",
+  "subVariant": null,
+  "displayName": "Ford Mustang GTD (S650)",
+  "aliases": [
+    "Mustang GTD",
+    "GTD",
+    "2025 Mustang GTD",
+    "Predator V8"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "motortrend-gtd-test-2026",
+    "note": "US model years from 2025, still on sale (Ford.com offers the \"2026 Ford Mustang® GTD\", source ford-us-mustang-gtd-2026). MotorTrend's test covers the \"2025 Ford Mustang GTD\"; Autoweek's February 2025 report gives the weight of production cars (source autoweek-gtd-weight-2025)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ford-us-mustang-gtd-2026",
+    "note": "Fixed-roof fastback coupe only; no convertible is offered."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-us-mustang-gtd-2026",
+      "note": "\"supercharged 5.2L V8 engine\"."
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "ford-us-mustang-gtd-2026",
+      "note": "Ford states \"5.2L\". No opened page gives the cc figure."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "ford-us-mustang-gtd-2026",
+      "note": "\"supercharged 5.2L V8\"; Carscoops: \"The supercharged 5.2-liter V8\" (source carscoops-gtd-815hp-2024)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-us-mustang-gtd-2026"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-us-mustang-gtd-2026",
+    "note": "Ford describes a \"carbon‑fiber driveshaft\" to a \"rear‑mounted 8‑speed transaxle\"; rear-wheel drive is inferred from that description."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "ford-us-mustang-gtd-2026",
+    "note": "\"Paired with an eight‑speed dual‑clutch for instant shifts.\" Rear-mounted transaxle; MotorTrend: \"Tremec dual-clutch transaxle\" (source motortrend-gtd-test-2026)."
+  },
+  "powerHp": {
+    "value": 815,
+    "sourceId": "ford-us-mustang-gtd-2026",
+    "note": "Quote, Ford.com: \"Experience the adrenaline-fueled thrill of 815 HP & a 202 mph top speed with the track-dominating 2026 Ford Mustang® GTD.\" The same rating applied from launch: Carscoops, September 16, 2024, \"The supercharged 5.2-liter V8 engine is now officially rated at 815 hp (608 kW / 826 PS) and 664 lb-ft (900 Nm) of torque\" (source carscoops-gtd-815hp-2024)."
+  },
+  "weightLb": {
+    "value": 4340,
+    "sourceId": "autoweek-gtd-weight-2025",
+    "note": "PROVISIONAL, a single article quoting a Ford statement. Base car. Quote (Autoweek, Wesley Wren, February 21, 2025): \"Mustang GTD, the first car from an American brand to lap the Nürburgring in under 7 minutes, has a base curb weight of approximately 4,340 lbs.\" (attributed to Ford). The same article reports the EPA certification figure: \"the EPA certification sheet pegs the Mustang GTD's curb weight at 4,343 pounds\" (0.1% apart; the EPA document itself was not opened). Ford.com gives no figure (\"It weighs the perfect amount ... 'less.'\"). MotorTrend weighed an optioned test car ($438,200 as tested) at 4,411 lb, a tested figure for a heavier car, 1.6% above (source motortrend-gtd-test-2026)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-us-mustang-gtd-2026",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (Ford.com)",
+      "title": "2026 Ford Mustang GTD",
+      "url": "https://www.ford.com/performance/mustang-gtd/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "autoweek-gtd-weight-2025",
+      "type": "publication",
+      "publisher": "Autoweek (article by Wesley Wren, February 21, 2025, syndicated on Yahoo Autos)",
+      "title": "Official Says Ford Mustang GTD Weighs 4,340 Pounds",
+      "url": "https://autos.yahoo.com/does-ford-mustang-gtd-weight-185800136.html",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "carscoops-gtd-815hp-2024",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "Ford Mustang GTD Is The Most Powerful Production Pony Car Ever With 815HP, by Thanos Pappas (September 16, 2024)",
+      "url": "https://www.carscoops.com/2024/09/ford-mustang-gtd-is-the-most-powerful-production-pony-car-ever-with-815hp/",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "motortrend-gtd-test-2026",
+      "type": "publication",
+      "publisher": "MotorTrend (article by Jonny Lieberman, syndicated on Yahoo Autos)",
+      "title": "Tested: The Mustang GTD's Numbers Aren't Astonishing, but Its Performance Is",
+      "url": "https://autos.yahoo.com/new-vehicles-and-reviews/articles/tested-mustang-gtd-numbers-aren-130000256.html",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 4,340 lb rests on a single article (Autoweek, 21 February 2025) quoting a Ford spokesperson's \"approximately 4,340 lbs\", with the EPA certification figure of 4,343 lb reported in the same article. A Ford specification sheet with the GTD curb weight, or a major magazine's specification panel giving the manufacturer figure, would replace it. Power (815 hp) is from Ford.com."
+}

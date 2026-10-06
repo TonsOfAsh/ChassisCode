@@ -1,0 +1,163 @@
+{
+  "id": "jaguar-xj220",
+  "manufacturer": "Jaguar",
+  "model": "XJ220",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Jaguar XJ220",
+  "aliases": [
+    "XJ 220",
+    "Jaguar XJ220",
+    "JaguarSport XJ220",
+    "JV6",
+    "TWR XJ220"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 1992,
+      "endYear": 1994
+    },
+    "sourceId": "jaguar-xj220-20-years",
+    "note": "Calendar years. Quote (Jaguar): \"The first customer car was completed in June 1992 with a retail price of £470,000. Production ceased in 1994, by which time 275 cars had been built.\" Evo panel: \"Years made: 1992-1994\". Not sold new in the US: an RM Sotheby's lot (rmsothebys-xj220-us-1993) describes a car brought in through an individual \"EPA and DOT conversion\", so the home (UK) market is used."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-a-z-xj220",
+    "note": "Two-seat mid-engined coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "evo-a-z-xj220",
+      "note": "\"V6, 3498cc, twin-turbo\""
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "evo-a-z-xj220",
+      "note": "3,498 cc (Evo panel); Jaguar: \"3.5‑litre, twin turbo V6\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "jaguar-xj220-20-years",
+      "note": "\"twin turbo V6\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "jaguar-xj220-20-years"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "jaguar-xj220-20-years",
+    "note": "\"channelled its drive through the 18‑inch Speedline rear wheels\""
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "jaguar-xj220-20-years",
+    "note": "\"five‑speed gearbox and an AP Racing twin‑plate clutch\"; PistonHeads: \"5-speed manual, rear-wheel drive\"."
+  },
+  "powerHp": {
+    "value": 542,
+    "sourceId": "jaguar-xj220-20-years",
+    "note": "Jaguar's 550 PS x 0.98632 = 542 hp. Quote (Jaguar): \"The XJ220 developed 550 PS and 475 lbs ft of torque to allow it to accelerate to 60mph in under four seconds.\" Evo panel: \"Max power: 542bhp @ 7200rpm\"."
+  },
+  "weightLb": {
+    "value": 3241,
+    "sourceId": "jaguar-xj220-20-years",
+    "note": "PROVISIONAL (unlabelled basis). Jaguar figure: 1,470 kg x 2.20462 = 3,241 lb. Quote (Jaguar, prose): \"Constructed using advanced aluminium honeycomb, the car was immensely strong and, despite its size, weighed just 1,470 kg.\" Jaguar does not say whether this is kerb or dry, and no panel labelled kerb (Autocar, Evo, Jaguar brochure) was found. PistonHeads' buying-guide panel (Tony Middlehurst) gives \"Weight: 1,456kg\", within 1%; Top Gear Philippines (topgear-ph-xj220) gives 1,470 kg; neither is labelled kerb."
+  },
+  "specBasis": {
+    "market": "UK",
+    "referenceModelYear": 1992,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "jaguar-xj220-20-years",
+      "type": "manufacturer",
+      "publisher": "Jaguar Cars (JLR media archive)",
+      "title": "Marking 20 Years Since The Launch Of The Jaguar XJ220 (30 January 2012)",
+      "url": "https://media.jlr.com/archive-jaguar/news/2012/01/marking-20-years-launch-jaguar-xj220",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "evo-a-z-xj220",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "A-Z Supercars: Jaguar XJ220 (15 August 2013)",
+      "url": "https://www.evo.co.uk/jaguar/xk/13423/a-z-supercars-jaguar-xj220",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "pistonheads-xj220-guide",
+      "type": "publication",
+      "publisher": "PistonHeads (Tony Middlehurst)",
+      "title": "Jaguar XJ220 | PH Used Buying Guide (29 December 2024)",
+      "url": "https://www.pistonheads.com/news/ph-buying-guides/jaguar-xj220--ph-used-buying-guide/49353",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "topgear-ph-xj220",
+      "type": "publication",
+      "publisher": "Top Gear Philippines",
+      "title": "Blast from the past: Jaguar XJ220 (2 February 2012)",
+      "url": "https://www.topgear.com.ph/features/feature-articles/blast-from-the-past-jaguar-xj220",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rmsothebys-xj220-us-1993",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "1993 Jaguar XJ220 (Monterey 2017 lot description)",
+      "url": "https://rmsothebys.com/auctions/mo17/lots/r128-1993-jaguar-xj220/",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3241,
+          "sourceId": "jaguar-xj220-20-years"
+        },
+        {
+          "value": 3210,
+          "sourceId": "pistonheads-xj220-guide"
+        }
+      ],
+      "reason": "Jaguar gives 1,470 kg; PistonHeads' buying-guide panel gives 1,456 kg (about 1% less). Likely rounding or a different car/configuration; neither labels it kerb or dry.",
+      "resolution": "Used Jaguar's own 1,470 kg (manufacturer source)."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 542,
+          "sourceId": "jaguar-xj220-20-years"
+        },
+        {
+          "value": 550,
+          "sourceId": "pistonheads-xj220-guide"
+        }
+      ],
+      "reason": "PistonHeads prints \"550hp\", which is Jaguar's 550 PS figure labelled as hp.",
+      "resolution": "Used Jaguar's 550 PS converted to 542 hp, matching Evo's 542bhp."
+    }
+  ],
+  "needsReview": true,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "reviewNotes": "Weight basis unknown: Jaguar's 1,470 kg is in prose and unlabelled; a labelled kerb figure (Autocar or Evo panel, Jaguar brochure) would confirm it.",
+  "provisional": true,
+  "provisionalNote": "Weight (3,241 lb) is provisional: it rests on Jaguar's unlabelled prose figure of 1,470 kg, supported by PistonHeads' unlabelled 1,456 kg (within 1%). A kerb weight labelled as such in a Jaguar brochure or an Autocar/Evo specification panel would replace it. Power (Jaguar 550 PS, Evo 542bhp) is not provisional."
+}
