@@ -1,7 +1,8 @@
 import 'server-only';
 import { CLUES, drawClueOrder, isValidClueOrder, priorityClues, type ClueId } from '@/config/clues';
 import { dailyDate, dailyNumber, isDate } from '../daily-time';
-import { isMode, type Clue, type GameView, type Mode, type Turn } from '../game-types';
+import { isMode, type GameView, type Mode, type Turn } from '../game-types';
+import { compare, progress, rightCount, rulesFor } from '../reveal';
 import { dailyPuzzle } from './daily';
 import type { Vehicle } from '../schema';
 import { open, seal } from './token';
@@ -15,7 +16,7 @@ interface GameState {
   m: Mode;
   /** This game's clue order. */
   o: ClueId[];
-  /** Number of clues revealed. */
+  /** Number of clues showing (informational; the clues shown are worked out from the turns). */
   n: number;
   /** Turns so far: a guessed vehicle id, or null for a skip. */
   g: (string | null)[];
@@ -27,44 +28,39 @@ interface GameState {
 
 export class GameError extends Error {}
 
-function allClues(vehicle: Vehicle, order: ClueId[]): Clue[] {
-  return order.map((id) => ({ id, label: CLUES[id].label, value: CLUES[id].format(vehicle) }));
-}
-
 function view(state: GameState, status: GameView['status']): GameView {
   const vehicle = getVehicle(state.v);
   if (!vehicle) throw new GameError('This game refers to a car that is no longer in the database. Start a new game.');
-  const clues = allClues(vehicle, state.o);
-  // A guessed car is compared only on the clues the player can already see,
-  // so the comparison never says anything about a clue still hidden.
-  const shown = status === 'playing' ? state.n : clues.length;
-  const turns: Turn[] = state.g.map((id) => {
-    const guessed = id ? getVehicle(id) : undefined;
-    if (!id || !guessed) return { carId: id, name: id };
-    const values = allClues(guessed, state.o)
-      .slice(0, shown)
-      .map((c, i) => ({ value: c.value, match: c.value === clues[i]!.value }));
-    return { carId: id, name: guessed.displayName, values };
+  const rules = rulesFor(state.m);
+  const guessed = state.g.map((id) => (id ? (getVehicle(id) ?? null) : null));
+  const { shown: shownDuringPlay, turns: reveals } = progress(rules, state.o, vehicle, guessed);
+  // Once the round is over every clue is shown, and guesses are compared on all of them.
+  const shown = status === 'playing' ? shownDuringPlay : new Set(state.o);
+  const clues = state.o.map((id) => (shown.has(id) ? { id, label: CLUES[id].label, value: CLUES[id].format(vehicle) } : null));
+  const turns: Turn[] = state.g.map((id, i) => {
+    const guess = guessed[i];
+    const revealed = reveals[i];
+    const base = { carId: id, revealed: revealed ? { matched: revealed.matched, next: revealed.next } : undefined };
+    if (!id || !guess) return { ...base, name: id };
+    const right = rules === 'reveal' ? rightCount(guess, vehicle) : undefined;
+    return { ...base, name: guess.displayName, right, values: compare(rules, state.o, shown, guess, vehicle) };
   });
   const daily = state.d ? { date: state.d, number: dailyNumber(state.d) } : undefined;
-  if (status === 'playing') {
-    return { status, mode: state.m, daily, token: seal(state), clueLabels: clues.map((c) => c.label), clues: clues.slice(0, state.n), turns };
-  }
+  const common = { mode: state.m, rules, daily, clueLabels: state.o.map((id) => CLUES[id].label), maxTurns: state.o.length, turns };
+  if (status === 'playing') return { status, ...common, token: seal({ ...state, n: shownDuringPlay.size }), clues };
   const solved = status === 'solved';
+  const turnsUsed = state.g.length + (solved ? 1 : 0);
   return {
     status,
-    mode: state.m,
-    daily,
-    clueLabels: clues.map((c) => c.label),
+    ...common,
     clues,
-    turns,
     result: {
       solved,
       carId: vehicle.id,
       name: vehicle.displayName,
-      cluesUsed: state.n,
+      cluesUsed: turnsUsed,
       guessCount: state.g.filter((id) => id !== null).length + (solved ? 1 : 0),
-      score: solved ? clues.length - state.n + 1 : 0,
+      score: solved ? state.o.length - turnsUsed + 1 : 0,
       elapsedMs: Date.now() - state.t,
     },
   };
@@ -89,7 +85,7 @@ export function newDailyGame(): GameView {
 
 /**
  * Applies one turn. `guessId` is the guessed car, or null to skip to the next clue.
- * A wrong guess or a skip reveals the next clue; on the last clue it ends the game.
+ * A wrong guess or a skip reveals clues (see lib/reveal.ts); the 13th wrong turn ends the game.
  */
 export function playTurn(token: string, guessId: string | null): GameView {
   const state = open<GameState>(token);
@@ -101,9 +97,7 @@ export function playTurn(token: string, guessId: string | null): GameView {
     if (state.g.includes(guessId)) throw new GameError('You already guessed that car.');
     if (guessId === state.v) return view(state, 'solved');
   }
-  const total = state.o.length;
+  // A round allows one turn per clue; the last wrong turn ends it.
   const next: GameState = { ...state, g: [...state.g, guessId] };
-  if (state.n >= total) return view(next, 'lost');
-  next.n = state.n + 1;
-  return view(next, 'playing');
+  return view(next, next.g.length >= state.o.length ? 'lost' : 'playing');
 }

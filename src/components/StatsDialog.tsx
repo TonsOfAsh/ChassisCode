@@ -72,7 +72,7 @@ export function StatsDialog({ stats, summary, todayCluesUsed, untilNext, onClose
           </div>
         </dl>
 
-        <h3 className="stats-subtitle">Solved on clue</h3>
+        <h3 className="stats-subtitle">Solved on turn</h3>
         {summary.played === 0 ? (
           <p className="stats-empty">Finish a daily puzzle to see your results here.</p>
         ) : (
@@ -106,7 +106,7 @@ export function StatsDialog({ stats, summary, todayCluesUsed, untilNext, onClose
               <th scope="col">Mode</th>
               <th scope="col">Played</th>
               <th scope="col">Win %</th>
-              <th scope="col">Avg clues</th>
+              <th scope="col">Avg turns</th>
             </tr>
           </thead>
           <tbody>

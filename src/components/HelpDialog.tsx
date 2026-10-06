@@ -32,27 +32,32 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
 
         <p className="help-lead">Name the exact car from its specs.</p>
         <ol className="help-steps">
-          <li>The plate shows one spec of a mystery car to start with.</li>
+          <li>The plate shows one spec of a mystery car to start with. You get 13 turns.</li>
           <li>
-            Search for a car and guess. Each wrong guess, or a skip, stamps the next spec on the plate. There are 13
-            in all, and the model and generation always come last.
+            Search for a car and guess. A wrong guess stamps every spec it got right onto the plate, plus the next
+            clue. The model and generation always come last, even if your guess matches them.
           </li>
           <li>
-            Your last guess appears beside the mystery car: <span className="help-match">green</span> where its spec
-            matches, <span className="help-miss">red</span> where it does not.
+            Your last guess appears beside the mystery car: <span className="help-match">green</span> where it
+            matches, <span className="help-miss">red</span> where it does not, and{' '}
+            <span className="help-partial">amber</span> where it shares some values. Arrows say whether the mystery
+            car’s power, weight or displacement is higher ↑ or lower ↓.
           </li>
-          <li>The fewer specs you need, the better your score.</li>
+          <li>The fewer turns you need, the better your score. A skip uses a turn and reveals the next clue.</li>
         </ol>
 
         <h3 className="stats-subtitle">Daily and Unlimited</h3>
         <ul className="help-list">
           <li>
             <strong>Daily:</strong> one car a day, the same for everyone. A new one starts at midnight Pacific time.
-            Share your result when you finish.
+            Share your result when you finish: it shows what each guess uncovered.
           </li>
           <li>
-            <strong>Unlimited:</strong> as many cars as you like, in Easy, Normal or Hard. Easy starts with the maker,
-            engine and country; Hard starts with the least telling specs.
+            <strong>Unlimited:</strong> as many cars as you like. Easy starts with the maker, engine and country.
+          </li>
+          <li>
+            <strong>Hard:</strong> the classic rules. Least telling specs first, one clue per turn, and guesses
+            reveal nothing extra.
           </li>
         </ul>
 

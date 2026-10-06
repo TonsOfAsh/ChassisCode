@@ -1,7 +1,23 @@
 # ChassisCode
 
-An automotive deduction game. The player sees one specification of a mystery car, guesses the
-exact car, and gets another specification after each wrong guess.
+An automotive deduction game. The player sees one specification of a mystery car and has 13 turns
+to guess the exact car. In Easy and Normal (and so the Daily), a wrong guess reveals every spec it
+got right plus the next clue; in Hard, the classic rules, it reveals only the next clue.
+
+## Rules
+
+Logic in `src/lib/reveal.ts`; `npm run reveal-sim` shows how much a guess gives away.
+
+- **Reveal rules (Easy, Normal, Daily):** a wrong guess stamps every spec it matches onto the plate,
+  then the next clue in the game's order that is still hidden. Model and generation are never
+  revealed by a match and keep their classic turns (the 11th and 12th wrong turns), so once the
+  other specs are all showing a wrong guess may reveal nothing new. Beside the mystery car, the last
+  guess shows amber where a list (body, transmission) shares some values, and an arrow where the
+  mystery car's power, weight or displacement is higher or lower, even while that clue is hidden.
+- **Classic rules (Hard):** a wrong guess or a skip reveals one clue, and nothing is said about
+  clues still hidden.
+- A skip uses a turn and reveals the next clue. The 13th wrong turn ends the round. The score is
+  14 minus the turn the car was solved on (13 for a first-turn solve).
 
 ## Status
 
@@ -19,22 +35,25 @@ guess comparison, and statistics and streaks kept on the player's device.
   repeat until every daily-eligible car has been used. Adding cars reshuffles the round, so new cars
   should go live just after midnight Pacific. Puzzle #1 was 1 October 2026.
 - **Unlimited** is a random car each round, in Easy, Normal or Hard. Enter starts the next round.
-- **Stats** (button at the top): daily games played, win %, current and best streak, and which clue
-  each daily was solved on; Unlimited played, win % and average clues per difficulty. They are kept
+- **Stats** (button at the top): daily games played, win %, current and best streak, and which turn
+  each daily was solved on; Unlimited played, win % and average turns per difficulty. They are kept
   in the browser's storage on this device only, until accounts exist. A loss or a missed day ends a
   streak.
 - **Share** (after the daily): copies a spoiler-free result, or opens the phone's share sheet:
-  the date, the clue it was solved on, and one square per turn (🟥 wrong guess, ⬛ skip, 🟩 solved,
-  ❌ not solved). It never names the car.
+  the date, the turn it was solved on, and one row per turn: 🟩 for each spec a guess got right, ⬜
+  for the next clue it uncovered (🟥 if it uncovered nothing), ⏭️ for a skip, then 🏁 solved or ❌
+  not solved. It never names the car.
 - **How to play** opens by itself on a device's first visit, and from the "?" button after that.
 
 ## Guess comparison
 
-The most recent wrong guess is shown in a column beside the mystery car with its own value for
-every clue revealed so far: green where it matches the mystery car, red where it does not.
+The most recent wrong guess is shown in a column beside the mystery car with its own values: green
+where it matches the mystery car, red where it does not (under the reveal rules also amber and
+arrows, see Rules; under the classic rules only revealed clues are compared).
 The next guess replaces it. When the round is over, each guessed car in the guess list has a
 "Show stats" button that puts its full stats in that column, one car at a time.
-A value is green only when it is exactly the same, so "Coupe" against "Coupe / Convertible" is red.
+A value is green only when it is exactly the same, so "Coupe" against "Coupe / Convertible" is red
+(amber under the reveal rules).
 
 ## Difficulty
 

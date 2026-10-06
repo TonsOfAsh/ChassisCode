@@ -19,6 +19,7 @@
   --marker: #f2c200; /* inspection paint marker */
   --wrong: #a3211b;
   --right: #1b6b43;
+  --partial: #7a4e00; /* amber: shares some values */
   --white: #fbfbfa;
 
   --font-text: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
@@ -440,6 +441,16 @@ input {
   color: var(--wrong);
   font-weight: 700;
 }
+.help-partial {
+  color: var(--partial);
+  font-weight: 700;
+}
+.turn-revealed {
+  margin-left: 0.4em;
+  color: var(--ink-soft);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
 .help-start {
   margin-top: 0.875rem;
   width: 100%;
@@ -644,8 +655,17 @@ input {
 .guess-miss {
   color: var(--wrong);
 }
+.guess-partial {
+  color: var(--partial);
+}
+.guess-arrow {
+  margin-left: 0.3em;
+  font-family: var(--font-text);
+  font-weight: 700;
+}
 .guess-match::before,
-.guess-miss::before {
+.guess-miss::before,
+.guess-partial::before {
   margin-right: 0.3em;
   font-family: var(--font-text);
   font-size: 0.75em;
@@ -655,6 +675,9 @@ input {
 }
 .guess-miss::before {
   content: '✕';
+}
+.guess-partial::before {
+  content: '≈';
 }
 
 /* ---- Controls ------------------------------------------------------------ */

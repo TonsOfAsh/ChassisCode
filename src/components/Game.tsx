@@ -96,7 +96,9 @@ export function Game({ cars }: { cars: CarOption[] }) {
       const fresh = await post('/api/game/new', { daily: true });
       const date = fresh.daily!.date;
       const stored = loadDailyProgress();
-      const view = stored && stored.date === date ? stored.game : fresh;
+      // A game saved by an older version of the rules is started again; a finished one is kept.
+      const usable = stored && stored.date === date && (stored.game.rules !== undefined || stored.game.status !== 'playing');
+      const view = usable ? stored.game : fresh;
       if (view !== stored?.game) saveDailyProgress(date, view);
       setDaily(view);
     } catch (e) {
@@ -237,7 +239,9 @@ export function Game({ cars }: { cars: CarOption[] }) {
   const playing = game?.status === 'playing';
   // The car shown beside the mystery car once the round is over: the one picked, else the last guess.
   const shownId = result ? (compareId ?? game?.turns.filter((t) => t.carId).at(-1)?.carId ?? null) : null;
-  const onLastClue = !!game && game.clues.length === game.clueLabels.length;
+  const maxTurns = game ? (game.maxTurns ?? game.clueLabels.length) : 13;
+  const onLastTurn = !!game && game.turns.length >= maxTurns - 1;
+  const allShown = !!game && game.clues.every(Boolean);
   const today = daily?.daily?.date ?? dailyDate();
   const summary = stats ? dailySummary(stats, today) : null;
 
@@ -246,7 +250,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
       <header className="masthead">
         <h1 className="wordmark">ChassisCode</h1>
         <p className="intro">
-          Name the exact car.<span className="intro-more"> Each wrong guess stamps another spec on the plate.</span>
+          Name the exact car.<span className="intro-more"> Each wrong guess stamps more specs on the plate.</span>
         </p>
         <div className="masthead-buttons">
           <button type="button" className="stats-button" onClick={() => setStatsOpen(true)}>
@@ -311,7 +315,9 @@ export function Game({ cars }: { cars: CarOption[] }) {
               <p className="modes-hint">{MODES.find((m) => m.id === mode)?.hint}</p>
             </fieldset>
           )}
-          {kind === 'daily' && !over && <p className="modes-hint daily-hint">Same car and clue order for everyone today.</p>}
+          {kind === 'daily' && !over && (
+            <p className="modes-hint daily-hint">Same car and clue order for everyone today. Guesses reveal the specs they get right.</p>
+          )}
 
           {error && (
             <p className="error" role="alert">
@@ -338,7 +344,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
                 onGuess={(car) => void play(car.id)}
               />
               <button type="button" className="link" disabled={busy} onClick={() => void play(null)}>
-                {onLastClue ? 'Give up and see the car' : 'Skip to the next clue'}
+                {onLastTurn ? 'Give up and see the car' : allShown ? 'Skip this turn' : 'Skip to the next clue'}
               </button>
             </div>
           )}
@@ -347,14 +353,14 @@ export function Game({ cars }: { cars: CarOption[] }) {
             <section className={`result ${result.solved ? 'result-solved' : 'result-lost'}`} aria-live="polite">
               <h2 className="result-heading">
                 {result.solved
-                  ? `Solved in ${result.cluesUsed} ${result.cluesUsed === 1 ? 'clue' : 'clues'}`
+                  ? `Solved in ${result.cluesUsed} ${result.cluesUsed === 1 ? 'turn' : 'turns'}`
                   : 'Not solved this time'}
               </h2>
               <dl className="stats">
                 <div>
                   <dt>Score</dt>
                   <dd>
-                    {result.score}/{game.clueLabels.length}
+                    {result.score}/{maxTurns}
                   </dd>
                 </div>
                 <div>
@@ -433,7 +439,12 @@ export function Game({ cars }: { cars: CarOption[] }) {
               <ol>
                 {game.turns.map((turn, i) => (
                   <li key={i} className={turn.carId ? 'turn-wrong' : 'turn-skip'}>
-                    <span className="turn-name">{turn.carId ? turn.name : 'Skipped'}</span>
+                    <span className="turn-name">
+                      {turn.carId ? turn.name : 'Skipped'}
+                      {turn.carId && turn.right !== undefined && (
+                        <span className="turn-revealed">{turn.right === 0 ? 'none right' : `${turn.right} right`}</span>
+                      )}
+                    </span>
                     {result && turn.carId && (
                       <button
                         type="button"
