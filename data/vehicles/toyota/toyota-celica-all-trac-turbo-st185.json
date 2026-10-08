@@ -1,0 +1,149 @@
+{
+  "id": "toyota-celica-all-trac-turbo-st185",
+  "manufacturer": "Toyota",
+  "model": "Celica",
+  "generation": "ST185",
+  "variant": "All-Trac Turbo",
+  "subVariant": null,
+  "displayName": "Toyota Celica All-Trac Turbo (ST185)",
+  "aliases": [
+    "All-Trac",
+    "ST185",
+    "GT-Four",
+    "Celica GT4",
+    "3S-GTE",
+    "Celica Turbo",
+    "1990 Celica All-Trac"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1990,
+      "endYear": 1993
+    },
+    "sourceId": "hagerty-celica-alltrac",
+    "note": "US model years. Hagerty: \"The 1990–93 models came with 200 hp\". iSeeCars lists an 'AWD All-Trac Turbo 2dr Hatchback' for 1990 (iseecars-1990-celica), and KBB a '1993 Toyota Celica All-Trac Liftback 2D' (kbb-1993-celica-alltrac). No opened page states in so many words that 1993 was the last US model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-1993-celica-alltrac",
+    "note": "Liftback only ('All-Trac Liftback 2D'); recorded as Coupe under the guide's rule for two-door sports cars with a rear liftback."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "kbb-1992-celica-alltrac",
+      "note": "'4-Cyl, Turbo, 2.0 Liter' (database); Hagerty: 'a 2.0L, double-overhead-cam four-cylinder'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "cg-celica-1990-93",
+      "note": "'a 200-horsepower, 2.0-liter turbocharged engine'. No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "cg-celica-1990-93",
+      "note": "'2.0-liter turbocharged engine'; Hagerty: 'a water-air intercooler for the turbocharger'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cg-celica-1990-93"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "cg-celica-1990-93",
+    "note": "'The All-Trac (permanently engaged 4-wheel-drive) edition'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "cg-celica-1990-93",
+    "note": "The All-Trac 'came only with manual shift'; KBB lists 'Manual', '5 speed' (kbb-1992-celica-alltrac)."
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "cg-celica-1990-93",
+    "note": "PROVISIONAL (one named-author article, an unbylined article and a database; no Toyota or major-magazine source). Quote (Consumer Guide, Tom Appel): \"The All-Trac (permanently engaged 4-wheel-drive) edition employed a 200-horsepower, 2.0-liter turbocharged engine and came only with manual shift.\" Hagerty (byline not confirmed): \"The 1990–93 models came with 200 hp, interesting styling, and some driveline improvements over the first generation car.\" (hagerty-celica-alltrac). KBB 1992: \"Horsepower: 200 @ 6000 RPM\" (kbb-1992-celica-alltrac). No opened page reports a different US rating for 1990-1993."
+  },
+  "weightLb": {
+    "value": 3272,
+    "sourceId": "iseecars-1990-celica",
+    "note": "PROVISIONAL (database, single source for the launch year). 1990 All-Trac Turbo liftback, 5-speed manual (the only transmission). Quote (iSeeCars, 'AWD All-Trac Turbo 2dr Hatchback'): \"Curb Weight | 3272 | lbs\"; iSeeCars' 1991 page prints the same (iseecars-1991-celica). For 1992 iSeeCars gives 3,219 lb (iseecars-1992-celica) and KBB 3,218 lb (\"Curb Weight: 3218 lbs.\", kbb-1992-celica-alltrac); KBB 1993: 3,219 lb (kbb-1993-celica-alltrac). The 1992-1993 figures are 1.6% lower, which may be a model-year change; no page explains it."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1990,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cg-celica-1990-93",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "1990-93 Toyota Celica (used-car review, Tom Appel)",
+      "url": "https://consumerguide.com/used/1990-93-toyota-celica/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "hagerty-celica-alltrac",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "When a Rally-Bred Celica Was an Arcade Hero",
+      "url": "https://hagerty.com/media/?p=444352",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1990-celica",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1990 Toyota Celica specs",
+      "url": "https://www.iseecars.com/car/1990-toyota-celica-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1991-celica",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1991 Toyota Celica specs",
+      "url": "https://www.iseecars.com/car/1991-toyota-celica-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1992-celica",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1992 Toyota Celica specs",
+      "url": "https://www.iseecars.com/car/1992-toyota-celica-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-1992-celica-alltrac",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1992 Toyota Celica All-Trac Turbo Liftback 2D",
+      "url": "https://www.kbb.com/toyota/celica/1992/all-tracturboliftback2d",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-1993-celica-alltrac",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1993 Toyota Celica All-Trac Liftback 2D",
+      "url": "https://www.kbb.com/toyota/celica/1993/all-trac-liftback-2d",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (200 hp) rests on one named-author article (Consumer Guide, Tom Appel), a Hagerty article whose byline could not be confirmed, and KBB, all agreeing, but no Toyota or major-magazine source. Weight (3,272 lb, 1990) rests on iSeeCars alone for 1990-1991 (a database); KBB and iSeeCars give 3,218-3,219 lb for 1992-1993. A Toyota US press kit or brochure, or a Car and Driver, Road & Track or MotorTrend specification panel, for the 1990 Celica All-Trac Turbo would replace both."
+}

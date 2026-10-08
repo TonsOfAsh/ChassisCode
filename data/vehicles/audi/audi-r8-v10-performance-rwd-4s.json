@@ -1,0 +1,135 @@
+{
+  "id": "audi-r8-v10-performance-rwd-4s",
+  "manufacturer": "Audi",
+  "model": "R8",
+  "generation": "4S / 2nd gen",
+  "variant": "V10 Performance RWD",
+  "subVariant": null,
+  "displayName": "Audi R8 V10 Performance RWD (4S / 2nd gen)",
+  "aliases": [
+    "R8 V10 performance RWD",
+    "R8 RWD",
+    "2022 R8 V10 performance RWD",
+    "rear-wheel-drive R8",
+    "R8 4S",
+    "R8 Type 4S",
+    "S tronic",
+    "R8 2nd gen",
+    "second gen R8",
+    "4S"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2023
+    },
+    "sourceId": "motorauthority-r8-2022",
+    "note": "US model years. First: Motor Authority (Viknesh Vijayenthiran, 27 April 2021) on the 2022 line-up: \"the R8 V10 Performance RWD, the rear-wheel-drive R8 variant develops 562 hp\" and \"Pricing for the 2022 R8 starts at $146,500\". The 2021 R8 V10 RWD (532 hp) is a separate, earlier variant with a different name and rating and is not covered by this record: Carscoops (Dan Mihalascu), \"2021 Audi R8 V10 RWD Joins U.S. Lineup As The Cheapest Model At $145,895\" (carscoops-r8-rwd-2021); Motor Authority (Kirk Bell): \"The 2021 Audi R8 V10 Coupe RWD starts at $145,895\" (motorauthority-r8-rwd-2021). Last: Audi of America: \"2023 was the final model year for the R8\" (audi-usa-r8-coupe). The 2018 limited-run R8 V10 RWS is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "The open R8 V10 performance Spyder RWD is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "audi-usa-r8-coupe",
+      "note": "\"5.2 FSI, 10 CYL\""
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "audi-usa-r8-coupe",
+      "note": "Audi: \"5.2 FSI\". autoevolution (a database) gives \"5204 cm3 (318 ci)\" for its RWD entry, which is the earlier 540 PS RWD car, not this 562 hp version (autoevolution-r8-4s); the engine is the same 5.2 V10 FSI."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "audi-usa-r8-coupe",
+      "note": "Inferred: a 5.2-liter V10 FSI with no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "FSI petrol engine; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "\"RWD 7-speed S tronic® with overdrive\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "\"RWD 7-speed S tronic® with overdrive\"; S tronic is a dual-clutch gearbox and the only transmission offered. Motor Authority on the 2022 car: \"the only transmission is a 7-speed dual-clutch unit\" (motorauthority-r8-2022)."
+  },
+  "powerHp": {
+    "value": 562,
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "Quote (Audi of America, 2023 R8 Coupe specification table, column \"R8 V10 performance Coupe RWD\"): \"Horsepower (hp) | 562\". Motor Authority on the 2022 car: \"the R8 V10 Performance RWD, the rear-wheel-drive R8 variant develops 562 hp and 406 lb-ft of torque from the familiar 5.2-liter V-10\" (motorauthority-r8-2022). Predecessor (not part of this record): the 2021 R8 V10 RWD was rated 532 hp. Carscoops: \"the V10 in the R8 RWD makes 532 HP (540 PS) and 398 lb-ft (539 Nm) of torque\" (carscoops-r8-rwd-2021); Motor Authority: \"tuned to make 532 horsepower and 398 pound-feet of torque\" (motorauthority-r8-rwd-2021)."
+  },
+  "weightLb": {
+    "value": 3571,
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "Quote (Audi of America, 2023 R8 Coupe specification table, column \"R8 V10 performance Coupe RWD\"): \"Curb weight (lb) | 3,571\". Coupe, 7-speed S tronic (the only configuration). Reference year 2023 is the earliest year for which a manufacturer weight was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-usa-r8-coupe",
+      "type": "manufacturer",
+      "publisher": "Audi of America (Audi USA media site)",
+      "title": "R8 Coupe (2023 model page)",
+      "url": "https://media.audiusa.com/view/models/r8-coupe",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscoops-r8-rwd-2021",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "2021 Audi R8 V10 RWD Joins U.S. Lineup As The Cheapest Model At $145,895 (Dan Mihalascu, 8 October 2020)",
+      "url": "https://www.carscoops.com/?p=2117225",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorauthority-r8-rwd-2021",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2021 Audi R8 adding less expensive rear-drive models (Kirk Bell, 8 October 2020)",
+      "url": "https://www.motorauthority.com/news/1129893_2021-audi-r8-adding-less-expensive-rear-drive-models",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorauthority-r8-2022",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2022 Audi R8 (Viknesh Vijayenthiran, 27 April 2021)",
+      "url": "https://www.motorauthority.com/news/1132063_2022-audi-r8-price-specs-review-photos-info",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autoevolution-r8-4s",
+      "type": "database",
+      "publisher": "autoevolution",
+      "title": "Audi R8 Coupe (2018-2024) specifications",
+      "url": "https://www.autoevolution.com/cars/audi-r8-coupe-2018.html",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

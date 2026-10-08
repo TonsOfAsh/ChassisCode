@@ -1,0 +1,194 @@
+{
+  "id": "audi-r8-v8-type-42",
+  "manufacturer": "Audi",
+  "model": "R8",
+  "generation": "Type 42 / 1st gen",
+  "variant": "V8",
+  "subVariant": null,
+  "displayName": "Audi R8 V8 (Type 42 / 1st gen)",
+  "aliases": [
+    "R8 4.2 FSI",
+    "R8 4.2 FSI quattro",
+    "R8 4.2",
+    "R8 V8 Type 42",
+    "2008 R8",
+    "2008 Audi R8",
+    "R tronic",
+    "S tronic",
+    "quattro",
+    "R8 1st gen",
+    "first gen R8",
+    "R8 Type 42",
+    "Type 42"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2015
+    },
+    "sourceId": "audi-us-2008-r8-pricing",
+    "note": "US model years. First: Audi of America's release \"AUDI ANNOUNCES 2008 R8 U.S. PRICING\" (Auburn Hills, 29 March 2007), and its 2008 model-year line-up release (audi-us-2008-lineup). Last: Kelley Blue Book (a database) lists R8 model years 2008-2012 and 2014-2015 for this generation, with no 2013 model year, and next 2017 (kbb-r8-years); its 2015 page lists the \"V8 Coupe 2D\" (kbb-r8-2015). The open R8 Spyder 4.2 and the V10 cars are not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-us-2008-r8-pricing",
+    "note": "The open R8 Spyder is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "audi-us-2008-r8-pricing",
+      "note": "\"a 420 hp V8 4.2L FSI engine\""
+    },
+    "displacementL": {
+      "value": 4.2,
+      "sourceId": "autoevolution-r8-v8",
+      "note": "4,163 cc per autoevolution (a database): \"4163 cm3 (254 ci)\". Audi of America: \"4.2L FSI\" (audi-us-2008-r8-pricing)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "audi-us-2008-lineup",
+      "note": "Inferred: Audi describes a \"high-revving 420-hp 4.2L V8 FSI engine\" with no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-us-2008-r8-pricing",
+    "note": "FSI petrol direct injection; inferred."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-us-2008-r8-pricing",
+    "note": "\"rear-biased quattro® all-wheel drive system\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-us-2008-r8-pricing",
+    "note": "Audi of America: \"The R8 with a six-speed manual transmission will have a manufacturer's suggested retail price of $109,000\" and \"Models equipped with the six-speed R tronic automatic gearbox will start at $118,000.\" R tronic is a single-clutch automated manual (2008-2012). For the 2014 model year KBB (a database) writes: \"Power is routed to the rear-biased all-wheel-drive system via a smooth and precise 6-speed manual transmission or a nearly as satisfying 7-speed dual-clutch automatic.\" (S tronic; kbb-r8-2014)."
+  },
+  "powerHp": {
+    "value": 420,
+    "sourceId": "audi-us-2008-r8-pricing",
+    "note": "Quote (Audi of America release, 29 March 2007, reproduced by s-cars.org): \"With a 420 hp V8 4.2L FSI engine and rear-biased quattro® all-wheel drive system, the R8 has the performance capabilities unlike any Audi before it.\" Audi's 2008 line-up release agrees: \"The all-aluminum R8 has a 420 hp engine available with either a six-speed manual or R tronic sequential automatic gearbox, with sprints from 0-60 mph in 4.4 seconds.\" (audi-us-2008-lineup). 420 hp applied to the 2008-2011 model years (4 of the 7). KBB (a database) gives 430 hp for the 2012 car (\"430 horsepower @ 7900 RPM\", kbb-r8-2012) and 430 hp at 7,900 rpm for the 2014 and 2015 V8 Coupe (kbb-r8-2014, kbb-r8-2015); 420 hp still covers more than half of the model years, so the reference year is 2008."
+  },
+  "weightLb": {
+    "value": 3605,
+    "sourceId": "iseecars-r8-2008",
+    "note": "PROVISIONAL: two databases, agreeing within 0.3%. 2008 coupe with the 6-speed manual (the standard car). Quote (iSeeCars, a database): \"AWD quattro 2dr Coupe 6M\" \"| Curb Weight | 3605 | lbs |\" and \"AWD quattro 2dr Coupe 6A\" \"| Curb Weight | 3616 | lbs |\". KBB (a database), \"R8 Quattro Coupe 2D\", transmission \"Manual\": \"Curb Weight | 3615 pounds\" (kbb-r8-2008-specs). autoevolution's European unladen figure for the manual car, \"Unladen Weight: 3439 lbs (1560 kg)\" (autoevolution-r8-v8), is a European figure, not the US curb weight (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-us-2008-r8-pricing",
+      "type": "manufacturer",
+      "publisher": "Audi of America (press release reproduced by s-cars.org)",
+      "title": "AUDI ANNOUNCES 2008 R8 U.S. PRICING (Auburn Hills, 29 March 2007)",
+      "url": "https://s-cars.org/tag/r8/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "audi-us-2008-lineup",
+      "type": "manufacturer",
+      "publisher": "Audi of America (press release reproduced by AudiWorld)",
+      "title": "Audi Announces 2008 Model Year Model Line-Up",
+      "url": "https://www.audiworld.com/news/07/aoa-2008-lineup/content.shtml",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-r8-2008",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2008 Audi R8 specs",
+      "url": "https://www.iseecars.com/car/2008-audi-r8-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-r8-2008-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 Audi R8 Specs, Features & Options",
+      "url": "https://www.kbb.com/audi/r8/2008/specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-r8-years",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Audi R8 (model years)",
+      "url": "https://www.kbb.com/audi/r8/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-r8-2012",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Audi R8",
+      "url": "https://www.kbb.com/audi/r8/2012/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-r8-2014",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2014 Audi R8",
+      "url": "https://www.kbb.com/audi/r8/2014/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-r8-2015",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2015 Audi R8",
+      "url": "https://www.kbb.com/audi/r8/2015/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autoevolution-r8-v8",
+      "type": "database",
+      "publisher": "autoevolution",
+      "title": "Audi R8 V8 (2007) specifications",
+      "url": "https://www.autoevolution.com/cars/audi-r8-v8-2007.html",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3605,
+          "sourceId": "iseecars-r8-2008"
+        },
+        {
+          "value": 3615,
+          "sourceId": "kbb-r8-2008-specs"
+        },
+        {
+          "value": "3,439 lb (1,560 kg)",
+          "sourceId": "autoevolution-r8-v8"
+        }
+      ],
+      "reason": "Rounding or data vintage between the US databases (iSeeCars 3,605 lb manual, 3,616 lb R tronic; KBB 3,615 lb listed as manual). 3,439 lb is autoevolution's European unladen figure (1,560 kg) for the manual car, not a US curb weight.",
+      "resolution": "Used 3,605 lb, iSeeCars' figure for the manual car; the US figures agree within 0.3%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 3,605 lb (2008 manual coupe) rests on iSeeCars (a database), with KBB (a database) giving 3,615 lb. An Audi of America specification sheet for the 2008 R8 4.2 or a Car and Driver, Road & Track or MotorTrend specification panel would replace it. The end year (2015) and the 430 hp rating of 2012, 2014 and 2015 (described in the power note; the record uses the 2008-2011 rating of 420 hp from Audi of America) rest on KBB; displacement in cc rests on autoevolution."
+}

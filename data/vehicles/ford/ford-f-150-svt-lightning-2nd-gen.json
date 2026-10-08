@@ -1,0 +1,143 @@
+{
+  "id": "ford-f-150-svt-lightning-2nd-gen",
+  "manufacturer": "Ford",
+  "model": "F-150",
+  "generation": "2nd gen",
+  "variant": "SVT Lightning",
+  "subVariant": null,
+  "displayName": "Ford F-150 SVT Lightning (2nd gen)",
+  "aliases": [
+    "Lightning",
+    "SVT Lightning",
+    "F-150 Lightning",
+    "Ford Lightning",
+    "SVT F-150 Lightning",
+    "1999 Lightning",
+    "2001 Lightning",
+    "2004 Lightning",
+    "4R100"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2004
+    },
+    "sourceId": "tfltruck-lightning-2004",
+    "note": "US model years 1999-2004. Quote (TFLtruck, Andre Smirnov): \"1999-2004 Ford F-150 Lightning\". F150Hub (enthusiast): \"1999 - 2004\", with yearly production 4,000 (1999) to 3,781 (2004) (f150hub-lightning). The 1993-1995 Lightning is the 1st gen; the 2022 F-150 Lightning EV is unrelated."
+  },
+  "body": {
+    "value": [
+      "Pickup"
+    ],
+    "sourceId": "f150hub-lightning",
+    "note": "F150Hub (enthusiast): \"2wd, regular cab, step side bed\". Auto123 (Alex Law, 2001): 'built on the F-Series regular cab, short-wheelbase chassis' (auto123-lightning-2001). Regular cab with the Flareside bed is the only configuration and the standard car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "fordtrucks-lightning-2001-specs",
+      "note": "Ford-Trucks.com: 'Configuration Longitudinally mounted, single overhead cam, 90-degree Triton™ V-8 supercharged/intercooled'."
+    },
+    "displacementL": {
+      "value": 5.4,
+      "sourceId": "fordtrucks-lightning-2001-specs",
+      "note": "5,410 cc: 'Displacement 5,410cc (330cid)'."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "fordtrucks-lightning-2001-specs",
+      "note": "'Eaton™ Corporation Generation IV Roots-type supercharger; water-to-air intercooler'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "fordtrucks-lightning-2001-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "f150hub-lightning",
+    "note": "F150Hub: '2wd'; Ford-Trucks.com: 'Rear axle 9.75-in. ring gear with limited-slip differential, 3.73:1 ratio' (fordtrucks-lightning-2001-specs)."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Automatic"
+    ],
+    "sourceId": "fordtrucks-lightning-2001-specs",
+    "note": "'Four-speed automatic (4R100)', the only transmission; F150Hub: 'Ford 4R100 4 speed automatic' (f150hub-lightning); Cars.com: 'A/T 4-Speed A/T' (carscom-lightning-2001)."
+  },
+  "powerHp": {
+    "value": 380,
+    "sourceId": "auto123-lightning-2001",
+    "note": "PROVISIONAL (single named-author article, plus an enthusiast spec page and a TV road-test panel). 2001 rating. Quote (Auto123, Alex Law, 2001): \"For 2001, the SVT Lightning's SOHC 5.4-liter Triton V8 engine develops 380 horsepower at 4,750 rpm, up 20 horsepower from the 2000 model.\" Ford-Trucks.com 2001 specifications: \"380 hp @ 4,750 rpm\" (fordtrucks-lightning-2001-specs). F150Hub: \"360 hp @ 4,750 rpm (1999 & 2000 model years)\" and \"380 hp @ 4,750 rpm (2001 - 2004 model years)\" (f150hub-lightning). Cars.com 2001 Reg Cab Flareside: \"SAE Net Horsepower @ RPM: 380 @ 4750\" (carscom-lightning-2001). MotorWeek's 2001 road-test panel also lists 380 hp (motorweek-lightning-2001; no individual author). 380 hp covers 2001-2004, four of six model years, so the record uses it; 1999-2000 trucks were rated 360 hp."
+  },
+  "weightLb": {
+    "value": 4670,
+    "sourceId": "carscom-lightning-2001",
+    "note": "PROVISIONAL (database). 2001 F-150 Lightning, Reg Cab Flareside 120\" (regular cab, automatic, the only configuration). Quote (Cars.com): \"Curb Weight: 4,670 lbs\"; the same page gives \"SAE Net Horsepower @ RPM: 380 @ 4750\". Ford-Trucks.com's '2001 SVT F-150 Lightning Specifications' prints the same figure, \"Curb weight 4,670 lb. (2,120 kg)\" (fordtrucks-lightning-2001-specs), but has no byline or stated source, so it is corroboration only and not counted as a second source."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2001,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "fordtrucks-lightning-2001-specs",
+      "type": "enthusiast",
+      "publisher": "Ford-Trucks.com",
+      "title": "2001 SVT F-150 Lightning Specifications",
+      "url": "https://www.ford-trucks.com/?p=2311",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscom-lightning-2001",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2001 Ford F-150 Lightning specs (Reg Cab Flareside 120\")",
+      "url": "https://www.cars.com/research/ford-f_150-2001/specs/12354/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "auto123-lightning-2001",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "2001 Ford SVT F-150 Lightning (Alex Law)",
+      "url": "https://www.auto123.com/en/car-reviews/2001-ford-svt-f-150-lightning/46507/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "f150hub-lightning",
+      "type": "enthusiast",
+      "publisher": "F150Hub",
+      "title": "Ford F-150 SVT Lightning",
+      "url": "https://f150hub.com/svt/lightning.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "tfltruck-lightning-2004",
+      "type": "publication",
+      "publisher": "TFLtruck",
+      "title": "Modern Collectible: 2004 Ford F-150 Lightning (Andre Smirnov)",
+      "url": "https://tfltruck.com/2013/09/modern-collectible-2004-ford-f-150-lightning/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorweek-lightning-2001",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2001 Ford SVT F-150 Lightning road test",
+      "url": "https://motorweek.org/road_tests/2001_ford_svt_f-150_lightning_program_2036/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (380 hp, 2001) rests on one named-author article (Auto123, Alex Law), agreeing with Cars.com (database), F150Hub, MotorWeek's road-test panel and an unbylined enthusiast spec page (Ford-Trucks.com); no Ford/SVT document was opened. Weight (4,670 lb, 2001) rests on Cars.com (database), with the same figure on Ford-Trucks.com, which has no byline or stated source and is not counted as independent. A Ford/SVT 2001 press kit or specification sheet, or a major magazine spec panel, would replace both."
+}

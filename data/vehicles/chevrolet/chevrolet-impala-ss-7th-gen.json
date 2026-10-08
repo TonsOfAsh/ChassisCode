@@ -1,0 +1,142 @@
+{
+  "id": "chevrolet-impala-ss-7th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Impala",
+  "generation": "7th gen",
+  "variant": "SS",
+  "subVariant": null,
+  "displayName": "Chevrolet Impala SS (7th gen)",
+  "aliases": [
+    "Impala SS",
+    "1994 Impala SS",
+    "1995 Impala SS",
+    "1996 Impala SS",
+    "B-body",
+    "B-body Impala",
+    "LT1 Impala",
+    "4L60-E"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1994,
+      "endYear": 1996
+    },
+    "sourceId": "hagerty-impala-ss-1994",
+    "note": "US model years 1994-1996. Hagerty: 1994 'just 6,300 were sold in that shortened model year', 1995 'over 21,000 were sold', 1996 'a further 42,000 Impala SSs were sold', and 'the whole B-body line was discontinued after 1996'. Chevrolet's 1996 release lists model years 1994, 1995 and 1996 (chevrolet-impala-ss-1996-release)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "hagerty-impala-ss-1994",
+    "note": "Four-door sedan only (GM B-body)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "chevrolet-impala-ss-1996-release",
+      "note": "'260-hp 5.7L LT1 Corvette small-block V-8'"
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "chevrolet-impala-ss-1996-release",
+      "note": "Chevrolet: '5.7L'; Hagerty: '350cid' (hagerty-impala-ss-1994). No opened page gives a cc figure; 350 cu in is the stated size."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "chevrolet-impala-ss-1996-release",
+      "note": "No forced induction mentioned; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "chevrolet-impala-ss-1996-release"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "hagerty-impala-ss-1994",
+    "note": "Hagerty: 'the last of the rear-wheel drive Impalas'."
+  },
+  "transmission": {
+    "value": [
+      "4-speed Automatic"
+    ],
+    "sourceId": "chevrolet-impala-ss-1996-release",
+    "note": "Chevrolet: 'Mated to the GM electronically controlled 4L60-E four-speed automatic transmission'. Carscoops (carscoops-chilton-impala-ss-1994): 'There was no manual option either, a four-speed automatic being the only transmission available.'"
+  },
+  "powerHp": {
+    "value": 260,
+    "sourceId": "chevrolet-impala-ss-1996-release",
+    "note": "Chevrolet 1996 Impala SS release ('1996 IMPALA SS: A FAMILY SPORT SEDAN THAT REALLY HAULS', marked 'Source - Chevrolet', reproduced by ConceptCarz). Quote: \"recalibrated to deliver 260 horsepower at 5000 rpm and 330 lb.-ft. of torque at 2400 rpm\". The same 260 hp applies to 1994 (the reference year): Hagerty 1994 Impala SS '8-cyl. 350cid/260hp SFI' (hagerty-impala-ss-1994); KBB 1994 SS Sedan 4D 'Horsepower: 260 @ 5000 RPM' (kbb-impala-1994); Carscoops: 'rated at 260 hp (264 PS)' (carscoops-chilton-impala-ss-1994). No change in rating over 1994-1996 was found."
+  },
+  "weightLb": {
+    "value": 4218,
+    "sourceId": "kbb-impala-1994",
+    "note": "PROVISIONAL (one database figure). 4-speed automatic, the only transmission (Chevrolet release; Carscoops: 'a four-speed automatic being the only transmission available'); sedan. Quote (KBB, 1994 Impala SS Sedan 4D, transmission 'Automatic'): \"Curb Weight: 4218 lbs.\" MotorMatchup ('Curb Weight: 4,218 lbs', motormatchup-impala-ss-1994) and iSeeCars ('4218 lbs', iseecars-impala-1994) print the same figure and are counted as copies of the one database figure. Not counted as curb weights (unlabelled body text): Carscoops (Chris Chilton) 'the girthy 4,221-lbs (1,915 kg) SS could still hit 60 mph' (carscoops-chilton-impala-ss-1994), Hagerty 'At 4,300 pounds, the Impala SS was hefty', and Chevrolet's round '4,200-pound cruisers'."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1994,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "chevrolet-impala-ss-1996-release",
+      "type": "manufacturer",
+      "publisher": "Chevrolet (release reproduced by ConceptCarz)",
+      "title": "1996 Impala SS: A Family Sport Sedan That Really Hauls",
+      "url": "https://www.conceptcarz.com/vehicle/z189/info/contact.aspx",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "hagerty-impala-ss-1994",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "1994 Chevrolet Impala SS (valuation tools)",
+      "url": "https://www.hagerty.com/apps/valuationtools/1994-chevrolet-impala-SS",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-impala-1994",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1994 Chevrolet Impala specs",
+      "url": "https://www.kbb.com/chevrolet/impala/1994/specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscoops-chilton-impala-ss-1994",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "6k-Mile 1994 Chevrolet Impala SS Is A 1990s Super Sedan Survivor (Chris Chilton)",
+      "url": "https://www.carscoops.com/?p=2424641",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motormatchup-impala-ss-1994",
+      "type": "database",
+      "publisher": "MotorMatchup",
+      "title": "1994 Chevrolet Impala SS specs",
+      "url": "https://www.motormatchup.com/catalog/Chevrolet/Impala/1994/SS",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-impala-1994",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1994 Chevrolet Impala specs",
+      "url": "https://www.iseecars.com/car/1994-chevrolet-impala-specs",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (4,218 lb) rests on one database figure (KBB, repeated by MotorMatchup and iSeeCars); the 4-speed automatic was the only transmission. Carscoops' 4,221 lb is unlabelled body text and does not count. A Chevrolet 1994-1996 specification sheet or a major magazine spec panel labelled curb weight would replace it. Power (260 hp) is from Chevrolet's 1996 release."
+}

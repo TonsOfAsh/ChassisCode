@@ -1,0 +1,142 @@
+{
+  "id": "mitsubishi-eclipse-gsx-2nd-gen",
+  "manufacturer": "Mitsubishi",
+  "model": "Eclipse",
+  "generation": "2nd gen",
+  "variant": "GSX",
+  "subVariant": null,
+  "displayName": "Mitsubishi Eclipse GSX (2nd gen)",
+  "aliases": [
+    "2G Eclipse GSX",
+    "2G GSX",
+    "DSM",
+    "4G63",
+    "Eclipse GSX AWD",
+    "1995 Eclipse GSX",
+    "1999 Eclipse GSX"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1995,
+      "endYear": 1999
+    },
+    "sourceId": "consumerguide-1995-99-eclipse",
+    "note": "PROVISIONAL (a used-car report and databases). US model years. Consumer Guide's used-car report covers the '1995-99 Mitsubishi Eclipse' and says \"the top-line GSX was equipped with all-wheel drive\". KBB lists a 1995 'GSX Coupe 2D' (kbb-1995-eclipse-gsx) and a 1999 'GSX Coupe 2D' (kbb-1999-eclipse-gsx). The GS-T Spyder convertible (from 1996) is a separate, front-drive model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-1995-eclipse-gsx",
+    "note": "KBB 'GSX Coupe 2D'; iSeeCars calls it a '2dr Hatchback' (liftback coupe, which the guide files as Coupe)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "consumerguide-1995-99-eclipse",
+      "note": "'Turbocharged dohc I4'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "consumerguide-1995-99-eclipse",
+      "note": "'Engine Size (liters/cubic inches): 2.0/122'. No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "consumerguide-1995-99-eclipse",
+      "note": "Consumer Guide: \"A turbocharged 2.0-liter engine went into GS-T and GSX models, making 210 horsepower (205 horsepower when equipped with an automatic transmission).\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "consumerguide-1995-99-eclipse"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "consumerguide-1995-99-eclipse",
+    "note": "\"The base RS, GS, and GS-T had front-wheel drive, while the top-line GSX was equipped with all-wheel drive.\" KBB: 'Drive Type AWD'."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "consumerguide-1995-99-eclipse",
+    "note": "\"A 5-speed manual transmission was standard in all models, with 4-speed automatic optional.\" The turbo engine's table lists '5-speed manual 4-speed automatic'."
+  },
+  "powerHp": {
+    "value": 210,
+    "sourceId": "kbb-1995-eclipse-gsx",
+    "note": "PROVISIONAL (database, with publications agreeing). Manual car. Quote (KBB 1995 Eclipse GSX Coupe 2D, whose page lists the transmission as Manual / 5 speed): \"Horsepower 210 @ 6000 RPM\". KBB 1999 GSX Coupe 2D: \"210 @ 6000 RPM\" (kbb-1999-eclipse-gsx). Consumer Guide (Tom Appel): \"A turbocharged 2.0-liter engine went into GS-T and GSX models, making 210 horsepower (205 horsepower when equipped with an automatic transmission).\" Adam Dixon's 1999 GSX review (reproduced by Curbside Classic): \"210-horsepower, turbocharged 2.0-liter inline four\" (curbside-1999-eclipse-gsx). The optional automatic is rated 205 hp."
+  },
+  "weightLb": {
+    "value": 3120,
+    "sourceId": "kbb-1995-eclipse-gsx",
+    "note": "PROVISIONAL (database). 1995 GSX coupe; KBB's 1995 GSX trim page lists the transmission as Manual / 5 speed (the manual is standard), so the figure is taken as the manual car's. Quote (KBB): \"Curb Weight 3120 lbs.\" iSeeCars 1995 'AWD GSX Turbo 2dr Hatchback': 'Curb Weight | 3120 | lbs' (iseecars-1995-eclipse). Both databases also give the same 3,270 lb for 1999 (kbb-1999-eclipse-gsx, iseecars-1999-eclipse), so they share one data feed and count as one source. Reference year 1995, the launch year."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1995,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "kbb-1995-eclipse-gsx",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1995 Mitsubishi Eclipse GSX Coupe 2D",
+      "url": "https://www.kbb.com/mitsubishi/eclipse/1995/gsx-coupe-2d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-1999-eclipse-gsx",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1999 Mitsubishi Eclipse GSX Coupe 2D",
+      "url": "https://www.kbb.com/mitsubishi/eclipse/1999/gsx-coupe-2d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1995-eclipse",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1995 Mitsubishi Eclipse specs",
+      "url": "https://www.iseecars.com/car/1995-mitsubishi-eclipse-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1999-eclipse",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1999 Mitsubishi Eclipse specs",
+      "url": "https://www.iseecars.com/car/1999-mitsubishi-eclipse-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "consumerguide-1995-99-eclipse",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "1995-99 Mitsubishi Eclipse (used car report, Tom Appel)",
+      "url": "https://consumerguide.com/used/1995-99-mitsubishi-eclipse/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "curbside-1999-eclipse-gsx",
+      "type": "publication",
+      "publisher": "Curbside Classic (Adam Dixon's 1999 review reproduced)",
+      "title": "Classic Carmentary: 1999 Mitsubishi Eclipse GSX",
+      "url": "https://www.curbsideclassic.com/vintage-reviews/classic-carmentary-1999-mitsubishi-eclipse-gsx",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (210 hp with the standard manual; 205 hp with the optional automatic) rests on KBB (1995 and 1999), with Consumer Guide (Tom Appel: 'making 210 horsepower (205 horsepower when equipped with an automatic transmission)') and a single 1999 review by Adam Dixon agreeing; weight (3,120 lb) rests on KBB and iSeeCars, which share one data feed (effectively one source); production years rest on Consumer Guide and KBB. A Mitsubishi Motors America press kit, brochure or spec sheet for the 1995 Eclipse GSX, or a major magazine specification panel, would replace them."
+}

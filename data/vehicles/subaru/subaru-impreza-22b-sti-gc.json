@@ -1,0 +1,116 @@
+{
+  "id": "subaru-impreza-22b-sti-gc",
+  "manufacturer": "Subaru",
+  "model": "Impreza",
+  "generation": "GC",
+  "variant": "22B STI",
+  "subVariant": null,
+  "displayName": "Subaru Impreza 22B STI (GC)",
+  "aliases": [
+    "22B",
+    "22B STi",
+    "Impreza 22B-STI Version",
+    "22B-STI Version",
+    "EJ22G",
+    "GC8",
+    "GC8 22B",
+    "Sonic Blue 22B"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1998,
+      "endYear": 1998
+    },
+    "sourceId": "motoringresearch-22b-2021",
+    "note": "Calendar year. Motoring Research: \"The special 22B STI version of the Impreza was built in 1998\"; \"Subaru produced 400 examples of the 22B STI for the Japanese market, with 16 more sold in the United Kingdom.\" STI: 'Limited to 400 units' (sti-22b). Never sold new in the US, so the Japanese market is used."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "motoringresearch-22b-2021",
+    "note": "Two-door coupe ('a regular two-door Impreza')."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "sti-22b",
+      "note": "'4-cylinder/4-cam, 16-valve turbo and horizontally opposed engine' (EJ22G)"
+    },
+    "displacementL": {
+      "value": 2.2,
+      "sourceId": "sti-22b",
+      "note": "2,212 cc ('Displacement 2,212 cc'; 'increased to 2212cc')"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "sti-22b",
+      "note": "'16-valve turbo and horizontally opposed engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "sti-22b"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "motoringresearch-22b-2021",
+    "note": "\"A five-speed manual transmission, connected to Subaru's all-wheel drive system, was standard.\""
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "sti-22b",
+    "note": "'Transmission 5MT'"
+  },
+  "powerHp": {
+    "value": 276,
+    "sourceId": "sti-22b",
+    "note": "280 PS x 0.98632 = 276.2, rounded to 276 hp. Quote (STI): \"Max. Output [Net] 206 kW (280 PS) / 6000 rpm\". Motoring Research: 'officially rated as producing 276 hp' (motoringresearch-22b-2021); Evo: '276bhp @ 6000rpm' (evo-impreza)."
+  },
+  "weightLb": {
+    "value": 2800,
+    "sourceId": "sti-22b",
+    "note": "1,270 kg x 2.20462 = 2,799.9, rounded to 2,800 lb. Quote (STI): \"Kerb Weight [Reference Value] 1,270 kg\". STI labels it a reference value, not an estimate. Evo's panel agrees: '1270kg' (evo-impreza)."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1998,
+    "powerStandard": "JIS PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "sti-22b",
+      "type": "manufacturer",
+      "publisher": "Subaru Tecnica International (STI)",
+      "title": "IMPREZA 22B-STI VERSION (STI road cars, 1998)",
+      "url": "https://www.sti.jp/en/roadcars/1998/impreza-22b.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motoringresearch-22b-2021",
+      "type": "publication",
+      "publisher": "Motoring Research",
+      "title": "Rare Subaru Impreza 22B sells for more than $310,000 (John Redfern, 20 April 2021)",
+      "url": "https://www.motoringresearch.com/car-news/subaru-impreza-22b-auction/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "evo-impreza",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Subaru Impreza (model page, 22B specifications)",
+      "url": "https://www.evo.co.uk/subaru/impreza",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

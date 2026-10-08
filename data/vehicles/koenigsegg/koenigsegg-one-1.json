@@ -1,0 +1,138 @@
+{
+  "id": "koenigsegg-one-1",
+  "manufacturer": "Koenigsegg",
+  "model": "One:1",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Koenigsegg One:1",
+  "aliases": [
+    "One:1",
+    "Koenigsegg One",
+    "Megacar",
+    "5.0 twin-turbo V8"
+  ],
+  "country": "Sweden",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2015
+    },
+    "sourceId": "koenigsegg-one1",
+    "note": "Calendar years. Quote (Koenigsegg model page): \"Made in only 7 examples Built between 2014 and 2015\". Asphalte.ch (asphalte-one1, J-C Etter, 3 March 2014) at the Geneva launch: \"The One:1 production run will be 5 cars, in addition to the development car presented on the Geneva autoshow stand.\""
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "koenigsegg-one1-specs",
+    "note": "Quote: \"Two-door, two-seater with detachable roof\" (removable roof panel, as on the Jesko record)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "koenigsegg-one1-specs",
+      "note": "Quote: \"Koenigsegg aluminum 5,0L V8, 4 valves per cylinder, double overhead camshafts with flex-fuel capability\""
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "koenigsegg-one1-specs",
+      "note": "\"5,0L\"; Koenigsegg gives bore 92 mm and stroke 95.25 mm but no cc figure. The model page says \"5.0 Liters V8 displacement\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "koenigsegg-one1-specs",
+      "note": "\"Variable geometry twin turbo chargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "koenigsegg-one1-specs",
+    "note": "Flex-fuel (\"Flex fuel capability\"); runs on gasoline or E85."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "asphalte-one1",
+    "note": "Quote (Asphalte.ch): \"The task to channel this biblical torque to the rear wheels is entrusted to a 7-gear twin clutch gearbox.\" Koenigsegg lists an \"Electronic differential\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "koenigsegg-one1-specs",
+    "note": "Quote: \"Specially developed 7-speed dual clutch, 1 input shaft transmission with paddle-shift\""
+  },
+  "powerHp": {
+    "value": 1341,
+    "sourceId": "koenigsegg-one1-specs",
+    "note": "Quote (Koenigsegg technical specifications): \"Power output: 1 MW at 7500 rpm – rpm limiter @ 8250 rpm\". 1,000 kW x 1.34102 = 1,341 hp. Koenigsegg's model page (koenigsegg-one1) also prints \"1 MW Output\" and \"1,360 hp\"; 1 MW is 1,360 PS, so the \"1,360 hp\" is the metric figure. Koenigsegg does not state the fuel for the 1 MW rating; its other cars reach their maximum on E85. Unlike the Jesko and Agera R records (stored \"as published\" because no kW figure was available), a kW rating exists here, so it is converted per the guide; powerStandard is DIN PS (metric rating)."
+  },
+  "weightLb": {
+    "value": 2998,
+    "sourceId": "koenigsegg-one1-specs",
+    "note": "Koenigsegg curb weight (step 1): 1,360 kg x 2.20462 = 2,998 lb. Quote: \"Curb weight 1360 kg (complete car ready to drive with 50% fuel, 100% fluids)\". Model page: \"1360 kg Curb weight\". Asphalte.ch: \"Kerb weight is claimed at 1360kg with all fluids and half a tank of gas\". Single configuration."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2014,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "koenigsegg-one1-specs",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Technical specifications: One:1",
+      "url": "https://www.koenigsegg.com/technical-specifications-one1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "koenigsegg-one1",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "One:1",
+      "url": "https://www.koenigsegg.com/model/one1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "asphalte-one1",
+      "type": "publication",
+      "publisher": "Asphalte.ch (J-C Etter)",
+      "title": "Geneva 2014: Koenigsegg One:1 – the megawatt hypercar",
+      "url": "https://www.asphalte.ch/news/2014/03/geneva-2014-koenigsegg-one1-the-megawatt-hypercar/amp/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorauthority-one1-us",
+      "type": "publication",
+      "publisher": "Motor Authority (Viknesh Vijayenthiran)",
+      "title": "Sole Koenigsegg One:1 headed to U.S. lands in Monterey",
+      "url": "https://www.motorauthority.com/news/1099568_sole-koenigsegg-one1-headed-to-u-s-lands-in-monterey",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "1 MW",
+          "sourceId": "koenigsegg-one1-specs"
+        },
+        {
+          "value": "1,360 hp",
+          "sourceId": "koenigsegg-one1"
+        }
+      ],
+      "reason": "Units: 1 MW is 1,341 hp or 1,360 PS; Koenigsegg labels the metric figure \"hp\".",
+      "resolution": "Stored the kW rating converted at 1.34102 (1,341 hp), per the guide."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Market: one of the 7 cars went to the US. Motor Authority (motorauthority-one1-us, Viknesh Vijayenthiran, 13 August 2015): \"The One:1 in Monterey is the sole example destined for the United States.\" No evidence was found that the One:1 was federalised, EPA-certified or sold through a US dealer, and no US model year exists, so it is treated as a single private import and the record uses the home market (EU, calendar years). A human should confirm that choice. Power: stored as 1,341 hp, Koenigsegg's \"1 MW\" converted at 1.34102 per the guide; Koenigsegg's model page prints \"1,360 hp\", which is the metric (PS) figure. The existing Jesko and Agera R records store Koenigsegg's metric \"hp\" as published because no kW figure was available for them; a human should decide whether the three records should be made consistent.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

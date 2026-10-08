@@ -1,0 +1,130 @@
+{
+  "id": "saleen-s7",
+  "manufacturer": "Saleen",
+  "model": "S7",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Saleen S7",
+  "aliases": [
+    "S7",
+    "Saleen S7 naturally aspirated",
+    "2003 Saleen S7"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2001,
+      "endYear": 2003
+    },
+    "sourceId": "classic-s7",
+    "note": "US model years 2001 to 2003, the years rated 550 hp. Classic.com: 'The Saleen S7 was a high performance supercar that was launched in 2000 for the 2001 model year' (and 'produced for model years 2001 to 2009' across all versions). Cars.com: 'In 2001, Saleen began to ease into the production-car arena with the mid-engine S7.' (carscom-s7-2004). Excluded: the 2004 model year, for which Cars.com reports 'engine output gets a boost to 575 hp and 570 pounds-feet of torque' (announced at the 2004 Chicago Auto Show), and the 2005-on S7 Twin Turbo (duPont Registry: 'the S7 gained twin turbos in 2005', dupont-s7). The race S7-R is separate. No opened page states 2003 as the last 550 hp model year in so many words; it follows from the 2004 rating change."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "saleen-s7-page",
+    "note": "Two-seat mid-engined coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "saleen-s7-page",
+      "note": "Saleen: 'a Saleen-designed 7.0L naturally aspirated V8'"
+    },
+    "displacementL": {
+      "value": 7.0,
+      "sourceId": "saleen-s7-page",
+      "note": "About 6,997 cc (427 cu in). Saleen: '7.0L'; Sports Car Digest: 'increased its displacement to 427 cubic inches' (sportscardigest-s7-2003). No cc figure was seen on a qualifying page; 427 cu in x 16.387 = 6,997 cc, rounded to 7.0 either way."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "saleen-s7-page",
+      "note": "Saleen: 'naturally aspirated V8'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "saleen-s7-page",
+    "note": "Petrol V8; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carscom-s7-2004",
+    "note": "Cars.com: 'A six-speed-manual transmission drives the rear wheels.'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "carscom-s7-2004",
+    "note": "Cars.com: 'A six-speed-manual transmission drives the rear wheels.' Sports Car Digest: 'Six-speed manual transaxle and limited-slip differential' (sportscardigest-s7-2003)."
+  },
+  "powerHp": {
+    "value": 550,
+    "sourceId": "saleen-s7-page",
+    "note": "Quote (Saleen): \"Initially powered by a Saleen-designed 7.0L naturally aspirated V8 that delivers 550 horsepower and 520 lb-ft of torque, the S7 launches from 0 to 60 in under four seconds and can exceed 200 mph.\" (reproduced on a second request). Cars.com: 'the fully re-engineered engine produced 550 horsepower.' (carscom-s7-2004); duPont Registry: 'This last great triumph of the Windsor block made 550 hp naturally aspirated.' (dupont-s7). The 575 hp 2004 model year is excluded from this record (see production note)."
+  },
+  "weightLb": {
+    "value": 2750,
+    "sourceId": "dupont-s7",
+    "note": "PROVISIONAL (single named-author article; figure not tied to a model year). Quote (duPont Registry, Andrew Nabors, 5 August 2016): \"At 160 mph, the carbon fiber body creates the supercar's 2,750 lb curb weight in downforce...\" (reproduced on a second request). Cars.com Editors (unbylined, 2004 and 2005 model-year articles, i.e. years outside this record): 'The S7 weighs approximately 2,750 pounds.' (carscom-s7-2004), corroboration only. Saleen's current S7 page shows an unlabelled spec block with '2,800 lbs Curb Weight' beside '750 hp Max Horsepower (Twin-Turbo)'; it does not say which version it describes and is probably the Twin Turbo's (saleen-s7-page), 1.8% higher; not used. Unattributed tables (Supercars.net 'Editorial Team', HotCars) print '2756 lbs' / 1,250 kg and are not used. Six-speed manual, the only gearbox."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2001,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "saleen-s7-page",
+      "type": "manufacturer",
+      "publisher": "Saleen Automotive",
+      "title": "Saleen S7",
+      "url": "https://www.saleen.com/models/s7",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "dupont-s7",
+      "type": "publication",
+      "publisher": "duPont Registry (Andrew Nabors)",
+      "title": "The Saleen S7: America's First Production Supercar",
+      "url": "https://news.dupontregistry.com/blogs/for-sale/the-saleen-s7-americas-first-production-supercar",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscom-s7-2004",
+      "type": "publication",
+      "publisher": "Cars.com",
+      "title": "2004 Saleen S7: What's New",
+      "url": "https://cars.com/articles/2004-saleen-s7-whats-new-1420687140656",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "classic-s7",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Saleen S7 market",
+      "url": "https://www.classic.com/m/saleen/s7/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "sportscardigest-s7-2003",
+      "type": "publication",
+      "publisher": "Sports Car Digest (Mark Leofe Capayas)",
+      "title": "FOR SALE: 2003 Saleen S7",
+      "url": "https://sportscardigest.com/for-sale-2003-saleen-s7/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (2,750 lb) rests on a single named-author article (duPont Registry, Andrew Nabors) that does not tie the figure to a model year or engine, with Cars.com's unbylined 'approximately 2,750 pounds' agreeing. Power (550 hp) is Saleen's own figure. A Saleen press kit or brochure, or a Car and Driver / Road & Track / MotorTrend spec panel for a 2001-2003 S7, giving a curb weight would replace it."
+}

@@ -1,0 +1,159 @@
+{
+  "id": "mercedes-benz-190-e-2-5-16-evolution-ii-w201",
+  "manufacturer": "Mercedes-Benz",
+  "model": "190 E",
+  "generation": "W201",
+  "variant": "2.5-16 Evolution II",
+  "subVariant": null,
+  "displayName": "Mercedes-Benz 190 E 2.5-16 Evolution II (W201)",
+  "aliases": [
+    "190E Evo II",
+    "190E Evo 2",
+    "Evo II",
+    "190E 2.5-16 Evo II",
+    "190E Evolution II",
+    "Baby Benz Evo",
+    "W 201",
+    "Cosworth 190E"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1990,
+      "endYear": 1990
+    },
+    "sourceId": "sportscardigest-evo2",
+    "note": "Calendar build years, German home market (the car was never sold new in the US: RM Sotheby's: \"Furthermore, none of the 502 Evolution IIs produced were ever officially imported to the United States, which only heightens its exclusivity stateside.\"; rm-evo2). Mercedes-Benz Classic material reproduced by Sports Car Digest: \"Mercedes produced just 502 units in 1990\". Mercedes-Benz press release: \"Within three months, a small series of 502 units was produced to obtain homologation for motor sport.\" (mb-press-evo2). Ultimate Specs (a database) gives \"(1990 - 1991)\" (ultimatespecs-evo2)."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "mb-press-evo2",
+    "note": "Four-door saloon (W201 190 E); inferred from the model."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "sportscardigest-evo2",
+      "note": "\"2.5-liter four-cylinder producing 235 hp at 7,200 rpm\""
+    },
+    "displacementL": {
+      "value": 2.5,
+      "sourceId": "encycarpedia-evo2",
+      "note": "2,463 cc per Encycarpedia (a database): \"2,463 cc\"; Ultimate Specs (a database): \"150.3 cu-in / 2463 cm3\" (ultimatespecs-evo2). Mercedes-Benz: \"The 2.5 liter engine of the EVO II\" (mb-press-evo2)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "rm-evo2",
+      "note": "Inferred: \"2.5-liter 16-valve inline four-cylinder engine by Cosworth\" with no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "rm-evo2",
+    "note": "Petrol engine; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ultimatespecs-evo2",
+    "note": "Ultimate Specs (a database): \"RWD\". Rear-wheel drive like every W201."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "rm-evo2",
+    "note": "RM Sotheby's (listing bullet): \"five-speed Getrag manual transmission\"; description: \"Additionally, Getrag provided a five-speed \"dogleg\" gearbox to ensure fast and easy gear selection.\" Encycarpedia (a database): \"Gearbox (MT)\" \"5 Gears\" (encycarpedia-evo2)."
+  },
+  "powerHp": {
+    "value": 232,
+    "sourceId": "mb-press-evo2",
+    "note": "235 PS (173 kW) converted (235 x 0.98632 = 231.8). Quote (Mercedes-Benz press release, Stuttgart, 8 February 2005, reproduced on GermanCarForum): \"The 2.5 liter engine of the EVO II, as the car was known for short, developed an output of 235 hp (173 kW)\"; Mercedes' English \"235 hp\" is the PS figure (173 kW = 232 hp). Mercedes-Benz Classic material reproduced by Sports Car Digest: \"2.5-liter four-cylinder producing 235 hp at 7,200 rpm\" (sportscardigest-evo2). Auto Bild (Matthias Techau): \"235 PS leistet der 16-Ventil-Motor\" (autobild-evo2). RM Sotheby's auction text prints \"238-hp\" (rm-evo2), not a manufacturer rating."
+  },
+  "weightLb": {
+    "value": 2954,
+    "sourceId": "ultimatespecs-evo2",
+    "note": "PROVISIONAL: two databases, agreeing; they may share an upstream source, so they may count as one. 1,340 kg converted (x 2.20462 = 2,954.2). Quote (Ultimate Specs, a database): \"2954 lbs / 1340 kg\" (Leergewicht). Encycarpedia (a database): \"Kerb Weight\" \"1,340 kg\" (encycarpedia-evo2). Mercedes-Benz's press release gives only a round figure: \"The car, weighing some 1300 kilograms, accelerated from standstill to 100 km/h in just 7.1 seconds\" (mb-press-evo2); see discrepancies. Standard car, 5-speed manual (the only transmission). Not stated whether DIN or EU."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 1990,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "mb-press-evo2",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz (press release reproduced on GermanCarForum)",
+      "title": "W201 Mercedes-Benz 190 E 2.5-16 Evolution II: Compact dynamism (official press release, Stuttgart, 8 February 2005)",
+      "url": "https://www.germancarforum.com/threads/mercedes-benz-190-e-2-5-16-evolution-ii-compact-dynamism.32187/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "sportscardigest-evo2",
+      "type": "publication",
+      "publisher": "Sports Car Digest (Mercedes-Benz Classic content, edited by Rex McAfee)",
+      "title": "Mercedes-Benz 190 E 2.5-16 Evolution II (25 March 2026)",
+      "url": "https://sportscardigest.com/mercedes-benz-190-e-2-5-16-evolution-ii/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autobild-evo2",
+      "type": "publication",
+      "publisher": "Auto Bild",
+      "title": "Mercedes 190 E 2.5-16 Evolution II (Matthias Techau, 6 July 2020)",
+      "url": "https://www.autobild.de/klassik/artikel/mercedes-190-e-2.5-16-evolution-ii-preis-leistung-kaufen-17015855.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rm-evo2",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II (lot description)",
+      "url": "https://rmsothebys.com/auctions/mi22/lots/r0026-1990-mercedesbenz-190-e-2516-evolution-ii/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "ultimatespecs-evo2",
+      "type": "database",
+      "publisher": "Ultimate Specs",
+      "title": "Mercedes Benz W201 190 E 2.5-16 Evolution II Technische Daten",
+      "url": "https://www.ultimatespecs.com/de/car-specs/Mercedes-Benz/1972/Mercedes-Benz-W201-190-E-25-16-Evolution-II.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "encycarpedia-evo2",
+      "type": "database",
+      "publisher": "Encycarpedia",
+      "title": "1990 Mercedes 190 E 2.5-16 Evolution II specs",
+      "url": "https://www.encycarpedia.com/mercedes/90-190-e-2-5-16-evolution-ii-saloon",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,340 kg (2,954 lb)",
+          "sourceId": "ultimatespecs-evo2"
+        },
+        {
+          "value": "about 1,300 kg (about 2,866 lb)",
+          "sourceId": "mb-press-evo2"
+        }
+      ],
+      "reason": "Mercedes-Benz's press release gives a round, approximate figure (\"some 1300 kilograms\"); the databases give a precise 1,340 kg.",
+      "resolution": "Used 1,340 kg, the precise figure given by both databases; Mercedes' \"some 1300\" is an approximation, not a competing rating."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight is provisional: 2,954 lb (1,340 kg) rests on Ultimate Specs and Encycarpedia (databases), agreeing but possibly drawing on the same upstream source; Mercedes' own press release says only \"some 1300 kilograms\". A Mercedes-Benz Classic technical-data sheet for the Evolution II (the public archive has one for the Evolution I, \"Curb Weight: 1320 kg\", but the Evolution II page could not be opened) or the Technische Daten page of auto motor und sport (https://www.auto-motor-und-sport.de/oldtimer/mercedes-190e-evo-ii-ellen-lohr-im-evo-baby-benz/technische-daten/, which refused the fetch under robots.txt), or an Evo or Autocar data panel, would replace it. Displacement in cc and drivetrain rest on databases."
+}

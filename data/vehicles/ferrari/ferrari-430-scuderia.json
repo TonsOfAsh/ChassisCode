@@ -1,0 +1,139 @@
+{
+  "id": "ferrari-430-scuderia",
+  "manufacturer": "Ferrari",
+  "model": "430 Scuderia",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 430 Scuderia",
+  "aliases": [
+    "Scuderia",
+    "F430 Scuderia",
+    "430 Scud",
+    "Ferrari Scuderia",
+    "Superfast2",
+    "2008 430 Scuderia"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2009
+    },
+    "sourceId": "kbb-430scud",
+    "note": "US model years. KBB lists the 430 Scuderia for 2008 ('2008 Ferrari 430 Scuderia Price, Value & Reviews', kbb-430scud-2008) and 2009 only. Evo: the car was to be 'officially unveiled by Michael Schumacher' at the September 2007 Frankfurt show (as reported in evo-430scud-news). The Scuderia Spider 16M is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-430scud-page",
+    "note": "Two-seat mid-engined berlinetta; the open car is the separately named Scuderia Spider 16M."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-430scud-page",
+      "note": "Ferrari: 'Type 90° V8'"
+    },
+    "displacementL": {
+      "value": 4.3,
+      "sourceId": "evo-430scud-news",
+      "note": "4,308 cc. Evo: 'the 4308cc V8'. Ferrari's page: 'Total displacement 263 cu in'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ferrari-430scud-page",
+      "note": "No forced induction on Ferrari's specification (compression ratio 11.88:1); inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-430scud-page",
+    "note": "Petrol V8; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ferrari-430scud-page",
+    "note": "Mid-engined, rear-wheel drive with Ferrari's 'Electronic differential E-Diff2' and F1-Trac; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "evo-430scud-news",
+    "note": "Evo: 'the latest 'Superfast' software for the F1 paddle-shift gearbox, cutting gearchange times to a mere 60 milliseconds'. KBB 2008: 'Transmission 6 speed' (kbb-430scud-2008). No manual was offered; Ferrari F1 is an automated manual."
+  },
+  "powerHp": {
+    "value": 503,
+    "sourceId": "ferrari-430scud-page",
+    "note": "Ferrari's rating is metric: 510 CV x 0.98632 = 503.0 hp. Quote (Ferrari): \"Maximum power 375,4 kW (510 CV) at 8500 rpm\" (reproduced on a second request). Evo: 'the 4308cc V8 now putting out 503bhp at 8500rpm (up 20bhp on the standard car' (evo-430scud-news). KBB prints the CV number as hp: '510 @ 8500 RPM' (kbb-430scud-2008). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 2975,
+    "sourceId": "ferrari-430scud-page",
+    "note": "Ferrari's own figure in pounds. Quote (Ferrari): \"Kerb weight 2975 lb*\" (beside \"Dry weight 2775 lb*\"; reproduced on two further requests). The asterisk's footnote was not reproduced on the page, so it is not known whether the figure assumes optional equipment. Step 1 of the weight order. KBB 2008 gives the same figure, '2975 lbs.' (kbb-430scud-2008); Evo's launch report estimated '1335kg 'wet'' before Ferrari's figures were out. Only the F1 gearbox was offered."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-430scud-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "430 Scuderia",
+      "url": "https://www.ferrari.com/en-EN/auto/430-scuderia",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "evo-430scud-news",
+      "type": "publication",
+      "publisher": "Evo (unbylined, 'EVO team', 19 July 2007)",
+      "title": "Ferrari announces 430 Scuderia",
+      "url": "https://www.evo.co.uk/ferrari/f430/8519/ferrari-announces-430-scuderia",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-430scud",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Ferrari 430 Scuderia",
+      "url": "https://www.kbb.com/ferrari/430-scuderia/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-430scud-2008",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 Ferrari 430 Scuderia Price, Value & Reviews",
+      "url": "https://www.kbb.com/ferrari/430-scuderia/2008/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "510 CV (503 hp)",
+          "sourceId": "ferrari-430scud-page"
+        },
+        {
+          "value": "510 hp",
+          "sourceId": "kbb-430scud-2008"
+        }
+      ],
+      "reason": "KBB prints Ferrari's metric CV figure as horsepower; Evo converts it to 503 bhp.",
+      "resolution": "Used 503 hp, Ferrari's 510 CV converted at 0.98632."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

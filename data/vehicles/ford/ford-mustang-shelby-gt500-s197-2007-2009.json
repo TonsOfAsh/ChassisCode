@@ -1,0 +1,171 @@
+{
+  "id": "ford-mustang-shelby-gt500-s197-2007-2009",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S197",
+  "variant": "Shelby GT500",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Ford Mustang Shelby GT500 (S197, 2007–2009)",
+  "aliases": [
+    "GT500",
+    "Shelby GT500",
+    "S197 GT500",
+    "2007 GT500",
+    "2008 GT500",
+    "2009 GT500",
+    "2007 Shelby GT500",
+    "2008 Shelby GT500",
+    "2009 Shelby GT500",
+    "5.4 GT500",
+    "Tremec TR-6060"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2007,
+      "endYear": 2009
+    },
+    "sourceId": "ford-mustang-2007-brochure",
+    "note": "US model years 2007-2009 at 500 hp. Ford's 2007 brochure (ford-mustang-2007-brochure), 2008 brochure (ford-mustang-2008-brochure) and 2009 brochure (ford-mustang-2009-brochure) each list the Shelby GT500 at '500 hp @ 6000 rpm'. Excluded: Ford's 2010 brochure lists the GT500 at '540 hp @ 6000 rpm and 510 lb.-ft. of torque @ 4500 rpm' (ford-mustang-2010-brochure), an 8% higher rating with the facelifted body, so 2010 onward is a different rating and is not covered here (2011-2012 brochure could not be opened: HTTP 429). The 2013-2014 5.8-liter car is its own record (ford-mustang-shelby-gt500-s197-2013-2014)."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-mustang-2009-brochure",
+    "note": "Ford's 2009 brochure lists 'Shelby GT500 Coupe' and 'Shelby GT500 Convertible'. The standard car is the coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-mustang-2007-brochure",
+      "note": "'5.4L supercharged, intercooled DOHC V8 engine'"
+    },
+    "displacementL": {
+      "value": 5.4,
+      "sourceId": "ford-mustang-2007-brochure",
+      "note": "Ford: '5.4L'. 5,409 cc: Steve Turner, FordMuscle, '330 cu. in./5,409 cc' (fordmuscle-turner-gt500-2007); ConceptCarz: '5409 cc | 330.1 cu in. | 5.4 L.' (conceptcarz-gt500-2007)."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "ford-mustang-2007-brochure",
+      "note": "'5.4L supercharged, intercooled DOHC V8 engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-2007-brochure"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "edmunds-gt500-2007-review",
+    "note": "Edmunds: 'A Tremec six-speed manual gearbox routes all that through a 3.31 limited-slip rear axle.' Front engine, rear-wheel drive."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "ford-mustang-2007-brochure",
+    "note": "'TREMEC 6-speed manual transmission', the only transmission (2009 brochure: '6-speed manual transmission')."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "ford-mustang-2007-brochure",
+    "note": "Ford 2007 Mustang brochure. Quote: \"500 hp @ 6000 rpm and 480 lb.-ft. of torque @ 4500 rpm\". Same in the 2008 brochure (\"500 hp @ 6000 rpm and 480 lb.-ft. of torque @ 4500 rpm\", ford-mustang-2008-brochure) and the 2009 brochure (\"5.4L supercharged, intercooled DOHC V8 500 hp @ 6000 rpm; 480 lb.-ft. of torque @ 4500 rpm\", ford-mustang-2009-brochure). A pre-launch article gave an estimated 475 hp (fordmuscle-turner-gt500-2007, 'Estimated: 475 (SAE net)'), superseded by Ford's published 500 hp."
+  },
+  "weightLb": {
+    "value": 3920,
+    "sourceId": "theautochannel-roy-gt500-2007",
+    "note": "PROVISIONAL (single named-author article, backed by an unbylined review and databases). Coupe, 6-speed manual (the only transmission); the article's spec panel gives the coupe base price ($41,295). Quote (The Auto Channel, Rex Roy, 5 Jan 2007, spec panel): \"Curb weight: 3920 lb\". Edmunds' unbylined review (edmunds-gt500-2007-review): \"Ford lists the Shelby GT500's curb weight at 3,920 pounds in coupe form and 4,040 pounds for the convertible.\" Database: Encycarpedia 2007 coupe 'Curb Weight: 3,920 lbs' (encycarpedia-gt500-2007). ConceptCarz prints the same figure labelled only 'Weight' ('3920 lbs | 1778.082 kg', conceptcarz-gt500-2007), an unlabelled figure that is not counted as a curb weight. A Jan 2006 pre-launch article gave '~3,920 lbs Coupe' (fordmuscle-turner-gt500-2007). No Ford page with the figure was opened, and only one named-author outlet prints it."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-2007-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2007 Ford Mustang brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2007.pdf",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "ford-mustang-2008-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2008 Ford Mustang brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2008.pdf",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "ford-mustang-2009-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2009 Ford Mustang brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2009.pdf",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "ford-mustang-2010-brochure",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by Auto-Brochures.com)",
+      "title": "2010 Ford Mustang brochure",
+      "url": "https://www.auto-brochures.com/makes/Ford/Mustang/Ford_US%20Mustang_2010.pdf",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "theautochannel-roy-gt500-2007",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2007 Ford Mustang Shelby GT500 Review (Rex Roy)",
+      "url": "https://theautochannel.com/news/2007/01/05/033080.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "edmunds-gt500-2007-review",
+      "type": "publication",
+      "publisher": "Edmunds",
+      "title": "2007 Ford Shelby GT500 Review (unbylined)",
+      "url": "https://edmunds.com/ford/shelby-gt500/2007/review",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "encycarpedia-gt500-2007",
+      "type": "database",
+      "publisher": "Encycarpedia",
+      "title": "Ford 2007 Mustang Shelby GT500 Coupe Specs",
+      "url": "https://www.encycarpedia.com/us/ford/07-mustang-shelby-gt500-coupe",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "conceptcarz-gt500-2007",
+      "type": "database",
+      "publisher": "ConceptCarz",
+      "title": "2007 Shelby Mustang GT500 specifications",
+      "url": "https://www.conceptcarz.com/s10828/concepts.aspx",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "fordmuscle-turner-gt500-2007",
+      "type": "publication",
+      "publisher": "FordMuscle",
+      "title": "2007 Shelby GT-500 (Steve Turner, 8 Jan 2006)",
+      "url": "https://www.fordmuscle.com/?p=17662",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,920 lb, coupe, manual) rests on one named-author article's spec panel (The Auto Channel, Rex Roy), with Edmunds' unbylined review stating Ford lists 3,920 lb and one database (Encycarpedia) agreeing; ConceptCarz's same figure is labelled only 'Weight' and is not counted. A Ford 2007-2009 specification sheet or press kit, or a major magazine spec panel (Car and Driver, Road & Track, MotorTrend), would replace it. Power (500 hp) is from Ford's 2007-2009 brochures."
+}

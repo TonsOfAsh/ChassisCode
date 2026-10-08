@@ -1,0 +1,170 @@
+{
+  "id": "dodge-ram-srt-10",
+  "manufacturer": "Dodge",
+  "model": "Ram",
+  "generation": null,
+  "variant": "SRT-10",
+  "subVariant": null,
+  "displayName": "Dodge Ram SRT-10",
+  "aliases": [
+    "Ram SRT-10",
+    "Ram 1500 SRT-10",
+    "Dodge Ram SRT10",
+    "Viper truck",
+    "SRT-10 Quad Cab",
+    "2004 Ram SRT-10",
+    "T-56"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2004,
+      "endYear": 2006
+    },
+    "sourceId": "auto123-ram-srt10-2004",
+    "note": "US model years 2004-2006. Start: Auto123's '2004 Dodge Ram SRT-10 Road Test' (Khatir Soltani, August 2004). Dodge's 2005 press kit adds the Quad Cab for 2005 (dodge-ram-srt10-2005-presskit). End: TrueCar lists a 2006 Ram SRT-10 Regular Cab (truecar-ram-srt10-2006, database); no Dodge page stating 2006 was the last year was opened."
+  },
+  "body": {
+    "value": [
+      "Pickup"
+    ],
+    "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+    "note": "Dodge 2005 spec sheet: 'Two-Seat Ultimate Performance Pickup' with a 6 ft 3 in box. The regular cab is the launch configuration (2004) and the standard car; a four-door Quad Cab with an automatic was added for 2005 (dodge-ram-srt10-2005-presskit)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+      "note": "'10-cylinder, 90-degree V-type, liquid-cooled'"
+    },
+    "displacementL": {
+      "value": 8.3,
+      "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+      "note": "Dodge: 'Displacement 8.3L, (505 cu. in.)'. No opened page states a cc figure (Dodge's sheet gives only litres and cubic inches)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+      "note": "Viper V-10; no forced induction is listed; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-ram-srt10-2005-regcab-specs"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+    "note": "'rear-wheel drive', Dana Super-60 rear axle, 4.56 ratio."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "dodge-ram-srt10-2005-presskit",
+    "note": "Dodge 2005 press kit: regular cab, 'T-56 six-speed manual transmission fitted with a Hurst shifter'; Quad Cab (2005-2006), 'automatic transmission—a super-duty four-speed'. Spec sheet: 'Six-speed overdrive with Hurst shifter mechanism and linkage' (dodge-ram-srt10-2005-regcab-specs)."
+  },
+  "powerHp": {
+    "value": 500,
+    "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+    "note": "Dodge 2005 Ram SRT-10 specifications, ENGINE section of the regular-cab sheet (the Quad Cab has its own sheet, not opened). Quote: \"Power (SAE net): 500 bhp (372 kW) @ 5600 rpm (60.4 bhp/liter)\"; \"Torque (SAE net): 525 lb.-ft. (712 N•m @ 4200 rpm\". Same rating for 2004: Auto123 (Khatir Soltani), \"Engine: 500 hp, 525 lb-ft, 8.3-L, 20-valve, OHV, V10\" (auto123-ram-srt10-2004); the 2005 press kit calls it the '500-horsepower, Viper-powered Dodge Ram SRT-10' (dodge-ram-srt10-2005-presskit)."
+  },
+  "weightLb": {
+    "value": 5100,
+    "sourceId": "dodge-ram-srt10-2005-regcab-specs",
+    "note": "PROVISIONAL (manufacturer figure labelled an estimate). 2005 regular cab, six-speed manual. Quote (Dodge 2005 regular-cab specifications, DIMENSIONS AND CAPACITIES): \"Curb Weight (estimated) 5,100 lbs.\" Because it is labelled estimated it does not count at weight step 1. KBB's 2005 Regular Cab SRT-10 page, \"Curb Weight 5100 lbs.\" (kbb-ram-srt10-2005), copies this figure exactly and is not an independent source, so only one 2005 figure exists. Auto123 (Khatir Soltani, 2004 road test): \"Curb Weight: 2,336 kg (5,150 lbs)\" (auto123-ram-srt10-2004) is a 2004 figure. See discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-ram-srt10-2005-regcab-specs",
+      "type": "manufacturer",
+      "publisher": "DaimlerChrysler (Dodge) (media.stellantisnorthamerica.com)",
+      "title": "2005 Dodge Ram SRT-10 Regular Cab Specifications",
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/attachments/RamSRT10RegCabSpecs.pdf",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "dodge-ram-srt10-2005-presskit",
+      "type": "manufacturer",
+      "publisher": "DaimlerChrysler (Dodge) (media.stellantisnorthamerica.com)",
+      "title": "Press Kit: 2005 Dodge Ram SRT-10: Like a Viper with a Pickup Bed",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=1072",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-ram-srt10-2005",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2005 Dodge Ram 1500 Regular Cab SRT-10 Pickup 2D 6 1/4 ft specs",
+      "url": "https://www.kbb.com/dodge/ram-1500/2005/srt-10-pickup-2d-6-1-4-ft/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "auto123-ram-srt10-2004",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "2004 Dodge Ram SRT-10 Road Test (Khatir Soltani)",
+      "url": "https://www.auto123.com/en/news/2004-dodge-ram-srt-10-road-test/44109/?page=6",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-ram-srt10-2004",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2004 Dodge Ram 1500 Regular Cab SRT-10 Pickup 2D 6 1/4 ft specs",
+      "url": "https://www.kbb.com/dodge/ram-1500-regular-cab/2004/srt-10-pickup-2d-6-1-4-ft",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rockcrawler-ram-srt10-2004",
+      "type": "publication",
+      "publisher": "ROCKCRAWLER.com",
+      "title": "Dodge Unleashes 150 MPH Viper-Powered 2004 Dodge Ram SRT-10",
+      "url": "https://rockcrawler.com/features/newsshorts/03february/dodge_srt10.asp",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "truecar-ram-srt10-2006",
+      "type": "database",
+      "publisher": "TrueCar",
+      "title": "2006 Dodge Ram SRT-10 Regular Cab specs",
+      "url": "https://www.truecar.com/dodge/ram-srt-10/2006/regular-cab/specs/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 5100,
+          "sourceId": "dodge-ram-srt10-2005-regcab-specs"
+        },
+        {
+          "value": 5000,
+          "sourceId": "rockcrawler-ram-srt10-2004"
+        },
+        {
+          "value": 5150,
+          "sourceId": "auto123-ram-srt10-2004"
+        }
+      ],
+      "reason": "Both Dodge figures are labelled estimates: 5,000 lb in the 2004 launch release ('Curb Weight (estimated): 5,000 lbs.', as reproduced by ROCKCRAWLER.com) and 5,100 lb in the 2005 regular-cab sheet. KBB copies each exactly (2004 5,000 lb, kbb-ram-srt10-2004; 2005 5,100 lb, kbb-ram-srt10-2005). Auto123's 2004 road test prints 5,150 lb. The figures span 3%, and none is a final manufacturer figure.",
+      "resolution": "5,100 lb used only because it is the figure for the 2005 reference year; it is not more final than 5,000 lb (both are Dodge estimates for different model years). A final Dodge curb weight or a major magazine's specification panel is needed."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (5,100 lb, 2005 regular cab) rests on Dodge's 2005 spec sheet, which labels it '(estimated)'; KBB repeats it exactly and is not independent, so only one 2005 figure exists. Dodge's 2004 launch estimate was 5,000 lb and Auto123's 2004 spec list 5,150 lb. A final (non-estimated) Dodge curb weight or a major magazine's specification panel would replace it. The 2006 end year rests on TrueCar listing a 2006 model."
+}

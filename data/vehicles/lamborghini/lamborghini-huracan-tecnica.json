@@ -1,0 +1,137 @@
+{
+  "id": "lamborghini-huracan-tecnica",
+  "manufacturer": "Lamborghini",
+  "model": "Huracán",
+  "generation": null,
+  "variant": "Tecnica",
+  "subVariant": null,
+  "displayName": "Lamborghini Huracán Tecnica",
+  "aliases": [
+    "Huracan Tecnica",
+    "Huracán Técnica",
+    "LDF",
+    "2023 Huracan Tecnica",
+    "2024 Huracan Tecnica"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2024
+    },
+    "sourceId": "kbb-huracan-2023",
+    "note": "US model years, from Kelley Blue Book (a database): the 2023 Huracán lists \"Tecnica Coupe 2D\" and the 2024 Huracán lists \"Tecnica Coupe 2D\" (kbb-huracan-2024), whose year selector ends at 2024. KBB's 2023 Tecnica page (kbb-huracan-tecnica-2023): \"2023 Lamborghini Huracan Tecnica\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-tecnica",
+    "note": "Two-door coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "evo-tecnica",
+      "note": "Evo panel: \"Engine | V10, 5204cc\"."
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "lambo-huracan-tecnica-page",
+      "note": "5,204 cc (Lamborghini: \"5,204 cm3\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-tecnica",
+      "note": "Naturally aspirated V10 (\"the last of the V10s\"); no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-huracan-tecnica-page"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "kbb-huracan-tecnica-2023",
+    "note": "KBB (a database): drivetrain \"RWD\". Carscoops (carscoops-sterrato, Chris Chilton): \"its milder (also RWD) Tecnica brother\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "evo-tecnica",
+    "note": "Evo: the R8 GT and Tecnica share \"a common platform, along with a shared seven-speed twin-clutch transmission\". KBB: \"7 speed\". Lamborghini LDF. No manual offered."
+  },
+  "powerHp": {
+    "value": 631,
+    "sourceId": "lambo-huracan-tecnica-page",
+    "note": "Quote (Lamborghini model page): \"Max. power (kW/CV) | 470/640 kW/CV at 8000 rpm\". 640 CV x 0.98632 = 631 hp. Evo panel (evo-tecnica): \"Power | 631bhp @ 8000rpm\"; KBB: \"631 @ 8000 RPM\". No separate US SAE rating was found, so powerStandard is DIN PS, as in the other Huracán records."
+  },
+  "weightLb": {
+    "value": 3040,
+    "sourceId": "evo-tecnica",
+    "note": "DRY weight (step 4: a major magazine panel figure labelled dry). Quote (Evo spec table, Richard Meaden, 10 February 2024): \"Weight | 1379kg (dry)\"; text: \"Lamborghini quoting dry weight (1379kg)\". 1,379 x 2.20462 = 3,040 lb. No Lamborghini or major-magazine curb weight for the standard car (step 1 or 2) and no optioned-car curb weight (step 3) was found; Lamborghini's model page gives no weight. No opened page says whether the dry figure assumes options. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-huracan-tecnica-page",
+      "type": "manufacturer",
+      "publisher": "Automobili Lamborghini",
+      "title": "Huracán Tecnica",
+      "url": "https://www.lamborghini.com/en-en/models/huracan/huracan-tecnica",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "evo-tecnica",
+      "type": "publication",
+      "publisher": "Evo (Richard Meaden)",
+      "title": "Audi R8 GT RWD v Lamborghini Huracán Tecnica – the last of the V10s",
+      "url": "https://www.evo.co.uk/supercars/206510/audi-r8-gt-rwd-v-lamborghini-huracan-tecnica-the-last-of-the-v10s",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscoops-sterrato",
+      "type": "publication",
+      "publisher": "Carscoops (Chris Chilton)",
+      "title": "602-HP Lamborghini Huracan Sterrato Crossover Is Limited To 162 Mph, But Not To Paved Roads",
+      "url": "https://www.carscoops.com/?p=2557195",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-huracan-tecnica-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Lamborghini Huracán Tecnica",
+      "url": "https://www.kbb.com/lamborghini/huracan/2023/tecnica",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-huracan-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2023/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-huracan-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2024/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

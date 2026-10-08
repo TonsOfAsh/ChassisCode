@@ -1,0 +1,160 @@
+{
+  "id": "bmw-m4-f82",
+  "manufacturer": "BMW",
+  "model": "M4",
+  "generation": "F82",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M4 (F82)",
+  "aliases": [
+    "F82 M4",
+    "M4 F82",
+    "F83 M4",
+    "M4 Convertible",
+    "S55",
+    "M DCT",
+    "2015 M4",
+    "M4 Competition Package"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2015,
+      "endYear": 2020
+    },
+    "sourceId": "bmw-us-2013-m3-m4-release",
+    "note": "US model years. First: BMW NA says the cars \"will begin sales as 2015 models in early Summer, 2014\". Last: the 2020 end year rests only on Cars.com, a database, which lists a 2020 BMW M4 in Coupe, Convertible and CS Coupe trims with the Coupe at \"425.0-hp, 3.0-liter, Straight 6 Cylinder Engine\" (carscom-2020-m4-specs; the same listing also mislists the CS at 425 hp, so it is not fully reliable), and on the G82 M4 starting with the 2021 model year (existing record bmw-m4-g82). No opened BMW page says 2020 was the last model year."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "bmw-us-2014-m4-convertible-release",
+    "note": "BMW NA: \"The 2015 BMW M4 Convertible\" (internally F83), which \"arrives in US showrooms late this summer\" with the same 425 hp engine; the coupe sheet gives 'No of Doors / Seats 2 / 4'. The convertible is not sold under its own name, so it shares this record. The M4 GTS and M4 CS are separate variants."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-2015-m4-techdata",
+      "note": "S55 straight six (engine type 'S55B30T0')"
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2015-m4-techdata",
+      "note": "2,979 cc ('Displacement cm³ / inch³ 2979 / 182')"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2013-m3-m4-release",
+      "note": "M TwinPower Turbo with two mono-scroll turbochargers, per BMW NA's release"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-2015-m4-techdata",
+    "note": "'Compression rate / Fuel type (recomm.) 10.2 / Premium'"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2013-m3-m4-release",
+    "note": "Rear-wheel drive with Active M Differential"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "bmw-us-2013-m3-m4-release",
+    "note": "Standard 6-speed manual, optional \"7-speed M Double Clutch Transmission\" (M DCT). The 2015 sheet's header reads \"Transmission type DKG 7 manual transmission 6\"."
+  },
+  "powerHp": {
+    "value": 425,
+    "sourceId": "bmw-us-2015-m4-techdata",
+    "note": "Quote: \"Engine power / at rpm bHP / 1/min 425 / 5500-7300 425 / 5500-7300\" (2015 BMW M4 Coupe, DKG 7 and manual columns). Release: \"425 horsepower from 5,500 – 7,300 rpm\". BMW NA's 2018 M4 Coupe sheet still gives \"hp@rpm 425@5500-7300 425@5500-7300 493@6250\" (columns M4 Coupe manual, M4 Coupe DCT, M4 GTS; bmw-us-2018-m4-techdata). The optional Competition Package (a package, not a separate model) gave 444 hp, per BMW NA's MY18 pricing guide (\"444hp, new settings for suspension, DSC and Active M Differential\"; bmw-us-2018-m4-pricing)."
+  },
+  "weightLb": {
+    "value": 3530,
+    "sourceId": "bmw-us-2015-m4-techdata",
+    "note": "2015 M4 Coupe with the 6-speed manual. Quote: \"Curb weight (US) Kg / lbs 1626 / 3585 1601 / 3530\" (first column DKG 7, second column manual, per the header \"Transmission type DKG 7 manual transmission 6\"). BMW NA's 2018 sheet gives \"lbs 3625 3685 3610\" (M4 Coupe manual, M4 Coupe DCT, M4 GTS; bmw-us-2018-m4-techdata). The 2015 M4 Convertible is quoted at \"curb weight of just 4,055 lbs\" (bmw-us-2014-m4-convertible-release)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2015,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2015-m4-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "BMW U.S. Media Information: Technical Data, 2015 BMW M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0160684EN_US/391903",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "bmw-us-2013-m3-m4-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The All-New BMW M3 Sedan and BMW M4 Coupe",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0160684EN_US/the-all-new-bmw-m3-sedan-and-bmw-m4-coupe?language=en_US",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "bmw-us-2018-m4-techdata",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "MY18 M4 Tech Specs (2018 BMW M4 Coupé technical data)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0160684EN_US/391908",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "bmw-us-2018-m4-pricing",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "MY18 BMW M4 Coupe/Convertible Pricing",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0160684EN_US/391910",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "bmw-us-2014-m4-convertible-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The New BMW M4 Convertible",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0176487EN_US",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscom-2020-m4-specs",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2020 BMW M4 specs & colors",
+      "url": "https://www.cars.com/research/bmw-m4-2020/specs",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3530,
+          "sourceId": "bmw-us-2015-m4-techdata"
+        },
+        {
+          "value": 3625,
+          "sourceId": "bmw-us-2018-m4-techdata"
+        }
+      ],
+      "reason": "Model year. Both are BMW NA curb weights for the manual M4 Coupe: 3,530 lb on the 2015 sheet, 3,625 lb on the 2018 sheet.",
+      "resolution": "Used 3,530 lb because the reference model year is 2015."
+    }
+  ],
+  "needsReview": true,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true,
+  "reviewNotes": "The 2020 end year rests on Cars.com (a database that also mislists the M4 CS at 425 hp) and the G82 M4 starting in 2021; confirm with a BMW NA 2020 M4 technical data sheet or pricing release."
+}

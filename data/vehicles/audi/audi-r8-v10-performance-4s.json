@@ -1,0 +1,137 @@
+{
+  "id": "audi-r8-v10-performance-4s",
+  "manufacturer": "Audi",
+  "model": "R8",
+  "generation": "4S / 2nd gen",
+  "variant": "V10 Performance",
+  "subVariant": null,
+  "displayName": "Audi R8 V10 Performance (4S / 2nd gen)",
+  "aliases": [
+    "R8 V10 performance",
+    "R8 V10 performance quattro",
+    "R8 Performance",
+    "2020 R8 V10 performance",
+    "2023 R8 V10 performance",
+    "R8 4S",
+    "R8 Type 4S",
+    "S tronic",
+    "quattro",
+    "R8 2nd gen",
+    "second gen R8",
+    "4S"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2023
+    },
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "US model years. Audi of America: \"The R8 first arrived in the U.S. in model year 2008, and now in its second generation, saw a significant refresh for model-year 2020.\" and \"2023 was the final model year for the R8, and the R8 Coupe carried forward unchanged from the previous model year.\" Autoblog's 2020 review (Lawrence Ulrich) lists the \"602-hp\" V10 Performance in the 2020 US line-up (autoblog-r8-2020); Motor Authority (Viknesh Vijayenthiran) lists it for 2022 (motorauthority-r8-2022). The 2017-2018 V10 Plus is a separate record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "The open R8 V10 performance Spyder is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "audi-usa-r8-coupe",
+      "note": "\"5.2 FSI, 10 CYL\""
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "audi-usa-r8-coupe",
+      "note": "5,204 cc per autoevolution (a database): \"5204 cm3 (318 ci)\" for the Performance quattro (autoevolution-r8-4s). Audi: \"5.2 FSI\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "autoblog-r8-2020",
+      "note": "\"602-hp, naturally aspirated 5.2-liter V10\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "FSI petrol engine; inferred."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "\"quattro® 7-speed S tronic®\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "\"quattro® 7-speed S tronic®\"; S tronic is a dual-clutch gearbox and the only transmission offered."
+  },
+  "powerHp": {
+    "value": 602,
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "Quote (Audi of America, 2023 R8 Coupe specification table, column \"R8 V10 performance Coupe quattro®\"): \"Horsepower (hp) | 602\". The same rating applied from 2020: Autoblog, 2020 review: \"602-hp, naturally aspirated 5.2-liter V10\" (autoblog-r8-2020); Motor Authority, 2022: \"the R8 V10 Performance which develops 602 hp and 413 lb-ft\" (motorauthority-r8-2022)."
+  },
+  "weightLb": {
+    "value": 3638,
+    "sourceId": "audi-usa-r8-coupe",
+    "note": "Quote (Audi of America, 2023 R8 Coupe specification table, column \"R8 V10 performance Coupe quattro®\"): \"Curb weight (lb) | 3,638\". Coupe, 7-speed S tronic (the only configuration). Reference year 2023 is the earliest year for which a manufacturer weight was found; iSeeCars (a database) gives the same figure for the 2020 car: \"AWD 5.2 quattro V10 performance 2dr Coupe\" \"Curb Weight: 3638 lbs\" (iseecars-r8-2020)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audi-usa-r8-coupe",
+      "type": "manufacturer",
+      "publisher": "Audi of America (Audi USA media site)",
+      "title": "R8 Coupe (2023 model page)",
+      "url": "https://media.audiusa.com/view/models/r8-coupe",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autoblog-r8-2020",
+      "type": "publication",
+      "publisher": "Autoblog",
+      "title": "2020 Audi R8 Coupe and Spyder review (Lawrence Ulrich, 4 November 2019)",
+      "url": "https://www.autoblog.com/2019/11/04/2020-audi-r8-coupe-spyder-review/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorauthority-r8-2022",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2022 Audi R8 (Viknesh Vijayenthiran, 27 April 2021)",
+      "url": "https://www.motorauthority.com/news/1132063_2022-audi-r8-price-specs-review-photos-info",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-r8-2020",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2020 Audi R8 specs",
+      "url": "https://www.iseecars.com/car/2020-audi-r8-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autoevolution-r8-4s",
+      "type": "database",
+      "publisher": "autoevolution",
+      "title": "Audi R8 Coupe (2018-2024) specifications",
+      "url": "https://www.autoevolution.com/cars/audi-r8-coupe-2018.html",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,182 @@
+{
+  "id": "subaru-wrx-sti-gr",
+  "manufacturer": "Subaru",
+  "model": "WRX STI",
+  "generation": "GR",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Subaru WRX STI (GR)",
+  "aliases": [
+    "Impreza WRX STI",
+    "GR STI",
+    "GRB",
+    "STI hatchback",
+    "STI 5-door",
+    "EJ257",
+    "2008 WRX STI",
+    "2014 WRX STI"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2008,
+      "endYear": 2014
+    },
+    "sourceId": "subaru-us-2008-sti-release",
+    "note": "US model years of the 5-door. First: Subaru of America's release 'Subaru Announces Pricing and Availability of its Performance Flagship, the 2008 Subaru Impreza WRX STI'. Last: KBB lists a 2014 'WRX STI Wagon 4D' (kbb-2014-sti-wagon); the next STI (subaru-wrx-sti-va, 2015 on) was a sedan only. PROVISIONAL for the end year (database). The 4-door GV sedan added from 2011 is not covered here. KBB files both the 2008 and the 2014 car as the 'Impreza WRX STI', and both are rated 305 hp, so the 5-door run is one record."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "subaru-us-2008-sti-release",
+    "note": "\"The 2008 WRX STI is built exclusively as an aggressively styled wide-fender, 5-door model\". Edmunds calls it 'WRX STI 4dr Hatchback AWD w/VDC', KBB 'Sport Wagon 4D'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "subaru-us-2008-sti-release",
+      "note": "'2.5-liter intercooled turbocharged Subaru Boxer engine'"
+    },
+    "displacementL": {
+      "value": 2.5,
+      "sourceId": "subaru-us-2008-sti-release",
+      "note": "'2.5-liter'. No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "subaru-us-2008-sti-release",
+      "note": "'intercooled turbocharged'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "subaru-us-2008-sti-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "subaru-us-2008-sti-release",
+    "note": "'Symmetrical All-Wheel Drive' with Driver Control Center Differential (DCCD)"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "motorweek-2008-sti",
+    "note": "MotorWeek: '6-speed close ratio manual gearbox'. Edmunds 2008: 'Transmission 6-speed manual' (edmunds-2008-sti). Subaru's pricing table lists 'MT6'."
+  },
+  "powerHp": {
+    "value": 305,
+    "sourceId": "subaru-us-2008-sti-release",
+    "note": "Quote: \"The WRX STI's revised 2.5-liter intercooled turbocharged Subaru Boxer engine, now with Dual Active Valve Control System (Dual AVCS), produces 305 horsepower (SAE) at 6,000 rpm, a gain of 12 over the previous model.\" Every later model year checked on KBB gives \"305 @ 6000 RPM\", all filed under the Impreza WRX STI: 2009 and 2010 'Impreza WRX STI Sport Wagon 4D' (kbb-2009-sti-wagon, kbb-2010-sti-wagon), 2011, 2012 and 2013 'Impreza WRX STI Wagon 4D' (kbb-2011-sti-wagon, kbb-2012-sti-wagon, kbb-2013-sti-wagon) and 2014 'WRX STI Wagon 4D' (kbb-2014-sti-wagon)."
+  },
+  "weightLb": {
+    "value": 3395,
+    "sourceId": "edmunds-2008-sti",
+    "note": "PROVISIONAL (database). 2008 5-door, 6-speed manual (the only transmission). Quote (Edmunds, 'WRX STI 4dr Hatchback AWD w/VDC'): \"Curb Weight 3,395 lbs.\" KBB 2008 WRX STI Sport Wagon 4D: \"Curb Weight 3395 lbs.\" (kbb-2008-sti-wagon); iSeeCars 2008 'AWD WRX STI 4dr Wagon': 'Curb Weight | 3395 | lbs' (iseecars-2008-impreza). The three databases agree exactly and very likely share one data feed, so they count as one source. iSeeCars lists 3,373 lb for the BBS-wheel versions, and KBB gives 3,373 lb for 2014."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2008,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "subaru-us-2008-sti-release",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (release reproduced by The Auto Channel)",
+      "title": "Subaru Announces Pricing and Availability of its Performance Flagship, the 2008 Subaru Impreza WRX STI",
+      "url": "https://www2020.theautochannel.com/news/2007/11/15/071298.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorweek-2008-sti",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2008 Subaru Impreza WRX STI road test",
+      "url": "https://motorweek.org/road_tests/2008_subaru_impreza_wrx_sti",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "edmunds-2008-sti",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2008 Subaru Impreza WRX STI features & specs",
+      "url": "https://www.edmunds.com/subaru/impreza/2008/wrx-sti/features-specs/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2008-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 Subaru Impreza WRX STI Sport Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2008/wrx-sti-sport-wagon-4d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-2008-impreza",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2008 Subaru Impreza specs",
+      "url": "https://www.iseecars.com/car/2008-subaru-impreza-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2014-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2014 Subaru Impreza WRX STI Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2014/wrx-sti-wagon-4d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2009-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2009 Subaru Impreza WRX STI Sport Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2009/wrx-sti-sport-wagon-4d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2010-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2010 Subaru Impreza WRX STI Sport Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2010/wrx-sti-sport-wagon-4d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2011-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2011 Subaru Impreza WRX STI Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2011/wrx-sti-wagon-4d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2012-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2012 Subaru Impreza WRX STI Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2012/wrx-sti-wagon-4d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-2013-sti-wagon",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2013 Subaru Impreza WRX STI Wagon 4D",
+      "url": "https://www.kbb.com/subaru/impreza/2013/wrx-sti-wagon-4d/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,395 lb) rests on Edmunds, KBB and iSeeCars, which agree exactly and probably share one data feed (effectively one source). The end year (2014) rests on KBB's 2014 listing. A Subaru of America specification sheet for the 2008 WRX STI, or a major magazine specification panel, would replace the weight; a Subaru release for the 2014 5-door or the 2015 sedan-only launch would confirm the end year. Power and the other fields come from Subaru's release."
+}

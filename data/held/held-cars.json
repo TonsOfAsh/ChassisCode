@@ -302,6 +302,111 @@
       "heldSince": "2026-10-05",
       "missing": "US model years and a Toyota-published US rating (about 15% were sold in the US).",
       "notes": "Yamaha: 150 PS (148 hp), 1,120 kg (JAF Mate labels it vehicle weight); sold 1967-1970; 337 built."
+    },
+    {
+      "id": "ford-f-150-raptor-r-3rd-gen",
+      "displayName": "Ford F-150 Raptor R (3rd gen)",
+      "heldSince": "2026-10-06",
+      "missing": "A Ford curb weight for a 720-hp year (2024 on) or a magazine spec panel. Ford's approximate 5,950 lb (2023, via Ford Authority) vs Roadblazing 6,077 lb (2023) and The Autopian's unlabelled 6,090 lb (2025).",
+      "notes": "720 hp from 2024 (Ford tech specs; 700 hp in 2023), 5.2 supercharged V8, 10-speed automatic, 4WD, SuperCrew only."
+    },
+    {
+      "id": "gmc-syclone",
+      "displayName": "GMC Syclone (1991)",
+      "heldSince": "2026-10-06",
+      "missing": "A curb weight: only round figures (3,500 and 3,600 lb) in articles, 2.8% apart; no GM source.",
+      "notes": "280 hp in named articles; 4.3 L turbo V6, 4-speed automatic, AWD; 2,995 built for 1991."
+    },
+    {
+      "id": "pontiac-firebird-trans-am-2nd-gen-1977",
+      "displayName": "Pontiac Firebird Trans Am (1977)",
+      "heldSince": "2026-10-06",
+      "missing": "Any curb weight, and which engine was standard (L78 400, 180 hp, or Olds 403, 185 hp).",
+      "notes": "W72 6.6 T/A 200 hp; L78 180 hp; L80 403 185 hp (Old Cars Weekly, Silodrome)."
+    },
+    {
+      "id": "audi-r8-gt-type-42",
+      "displayName": "Audi R8 GT (Type 42 / 1st gen)",
+      "heldSince": "2026-10-06",
+      "missing": "A US curb weight. The 3,362 lb in KBB/iSeeCars is Audi AG's European 1,525 kg relabelled.",
+      "notes": "560 hp, 5.2 V10, 6-speed R tronic, US MY2012 only, 90 US cars (Audi of America release)."
+    },
+    {
+      "id": "audi-quattro-ur",
+      "displayName": "Audi Quattro (US, 1983-1985)",
+      "heldSince": "2026-10-06",
+      "missing": "A US curb weight (sources range 2,130-3,072 lb) and a manufacturer or magazine power figure.",
+      "notes": "160 hp SAE (Christian Science Monitor 1982, owner page); 664 US cars."
+    },
+    {
+      "id": "nissan-240sx-s13",
+      "displayName": "Nissan 240SX (S13)",
+      "heldSince": "2026-10-06",
+      "missing": "A curb weight for the manual base coupe from Nissan or a magazine panel; the database figure (2,699 lb) is the automatic car and KBB/iSeeCars look like one feed.",
+      "notes": "155 hp 1991-94 (Consumer Guide, KBB); 140 hp 1989-90; 5-speed manual or 4-speed automatic."
+    },
+    {
+      "id": "toyota-corolla-gt-s-ae86",
+      "displayName": "Toyota Corolla GT-S (AE86)",
+      "heldSince": "2026-10-06",
+      "missing": "A settled weight: 2,169-2,205 lb (iSeeCars), 2,300 lb (Grassroots), 2,450 lb (Consumer Guide).",
+      "notes": "112 hp (Consumer Guide, Grassroots Motorsports), 1,587 cc 4A-GE, 5-speed manual, 1985-87."
+    },
+    {
+      "id": "bugatti-divo",
+      "displayName": "Bugatti Divo",
+      "heldSince": "2026-10-06",
+      "missing": "A Divo-specific weight: the 1,995 kg in Evo (unbylined) and a database equals the Chiron's figure, while Bugatti says the Divo is 35 kg lighter.",
+      "notes": "1,500 PS (1,479 hp) per Bugatti; US MY2020 (EPA); 40 built."
+    },
+    {
+      "id": "mercedes-benz-clk-gtr",
+      "displayName": "Mercedes-Benz CLK GTR (road car)",
+      "heldSince": "2026-10-06",
+      "missing": "A Mercedes weight and production years: ADAC 1,440 kg vs supercars.net 1,545 kg; end year 1999 or 2002.",
+      "notes": "612 PS, 6,898 cc V12 (ADAC, Auto Bild)."
+    },
+    {
+      "id": "bugatti-tourbillon",
+      "displayName": "Bugatti Tourbillon",
+      "heldSince": "2026-10-06",
+      "missing": "Confirmed deliveries and US model year, and a Bugatti weight.",
+      "notes": "1,800 hp combined, 1,000 hp V16 (Auto123)."
+    },
+    {
+      "id": "porsche-911-gt3-rs-997-1",
+      "displayName": "Porsche 911 GT3 RS (997.1)",
+      "heldSince": "2026-10-06",
+      "missing": "A US curb weight (PCNA or a magazine panel); the databases' 3,031 lb is Porsche AG's European 1,375 kg converted. Also the US years (2007-2008 per Gooding) and whether the US rating is 415 hp.",
+      "notes": "415 hp (Edmunds; Porsche AG 415 PS), 3.6 flat-six, 6-speed manual, RWD."
+    },
+    {
+      "id": "lotus-esprit-v8",
+      "displayName": "Lotus Esprit V8 (US, 1997-2004)",
+      "heldSince": "2026-10-06",
+      "missing": "A US curb weight from Lotus or a magazine panel; the 1,380 kg found is Canadian/UK/Australian, and Hagerty's 3,040 lb is a shipping weight.",
+      "notes": "350 hp (MotorWeek, Hagerty, PistonHeads), 3,506 cc twin-turbo V8, 5-speed manual, RWD."
+    },
+    {
+      "id": "dodge-charger-daytona-1969",
+      "displayName": "Dodge Charger Daytona (1969, 440)",
+      "heldSince": "2026-10-06",
+      "missing": "A curb weight: the only figure (Encycarpedia 1,830 kg) gives no transmission and conflicts with others. A Chrysler 1969 spec or shipping weight, or a period road test labelled curb.",
+      "notes": "375 hp gross 440 Magnum, 7,206 cc; 426 Hemi optional (425 hp); 4-speed manual or 3-speed automatic; about 503-505 built."
+    },
+    {
+      "id": "chevrolet-camaro-z28-1st-gen-1969",
+      "displayName": "Chevrolet Camaro Z/28 (1969)",
+      "heldSince": "2026-10-06",
+      "missing": "A settled weight: Newport 3,296 lb vs MotorMatchup 3,455 lb (4.8% apart); no GM source.",
+      "notes": "290 hp gross (Newport, Audrain, MotorMatchup), 302 cid, 4-speed manual; 20,302 built."
+    },
+    {
+      "id": "ford-mustang-gt-fox-1987-1993",
+      "displayName": "Ford Mustang GT (Fox body, 1987-1993)",
+      "heldSince": "2026-10-06",
+      "missing": "A settled weight (1987 hatchback 3,131 lb vs 1990 3,062 lb vs 2,827 lb) and the year the rating fell from 225 to 205 hp (1992 or 1993).",
+      "notes": "225 hp 5.0 HO (Encycarpedia, Mustang Specs, Steeda)."
     }
   ]
 }

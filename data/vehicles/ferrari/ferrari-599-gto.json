@@ -1,0 +1,145 @@
+{
+  "id": "ferrari-599-gto",
+  "manufacturer": "Ferrari",
+  "model": "599 GTO",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 599 GTO",
+  "aliases": [
+    "599 GTO",
+    "GTO 599",
+    "Ferrari 599 GTO",
+    "F140",
+    "2011 599 GTO"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2011
+    },
+    "sourceId": "kbb-599gto",
+    "note": "US model year 2011 only: KBB lists only 'Used 2011 Ferrari 599 GTO'. Unveiled in April 2010; Automotive Addicts: '599 units available to 'special' customers only' (ferrari-599gto-release, in its own text); AutoGuide: limited to '599 clients' (autoguide-599gto). The 599 GTB Fiorano and SA Aperta are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-599gto-release",
+    "note": "Two-seat front-mid-engined V12 berlinetta."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "ferrari-599gto-release",
+      "note": "Ferrari release (AutoGuide: '5999 cc' V12, autoguide-599gto)."
+    },
+    "displacementL": {
+      "value": 6.0,
+      "sourceId": "ferrari-599gto-release",
+      "note": "5,999 cc. Ferrari release: 'Total displacement: 5999 cc (366.08 cu in)'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ferrari-599gto-release",
+      "note": "No forced induction in Ferrari's specification; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-599gto-release",
+    "note": "Petrol V12; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ferrari-599gto-release",
+    "note": "Front-mid-engined, rear-wheel drive; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "ferrari-599gto-release",
+    "note": "Ferrari release: 'F1 6–speed + reverse'. No manual was offered. KBB: '6 speed'."
+  },
+  "powerHp": {
+    "value": 661,
+    "sourceId": "ferrari-599gto-release",
+    "note": "Ferrari's rating is metric: 670 CV x 0.98632 = 660.8, rounded to 661 hp. Quote (Ferrari release as reproduced by Automotive Addicts): \"Maximum power: 500 kW (670 CV) at 8250 rpm\" (reproduced on a second request). AutoGuide (Colum Wood): '670 CV at 8250 rpm' (autoguide-599gto). KBB 2011: '660 @ 8250 RPM' (kbb-599gto). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3538,
+    "sourceId": "ferrari-599gto-release",
+    "note": "Ferrari's own pound figure. Quote (Ferrari release as reproduced by Automotive Addicts): \"Kerb weight*: 1605 kg (3538 lbs)\", footnote \"*European version\" (beside \"Dry weight*: 1495 kg (3296 lbs)\"). AutoGuide (Colum Wood) prints the same 'kerb weight of 1605 kg (3538 lbs)' (autoguide-599gto). Step 1 of the weight order. European-version figure; no US-specific kerb weight was found. KBB's '3295 lbs.' curb weight equals Ferrari's dry weight and is not used. Only the F1 gearbox was offered."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-599gto-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari (press release reproduced by Automotive Addicts)",
+      "title": "Ferrari 599 GTO Presentation Video",
+      "url": "https://www.automotiveaddicts.com/11000/ferrari-599-gto-presentation-video",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autoguide-599gto",
+      "type": "publication",
+      "publisher": "AutoGuide (Colum Wood)",
+      "title": "Ferrari 599 GTO Supercar Officially Revealed As Fastest Street Legal Prancing Horse Ever",
+      "url": "https://www.autoguide.com/auto-news/2010/04/ferrari-599-gto-supercar-officially-revealed-as-fastest-street-legal-prancing-horse-ever.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-599gto",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "Used 2011 Ferrari 599 GTO",
+      "url": "https://www.kbb.com/ferrari/599-gto/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "670 CV (661 hp)",
+          "sourceId": "ferrari-599gto-release"
+        },
+        {
+          "value": "660 hp",
+          "sourceId": "kbb-599gto"
+        }
+      ],
+      "reason": "Rounding of the conversion from Ferrari's metric rating (670 x 0.98632 = 660.8).",
+      "resolution": "Used 661 hp, the guide's conversion rounded to the nearest whole number."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,538 lb (1,605 kg kerb, European version)",
+          "sourceId": "ferrari-599gto-release"
+        },
+        {
+          "value": "3,295 lb",
+          "sourceId": "kbb-599gto"
+        }
+      ],
+      "reason": "KBB's 'curb weight' matches Ferrari's dry weight (1,495 kg, 3,296 lb), so it is a dry figure mislabelled.",
+      "resolution": "Used Ferrari's kerb weight, 3,538 lb (step 1)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

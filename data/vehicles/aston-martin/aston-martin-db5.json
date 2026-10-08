@@ -1,0 +1,125 @@
+{
+  "id": "aston-martin-db5",
+  "manufacturer": "Aston Martin",
+  "model": "DB5",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Aston Martin DB5",
+  "aliases": [
+    "Aston DB5",
+    "DB5 Convertible",
+    "Bond DB5",
+    "Goldfinger DB5",
+    "1964 DB5",
+    "1965 DB5"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 1963,
+      "endYear": 1965
+    },
+    "sourceId": "classic-db5",
+    "note": "US model years per Classic.com: 'The Aston Martin DB5 was produced for model years 1963 to 1965', 'arrived in 1963 as a successor to the DB4' and 'Built until 1965'. RM Sotheby's: '1,059 units built between 1963 and 1965' (rmsothebys-db5-1964). Sold new in the US: chassis 1796/L was 'Built for the North American market ... retailed by Aston Martin Lagonda Inc and despatched to its first owner, a certain Mr Kupperman of New York City' (jbl-db5-1796). Aston Martin did not use US model years as such; no Aston page states them. The DB5 Vantage (higher-output engine) is not covered by this record's figures."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "astonmartin-db5",
+    "note": "Aston Martin lists 'Saloon' (a two-door fixed-head car, a coupe here) and 'Convertible'. The handful of coachbuilt shooting brakes are not included. Convertible availability in the US was not separately confirmed."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "astonmartin-db5",
+      "note": "Aston Martin: 'DOHC Straight six, 3995 cc'"
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "astonmartin-db5",
+      "note": "3,995 cc. Aston Martin: 'DOHC Straight six, 3995 cc'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "rmsothebys-db5-1964",
+      "note": "RM Sotheby's: 'fed by triple carburetors'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "rmsothebys-db5-1964",
+    "note": "Carburetted petrol six; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "astonmartin-db5",
+    "note": "Front-engined, rear-wheel drive; inferred from the description (live rear axle with lever-arm dampers)."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "3-speed Automatic"
+    ],
+    "sourceId": "astonmartin-db5",
+    "note": "Aston Martin: '5-speed ZF box or optional Borg-Warner 3-speed automatic'. RM Sotheby's: '...fully synchromesh ZF five-speed manual transmission with overdrive' (rmsothebys-db5-1964)."
+  },
+  "powerHp": {
+    "value": 282,
+    "sourceId": "astonmartin-db5",
+    "note": "Aston Martin's rating as published; the standard is not named, treated as SAE gross per the rule for pre-1980 cars (powerStandard Other). Quote (Aston Martin): \"DOHC Straight six, 3995 cc, 282 bhp @ 5500 rpm 280 lbs-ft @ 4500 rpm\" (reproduced on a second request). Classic.com: 'the DB5 produced 282hp in standard guise, while the more potent Vantage version delivered 325hp' (classic-db5). No separate US rating was found."
+  },
+  "weightLb": {
+    "value": 3236,
+    "sourceId": "astonmartin-db5",
+    "note": "1,468 kg x 2.20462 = 3,236.4, rounded to 3,236 lb. Quote (Aston Martin specification block): \"Weight: 1468kg\" (reproduced on a second request). The label is a plain 'Weight' and the body is not stated (probably the Saloon); read as a kerb weight per the guide's rule for unlabelled Aston Martin figures. Step 1 of the weight order. Not a US-specific figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1963,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "astonmartin-db5",
+      "type": "manufacturer",
+      "publisher": "Aston Martin",
+      "title": "DB5 & DB5 Convertible",
+      "url": "https://www.astonmartin.com/en/models/past-models/db5-db5-convertible",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "classic-db5",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Aston Martin DB5 market",
+      "url": "https://www.classic.com/m/aston-martin/db5/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rmsothebys-db5-1964",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "1964 Aston Martin DB5",
+      "url": "https://rmsothebys.com/auctions/mo21/lots/r0144-1964-aston-martin-db5/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "jbl-db5-1796",
+      "type": "publication",
+      "publisher": "James Bond Lifestyle",
+      "title": "Left-hand drive 1964 Aston Martin DB5 needs some TLC",
+      "url": "https://www.jamesbondlifestyle.com/news/left-hand-drive-1964-aston-martin-db5-needs-some-tlc",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

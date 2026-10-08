@@ -1,0 +1,126 @@
+{
+  "id": "nissan-silvia-spec-r-s15",
+  "manufacturer": "Nissan",
+  "model": "Silvia",
+  "generation": "S15",
+  "variant": "Spec-R",
+  "subVariant": null,
+  "displayName": "Nissan Silvia Spec-R (S15)",
+  "aliases": [
+    "S15",
+    "S15 Silvia",
+    "Silvia S15",
+    "Spec R",
+    "SR20DET",
+    "GF-S15"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2002
+    },
+    "sourceId": "goo-net-s15-spec-r-1999",
+    "note": "PROVISIONAL (database). Japanese-market calendar years. Goo-net: Spec R launched January 1999 ('発売日' January 1999); Gulliver's catalog for the same grade prints the range \"平成11年1月（1999年1月）〜平成14年11月（2002年11月）\" (gulliver-s15-spec-r-6mt). The S15 was not sold new in the US."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "goo-net-s15-spec-r-1999",
+    "note": "Two-door coupe ('ドア数 2枚' on gulliver-s15-spec-r-6mt). The open Silvia Varietta was sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "supercars-s15-spec-r-1999",
+      "note": "'SR20DET Inline-4'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "goo-net-s15-spec-r-1999",
+      "note": "1,998 cc ('総排気量 1998cc'); supercars.net: '1998 cc / 121.9 in³'. Gulliver prints the rounded '排気量 2000cc' (gulliver-s15-spec-r-6mt). PROVISIONAL (database and enthusiast site)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "goo-net-s15-spec-r-1999",
+      "note": "'過給機 ＩＣ付きターボ' (turbo with intercooler)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "goo-net-s15-spec-r-1999",
+    "note": "'無鉛プレミアムガソリン' (unleaded premium)"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "goo-net-s15-spec-r-1999",
+    "note": "'駆動方式 FR' (front engine, rear-wheel drive)"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "gulliver-s15-spec-r-6mt",
+    "note": "PROVISIONAL (database). Gulliver lists the Spec R with '６速マニュアル' and a separate Spec R '４AT' grade (gulliver-s15-spec-r-4at), which was rated lower: '225ps（165kW）/6000rpm', '1270kg'."
+  },
+  "powerHp": {
+    "value": 247,
+    "sourceId": "goo-net-s15-spec-r-1999",
+    "note": "PROVISIONAL (database and enthusiast site). 250 PS (184 kW) x 0.98632 = 246.6, rounded to 247 hp; 6-speed manual. Quote (Goo-net, Spec R 6MT, January 1999): \"最高出力 250ps(184kW)/6400rpm\". Gulliver's catalog prints the same line, \"250ps（184kW）/6400rpm\" (gulliver-s15-spec-r-6mt; same catalog data, same grade ID, so not independent). supercars.net (Nick Dellis): \"184.2 kw / 247 bhp @ 6400 rpm\" (supercars-s15-spec-r-1999). The 4-speed automatic Spec R was rated 225 PS."
+  },
+  "weightLb": {
+    "value": 2734,
+    "sourceId": "goo-net-s15-spec-r-1999",
+    "note": "PROVISIONAL (database and enthusiast site). Spec R, 6-speed manual, standard car: 1,240 kg x 2.20462 = 2,733.7, rounded to 2,734 lb. Quote (Goo-net): \"車両重量 1240kg\" (Japanese catalog vehicle weight, i.e. kerb weight). Gulliver prints the same 1240kg for the same grade (gulliver-s15-spec-r-6mt; same catalog data). supercars.net agrees: \"curb weight | 1240 kg / 2734 lbs\" (supercars-s15-spec-r-1999)."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1999,
+    "powerStandard": "JIS PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "goo-net-s15-spec-r-1999",
+      "type": "database",
+      "publisher": "Goo-net catalog",
+      "title": "Nissan Silvia Spec R 6MT (GF-S15, January 1999) catalog",
+      "url": "https://www.goo-net.com/catalog/NISSAN/SILVIA/1502079/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "gulliver-s15-spec-r-6mt",
+      "type": "database",
+      "publisher": "Gulliver (221616.com) catalog",
+      "title": "Nissan Silvia Spec R S15 6MT catalog",
+      "url": "https://221616.com/catalog/nissan/silvia/199901_200211/1502079/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "gulliver-s15-spec-r-4at",
+      "type": "database",
+      "publisher": "Gulliver (221616.com) catalog",
+      "title": "Nissan Silvia Spec R S15 4AT catalog",
+      "url": "https://221616.com/catalog/nissan/silvia/199901_200211/1502035/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "supercars-s15-spec-r-1999",
+      "type": "enthusiast",
+      "publisher": "supercars.net",
+      "title": "1999 Nissan Silvia Spec-R (Nick Dellis)",
+      "url": "https://www.supercars.net/blog/1999-nissan-silvia-spec-r/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (247 hp from 250 PS) and weight (2,734 lb from 1,240 kg) rest on the Goo-net catalog (a database; Gulliver's catalog carries the same data) and supercars.net (enthusiast site, Nick Dellis), agreeing exactly; supercars.net may simply restate the same Japanese catalog data, so the two may not be independent. Production years, displacement and transmissions also rest on those catalogs. A Nissan source (Nissan Heritage Collection page, 1999 press release or catalogue) or an Evo/Autocar specification panel for the S15 Spec-R would replace them."
+}

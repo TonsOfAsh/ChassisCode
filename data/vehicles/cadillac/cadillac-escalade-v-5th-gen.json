@@ -1,0 +1,106 @@
+{
+  "id": "cadillac-escalade-v-5th-gen",
+  "manufacturer": "Cadillac",
+  "model": "Escalade-V",
+  "generation": "5th gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Cadillac Escalade-V (5th gen)",
+  "aliases": [
+    "Escalade V",
+    "Escalade-V ESV",
+    "Escalade V-Series",
+    "Supercharged Escalade",
+    "2023 Escalade-V"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "US model years 2023 to present. Cadillac (11 May 2022): 'The 2023 Escalade-V goes on sale late this summer'. Still on sale: Cadillac's current Escalade-V page is for the 2027 model with '682 HORSEPOWER' (cadillac-escalade-v-2027-page)."
+  },
+  "body": {
+    "value": [
+      "SUV"
+    ],
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "Offered in standard and long-wheelbase ESV lengths (Cadillac's table has ESCALADE-V and ESCALADE-V ESV columns); the standard length is the standard car."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cadillac-escalade-v-2023-release",
+      "note": "'6.2L V-8 Supercharged DI VVT'"
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "cadillac-escalade-v-2023-release",
+      "note": "6,162 cc: 'Displacement (cu. in. / cc): 376 / 6162'"
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "cadillac-escalade-v-2023-release",
+      "note": "'Forced Induction: 2.65L positive-displacement supercharger'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "'Fuel: Premium required'"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "'full-time active all-wheel-drive system'"
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "'10-speed automatic transmission calibrated for Escalade-V'"
+  },
+  "powerHp": {
+    "value": 682,
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "Cadillac 2023 Escalade-V specifications (North America), ENGINES. Quote: \"Horsepower (hp / kW @ rpm): 682 / 508 @ 6,000\"; \"Torque (lb-ft / Nm): 653 / 885 @ 4,400\". The release text called it an estimate at the time: \"Rated at a GM-estimated 682 horsepower at 6,000 engine rpm and 653 lb-ft of torque at 4,400 engine rpm\". Cadillac's current 2027 Escalade-V page still states '682 HORSEPOWER' (cadillac-escalade-v-2027-page), confirming 682 hp as the standing rating."
+  },
+  "weightLb": {
+    "value": 6217,
+    "sourceId": "cadillac-escalade-v-2023-release",
+    "note": "Cadillac 2023 Escalade-V specifications, CAPACITIES AND TRAILERING, standard-length Escalade-V. Quote: \"Curb Weight (lb. / kg): 6217 / 2820\" (Escalade-V ESV: 6407 / 2906). Not labelled estimate."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cadillac-escalade-v-2023-release",
+      "type": "manufacturer",
+      "publisher": "Cadillac (General Motors)",
+      "title": "Cadillac Escalade-V is Industry's Most Powerful Full-Size SUV (with 2023 Escalade-V specifications)",
+      "url": "https://news.cadillac.com/newsroom.detail.html/Pages/news/us/en/2022/may/0511-escaladev.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "cadillac-escalade-v-2027-page",
+      "type": "manufacturer",
+      "publisher": "Cadillac",
+      "title": "Escalade-V (V-Series) model page",
+      "url": "https://www.cadillac.com/content/cadillac/na/us/en/index/suvs/escalade/v-series.html",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,164 @@
+{
+  "id": "porsche-911-turbo-993",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "993",
+  "variant": "Turbo",
+  "subVariant": null,
+  "displayName": "Porsche 911 Turbo (993)",
+  "aliases": [
+    "993 Turbo",
+    "993TT",
+    "Turbo 993",
+    "air-cooled 911 Turbo",
+    "1996 911 Turbo"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1996,
+      "endYear": 1997
+    },
+    "sourceId": "kbb-1996-911-turbo",
+    "note": "PROVISIONAL (databases and a single article). US model years. Sports Car Market (Geoff Archer, 1 August 2010) gives \"Years Produced: 1996-1997\" (scm-1996-911-turbo). KBB lists a 1996 and a 1997 'Turbo Coupe 2D' (kbb-1997-911-turbo; 1997 also has a separate 'Turbo S Coupe 2D'); Edmunds' 1996 911 page lists 'Turbo 2dr Coupe AWD' (edmunds-1996-911). Neither KBB's nor Edmunds' 1998 911 page lists any Turbo (kbb-1998-911, edmunds-1998-911). Stuttcars (an enthusiast site) dates the car 1995-1998, which are calendar build years for all markets (stuttcars-993-turbo)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-1996-911-turbo",
+    "note": "KBB 'Turbo Coupe 2D'; Edmunds 'Turbo 2dr Coupe AWD'. No 993 Turbo cabriolet was sold in the US per these listings."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "carscom-1996-911",
+      "note": "Cars.com: 'traditional Porsche flat-6 (opposed or so called boxer) design'"
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "carscom-1996-911",
+      "note": "'3.6 liters of displacement (220 cubic inches)'; KBB '3.6 Liter'. No opened page gave the cc figure."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "carscom-1996-911",
+      "note": "'twin turbochargers with dual intercoolers'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "kbb-1996-911-turbo"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "kbb-1996-911-turbo",
+    "note": "KBB 'Drivetrain AWD'; Stuttcars: 'the first all-wheel-drive 911 Turbo'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "carscom-1996-911",
+    "note": "Cars.com: \"The six-speeder is the only way the 911 Turbo comes.\" KBB: 'Manual', '6 speed'."
+  },
+  "powerHp": {
+    "value": 400,
+    "sourceId": "kbb-1996-911-turbo",
+    "note": "PROVISIONAL (a database and a single article). Quote (KBB 1996 911 Turbo Coupe 2D): \"Horsepower 400 @ 5750 RPM\"; KBB 1997 gives the same \"400 @ 5750 RPM\" (kbb-1997-911-turbo). Sports Car Market (Geoff Archer, 1 August 2010) agrees: \"With sequential twin turbos, 400bhp and AWD, a 993TT will go, stop and turn better in reality than in your daydreams.\" (scm-1996-911-turbo). An unbylined Cars.com review ('Cars.com Editors') also says \"400-horsepower and 400 foot-pounds of torque\" (carscom-1996-911); it is not counted as an independent source. The European rating was 408 PS (402 hp) per Stuttcars."
+  },
+  "weightLb": {
+    "value": 3307,
+    "sourceId": "kbb-1996-911-turbo",
+    "note": "PROVISIONAL (database). 1996 Turbo coupe, 6-speed manual (the only transmission). Quote (KBB): \"Curb Weight 3307 lbs.\" iSeeCars 1996 911 'AWD Turbo 2dr Coupe': 'Curb Weight | 3307 | lbs' (iseecars-1996-911). The databases also agree with each other on the other 1996 911 trims, so they share one data feed and count as one source. KBB gives the same 3,307 lb for 1997. 3,307 lb equals 1,500 kg exactly, so it is probably a converted European DIN figure rather than a US-specific one (not proven)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1996,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "kbb-1996-911-turbo",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1996 Porsche 911 Turbo Coupe 2D",
+      "url": "https://www.kbb.com/porsche/911/1996/turbo-coupe-2d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-1997-911-turbo",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1997 Porsche 911 Turbo Coupe 2D",
+      "url": "https://www.kbb.com/porsche/911/1997/turbo-coupe-2d/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-1998-911",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1998 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/1998/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "edmunds-1996-911",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "1996 Porsche 911 features & specs",
+      "url": "https://www.edmunds.com/porsche/911/1996/features-specs/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "edmunds-1998-911",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "1998 Porsche 911 features & specs",
+      "url": "https://www.edmunds.com/porsche/911/1998/features-specs/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1996-911",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1996 Porsche 911 specs",
+      "url": "https://www.iseecars.com/car/1996-porsche-911-specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscom-1996-911",
+      "type": "publication",
+      "publisher": "Cars.com",
+      "title": "1996 Porsche 911 research and expert review",
+      "url": "https://www.cars.com/research/porsche-911-1996",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "stuttcars-993-turbo",
+      "type": "enthusiast",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 Turbo (993) (1995 – 1998)",
+      "url": "https://stuttcars.com/porsche-911-turbo-993-1995-1998/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "scm-1996-911-turbo",
+      "type": "publication",
+      "publisher": "Sports Car Market",
+      "title": "1996 Porsche 911 Turbo Coupe (profile by Geoff Archer, 1 August 2010)",
+      "url": "https://www.sportscarmarket.com/profile/1996-porsche-911-turbo-coupe",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "End year: Sports Car Market ('Years Produced: 1996-1997'), KBB and Edmunds support 1996-1997 US model years; Stuttcars gives 1995-1998 (calendar build years). Confirm with a Porsche Cars North America source. The weight (3,307 lb = 1,500 kg exactly) may be a converted European figure.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (400 hp) rests on KBB and Sports Car Market (Geoff Archer, a single article), with an unbylined Cars.com review agreeing; weight (3,307 lb) rests on KBB and iSeeCars, which share one data feed (effectively one source), and equals 1,500 kg exactly, so it may be a converted European DIN figure; production years rest on Sports Car Market and KBB/Edmunds listings; engine details and transmission rest on the unbylined Cars.com review. A Porsche Cars North America press kit, brochure or technical data sheet for the 1996 911 Turbo, or a major magazine specification panel, would replace them."
+}

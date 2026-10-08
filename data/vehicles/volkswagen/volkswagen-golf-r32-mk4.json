@@ -1,0 +1,55 @@
+{
+  "id": "volkswagen-golf-r32-mk4",
+  "manufacturer": "Volkswagen",
+  "model": "Golf",
+  "generation": "Mk4",
+  "variant": "R32",
+  "subVariant": null,
+  "displayName": "Volkswagen Golf R32 (Mk4)",
+  "aliases": ["VW R32", "Mk4 R32", "R32 Mk4", "Golf 4 R32", "2004 R32", "VR6", "4Motion"],
+  "country": "Germany",
+  "production": {
+    "value": { "startYear": 2004, "endYear": 2004 },
+    "sourceId": "edmunds-2004-r32",
+    "note": "PROVISIONAL (databases). US model year 2004 only. Edmunds and KBB list a 2004 R32; KBB's R32 page offers only the years \"2008\" and \"2004\" (kbb-r32-years), the 2008 car being the Mk5. Volkswagen of America's 2007 release on the Mk5 says \"First introduced in 2004 to an enthusiastic reception, the R32 ...\" (vw-us-2007-r32-release). Sold in the US simply as the 'R32'."
+  },
+  "body": { "value": ["Hatchback"], "sourceId": "edmunds-2004-r32", "note": "Edmunds style '2dr Hatchback'; KBB 'R32 Hatchback 2D'." },
+  "engine": {
+    "configuration": { "value": "VR6", "sourceId": "motorweek-2004-r32", "note": "MotorWeek: '3.2-Liter Vr6'" },
+    "displacementL": { "value": 3.2, "sourceId": "edmunds-2004-r32", "note": "Edmunds 'Engine Size 3.2 L'; MotorWeek '3.2-Liter'. No opened page gave the cc figure." },
+    "aspiration": { "value": "Naturally Aspirated", "sourceId": "motorweek-2004-r32", "note": "No forced induction is mentioned; inferred." }
+  },
+  "fuel": { "value": "Gasoline", "sourceId": "edmunds-2004-r32" },
+  "drivetrain": { "value": "AWD", "sourceId": "edmunds-2004-r32", "note": "Edmunds 'Drive Type All wheel drive'; KBB 'AWD' (4Motion)." },
+  "transmission": {
+    "value": ["6-speed Manual"],
+    "sourceId": "edmunds-2004-r32",
+    "note": "Edmunds 'Transmission 6-speed manual'; MotorWeek: 'a 6-speed manual with a hydraulic clutch'. The DSG gearbox was not offered on the US 2004 car per these listings."
+  },
+  "powerHp": {
+    "value": 240,
+    "sourceId": "kbb-2004-r32",
+    "note": "PROVISIONAL (databases, with one publication agreeing). Quote (KBB 2004 R32 Hatchback 2D): \"Horsepower 240 @ 6250 RPM\". Edmunds 2004 R32: \"Horsepower 240 hp @ 6,250 rpm\" (edmunds-2004-r32); MotorWeek's 2004 Golf R32 road test spec line: 'Horsepower 240' (motorweek-2004-r32)."
+  },
+  "weightLb": {
+    "value": 3409,
+    "sourceId": "kbb-2004-r32",
+    "note": "PROVISIONAL (database). 2004 R32, 6-speed manual (the only transmission). Quote (KBB): \"Curb Weight 3409 pounds\". Edmunds: \"Curb Weight 3,409 lbs.\" (edmunds-2004-r32); iSeeCars 'AWD 2dr Hatchback': 'Curb Weight | 3409 | lbs' (iseecars-2004-r32). The three databases agree exactly and very likely share one data feed, so they count as one source."
+  },
+  "specBasis": { "market": "US", "referenceModelYear": 2004, "powerStandard": "SAE net", "weightType": "curb", "yearType": "model" },
+  "sources": [
+    { "id": "kbb-2004-r32", "type": "database", "publisher": "Kelley Blue Book", "title": "2004 Volkswagen R32 Specs, Features & Options", "url": "https://www.kbb.com/volkswagen/r32/2004/specs/", "accessed": "2026-10-06" },
+    { "id": "edmunds-2004-r32", "type": "database", "publisher": "Edmunds", "title": "2004 Volkswagen R32 features & specs", "url": "https://www.edmunds.com/volkswagen/r32/2004/features-specs/", "accessed": "2026-10-06" },
+    { "id": "iseecars-2004-r32", "type": "database", "publisher": "iSeeCars", "title": "2004 Volkswagen R32 specs", "url": "https://www.iseecars.com/car/2004-volkswagen-r32-specs", "accessed": "2026-10-06" },
+    { "id": "kbb-r32-years", "type": "database", "publisher": "Kelley Blue Book", "title": "Volkswagen R32", "url": "https://www.kbb.com/volkswagen/r32/", "accessed": "2026-10-06" },
+    { "id": "motorweek-2004-r32", "type": "publication", "publisher": "MotorWeek", "title": "2004 Volkswagen Golf R32 (Program #2349)", "url": "https://motorweek.org/road_tests/2004_volkswagen_golf_r32_program_2349/", "accessed": "2026-10-06" },
+    { "id": "vw-us-2007-r32-release", "type": "manufacturer", "publisher": "Volkswagen of America (release reproduced by The Auto Channel)", "title": "2007 Chicago Auto Show: Hot VW R 3.2 L Heats It Up", "url": "https://www2020.theautochannel.com/news/2007/02/07/036506.html", "accessed": "2026-10-06" }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (240 hp) rests on KBB and Edmunds, with MotorWeek's unsigned road-test spec line agreeing; weight (3,409 lb) rests on KBB, Edmunds and iSeeCars, which probably share one data feed (effectively one source); the single model year and the body, drivetrain and transmission rest on Edmunds and KBB. A Volkswagen of America press kit or spec sheet for the 2004 R32, or a major magazine specification panel, would replace them."
+}

@@ -1,0 +1,154 @@
+{
+  "id": "mclaren-speedtail",
+  "manufacturer": "McLaren",
+  "model": "Speedtail",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "McLaren Speedtail",
+  "aliases": [
+    "Speedtail",
+    "Hyper-GT",
+    "BP23",
+    "SSG",
+    "2020 Speedtail"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2020
+    },
+    "sourceId": "mpgbuddy-speedtail",
+    "note": "US model years: EPA data as listed by MPG Buddy (a database): \"The EPA has rated the McLaren Automotive Speedtail for one model year, the 2020 McLaren Automotive Speedtail.\" McLaren (mclaren-speedtail-kennedy, 23 December 2019, reproduced by Automotive World): 106 Speedtails built at the McLaren Production Centre in Woking, \"deliveries scheduled from February 2020\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mclaren-speedtail-reveal",
+    "note": "Fixed-roof \"three-seat cockpit\" with the driver positioned centrally."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "motorauthority-speedtail",
+      "note": "Quote: \"The setup combines a 4.0-liter twin-turbocharged V-8 and single electric motor, with drive sent to the rear wheels only.\""
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "motorauthority-speedtail",
+      "note": "\"4.0-liter\"; no cc figure was found on an opened page. Goodwood (goodwood-speedtail): \"4.0-litre twin-turbocharged V8 hybrid\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "motorauthority-speedtail",
+      "note": "\"4.0-liter twin-turbocharged V-8\""
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "mclaren-speedtail-reveal",
+    "note": "\"petrol-electric hybrid\" (McLaren reveal release). No opened page describes it as a plug-in hybrid."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "motorauthority-speedtail",
+    "note": "\"with drive sent to the rear wheels only\"; Goodwood panel: \"Seven-speed double-clutch, rear-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "goodwood-speedtail",
+    "note": "Goodwood specification box: \"Transmission | Seven-speed double-clutch, rear-wheel-drive\" (McLaren SSG)."
+  },
+  "powerHp": {
+    "value": 1055,
+    "sourceId": "mclaren-speedtail-kennedy",
+    "note": "Quote (McLaren release of 23 December 2019 reproduced by Automotive World, \"SOURCE: McLaren\"): \"1,070PS (1,055bhp) and 1,150Nm (848lb ft)\". 1,070 x 0.98632 = 1,055 hp. Motor Authority (Viknesh Vijayenthiran, 30 April 2020): \"The peak output is 1,055 horsepower and 848 pound-feet of torque\". Combined system output. At the October 2018 reveal McLaren quoted 1,050 PS / 1,035 bhp (mclaren-speedtail-reveal: \"1,035bhp\"); the final figure is used. powerStandard is DIN PS because McLaren's rating is metric, as in the Senna record."
+  },
+  "weightLb": {
+    "value": 3153,
+    "sourceId": "mclaren-speedtail-reveal",
+    "note": "DRY weight (step 4). Quote (McLaren US release reproduced by The Gentleman Racer, \"via McLaren\"): \"The low weight of the Speedtail – only 3,153lbs (1,430kg) dry – hastens this ability.\" 1,430 x 2.20462 = 3,153 lb. GTspirit (gtspirit-speedtail, Lawrence Adams): \"1,430 kg dry weight\"; Motor Authority 2020: \"McLaren quoting a weight of 3,153 pounds\". No McLaren curb weight and no major-magazine panel curb weight was found (McLaren's specification page did not load). Goodwood's review box prints \"Kerb weight | 1,500kg\", but its text says \"a car weighing under 1,500kg\", so it is a rounded upper bound from a single outlet, not a step-2 figure. No opened page says whether the dry figure assumes options. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mclaren-speedtail-kennedy",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (release reproduced by Automotive World)",
+      "title": "Maximum speed runs at Kennedy Space Center conclude McLaren Speedtail's dynamic development programme",
+      "url": "https://www.automotiveworld.com/news-releases/maximum-speed-runs-at-kennedy-space-center-conclude-mclaren-speedtails-dynamic-development-programme/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "mclaren-speedtail-reveal",
+      "type": "manufacturer",
+      "publisher": "McLaren Automotive (release reproduced by The Gentleman Racer)",
+      "title": "The McLaren Speedtail",
+      "url": "https://www.thegentlemanracer.com/2018/10/the-mclaren-speedtail.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "motorauthority-speedtail",
+      "type": "publication",
+      "publisher": "Motor Authority (Viknesh Vijayenthiran)",
+      "title": "McLaren reveals details on Speedtail's 1,055-horsepower hybrid powertrain",
+      "url": "https://www.motorauthority.com/news/1118513_mclaren-reveals-details-on-speedtail-s-1-055-horsepower-hybrid-powertrain",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "goodwood-speedtail",
+      "type": "publication",
+      "publisher": "Goodwood Road & Racing (Andrew Frankel)",
+      "title": "McLaren Speedtail review",
+      "url": "https://www.goodwood.com/grr/car-reviews/mclaren/speedtail/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "gtspirit-speedtail",
+      "type": "publication",
+      "publisher": "GTspirit (Lawrence Adams)",
+      "title": "McLaren Speedtail Officially Revealed: Fastest McLaren Ever Built",
+      "url": "https://gtspirit.com/2018/10/26/mclaren-speedtail-officially-revealed-fastest-mclaren-ever-built/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "mpgbuddy-speedtail",
+      "type": "database",
+      "publisher": "MPG Buddy (EPA data)",
+      "title": "McLaren Automotive Speedtail",
+      "url": "https://mpgbuddy.com/cars/mclaren-automotive/speedtail",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "1,035 bhp (1,050 PS)",
+          "sourceId": "mclaren-speedtail-reveal"
+        },
+        {
+          "value": 1055,
+          "sourceId": "mclaren-speedtail-kennedy"
+        }
+      ],
+      "reason": "Model development: the October 2018 reveal figure was superseded by the final production rating published in December 2019.",
+      "resolution": "Used the final rating, 1,070 PS = 1,055 hp, which applies to the delivered cars."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

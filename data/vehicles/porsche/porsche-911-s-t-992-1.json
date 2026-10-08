@@ -1,0 +1,137 @@
+{
+  "id": "porsche-911-s-t-992-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.1",
+  "variant": "S/T",
+  "subVariant": null,
+  "displayName": "Porsche 911 S/T (992.1)",
+  "aliases": [
+    "992 S/T",
+    "911 S/T",
+    "992.1 S/T",
+    "S/T",
+    "2024 911 S/T"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": 2024
+    },
+    "sourceId": "kbb-911-2024",
+    "note": "US model years, from Kelley Blue Book (a database): the 2024 911 lists \"S/T Coupe 2D\" (\"The 911 S/T is a special limited edition commemorating the 60th anniversary of the Porsche 911 sports car, with 1,963 units being made.\"); the 2025 911 trims (kbb-911-2025) do not include an S/T. Porsche Cars North America (pcna-911-st, 1 August 2023): \"U.S. deliveries are expected to begin in Spring, 2024.\" Motor1 headline: \"2024 Porsche 911 S/T\". Limited to 1,963 cars worldwide."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "pcna-911-st",
+    "note": "Combines \"elements of the 911 GT3 RS with the body of the 911 GT3 with Touring Package\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "evo-911-st",
+      "note": "Evo panel: \"Engine | Flat-six, 3996cc\". Porsche: \"4.0-liter boxer engine\"."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "evo-911-st",
+      "note": "3,996 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-911-st",
+      "note": "The GT3 RS's high-revving naturally aspirated boxer engine (\"maximum engine speed of 9,000 rpm\")."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "pcna-911-st"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-911-st",
+    "note": "Rear-wheel drive, inferred from Porsche's description of the car (GT3-based two-wheel-drive 911 with a manual gearbox; no front drive mentioned)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "pcna-911-st",
+    "note": "Quote: \"For the first time, the 518 hp, high-revving engine from the 911 GT3 RS delivers its power to the road via a manual transmission and lightweight clutch.\" Six-speed manual only; no PDK."
+  },
+  "powerHp": {
+    "value": 518,
+    "sourceId": "pcna-911-st",
+    "note": "Quote (Porsche Cars North America): \"4.0-liter boxer engine with 518 hp and maximum engine speed of 9,000 rpm\". Porsche AG (porsche-ag-911-st): \"386 kW (525 PS)\". Evo panel: \"Power | 518bhp @ 8500rpm\"."
+  },
+  "weightLb": {
+    "value": 3056,
+    "sourceId": "pcna-911-st",
+    "note": "Standard car (coupe, six-speed manual, the only configuration). Quote (PCNA): \"With reduced insulation, the omission of rear-axle steering and weight savings in the powertrain, the 911 S/T achieves a curb weight of just 3,056 lbs.\" Porsche AG: \"1,380 kilograms (DIN kerb weight, incl. all fluids)\". The press kit (pcna-911-st-kit) says once \"the 911 S/T features a curb weight of just 3,056 lbs.\", once \"The 911 S/T weighs just 3,056 lbs., making it the lightest model of the 992 generation.\" and once \"a sensationally low total weight for the car of just 3,058 lbs.\"; the curb-weight figure is used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-911-st",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "The new Porsche 911 S/T: the lightest 911 of its generation",
+      "url": "https://newsroom.porsche.com/en_US/2023/products/new-porsche-911-ST-lightest-911-of-generation-33365.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "pcna-911-st-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche",
+      "title": "The new Porsche 911 S/T Press kit",
+      "url": "https://newsroom.porsche.com/dam/jcr:4bd4ec11-486f-4914-9e22-10bc07bda5ea/911%20ST%20Press%20Kit.pdf",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "porsche-ag-911-st",
+      "type": "manufacturer",
+      "publisher": "Porsche AG",
+      "title": "The new Porsche 911 S/T: purist special-edition model marks 60th anniversary of the 911",
+      "url": "https://newsroom.porsche.com/en/2023/products/porsche-911-s-t-world-premiere-60-years-911-33363.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "evo-911-st",
+      "type": "publication",
+      "publisher": "Evo (James Taylor, Yousuf Ashraf)",
+      "title": "Porsche 911 S/T review – why it's our 2024 Car of the Year",
+      "url": "https://www.evo.co.uk/porsche/911/st",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-911-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/2024/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-911-2025",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Porsche 911",
+      "url": "https://www.kbb.com/porsche/911/2025/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,124 @@
+{
+  "id": "bmw-m5-e34",
+  "manufacturer": "BMW",
+  "model": "M5",
+  "generation": "E34",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "BMW M5 (E34)",
+  "aliases": [
+    "E34 M5",
+    "S38",
+    "S38B36",
+    "M5 Sedan",
+    "1991 M5"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1991,
+      "endYear": 1993
+    },
+    "sourceId": "bmw-us-2019-m5-edition-35",
+    "note": "US model years. BMW NA's M5 history heads the car \"1991 – 1993 E34 M5\" and says it \"arrived in the US in 1990\" (calendar year). Hagerty: \"1,678 coming to the USA and Canada between model years 1991 to 1993\" (hagerty-1991-m5). European cars continued to 1995 with the 3.8-litre engine."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2019-m5-edition-35",
+    "note": "BMW NA: \"the 3,804 lb. sedan\". The Touring (wagon) was not sold in the US."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "hagerty-1991-m5",
+      "note": "'S38B36 3.5-liter DOHC I-6'"
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "hagerty-1991-m5",
+      "note": "3,535 cc ('6-cyl. 3535cc/310hp FI'), which rounds to 3.5. KBB's '3.6 Liter' is the nominal figure."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "hagerty-1991-m5",
+      "note": "Fuel-injected DOHC six with no forced induction; inferred."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hagerty-1991-m5",
+    "note": "Fuel-injected ('FI') gasoline six; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "hagerty-1991-m5",
+    "note": "Rear-wheel drive; no opened page states it in words, inferred from the description of the car."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "hagerty-1991-m5",
+    "note": "Hagerty: \"The same 5-speed manual transmission was utilized throughout production until the final model year in 1995 when the gearbox gained a cog\" (the 6-speed came after US sales ended). KBB 1993: 'Transmission Type Manual', '5 speed' (kbb-1993-m5)."
+  },
+  "powerHp": {
+    "value": 310,
+    "sourceId": "bmw-us-2019-m5-edition-35",
+    "note": "Quote: \"The 3.5L 6-cylinder engine now produced 310 hp @ 6,900 rpm and 266 lb-ft. @ 4,750.\" (BMW NA, under the heading \"1991 – 1993 E34 M5\"). KBB 1993 Sedan 4D agrees: \"Horsepower 310 @ 6900 RPM\" (kbb-1993-m5). Same rating for all three US model years per both sources' descriptions."
+  },
+  "weightLb": {
+    "value": 3804,
+    "sourceId": "kbb-1993-m5",
+    "note": "PROVISIONAL (database). Sedan, 5-speed manual (the only configuration). Quote (KBB 1993 M5 Sedan 4D): \"Curb Weight 3804 lbs.\" iSeeCars 1991 M5: \"Curb Weight | 3804 | lbs\" (iseecars-1991-m5); the two databases very likely share one data feed, so they count as one source. BMW NA's history agrees on the number but does not label it curb weight: \"This allowed the 3,804 lb. sedan to accelerate to 60 mph in 6.1 seconds\" (bmw-us-2019-m5-edition-35). Reference year 1991, the launch year; KBB's figure is for 1993 and iSeeCars' for 1991."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1991,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2019-m5-edition-35",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The 2020 BMW M5 Edition 35 Years",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0295843EN_US/the-2020-bmw-m5-edition-35-years",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "hagerty-1991-m5",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "1991 BMW M5 valuation and history",
+      "url": "https://www.hagerty.com/apps/ValuationTools/1991-BMW-M5",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-1993-m5",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1993 BMW M5 Specs, Features & Options",
+      "url": "https://www.kbb.com/bmw/m5/1993/specs",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "iseecars-1991-m5",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "1991 BMW M5 specs",
+      "url": "https://www.iseecars.com/car/1991-bmw-m5-specs",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,804 lb) rests on KBB (1993) and iSeeCars (1991), databases that probably share one data feed, so effectively one source; BMW NA's history prints the same 3,804 lb but not labelled as curb weight. A BMW NA press kit or technical data sheet for the 1991-1993 M5, or a major magazine specification panel giving the curb weight, would replace it. Power, years and other fields are not provisional."
+}

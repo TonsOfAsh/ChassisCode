@@ -1,0 +1,146 @@
+{
+  "id": "lamborghini-huracan-sterrato",
+  "manufacturer": "Lamborghini",
+  "model": "Huracán",
+  "generation": null,
+  "variant": "Sterrato",
+  "subVariant": null,
+  "displayName": "Lamborghini Huracán Sterrato",
+  "aliases": [
+    "Huracan Sterrato",
+    "LDF",
+    "LDVI",
+    "2023 Huracan Sterrato",
+    "2024 Huracan Sterrato"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2024
+    },
+    "sourceId": "kbb-huracan-2023",
+    "note": "US model years, from Kelley Blue Book (a database): the 2023 Huracán lists \"Sterrato Coupe 2D\" and the 2024 Huracán lists \"Sterrato Coupe 2D\" (kbb-huracan-2024), whose year selector ends at 2024. Carscoops (carscoops-sterrato, 30 November 2022): \"Lamborghini will only only build 1,499 units starting in February 2023\"."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carscoops-sterrato",
+    "note": "Raised two-door coupe (Carscoops calls it a \"crossover\" in the headline; it is the Huracán coupe body)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "lambo-huracan-sterrato-page",
+      "note": "\"5,204 cm³\" V10"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "lambo-huracan-sterrato-page",
+      "note": "5,204 cc (Lamborghini: \"5,204 cm³ (317.57 cu in)\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "autobild-sterrato",
+      "note": "Auto Bild: \"5,2-Liter-V10-Sauger mit 610 PS und 560 Nm\" (Sauger = naturally aspirated)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "lambo-huracan-sterrato-page",
+    "note": "EPA \"15 MPG\" combined."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lambo-huracan-sterrato-page",
+    "note": "Quote: \"It is combined with 7-speed dual-clutch transmission and electronically controlled all-wheel drive with rear mechanical self-locking differential.\""
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "lambo-huracan-sterrato-page",
+    "note": "\"7-speed dual-clutch transmission\" (Lamborghini LDF). No manual offered."
+  },
+  "powerHp": {
+    "value": 602,
+    "sourceId": "lambo-huracan-sterrato-page",
+    "note": "Quote (Lamborghini model page): \"Max. power (kW/CV) | 610 CV (449 kW) @ 8,000 rpm\". 610 CV x 0.98632 = 602 hp. Carscoops (Chris Chilton): \"602 hp (610 PS)\". No separate US SAE rating was found, so powerStandard is DIN PS, as in the other Huracán records. Evo panel (evo-sterrato): \"Power | 602bhp @ 8000rpm\"."
+  },
+  "weightLb": {
+    "value": 3241,
+    "sourceId": "evo-sterrato",
+    "note": "DRY weight (step 4: a major magazine panel figure labelled dry). Quote (Evo spec panel, James Taylor, 18 December 2023): \"Weight | 1470kg (dry)\". 1,470 x 2.20462 = 3,241 lb. Corroborated by DriveArabia (drivearabia-sterrato, Gautam Sharma, 23 May 2023, spec box): \"Weight 1,470 kg (dry weight)\" and Carscoops (carscoops-sterrato, Chris Chilton): \"the 3,241 lbs (1,470 kg) Sterrato\". Auto Bild (autobild-sterrato) prints \"1470 Kilo Leergewicht\", the same figure under a kerb label, read as mislabelled. No Lamborghini or major-magazine curb weight (steps 1 to 3) was found; Lamborghini's model page gives no weight. No opened page says whether the dry figure assumes options. A car with fluids is heavier."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "lambo-huracan-sterrato-page",
+      "type": "manufacturer",
+      "publisher": "Automobili Lamborghini",
+      "title": "Huracán Sterrato",
+      "url": "https://www.lamborghini.com/en-en/models/huracan/huracan-sterrato",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "evo-sterrato",
+      "type": "publication",
+      "publisher": "Evo (James Taylor)",
+      "title": "Lamborghini Huracán Sterrato 2023 review: a new breed of supercar",
+      "url": "https://www.evo.co.uk/lamborghini/huracan/sterrato",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "drivearabia-sterrato",
+      "type": "publication",
+      "publisher": "DriveArabia (Gautam Sharma)",
+      "title": "First drive: Lamborghini Huracan Sterrato in California, USA",
+      "url": "https://www.drivearabia.com/news/2023/05/23/first-drive-lamborghini-huracan-sterrato-in-california-usa/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "carscoops-sterrato",
+      "type": "publication",
+      "publisher": "Carscoops (Chris Chilton)",
+      "title": "602-HP Lamborghini Huracan Sterrato Crossover Is Limited To 162 Mph, But Not To Paved Roads",
+      "url": "https://www.carscoops.com/?p=2557195",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "autobild-sterrato",
+      "type": "publication",
+      "publisher": "Auto Bild (Jan Götze)",
+      "title": "Lamborghini Huracán Sterrato (2022): Preis, Specs, Motor, V10, Allrad",
+      "url": "https://www.autobild.de/artikel/lamborghini-hurac-n-sterrato-2022-preis-specs-motor-v10-allrad-22268781.html",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-huracan-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2023/",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "kbb-huracan-2024",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Lamborghini Huracán",
+      "url": "https://www.kbb.com/lamborghini/huracan/2024/",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}
