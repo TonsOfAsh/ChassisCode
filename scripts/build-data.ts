@@ -6,6 +6,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { VehicleSchema, type Vehicle } from '../src/lib/schema';
+import { OUT_OF_STEP_HELP, poolProblems, readPool } from './daily-pool-lib';
 import { ROOT, loadRawFiles } from './load';
 
 const vehicles: Vehicle[] = [];
@@ -26,3 +27,13 @@ const outDir = join(ROOT, 'src', 'generated');
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, 'vehicles.json'), JSON.stringify(vehicles));
 console.log(`Bundled ${vehicles.length} vehicles into src/generated/vehicles.json`);
+
+// The Daily pool must match the records, or a deploy could change past puzzles (see src/lib/daily-schedule.ts).
+const pool = readPool();
+const problems = poolProblems(pool, new Set(vehicles.filter((v) => v.dailyEligible).map((v) => v.id)));
+if (problems.length > 0) {
+  console.error(`${OUT_OF_STEP_HELP}\n${problems.slice(0, 20).join('\n')}`);
+  process.exit(1);
+}
+writeFileSync(join(outDir, 'daily-pool.json'), JSON.stringify({ cars: pool.cars }));
+console.log(`Bundled the Daily pool (${Object.keys(pool.cars).length} cars) into src/generated/daily-pool.json`);

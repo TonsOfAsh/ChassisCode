@@ -16,7 +16,9 @@
     "typecheck": "tsc --noEmit",
     "pretypecheck": "tsx scripts/build-data.ts",
     "provisional-report": "tsx scripts/provisional-report.ts",
-    "reveal-sim": "tsx scripts/reveal-sim.ts"
+    "reveal-sim": "tsx scripts/reveal-sim.ts",
+    "daily-pool": "tsx scripts/daily-pool.ts",
+    "daily-check": "tsx scripts/daily-check.ts"
   },
   "dependencies": {
     "@fontsource/barlow": "^5.3.0",

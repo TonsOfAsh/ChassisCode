@@ -21,7 +21,7 @@ Logic in `src/lib/reveal.ts`; `npm run reveal-sim` shows how much a guess gives 
 
 ## Status
 
-The database is at 367 cars, 82 of them provisional (Unlimited only; see `docs/PROVISIONAL.md`). The game has a Daily puzzle and an Unlimited mode, a car search, a
+The database is at 366 cars, 82 of them provisional (Unlimited only; see `docs/PROVISIONAL.md`). The game has a Daily puzzle and an Unlimited mode, a car search, a
 guess comparison, and statistics and streaks kept on the player's device.
 
 ## Daily and Unlimited
@@ -31,9 +31,11 @@ guess comparison, and statistics and streaks kept on the player's device.
   (America/Los_Angeles, so PST in winter and PDT in summer). Progress is saved on the device, so
   reloading the page continues the game, and a finished daily stays finished until the next one.
   The car and clue order come from the date and `GAME_SECRET`, so every server with the same secret
-  gives the same puzzle and nobody can work it out from the code. Cars are dealt in rounds with no
-  repeat until every daily-eligible car has been used. Adding cars reshuffles the round, so new cars
-  should go live just after midnight Pacific. Puzzle #1 was 1 October 2026.
+  gives the same puzzle and nobody can work it out from the code. No car repeats until every car in
+  the Daily pool has been used. Adding or removing cars never changes today's puzzle or any earlier
+  one: after launch, new cars join the pool from tomorrow (`npm run daily-pool`; see
+  `docs/LAUNCH.md` and `src/lib/daily-schedule.ts`). Before launch the site shows a separate preview
+  puzzle, so testing never reveals the real schedule. Puzzle #1 is set in `src/lib/daily-time.ts`.
 - **Unlimited** is a random car each round, in Easy, Normal or Hard. Enter starts the next round.
 - **Stats** (button at the top): daily games played, win %, current and best streak, and which turn
   each daily was solved on; Unlimited played, win % and average turns per difficulty. They are kept
@@ -98,6 +100,8 @@ Then open http://localhost:3000 in a browser. Stop the server with Ctrl+C.
 ## Other commands
 
     npm run validate      # check every vehicle record
+    npm run daily-pool    # after adding, removing or changing cars: update the Daily pool
+    npm run daily-check   # check the Daily schedule never changes past days (uses a throwaway secret)
     npm run clue-report   # how quickly each car becomes identifiable under the clue order
     npm run build         # production build
 
@@ -113,7 +117,10 @@ The token is encrypted with `GAME_SECRET`. `npm run dev` uses a built-in develop
 A production deployment must set `GAME_SECRET` (see `.env.example`) or the game API refuses to run.
 
 Known limit: a token can be replayed, so a determined player can retry guesses against the same
-clue. That only cheats their own Unlimited game. The daily puzzle (Phase 6) will need to address it.
+clue, and clearing the browser's saved data restarts the Daily. Either only cheats that player's
+own result; preventing it would need player accounts.
+
+Going live (hosting, domain, launch date): see `docs/LAUNCH.md`.
 
 ## Layout
 

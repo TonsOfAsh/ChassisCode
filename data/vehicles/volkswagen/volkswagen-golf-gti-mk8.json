@@ -64,12 +64,12 @@
       "7-speed DCT"
     ],
     "sourceId": "vw-us-2022-golf-gti-r-chicago",
-    "note": "'can be paired with a standard six-speed manual transmission or an optional seven-speed DSG® dual-clutch automatic' (DSG is a DCT). The manual was later dropped; the year it ended was not confirmed."
+    "note": "'can be paired with a standard six-speed manual transmission or an optional seven-speed DSG® dual-clutch automatic' (DSG is a DCT). The manual ended after the 2024 model year: Motor1 quotes Volkswagen, \"the manual transmission will not be available after MY2024 for Golf GTI and Golf R\" (motor1-2025-golf-auto-only); Carscoops: \"you can no longer buy a GTI with a six-speed manual transmission\" (carscoops-2025-golf-us). From 2025 the GTI is DSG-only. Both gearboxes are kept because the record covers 2022 onward."
   },
   "powerHp": {
     "value": 241,
     "sourceId": "vw-us-2022-golf-gti-r-chicago",
-    "note": "Quote: \"produces 241 horsepower\". Volkswagen's GTI press kit repeats 'produces 241 horsepower at 5,000 rpm' (vw-us-golf-gti-model-page). Car and Driver's road-test panel agrees: \"Power: 241 hp @ 6500 rpm\" (cd-golf-gti-s-2022)."
+    "note": "Quote: \"produces 241 horsepower\". Volkswagen's GTI press kit repeats 'produces 241 horsepower at 5,000 rpm' (vw-us-golf-gti-model-page). Car and Driver's road-test panel agrees: \"Power: 241 hp @ 6500 rpm\" (cd-golf-gti-s-2022). The 2025 car keeps the rating: Car and Driver's 2025 GTI Autobahn panel, \"Power: 241 hp @ 6500 rpm\" (cd-golf-gti-autobahn-2025). Carscoops says the 2025 GTI is \"rated at 242 hp this year\" (carscoops-2025-golf-us); Volkswagen's own press kit says 241, so 241 stands."
   },
   "weightLb": {
     "value": 3112,
@@ -131,6 +131,30 @@
       "title": "2022 Volkswagen Golf GTI S",
       "ownerCopy": "TrackBattles data/cd_panels.json, panel '2022 Volkswagen Golf GTI S'",
       "accessed": "2026-10-09"
+    },
+    {
+      "id": "motor1-2025-golf-auto-only",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "It's Official, The 2025 Golf GTI And Golf R Won't Have Manuals",
+      "url": "https://www.motor1.com/news/708276/2025-vw-golf-gti-r-auto-only/",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "carscoops-2025-golf-us",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "America's 2025 VW Golf GTI Misses Out On 262 HP Euro Engine, But 328 HP Golf R Is Most Powerful Ever, by Chris Chilton (November 12, 2024)",
+      "url": "https://www.carscoops.com/2024/11/americas-2025-vw-golf-gti-misses-out-on-262-hp-euro-engine-but-328-hp-golf-r-is-most-powerful-ever/",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "cd-golf-gti-autobahn-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Volkswagen Golf GTI Autobahn",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Volkswagen Golf GTI Autobahn'",
+      "accessed": "2026-10-10"
     }
   ],
   "discrepancies": [

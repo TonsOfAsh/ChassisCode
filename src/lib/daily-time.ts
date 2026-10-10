@@ -9,7 +9,7 @@
 export const DAILY_TIME_ZONE = 'America/Los_Angeles';
 
 /** The first daily puzzle. Its number is 1. */
-export const DAILY_EPOCH = '2026-10-01';
+export const DAILY_EPOCH = '2027-01-01';
 
 const dateFormat = new Intl.DateTimeFormat('en-CA', {
   timeZone: DAILY_TIME_ZONE,

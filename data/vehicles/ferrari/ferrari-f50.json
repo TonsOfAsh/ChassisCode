@@ -16,10 +16,10 @@
   "production": {
     "value": {
       "startYear": 1995,
-      "endYear": 1997
+      "endYear": 1996
     },
-    "sourceId": "evo-f50",
-    "note": "Evo: 'Just 349 were built between 1995 and 1997'. These are build years; US MODEL years are UNCONFIRMED (the guide wants US model years for a US-market record). Evidence: RM Sotheby's sells a '1995 Ferrari F50', 'one of just 55 US-delivery examples', 'Completed on 21 December 1995' (rm-f50); Car and Driver tested a '1996 Ferrari F50' (read by the project owner on 9 October 2026 (the site blocks the research tools), caranddriver-f50-1996-test)."
+    "sourceId": "rm-f50",
+    "note": "US model years 1995-1996: owner decision, 10 October 2026. Evidence: RM Sotheby's sells a '1995 Ferrari F50', 'one of just 55 US-delivery examples', 'Completed on 21 December 1995' (rm-f50); Car and Driver tested a '1996 Ferrari F50' (read by the project owner on 9 October 2026, caranddriver-f50-1996-test). Build years were 1995-1997: Evo, 'Just 349 were built between 1995 and 1997' (evo-f50)."
   },
   "body": {
     "value": [

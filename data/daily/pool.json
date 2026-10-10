@@ -1,0 +1,857 @@
+{
+  "about": "Which cars are in the Daily, and on which dates. Kept in step with the records by \"npm run daily-pool\"; do not edit by hand. \"from\" absent = from puzzle #1; \"until\" absent = still in; both inclusive. See src/lib/daily-schedule.ts and docs/LAUNCH.md.",
+  "cars": {
+    "acura-integra-type-r-dc2": [
+      {}
+    ],
+    "acura-integra-type-s-de5": [
+      {}
+    ],
+    "acura-nsx-na1": [
+      {}
+    ],
+    "acura-nsx-na2": [
+      {}
+    ],
+    "acura-nsx-nc1": [
+      {}
+    ],
+    "acura-nsx-type-s-nc1": [
+      {}
+    ],
+    "acura-rsx-type-s-dc5": [
+      {}
+    ],
+    "acura-tlx-type-s-2nd-gen": [
+      {}
+    ],
+    "alfa-romeo-4c": [
+      {}
+    ],
+    "alfa-romeo-giulia-quadrifoglio": [
+      {}
+    ],
+    "aston-martin-db11-v12": [
+      {}
+    ],
+    "aston-martin-db12": [
+      {}
+    ],
+    "aston-martin-db5": [
+      {}
+    ],
+    "aston-martin-db9-1st-gen": [
+      {}
+    ],
+    "aston-martin-dbs": [
+      {}
+    ],
+    "aston-martin-dbs-superleggera": [
+      {}
+    ],
+    "aston-martin-dbx": [
+      {}
+    ],
+    "aston-martin-one-77": [
+      {}
+    ],
+    "aston-martin-v8-vantage-s": [
+      {}
+    ],
+    "aston-martin-valhalla": [
+      {}
+    ],
+    "aston-martin-valkyrie": [
+      {}
+    ],
+    "aston-martin-vantage-2019-2023": [
+      {}
+    ],
+    "aston-martin-vantage-f1-edition": [
+      {}
+    ],
+    "audi-r8-v10-performance-4s": [
+      {}
+    ],
+    "audi-r8-v10-performance-rwd-4s": [
+      {}
+    ],
+    "audi-r8-v10-plus-4s": [
+      {}
+    ],
+    "audi-rs-e-tron-gt-performance": [
+      {}
+    ],
+    "audi-rs3-8v": [
+      {}
+    ],
+    "audi-rs5-b9": [
+      {}
+    ],
+    "audi-rs6-avant-c8": [
+      {}
+    ],
+    "audi-s4-b9": [
+      {}
+    ],
+    "audi-tt-8s": [
+      {}
+    ],
+    "audi-tt-rs-8s": [
+      {}
+    ],
+    "bmw-1-series-m-coupe-e82": [
+      {}
+    ],
+    "bmw-m1-e26": [
+      {}
+    ],
+    "bmw-m2-competition-f87": [
+      {}
+    ],
+    "bmw-m2-cs-g87": [
+      {}
+    ],
+    "bmw-m2-f87": [
+      {}
+    ],
+    "bmw-m2-g87": [
+      {}
+    ],
+    "bmw-m240i-g42": [
+      {}
+    ],
+    "bmw-m3-competition-g80": [
+      {}
+    ],
+    "bmw-m3-competition-xdrive-g80": [
+      {}
+    ],
+    "bmw-m3-csl-e46": [
+      {}
+    ],
+    "bmw-m3-e46": [
+      {}
+    ],
+    "bmw-m3-e90": [
+      {}
+    ],
+    "bmw-m3-f80": [
+      {}
+    ],
+    "bmw-m3-g80": [
+      {}
+    ],
+    "bmw-m340i-g20": [
+      {}
+    ],
+    "bmw-m4-csl-g82": [
+      {}
+    ],
+    "bmw-m4-f82": [
+      {}
+    ],
+    "bmw-m4-g82": [
+      {}
+    ],
+    "bmw-m5-cs-f90": [
+      {}
+    ],
+    "bmw-m5-e39": [
+      {}
+    ],
+    "bmw-m5-e60": [
+      {}
+    ],
+    "bmw-m5-f90": [
+      {}
+    ],
+    "bmw-m8-competition-coupe-f92": [
+      {}
+    ],
+    "bmw-x5-m-f85": [
+      {}
+    ],
+    "bmw-z4-m40i-g29": [
+      {}
+    ],
+    "bmw-z8-e52": [
+      {}
+    ],
+    "bugatti-chiron": [
+      {}
+    ],
+    "bugatti-chiron-super-sport": [
+      {}
+    ],
+    "bugatti-divo": [
+      {}
+    ],
+    "bugatti-veyron-16-4": [
+      {}
+    ],
+    "cadillac-ct4-v-blackwing": [
+      {}
+    ],
+    "cadillac-ct5-v-blackwing": [
+      {}
+    ],
+    "cadillac-cts-v-2nd-gen": [
+      {}
+    ],
+    "cadillac-cts-v-3rd-gen": [
+      {}
+    ],
+    "cadillac-escalade-v-5th-gen": [
+      {}
+    ],
+    "chevrolet-camaro-2-0t-6th-gen": [
+      {}
+    ],
+    "chevrolet-camaro-ss-5th-gen": [
+      {}
+    ],
+    "chevrolet-camaro-ss-6th-gen": [
+      {}
+    ],
+    "chevrolet-camaro-v6-6th-gen": [
+      {}
+    ],
+    "chevrolet-camaro-z28-5th-gen": [
+      {}
+    ],
+    "chevrolet-camaro-zl1-6th-gen": [
+      {}
+    ],
+    "chevrolet-corvette-grand-sport-c6": [
+      {}
+    ],
+    "chevrolet-corvette-grand-sport-c7": [
+      {}
+    ],
+    "chevrolet-corvette-stingray-c7": [
+      {}
+    ],
+    "chevrolet-corvette-stingray-c8-2020-2026": [
+      {}
+    ],
+    "chevrolet-corvette-z06-c5": [
+      {}
+    ],
+    "chevrolet-corvette-z06-c6": [
+      {}
+    ],
+    "chevrolet-corvette-z06-c7": [
+      {}
+    ],
+    "chevrolet-corvette-z06-c8": [
+      {}
+    ],
+    "chevrolet-corvette-zr1-c6": [
+      {}
+    ],
+    "chevrolet-corvette-zr1-c7": [
+      {}
+    ],
+    "chevrolet-corvette-zr1-c8": [
+      {}
+    ],
+    "chevrolet-corvette-zr1x-c8": [
+      {}
+    ],
+    "dodge-challenger-r-t-scat-pack": [
+      {}
+    ],
+    "dodge-challenger-srt-demon": [
+      {}
+    ],
+    "dodge-challenger-srt-hellcat": [
+      {}
+    ],
+    "dodge-challenger-srt-hellcat-redeye": [
+      {}
+    ],
+    "dodge-charger-scat-pack": [
+      {}
+    ],
+    "dodge-charger-srt-hellcat": [
+      {}
+    ],
+    "dodge-viper-acr-vx": [
+      {}
+    ],
+    "ferrari-12cilindri": [
+      {}
+    ],
+    "ferrari-288-gto": [
+      {}
+    ],
+    "ferrari-296-gtb": [
+      {}
+    ],
+    "ferrari-360-modena": [
+      {}
+    ],
+    "ferrari-430-scuderia": [
+      {}
+    ],
+    "ferrari-458-italia": [
+      {}
+    ],
+    "ferrari-458-speciale": [
+      {}
+    ],
+    "ferrari-488-gtb": [
+      {}
+    ],
+    "ferrari-488-pista": [
+      {}
+    ],
+    "ferrari-599-gtb-fiorano": [
+      {}
+    ],
+    "ferrari-599-gto": [
+      {}
+    ],
+    "ferrari-812-competizione": [
+      {}
+    ],
+    "ferrari-812-superfast": [
+      {}
+    ],
+    "ferrari-california-t": [
+      {}
+    ],
+    "ferrari-enzo": [
+      {}
+    ],
+    "ferrari-f12berlinetta": [
+      {}
+    ],
+    "ferrari-f40": [
+      {}
+    ],
+    "ferrari-f430": [
+      {}
+    ],
+    "ferrari-f50": [
+      {}
+    ],
+    "ferrari-f8-tributo": [
+      {}
+    ],
+    "ferrari-laferrari": [
+      {}
+    ],
+    "ferrari-purosangue": [
+      {}
+    ],
+    "ferrari-roma": [
+      {}
+    ],
+    "ferrari-sf90-stradale": [
+      {}
+    ],
+    "ford-bronco-raptor": [
+      {}
+    ],
+    "ford-f-150-raptor-r-3rd-gen": [
+      {}
+    ],
+    "ford-focus-rs-mk3": [
+      {}
+    ],
+    "ford-focus-st-mk3": [
+      {}
+    ],
+    "ford-gt-2nd-gen": [
+      {}
+    ],
+    "ford-mustang-bullitt-s550": [
+      {}
+    ],
+    "ford-mustang-dark-horse-s650": [
+      {}
+    ],
+    "ford-mustang-ecoboost-s550": [
+      {}
+    ],
+    "ford-mustang-ecoboost-s650": [
+      {}
+    ],
+    "ford-mustang-gt-s550": [
+      {}
+    ],
+    "ford-mustang-gt-s650": [
+      {}
+    ],
+    "ford-mustang-gtd-s650": [
+      {}
+    ],
+    "ford-mustang-shelby-gt350-s550": [
+      {}
+    ],
+    "ford-mustang-shelby-gt500-s197-2013-2014": [
+      {}
+    ],
+    "ford-mustang-shelby-gt500-s550": [
+      {}
+    ],
+    "ford-mustang-svt-cobra-sn95-2003-2004": [
+      {}
+    ],
+    "ford-mustang-v6-s550": [
+      {}
+    ],
+    "honda-civic-si-10th-gen": [
+      {}
+    ],
+    "honda-civic-si-fe1": [
+      {}
+    ],
+    "honda-civic-type-r-ek9": [
+      {}
+    ],
+    "honda-civic-type-r-fk8": [
+      {}
+    ],
+    "honda-civic-type-r-fl5": [
+      {}
+    ],
+    "honda-s2000-ap1": [
+      {}
+    ],
+    "honda-s2000-ap2": [
+      {}
+    ],
+    "honda-s2000-cr-ap2": [
+      {}
+    ],
+    "hyundai-elantra-n-cn7": [
+      {}
+    ],
+    "hyundai-ioniq-5-n-ne": [
+      {}
+    ],
+    "hyundai-veloster-n-js": [
+      {}
+    ],
+    "infiniti-g35-sedan-v36": [
+      {}
+    ],
+    "infiniti-g37-coupe-v36": [
+      {}
+    ],
+    "infiniti-q50-red-sport-400-v37": [
+      {}
+    ],
+    "infiniti-q60-red-sport-400-2nd-gen": [
+      {}
+    ],
+    "jaguar-f-type-r-2021-2024": [
+      {}
+    ],
+    "jeep-grand-cherokee-trackhawk-wk2": [
+      {}
+    ],
+    "kia-ev6-gt-cv": [
+      {}
+    ],
+    "kia-stinger-gt-ck": [
+      {}
+    ],
+    "koenigsegg-agera-r": [
+      {}
+    ],
+    "koenigsegg-ccx": [
+      {}
+    ],
+    "koenigsegg-jesko": [
+      {}
+    ],
+    "koenigsegg-one-1": [
+      {}
+    ],
+    "koenigsegg-regera": [
+      {}
+    ],
+    "lamborghini-aventador-lp-700-4": [
+      {}
+    ],
+    "lamborghini-aventador-svj": [
+      {}
+    ],
+    "lamborghini-gallardo-lp-560-4": [
+      {}
+    ],
+    "lamborghini-huracan-evo": [
+      {}
+    ],
+    "lamborghini-huracan-lp-610-4": [
+      {}
+    ],
+    "lamborghini-huracan-performante": [
+      {}
+    ],
+    "lamborghini-huracan-sterrato": [
+      {}
+    ],
+    "lamborghini-huracan-sto": [
+      {}
+    ],
+    "lamborghini-huracan-tecnica": [
+      {}
+    ],
+    "lamborghini-murcielago-lp-640": [
+      {}
+    ],
+    "lamborghini-murcielago-lp-670-4-superveloce": [
+      {}
+    ],
+    "lamborghini-revuelto": [
+      {}
+    ],
+    "lamborghini-temerario": [
+      {}
+    ],
+    "lexus-is-500-f-sport-performance": [
+      {}
+    ],
+    "lexus-is-f": [
+      {}
+    ],
+    "lexus-lc-500": [
+      {}
+    ],
+    "lexus-lfa": [
+      {}
+    ],
+    "lotus-evora-gt": [
+      {}
+    ],
+    "lotus-exige-s-series-2": [
+      {}
+    ],
+    "lucid-air-sapphire": [
+      {}
+    ],
+    "maserati-grecale-trofeo": [
+      {}
+    ],
+    "maserati-mc20": [
+      {}
+    ],
+    "mazda-mazdaspeed3-2nd-gen": [
+      {}
+    ],
+    "mazda-mx-5-miata-1-6-na": [
+      {}
+    ],
+    "mazda-mx-5-miata-nb": [
+      {}
+    ],
+    "mazda-mx-5-miata-nc": [
+      {}
+    ],
+    "mazda-mx-5-miata-nd": [
+      {}
+    ],
+    "mazda-rx-7-fd": [
+      {}
+    ],
+    "mazda-rx-8": [
+      {}
+    ],
+    "mclaren-570s": [
+      {}
+    ],
+    "mclaren-600lt": [
+      {}
+    ],
+    "mclaren-650s": [
+      {}
+    ],
+    "mclaren-675lt": [
+      {}
+    ],
+    "mclaren-720s": [
+      {}
+    ],
+    "mclaren-750s": [
+      {}
+    ],
+    "mclaren-765lt": [
+      {}
+    ],
+    "mclaren-artura": [
+      {}
+    ],
+    "mclaren-gt": [
+      {}
+    ],
+    "mclaren-mp4-12c": [
+      {}
+    ],
+    "mclaren-p1": [
+      {}
+    ],
+    "mclaren-senna": [
+      {}
+    ],
+    "mclaren-speedtail": [
+      {}
+    ],
+    "mercedes-amg-c-63-s-coupe-c205": [
+      {}
+    ],
+    "mercedes-amg-c-63-s-e-performance-w206": [
+      {}
+    ],
+    "mercedes-amg-c-63-s-sedan-w205": [
+      {}
+    ],
+    "mercedes-amg-cla-45-c117": [
+      {}
+    ],
+    "mercedes-amg-e-63-s-w213": [
+      {}
+    ],
+    "mercedes-amg-g-63-w463": [
+      {}
+    ],
+    "mercedes-amg-gt-63-s-e-performance-c192": [
+      {}
+    ],
+    "mercedes-amg-gt-black-series-c190": [
+      {}
+    ],
+    "mercedes-amg-gt-c190": [
+      {}
+    ],
+    "mercedes-amg-gt-r-c190": [
+      {}
+    ],
+    "mercedes-amg-sl-63-r232": [
+      {}
+    ],
+    "mercedes-amg-sl-63-s-e-performance-r232": [
+      {}
+    ],
+    "mercedes-benz-c-63-amg-w204": [
+      {}
+    ],
+    "mitsubishi-lancer-evolution-tommi-makinen-edition-vi": [
+      {}
+    ],
+    "mitsubishi-lancer-evolution-viii": [
+      {}
+    ],
+    "mitsubishi-lancer-evolution-x": [
+      {}
+    ],
+    "nissan-370z-nismo-z34": [
+      {}
+    ],
+    "nissan-370z-z34": [
+      {}
+    ],
+    "nissan-gt-r-nismo-r35": [
+      {}
+    ],
+    "nissan-gt-r-r35-2012-2016": [
+      {}
+    ],
+    "nissan-gt-r-r35-2017-2024": [
+      {}
+    ],
+    "nissan-skyline-gt-r-r32": [
+      {}
+    ],
+    "nissan-skyline-gt-r-v-spec-r33": [
+      {}
+    ],
+    "nissan-skyline-gt-r-v-spec-r34": [
+      {}
+    ],
+    "nissan-z-nismo-rz34": [
+      {}
+    ],
+    "nissan-z-rz34": [
+      {}
+    ],
+    "pagani-huayra": [
+      {}
+    ],
+    "porsche-718-cayman-982": [
+      {}
+    ],
+    "porsche-718-cayman-gt4-982": [
+      {}
+    ],
+    "porsche-718-cayman-gt4-rs-982": [
+      {}
+    ],
+    "porsche-718-cayman-gts-4-0-982": [
+      {}
+    ],
+    "porsche-718-cayman-s-982": [
+      {}
+    ],
+    "porsche-718-spyder-982": [
+      {}
+    ],
+    "porsche-911-carrera-991-1": [
+      {}
+    ],
+    "porsche-911-carrera-992-2": [
+      {}
+    ],
+    "porsche-911-carrera-gts-992-2": [
+      {}
+    ],
+    "porsche-911-carrera-s-991-2": [
+      {}
+    ],
+    "porsche-911-carrera-s-992-1": [
+      {}
+    ],
+    "porsche-911-dakar-992-1": [
+      {}
+    ],
+    "porsche-911-gt2-rs-991-2": [
+      {}
+    ],
+    "porsche-911-gt2-rs-997-2": [
+      {}
+    ],
+    "porsche-911-gt3-991-1": [
+      {}
+    ],
+    "porsche-911-gt3-991-2": [
+      {}
+    ],
+    "porsche-911-gt3-992-1": [
+      {}
+    ],
+    "porsche-911-gt3-992-2": [
+      {}
+    ],
+    "porsche-911-gt3-997-1": [
+      {}
+    ],
+    "porsche-911-gt3-rs-4-0-997-2": [
+      {}
+    ],
+    "porsche-911-gt3-rs-991-2": [
+      {}
+    ],
+    "porsche-911-gt3-rs-992-1": [
+      {}
+    ],
+    "porsche-911-s-t-992-1": [
+      {}
+    ],
+    "porsche-911-turbo-997-2": [
+      {}
+    ],
+    "porsche-911-turbo-s-991-2": [
+      {}
+    ],
+    "porsche-911-turbo-s-992-1": [
+      {}
+    ],
+    "porsche-911-turbo-s-992-2": [
+      {}
+    ],
+    "porsche-918-spyder": [
+      {}
+    ],
+    "porsche-959": [
+      {}
+    ],
+    "porsche-boxster-s-981": [
+      {}
+    ],
+    "porsche-carrera-gt": [
+      {}
+    ],
+    "porsche-cayenne-turbo-e3": [
+      {}
+    ],
+    "porsche-cayman-gt4-981": [
+      {}
+    ],
+    "porsche-cayman-gts-981": [
+      {}
+    ],
+    "porsche-panamera-gts-976": [
+      {}
+    ],
+    "porsche-panamera-turbo-971": [
+      {}
+    ],
+    "porsche-panamera-turbo-s-e-hybrid-976": [
+      {}
+    ],
+    "porsche-taycan-turbo-s-j1": [
+      {}
+    ],
+    "ram-1500-trx": [
+      {}
+    ],
+    "rimac-nevera": [
+      {}
+    ],
+    "scion-fr-s-zn6": [
+      {}
+    ],
+    "ssc-tuatara": [
+      {}
+    ],
+    "subaru-brz-zc6": [
+      {}
+    ],
+    "subaru-brz-zd8": [
+      {}
+    ],
+    "subaru-impreza-22b-sti-gc": [
+      {}
+    ],
+    "subaru-wrx-sti-va": [
+      {}
+    ],
+    "subaru-wrx-vb": [
+      {}
+    ],
+    "toyota-2000gt": [
+      {}
+    ],
+    "toyota-86-zn6": [
+      {}
+    ],
+    "toyota-gr-corolla": [
+      {}
+    ],
+    "toyota-gr-supra-2-0-a90": [
+      {}
+    ],
+    "toyota-gr-supra-3-0-a90": [
+      {}
+    ],
+    "toyota-gr86-zn8": [
+      {}
+    ],
+    "volkswagen-golf-gti-mk7": [
+      {}
+    ],
+    "volkswagen-golf-gti-mk8": [
+      {}
+    ],
+    "volkswagen-golf-r-mk6": [
+      {}
+    ],
+    "volkswagen-golf-r-mk7": [
+      {}
+    ]
+  }
+}

@@ -12,7 +12,10 @@
     "6th gen ZL1",
     "Gen 6 ZL1",
     "LT4",
-    "2017 Camaro ZL1"
+    "2017 Camaro ZL1",
+    "ZL1 1LE",
+    "Camaro ZL1 1LE",
+    "1LE"
   ],
   "country": "United States",
   "production": {
@@ -136,5 +139,6 @@
   "needsReview": false,
   "confidence": "medium",
   "image": null,
-  "dailyEligible": true
+  "dailyEligible": true,
+  "reviewNotes": "The ZL1 1LE (2018-2024, coupe only, a track package on the ZL1) is part of this record (owner decision, 10 October 2026): it shares the ZL1's LT4, 650 hp, rear drive and both transmissions, and differs in-game only by being about 60 lb lighter (Car and Driver 2018 ZL1 1LE manual road test: \"Curb weight: 3842 lb\"), so it is found by searching 'ZL1 1LE' and plays as this car."
 }

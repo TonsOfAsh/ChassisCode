@@ -65,12 +65,12 @@
       "7-speed DCT"
     ],
     "sourceId": "vw-us-2022-golf-gti-r-chicago",
-    "note": "'can be paired with a standard six-speed manual transmission or an optional seven-speed DSG® dual-clutch automatic' (DSG is a DCT). The manual was later dropped: the 2026 press kit lists only 'a 7-speed DSG dual-clutch automatic transmission' (vw-us-golf-r-model-page); the year the manual ended was not confirmed."
+    "note": "'can be paired with a standard six-speed manual transmission or an optional seven-speed DSG® dual-clutch automatic' (DSG is a DCT). The manual ended after the 2024 model year: Motor1 quotes Volkswagen, \"the manual transmission will not be available after MY2024 for Golf GTI and Golf R\" (motor1-2025-golf-auto-only); Carscoops on the 2025 US cars: \"The R also loses its manual option\" (carscoops-2025-golf-us). The 2026 press kit lists only 'a 7-speed DSG dual-clutch automatic transmission' (vw-us-golf-r-model-page). Both gearboxes are kept because the record covers 2022 onward."
   },
   "powerHp": {
     "value": 315,
     "sourceId": "vw-us-2022-golf-gti-r-chicago",
-    "note": "Quote: \"now makes 315 horsepower\". 315 hp is the launch rating (2022-2024); Volkswagen's current US press kit (2026 model year) says the engine 'now produces 328 horsepower (achieved using premium fuel) at 5,850 rpm' (vw-us-golf-r-model-page); the first model year with 328 hp was not confirmed. The launch rating covers more model years so far, so 2022 is the reference year."
+    "note": "Quote: \"now makes 315 horsepower\". 315 hp is the launch rating (2022-2024). From the 2025 model year the US car is rated 328 hp: Carscoops, \"the 2025 hatch makes the same 328 hp (333 PS)\" (carscoops-2025-golf-us); Car and Driver's 2025 Golf R road-test panel, \"Power: 328 hp @ 6500 rpm\" (cd-golf-r-2025, DSG); Volkswagen's current US press kit, 'now produces 328 horsepower (achieved using premium fuel) at 5,850 rpm' (vw-us-golf-r-model-page). The record keeps the 2022 reference year (315 hp, manual weight); the 2025 DSG car's C/D road-test curb weight is 3,377 lb (cd-golf-r-2025)."
   },
   "weightLb": {
     "value": 3417,
@@ -116,6 +116,30 @@
       "title": "2022 Volkswagen Golf R 2.0T Manual specifications",
       "url": "https://www.motormatchup.com/catalog/Volkswagen/Golf-R/2022/2.0T-Manual",
       "accessed": "2026-10-03"
+    },
+    {
+      "id": "motor1-2025-golf-auto-only",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "It's Official, The 2025 Golf GTI And Golf R Won't Have Manuals",
+      "url": "https://www.motor1.com/news/708276/2025-vw-golf-gti-r-auto-only/",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "carscoops-2025-golf-us",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "America's 2025 VW Golf GTI Misses Out On 262 HP Euro Engine, But 328 HP Golf R Is Most Powerful Ever, by Chris Chilton (November 12, 2024)",
+      "url": "https://www.carscoops.com/2024/11/americas-2025-vw-golf-gti-misses-out-on-262-hp-euro-engine-but-328-hp-golf-r-is-most-powerful-ever/",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "cd-golf-r-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Volkswagen Golf R",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Volkswagen Golf R'",
+      "accessed": "2026-10-10"
     }
   ],
   "discrepancies": [],

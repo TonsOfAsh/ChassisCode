@@ -11,6 +11,7 @@
 import { join, resolve } from 'node:path';
 import { clueValues } from '../src/config/clues';
 import { SOURCED_FIELDS, VehicleSchema, expectedDisplayName, type Vehicle } from '../src/lib/schema';
+import { OUT_OF_STEP_HELP, poolProblems, readPool } from './daily-pool-lib';
 import { DATA_DIR, loadRawFiles } from './load';
 
 type Level = 'ERROR' | 'WARNING';
@@ -245,6 +246,14 @@ const specKey = (x: { v: Vehicle }) =>
   ].join('|');
 for (const [, group] of groupBy(vehicles, specKey))
   if (group.length > 1) warn(names(group), 'Suspicious duplicate variants: same generation, engine, drivetrain, power and weight.');
+
+// ---------------------------------------------------------------------------
+// Daily pool (only for the real data folder)
+// ---------------------------------------------------------------------------
+if (resolve(dir) === resolve(DATA_DIR)) {
+  const problems = poolProblems(readPool(), new Set(vehicles.filter((x) => x.v.dailyEligible).map((x) => x.v.id)));
+  for (const p of problems) error('data/daily/pool.json', `${p} ${OUT_OF_STEP_HELP}`);
+}
 
 // ---------------------------------------------------------------------------
 // Report
