@@ -1,0 +1,182 @@
+{
+  "id": "ferrari-laferrari",
+  "manufacturer": "Ferrari",
+  "model": "LaFerrari",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari LaFerrari",
+  "aliases": [
+    "La Ferrari",
+    "F150",
+    "HY-KERS",
+    "2014 LaFerrari"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2014,
+      "endYear": 2014
+    },
+    "sourceId": "caranddriver-laferrari-test",
+    "note": "US model year 2014: Car and Driver tested a '2014 Ferrari LaFerrari' (read by the project owner on 9 October 2026 (the site blocks the research tools)); an earlier pass (3 October 2026) found the EPA listing (via MPG Buddy) for 2014 only (that page would not open on 9 October). Kelley Blue Book also has a 2015 page ('2014 features shown. 2015 may differ.', kbb-laferrari), so a 2015 model year is possible and unconfirmed. Ferrari unveiled the car in March 2013 (supercars-net-laferrari-release); 499 were built."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "supercars-net-laferrari-release",
+    "note": "Two-seat fixed-roof mid-engined car; the open Aperta is a separate model."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "supercars-net-laferrari-release",
+      "note": "Ferrari release: 'a 6262 cc V12'."
+    },
+    "displacementL": {
+      "value": 6.3,
+      "sourceId": "supercars-net-laferrari-release",
+      "note": "6,262 cc. Ferrari release: 'a 6262 cc V12'; Evo panel: 'V12, 6262cc, plus 160bhp electric motor' (evo-laferrari); 2LUXURY2 spec list: 'Total displacement 6262 cc' (2luxury2-laferrari). Car and Driver (owner-read): '6.3-liter V-12'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "caranddriver-laferrari-test",
+      "note": "Car and Driver (owner-read): 'DOHC 48-valve 6.3-liter V-12'; no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "supercars-net-laferrari-release",
+    "note": "HY-KERS hybrid (V12 plus electric motor; 'the batteries weigh just 60 kg'); not a plug-in."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "supercars-net-laferrari-release",
+    "note": "Mid-engined, rear-driven ('ideal weight distribution (59% at the rear)'); rear-wheel drive inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "supercars-net-laferrari-release",
+    "note": "Ferrari release: 'the F1 dual-clutch gearbox'; 2LUXURY2 spec list: '7-speed DCT' (2luxury2-laferrari); Car and Driver (owner-read): '7-speed dual-clutch automatic'."
+  },
+  "powerHp": {
+    "value": 950,
+    "sourceId": "supercars-net-laferrari-release",
+    "note": "Ferrari's combined system rating. Quote (Ferrari press release reproduced by Supercars.net, credited '[Source: Ferrari SpA]'): \"giving it a combined power output of 963 CV\". 963 CV x 0.98632 = 950 hp. 2LUXURY2 spec list: 'V12 maximum power* 800 CV @9000 rpm', 'Electric motor output 120 Kw (163 CV)', 'Total maximum power 963 CV' (2luxury2-laferrari). Car and Driver (owner-read, caranddriver-laferrari-test): 'combined system, 950 hp' (V-12 789 hp, motor 161 hp); Evo panel: 'Max power: 950bhp' (evo-laferrari). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3489,
+    "sourceId": "caranddriver-laferrari-test",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md). Owner decision, 9 October 2026: Car and Driver's tested figure used. Car and Driver road test of a 2014 car, read by the project owner on 9 October 2026 (the site blocks the research tools): \"Curb weight: 3489 lb\" (1,583 kg; a measured weight, labelled tested). Ferrari published no weight. Two databases agree (ultimatespecs and dimensions.com, 1,585 kg, owner-found 5 October 2026), but the magazines' kerb figures are 1,410-1,430 kg; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "caranddriver-laferrari-test",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "Ferrari LaFerrari hypercar tested review (C/D test results)",
+      "url": "https://www.caranddriver.com/reviews/a15107243/ferrari-laferrari-hypercar-tested-review/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "supercars-net-laferrari-release",
+      "type": "manufacturer",
+      "publisher": "Ferrari S.p.A. (press release reproduced by Supercars.net)",
+      "title": "LaFerrari – Official Press Release and Photos",
+      "url": "https://www.supercars.net/blog/?p=370141",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "2luxury2-laferrari",
+      "type": "publication",
+      "publisher": "2LUXURY2.COM",
+      "title": "LaFerrari (Geneva 2013, technical specifications)",
+      "url": "https://www.2luxury2.com/?p=45214",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "evo-laferrari",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari LaFerrari review",
+      "url": "https://www.evo.co.uk/ferrari/laferrari",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "motorsport-laferrari",
+      "type": "publication",
+      "publisher": "Motor Sport (Andrew Frankel)",
+      "title": "LaFerrari (July 2014)",
+      "url": "https://www.motorsportmagazine.com/archive/article/july-2014/62/laferrari",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "car-laferrari",
+      "type": "publication",
+      "publisher": "CAR Magazine",
+      "title": "Ferrari LaFerrari (2014) review",
+      "url": "https://www.carmagazine.co.uk/car-reviews/ferrari/ferrari-laferrari-2014-review",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "motor-laferrari",
+      "type": "publication",
+      "publisher": "MOTOR / WhichCar (Georg Kacher)",
+      "title": "Ferrari LaFerrari review",
+      "url": "https://whichcar.com.au/reviews/ferrari-laferrari-review",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-laferrari",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2015 Ferrari LaFerrari",
+      "url": "https://www.kbb.com/ferrari/laferrari/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,489 lb curb, tested (1,583 kg), 2014 car",
+          "sourceId": "caranddriver-laferrari-test"
+        },
+        {
+          "value": "1,410 kg (3,109 lb): 'a proper, comparable with fluids kerb weight'",
+          "sourceId": "motorsport-laferrari"
+        },
+        {
+          "value": "1,425 kg (3,142 lb), body text 'at 1425kg'",
+          "sourceId": "car-laferrari"
+        },
+        {
+          "value": "1,430 kg (3,153 lb), spec table 'Weight: 1430kg'",
+          "sourceId": "motor-laferrari"
+        },
+        {
+          "value": "2,976 lb (1,350 kg), 'Curb Weight 2976 lbs.'",
+          "sourceId": "kbb-laferrari"
+        }
+      ],
+      "reason": "Unexplained. Ferrari published no weight; the European magazines' kerb figures are about 11-12% below Car and Driver's scale weight and KBB's figure is lower still. Databases (ultimatespecs, dimensions.com) give 1,585 kg, close to Car and Driver.",
+      "resolution": "Owner decision, 9 October 2026: Car and Driver's tested figure used. Provisional until a Ferrari kerb weight or a magazine specification panel labelled kerb/curb is found."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight conflict (tested 1,583 kg vs magazine kerb 1,410-1,430 kg) is settled by owner decision, not explained. US model years: 2014 confirmed only by Car and Driver's test title and an earlier EPA check; KBB also lists 2015.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

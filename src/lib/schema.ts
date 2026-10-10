@@ -38,10 +38,17 @@ export const SourceSchema = z
     type: z.enum(SOURCE_TYPES),
     publisher: z.string().min(1),
     title: z.string().min(1),
-    url: z.string().url(),
+    /** The page. May be omitted only for a page the owner copied verbatim into the project (see ownerCopy). */
+    url: z.string().url().optional(),
+    /**
+     * Where the owner's verbatim copy of the page is kept, when the page itself cannot be linked
+     * (e.g. "TrackBattles data/cd_panels.json, panel '2017 Audi R8 V10 Plus'"). See DATA_GUIDE "Sources".
+     */
+    ownerCopy: z.string().min(1).optional(),
     accessed: isoDate,
   })
-  .strict();
+  .strict()
+  .refine((s) => s.url !== undefined || s.ownerCopy !== undefined, { message: 'needs a url or an ownerCopy' });
 
 export const DiscrepancySchema = z
   .object({

@@ -1,0 +1,191 @@
+{
+  "id": "aston-martin-v8-vantage-2009-2016",
+  "manufacturer": "Aston Martin",
+  "model": "V8 Vantage",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Aston Martin V8 Vantage (2009–2016)",
+  "aliases": [
+    "4.7 Vantage",
+    "V8 Vantage 4.7",
+    "Aston V8 Vantage",
+    "2009 V8 Vantage",
+    "2010 V8 Vantage",
+    "2011 V8 Vantage",
+    "2012 V8 Vantage",
+    "2013 V8 Vantage",
+    "2014 V8 Vantage",
+    "2015 V8 Vantage",
+    "2016 V8 Vantage",
+    "Sportshift",
+    "Sportshift II"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2009,
+      "endYear": 2016
+    },
+    "sourceId": "edmunds-v8-vantage-2009",
+    "note": "US model years 2009-2016 (owner decision, 8 October 2026). First: Edmunds lists the 2009 V8 Vantage with a '4.7 L' engine and '420 hp @ 7,300 rpm'; the 2006-2008 cars are the 4.3-litre record. Last: Edmunds' 2016 page still lists '2dr Coupe (4.7L 8cyl 6M)' and '(7AM)' (edmunds-v8-vantage-2016), and Cars.com's 2016 V8 Vantage page lists the '2dr Cpe' at '420 hp' and 'Base Curb Weight 3,595 lbs' (carscom-v8-vantage-2016). Excluded: the V8 Vantage S (its own record), the V8 Vantage Roadster (sold under its own name), and the separately named N420 (2011-2012) and GT (2015-2016; Edmunds lists 'GT 2dr Coupe' on its 2015 and 2016 pages, edmunds-v8-vantage-2015) trims. UK build of the 4.7 began in 2008 (automobile-sportive: 'V8 Vantage 4.7 (2008 - )')."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carscom-v8-vantage-2014-coupe",
+    "note": "Cars.com: '2dr Cpe', '2-door'. The V8 Vantage Roadster is sold under its own name and is not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "automobile-sportive-v8-vantage-4-7",
+      "note": "automobile-sportive: 'Cylindrée (cm3): 4735', V8."
+    },
+    "displacementL": {
+      "value": 4.7,
+      "sourceId": "automobile-sportive-v8-vantage-4-7",
+      "note": "4,735 cc. automobile-sportive (Sébastien Dupuis): 'Cylindrée (cm3): 4735'; Cars.com: 'Displacement 4.7 L/289' (carscom-v8-vantage-2014-coupe)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "automobile-sportive-v8-vantage-4-7",
+      "note": "Inferred: 4.7-litre V8 described with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-v8-vantage-2009",
+    "note": "Edmunds: V8, gas."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carscom-v8-vantage-2014-coupe",
+    "note": "Cars.com: 'Rear Wheel Drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual",
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "edmunds-v8-vantage-2011",
+    "note": "From Edmunds' style lists (database). 2011: '2dr Coupe (4.7L 8cyl 6M)' and '2dr Coupe (4.7L 8cyl 6AM)'; 2012: '2dr Coupe (4.7L 8cyl 7AM)' (edmunds-v8-vantage-2012); 2014 and 2016: '6M' and '7AM' (edmunds-v8-vantage-2014, edmunds-v8-vantage-2016). The automated manuals are Aston's Sportshift (6-speed) and Sportshift II (7-speed). automobile-sportive: '6 manuelle ou robotisée'."
+  },
+  "powerHp": {
+    "value": 420,
+    "sourceId": "carscom-v8-vantage-2014-coupe",
+    "note": "PROVISIONAL (databases; no Aston Martin page or magazine panel for the 4.7 coupe was found). Quote (Cars.com, 2014 V8 Vantage 2dr Cpe): \"Horsepower 420 hp\". Edmunds 2009 (style shown is the Roadster, same engine): \"Horsepower | 420 hp @ 7,300 rpm\" (edmunds-v8-vantage-2009). automobile-sportive (Sébastien Dupuis, European car): \"Puissance maxi (ch à tr/mn): 420 à 7000\" (automobile-sportive-v8-vantage-4-7); that is 420 metric ch (PS), about 414 hp, so it corroborates the European rating rather than the US hp figure. Cars.com 2016 2dr Cpe also gives '420 hp' (carscom-v8-vantage-2016). Same rating in every year 2009-2016."
+  },
+  "weightLb": {
+    "value": 3595,
+    "sourceId": "iseecars-v8-vantage-2009",
+    "note": "PROVISIONAL (databases, with a named-author page giving the same figure). Coupe. Quote (iSeeCars, 2009 V8 Vantage): \"2dr Coupe\" \"Curb Weight 3595 lbs\". Cars.com 2014 2dr Cpe: \"Base Curb Weight 3,595 lbs\" (carscom-v8-vantage-2014-coupe); iSeeCars 2014: 2dr Coupe 3595 lbs (iseecars-v8-vantage-2014); Cars.com 2016 2dr Cpe: \"Base Curb Weight 3,595 lbs\" (carscom-v8-vantage-2016). 3,595 lb = 1,630 kg; automobile-sportive (Sébastien Dupuis) gives \"Données constructeur (kg): 1630\" for the European V8 Vantage 4.7 (automobile-sportive-v8-vantage-4-7). The databases do not say which transmission. The earlier conflict (Edmunds 3,770 lb) was the Roadster: Edmunds 2009/2014 show 'Roadster 2dr Convertible' at 'Curb weight | 3,770 lbs.'"
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2009,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "edmunds-v8-vantage-2009",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2009 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2009/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2011",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2011 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2011/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2012",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2012 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2012/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2014",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2014 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2014/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2016",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2016 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2016/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "carscom-v8-vantage-2014-coupe",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2014 Aston Martin V8 Vantage 2dr Cpe specs",
+      "url": "https://www.cars.com/research/aston_martin-v8_vantage-2014/specs/365174/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "carscom-v8-vantage-2016",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2016 Aston Martin V8 Vantage specs",
+      "url": "https://www.cars.com/research/aston_martin-v8_vantage-2016/specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2015",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2015 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2015/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "iseecars-v8-vantage-2009",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2009 Aston Martin V8 Vantage specs",
+      "url": "https://www.iseecars.com/car/2009-aston_martin-v8_vantage-specs",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "iseecars-v8-vantage-2014",
+      "type": "database",
+      "publisher": "iSeeCars",
+      "title": "2014 Aston Martin V8 Vantage specs",
+      "url": "https://www.iseecars.com/car/2014-aston_martin-v8_vantage-specs",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "automobile-sportive-v8-vantage-4-7",
+      "type": "enthusiast",
+      "publisher": "automobile-sportive.com",
+      "title": "Aston Martin V8 Vantage 4.7 (Sébastien Dupuis)",
+      "url": "https://www.automobile-sportive.com/guide/astonmartin/v8vantage4l7.php",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (420 hp) rests on Cars.com and Edmunds (databases), with automobile-sportive (European car, 420 metric ch, about 414 hp) close. Weight (3,595 lb) rests on iSeeCars and Cars.com (databases), with automobile-sportive's 1,630 kg 'manufacturer data' (European) matching; transmissions rest on Edmunds' style lists. An Aston Martin US press kit or brochure, or a major magazine specification panel (Evo, Autocar, Car and Driver, Road & Track, MotorTrend) for the 4.7-litre V8 Vantage coupe, would replace them."
+}

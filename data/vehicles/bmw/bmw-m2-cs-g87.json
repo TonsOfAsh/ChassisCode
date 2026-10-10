@@ -1,0 +1,130 @@
+{
+  "id": "bmw-m2-cs-g87",
+  "manufacturer": "BMW",
+  "model": "M2",
+  "generation": "G87",
+  "variant": "CS",
+  "subVariant": null,
+  "displayName": "BMW M2 CS (G87)",
+  "aliases": [
+    "G87 M2 CS",
+    "M2 CS G87",
+    "2026 M2 CS",
+    "S58",
+    "M Steptronic"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2026,
+      "endYear": 2026
+    },
+    "sourceId": "bmw-us-2026-m2-cs",
+    "note": "One US model year, 2026. BMW NA's release is titled 'The new 2026 BMW M2 CS': production 'starts in August 2025', 'the M2 CS will be produced in limited numbers'. Autoevolution (Mircea Panait, 20 September 2026; autoevolution-m2-cs-production): 'The final car left the San Luis Potosi factory on July 29, 2026', and its US pricing refers to 'the 2026 model year M2 CS for the United States of America' ('the United States took 770 cars')."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-2026-m2-cs",
+    "note": "Doors/seats '2 / 4'. C/D panel: '2-door coupe'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "cd-2026-m2-cs",
+      "note": "C/D panel: 'twin-turbocharged and intercooled DOHC 24-valve inline-6'."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2026-m2-cs",
+      "note": "2,993 cc ('Capacity (cc) | 2,993'); C/D panel: 'Displacement: 183 in3, 2993 cm3'."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2026-m2-cs",
+      "note": "'a pair of mono-scroll turbochargers, each feeding three cylinders'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2026-m2-cs",
+    "note": "Inferred from the panel's description: 'direct fuel injection' gasoline inline-6."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "bmw-us-2026-m2-cs",
+    "note": "BMW: the car 'sends its power to the rear wheels'; C/D panel: 'front-engine, rear-wheel-drive'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2026-m2-cs",
+    "note": "'Type | 8-speed M STEPTRONIC transmission with Drivelogic' (torque-converter automatic), standard and only transmission; no manual was offered (C/D panel tested the '8-speed automatic')."
+  },
+  "powerHp": {
+    "value": 523,
+    "sourceId": "bmw-us-2026-m2-cs",
+    "note": "Quote: \"Max output (hp @ rpm) | 523 @ 6,250\". C/D panel (cd-2026-m2-cs): \"Power: 523 hp @ 6250 rpm\"."
+  },
+  "weightLb": {
+    "value": 3770,
+    "sourceId": "bmw-us-2026-m2-cs",
+    "note": "2026 M2 CS, the only configuration (8-speed automatic, rear-wheel drive), manufacturer step 1. Quote: \"Curb weight (lbs) | 3,770\". Car and Driver's road-test panel gives 3,725 lb (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2026-m2-cs",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The new 2026 BMW M2 CS (press release)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0450429EN_US/the-new-2026-bmw-m2-cs",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2026-m2-cs",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2026 BMW M2 CS",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2026 BMW M2 CS'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "autoevolution-m2-cs-production",
+      "type": "publication",
+      "publisher": "autoevolution",
+      "title": "The G87 BMW M2 CS leaves behind 2,882 examples (Mircea Panait)",
+      "url": "https://www.autoevolution.com/news/the-g87-bmw-m2-cs-leaves-behind-2882-examples-275872.html",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3770,
+          "sourceId": "bmw-us-2026-m2-cs"
+        },
+        {
+          "value": 3725,
+          "sourceId": "cd-2026-m2-cs"
+        }
+      ],
+      "reason": "Manufacturer curb weight vs Car and Driver's road-test curb weight ('Curb Weight: 3725 lb') of a test car with carbon-ceramic brakes, the only option besides paint.",
+      "resolution": "Used 3,770 lb: a manufacturer curb weight for the standard car exists (weight step 1), so the step-2 panel figure is not used."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,141 @@
+{
+  "id": "porsche-718-cayman-982",
+  "manufacturer": "Porsche",
+  "model": "718 Cayman",
+  "generation": "982",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Porsche 718 Cayman (982)",
+  "aliases": [
+    "982 Cayman",
+    "718 Cayman",
+    "Cayman 982",
+    "base 718 Cayman",
+    "2.0 turbo",
+    "PDK",
+    "2017 718 Cayman"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2017,
+      "endYear": 2025
+    },
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "US model years 2017 to 2025. First: PCNA: \"With the 2017 718 Cayman, Porsche is introducing the third generation of the mid-engine sports coupe.\" Last: Kelley Blue Book's 2025 page lists the base 718 Cayman with '300 horsepower' and says 'production of the 718 Boxster and 718 Cayman is set to end' in 'October 2025' (kbb-2025-718-cayman). No opened Porsche page states that 2025 was the last US model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Porsche: 'mid-engine sports coupe'. C/D calls it a '2-door hatchback' (rear hatch); the guide files such cars as Coupe. The open car is sold under its own name (718 Boxster)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "pcna-2017-718-cayman-us-press",
+      "note": "'Type Turbocharged flat four-cylinder engine'."
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "pcna-2017-718-cayman-us-press",
+      "note": "1,988 cc ('Displacement 1,988 cm3'); C/D panel: '121 in3, 1988 cm3'."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "pcna-2017-718-cayman-us-press",
+      "note": "'Engine charging Single turbocharger'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2017-718-cayman-manual",
+    "note": "Inferred from the panel's description ('direct fuel injection' gasoline flat-4)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "'Drive system Mid-engine, rear-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "'Six-speed manual transmission with single-disc clutch and dual-mass flywheel' and 'optional seven-speed Doppelkupplungsgetriebe (PDK)'. DCT is Porsche PDK. For 2025 KBB lists PDK as standard with the manual an option."
+  },
+  "powerHp": {
+    "value": 300,
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Quote: \"Max. power output 300 hp\"; 'two-liter, turbocharged flat four-cylinder engine delivering 300 hp'. Still 300 hp for 2025 (kbb-2025-718-cayman: 'making an ample 300 horsepower'). C/D panel (cd-2017-718-cayman-manual): \"Power: 300 hp @ 6500 rpm\"."
+  },
+  "weightLb": {
+    "value": 2944,
+    "sourceId": "pcna-2017-718-cayman-us-press",
+    "note": "Coupe with the 6-speed manual, manufacturer step 1. Porsche labels it 'Unladen weight per DIN' (without driver). Quote: \"Unladen weight per DIN 2,944/3,010 pounds\" (Manual/PDK). The same figures appear on PCNA's spec sheet (pcna-718-cayman-us-specs): \"2944 / 3010 lbs.\". PDK is 3,010 lb. Car and Driver's 2017 manual road-test panel gives 3,064 lb (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2017,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2017-718-cayman-us-press",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "Porsche 718 Cayman U.S. Press Information",
+      "url": "https://newsroom.porsche.com/dam/jcr:86a2a46d-fa29-42ef-8480-5d50a8d9974d/PCNA18_0111_us.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "pcna-718-cayman-us-specs",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "718 Cayman and 718 Cayman S technical specifications",
+      "url": "https://newsroom.porsche.com/dam/jcr:2e05fcd8-e8ce-4b60-8611-9ce844a8242e/PCNA18_1003_us.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-2025-718-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Porsche 718 Cayman",
+      "url": "https://www.kbb.com/porsche/718-cayman/2025/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2017-718-cayman-manual",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2017 Porsche 718 Cayman Manual",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2017 Porsche 718 Cayman Manual'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2944,
+          "sourceId": "pcna-2017-718-cayman-us-press"
+        },
+        {
+          "value": 3064,
+          "sourceId": "cd-2017-718-cayman-manual"
+        }
+      ],
+      "reason": "Measurement: Porsche's DIN unladen weight for the standard manual coupe vs Car and Driver's road-test curb weight of an optioned 2017 manual test car ('Curb weight: 3064 lb'; as tested $68,390 vs base $54,950).",
+      "resolution": "Used 2,944 lb: a manufacturer curb weight for the standard car exists (weight step 1)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

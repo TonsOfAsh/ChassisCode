@@ -37,7 +37,7 @@
     "displacementL": {
       "value": 5.2,
       "sourceId": "ford-us-mustang-gtd-2026",
-      "note": "Ford states \"5.2L\". No opened page gives the cc figure."
+      "note": "Ford states \"5.2L\". 5,163 cc: Car and Driver's panel prints \"Displacement: 315 in3, 5163 cm3\" (cd-mustang-gtd-2025)."
     },
     "aspiration": {
       "value": "Supercharged",
@@ -64,12 +64,12 @@
   "powerHp": {
     "value": 815,
     "sourceId": "ford-us-mustang-gtd-2026",
-    "note": "Quote, Ford.com: \"Experience the adrenaline-fueled thrill of 815 HP & a 202 mph top speed with the track-dominating 2026 Ford Mustang® GTD.\" The same rating applied from launch: Carscoops, September 16, 2024, \"The supercharged 5.2-liter V8 engine is now officially rated at 815 hp (608 kW / 826 PS) and 664 lb-ft (900 Nm) of torque\" (source carscoops-gtd-815hp-2024)."
+    "note": "Quote, Ford.com: \"Experience the adrenaline-fueled thrill of 815 HP & a 202 mph top speed with the track-dominating 2026 Ford Mustang® GTD.\" The same rating applied from launch: Carscoops, September 16, 2024, \"The supercharged 5.2-liter V8 engine is now officially rated at 815 hp (608 kW / 826 PS) and 664 lb-ft (900 Nm) of torque\" (source carscoops-gtd-815hp-2024). Car and Driver's road-test panel for the 2025 car agrees: \"Power: 815 hp @ 7400 rpm\" (cd-mustang-gtd-2025)."
   },
   "weightLb": {
-    "value": 4340,
-    "sourceId": "autoweek-gtd-weight-2025",
-    "note": "PROVISIONAL, a single article quoting a Ford statement. Base car. Quote (Autoweek, Wesley Wren, February 21, 2025): \"Mustang GTD, the first car from an American brand to lap the Nürburgring in under 7 minutes, has a base curb weight of approximately 4,340 lbs.\" (attributed to Ford). The same article reports the EPA certification figure: \"the EPA certification sheet pegs the Mustang GTD's curb weight at 4,343 pounds\" (0.1% apart; the EPA document itself was not opened). Ford.com gives no figure (\"It weighs the perfect amount ... 'less.'\"). MotorTrend weighed an optioned test car ($438,200 as tested) at 4,411 lb, a tested figure for a heavier car, 1.6% above (source motortrend-gtd-test-2026)."
+    "value": 4404,
+    "sourceId": "cd-mustang-gtd-2025",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md); a measured weight of C/D's test car. Car and Driver road-test panel '2025 Ford Mustang GTD' (owner copy), quote: \"Curb Weight: 4404 lb\". Test car: \"front-engine, rear-wheel-drive, 2-passenger, 2-door coupe\", \"8-speed dual-clutch automatic\" (the only transmission), \"Base/As Tested: $327,960/$367,960\", \"Options: Performance package, $40,000\", so it is not a base car. Earlier provisional figure: Ford's \"base curb weight of approximately 4,340 lbs\" (Autoweek, Wesley Wren, 21 February 2025), 1.5% lower; the same article reports an EPA certification figure of 4,343 lb; MotorTrend weighed an optioned car at 4,411 lb. See discrepancies."
   },
   "specBasis": {
     "market": "US",
@@ -110,13 +110,43 @@
       "title": "Tested: The Mustang GTD's Numbers Aren't Astonishing, but Its Performance Is",
       "url": "https://autos.yahoo.com/new-vehicles-and-reviews/articles/tested-mustang-gtd-numbers-aren-130000256.html",
       "accessed": "2026-10-05"
+    },
+    {
+      "id": "cd-mustang-gtd-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Ford Mustang GTD",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Ford Mustang GTD'",
+      "accessed": "2026-10-09"
     }
   ],
-  "discrepancies": [],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "4,404 lb, C/D road-test curb weight (2025 car with Performance package)",
+          "sourceId": "cd-mustang-gtd-2025"
+        },
+        {
+          "value": "approximately 4,340 lb, Ford base curb weight as reported",
+          "sourceId": "autoweek-gtd-weight-2025"
+        },
+        {
+          "value": "4,343 lb, EPA certification figure as reported",
+          "sourceId": "autoweek-gtd-weight-2025"
+        },
+        {
+          "value": "4,411 lb, tested (optioned car)",
+          "sourceId": "motortrend-gtd-test-2026"
+        }
+      ],
+      "reason": "Configuration and method: Ford's approximate base-car figure and the EPA figure vs measured weights of optioned test cars (C/D's car had the $40,000 Performance package). They span 1.6%.",
+      "resolution": "Owner decision, 9 October 2026: the Car and Driver road-test curb weight is used (docs/DATA_GUIDE.md, Weight step 2). 4,404 lb used; the earlier 4,340 lb was the provisional figure."
+    }
+  ],
   "needsReview": false,
-  "confidence": "low",
+  "confidence": "medium",
   "image": null,
-  "dailyEligible": false,
-  "provisional": true,
-  "provisionalNote": "Weight is provisional: 4,340 lb rests on a single article (Autoweek, 21 February 2025) quoting a Ford spokesperson's \"approximately 4,340 lbs\", with the EPA certification figure of 4,343 lb reported in the same article. A Ford specification sheet with the GTD curb weight, or a major magazine's specification panel giving the manufacturer figure, would replace it. Power (815 hp) is from Ford.com."
+  "dailyEligible": true
 }

@@ -1,0 +1,154 @@
+{
+  "id": "ferrari-f50",
+  "manufacturer": "Ferrari",
+  "model": "F50",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari F50",
+  "aliases": [
+    "F 50",
+    "Tipo F130",
+    "F130",
+    "1996 Ferrari F50"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1995,
+      "endYear": 1997
+    },
+    "sourceId": "evo-f50",
+    "note": "Evo: 'Just 349 were built between 1995 and 1997'. These are build years; US MODEL years are UNCONFIRMED (the guide wants US model years for a US-market record). Evidence: RM Sotheby's sells a '1995 Ferrari F50', 'one of just 55 US-delivery examples', 'Completed on 21 December 1995' (rm-f50); Car and Driver tested a '1996 Ferrari F50' (read by the project owner on 9 October 2026 (the site blocks the research tools), caranddriver-f50-1996-test)."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "evo-f50",
+    "note": "Two-seat mid-engined open car; Evo: it 'wasn't a fixed-head coupe', with a removable Targa panel. No fixed-roof version, and Ferrari did not sell it as a Targa, so Roadster. Car and Driver's test (owner-read) calls it a roadster."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "evo-f50",
+      "note": "Evo panel: 'Engine: 4698cc, V12'."
+    },
+    "displacementL": {
+      "value": 4.7,
+      "sourceId": "evo-f50",
+      "note": "4,698 cc. Evo panel: '4698cc, V12'; Car and Driver test panel (owner-read): 'Displacement: 287 in3, 4698 cm3'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-f50",
+      "note": "Evo: 'the most glorious naturally aspirated V12'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-f50",
+    "note": "Petrol V12; inferred from the description."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-f50",
+    "note": "Mid-mounted V12 driving the rear wheels; inferred from the description."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "evo-f50",
+    "note": "Evo: 'six-speed manual 'box'; Car and Driver test panel (owner-read): '6-speed manual'."
+  },
+  "powerHp": {
+    "value": 513,
+    "sourceId": "caranddriver-f50-1996-test",
+    "note": "Owner decision, 9 October 2026: Car and Driver's values are used. Car and Driver test panel for a 1996 F50, read by the project owner on 9 October 2026 (the site blocks the research tools): \"Power: 513 hp @ 8500 rpm\". This equals Ferrari's metric rating converted (520 PS x 0.98632 = 513 hp): auto.cz (Karel Haas, 2006): \"Maximální výkon motoru | 383 kW (520 k) / 8500 min-1\" (autocz-f50). Evo's specification panel: \"Power: 513bhp @ 8500rpm\" (evo-f50). RM Sotheby's, US-delivery car: 'the high-compression V-12 in the F50 developed 513 horsepower' (rm-f50). No separate US SAE rating was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 3080,
+    "sourceId": "caranddriver-f50-1996-test",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md). Owner decision, 9 October 2026: Car and Driver's tested figure used. Car and Driver test panel for a 1996 F50, read by the project owner on 9 October 2026 (the site blocks the research tools): \"Curb Weight: 3080 lb\" (a measured weight of the test car, labelled tested). No other figure agrees within 2%: the widely printed 1,230 kg (2,712 lb) is labelled dry by some sources and kerb by others, and Sports Car Bible's 1,320 kg (2,910 lb) is unlabelled; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1996,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "caranddriver-f50-1996-test",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "Archive Test: How Fast Is a Ferrari F50? (C/D test results)",
+      "url": "https://www.caranddriver.com/reviews/a71177435/1996-ferrari-f50-archive-test/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "evo-f50",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari F50 – review, history, prices and specs",
+      "url": "https://www.evo.co.uk/ferrari/f50",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "rm-f50",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "1995 Ferrari F50 (Monterey 2024, lot)",
+      "url": "https://rmsothebys.com/auctions/mo24/lots/r0206-1995-ferrari-f50/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "autocz-f50",
+      "type": "publication",
+      "publisher": "auto.cz",
+      "title": "Ferrari F50 – formule na ulici (Karel Haas, 21 August 2006)",
+      "url": "https://www.auto.cz/ferrari-f50-formule-na-ulici-1386",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ultimatespecs-f50",
+      "type": "database",
+      "publisher": "ultimatespecs.com",
+      "title": "Ferrari F50 4.7 V12 Specs",
+      "url": "https://www.ultimatespecs.com/car-specs/Ferrari/3652/Ferrari-F50-47-V12.html",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,080 lb curb, tested (1,397 kg), 1996 car",
+          "sourceId": "caranddriver-f50-1996-test"
+        },
+        {
+          "value": "1,230 kg (2,712 lb), unlabelled 'Weight: 1230kg'",
+          "sourceId": "evo-f50"
+        },
+        {
+          "value": "1,230 kg labelled kerb: 'Pohotovostní hmotnost | 1230 kg'",
+          "sourceId": "autocz-f50"
+        },
+        {
+          "value": "1,230 kg labelled dry: 'Dry Weight : 2712 lbs / 1230 kg'",
+          "sourceId": "ultimatespecs-f50"
+        }
+      ],
+      "reason": "Basis unknown. 1,230 kg is about 12% below Car and Driver's scale weight and is called dry by one source and kerb by another, so it is probably a dry weight; Sports Car Bible's 1,320 kg is unlabelled and unattributed. A forum post (not citable) says the owner's manual lists 2,712 lb. Sports Car Bible (an enthusiast site, not cited in a full record) prints an unlabelled 2,910 lb / 1,320 kg.",
+      "resolution": "Owner decision, 9 October 2026: Car and Driver's tested figure used. A Ferrari figure, if found, would take priority (step 1)."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "US model years are unconfirmed: production 1995-1997 are build years (Evo); a US-delivery car is titled 1995 (RM Sotheby's) and Car and Driver tested a 1996 car.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

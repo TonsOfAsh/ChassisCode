@@ -69,12 +69,12 @@
   "powerHp": {
     "value": 241,
     "sourceId": "vw-us-2022-golf-gti-r-chicago",
-    "note": "Quote: \"produces 241 horsepower\". Volkswagen's GTI press kit repeats 'produces 241 horsepower at 5,000 rpm' (vw-us-golf-gti-model-page)."
+    "note": "Quote: \"produces 241 horsepower\". Volkswagen's GTI press kit repeats 'produces 241 horsepower at 5,000 rpm' (vw-us-golf-gti-model-page). Car and Driver's road-test panel agrees: \"Power: 241 hp @ 6500 rpm\" (cd-golf-gti-s-2022)."
   },
   "weightLb": {
-    "value": 3113,
-    "sourceId": "cars-com-2022-gti-s-manual",
-    "note": "PROVISIONAL, from databases. GTI S with the 6-speed manual (the standard car). Cars.com: \"Base Curb Weight: 3,113 lbs\" (2.0T S Manual, 'Transmission Options: M/T 6-Speed M/T'). MotorMatchup gives the same: \"Curb Weight: 3,113 lbs\" for the 2022 Golf GTI 2.0T S Manual (motormatchup-2022-gti-s-manual). The two databases likely draw on the same data supplier. Edmunds lists 3,190 lb for the SE with the 7-speed DSG, a heavier trim (edmunds-2022-gti-se-dsg)."
+    "value": 3112,
+    "sourceId": "cd-golf-gti-s-2022",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md); a measured weight of C/D's test car. Car and Driver road-test panel '2022 Volkswagen Golf GTI S' (owner copy), quote: \"Curb Weight: 3112 lb\". Test car: GTI S (base trim) with the standard \"6-speed manual\", \"front-engine, front-wheel-drive, 5-passenger, 4-door hatchback\", \"Base/As Tested: $30,540/30,935\", \"Options: Moonstone Gray paint, $395\". The earlier provisional figure, 3,113 lb for the 2022 GTI S manual (Cars.com and MotorMatchup, databases), is 1 lb higher. C/D's DSG-equipped Autobahn panels (2022: 3,299 lb; 2025: 3,293 lb) are a heavier trim and transmission and are not used."
   },
   "specBasis": {
     "market": "US",
@@ -123,13 +123,39 @@
       "title": "2022 Volkswagen Golf GTI features & specs",
       "url": "https://www.edmunds.com/volkswagen/golf-gti/2022/features-specs/",
       "accessed": "2026-10-03"
+    },
+    {
+      "id": "cd-golf-gti-s-2022",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2022 Volkswagen Golf GTI S",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2022 Volkswagen Golf GTI S'",
+      "accessed": "2026-10-09"
     }
   ],
-  "discrepancies": [],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,112 lb, C/D road-test curb weight (2022 GTI S manual)",
+          "sourceId": "cd-golf-gti-s-2022"
+        },
+        {
+          "value": 3113,
+          "sourceId": "cars-com-2022-gti-s-manual"
+        },
+        {
+          "value": 3113,
+          "sourceId": "motormatchup-2022-gti-s-manual"
+        }
+      ],
+      "reason": "Rounding or test-car variation: 1 lb apart. Edmunds' 3,190 lb (edmunds-2022-gti-se-dsg) is for the SE with the DSG, a heavier configuration.",
+      "resolution": "Owner decision, 9 October 2026: the Car and Driver road-test curb weight is used (docs/DATA_GUIDE.md, Weight step 2). 3,112 lb used; the earlier 3,113 lb was the provisional figure."
+    }
+  ],
   "needsReview": false,
-  "confidence": "low",
+  "confidence": "medium",
   "image": null,
-  "dailyEligible": false,
-  "provisional": true,
-  "provisionalNote": "Weight is provisional: 3,113 lb rests on Cars.com and MotorMatchup (databases) for the 2022 GTI S manual. A Volkswagen of America technical-specifications sheet or a major magazine's spec panel giving the manual GTI S curb weight would replace it."
+  "dailyEligible": true
 }

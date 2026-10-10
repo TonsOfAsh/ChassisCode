@@ -80,69 +80,6 @@
       "notes": "Hagerty's buyer's guide gives 2,027 cars for 2005 and 2,011 for 2006. 3 October 2026 provisional pass: weak sources disagree by about 4% (Edmunds 3,475 lb; Cars.com and KBB 3,350 lb; duPont Registry 3,485 lb unlabelled), so it stays held. 5 October 2026: AutoPadre (owner) gives 3,350 lb, unsourced, one more vote. A forum post says Ford's press-kit PDF lists 3,350 lb on page 21 (no link). Would resolve: Ford's 2005 GT press kit, or the 2006 Ford GT brochure at auto-brochures.com/makes/Ford/GT/Ford_US%20GT_2006.pdf (rate-limited when tried)."
     },
     {
-      "id": "ferrari-enzo",
-      "displayName": "Ferrari Enzo",
-      "heldSince": "2026-10-01",
-      "missing": "A settled curb weight and US model years. Three kerb figures exist: 1,480 kg (Evo panel, used in the draft), 1,365 kg (usually attributed to Ferrari, seen only in auto-filled panels) and 3,230 lb (Hagerty, US car). The draft record is EU-market with calendar years 2002-2004, unlike the other Ferraris; US model years were not sourced.",
-      "record": "data/held/ferrari-enzo.json",
-      "notes": "660 cv = 651 hp (ferrari.com magazine article). 6-speed automated manual, V12 5,998 cc, dry weight 1,255 kg per Ferrari. 3 October 2026 provisional pass: two named-author outlets (auto.cz, Michal Razim; km77, Victor M. Fernandez) give a kerb weight of 1,365 kg, which conflicts with Evo's panel figure of 1,480 kg (8% apart, both step 2); stays held until one is shown to be right. US model year appears to be 2003 only (EPA via MPG Buddy, Hagerty). 5 October 2026: ultimatespecs (owner) gives 1,365 kg curb and 1,255 kg dry; Supercars.net 1,365 and 1,370 kg; forcar.org page not found. Still two camps (1,365 vs Evo 1,480 / Hagerty US 3,230 lb). Would resolve: Ferrari's 2002 Enzo press kit with a kerb weight, or a 2003 US road test (Road & Track, Car and Driver, Motor Trend) giving curb weight."
-    },
-    {
-      "id": "ferrari-laferrari",
-      "displayName": "Ferrari LaFerrari",
-      "heldSince": "2026-10-01",
-      "missing": "A qualifying curb weight. Ferrari's release gives no weight, and the four magazine figures found disagree.",
-      "confirmed": {
-        "body": [
-          "Coupe"
-        ],
-        "engine": "V12",
-        "displacementL": 6.3,
-        "cc": 6262,
-        "aspiration": "Naturally Aspirated",
-        "fuel": "Hybrid",
-        "drivetrain": "RWD",
-        "transmission": [
-          "7-speed DCT"
-        ],
-        "powerHp": 950,
-        "powerQuote": "Total maximum power: 963 CV (Ferrari Geneva 2013 release, reproduced at https://www.2luxury2.com/?p=45214 and https://www.supercars.net/blog/?p=370141); 963 x 0.98632 = 950 hp"
-      },
-      "weightCandidates": [
-        {
-          "lb": 2767,
-          "source": "1,255 kg dry (supercars.net, rossoautomobili.com); not seen on a Ferrari page"
-        },
-        {
-          "lb": 3109,
-          "source": "1,410 kg, Motor Sport, Andrew Frankel: 'a proper, comparable with fluids kerb weight' https://www.motorsportmagazine.com/archive/article/july-2014/62/laferrari"
-        },
-        {
-          "lb": 3142,
-          "source": "1,425 kg, CAR Magazine body text https://www.carmagazine.co.uk/car-reviews/ferrari/ferrari-laferrari-2014-review"
-        },
-        {
-          "lb": 3153,
-          "source": "1,430 kg, MOTOR (Australia) spec panel, Georg Kacher https://whichcar.com.au/reviews/ferrari-laferrari-review"
-        }
-      ],
-      "notes": "499 built; calendar years 2013-2016 from one unsigned source. US model years not sourced. 3 October 2026 provisional pass: KBB 2,976 lb vs magazines 1,410-1,430 kg (3,109-3,153 lb); stays held. US model years: EPA via MPG Buddy rates 2014 only; KBB also lists 2015. 5 October 2026: ultimatespecs and dimensions.com (owner) give 1,585 kg, but ultimatespecs prints the same for the Aperta, so it looks copied; 11-12% above the magazines. Would resolve: a Ferrari document with a kerb weight, or an Evo / Autocar / Car and Driver spec panel labelled kerb or curb."
-    },
-    {
-      "id": "tesla-model-3-performance",
-      "displayName": "Tesla Model 3 Performance (2018-2023)",
-      "heldSince": "2026-10-03",
-      "missing": "Any Tesla horsepower rating and curb weight; Tesla did not publish hp for these years.",
-      "notes": "3 October 2026 provisional pass: horsepower sources disagree widely (450-487 hp) and 2021 weights disagree (Cars.com 4,250 vs KBB 4,065 lb); stays held. 2018 weight 4,072 lb (Cars.com and KBB) agrees. 5 October 2026: the owner's 510 hp is for the new (2024 on, 'Highland') Performance, now a separate provisional record (tesla-model-3-performance-highland). This 2018-2023 car still has no Tesla hp rating."
-    },
-    {
-      "id": "rivian-r1t-quad-motor",
-      "displayName": "Rivian R1T Quad-Motor",
-      "heldSince": "2026-10-03",
-      "missing": "Rivian horsepower and any qualifying curb weight.",
-      "notes": "MotorWeek: 835 hp total. 3 October 2026 provisional pass: weights disagree by 2.9% (7,148 vs 6,949 lb); 835 hp everywhere but no Rivian page. A future record should cover only the Gen 1 Quad (2022-2024). 5 October 2026: 7,148 lb (AutoPadre, owner) is Edmunds' scale weight from its 2021 test ('The R1T weighed in at 7,148 pounds'), applied by AutoPadre to every trim; 6,949 lb (dimensions.com) is unsourced. Would resolve: Rivian's own curb weight for the 2022-2024 R1T Quad-Motor, or a magazine spec panel giving curb (not tested) weight."
-    },
-    {
       "id": "chevrolet-camaro-ss-4th-gen",
       "displayName": "Chevrolet Camaro SS (4th gen, 1998-2002)",
       "heldSince": "2026-10-04",
@@ -171,32 +108,11 @@
       "notes": "Two year ranges (3.0 L 1976-77, 3.3 L 1978-79); US brochures are scanned and unreadable."
     },
     {
-      "id": "aston-martin-v8-vantage-4-7",
-      "displayName": "Aston Martin V8 Vantage (4.7, 2009 on)",
-      "heldSince": "2026-10-05",
-      "missing": "Power and weight from Aston or a magazine, and the US end year. Weight sources disagree (1,630 kg AstonMartins.com vs Edmunds 3,770 lb, which is the Roadster).",
-      "notes": "420 bhp (AstonMartins.com, Supercars.net, Edmunds), 4,735 cc."
-    },
-    {
-      "id": "ferrari-f50",
-      "displayName": "Ferrari F50",
-      "heldSince": "2026-10-05",
-      "missing": "A settled weight. Evo's unlabelled 1,230 kg (called dry only by an unsigned dealer page) and Sports Car Bible's 1,320 kg differ by about 7%.",
-      "notes": "513 hp (Evo panel, RM Sotheby's), 4,698 cc V12, 6-speed manual; 349 built 1995-1997, 55 delivered new to the US. Draft record kept in the batch 10 working folder."
-    },
-    {
       "id": "ferrari-575m-maranello",
       "displayName": "Ferrari 575M Maranello",
       "heldSince": "2026-10-05",
       "missing": "A labelled weight from Ferrari or a major magazine panel (weak sources 1,730 vs 1,678 kg, ~3% apart).",
-      "notes": "Power 515 cv (508 hp) per ferrari.com; 5,750 cc V12; US model years 2002-2006 (Conceptcarz); 6-speed manual or F1."
-    },
-    {
-      "id": "ferrari-550-maranello",
-      "displayName": "Ferrari 550 Maranello",
-      "heldSince": "2026-10-05",
-      "missing": "A Ferrari spec or major magazine panel, and a source for US model years (it was sold in the US).",
-      "notes": "Power 479 hp (carsales 357.0 kW; C&SC 479 bhp). Weights agree but unlabelled: carsales 1,690 kg, C&SC 1,693 kg, Conceptcarz 1,687 kg. 5,474 cc V12, 6-speed manual, 1996-2001 calendar."
+      "notes": "Power 515 cv (508 hp) per ferrari.com; 5,750 cc V12; US model years 2002-2006 (Conceptcarz); 6-speed manual or F1. 8 October 2026: Edmunds (owner, 3,815 lb) would not load; iSeeCars and AutoPadre give 3,815 lb = 1,730 kg, a copy of the existing figure; still ~3% from Conceptcarz 3,700 lb."
     },
     {
       "id": "bugatti-eb110-gt",
@@ -210,7 +126,7 @@
       "displayName": "Lamborghini Urus Performante",
       "heldSince": "2026-10-05",
       "missing": "Whether 2,150 kg is kerb or dry (Lamborghini's technical sheet); weak sources 2,150 vs 2,200 kg (2.3%).",
-      "notes": "Power 666 CV = 657 hp (lamborghini.com). 3,996 cc twin-turbo V8, 8-speed automatic, AWD, US model years 2023-2024 (KBB)."
+      "notes": "Power 666 CV = 657 hp (lamborghini.com). 3,996 cc twin-turbo V8, 8-speed automatic, AWD, US model years 2023-2024 (KBB). 8 October 2026: AutoPadre's 4,740 lb (owner) is 2,150 kg converted, one more vote; Chasing Cars labels 2,150 kg kerb, GoAuto gives an unlabelled 2,358 kg."
     },
     {
       "id": "lamborghini-diablo-vt",
@@ -224,14 +140,14 @@
       "displayName": "Mercedes-Benz SLR McLaren",
       "heldSince": "2026-10-05",
       "missing": "A coupe curb weight from Mercedes or a magazine panel (KBB 3,748, Conceptcarz 3,734 lb vs Mercedes DIN 1,768 kg, unopened).",
-      "notes": "617 hp agreed (KBB, RM Sotheby's, Conceptcarz, Evo), 5,439 cc supercharged V8."
+      "notes": "617 hp agreed (KBB, RM Sotheby's, Conceptcarz, Evo), 5,439 cc supercharged V8. 8 October 2026: forcar.org's 3,898 lb (owner) is the 1,768 kg DIN figure converted (credited to NHTSA/Transport Canada); still about 4% from KBB 3,748 / Conceptcarz 3,734."
     },
     {
       "id": "mercedes-benz-sl-65-amg-black-series",
       "displayName": "Mercedes-Benz SL 65 AMG Black Series (R230)",
       "heldSince": "2026-10-05",
       "missing": "A US curb weight; 1,870 kg is called an EU unladen weight (includes driver), and AutoGuide implies about 4,300 lb for the US car.",
-      "notes": "About 661 hp (670 PS) in named articles; no MBUSA page found."
+      "notes": "About 661 hp (670 PS) in named articles; no MBUSA page found. 8 October 2026: fastestlaps (owner, 1,896 kg) could not be opened, and it would not be a US figure."
     },
     {
       "id": "shelby-cobra-427",
@@ -283,34 +199,6 @@
       "notes": ""
     },
     {
-      "id": "koenigsegg-ccx",
-      "displayName": "Koenigsegg CCX",
-      "heldSince": "2026-10-05",
-      "missing": "US model years (it was certified and sold in the US).",
-      "notes": "Koenigsegg: 806 bhp, dry 1,280 kg, 4,700 cc; production 2006-2010."
-    },
-    {
-      "id": "koenigsegg-regera",
-      "displayName": "Koenigsegg Regera",
-      "heldSince": "2026-10-05",
-      "missing": "The full US model-year range (EPA data show MY2019-2020; deliveries 2018-2022 per duPont Registry).",
-      "notes": "Koenigsegg: over 1,500 hp (E85), curb 1,590 kg with full tank. No 2016 builds shown; production cars from 2017."
-    },
-    {
-      "id": "toyota-2000gt",
-      "displayName": "Toyota 2000GT",
-      "heldSince": "2026-10-05",
-      "missing": "US model years and a Toyota-published US rating (about 15% were sold in the US).",
-      "notes": "Yamaha: 150 PS (148 hp), 1,120 kg (JAF Mate labels it vehicle weight); sold 1967-1970; 337 built."
-    },
-    {
-      "id": "ford-f-150-raptor-r-3rd-gen",
-      "displayName": "Ford F-150 Raptor R (3rd gen)",
-      "heldSince": "2026-10-06",
-      "missing": "A Ford curb weight for a 720-hp year (2024 on) or a magazine spec panel. Ford's approximate 5,950 lb (2023, via Ford Authority) vs Roadblazing 6,077 lb (2023) and The Autopian's unlabelled 6,090 lb (2025).",
-      "notes": "720 hp from 2024 (Ford tech specs; 700 hp in 2023), 5.2 supercharged V8, 10-speed automatic, 4WD, SuperCrew only."
-    },
-    {
       "id": "gmc-syclone",
       "displayName": "GMC Syclone (1991)",
       "heldSince": "2026-10-06",
@@ -329,7 +217,7 @@
       "displayName": "Audi R8 GT (Type 42 / 1st gen)",
       "heldSince": "2026-10-06",
       "missing": "A US curb weight. The 3,362 lb in KBB/iSeeCars is Audi AG's European 1,525 kg relabelled.",
-      "notes": "560 hp, 5.2 V10, 6-speed R tronic, US MY2012 only, 90 US cars (Audi of America release)."
+      "notes": "560 hp, 5.2 V10, 6-speed R tronic, US MY2012 only, 90 US cars (Audi of America release). 8 October 2026: the owner's 3,516 lb (Edmunds) is the 2023 R8 GT (4S), now its own provisional record; this 2012 car is still held."
     },
     {
       "id": "audi-quattro-ur",
@@ -353,13 +241,6 @@
       "notes": "112 hp (Consumer Guide, Grassroots Motorsports), 1,587 cc 4A-GE, 5-speed manual, 1985-87."
     },
     {
-      "id": "bugatti-divo",
-      "displayName": "Bugatti Divo",
-      "heldSince": "2026-10-06",
-      "missing": "A Divo-specific weight: the 1,995 kg in Evo (unbylined) and a database equals the Chiron's figure, while Bugatti says the Divo is 35 kg lighter.",
-      "notes": "1,500 PS (1,479 hp) per Bugatti; US MY2020 (EPA); 40 built."
-    },
-    {
       "id": "mercedes-benz-clk-gtr",
       "displayName": "Mercedes-Benz CLK GTR (road car)",
       "heldSince": "2026-10-06",
@@ -371,7 +252,7 @@
       "displayName": "Bugatti Tourbillon",
       "heldSince": "2026-10-06",
       "missing": "Confirmed deliveries and US model year, and a Bugatti weight.",
-      "notes": "1,800 hp combined, 1,000 hp V16 (Auto123)."
+      "notes": "1,800 hp combined, 1,000 hp V16 (Auto123). 8 October 2026: Bugatti lists 'Mass (DIN) < 1,995 kg' (owner): an upper bound, not a value. Needs an exact figure and confirmed deliveries."
     },
     {
       "id": "porsche-911-gt3-rs-997-1",
@@ -407,6 +288,13 @@
       "heldSince": "2026-10-06",
       "missing": "A settled weight (1987 hatchback 3,131 lb vs 1990 3,062 lb vs 2,827 lb) and the year the rating fell from 225 to 205 hp (1992 or 1993).",
       "notes": "225 hp 5.0 HO (Encycarpedia, Mustang Specs, Steeda)."
+    },
+    {
+      "id": "lotus-emira-2-0t",
+      "displayName": "Lotus Emira 2.0T",
+      "heldSince": "2026-10-09",
+      "missing": "The US rating: the owner's Car and Driver panel ('2024 Lotus Emira 2.0T') says 400 hp and 3,245 lb, but Car and Driver's own first drive (Mike Duff, Aug 2023) and Motor1 give 360 hp for the 2024 US car; Motor Authority says the 400 hp Turbo SE came later. Which car was tested, or the US rating by year.",
+      "notes": "Lotus claims a 3,187 lb curb weight for the 2.0 (C&D first drive). 1,991 cc turbo I4, 8-speed DCT."
     }
   ]
 }

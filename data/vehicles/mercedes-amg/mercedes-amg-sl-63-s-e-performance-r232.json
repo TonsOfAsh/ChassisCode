@@ -1,0 +1,152 @@
+{
+  "id": "mercedes-amg-sl-63-s-e-performance-r232",
+  "manufacturer": "Mercedes-AMG",
+  "model": "SL 63",
+  "generation": "R232",
+  "variant": "S E Performance",
+  "subVariant": null,
+  "displayName": "Mercedes-AMG SL 63 S E Performance (R232)",
+  "aliases": [
+    "SL63 S E Performance",
+    "SL63 E Performance",
+    "R232 SL63 hybrid",
+    "AMG SL 63 hybrid",
+    "M177",
+    "AMG SPEEDSHIFT MCT",
+    "2025 SL63 S E Performance"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "kbb-2025-amg-sl-specs",
+    "note": "US model years. First year rests on Kelley Blue Book (database): the 2025 trim list includes \"Mercedes-AMG SL SL 63 S E Performance\" (805 hp), while the 2024 list (kbb-2024-amg-sl-specs) has only SL 43, SL 55 and SL 63 Touring/Performance trims. No Mercedes-Benz USA page stating the first US model year was found. Still on sale: mbusa.com lists the 2026 model (mbusa-2026-sl63-se); KBB lists it for 2026 (kbb-2026-amg-sl-specs). The non-hybrid SL 63 is a separate record."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "mbusa-2026-sl63-se",
+    "note": "Sold as the \"AMG SL 63 S E PERFORMANCE Roadster\" (\"Passenger capacity 4\"), a soft-top with no fixed-roof version; Roadster as in the SL 63 (R232) record. C/D panel: \"2+2-passenger, 2-door convertible\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-2026-sl63-se",
+      "note": "\"Handcrafted AMG 4.0L V8 biturbo w/rear 150kW electric motor\"."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-2026-sl63-se",
+      "note": "\"4.0L\"; the C/D panel also says \"4.0-liter\" (cd-amg-sl63-se-2026). No cc figure was given on the pages opened."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-2026-sl63-se",
+      "note": "\"V8 biturbo\"; panel: \"twin-turbocharged and intercooled DOHC 32-valve 4.0-liter V-8\"."
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "cd-amg-sl63-se-2026",
+    "note": "Panel: \"5-kWh lithium-ion battery pack; peak charge rate, AC: 3.7 kW\" (chargeable from the grid)."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mbusa-2026-sl63-se",
+    "note": "\"Drive configuration AMG Performance 4MATIC+ all-wheel drive\"; panel: \"front-engine, rear-motor, all-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-2026-sl63-se",
+    "note": "\"Automatic transmission AMG SPEEDSHIFT® MCT 9-speed\" (recorded as Automatic as in the other AMG MCT records). The rear electric motor has its own two-speed gearbox (panel: \"Transmissions: 9-speed automatic/2-speed automatic\")."
+  },
+  "powerHp": {
+    "value": 805,
+    "sourceId": "mbusa-2026-sl63-se",
+    "note": "Combined system output. Quote (mbusa.com, 2026 model): \"Power 805 hp @ 5,500-6,500 rpm\". C/D panel: \"(combined output: 805 hp, 1047 lb-ft; 5-kWh lithium-ion battery pack; peak charge rate, AC: 3.7 kW)\" (cd-amg-sl63-se-2026). KBB 2025: \"805 @ 5500 RPM\" (kbb-2025-amg-sl-specs)."
+  },
+  "weightLb": {
+    "value": 4839,
+    "sourceId": "mbusa-2026-sl63-se",
+    "note": "Manufacturer US curb weight (weight-order step 1), 2026 model, 9-speed MCT (the only transmission). Quote (mbusa.com): \"Curb weight 4,839 lbs\"; no estimate label. Car and Driver's road-test curb weight of a 2026 test car is 4,811 lb (cd-amg-sl63-se-2026; see discrepancies). Reference year 2026: the earliest year with a manufacturer weight; 805 hp has applied since 2025."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-2026-sl63-se",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (mbusa.com)",
+      "title": "2026 AMG SL 63 S E PERFORMANCE Roadster model page",
+      "url": "https://mbusa.com/en/vehicles/model/sl/roadster/sl63er4",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-2025-amg-sl-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Mercedes-Benz Mercedes-AMG SL Specs, Features & Options",
+      "url": "https://www.kbb.com/mercedes-benz/mercedes-amg-sl/2025/specs",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-2024-amg-sl-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2024 Mercedes-Benz Mercedes-AMG SL Specs, Features & Options",
+      "url": "https://www.kbb.com/mercedes-benz/mercedes-amg-sl/2024/specs",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-2026-amg-sl-specs",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2026 Mercedes-Benz Mercedes-AMG SL Specs, Features & Options",
+      "url": "https://www.kbb.com/mercedes-benz/mercedes-amg-sl/2026/specs",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-amg-sl63-se-2026",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2026 Mercedes-AMG SL63 S E Performance",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2026 Mercedes-AMG SL63 S E Performance'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4839,
+          "sourceId": "mbusa-2026-sl63-se"
+        },
+        {
+          "value": 4811,
+          "sourceId": "cd-amg-sl63-se-2026"
+        },
+        {
+          "value": 4850,
+          "sourceId": "kbb-2026-amg-sl-specs"
+        }
+      ],
+      "reason": "Manufacturer US curb weight vs Car and Driver's measured test car (optioned) and Kelley Blue Book's database figure (4,850 lb, the same figure MBUSA gives for the AMG GT 63 S E Performance coupe).",
+      "resolution": "Used the manufacturer figure, 4,839 lb (weight-order step 1). The three figures are within 0.8%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

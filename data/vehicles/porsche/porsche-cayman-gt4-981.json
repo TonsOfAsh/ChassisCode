@@ -1,0 +1,130 @@
+{
+  "id": "porsche-cayman-gt4-981",
+  "manufacturer": "Porsche",
+  "model": "Cayman",
+  "generation": "981",
+  "variant": "GT4",
+  "subVariant": null,
+  "displayName": "Porsche Cayman GT4 (981)",
+  "aliases": [
+    "981 GT4",
+    "Cayman GT4 981",
+    "GT4 981",
+    "981 Cayman GT4",
+    "2016 Cayman GT4"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2016
+    },
+    "sourceId": "stuttcars-2016-cayman-gt4",
+    "note": "One US model year, 2016. Stuttcars (Mark Leofe Capayas, 'Porsche Of The Day: 2016 Porsche Cayman GT4'): 'Produced in limited numbers for just one year'. Car and Driver's panel ('2016 Porsche Cayman GT4', cd-2016-cayman-gt4) and MotorWeek's road test ('2016 Porsche Cayman GT4', motorweek-2016-cayman-gt4) both name the 2016 model year. The 982-generation successor arrived for 2020 (porsche-718-cayman-gt4-982 record). No Porsche page was opened for the years."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cd-2016-cayman-gt4",
+    "note": "C/D panel: '2-door hatchback' (rear hatch); the guide files such cars as Coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "cd-2016-cayman-gt4",
+      "note": "C/D panel: 'DOHC 24-valve flat-6, aluminum block and heads, direct fuel injection'."
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "cd-2016-cayman-gt4",
+      "note": "3,800 cc (C/D panel: 'Displacement 232 in3, 3800 cm3'); MotorWeek: 'the same 3.8-liter Boxer-6 found in the Carrera S'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "cd-2016-cayman-gt4",
+      "note": "Inferred: the panel describes a 'DOHC 24-valve flat-6' with no turbocharger or supercharger (C/D names forced induction where present)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2016-cayman-gt4",
+    "note": "Inferred from the panel's description ('direct fuel injection' gasoline flat-6)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-2016-cayman-gt4",
+    "note": "C/D panel: 'mid-engine, rear-wheel-drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "motorweek-2016-cayman-gt4",
+    "note": "MotorWeek: 'the GT4 is fitted only with a manual transmission, though it's a beefed up 6-speed'; C/D panel: '6-speed manual'; Stuttcars: it 'came exclusively' with a '6-speed manual transmission'."
+  },
+  "powerHp": {
+    "value": 385,
+    "sourceId": "cd-2016-cayman-gt4",
+    "note": "Quote: \"Power\" / \"385 hp @ 7400 rpm\" (C/D specification panel, maker's rating as C/D lists it). MotorWeek: '385-horsepower and 309 lb-ft. of torque' (motorweek-2016-cayman-gt4). No Porsche page was opened."
+  },
+  "weightLb": {
+    "value": 3050,
+    "sourceId": "cd-2016-cayman-gt4",
+    "note": "2016 coupe with the 6-speed manual (the only transmission). Car and Driver road-test curb weight (owner decision 9 October 2026: accepted at weight step 2; it is the measured test car). Quote: \"Curb weight: 3050 lb\". Test car optioned (as tested $104,815 vs base $85,595). Stuttcars' article text says the car 'weighed just 2,954 pounds' (stuttcars-2016-cayman-gt4); that is not labelled curb and is a single article, so it does not qualify (see discrepancies). No Porsche US curb weight was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2016,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cd-2016-cayman-gt4",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2016 Porsche Cayman GT4",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2016 Porsche Cayman GT4'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "motorweek-2016-cayman-gt4",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2016 Porsche Cayman GT4 (road test)",
+      "url": "https://motorweek.org/road_tests/2016-porsche-cayman-gt4",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "stuttcars-2016-cayman-gt4",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche Of The Day: 2016 Porsche Cayman GT4 (Mark Leofe Capayas)",
+      "url": "https://www.stuttcars.com/porsche-of-the-day-2016-porsche-cayman-gt4/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3050,
+          "sourceId": "cd-2016-cayman-gt4"
+        },
+        {
+          "value": 2954,
+          "sourceId": "stuttcars-2016-cayman-gt4"
+        }
+      ],
+      "reason": "Car and Driver's road-test curb weight of an optioned test car vs an unlabelled weight in Stuttcars' article text ('weighed just 2,954 pounds').",
+      "resolution": "Used 3,050 lb: the C/D panel is a step-2 curb weight; the Stuttcars figure is not labelled curb and is a single article. A Porsche US curb weight would replace both."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

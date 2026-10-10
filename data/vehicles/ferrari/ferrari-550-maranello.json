@@ -1,0 +1,123 @@
+{
+  "id": "ferrari-550-maranello",
+  "manufacturer": "Ferrari",
+  "model": "550 Maranello",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari 550 Maranello",
+  "aliases": [
+    "550",
+    "Ferrari 550",
+    "Maranello"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1996,
+      "endYear": 2002
+    },
+    "sourceId": "candsc-550",
+    "note": "Calendar build years 1996-2002 (owner decision, 8 October 2026). These are build/sale years, not US model years: Classic & Sports Car's panel reads \"Sold/number built 1996-2002/3083 (including 457 RHD)\" and RM Sotheby's says \"production was restricted to only 3,083 cars between 1996 and 2002\" (rmsothebys-550-2000). The car was also sold new in the US, but no page stating its US model years was found, so this record uses the home market. The 550 Barchetta Pininfarina is a separate car. Some sources end production in 2001 (GearShifters, unsigned)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carsales-550",
+    "note": "carsales: 'Coupe, 2 doors, 2 seats'. The open 550 Barchetta is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "candsc-550",
+      "note": "Classic & Sports Car: 'all-alloy, dohc-per-bank, 48v 5474cc V12'."
+    },
+    "displacementL": {
+      "value": 5.5,
+      "sourceId": "candsc-550",
+      "note": "5,474 cc. Classic & Sports Car: '5474cc V12'; carsales: '5474 cc' (carsales-550)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "candsc-550",
+      "note": "Inferred: 'with Bosch Motronic M5.2 fuel injection and management', no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "candsc-550",
+    "note": "Petrol V12 with fuel injection; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "candsc-550",
+    "note": "Classic & Sports Car: 'six-speed manual transaxle, RWD'; carsales: 'Rear Wheel Drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "candsc-550",
+    "note": "Classic & Sports Car: 'six-speed manual transaxle'; carsales: '6 speed, Man'. No other gearbox."
+  },
+  "powerHp": {
+    "value": 479,
+    "sourceId": "carsales-550",
+    "note": "PROVISIONAL (an Australian spec database and a UK magazine's buyer's-guide panel; no Ferrari page could be opened: ferrari.com refuses fetches). Quote (carsales, database): \"357.0kW @ 7000rpm\"; 357.0 x 1.34102 = 478.7, rounded to 479 hp. Classic & Sports Car (UK magazine, Malcolm McKay) panel: \"479bhp @ 7000rpm\" (candsc-550). RM Sotheby's (US lot, unsigned): '480 horsepower at 7,000 rpm' (rmsothebys-550-2000). European rating; a US-specific rating was not found."
+  },
+  "weightLb": {
+    "value": 3726,
+    "sourceId": "carsales-550",
+    "note": "PROVISIONAL (an Australian spec database, an enthusiast database and a UK magazine's buyer's-guide panel, agreeing within 0.2%). 1,690 kg x 2.20462 = 3,725.8, rounded to 3,726 lb. Quote (carsales, Australian spec database): \"Kerb Weight: 1690 kg\" (a separate 'Tare Mass' row also reads 1690 kg; manual, the only gearbox). fastestlaps.com: \"Curb weight 1690 kg (3726 lbs)\" (fastestlaps-550). Classic & Sports Car (Malcolm McKay), unlabelled: \"Weight 3725lb (1693kg)\" (candsc-550). The owner's figure of 1,728 kg 'from fastestlaps' does not appear on fastestlaps' 550 Maranello page (asked twice); the page gives 1,690 kg. European figure."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 1996,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "carsales-550",
+      "type": "database",
+      "publisher": "carsales.com.au",
+      "title": "Ferrari 550 Maranello 1998 overview (specifications)",
+      "url": "https://www.carsales.com.au/research/ferrari/550-maranello/1998/no-badge/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "candsc-550",
+      "type": "publication",
+      "publisher": "Classic & Sports Car",
+      "title": "Buyer's guide: Ferrari 550 Maranello (Malcolm McKay, 28 May 2024)",
+      "url": "https://classicandsportscar.com/node/59478",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "fastestlaps-550",
+      "type": "enthusiast",
+      "publisher": "fastestlaps.com",
+      "title": "Ferrari 550 Maranello specs",
+      "url": "https://fastestlaps.com/models/ferrari-550-maranello",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "rmsothebys-550-2000",
+      "type": "publication",
+      "publisher": "RM Sotheby's",
+      "title": "2000 Ferrari 550 Maranello (Arizona 2021, lot 128)",
+      "url": "https://rmsothebys.com/auctions/az21/lots/r0028-2000-ferrari-550-maranello/",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Market: the 550 was sold new in the US, and the batch 12 rule asks for a US record with US model years, but no page stating the US model years or a US rating/weight could be opened. On the owner decision, 8 October 2026, the years 1996-2002 are used; they are build (calendar) years, so the record is labelled as the home-market (EU) car, like the F40 record. Switch to US model years and US figures if a source is found. powerStandard is 'Other' because the stored figure is a kW conversion from a database, not a Ferrari PS rating read on a Ferrari page. Weight: 1,690 kg may be Ferrari's dry figure rather than a kerb weight; this is unverified because ferrari.com could not be reached, and the sources that call it kerb (carsales, fastestlaps) are databases.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (479 hp from 357.0 kW) rests on the carsales spec database with Classic & Sports Car's panel (479 bhp) agreeing. Weight (3,726 lb from 1,690 kg) rests on carsales, an Australian database ('Kerb Weight: 1690 kg') and fastestlaps.com ('Curb weight 1690 kg'), with Classic & Sports Car's unlabelled 1,693 kg agreeing. A Ferrari specification (ferrari.com, press kit or brochure) or a major magazine panel (Evo, Autocar, Car and Driver, Road & Track, MotorTrend) with a kerb/curb weight would replace both, and US model years would allow a US record."
+}

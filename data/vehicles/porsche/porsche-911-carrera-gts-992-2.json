@@ -1,0 +1,134 @@
+{
+  "id": "porsche-911-carrera-gts-992-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.2",
+  "variant": "Carrera GTS",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera GTS (992.2)",
+  "aliases": [
+    "992.2 GTS",
+    "992.2 Carrera GTS",
+    "Carrera GTS 992.2",
+    "GTS T-Hybrid",
+    "T-Hybrid",
+    "911 Carrera GTS Cabriolet",
+    "PDK",
+    "2025 911 Carrera GTS"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "US model years 2025 to present. First: PCNA's release for 'The 2025 Porsche 911 models' (deliveries 'at the end of 2024 for the 911 Carrera GTS models'). Still on sale: Renndriver's guide (Joe Armstrong, updated 21 July 2026; renndriver-911-carrera-gts) describes 'The current 992.2 GTS T-Hybrid'. No US page for a 2026 or later model year was opened."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "PCNA: 'in Coupe or Cabriolet form, and as a Targa variant (exclusively available with all-wheel drive)'. The Cabriolet is the open version of this variant; the Targa 4 GTS and Carrera 4 GTS (all-wheel drive) are sold under their own names and are not part of this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2025-911-t-hybrid",
+      "note": "'a newly developed 3.6 liter boxer engine'; C/D panel: 'turbocharged and intercooled flat-6'."
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "pcna-2025-911-t-hybrid",
+      "note": "Porsche states '3.6 liter' ('The heart of the T-Hybrid powertrain is a newly developed 3.6 liter boxer engine'); no cc figure was found on an opened page, so the stated litre figure is used."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "pcna-2025-911-t-hybrid",
+      "note": "One turbocharger: the hybrid system 'allows for the use of a single turbocharger compared to the two that were used previously' (an electrically driven turbocharger)."
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "cd-2025-911-carrera-gts",
+    "note": "C/D panel: 'turbocharged and intercooled flat-6, 478 hp, 420 lb-ft + AC motor, 64 hp, 110 lb-ft (combined output: 532 hp, 449 lb-ft; 0.9-kWh lithium-ion battery pack)'. Porsche T-Hybrid; a full hybrid that is not plugged in (inferred from the small battery and Porsche's description)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-2025-911-carrera-gts",
+    "note": "C/D panel: 'rear-engine, rear-motor, rear-wheel-drive'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "'A new, strengthened eight-speed dual-clutch transmission (PDK)'; no manual is offered (Renndriver: 'The current 992.2 GTS T-Hybrid is PDK only'). DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 532,
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "Combined system output. Quote: \"The total system power is 398 kW (532 hp) and 449 lb.-ft.\" C/D panel (cd-2025-911-carrera-gts): \"(combined output: 532 hp, 449 lb-ft; ...)\". The engine alone makes 478 hp. Renndriver gives 534 hp, a PS conversion (see discrepancies)."
+  },
+  "weightLb": {
+    "value": 3638,
+    "sourceId": "cd-2025-911-carrera-gts",
+    "note": "2025 coupe with the 8-speed PDK (only transmission). Car and Driver road-test curb weight (owner decision 9 October 2026: accepted at weight step 2; it is the measured test car). Quote: \"Curb Weight: 3638 lb\". Test car optioned (as tested $182,895 vs base $166,895). PCNA gives only the increase ('The U.S. curb weight increase of the new 911 Carrera GTS Coupe compared to the predecessor is a moderate 103 lbs.'), not a figure; no Porsche US curb weight was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2025-911-t-hybrid",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "The 2025 Porsche 911 models (press release)",
+      "url": "https://newsroom.porsche.com/en_US/2024/products/porsche-new-911-world-premiere-hybrid-36337.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2025-911-carrera-gts",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Porsche 911 Carrera GTS",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Porsche 911 Carrera GTS'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "renndriver-911-carrera-gts",
+      "type": "publication",
+      "publisher": "Renndriver",
+      "title": "Porsche 911 Carrera GTS: The Enthusiast's 911, Explained (Joe Armstrong)",
+      "url": "https://renndriver.com/guides/porsche-911-carrera-gts/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 532,
+          "sourceId": "pcna-2025-911-t-hybrid"
+        },
+        {
+          "value": 534,
+          "sourceId": "renndriver-911-carrera-gts"
+        }
+      ],
+      "reason": "Renndriver gives 'Total system output is 541 PS, or 534 hp', a conversion of the European PS rating; 532 hp is Porsche's published US rating.",
+      "resolution": "532 used: the manufacturer's US rating as published."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

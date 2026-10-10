@@ -1,0 +1,132 @@
+{
+  "id": "audi-r8-gt-4s",
+  "manufacturer": "Audi",
+  "model": "R8",
+  "generation": "4S / 2nd gen",
+  "variant": "GT",
+  "subVariant": null,
+  "displayName": "Audi R8 GT (4S / 2nd gen)",
+  "aliases": [
+    "R8 V10 GT",
+    "R8 GT RWD",
+    "R8 Coupe V10 GT RWD",
+    "2023 R8 GT",
+    "S tronic"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": 2023
+    },
+    "sourceId": "motorauthority-r8-v10-gt",
+    "note": "US model year 2023 only. Motor Authority (Stephen Edelstein, 28 November 2022): \"The R8 V10 GT will be sold here as a 2023 model\"; \"each of the 150 units planned for the U.S., out of 333 globally\". Audi of America: \"2023 was the final model year for the R8\" (audi-usa-r8-coupe; that page itself lists only the V10 performance models). Not to be confused with the 2012 R8 GT (Type 42, 560 hp, quattro), which is a different car and stays held."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-r8-gt-2023",
+    "note": "KBB: '2023 Audi R8 GT Coupe 2D'. Coupe only."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V10",
+      "sourceId": "motorauthority-r8-v10-gt",
+      "note": "Motor Authority: 'R8 V10 GT', 'the German automaker's V-10 engine'; KBB: 'V10, 5.2 Liter'."
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "motorauthority-r8-v10-gt",
+      "note": "Motor Authority: 'The familiar 5.2-liter'; KBB: 'V10, 5.2 Liter' (kbb-r8-gt-2023). The cc figure was not on a page opened for this car."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "motorauthority-r8-v10-gt",
+      "note": "Inferred: the 5.2-litre V10 is described with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "motorauthority-r8-v10-gt",
+    "note": "Inferred: petrol V10; Motor Authority lists 'a $1,300 gas guzzler tax'."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "kbb-r8-gt-2023",
+    "note": "KBB: 'RWD'. Motor Authority: 'the most powerful rear-wheel-drive production car to wear the Audi badge'."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "motorauthority-r8-v10-gt",
+    "note": "Motor Authority: \"The R8's 7-speed dual-clutch automatic also has recalibrated gear ratios\" (S tronic). The only transmission."
+  },
+  "powerHp": {
+    "value": 602,
+    "sourceId": "motorauthority-r8-v10-gt",
+    "note": "PROVISIONAL (one named-author article and one database, agreeing; no Audi page for the GT was opened). Quote (Motor Authority, Stephen Edelstein): \"The familiar 5.2-liter has been tuned to deliver 602 hp and 413 lb-ft of torque for the U.S. version of the R8 V10 GT.\" KBB (database): \"Horsepower | 602 @ 8700 RPM\" (kbb-r8-gt-2023). Car and Driver's photo gallery (republished on Yahoo Autos, unsigned article text, not a spec panel) also says 'the 602-hp state of tune' (cd-yahoo-r8-gt)."
+  },
+  "weightLb": {
+    "value": 3516,
+    "sourceId": "motorauthority-r8-v10-gt",
+    "note": "PROVISIONAL (one named-author article and one database, agreeing). Coupe, 7-speed S tronic (the only configuration). Quote (Motor Authority): \"bringing the curb weight down to 3,516 pounds\"; the same sentence says the US car 'loses 55 pounds compared to the standard R8 V10 RWD coupe' (Audi of America lists that car at 3,571 lb). KBB (database): \"Curb Weight | 3516 lbs.\" (kbb-r8-gt-2023). Automoblog (unsigned 'Automoblog Staff', not counted) also gives 3,516 lb. A news story attributed to Car and Driver (AOL copy, unsigned; the publication is not named on the AOL page) says: \"The GT will weigh 44 pounds less than the R8 Coupe Performance RWD.\" (aol-cd-r8-gt), i.e. about 3,527 lb (3,571 - 44), under 1% from 3,516 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "motorauthority-r8-v10-gt",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "Audi R8 V10 GT price (Stephen Edelstein, 28 November 2022)",
+      "url": "https://www.motorauthority.com/news/1137972_audi-r8-v10-gt-price",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "kbb-r8-gt-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Audi R8 GT Coupe 2D",
+      "url": "https://www.kbb.com/audi/r8/2023/gt-coupe-2d",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "audi-usa-r8-coupe",
+      "type": "manufacturer",
+      "publisher": "Audi of America (Audi USA media site)",
+      "title": "R8 Coupe (2023 model page)",
+      "url": "https://media.audiusa.com/view/models/r8-coupe",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "aol-cd-r8-gt",
+      "type": "publication",
+      "publisher": "AOL (copy of a news story attributed to Car and Driver; unsigned)",
+      "title": "2023 Audi R8 GT RWD Spells the End of the V-10 Era",
+      "url": "https://www.aol.com/2023-audi-r8-gt-rwd-220100285.html",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "cd-yahoo-r8-gt",
+      "type": "publication",
+      "publisher": "Car and Driver (republished by Yahoo Autos)",
+      "title": "View Photos of the 2023 Audi R8 GT",
+      "url": "https://autos.yahoo.com/view-photos-2023-audi-r8-230100919.html",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (602 hp) and weight (3,516 lb) rest on one named-author article (Motor Authority, Stephen Edelstein) and a database (KBB), which agree. Audi of America's R8 GT release or specification page, or a major magazine specification panel for the 2023 R8 GT, would replace both. Audi of America's R8 Coupe model page (media.audiusa.com/view/models/r8-coupe) lists only the V10 performance models."
+}

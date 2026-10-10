@@ -1,0 +1,140 @@
+{
+  "id": "aston-martin-vantage-f1-edition",
+  "manufacturer": "Aston Martin",
+  "model": "Vantage",
+  "generation": null,
+  "variant": "F1 Edition",
+  "subVariant": null,
+  "displayName": "Aston Martin Vantage F1 Edition",
+  "aliases": [
+    "Vantage F1 Edition",
+    "V8 Vantage F1 Edition",
+    "Aston Martin F1 Edition",
+    "Vantage F1",
+    "F1 Edition Coupe",
+    "2022 Vantage F1 Edition",
+    "2023 Vantage F1 Edition"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2023
+    },
+    "sourceId": "edmunds-vantage-2022-review",
+    "note": "US model years. First: Edmunds 2022, \"Higher-performing F1 Edition debuts\", listing the \"F1 2dr Coupe (4.0L 8cyl Turbo 8A)\". Last: Edmunds 2023 lists the \"F1 Edition Roadster 2dr Convertible (4.0L 8cyl Turbo 8A)\" (edmunds-vantage-2023) and the C/D panel is a 2023 coupe (cd-vantage-f1-edition-2023); there was no 2024 US Vantage model year and the 2025 Vantage is a separate, 656 hp car (see the Vantage (2019–2023) record). Database sources for the years."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cd-vantage-f1-edition-2023",
+    "note": "Panel: \"front-engine, rear-wheel-drive, 2-passenger, 2-door coupe\". Evo: \"the new Vantage F1 Edition coupe and Roadster\" (evo-vantage-f1-edition-reveal); the Roadster is treated as a separate car, as with the Vantage Roadster."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cd-vantage-f1-edition-2023",
+      "note": "Panel: \"twin-turbocharged and intercooled DOHC 32-valve V-8, aluminum block and heads, direct fuel injection\"."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "cd-vantage-f1-edition-2023",
+      "note": "3,982 cc. Panel: \"Displacement: 243 in3, 3982 cm3\"."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "cd-vantage-f1-edition-2023",
+      "note": "Panel: \"twin-turbocharged and intercooled\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-vantage-f1-edition-2023",
+    "note": "Panel: \"direct fuel injection\" V-8; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-vantage-f1-edition-2023",
+    "note": "Panel: \"front-engine, rear-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "cd-vantage-f1-edition-2023",
+    "note": "Panel: \"TRANSMISSION 8-speed automatic\". Evo: \"specified exclusively with an eight-speed automatic transmission\" (evo-vantage-f1-edition-reveal); no manual on the F1 Edition."
+  },
+  "powerHp": {
+    "value": 528,
+    "sourceId": "cd-vantage-f1-edition-2023",
+    "note": "Panel quote: \"Power: 528 hp @ 6000 rpm\". Evo: \"features a 25bhp increase over standard to produce a total of 527bhp\" (evo-vantage-f1-edition-reveal), a rounding of the same metric rating. Aston Martin rates its engines in PS; no Aston page with the F1 Edition's rating was opened, so powerStandard is 'Other' (C/D's US hp figure)."
+  },
+  "weightLb": {
+    "value": 3813,
+    "sourceId": "cd-vantage-f1-edition-2023",
+    "note": "Car and Driver road-test curb weight (weight-order step 2), 2023 F1 Edition Coupe, 8-speed automatic (the only transmission). Panel quote: \"Curb Weight: 3813 lb\". The test car had optional carbon-ceramic brakes ($11,100), which are lighter than the standard iron brakes, so a standard car may be slightly heavier. Aston Martin publishes only dry weights for this Vantage (the Vantage (2019–2023) record uses a 3,373 lb dry weight with lightweight options); a curb figure outranks that."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cd-vantage-f1-edition-2023",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2023 Aston Martin Vantage F1 Edition",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2023 Aston Martin Vantage F1 Edition'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "evo-vantage-f1-edition-reveal",
+      "type": "publication",
+      "publisher": "Evo (reproduced by Crank and Piston)",
+      "title": "Aston Martin Vantage F1 Edition revealed – new Coupe and Roadster derivatives",
+      "url": "https://crankandpiston.com/?p=148718",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "edmunds-vantage-2022-review",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2022 Aston Martin Vantage review",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2022/review/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "edmunds-vantage-2023",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2023 Aston Martin Vantage",
+      "url": "https://www.edmunds.com/aston-martin/vantage/2023/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 528,
+          "sourceId": "cd-vantage-f1-edition-2023"
+        },
+        {
+          "value": 527,
+          "sourceId": "evo-vantage-f1-edition-reveal"
+        }
+      ],
+      "reason": "Rounding of the same metric rating to hp/bhp.",
+      "resolution": "Used Car and Driver's US figure, 528 hp."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

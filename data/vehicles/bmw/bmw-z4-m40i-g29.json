@@ -1,0 +1,135 @@
+{
+  "id": "bmw-z4-m40i-g29",
+  "manufacturer": "BMW",
+  "model": "Z4",
+  "generation": "G29",
+  "variant": "M40i",
+  "subVariant": null,
+  "displayName": "BMW Z4 M40i (G29)",
+  "aliases": [
+    "G29 Z4",
+    "Z4 M40i G29",
+    "G29 M40i",
+    "Z4 M40i Final Edition",
+    "B58",
+    "Steptronic",
+    "2020 Z4 M40i",
+    "2023 Z4 M40i"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2026
+    },
+    "sourceId": "bmw-us-2020-z4-release",
+    "note": "US model years 2020 to 2026. First: BMW NA's January 2019 release: 'Market Launch of the Z4 sDrive30i in March 2019. Z4 M40i to follow' and 'the 2020 BMW Z4 M40i Roadster, which will follow'. Last: BMW NA's release 'The BMW Z4 Final Edition' (26 November 2025; bmw-us-2026-z4-final-edition) has the spec header '2026 BMW Z4 Final Edition' and commemorates 'the end of production of the iconic 2-seat Roadster'. No page stating explicitly that no 2027 model was sold was opened."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "bmw-us-2020-z4-release",
+    "note": "Two-seat, two-door car with a soft top and no fixed-roof version (table: 2 seats, 2 doors), so 'Roadster' under the guide. C/D panel calls it a '2-door convertible'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "cd-2023-z4-m40i",
+      "note": "C/D panel: 'turbocharged and intercooled DOHC 24-valve inline-6'. BMW (bmw-us-2026-z4-final-edition): 'three-liter straight-six engine with TwinPower Turbo technology'."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "bmw-us-2020-z4-release",
+      "note": "2,998 cc ('Displacement | cm³ | 2,998'); same 'Capacity (cc) | 2,998' for 2026 (bmw-us-2026-z4-final-edition)."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "cd-2023-z4-m40i",
+      "note": "C/D panel: 'turbocharged and intercooled' (single turbocharger; BMW's 'TwinPower Turbo' is a brand name, not a turbo count)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2023-z4-m40i",
+    "note": "Inferred from the panel's description ('direct fuel injection' gasoline inline-6)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-2023-z4-m40i",
+    "note": "C/D panel: 'front-engine, rear-wheel-drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2026-z4-final-edition",
+    "note": "2026: 'Available with a 6-speed manual or 8-speed Steptronic transmission'. At launch the 8-speed Steptronic automatic was the only transmission (bmw-us-2020-z4-release: 'Transmission type | 8HP | automatic', 'standard eight-speed Steptronic Sport transmission'); the manual was added later in the run (the model year it arrived was not confirmed from an opened page)."
+  },
+  "powerHp": {
+    "value": 382,
+    "sourceId": "bmw-us-2020-z4-release",
+    "note": "Quote: \"Engine power | hp | 255 | 382\" (Z4 sDrive30i | Z4 M40i); text: 'Drivers have 382 hp at their disposal'. Unchanged for 2026: \"382 @ 5,800-6,500\" (bmw-us-2026-z4-final-edition). C/D panel for 2023 (cd-2023-z4-m40i): \"Power: 382 hp @ 6500 rpm\"."
+  },
+  "weightLb": {
+    "value": 3443,
+    "sourceId": "bmw-us-2020-z4-release",
+    "note": "2020 Z4 M40i with the 8-speed automatic, the only transmission that year; manufacturer step 1 for the launch (reference) year. Quote: \"Curb weight | lbs. | 3,287 | 3,443\" (Z4 sDrive30i | Z4 M40i). Other figures in discrepancies: BMW's 2026 figure '3,543 / 3,514 (6M)' and Car and Driver's 2023 road-test panel 3,636 lb."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2020-z4-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The new BMW Z4 (press release, January 14, 2019)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0285141EN_US/the-new-bmw-z4",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "bmw-us-2026-z4-final-edition",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The BMW Z4 Final Edition (press release, November 26, 2025)",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0454065EN_US/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2023-z4-m40i",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2023 BMW Z4 M40i",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2023 BMW Z4 M40i'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3443,
+          "sourceId": "bmw-us-2020-z4-release"
+        },
+        {
+          "value": 3636,
+          "sourceId": "cd-2023-z4-m40i"
+        }
+      ],
+      "reason": "Model year and measurement: BMW's 2020 launch figure vs Car and Driver's road-test curb weight of a 2023 automatic test car ('Curb Weight: 3636 lb'). BMW's 2026 Final Edition release gives 'Curb weight (lbs) | 3,543 / 3,514 (6M)' (bmw-us-2026-z4-final-edition), i.e. 3,543 lb automatic and 3,514 lb manual for 2026.",
+      "resolution": "Used 3,443 lb: the reference year is the 2020 launch year (rating unchanged at 382 hp throughout) and a manufacturer figure exists for it (weight step 1)."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "The task asked for this car to be built from the 2023 C/D panel, but BMW publishes curb weights (2020: 3,443 lb automatic; 2026: 3,543 lb automatic / 3,514 lb manual), so the guide's weight order puts the manufacturer figure first. A reviewer should confirm 3,443 lb (2020) is preferred over the panel's 3,636 lb (2023). The model year the 6-speed manual arrived was not confirmed.",
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

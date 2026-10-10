@@ -1,0 +1,129 @@
+{
+  "id": "koenigsegg-regera",
+  "manufacturer": "Koenigsegg",
+  "model": "Regera",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Koenigsegg Regera",
+  "aliases": [
+    "Regera",
+    "Koenigsegg Regera",
+    "KDD",
+    "Koenigsegg Direct Drive"
+  ],
+  "country": "Sweden",
+  "production": {
+    "value": {
+      "startYear": 2016,
+      "endYear": 2022
+    },
+    "sourceId": "classic-com-regera",
+    "note": "Calendar years 2016-2022 (owner decision, 8 October 2026; home-market record). Classic.com: 'produced by the Swedish manufacturer from 2016–2022'; automoli also gives 'Production 2016–2022' (automoli-regera). Koenigsegg: 'ONLY 80 REGERA PRODUCED IN TOTAL', 'At launch in 2015' (koenigsegg-regera). The Regera was also sold in the US (the held entry noted EPA ratings for MY2019-2020 and US deliveries 2018-2022); US model years were not fully sourced, so the owner chose the home market."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "koenigsegg-regera",
+    "note": "Two-door, two-seat hypercar; recorded as Coupe like the other Koenigseggs (a database calling it a Targa uses no Koenigsegg name)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "koenigsegg-regera-specs",
+      "note": "Koenigsegg: 'Koenigsegg twin turbo aluminum 5.0L V8'."
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "koenigsegg-regera-specs",
+      "note": "Koenigsegg: '5.0L V8'. The cc figure was not on a Koenigsegg page opened (bore 92 mm, stroke 95.25 mm)."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "koenigsegg-regera-specs",
+      "note": "Koenigsegg: 'twin turbo aluminum 5.0L V8'."
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "autofacil-regera",
+    "note": "Autofácil (Daniel Navarro, 5 March 2015): 'Que sea un híbrido enchufable', the car 'puede enchufarse para recargar' and 'En modo eléctrico es capaz de hacer unos 50Km'. Koenigsegg calls it a '1,500 hp hybrid system' with an '800 Volt 4.5 kWh' battery (koenigsegg-regera-specs)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "koenigsegg-regera",
+    "note": "Koenigsegg: 'KDD provides direct drive to the rear axle from the ICE'; electric motors 'One on each rear wheel and one on the crank shaft'."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "koenigsegg-regera-specs",
+    "note": "Koenigsegg: 'Koenigsegg Direct Drive' (KDD), which 'completely replaces the combustion engine's (ICE) traditional transmission/gearbox' (koenigsegg-regera): a single fixed ratio."
+  },
+  "powerHp": {
+    "value": 1500,
+    "sourceId": "koenigsegg-regera-specs",
+    "note": "Koenigsegg's combined rating on E85. Quote (Koenigsegg technical specifications): \"Combined power: Over 1500 hp (E85) or 1.11 MW\"; model page: \"1500 HP Total Output\" (koenigsegg-regera). Engine alone '1100 hp at 7800 rpm' (1,500 hp on E85 per the same page); electric '700 hp'. Stored as published (powerStandard Other, as for the Agera R). 1.11 MW x 1.34102 = 1,489 hp; the published 1,500 hp is used."
+  },
+  "weightLb": {
+    "value": 3505,
+    "sourceId": "koenigsegg-regera-specs",
+    "note": "Step 1 (manufacturer curb weight). Quote (Koenigsegg technical specifications): \"Curb weight, including all fluids and a full fuel tank: 1590 kg\"; model page: \"1590 Kg Curb weight\". 1,590 x 2.20462 = 3,505.3, rounded to 3,505 lb. Dry weight 1,420 kg."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2016,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "koenigsegg-regera-specs",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Regera - Technical Specifications",
+      "url": "https://www.koenigsegg.com/technical-specifications-regera",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "koenigsegg-regera",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "Regera (model page)",
+      "url": "https://www.koenigsegg.com/model/regera",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "classic-com-regera",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Koenigsegg Regera market overview",
+      "url": "https://www.classic.com/m/koenigsegg/regera",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "automoli-regera",
+      "type": "database",
+      "publisher": "automoli",
+      "title": "Koenigsegg Regera",
+      "url": "https://www.automoli.com/fr/vehicles/koenigsegg/regera/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "autofacil-regera",
+      "type": "publication",
+      "publisher": "Autofácil",
+      "title": "Koenigsegg Regera: híbrido enchufable de 1.500 CV (Daniel Navarro, 5 March 2015)",
+      "url": "https://www.autofacil.es/koenigsegg-regera-hibrido-enchufable-1500-cv/",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

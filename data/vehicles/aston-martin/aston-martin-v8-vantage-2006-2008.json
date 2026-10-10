@@ -23,7 +23,7 @@
       "endYear": 2008
     },
     "sourceId": "edmunds-v8-vantage-2006",
-    "note": "US model years of the 4.3-litre car. First: Edmunds lists the 2006 V8 Vantage '2dr Coupe (4.3L 8cyl 6M)' at '380 hp @ 7,300 rpm'. Last: AstonMartins.com (astonmartins-v8-vantage-4-3, enthusiast site) lists '2006MY, 2007MY, 2008MY' and says the car 'was replaced with an improved 2009MY version' with a '4.7 litre V8 engine'; Edmunds lists the 2009 car as '4.7L' with '420 hp' (edmunds-v8-vantage-2009). Split from the 4.7-litre car (2009 on) because the engine changed (4.3 to 4.7 litres) as well as the rating; the 4.7-litre range is held back for lack of qualifying sources. UK build began autumn 2005."
+    "note": "US model years of the 4.3-litre car. First: Edmunds lists the 2006 V8 Vantage '2dr Coupe (4.3L 8cyl 6M)' at '380 hp @ 7,300 rpm'. Last: AstonMartins.com (astonmartins-v8-vantage-4-3, enthusiast site) lists '2006MY, 2007MY, 2008MY' and says the car 'was replaced with an improved 2009MY version' with a '4.7 litre V8 engine'; Edmunds lists the 2009 car as '4.7L' with '420 hp' (edmunds-v8-vantage-2009). Split from the 4.7-litre car because the engine changed (4.3 to 4.7 litres) as well as the rating; the 4.7-litre car is the separate record aston-martin-v8-vantage-2009-2016 (US model years 2009-2016, provisional), and the V8 Vantage S (2011-2016) is its own record. UK build began autumn 2005."
   },
   "body": {
     "value": [

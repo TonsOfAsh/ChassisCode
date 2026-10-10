@@ -1,0 +1,117 @@
+{
+  "id": "porsche-718-cayman-gts-4-0-982",
+  "manufacturer": "Porsche",
+  "model": "718 Cayman",
+  "generation": "982",
+  "variant": "GTS 4.0",
+  "subVariant": null,
+  "displayName": "Porsche 718 Cayman GTS 4.0 (982)",
+  "aliases": [
+    "982 Cayman GTS",
+    "718 Cayman GTS",
+    "Cayman GTS 4.0",
+    "718 GTS 4.0",
+    "GTS 4.0",
+    "PDK",
+    "2021 718 Cayman GTS 4.0"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2021,
+      "endYear": 2025
+    },
+    "sourceId": "pcna-2021-718-pdk",
+    "note": "US model years 2021 to 2025. First: PCNA presents the car among 'New equipment for Porsche mid-engine sports cars for the 2021 model year' ('The 718 Cayman GTS 4.0 and 718 Boxster GTS 4.0, which both make 394 hp'); Car and Driver's panel is for a '2021 Porsche 718 Cayman GTS 4.0' (cd-2021-718-cayman-gts-4-0). Last: Kelley Blue Book's 2025 page lists the 'GTS 4.0' trim ('the GTS 4.0 has a 4.0-liter engine. It develops 394 horsepower') and says production of the 718 Cayman 'is set to end' in 'October 2025' (kbb-2025-718-cayman). No opened Porsche page states that 2025 was the last US model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cd-2021-718-cayman-gts-4-0",
+    "note": "C/D panel: '2-door hatchback' (rear hatch); the guide files such cars as Coupe. The open car is sold under its own name (718 Boxster GTS 4.0)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2021-718-pdk",
+      "note": "'naturally aspirated 4.0-liter six-cylinder boxer engines'."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "cd-2021-718-cayman-gts-4-0",
+      "note": "3,996 cc (C/D panel: 'Displacement: 244 in3, 3996 cm3'); PCNA: '4.0-liter'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-2021-718-pdk",
+      "note": "'naturally aspirated 4.0-liter six-cylinder boxer engines'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2021-718-cayman-gts-4-0",
+    "note": "Inferred from the panel's description ('direct fuel injection' gasoline flat-6)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-2021-718-cayman-gts-4-0",
+    "note": "C/D panel: 'mid-engine, rear-wheel-drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2021-718-pdk",
+    "note": "The six-speed manual is standard ('the standard six-speed manual (309 lb.-ft.)'); the 4.0-liter 718 models 'have been available to order with the optional seven-speed Porsche dual-clutch transmission (PDK) since June in the U.S.' DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 394,
+    "sourceId": "pcna-2021-718-pdk",
+    "note": "Quote: \"The 718 Cayman GTS 4.0 and 718 Boxster GTS 4.0, which both make 394 hp,\". C/D panel (cd-2021-718-cayman-gts-4-0): \"Power: 394 hp @ 7000 rpm\". Still 394 hp for 2025 (kbb-2025-718-cayman)."
+  },
+  "weightLb": {
+    "value": 3196,
+    "sourceId": "cd-2021-718-cayman-gts-4-0",
+    "note": "2021 coupe with the 6-speed manual (standard transmission). Car and Driver road-test curb weight (owner decision 9 October 2026: accepted at weight step 2; it is the measured test car). Quote: \"Curb Weight: 3196 lb\". The test car had comfort/interior options (18-way seats, GTS interior package, navigation, Bose audio; as tested $100,990 vs base $88,150). No Porsche US curb weight for this variant was found in the pages opened."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2021,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2021-718-pdk",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "Optional Porsche dual-clutch transmission further improves performance on 718 models with six-cylinder engine",
+      "url": "https://newsroom.porsche.com/en_US/products/2021-porsche-718-boxster-cayman-pdk-gts-spyder-cayman-gt4-22097.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-2025-718-cayman",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Porsche 718 Cayman",
+      "url": "https://www.kbb.com/porsche/718-cayman/2025/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2021-718-cayman-gts-4-0",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2021 Porsche 718 Cayman GTS 4.0",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2021 Porsche 718 Cayman GTS 4.0'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

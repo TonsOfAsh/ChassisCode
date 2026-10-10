@@ -1,0 +1,158 @@
+{
+  "id": "jaguar-f-type-p450",
+  "manufacturer": "Jaguar",
+  "model": "F-Type",
+  "generation": null,
+  "variant": "P450",
+  "subVariant": null,
+  "displayName": "Jaguar F-Type P450",
+  "aliases": [
+    "F-Type P450",
+    "F-Type V8",
+    "F-Type R-Dynamic P450",
+    "F-Type P450 R-Dynamic",
+    "F-Type 75 P450",
+    "F-Type P450 Coupe",
+    "F-Type P450 Convertible",
+    "2022 F-Type P450",
+    "2023 F-Type P450",
+    "2024 F-Type P450"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2024
+    },
+    "sourceId": "jaguar-us-2022-f-type-lineup",
+    "note": "US model years. First: Jaguar, \"Joining the lineup in the United States for the 2022 model year, F-TYPE P450 is the new entry point.\" Last: Jaguar's 2024 release, \"F‑TYPE celebrates the final model year\", lists \"F-TYPE P450 R-Dynamic RWD\" and \"F-TYPE P450 75 AWD\" (jaguar-us-2024-model-year-highlights). The 2023 model year was not checked individually."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "jaguar-us-2022-f-type-lineup",
+    "note": "\"New 444hp supercharged V8 P450 coupe and convertible models introduced: rear- and all-wheel drive.\" The 2024 release: \"in both Coupe and Convertible body styles\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cd-f-type-p450-2022",
+      "note": "Panel: \"supercharged and intercooled DOHC 32-valve V-8, aluminum block and heads, direct fuel injection\"."
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "cd-f-type-p450-2022",
+      "note": "5,000 cc. Panel: \"Displacement: 305 in3, 5000 cm3\". Jaguar: \"5.0L Supercharged V8 (444 hp / 428 lb-ft)\" (jaguar-us-2024-model-year-highlights)."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "jaguar-us-2024-model-year-highlights",
+      "note": "\"5.0L Supercharged V8 (444 hp / 428 lb-ft)\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-f-type-p450-2022",
+    "note": "Panel: \"direct fuel injection\" V-8; no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "jaguar-us-2022-f-type-lineup",
+    "note": "The entry car is rear-wheel drive: \"in P450 RWD or P450 R-DYNAMIC AWD trims\"; for 2024 \"F-TYPE P450 R-Dynamic RWD\" and \"F-TYPE P450 75 AWD\" (jaguar-us-2024-model-year-highlights). All-wheel drive was offered as an option on named trims; the panel car is \"front-engine, rear-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "cd-f-type-p450-2022",
+    "note": "Panel: \"TRANSMISSION 8-speed automatic\" (Jaguar's eight-speed Quickshift torque-converter automatic). No manual was offered on the V8; Cars.com lists \"8-Speed A/T\" for the coupe (carscom-2022-f-type-p450-coupe)."
+  },
+  "powerHp": {
+    "value": 444,
+    "sourceId": "cd-f-type-p450-2022",
+    "note": "Panel quote: \"Power: 444 hp @ 6000 rpm\". Manufacturer: \"New 444hp supercharged V8 P450 coupe and convertible models introduced\" (jaguar-us-2022-f-type-lineup) and, for 2024, \"F-TYPE P450 R-Dynamic RWD | 5.0L Supercharged V8 (444 hp / 428 lb-ft)\" (jaguar-us-2024-model-year-highlights). Jaguar's 2024 body text says \"450HP\", the round PS-style figure; the table and all US ratings are 444 hp."
+  },
+  "weightLb": {
+    "value": 3760,
+    "sourceId": "carscom-2022-f-type-p450-coupe",
+    "note": "PROVISIONAL (database). Standard car: 2022 P450 Coupe, RWD. Cars.com \"Base Curb Weight\" 3,760 lb (single database source). Car and Driver's road-test curb weight, \"Curb Weight: 3953 lb\" (cd-f-type-p450-2022), is for a 2022 P450 Convertible and so is not used for the coupe; Cars.com lists 3,785 lb for the Convertible RWD (carscom-2022-f-type-p450-convertible)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "jaguar-us-2022-f-type-lineup",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover media site (en-us)",
+      "title": "2022 Jaguar F-TYPE lineup doubles down on thrill with supercharged V8",
+      "url": "https://media.jlr.com/corporate/en-us/news/2021/06/2022-jaguar-f-type-lineup-doubles-down-thrill-supercharged-v8",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "jaguar-us-2024-model-year-highlights",
+      "type": "manufacturer",
+      "publisher": "Jaguar Land Rover media site (en-us)",
+      "title": "What's New For Jaguar: 2024 Model Year Highlights",
+      "url": "https://media.jlr.com/archive-jaguar/en-us/news/2023/06/whats-new-jaguar-2024-model-year-highlights",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-f-type-p450-2022",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2022 Jaguar F-Type P450",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2022 Jaguar F-Type P450'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "carscom-2022-f-type-p450-coupe",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Jaguar F-TYPE P450 specs (Coupe P450 RWD)",
+      "url": "https://www.cars.com/research/jaguar-f_type-2022/specs/421756/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "carscom-2022-f-type-p450-convertible",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2022 Jaguar F-TYPE P450 specs (Convertible P450 RWD)",
+      "url": "https://www.cars.com/research/jaguar-f_type-2022/specs/421755/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3953,
+          "sourceId": "cd-f-type-p450-2022"
+        },
+        {
+          "value": 3785,
+          "sourceId": "carscom-2022-f-type-p450-convertible"
+        },
+        {
+          "value": 3760,
+          "sourceId": "carscom-2022-f-type-p450-coupe"
+        }
+      ],
+      "reason": "Body and measurement: Car and Driver's figure is a measured, optioned 2022 Convertible test car; Cars.com's are database base curb weights for the RWD Convertible and Coupe.",
+      "resolution": "Body: the Car and Driver figure is the Convertible; the Coupe (standard car) figure from Cars.com is used, provisionally."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,760 lb) rests on one database (Cars.com, 2022 Coupe RWD). Jaguar's 2022 US P450 Coupe curb weight (US brochure or JLR media spec sheet) would replace it."
+}

@@ -1,0 +1,148 @@
+{
+  "id": "chevrolet-camaro-zl1-1le-6th-gen",
+  "manufacturer": "Chevrolet",
+  "model": "Camaro",
+  "generation": "6th gen",
+  "variant": "ZL1",
+  "subVariant": "1LE",
+  "displayName": "Chevrolet Camaro ZL1 1LE (6th gen)",
+  "aliases": [
+    "ZL1 1LE",
+    "Camaro ZL1 1LE",
+    "6th gen ZL1 1LE",
+    "Gen 6 ZL1 1LE",
+    "LT4",
+    "2018 Camaro ZL1 1LE"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2024
+    },
+    "sourceId": "autoguide-zl1-1le-2018",
+    "note": "US model years. Start: AutoGuide (Michael Accardi, 24 February 2017), headline \"2018 Chevrolet Camaro ZL1 1LE is Basically a Z/28\"; Car and Driver's road-test panel is titled \"2018 Chevrolet Camaro ZL1 1LE\" (source cd-camaro-zl1-1le-2018). End: GM Authority's 2024 Camaro specification table still lists the ZL1 1LE, \"Curb weight with 1LE Manual (lbs. / kg)\" with \"3853 / 1748\" in the ZL1 column (source gmauthority-camaro-2024-specs), and GM Authority's 2024 Camaro page states \"The 2024 Camaro is the last production year for the internal combustion powered model.\" (source gmauthority-camaro-2024). Kept as its own record (like the 5th-gen Z/28): the 1LE is ordered as a package on the ZL1, but it changes the car substantially (manual-only at launch, aero, suspension, tyres) and is widely treated as a distinct model; the owner may fold it into a ZL1 record instead."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cd-camaro-zl1-1le-2018",
+    "note": "Panel: \"front-engine, rear-wheel-drive, 4-passenger, 2-door coupe\". Coupe only: GM Authority's 2024 table prints \"N/A\" for the 1LE rows in the ZL1 Convertible column (source gmauthority-camaro-2024-specs)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cd-camaro-zl1-1le-2018",
+      "note": "LT4. Panel: \"supercharged and intercooled pushrod 16-valve V-8, aluminum block and heads, direct fuel injection\"."
+    },
+    "displacementL": {
+      "value": 6.2,
+      "sourceId": "cd-camaro-zl1-1le-2018",
+      "note": "6,162 cc. Panel: \"Displacement 376 in3, 6162 cm3\"."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "cd-camaro-zl1-1le-2018",
+      "note": "Panel: \"supercharged and intercooled pushrod 16-valve V-8\"."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-camaro-zl1-1le-2018",
+    "note": "Inferred from the panel's engine line (direct-injected V-8, no hybrid system)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-camaro-zl1-1le-2018",
+    "note": "Panel: \"front-engine, rear-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "10-speed Automatic"
+    ],
+    "sourceId": "cd-camaro-zl1-1le-2018",
+    "note": "2018 panel: \"TRANSMISSION 6-speed manual\". At launch the manual was the only gearbox: AutoGuide, \"it will only be available with a six-speed manual\" (source autoguide-zl1-1le-2018). The 10-speed automatic was added later: Car and Driver's 2019 ZL1 1LE panel reads \"TRANSMISSION 10-speed automatic\" (source cd-camaro-zl1-1le-2019), and GM Authority's 2024 table has both \"Curb weight with 1LE Manual\" and \"Curb weight with 1LE Auto\" rows for the ZL1 (source gmauthority-camaro-2024-specs). The automatic is a torque-converter unit."
+  },
+  "powerHp": {
+    "value": 650,
+    "sourceId": "cd-camaro-zl1-1le-2018",
+    "note": "Car and Driver road-test panel, 2018 ZL1 1LE manual. Quote: \"Power 650 hp @ 6400 rpm\". The 2019 automatic panel prints the same \"650 hp @ 6400 rpm\" (source cd-camaro-zl1-1le-2019); AutoGuide: \"The ZL1 1LE retains its 650-horsepower, supercharged LT4 V8\" (source autoguide-zl1-1le-2018). Same rating as the ZL1 throughout the run."
+  },
+  "weightLb": {
+    "value": 3842,
+    "sourceId": "cd-camaro-zl1-1le-2018",
+    "note": "Car and Driver road-test curb weight, 2018 ZL1 1LE coupe with the 6-speed manual (the standard car; base $71,295, as tested $72,595). Quote: \"Curb weight: 3842 lb\". Other figures: Car and Driver's 2019 automatic panel, \"Curb weight: 3886 lb\" (source cd-camaro-zl1-1le-2019); GM Authority's 2024 table, ZL1 column, \"Curb weight with 1LE Manual (lbs. / kg)\" \"3853 / 1748\" and \"Curb weight with 1LE Auto (lbs. / kg)\" \"3883 / 1761\" (source gmauthority-camaro-2024-specs). See discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2018,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cd-camaro-zl1-1le-2018",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2018 Chevrolet Camaro ZL1 1LE",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2018 Chevrolet Camaro ZL1 1LE'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-camaro-zl1-1le-2019",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2019 Chevrolet Camaro ZL1 1LE",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2019 Chevrolet Camaro ZL1 1LE'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "autoguide-zl1-1le-2018",
+      "type": "publication",
+      "publisher": "AutoGuide",
+      "title": "2018 Chevrolet Camaro ZL1 1LE is Basically a Z/28, by Michael Accardi (February 24, 2017)",
+      "url": "https://autoguide.com/auto-news/2017/02/2018-chevrolet-camaro-zl1-1le-is-basically-a-z-28.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "gmauthority-camaro-2024-specs",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro Specifications, by John Florer (March 5, 2024)",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/2024-chevrolet-camaro-specifications/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "gmauthority-camaro-2024",
+      "type": "publication",
+      "publisher": "GM Authority",
+      "title": "2024 Chevrolet Camaro",
+      "url": "https://gmauthority.com/blog/gm/chevrolet/camaro/2024-chevrolet-camaro/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3842,
+          "sourceId": "cd-camaro-zl1-1le-2018"
+        },
+        {
+          "value": 3853,
+          "sourceId": "gmauthority-camaro-2024-specs"
+        }
+      ],
+      "reason": "Model year and method: 3,842 lb is Car and Driver's road-test curb weight for a 2018 manual car; 3,853 lb is the manual ZL1 1LE in GM Authority's specification table for the 2024 model. They differ by 11 lb (0.3%). The automatic figures agree the same way (C/D 2019: 3,886 lb; GM Authority 2024: 3,883 lb).",
+      "resolution": "Used 3,842 lb: the step-2 figure for the reference model year (2018), per the owner's rule on Car and Driver road-test curb weights. No GM table for 2018 could be opened."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

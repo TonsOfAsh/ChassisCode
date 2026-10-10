@@ -39,8 +39,8 @@
     },
     "displacementL": {
       "value": 4.0,
-      "sourceId": "ultimatespecs-2017-panamera-turbo",
-      "note": "3,996 cc. Ultimate Specs: \"Engine displacement : 243.9 cu-in / 3996 cm3\" (database)."
+      "sourceId": "cd-panamera-turbo-2017",
+      "note": "3,996 cc. Car and Driver's panel: \"Displacement: 244 in3, 3996 cm3\". Ultimate Specs agrees: \"Engine displacement : 243.9 cu-in / 3996 cm3\" (ultimatespecs-2017-panamera-turbo, a database)."
     },
     "aspiration": {
       "value": "Twin Turbocharged",
@@ -67,13 +67,13 @@
   },
   "powerHp": {
     "value": 550,
-    "sourceId": "porsche-finder-2017-panamera-turbo",
-    "note": "PROVISIONAL (listing data). Quote, Porsche Finder listing of a 2017 Panamera Turbo: \"Maximum power combustion engine 550 hp\" and \"550 hp @ 5750 - 6000 rpm\". Agreeing: Kelley Blue Book \"550 @ 5750 RPM\" (kbb-2017-panamera-turbo) and Cars.com \"550 hp\" (carscom-2017-panamera-turbo), both databases. Porsche's European launch release, reproduced by Stuttcars, gives \"404 kW / 550 hp (at 5,750 rpm)\" (a PS figure; stuttcars-panamera-turbo-971). No Porsche Cars North America spec sheet or release was opened."
+    "sourceId": "cd-panamera-turbo-2017",
+    "note": "Car and Driver road-test panel '2017 Porsche Panamera Turbo' (owner copy), quote: \"Power: 550 hp @ 6000 rpm\". Agreeing: Porsche Finder listing of a 2017 Panamera Turbo, \"Maximum power combustion engine 550 hp\" and \"550 hp @ 5750 - 6000 rpm\" (porsche-finder-2017-panamera-turbo); Kelley Blue Book \"550 @ 5750 RPM\" (kbb-2017-panamera-turbo) and Cars.com \"550 hp\" (carscom-2017-panamera-turbo), both databases. Porsche's European launch release, reproduced by Stuttcars, gives \"404 kW / 550 hp (at 5,750 rpm)\" (a PS figure; stuttcars-panamera-turbo-971). No Porsche Cars North America spec sheet or release was opened."
   },
   "weightLb": {
-    "value": 4398,
-    "sourceId": "porsche-finder-2017-panamera-turbo",
-    "note": "PROVISIONAL (listing data and databases). 2017 Panamera Turbo (standard-wheelbase sedan, PDK). Quote, Porsche Finder: \"Curb weight 4,398 lb\". Kelley Blue Book: \"Curb Weight: 4398 lbs.\" (kbb-2017-panamera-turbo); Cars.com: \"Base Curb Weight: 4,398 lbs\" (carscom-2017-panamera-turbo). Three agreeing figures; TrueDelta's \"4001 lb.\" equals the base Panamera's Cars.com figure and is not used."
+    "value": 4593,
+    "sourceId": "cd-panamera-turbo-2017",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md); a measured weight of C/D's test car. Quote (C/D panel '2017 Porsche Panamera Turbo'): \"Curb weight: 4593 lb\". Test car: \"front-engine, all-wheel-drive, 4-passenger, 4-door hatchback\" (the standard-wheelbase car, not the Sport Turismo), \"8-speed dual-clutch automatic with manual shifting mode\" (the only transmission), \"$162,680 (base price: $151,050)\" as tested, so about $11,600 of options. The earlier provisional figure, 4,398 lb (Porsche Finder listing; KBB and Cars.com, databases), is 4.2% lower; see discrepancies."
   },
   "specBasis": {
     "market": "US",
@@ -138,13 +138,43 @@
       "title": "2021 Porsche Panamera",
       "url": "https://www.kbb.com/porsche/panamera/2021/",
       "accessed": "2026-10-04"
+    },
+    {
+      "id": "cd-panamera-turbo-2017",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2017 Porsche Panamera Turbo",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2017 Porsche Panamera Turbo'",
+      "accessed": "2026-10-09"
     }
   ],
-  "discrepancies": [],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "4,593 lb, C/D road-test curb weight (2017 car)",
+          "sourceId": "cd-panamera-turbo-2017"
+        },
+        {
+          "value": 4398,
+          "sourceId": "porsche-finder-2017-panamera-turbo"
+        },
+        {
+          "value": 4398,
+          "sourceId": "kbb-2017-panamera-turbo"
+        },
+        {
+          "value": 4398,
+          "sourceId": "carscom-2017-panamera-turbo"
+        }
+      ],
+      "reason": "Car and Driver's figure is the measured weight of an optioned test car ($11,630 of options); 4,398 lb is the listing/database curb weight for the base 2017 Panamera Turbo, probably Porsche's DIN-based figure. They differ by 4.2%.",
+      "resolution": "Owner decision, 9 October 2026: the Car and Driver road-test curb weight is used (docs/DATA_GUIDE.md, Weight step 2). 4,593 lb used; the earlier 4,398 lb was the provisional figure."
+    }
+  ],
   "needsReview": false,
-  "confidence": "low",
+  "confidence": "medium",
   "image": null,
-  "dailyEligible": false,
-  "provisional": true,
-  "provisionalNote": "Power and weight are provisional. Power (550 hp) and weight (4,398 lb) rest on a Porsche Finder pre-owned listing for a 2017 Panamera Turbo, with Kelley Blue Book and Cars.com (databases) agreeing exactly; no Porsche Cars North America spec sheet or release was found. A PCNA 2017 Panamera technical-data sheet or a Car and Driver / Road & Track / MotorTrend spec panel would replace both. Production end year and body list rest on KBB."
+  "dailyEligible": true
 }

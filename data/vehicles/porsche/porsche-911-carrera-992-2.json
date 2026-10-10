@@ -1,0 +1,117 @@
+{
+  "id": "porsche-911-carrera-992-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.2",
+  "variant": "Carrera",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera (992.2)",
+  "aliases": [
+    "992.2 Carrera",
+    "Carrera 992.2",
+    "992 Carrera",
+    "base 911",
+    "911 Carrera Cabriolet",
+    "PDK",
+    "2025 911 Carrera"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "US model years 2025 to present. First: PCNA: 'The new 2025 911 Carrera is available to order now as a Coupe or Cabriolet with rear-wheel drive' ('Deliveries of the new 2025 911 Carrera models to U.S. Porsche Centers are expected to start in the fall'). Still on sale: the Canadian Car of the Year 2026 finalist page (ccoty-2026-911-carrera) says 'The Porsche 911 Carrera enters the 2026 model year with a number of important changes' (Canadian market). No US page for a 2026 or later 911 Carrera was opened."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "'available to order now as a Coupe or Cabriolet with rear-wheel drive'. The Cabriolet is the open version of the same variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2025-911-t-hybrid",
+      "note": "'a 3.0 liter twin-turbo boxer engine'; C/D panel: 'twin-turbocharged and intercooled DOHC 24-valve flat-6'."
+    },
+    "displacementL": {
+      "value": 3.0,
+      "sourceId": "cd-2025-911-carrera",
+      "note": "2,981 cc (C/D panel: 'Displacement: 182 in3, 2981 cm3'); PCNA: '3.0 liter'."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pcna-2025-911-t-hybrid",
+      "note": "'3.0 liter twin-turbo boxer engine'; 'The turbochargers of the new 911 Carrera were adopted from the previous 911 Carrera GTS models.'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2025-911-carrera",
+    "note": "Inferred from the panel's description ('direct fuel injection' gasoline flat-6); unlike the GTS, the Carrera has no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "'Coupe or Cabriolet with rear-wheel drive'; Carrera 4 models are separate."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "cd-2025-911-carrera",
+    "note": "C/D panel: '8-speed dual-clutch automatic'. PCNA's release names no manual for the 992.2 Carrera; it says 'Both powertrains are fitted with PDK as standard.' DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 388,
+    "sourceId": "pcna-2025-911-t-hybrid",
+    "note": "Quote: \"With these modifications, the new 911 Carrera now makes 290 kW (388 hp)\". C/D panel (cd-2025-911-carrera): \"Power: 388 hp @ 6500 rpm\"."
+  },
+  "weightLb": {
+    "value": 3472,
+    "sourceId": "cd-2025-911-carrera",
+    "note": "2025 coupe with the 8-speed PDK (only transmission). Car and Driver road-test curb weight (owner decision 9 October 2026: accepted at weight step 2; it is the measured test car). Quote: \"Curb Weight: 3472 lb\". The test car was optioned (as tested $148,515 vs base $122,095). PCNA's release opened gives no curb weight for the Carrera; no Porsche US figure was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2025-911-t-hybrid",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "The 2025 Porsche 911 models (press release)",
+      "url": "https://newsroom.porsche.com/en_US/2024/products/porsche-new-911-world-premiere-hybrid-36337.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2025-911-carrera",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Porsche 911 Carrera",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Porsche 911 Carrera'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ccoty-2026-911-carrera",
+      "type": "publication",
+      "publisher": "Canadian Car of the Year (AJAC)",
+      "title": "Porsche 911 Carrera – 2026 Finalist",
+      "url": "https://canadiancaroftheyear.ca/2025/12/01/porsche-911-carrera-2026-finalist/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

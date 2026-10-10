@@ -12,7 +12,9 @@
     "Emira 3.5 V6",
     "Emira Supercharged",
     "2GR-FE",
-    "2023 Emira"
+    "2023 Emira",
+    "2024 Emira",
+    "Emira First Edition"
   ],
   "country": "United Kingdom",
   "production": {
@@ -67,19 +69,18 @@
   "powerHp": {
     "value": 400,
     "sourceId": "lotus-emira-v6-first-edition-release",
-    "note": "Quote (Lotus release): \"Developing 400hp, it's mated to a six-speed manual gearbox with a visible gearchange mechanism and hydraulic power-assisted steering.\" For the US car, Carscoops (Michael Gauthier, 1 October 2021): \"This enables it to produce 400 hp (298 kW / 405 PS) and up to 317 lb-ft\" (carscoops-emira-us-price); Motor Authority: \"in the Emira it generates a peak 400 hp\" (motorauthority-emira-2023). 298 kW x 1.34102 = 400 hp, so Lotus's figure is horsepower, used as published; Lotus does not call it an SAE rating, so powerStandard is Other. The Drive's spec box prints \"Horsepower: 395\" (thedrive-emira-2023); see discrepancies."
+    "note": "Quote (Lotus release): \"Developing 400hp, it's mated to a six-speed manual gearbox with a visible gearchange mechanism and hydraulic power-assisted steering.\" For the US car, Carscoops (Michael Gauthier, 1 October 2021): \"This enables it to produce 400 hp (298 kW / 405 PS) and up to 317 lb-ft\" (carscoops-emira-us-price); Motor Authority: \"in the Emira it generates a peak 400 hp\" (motorauthority-emira-2023). 298 kW x 1.34102 = 400 hp, so Lotus's figure is horsepower, used as published; Lotus does not call it an SAE rating, so powerStandard is Other. The Drive's spec box prints \"Horsepower: 395\" (thedrive-emira-2023); see discrepancies. Car and Driver's road-test panel for the 2024 First Edition prints the same rating: \"Power: 400 hp @ 6800 rpm\" (cd-emira-first-edition-2024), so 400 hp holds for the reference year 2024."
   },
   "weightLb": {
-    "value": 3097,
-    "sourceId": "thedrive-emira-2023",
-    "note": "PROVISIONAL: Lotus's pre-production target. Weight-order step 3 (curb weight of the lightest-specification car). Quote (The Drive, Alex Goy, 7 June 2022, spec box for the 2023 Emira V6): \"Curb weight: 3,097 pounds\". Motor Authority (Stephen Edelstein, 4 October 2021): \"a 3,097-pound curb weight in its lightest form\" (motorauthority-emira-2023). Two independent named-author outlets give the same figure, and Motor Authority says it is for the lightest form, so it is a car with lightweight options; Lotus does not name them, and a standard car is somewhat heavier. No US curb weight for a standard car was found. Evo's specification table gives \"1457kg (claimed)\" (3,212 lb) for a UK car in a 2026 review (evo-emira-review), a different market and model year, not used. CarExpert (carexpert-emira-2021) reports the figure as Lotus's July 2021 target: 'Lotus is targeting a kerb weight of 1405kg in the car's lightest form' (1,405 kg = 3,097 lb)."
+    "value": 3279,
+    "sourceId": "cd-emira-first-edition-2024",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md); a measured weight of C/D's test car. Car and Driver road-test panel '2024 Lotus Emira First Edition' (owner copy), quote: \"Curb Weight: 3279 lb\". The First Edition tested is the V6: \"Supercharged DOHC 24-valve V-6, aluminum block and heads, port injection\", \"Displacement: 211 in3, 3456 cm3\", \"Power: 400 hp @ 6800 rpm\", \"TRANSMISSION\" / \"6-speed manual\" (the standard transmission), \"mid-engine, rear-wheel-drive, 2-passenger, 2-door coupe\", \"Base/As Tested: $107,500/$107,500\", \"Options: none\". This replaces the earlier provisional 3,097 lb (The Drive, Motor Authority), Lotus's pre-production target for the car 'in its lightest form' (step 3), which was not stated to be the V6 (CarExpert: 'Lotus is targeting a kerb weight of 1405kg in the car's lightest form', carexpert-emira-2021); see discrepancies. Reference year 2024: the panel describes a 2024 car, and no qualifying weight exists for 2023 (the 2023 figure was only a target)."
   },
   "specBasis": {
     "market": "US",
-    "referenceModelYear": 2023,
+    "referenceModelYear": 2024,
     "powerStandard": "Other",
     "weightType": "curb",
-    "weightQualifier": "lightweight-options",
     "yearType": "model"
   },
   "sources": [
@@ -138,6 +139,14 @@
       "title": "2022 Lotus Emira revealed with Mercedes-AMG power",
       "url": "https://www.carexpert.com.au/car-news/2022-lotus-emira-revealed-with-mercedes-amg-power",
       "accessed": "2026-10-03"
+    },
+    {
+      "id": "cd-emira-first-edition-2024",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2024 Lotus Emira First Edition",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2024 Lotus Emira First Edition'",
+      "accessed": "2026-10-09"
     }
   ],
   "discrepancies": [
@@ -160,22 +169,30 @@
       "field": "weightLb",
       "values": [
         {
-          "value": 3097,
+          "value": "3,279 lb, C/D road-test curb weight (2024 V6 First Edition, manual)",
+          "sourceId": "cd-emira-first-edition-2024"
+        },
+        {
+          "value": "3,097 lb, Lotus target for the lightest form",
           "sourceId": "thedrive-emira-2023"
         },
         {
-          "value": "1,457 kg (3,212 lb) claimed",
+          "value": "3,097 lb, 'in its lightest form'",
+          "sourceId": "motorauthority-emira-2023"
+        },
+        {
+          "value": "1,457 kg (3,212 lb) claimed, UK car",
           "sourceId": "evo-emira-review"
         }
       ],
-      "reason": "Configuration, market and year: 3,097 lb is the US curb weight in the lightest form; 1,457 kg is Evo's claimed kerb weight for a UK car in a 2026 review.",
-      "resolution": "Used 3,097 lb (US, step 3) and labelled it lightweight-options."
+      "reason": "Configuration, method and market: 3,097 lb was Lotus's pre-production target for the lightest car; 1,457 kg is Evo's claimed kerb weight for a UK car in a 2026 review; Car and Driver's 3,279 lb is the measured curb weight of a US 2024 V6 First Edition with the manual and no options.",
+      "resolution": "Owner decision, 9 October 2026: the Car and Driver road-test curb weight is used (docs/DATA_GUIDE.md, Weight step 2). 3,279 lb used, and the reference year moved to 2024 (the panel's year); the earlier 3,097 lb (lightweight-options target) was the provisional figure."
     }
   ],
   "needsReview": false,
-  "confidence": "low",
+  "confidence": "medium",
   "image": null,
   "dailyEligible": false,
   "provisional": true,
-  "provisionalNote": "Weight is provisional: 3,097 lb (The Drive, Motor Authority) is Lotus's pre-production target for the lightest car (CarExpert: 'targeting a kerb weight of 1405kg'), like an estimate, and it is not stated to be the V6. The first US model year is also provisional: Motor Authority says the car came 'as a 2023 model', while Kelley Blue Book lists the Emira only from 2024. A Lotus Cars USA specification sheet with a final US curb weight, or a major magazine spec panel, would replace the weight."
+  "provisionalNote": "Only the first US model year is provisional: Motor Authority says the car came 'as a 2023 model', while Kelley Blue Book lists the Emira only from 2024. A Lotus Cars USA release or price list naming the first US model year would settle it. Weight (3,279 lb, Car and Driver road-test curb weight of the 2024 V6 First Edition, manual) and power (400 hp, Lotus, confirmed by the same panel) are no longer provisional; the reference year is 2024, the panel's year."
 }

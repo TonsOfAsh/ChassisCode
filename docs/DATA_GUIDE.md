@@ -159,6 +159,10 @@ Take the figure from the first of these that exists:
    of a major magazine (Car and Driver, Road & Track, MotorTrend, Evo, Autocar, Top Gear), or the
    same figure reported by two independent editorial outlets with named authors. Auto-filled spec
    panels, registries, forums, museum pages and figures worked out by subtraction do not count.
+   Car and Driver's road-test panels count too (owner decision, 9 October 2026): the "Curb Weight"
+   under a C/D road test is accepted as a step-2 curb weight even though it is the measured test
+   car. Say so in the note ("Car and Driver road-test curb weight") and list any other figures in
+   `discrepancies`. Other magazines' tested weights still count only in provisional records.
    Set confidence to `medium`.
 3. A curb weight for a car with lightweight options: the manufacturer's, or the figure a source
    from step 2 prints when it is evidently that car (Ferrari: magazines print a kerb weight exactly
@@ -210,10 +214,19 @@ Order of preference:
 
 1. Manufacturer: press kits, spec sheets, newsroom pages, brochures, owner's manuals.
 2. Major publications: Car and Driver, Road & Track, MotorTrend, Automobile, Evo, Autocar, Top Gear.
-   Use the specification panel they print from the manufacturer, not their test results.
+   Use the specification panel they print from the manufacturer, not their test results
+   (exception: Car and Driver road-test curb weights, see "Weight" step 2).
 3. Established databases, as a last resort. The validator warns when power or weight relies on one.
 
 Wikipedia is not a source. Use it to find sources.
+
+Owner-copied pages (owner decision, 9 October 2026). The owner copied about 100 Car and Driver
+road-test panels verbatim into the TrackBattles project (data/cd_panels.json, `panelText`), without
+links. Such a panel may be cited as a `publication` source with publisher "Car and Driver", the
+panel's title line as `title`, no `url`, and `ownerCopy` saying where the copy is kept (file and
+panel title). Quote the panel text verbatim as for any page. Power printed in the panel is the
+maker's rating as Car and Driver lists it and counts like a magazine specification panel; "(C/D
+est)" figures do not. Add the page's URL whenever it becomes known.
 
 How to type a source:
 

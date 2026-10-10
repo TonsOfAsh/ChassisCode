@@ -1,0 +1,117 @@
+{
+  "id": "porsche-911-gt3-992-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.2",
+  "variant": "GT3",
+  "subVariant": null,
+  "displayName": "Porsche 911 GT3 (992.2)",
+  "aliases": [
+    "992.2 GT3",
+    "GT3 992.2",
+    "992.2 GT3 Touring",
+    "GT3 with Touring Package",
+    "PDK",
+    "2025 911 GT3"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "pcna-2025-911-gt3-press-kit",
+    "note": "US model years 2025 to present. First: PCNA's U.S. press kit: 'The new 2025 Porsche 911 GT3'. Still on sale: Stuttcars (Nicolaos Dellis; stuttcars-911-gt3-touring-992-2) gives the GT3 Touring (992.2) 'Model years: 2025 - Present' ('expected to reach US Porsche Centers in Summer, 2025'). No US page for a 2026 or later model year was opened."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cd-2025-911-gt3-touring",
+    "note": "C/D panel: 'rear-engine, rear-wheel-drive, 2-passenger, 2-door coupe'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "cd-2025-911-gt3-touring",
+      "note": "C/D panel: 'DOHC 24-valve flat-6, aluminum block and heads'."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "cd-2025-911-gt3-touring",
+      "note": "3,996 cc (C/D panel: 'Displacement: 244 in3, 3996 cm3'); PCNA: '4.0-liter naturally aspirated engine'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "pcna-2025-911-gt3-press-kit",
+      "note": "'4.0-liter naturally aspirated engine'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2025-911-gt3-touring",
+    "note": "Inferred from the panel's description ('direct fuel injection' gasoline flat-6)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "cd-2025-911-gt3-touring",
+    "note": "C/D panel: 'rear-engine, rear-wheel-drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed DCT"
+    ],
+    "sourceId": "pcna-2025-911-gt3-press-kit",
+    "note": "The GT3 is 'fitted with a seven-speed dual-clutch gearbox (PDK)' with the 'six-speed GT sport manual transmission' optional; on the GT3 with Touring Package 'the manual transmission is standard ... with the PDK available as an option'. DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 502,
+    "sourceId": "pcna-2025-911-gt3-press-kit",
+    "note": "Quote: \"producing 502 hp and 331 lb.-ft. of torque\". C/D panel (cd-2025-911-gt3-touring): \"Power: 502 hp @ 8500 rpm\". This record also covers the GT3 with Touring Package (no fixed rear wing), which has the same rating."
+  },
+  "weightLb": {
+    "value": 3267,
+    "sourceId": "cd-2025-911-gt3-touring",
+    "note": "2025 GT3 with Touring Package and the 6-speed manual (the panel's car). Car and Driver road-test curb weight (owner decision 9 October 2026: accepted at weight step 2; it is the measured test car). Quote: \"Curb Weight: 3267 lb\". The test car had optional carbon-ceramic brakes ('16.1-in vented, cross-drilled ceramic disc') among other options (as tested $289,585 vs base $234,195). PCNA's press kit gives no curb weight, only differences (the manual saves '35.9 pounds' over PDK). Stuttcars' rough 'roughly 3,150–3,200 lb' is not a qualifying figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2025-911-gt3-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "2025 Porsche 911 GT3 U.S. press kit",
+      "url": "https://newsroom.porsche.com/dam/jcr%3A07bedb19-4e20-474e-905c-9cbcb2f9d940/2025%20Porsche_911_GT3%20U.S.%20press%20kit.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2025-911-gt3-touring",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Porsche 911 GT3 Touring",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Porsche 911 GT3 Touring'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "stuttcars-911-gt3-touring-992-2",
+      "type": "publication",
+      "publisher": "Stuttcars",
+      "title": "Porsche 911 GT3 Touring (992.2) (2025 – Present) (Nicolaos Dellis)",
+      "url": "https://www.stuttcars.com/porsche-911-gt3-touring-9922/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "The C/D panel is for a 2025 911 GT3 with Touring Package (manual), not the winged GT3. Following the guide (a named package with the same published specs is not a separate car, as in the 992.1 GT3 record), it is filed as the 992.2 GT3 with the Touring name in the aliases. The weight is therefore the Touring Package manual car with carbon-ceramic brakes; a reviewer should confirm this is acceptable for the GT3 record or ask for a Porsche US curb weight.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

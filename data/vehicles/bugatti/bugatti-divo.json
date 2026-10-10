@@ -1,0 +1,108 @@
+{
+  "id": "bugatti-divo",
+  "manufacturer": "Bugatti",
+  "model": "Divo",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Bugatti Divo",
+  "aliases": [
+    "Divo",
+    "Bugatti Divo",
+    "2020 Bugatti Divo",
+    "W16",
+    "8.0 W16",
+    "DSG"
+  ],
+  "country": "France",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2020
+    },
+    "sourceId": "mpgbuddy-divo",
+    "note": "US model year 2020 only. MPG Buddy (a rendering of the EPA dataset): \"The EPA has rated the Bugatti Divo for one model year, the 2020 Bugatti Divo\" ('Source: U.S. EPA fuel economy dataset'). fueleconomy.gov itself refuses fetches (robots). Bugatti's model page gives no production years or count."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bugatti-divo-site",
+    "note": "Two-seat fixed-roof hypercar based on the Chiron; inferred from the model page."
+  },
+  "engine": {
+    "configuration": {
+      "value": "W16",
+      "sourceId": "bugatti-divo-site",
+      "note": "Bugatti: 'Engine configuration/ Number of cylinders | W16 Motor'."
+    },
+    "displacementL": {
+      "value": 8.0,
+      "sourceId": "bugatti-divo-site",
+      "note": "7,993 cc. Bugatti: 'Displacement | 7.993 cm³' (European decimal point: 7,993 cm³)."
+    },
+    "aspiration": {
+      "value": "Quad Turbocharged",
+      "sourceId": "bugatti-divo-site",
+      "note": "Bugatti: 'Turbochargers | 4 Turbochargers with BUGATTI two-stage turbocharging, intercooling (water/air)'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bugatti-divo-site",
+    "note": "Petrol W16; inferred."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "bugatti-divo-site",
+    "note": "Bugatti: 'Drive system | Permanent all-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "7-speed DCT"
+    ],
+    "sourceId": "bugatti-divo-site",
+    "note": "Bugatti: '7-speed DSG dualclutch gearbox'."
+  },
+  "powerHp": {
+    "value": 1479,
+    "sourceId": "bugatti-divo-site",
+    "note": "Quote (Bugatti model page): \"Power output | 1,103 kw / 1,500 hp at 6,700 rpm\". Bugatti's '1,500 hp' is metric (PS): 1,103 kW x 1.34102 = 1,479.1, and 1,500 PS x 0.98632 = 1,479.5, so 1,479 hp, as for the Chiron. No separate SAE rating for the US was found, so powerStandard is DIN PS."
+  },
+  "weightLb": {
+    "value": 4398,
+    "sourceId": "bugatti-divo-site",
+    "note": "Step 1 (manufacturer curb weight): DIN empty weight includes fluids. Quote (Bugatti model page, asked twice): \"Weight (DIN empty) | 1,995 kg\". 1,995 x 2.20462 = 4,398.2, rounded to 4,398 lb. Single configuration. Note: this equals Bugatti's DIN figure for the Chiron, while the earlier held entry recorded Bugatti saying the Divo is 35 kg lighter than the Chiron; Bugatti's Divo page makes no comparison, and that release was not reopened. Used as Bugatti publishes it (owner decision, 8 October 2026)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2020,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bugatti-divo-site",
+      "type": "manufacturer",
+      "publisher": "Bugatti",
+      "title": "Divo (model page and technical data)",
+      "url": "https://www.bugatti.com/models/divo/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "mpgbuddy-divo",
+      "type": "database",
+      "publisher": "MPG Buddy (U.S. EPA fuel economy dataset)",
+      "title": "Bugatti Divo: MPG and fuel economy by year",
+      "url": "https://mpgbuddy.com/cars/bugatti/divo",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Weight: Bugatti's Divo page gives 'Weight (DIN empty) | 1,995 kg', which equals Bugatti's DIN figure for the Chiron. The page appears to reuse a Chiron template (the gearbox text sits in a row mislabelled 'Maximum torque'), and Bugatti's launch release said the Divo is 35 kg lighter than the Chiron (that release was not reopened). Used as published on the owner decision, 8 October 2026; confirm whether about 1,960 kg is the true Divo figure.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

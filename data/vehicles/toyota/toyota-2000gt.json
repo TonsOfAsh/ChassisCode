@@ -1,0 +1,116 @@
+{
+  "id": "toyota-2000gt",
+  "manufacturer": "Toyota",
+  "model": "2000GT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Toyota 2000GT",
+  "aliases": [
+    "2000GT",
+    "Toyota 2000 GT",
+    "MF10",
+    "3M",
+    "1967 2000GT",
+    "1968 2000GT"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1967,
+      "endYear": 1970
+    },
+    "sourceId": "toyota-gr-heritage-2000gt",
+    "note": "Calendar years, home market (owner decision, 8 October 2026). Toyota Gazoo Racing heritage page heading: 'Toyota 2000GT (1967-1970)', 'Launched in 1967 by Toyota Motor, with the cooperation of Yamaha Motor Co., Ltd.' Conceptcarz: 'Production lasted from May of 1967 until August of 1970' (conceptcarz-2000gt). Yamaha: 'a total of 337 units (including 115 for export) were hand-built' (yamaha-2000gt). Some cars were sold in the US (Conceptcarz: 'approximately 60 examples were sold to North America'); per the owner the US model year was 1968 only. The owner chose the home-market record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "conceptcarz-2000gt",
+    "note": "Conceptcarz: a coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "yamaha-2000gt",
+      "note": "Yamaha: 'Liquid-cooled, 4-stroke, DOHC, 2-valve, in-line 6-cylinder, 1,988cm³'."
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "yamaha-2000gt",
+      "note": "1,988 cc (Yamaha: '1,988cm³')."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "conceptcarz-2000gt",
+      "note": "Conceptcarz: 'Yamaha fitted three two-barrel Mikuni-Solex 40 PHH carburetors'; no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "conceptcarz-2000gt",
+    "note": "Carburetted petrol engine; inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "conceptcarz-2000gt",
+    "note": "Conceptcarz: 'sending power to the rear wheels via three different final drives and a limited-slip differential'."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "conceptcarz-2000gt",
+    "note": "Conceptcarz: 'backed by a five-speed manual transmission'. GearShifters (unsigned) mentions a 2000GT 'with automatic transmission' (MF 10-C); its number of speeds was not found on any page opened, so it is not listed (see reviewNotes)."
+  },
+  "powerHp": {
+    "value": 148,
+    "sourceId": "yamaha-2000gt",
+    "note": "Quote (Yamaha Motor, which developed and built the car for Toyota): \"Maximum power output: 110.3kW (150.0PS) / 6,600r/min\". 150 PS x 0.98632 = 147.9, rounded to 148 hp (owner decision, 8 October 2026; fastestlaps also gives 148). This is a period Japanese gross rating, so powerStandard is 'Other' per the classic-car rule. Conceptcarz also gives '148 horsepower at 6,600 RPM'."
+  },
+  "weightLb": {
+    "value": 2469,
+    "sourceId": "yamaha-2000gt",
+    "note": "Manufacturer figure (owner decision, 8 October 2026). Quote (Yamaha): \"Weight: 1,120kg\" (Japanese page: '重量: 1,120kg'). 1,120 x 2.20462 = 2,469.2, rounded to 2,469 lb. Yamaha's label is plain 'Weight'; per the owner, JAF Mate labels the same figure vehicle weight (車両重量, the Japanese kerb weight); the JAF Mate page was not reopened in this pass. Yamaha says its figures are 'from when the model was originally released' (1967). Conceptcarz's '2,500-pound car' is a round figure in body text and is not used."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1967,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "yamaha-2000gt",
+      "type": "manufacturer",
+      "publisher": "Yamaha Motor (built the car for Toyota)",
+      "title": "1967 TOYOTA 2000GT (Yamaha Communication Plaza collection)",
+      "url": "https://global.yamaha-motor.com/showroom/cp/collection/am_toyota2000gt/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "toyota-gr-heritage-2000gt",
+      "type": "manufacturer",
+      "publisher": "Toyota Gazoo Racing",
+      "title": "Toyota 2000GT (1967-1970) heritage parts",
+      "url": "https://toyotagazooracing.com/gr/heritage/toyota2000gt/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "conceptcarz-2000gt",
+      "type": "database",
+      "publisher": "Conceptcarz",
+      "title": "1967 Toyota 2000 GT",
+      "url": "https://www.conceptcarz.com/vehicle/z8611/news.aspx",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "Transmission: a 2000GT with an automatic transmission (MF10-C?) is mentioned only by an unsigned page (GearShifters) and its number of speeds was not found, so only the 5-speed manual is listed; add the automatic if a Toyota/Yamaha or magazine source confirms it. Weight: Yamaha labels 1,120 kg plain 'Weight'; it is used as a kerb weight on the owner decision, 8 October 2026 (JAF Mate calls it vehicle weight).",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

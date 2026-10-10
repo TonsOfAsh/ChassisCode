@@ -1,0 +1,131 @@
+{
+  "id": "porsche-panamera-turbo-s-e-hybrid-976",
+  "manufacturer": "Porsche",
+  "model": "Panamera",
+  "generation": "976",
+  "variant": "Turbo S E-Hybrid",
+  "subVariant": null,
+  "displayName": "Porsche Panamera Turbo S E-Hybrid (976)",
+  "aliases": [
+    "976 Panamera Turbo S E-Hybrid",
+    "Panamera Turbo S E-Hybrid 976",
+    "Panamera Turbo S E Hybrid",
+    "Panamera 3",
+    "2025 Panamera Turbo S E-Hybrid",
+    "PDK"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "porsche-us-panamera-gts-tseh-2024",
+    "note": "US model years. First: Porsche's US release of 18 July 2024 (\"The 2025 Porsche Panamera Turbo S E-Hybrid and Panamera GTS\") says both \"are now available to order and are expected to reach U.S. Porsche Centers in late Q1 2025.\" Still on sale: porsche.com/usa lists the 2027 Panamera Turbo S E-Hybrid (listed on the same page with \"Max. power combined 771 hp\") (porsche-usa-panamera-gts-2027). The 971 Panamera models are separate records."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "porsche-us-panamera-gts-tseh-2024",
+    "note": "Porsche calls the Panamera a \"four-door sports car\"; a four-door liftback (C/D panel: \"4-passenger, 4-door hatchback\"), recorded as Sedan as in the 971 Panamera record. No Sport Turismo is sold on the 976."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "cd-panamera-turbo-s-e-hybrid-2025",
+      "note": "Panel: \"twin-turbocharged and intercooled DOHC 32-valve 4.0-liter V-8, 591 hp, 590 lb-ft + AC motor, 187 hp, 331 lb-ft\"."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "porsche-us-panamera-gts-tseh-2024",
+      "note": "\"Both models are powered by the further developed 4.0-liter twin-turbo V8 engine\"; the GTS panel gives this engine as \"3996 cm3\" (cd-panamera-gts-2025), i.e. 3,996 cc."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "porsche-us-panamera-gts-tseh-2024",
+      "note": "\"4.0-liter twin-turbo V8\"."
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "cd-panamera-turbo-s-e-hybrid-2025",
+    "note": "Panel: \"22-kWh lithium-ion battery pack; peak charge rate, AC 11.0 kW\" (chargeable from the grid); porsche.com/usa lists it as \"Hybrid\" (porsche-usa-panamera-gts-2027)."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "cd-panamera-turbo-s-e-hybrid-2025",
+    "note": "Panel: \"front-engine, front-motor, all-wheel-drive\"; Motor Authority: \"Drive is to all four wheels\" (motorauthority-panamera-gts-tseh-2024)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "porsche-us-panamera-gts-tseh-2024",
+    "note": "\"The 8-speed Porsche dual clutch transmission (PDK) has been significantly improved.\" Panel: \"Transmission: 8-speed dual-clutch automatic\". DCT is Porsche PDK, with the electric motor integrated in it."
+  },
+  "powerHp": {
+    "value": 771,
+    "sourceId": "cd-panamera-turbo-s-e-hybrid-2025",
+    "note": "Combined system output. Panel quote: \"(combined output: 771 hp, 737 lb-ft; 22-kWh lithium-ion battery pack; peak charge rate, AC 11.0 kW)\". Manufacturer: \"its system output has been increased by 81 hp to 575 kW (771 hp)\"; the V8 alone \"develops an output of 441 kW (591 hp)\" (porsche-us-panamera-gts-tseh-2024). porsche.com/usa, 2027: \"Max. power combined 771 hp\"."
+  },
+  "weightLb": {
+    "value": 5350,
+    "sourceId": "cd-panamera-turbo-s-e-hybrid-2025",
+    "note": "Car and Driver road-test curb weight (weight-order step 2), 2025 model, 8-speed PDK (the only transmission). Panel quote: \"Curb Weight: 5350 lb\". The test car carried options (panel lists the Premium package, rear comfort seats and others), so a standard car may be slightly lighter. No Porsche Cars North America curb weight was found (none in the release; the porsche.com/usa technical-data section did not render)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-us-panamera-gts-tseh-2024",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "The 2025 Porsche Panamera Turbo S E-Hybrid and Panamera GTS (18 July 2024)",
+      "url": "https://newsroom.porsche.com/en_US/products/porsche-panamera-turbo-s-e-hybrid-and-panamera-gts-36871.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "porsche-usa-panamera-gts-2027",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (porsche.com/usa)",
+      "title": "Panamera GTS model page (2027 model year line-up)",
+      "url": "https://www.porsche.com/usa/models/panamera/panamera-models/panamera-gts/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "motorauthority-panamera-gts-tseh-2024",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "2025 Porsche Panamera lineup adds two models (Viknesh Vijayenthiran, 18 July 2024)",
+      "url": "https://motorauthority.com/news/1143838_2025-porsche-panamera-gts-turbo-s-e-hybrid-price",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-panamera-turbo-s-e-hybrid-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Porsche Panamera Turbo S E-Hybrid",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Porsche Panamera Turbo S E-Hybrid'",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-panamera-gts-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Porsche Panamera GTS",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Porsche Panamera GTS'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,140 @@
+{
+  "id": "rivian-r1t-quad-motor-gen-1",
+  "manufacturer": "Rivian",
+  "model": "R1T",
+  "generation": "Gen 1",
+  "variant": "Quad-Motor",
+  "subVariant": null,
+  "displayName": "Rivian R1T Quad-Motor (Gen 1)",
+  "aliases": [
+    "R1T",
+    "Rivian R1T",
+    "R1T Quad",
+    "Quad-Motor",
+    "Launch Edition",
+    "2022 R1T",
+    "2023 R1T",
+    "2024 R1T"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2024
+    },
+    "sourceId": "motorweek-r1t-2022",
+    "note": "US model years 2022-2024. Start: MotorWeek's road test of the '2022 Rivian R1T' ('Motor Setup: Quad-Motor'). Last: Car and Driver's specifications for the 2024 R1T include the 'Adventure Quad-Motor Large Pack' (caranddriver-r1t-2024-specs, read by the project owner on 8 October 2026 (the site blocks the research tools)), and Edmunds' 2024 R1T lists 'Adventure 4dr Crew Cab AWD SB w/Quad-Motor, Large Pack' (edmunds-r1t-2024). For 2025 the Gen 2 Quad-Motor was re-rated: Motor1 (Chris Perkins, 6 June 2024): \"The quad-motor powertrain gets a bump from 835 hp to 1,025 hp\" (motor1-r1-2025-updates). No Rivian page giving the years was opened."
+  },
+  "body": {
+    "value": [
+      "Pickup"
+    ],
+    "sourceId": "edmunds-r1t-2024",
+    "note": "Edmunds: 'Adventure 4dr Crew Cab AWD SB w/Quad-Motor, Large Pack'. Crew cab, short bed, the only configuration."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "motorweek-r1t-2022",
+      "note": "Battery EV; MotorWeek: 'Quad-Motor', one motor 'for each wheel'."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "motorweek-r1t-2022"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "motorweek-r1t-2022"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "motorweek-r1t-2022"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "edmunds-r1t-2024",
+    "note": "Edmunds trim name 'AWD ... w/Quad-Motor'; MotorWeek: one motor 'for each wheel for true 4-wheel-drive' (no transfer case), so AWD under the data guide's rule."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "edmunds-r1t-2024",
+    "note": "Edmunds 2024 R1T: Quad-Motor trim marked '(electric DD)' (direct drive); drivetrain table 'Transmission: 1-speed direct drive' (shown for the default trim)."
+  },
+  "powerHp": {
+    "value": 835,
+    "sourceId": "caranddriver-r1t-2024-specs",
+    "note": "PROVISIONAL (magazine specification section; no Rivian page opened). Car and Driver's specifications for the 2024 R1T, read by the project owner on 8 October 2026 (the site blocks the research tools): \"2024 Rivian R1T Adventure Quad-Motor Large Pack\": 835 hp. Agreeing: MotorWeek 2022 R1T specifications \"Motor Setup: Quad-Motor\", \"Horsepower: 835\", \"Torque: 908 lb-ft\" (motorweek-r1t-2022); Motor1 (2024): \"The quad-motor powertrain gets a bump from 835 hp to 1,025 hp\" (motor1-r1-2025-updates). Car and Driver's road-test panel for a 2022 R1T Launch Edition, also pasted by the owner, gives \"Combined Power: 835 hp\", \"Combined Torque: 908 lb-ft\". No Rivian press release or specification page stating 835 hp could be opened (rivian.com newsroom lists no Gen 1 Quad-Motor article)."
+  },
+  "weightLb": {
+    "value": 6949,
+    "sourceId": "caranddriver-r1t-2024-specs",
+    "note": "Car and Driver's specifications section for the 2024 R1T (the maker's figures, not a road-test measurement), read by the project owner on 8 October 2026 (the site blocks the research tools): \"2024 Rivian R1T Adventure Quad-Motor Large Pack\", curb weight 6,949 lb. Weight-order step 2 (major magazine specification panel). Tested weights of optioned trucks are higher: Car and Driver's road-test panel for a 2022 R1T Launch Edition (4 motors), pasted by the owner on 9 October 2026, \"Curb Weight: 7173 lb\" (tested; page link not supplied, so not entered as a source), and Edmunds' 7,148 lb (its test scale weight, see discrepancies). dimensions.com (6,949 lb) could not be opened (fetch error) and is not cited."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "caranddriver-r1t-2024-specs",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2024 Rivian R1T Review, Pricing, and Specs (specifications section)",
+      "url": "https://www.caranddriver.com/rivian/r1t-2024",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "motorweek-r1t-2022",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2022 Rivian R1T road test",
+      "url": "https://www.motorweek.org/reviews/road_tests/2022-rivian-r1t",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "edmunds-r1t-2024",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2024 Rivian R1T Specs & Features",
+      "url": "https://www.edmunds.com/rivian/r1t/2024/features-specs/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "motor1-r1-2025-updates",
+      "type": "publication",
+      "publisher": "Motor1",
+      "title": "The 2025 Rivian R1T and R1S Now Make Over 1,000 Horsepower (Chris Perkins, 6 June 2024)",
+      "url": "https://www.motor1.com/news/722395/2025-rivian-r1t-r1s-updates/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 6949,
+          "sourceId": "caranddriver-r1t-2024-specs"
+        },
+        {
+          "value": 7148,
+          "sourceId": "edmunds-r1t-2024"
+        }
+      ],
+      "reason": "Specification vs other figures. Car and Driver's 6,949 lb is a specification curb weight for the 2024 Adventure Quad-Motor Large Pack. Edmunds' 2024 R1T page prints \"Curb Weight | 7,148 lbs.\" for a different trim (shown for the default Dual-Motor, alongside 533 hp). Car and Driver's own road test of a 2022 Launch Edition measured 7,173 lb (owner-read; not entered as a source).",
+      "resolution": "The specification-section curb weight (step 2) is used; 7,148 lb is printed for a different trim and 7,173 lb is a measured weight of an optioned test truck."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (835 hp) rests on Car and Driver's specifications section (read by the project owner, 8 October 2026), agreed by MotorWeek and Motor1; no Rivian page stating the rating could be opened. A Rivian press release or specification page for the 2022-2024 Quad-Motor would replace it. Weight (6,949 lb) is a step-2 magazine specification figure and is not provisional. The model-year range rests on publications and Edmunds, not on a Rivian page."
+}

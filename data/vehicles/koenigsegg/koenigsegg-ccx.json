@@ -1,0 +1,105 @@
+{
+  "id": "koenigsegg-ccx",
+  "manufacturer": "Koenigsegg",
+  "model": "CCX",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Koenigsegg CCX",
+  "aliases": [
+    "CCX",
+    "Koenigsegg CCX",
+    "Rotrex"
+  ],
+  "country": "Sweden",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2010
+    },
+    "sourceId": "classic-com-ccx",
+    "note": "Calendar years 2006-2010 (owner decision, 8 October 2026; home-market record). Classic.com: 'Introduced in 2006', 'was replaced in 2010 by the Agera', 'Only 48 CCX cars were built, including its variants'. The CCX was also sold in the US: Classic.com says it 'was modified externally and mechanically to meet U.S. regulations'; US model years were not sourced, so the owner chose the home market. The CCXR and CCX Edition are separate variants."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "koenigsegg-ccx-specs",
+    "note": "Koenigsegg: 'Two-door, two-seater with detachable hardtop roof' (removable roof panel, recorded as Coupe like the Agera R and One:1)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "koenigsegg-ccx-specs",
+      "note": "Koenigsegg: 'Koenigsegg aluminium V8, 4 valves per cylinder, double overhead camshafts'."
+    },
+    "displacementL": {
+      "value": 4.7,
+      "sourceId": "koenigsegg-ccx-specs",
+      "note": "4,700 cc. Koenigsegg: 'Displacement: 4700 cc'."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "koenigsegg-ccx-specs",
+      "note": "Koenigsegg: 'Twin Rotrex centrifugal superchargers with response system', '1.4 bar boost pressure'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "koenigsegg-ccx-specs",
+    "note": "Koenigsegg: 'Sequential, multipoint fuel injection'; petrol V8, inferred."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "classic-com-ccx",
+    "note": "Classic.com: power went 'to the rear wheels'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "koenigsegg-ccx-specs",
+    "note": "Koenigsegg: 'Specially developed transversal 6-speed gearbox, with optional paddle-shift'. Classic.com: 'a 6-speed manual or sequential gearbox' (classic-com-ccx). The paddle-shift sequential option is an automated manual."
+  },
+  "powerHp": {
+    "value": 806,
+    "sourceId": "koenigsegg-ccx-specs",
+    "note": "Quote (Koenigsegg technical specifications): \"Power output: 806 Bhp at 7000 rpm\". Stored as published (powerStandard Other, as for the Agera R); no kW or PS figure was on the page. Classic.com also says 806hp."
+  },
+  "weightLb": {
+    "value": 2822,
+    "sourceId": "koenigsegg-ccx-specs",
+    "note": "Step 4 (manufacturer dry weight): no manufacturer or magazine-panel curb weight was found. Quote (Koenigsegg technical specifications): \"Dry weight: 1280 kg (2821 lbs)\". 1,280 kg x 2.20462 = 2,821.9, rounded to 2,822 lb (Koenigsegg prints 2,821 lbs)."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2006,
+    "powerStandard": "Other",
+    "weightType": "dry",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "koenigsegg-ccx-specs",
+      "type": "manufacturer",
+      "publisher": "Koenigsegg",
+      "title": "CCX - Technical Specifications",
+      "url": "https://www.koenigsegg.com/technical-specifications-ccx",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "classic-com-ccx",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Koenigsegg CCX market overview",
+      "url": "https://www.classic.com/m/koenigsegg/ccx",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

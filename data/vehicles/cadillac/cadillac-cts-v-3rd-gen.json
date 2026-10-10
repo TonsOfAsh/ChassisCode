@@ -66,19 +66,18 @@
   "powerHp": {
     "value": 640,
     "sourceId": "cadillac-2016-cts-v-release",
-    "note": "2016 launch rating. Quote: \"640 / 477 @ 6400 (SAE certified)\" (hp / kW). Edmunds, Cars.com and KBB list the 2016 car at 640 hp."
+    "note": "2016 launch rating. Quote: \"640 / 477 @ 6400 (SAE certified)\" (hp / kW). Edmunds, Cars.com and KBB list the 2016 car at 640 hp. Car and Driver's road-test panel agrees: \"Power: 640 hp @ 6400 rpm\" (cd-cts-v-2016)."
   },
   "weightLb": {
-    "value": 4145,
-    "sourceId": "cadillac-2016-cts-v-release",
-    "note": "PROVISIONAL: a manufacturer figure from a table headed preliminary, matched by a database. 2016 CTS-V sedan, 8-speed automatic (the only car). Quote: \"4145 / 1880\" (curb weight lb / kg) in the table headed \"2016 CADILLAC CTS-V PRELIMINARY SPECIFICATIONS\". Edmunds gives the same: \"4,145 lbs.\" for the 2016 4dr Sedan (edmunds-cts-v-2016-specs, a database). Cars.com (\"Base Curb Weight: 4,134 lbs\", cars-com-cts-v-2016-specs) and KBB (\"4134 pounds\", kbb-cts-v-2016-specs) list 11 lb less; see discrepancies. No final Cadillac figure was found."
+    "value": 4129,
+    "sourceId": "cd-cts-v-2016",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md); a measured weight of C/D's test car. Car and Driver road-test panel labelled '2016 Cadillac CTS-V' by the owner (the pasted panel has no title line), quote: \"Curb weight: 4129 lb\". Test car: \"TRANSMISSION: 8-speed automatic with manual shifting mode\" (the only transmission), \"PRICE AS TESTED: $95,290 (base price: $84,990)\"; the panel names the engine \"supercharged and intercooled V-8\" with \"Displacement: 376 cu in, 6162 cc\". The earlier provisional figure, 4,145 lb from Cadillac's table headed 'PRELIMINARY SPECIFICATIONS' (Edmunds agrees), is 0.4% higher; Cars.com and KBB give 4,134 lb. See discrepancies."
   },
   "specBasis": {
     "market": "US",
     "referenceModelYear": 2016,
     "powerStandard": "SAE net",
     "weightType": "curb",
-    "weightQualifier": "preliminary",
     "yearType": "model"
   },
   "sources": [
@@ -121,6 +120,14 @@
       "title": "Details Emerge On Last Cadillac CTS-V Ever Produced, by Jonathan Lopez (14 October 2019)",
       "url": "https://gmauthority.com/blog/2019/10/details-emerge-on-last-cadillac-cts-v-ever-produced/",
       "accessed": "2026-10-03"
+    },
+    {
+      "id": "cd-cts-v-2016",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2016 Cadillac CTS-V",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2016 Cadillac CTS-V (no title line in the pasted panel)' (siteId ctsv_2016); the pasted panel has no title line, so the year and model come from the owner's label",
+      "accessed": "2026-10-09"
     }
   ],
   "discrepancies": [
@@ -128,23 +135,32 @@
       "field": "weightLb",
       "values": [
         {
-          "value": 4145,
+          "value": "4,129 lb, C/D road-test curb weight",
+          "sourceId": "cd-cts-v-2016"
+        },
+        {
+          "value": "4,145 lb, Cadillac preliminary table",
           "sourceId": "cadillac-2016-cts-v-release"
+        },
+        {
+          "value": 4145,
+          "sourceId": "edmunds-cts-v-2016-specs"
         },
         {
           "value": 4134,
           "sourceId": "cars-com-cts-v-2016-specs"
+        },
+        {
+          "value": 4134,
+          "sourceId": "kbb-cts-v-2016-specs"
         }
       ],
-      "reason": "Cadillac's preliminary table and Edmunds give 4,145 lb; Cars.com and KBB give 4,134 lb (0.3% less). The databases do not say where their figures come from; 4,134 may be a later revision.",
-      "resolution": "Used 4,145 lb, the figure in Cadillac's own (preliminary) table, which Edmunds repeats. The difference is well within the 2% tolerance for provisional figures."
+      "reason": "Car and Driver's figure is the measured weight of its test car; Cadillac's 4,145 lb is from a table headed preliminary (repeated by Edmunds); Cars.com and KBB list 4,134 lb. All within 0.4%.",
+      "resolution": "Owner decision, 9 October 2026: the Car and Driver road-test curb weight is used (docs/DATA_GUIDE.md, Weight step 2). 4,129 lb used; the earlier 4,145 lb was the provisional (preliminary) figure."
     }
   ],
-  "needsReview": true,
-  "confidence": "low",
+  "needsReview": false,
+  "confidence": "medium",
   "image": null,
-  "dailyEligible": false,
-  "provisional": true,
-  "provisionalNote": "Weight is provisional: 4,145 lb comes from Cadillac's table headed 'PRELIMINARY SPECIFICATIONS' (reproduced by Car-Revs-Daily) and is repeated by Edmunds (a database); Cars.com and KBB (databases) give 4,134 lb. A final Cadillac specification sheet for 2016 to 2019, or a Car and Driver, Road & Track or MotorTrend spec panel, would replace it. The end year (2019) rests on GM Authority, not a Cadillac page.",
-  "reviewNotes": "Weight 4,145 lb is from Cadillac's table headed 'PRELIMINARY SPECIFICATIONS' (labelled weightQualifier 'preliminary'); Edmunds agrees, Cars.com and KBB give 4,134 lb. A final Cadillac figure would settle it."
+  "dailyEligible": true
 }

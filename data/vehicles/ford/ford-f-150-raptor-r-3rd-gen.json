@@ -1,0 +1,152 @@
+{
+  "id": "ford-f-150-raptor-r-3rd-gen",
+  "manufacturer": "Ford",
+  "model": "F-150",
+  "generation": "3rd gen",
+  "variant": "Raptor R",
+  "subVariant": null,
+  "displayName": "Ford F-150 Raptor R (3rd gen)",
+  "aliases": [
+    "Raptor R",
+    "F-150 Raptor R",
+    "Ford Raptor R",
+    "Gen 3 Raptor R",
+    "2023 Raptor R",
+    "2024 Raptor R",
+    "2025 Raptor R",
+    "10R80"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "sourceId": "fordauthority-raptor-r-2023-weight",
+    "note": "US model years 2023 onward. Start: Ford Authority (Brett Foote, 15 August 2022) on 'The V8-powered 2023 Ford Raptor R'. Ford's 2024 tech specs list the Raptor R (ford-raptor-2024-tech-specs); The Autopian (Mercedes Streeter, 13 May 2026) tested a 2025 Raptor R and says it is similar to the 2026 truck (autopian-raptor-r-2025), so it is treated as still on sale. No Ford page giving the model-year range was opened."
+  },
+  "body": {
+    "value": [
+      "Pickup"
+    ],
+    "sourceId": "ford-raptor-2024-tech-specs",
+    "note": "Ford: 'Body configuration SuperCrew®'; the sheet lists only the SuperCrew cab."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-raptor-2024-tech-specs",
+      "note": "'High-output 5.2-liter supercharged, intercooled' V8"
+    },
+    "displacementL": {
+      "value": 5.2,
+      "sourceId": "ford-raptor-2024-tech-specs",
+      "note": "Ford: 'Displacement ... 5.2 liters (315 cubic inches)'. 315 cu in is about 5,162 cc; no cc figure is printed on the sheet."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "ford-raptor-2024-tech-specs",
+      "note": "'High-output 5.2-liter supercharged, intercooled'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-raptor-2024-tech-specs"
+  },
+  "drivetrain": {
+    "value": "4WD",
+    "sourceId": "ford-raptor-2024-tech-specs",
+    "note": "Ford: 'Hi-lock transfer case; two-speed automatic four-wheel-drive system with neutral towing capability' and '2-speed torque on-demand'. A two-speed transfer case, so 4WD under the data guide's rule."
+  },
+  "transmission": {
+    "value": [
+      "10-speed Automatic"
+    ],
+    "sourceId": "ford-raptor-2024-tech-specs",
+    "note": "'10-speed SelectShift® Automatic', the only transmission."
+  },
+  "powerHp": {
+    "value": 720,
+    "sourceId": "ford-raptor-2024-tech-specs",
+    "note": "Ford 2024 F-150 Raptor tech specs, Raptor R column. Quote: \"SAE horsepower* 450 hp @ 5,850 rpm 720 hp @ 6,650 rpm\" (450 hp is the Raptor, 720 hp the Raptor R); torque 640 lb-ft @ 4,300 rpm. The 2023 Raptor R was rated 700 hp (Roadblazing's 2023 review: \"Horsepower petrol / Torque (pound - feet): 700 hp* / 640 lb-ft @ 4250 r.p.m.\", roadblazing-raptor-r-2023), so the reference year is 2024, the first year of the 720-hp rating, which has applied for most of the run. The Autopian's 2025 truck: \"Output: 720 horsepower at 6,650 RPM, 640 lb.-ft. of torque at 4,250 RPM.\""
+  },
+  "weightLb": {
+    "value": 6090,
+    "sourceId": "caranddriver-raptor-r-2024-test",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md). Car and Driver's road test 'Tested: 2024 Ford F-150 Raptor R Piles More on Top', read by the project owner (figure given 8 October, page link 9 October 2026) (the site blocks the research tools): \"2024 Ford F-150 Raptor R: 6090 lbs Curb weight\". It is the road-test curb weight of the test truck. Corroborated by The Autopian (Mercedes Streeter, 2025 truck, autopian-raptor-r-2025), unlabelled: \"this hulking 6,090-pound colossus\". SuperCrew 4WD, 10-speed automatic. Ford's approximate 5,950 lb and Roadblazing's 6,077 lb are for the 700-hp 2023 truck; see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2024,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-raptor-2024-tech-specs",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (fromtheroad.ford.com)",
+      "title": "2024 Ford F-150 Raptor and Raptor R Tech Specs",
+      "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2024/specs/2024-Ford-Raptor-and-Raptor-R-Tech-Specs.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "caranddriver-raptor-r-2024-test",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "Tested: 2024 Ford F-150 Raptor R Piles More on Top (C/D test results)",
+      "url": "https://www.caranddriver.com/reviews/a60814278/2024-ford-f-150-raptor-r-drive/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "autopian-raptor-r-2025",
+      "type": "publication",
+      "publisher": "The Autopian",
+      "title": "The 720-HP Ford F-150 Raptor R Does Everything So Incomprehensibly Fast It Warps Time, Space, And Your Brain (Mercedes Streeter)",
+      "url": "https://www.theautopian.com/the-720-hp-ford-f-150-raptor-r-does-everything-so-incomprehensibly-fast-it-warps-time-space-and-your-brain/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fordauthority-raptor-r-2023-weight",
+      "type": "publication",
+      "publisher": "Ford Authority",
+      "title": "2023 Ford Raptor R Will Not Weigh Much More Than V6 Counterparts (Brett Foote, 15 August 2022)",
+      "url": "https://fordauthority.com/2022/08/2023-ford-raptor-r-will-not-weigh-much-more-than-v6-counterparts",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "roadblazing-raptor-r-2023",
+      "type": "publication",
+      "publisher": "Roadblazing",
+      "title": "2023 Ford F-150 Raptor R 4x4 Bottom Line Review (George Straton)",
+      "url": "https://www.roadblazing.com/2023-ford-f-150-raptor-r-4x4-bottom-line-review/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 6090,
+          "sourceId": "caranddriver-raptor-r-2024-test"
+        },
+        {
+          "value": 5950,
+          "sourceId": "fordauthority-raptor-r-2023-weight"
+        },
+        {
+          "value": 6077,
+          "sourceId": "roadblazing-raptor-r-2023"
+        }
+      ],
+      "reason": "Model year and measurement. Ford Authority reports Ford's pre-launch approximate figure for the 2023 truck: \"The V8-powered 2023 Ford Raptor R will tip the scales at approximately 5,950 pounds\". Roadblazing's 2023 review: \"Curb Weight (pounds): 6077 lbs.\" Both are for the 700-hp 2023 model year; Car and Driver's 6,090 lb is a tested weight of a 2024 truck.",
+      "resolution": "The reference year is 2024 (720 hp), so the 2024 figure is used; the 2023 figures are a different model year. Ford's 5,950 lb is also labelled approximate."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

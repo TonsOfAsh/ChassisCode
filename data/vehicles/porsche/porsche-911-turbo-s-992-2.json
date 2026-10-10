@@ -1,0 +1,133 @@
+{
+  "id": "porsche-911-turbo-s-992-2",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "992.2",
+  "variant": "Turbo S",
+  "subVariant": null,
+  "displayName": "Porsche 911 Turbo S (992.2)",
+  "aliases": [
+    "992.2 Turbo S",
+    "Turbo S 992.2",
+    "Turbo S T-Hybrid",
+    "T-Hybrid",
+    "911 Turbo S Cabriolet",
+    "PDK",
+    "2026 911 Turbo S"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2026,
+      "endYear": null
+    },
+    "sourceId": "pcna-2026-911-turbo-s",
+    "note": "US model years 2026 to present: 'the new 2026 911 Turbo S is the most powerful production 911 to date'; 'Arrival in U.S. Porsche Centers is expected by Spring, 2026.' Launched as the current model in 2025-2026; no later model year page was opened."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "pcna-2026-911-turbo-s",
+    "note": "'Available as a coupe and Cabriolet'. The Cabriolet is the open version of the same variant."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "pcna-2026-911-turbo-s",
+      "note": "'the 3.6-liter boxer engine'; C/D panel: 'twin-turbocharged and intercooled DOHC 24-valve 3.6-liter flat-6'."
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "pcna-2026-911-turbo-s",
+      "note": "Porsche states '3.6-liter'; the C/D panel also says '3.6-liter flat-6'. No cc figure was found on an opened page, so the stated litre figure is used."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "pcna-2026-911-turbo-s",
+      "note": "'two eTurbos are used in the new 911 Turbo S' (electrically assisted turbochargers)."
+    }
+  },
+  "fuel": {
+    "value": "Hybrid",
+    "sourceId": "cd-2026-911-turbo-s",
+    "note": "C/D panel: '3.6-liter flat-6, 631 hp, 560 lb-ft + AC motor, 80 hp, 138 lb-ft (combined output: 701 hp, 590 lb-ft; lithium-ion battery pack)'. Porsche T-Hybrid; not a plug-in."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "pcna-2026-911-turbo-s",
+    "note": "'701 hp (523 kW) all-wheel drive sports car'; press kit: 'Porsche Traction Management (PTM) all-wheel drive system'."
+  },
+  "transmission": {
+    "value": [
+      "8-speed DCT"
+    ],
+    "sourceId": "pcna-2026-911-turbo-s",
+    "note": "'An eight-speed PDK with an integrated electric motor', the only transmission. DCT is Porsche PDK."
+  },
+  "powerHp": {
+    "value": 701,
+    "sourceId": "pcna-2026-911-turbo-s",
+    "note": "Combined system output. Quote: \"achieves a system output of 701 hp (523 kW)\". The combustion engine alone makes 631 hp (press kit pcna-2026-911-turbo-s-press-kit: 'the combustion engine in the new 911 Turbo S develops a power output of 631 hp (471 kW)'). C/D panel (cd-2026-911-turbo-s): '(combined output: 701 hp, 590 lb-ft; ...)'."
+  },
+  "weightLb": {
+    "value": 3829,
+    "sourceId": "pcna-2026-911-turbo-s",
+    "note": "2026 coupe with the 8-speed PDK (only transmission), manufacturer step 1. Quote: \"The new 911 Turbo S has a curb weight of 3,829 lbs.\" No Cabriolet figure was given (press kit power-to-weight: '5.5 lb./hp (Cabriolet: 5.7 lb./hp)'). Car and Driver's road-test panel gives 3,833 lb (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2026,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "pcna-2026-911-turbo-s",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America",
+      "title": "New Porsche 911 Turbo S Celebrates World Premiere in Munich",
+      "url": "https://newsroom.porsche.com/en_US/2025/products/new-porsche-911-turbo-s-celebrates-world-premiere-in-munich.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "pcna-2026-911-turbo-s-press-kit",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (Porsche Newsroom USA)",
+      "title": "PCNA Porsche 911 Turbo S Press Kit",
+      "url": "https://newsroom.porsche.com/dam/jcr%3Ab82ca30c-aeb2-405d-9855-15c2641b04c1/PCNA_Porsche_911_Turbo_S_Press_Kit.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2026-911-turbo-s",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2026 Porsche 911 Turbo S",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2026 Porsche 911 Turbo S'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3829,
+          "sourceId": "pcna-2026-911-turbo-s"
+        },
+        {
+          "value": 3833,
+          "sourceId": "cd-2026-911-turbo-s"
+        }
+      ],
+      "reason": "Manufacturer curb weight vs Car and Driver's road-test curb weight of an optioned test car ('Curb Weight: 3833 lb').",
+      "resolution": "Used 3,829 lb: a manufacturer curb weight exists (weight step 1); the figures agree within 0.1%."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

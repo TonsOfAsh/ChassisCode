@@ -1,0 +1,185 @@
+{
+  "id": "ferrari-enzo",
+  "manufacturer": "Ferrari",
+  "model": "Enzo",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari Enzo",
+  "aliases": [
+    "Enzo Ferrari",
+    "Ferrari Enzo Ferrari",
+    "2003 Ferrari Enzo",
+    "F60",
+    "F140"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2003,
+      "endYear": 2003
+    },
+    "sourceId": "hagerty-enzo",
+    "note": "US model year 2003 only. Hagerty's valuation overview is for the '2003 Ferrari Enzo' and says the car was built 'with only 400 built (80 of which were designated for the U.S. market)'. Car and Driver's road test of a '2003 Ferrari Enzo Ferrari' (EPA 8/12 mpg), read by the project owner on 9 October 2026 (the site blocks the research tools) (caranddriver-enzo-2003-test). An earlier pass (3 October 2026) found the EPA listing (via MPG Buddy) for model year 2003 only. Calendar build years were 2002-2004: Evo titles the car 'Ferrari Enzo (2002 - 2004)' (evo-enzo); Ferrari: unveiled at the 2002 Paris Motor Show, 'Just 399 examples were planned: a 400th would follow and was donated to the Vatican for charity' (ferrari-magazine-enzo)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-enzo",
+    "note": "Two-seat, mid-engined fixed-roof car; no open version was sold."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "evo-enzo",
+      "note": "Evo spec panel: 'Engine | V12, 5998cc' (Ferrari F140 engine, mid-mounted)."
+    },
+    "displacementL": {
+      "value": 6.0,
+      "sourceId": "evo-enzo",
+      "note": "5,998 cc (Evo panel 'V12, 5998cc'; carsales, Peter Robinson, 2002: '92mm bore and 75.2mm stroke give a capacity of 5998cc', carsales-enzo-2002). Car and Driver's test panel (owner-read, caranddriver-enzo-2003-test) prints '366in3, 5999 cm3' (rounding)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-enzo",
+      "note": "Evo: 'its naturally aspirated, 650bhp 8500rpm V12'; Ferrari: 'the world's most powerful naturally aspirated engine' (ferrari-magazine-enzo)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "evo-enzo",
+    "note": "Not stated in so many words; petrol V12, no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-enzo",
+    "note": "Spec panel: 'Transmission | Six-speed semi-automatic, rear-wheel drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "ferrari-magazine-enzo",
+    "note": "Ferrari: 'A new six-speed automated manual gearbox gave lightning-fast shift times of just 150 milliseconds'. Evo: 'Six-speed semi-automatic' (evo-enzo); Car and Driver's test panel (owner-read, caranddriver-enzo-2003-test): '6-speed automated manual'. Ferrari's paddle-shift 'F1' gearbox; no conventional manual was offered."
+  },
+  "powerHp": {
+    "value": 650,
+    "sourceId": "caranddriver-enzo-2003-test",
+    "note": "Owner decision, 9 October 2026: Car and Driver's values are used. Car and Driver's road-test panel for the 2003 US car, read by the project owner on 9 October 2026 (the site blocks the research tools): \"Power: 650 hp @ 7800 rpm\". This is Ferrari's 485 kW rating expressed in hp (485 kW x 1.34102 = 650 hp; carsales 2002: '485kW at 7800rpm', carsales-enzo-2002), and Evo's specification panel agrees: \"Max power | 650bhp @ 7800rpm\" (evo-enzo). Ferrari's own article gives the metric figure: \"Dry weight was just 1255kg, astonishingly light for such a powerful (660 hp) V12-powered supercar.\" (ferrari-magazine-enzo); 660 cv x 0.98632 = 651 hp. No separate US SAE rating from Ferrari was found, so powerStandard is DIN PS (metric rating converted). Hagerty writes '660 horsepower' (hagerty-enzo)."
+  },
+  "weightLb": {
+    "value": 3262,
+    "sourceId": "caranddriver-enzo-2003-test",
+    "note": "Owner decision, 9 October 2026: Car and Driver's value is used. Car and Driver road test of a 2003 US car, read by the project owner on 9 October 2026 (the site blocks the research tools): \"Curb Weight: 3262 lb\" (a TESTED, measured weight). Qualifying step-2 figure that agrees to 1 lb: Evo's specification panel, labelled kerb: \"Weight (kerb) | 1480kg\" (evo-enzo; 1,480 kg x 2.20462 = 3,263 lb), which is why the record stays a normal record. Also Hagerty for the 2003 US car: \"At a curb weight of 3,230 pounds\" (hagerty-enzo), within 1%. Single configuration (coupe, 6-speed F1 gearbox). Ferrari gives only a dry weight: \"Dry weight was just 1255kg\" (ferrari-magazine-enzo). A lower kerb figure of 1,365 kg is resolved in discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2003,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "caranddriver-enzo-2003-test",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2003 Ferrari Enzo Tested: What Price Perfection? Oh, About $650K (archive test; C/D test results)",
+      "url": "https://www.caranddriver.com/reviews/a71175169/2003-ferrari-enzo-ferrari-archive-test/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ferrari-magazine-enzo",
+      "type": "manufacturer",
+      "publisher": "Ferrari (ferrari.com magazine)",
+      "title": "Meeting the Ferrari Enzo (2002)",
+      "url": "https://www.ferrari.com/en-EN/magazine/articles/meeting-the-ferrari-enzo-2002",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "evo-enzo",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Ferrari Enzo (2002 - 2004) – review, history and specs of an iconic hypercar",
+      "url": "https://www.evo.co.uk/ferrari/enzo",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "hagerty-enzo",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "2003 Ferrari Enzo (valuation tool model overview)",
+      "url": "https://www.hagerty.com/valuation-tools/ferrari/enzo/2003/2003-ferrari-enzo",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "carsales-enzo-2002",
+      "type": "publication",
+      "publisher": "carsales.com.au",
+      "title": "Ferrari Enzo 2002 Review",
+      "url": "https://www.carsales.com.au/editorial/details/ferrari-enzo-3276",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "topgear-enzo-data",
+      "type": "database",
+      "publisher": "Top Gear (car data panel)",
+      "title": "Ferrari Enzo 2dr specification data",
+      "url": "https://www.topgear.com/car-reviews/ferrari/2dr/spec-3",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,262 lb curb, tested (1,480 kg), 2003 US car",
+          "sourceId": "caranddriver-enzo-2003-test"
+        },
+        {
+          "value": "1,480 kg kerb (3,263 lb)",
+          "sourceId": "evo-enzo"
+        },
+        {
+          "value": "3,230 lb curb (1,465 kg), US 2003 car",
+          "sourceId": "hagerty-enzo"
+        },
+        {
+          "value": "1,365 kg 'Minimum Kerbweight' (3,009 lb)",
+          "sourceId": "topgear-enzo-data"
+        },
+        {
+          "value": "1,255 kg dry (2,767 lb)",
+          "sourceId": "ferrari-magazine-enzo"
+        }
+      ],
+      "reason": "Dry vs kerb, and two kerb camps. 1,255 kg is Ferrari's dry weight. 1,365 kg appears in Top Gear's auto-filled data panel, in spec databases (ultimatespecs, which prints it beside the 1,255 kg dry figure) and in two named-author articles (auto.cz, Michal Razim; km77, Victor M. Fernandez; found 3 October 2026); none of them says how it was measured, and no Ferrari page stating it could be opened. It is exactly 110 kg above Ferrari's dry weight, i.e. it looks like the dry figure plus some fluids, not a ready-to-drive weight. The 1,480 kg camp has three independent figures within 1%: Evo's panel labelled kerb (1,480 kg), Car and Driver's measured weight of a 2003 US car (3,262 lb = 1,480 kg; owner-read, 9 October 2026) and Hagerty's 3,230 lb for the US car.",
+      "resolution": "Owner decision, 9 October 2026: Car and Driver's tested 3,262 lb is used. It agrees to 1 lb with Evo's panel kerb weight (1,480 kg = 3,263 lb, step 2) and within 1% of Hagerty's 3,230 lb; a true kerb weight of 1,365 kg (115 kg lighter) could not produce that scale weight, and the Enzo had no heavy options to explain the gap. The 1,365 kg figure is treated as a lighter, partial-fluids basis of unknown origin. A Ferrari document stating a kerb weight for the standard car would take precedence (step 1) if one is found."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "650 hp",
+          "sourceId": "caranddriver-enzo-2003-test"
+        },
+        {
+          "value": "650bhp",
+          "sourceId": "evo-enzo"
+        },
+        {
+          "value": "660 hp (metric cv; 485 kW)",
+          "sourceId": "ferrari-magazine-enzo"
+        }
+      ],
+      "reason": "Units. Ferrari's 660 is metric horsepower (cv), 651 hp at 1 PS = 0.98632 hp; the same engine's 485 kW is 650 hp at 1 kW = 1.34102 hp, the figure Car and Driver and Evo print.",
+      "resolution": "Owner decision, 9 October 2026: Car and Driver's 650 hp is used (Evo's panel agrees); Ferrari's 660 cv = 651 hp is noted."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

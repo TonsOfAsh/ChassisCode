@@ -1,0 +1,149 @@
+{
+  "id": "tesla-model-3-performance-pre-highland",
+  "manufacturer": "Tesla",
+  "model": "Model 3",
+  "generation": "Pre-Highland",
+  "variant": "Performance",
+  "subVariant": null,
+  "displayName": "Tesla Model 3 Performance (Pre-Highland)",
+  "aliases": [
+    "Model 3 Dual Motor Performance",
+    "Model 3 Long Range Performance",
+    "2018 Model 3 Performance",
+    "2019 Model 3 Performance",
+    "2020 Model 3 Performance",
+    "2021 Model 3 Performance",
+    "2022 Model 3 Performance",
+    "2023 Model 3 Performance",
+    "Pre-Highland Model 3 Performance"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2018,
+      "endYear": 2023
+    },
+    "sourceId": "kbb-model-3-2018",
+    "note": "US model years 2018-2023. Start: KBB's 2018 Model 3 specs list 'Model 3 Performance Sedan 4D'. Last: Car and Driver's specifications for the 2023 Model 3 Performance AWD (caranddriver-model-3-2023-specs, read by the project owner on 8 October 2026 (the site blocks the research tools)) and KBB's 2023 list ('Model 3 Performance Sedan 4D', kbb-model-3-2023); InsideEVs on the 2024 Performance: \"which bests the outgoing model's 455 HP\" (insideevs-model-3-performance-2024). The 2024-on car is tesla-model-3-performance-highland. yearSplit is set so the name carries the years and separates it from the Highland car; this car has no generation code in common use."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "kbb-model-3-2018",
+    "note": "KBB: 'Model 3 Performance Sedan 4D'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "edmunds-model-3-2023",
+      "note": "Battery EV, two motors ('electric DD')."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "edmunds-model-3-2023"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "edmunds-model-3-2023"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "edmunds-model-3-2023"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "kbb-model-3-2018",
+    "note": "KBB 2018 and 2023: Drivetrain 'AWD' for the Performance; Edmunds 2023: 'Performance 4dr Sedan AWD (electric DD)'."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "edmunds-model-3-2023",
+    "note": "Edmunds 2023 Model 3: trim 'Performance 4dr Sedan AWD (electric DD)' (direct drive); drivetrain table 'Transmission: 1-speed direct drive' (shown for the Long Range)."
+  },
+  "powerHp": {
+    "value": 455,
+    "sourceId": "caranddriver-model-3-2023-specs",
+    "note": "PROVISIONAL (magazine specification section; Tesla published no horsepower for these years). Car and Driver's specifications for the 2023 Model 3, read by the project owner on 8 October 2026 (the site blocks the research tools): \"2023 Model 3 Performance AWD: 455 HP\". InsideEVs agrees for the last pre-Highland car: \"which bests the outgoing model's 455 HP\" (insideevs-model-3-performance-2024). Car and Driver's road-test panel for a 2019 Model 3 Dual Motor Performance (pasted by the owner on 9 October 2026; link not supplied) gives \"Combined Power (C/D est): 470 hp\", a Car and Driver estimate."
+  },
+  "weightLb": {
+    "value": 4048,
+    "sourceId": "caranddriver-model-3-2023-specs",
+    "note": "Car and Driver's specifications section for the 2023 Model 3 (the maker's figures, not a road-test measurement), read by the project owner on 8 October 2026 (the site blocks the research tools): \"2023 Model 3 Performance AWD: ... 4048 lbs Curb weight\". Weight-order step 2 (major magazine specification panel). Reference year 2023 is the earliest year with a step-2 weight; earlier figures are databases or tested: KBB 2018 4,072 lb (see discrepancies) and Car and Driver's 2019 road-test panel \"Curb weight: 4072 lb\" (tested, owner-read 9 October 2026, link not supplied)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2023,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "caranddriver-model-3-2023-specs",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2023 Tesla Model 3 Review, Pricing, and Specs (specifications section)",
+      "url": "https://www.caranddriver.com/tesla/model-3-2023",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "kbb-model-3-2018",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2018 Tesla Model 3 specs",
+      "url": "https://www.kbb.com/tesla/model-3/2018/specs/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-model-3-2023",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2023 Tesla Model 3 specs",
+      "url": "https://www.kbb.com/tesla/model-3/2023/specs/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "edmunds-model-3-2023",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "2023 Tesla Model 3 Specs & Features",
+      "url": "https://www.edmunds.com/tesla/model-3/2023/features-specs/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "insideevs-model-3-performance-2024",
+      "type": "publication",
+      "publisher": "InsideEVs",
+      "title": "2024 Tesla Model 3 Performance Revealed: 510 Horsepower, 0-60 In 2.9 Seconds, $53k",
+      "url": "https://insideevs.com/news/717148/tesla-model-3-performance-ludicrous/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4048,
+          "sourceId": "caranddriver-model-3-2023-specs"
+        },
+        {
+          "value": 4072,
+          "sourceId": "kbb-model-3-2018"
+        }
+      ],
+      "reason": "Model year. KBB's 2018 Model 3 Performance Sedan 4D: \"Curb Weight | Not Available | Not Available | 4072 pounds\"; Car and Driver's 2023 specification gives 4,048 lb. Car and Driver's tested 2019 car also weighed 4,072 lb.",
+      "resolution": "Reference year 2023, the earliest year with a step-2 (magazine specification) weight, so 4,048 lb is used."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (455 hp) rests on Car and Driver's specifications section for 2023 (read by the project owner, 8 October 2026) and InsideEVs; Tesla published no horsepower rating for 2018-2023, and other figures range 450-487 hp (Car and Driver's own test estimated 470 hp). A Tesla-published rating would replace it. Weight (4,048 lb, 2023) is a step-2 magazine specification figure. Body, drivetrain, transmission and the start year rest on KBB and Edmunds (databases)."
+}

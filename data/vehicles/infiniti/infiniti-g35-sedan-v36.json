@@ -1,0 +1,108 @@
+{
+  "id": "infiniti-g35-sedan-v36",
+  "manufacturer": "Infiniti",
+  "model": "G35",
+  "generation": "V36",
+  "variant": "Sedan",
+  "subVariant": null,
+  "displayName": "Infiniti G35 Sedan (V36)",
+  "aliases": [
+    "G35 Sedan",
+    "G35",
+    "G35 Sport 6MT",
+    "VQ35HR",
+    "2007 G35",
+    "2008 G35"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2007,
+      "endYear": 2008
+    },
+    "sourceId": "infiniti-usa-g35",
+    "note": "US model years. Infiniti USA's G35 page heads its specification column \"G35 Sedan (2007-2008)\" (VQ35HR, 306 hp) and says the G35 was \"Offered as a coupe from 2003–2007 and a sedan from 2003–2008\" and \"Production of the INFINITI G35 ended in 2008, when it was replaced by the INFINITI G37.\" The earlier V35 sedan (2003-2006) and the V35 coupe are not covered by this record; neither is the AWD G35x."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "infiniti-usa-g35",
+    "note": "The 306 hp VQ35HR car is the 2007-2008 G35 Sedan in Infiniti's table. The Car and Driver panel has no Vehicle Type line; its dimensions (\"Height: 57.2 in\", \"Passenger Volume: 96 ft3\") fit the sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "cd-infiniti-g35-2007",
+      "note": "VQ35HR. Panel: \"DOHC 24-valve V-6, aluminum block and heads, port fuel injection\"."
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "cd-infiniti-g35-2007",
+      "note": "3,498 cc. Panel: \"Displacement: 213 in3, 3498 cm3\"."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "cd-infiniti-g35-2007",
+      "note": "Inferred: the panel's engine line names no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-infiniti-g35-2007",
+    "note": "Inferred from the panel's engine line."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "infiniti-usa-g35",
+    "note": "Infiniti's table gives the 2007-2008 sedan as rear-wheel drive with optional AWD; the AWD car was sold as its own model, the G35x, and is not covered here. (Infiniti's table is summarised here, not quoted.)"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "infiniti-usa-g35",
+    "note": "Infiniti USA's table for the 2007-2008 sedan: \"5-speed automatic / 6-speed manual\". Panel: \"TRANSMISSION 6-speed manual\" (source cd-infiniti-g35-2007)."
+  },
+  "powerHp": {
+    "value": 306,
+    "sourceId": "cd-infiniti-g35-2007",
+    "note": "Car and Driver road-test panel, 2007 G35 with the 6-speed manual. Quote: \"Power: 306 hp @ 6800 rpm\". Infiniti USA's table gives \"306 hp\" for the G35 Sedan (2007-2008) (source infiniti-usa-g35), so the rating held for both years."
+  },
+  "weightLb": {
+    "value": 3583,
+    "sourceId": "cd-infiniti-g35-2007",
+    "note": "Car and Driver road-test curb weight, 2007 G35 sedan with the 6-speed manual (the standard car). Quote: \"Curb Weight: 3583 lb\". The test car carried the Premium package (\"sunroof, 10-speaker sound system, and heated from seats\", as the panel prints it), so a car without it is slightly lighter. Infiniti USA's page gives only an approximate range (\"~3,500–3,600 lbs\"), not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cd-infiniti-g35-2007",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2007 Infinity G35",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2007 Infinity G35' (the panel misspells Infiniti)",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "infiniti-usa-g35",
+      "type": "manufacturer",
+      "publisher": "Infiniti USA",
+      "title": "INFINITI G35 Luxury Coupe and Sedan",
+      "url": "https://www.infinitiusa.com/vehicles/discontinued-vehicles/g35.html",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

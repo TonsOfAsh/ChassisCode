@@ -1,0 +1,123 @@
+{
+  "id": "bmw-m5-cs-f90",
+  "manufacturer": "BMW",
+  "model": "M5",
+  "generation": "F90",
+  "variant": "CS",
+  "subVariant": null,
+  "displayName": "BMW M5 CS (F90)",
+  "aliases": [
+    "F90 M5 CS",
+    "M5 CS F90",
+    "2022 M5 CS",
+    "S63",
+    "M xDrive",
+    "M Steptronic"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": 2022
+    },
+    "sourceId": "bmw-us-2022-m5-cs",
+    "note": "One US model year. BMW NA: 'Available only for the 2022 model year, the new limited production super sedan' and 'Limited to one model year only. U.S. arrival 2nd half of 2021.'"
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "bmw-us-2022-m5-cs",
+    "note": "Table: 'Seats | 4', 'Number of Doors | 4'; 'For the first time, the M5 features a four-passenger seating configuration'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "bmw-us-2022-m5-cs",
+      "note": "'The S63 4.4-liter M TwinPower turbo V8'."
+    },
+    "displacementL": {
+      "value": 4.4,
+      "sourceId": "bmw-us-2022-m5-cs",
+      "note": "4,395 cc ('Displacement | cm³ | 4,395')."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "bmw-us-2022-m5-cs",
+      "note": "'The liquid-to-air intercooling for the two turbochargers'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "cd-2022-m5-cs",
+    "note": "Inferred from the panel's description: 'twin-turbocharged and intercooled DOHC 32-valve V-8 ... direct fuel injection'."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "bmw-us-2022-m5-cs",
+    "note": "'The rear-biased M xDrive all-wheel drive system'. C/D panel: 'all/rear-wheel-drive' (M xDrive has a selectable 2WD mode)."
+  },
+  "transmission": {
+    "value": [
+      "8-speed Automatic"
+    ],
+    "sourceId": "bmw-us-2022-m5-cs",
+    "note": "'The eight-speed M Steptronic transmission' (table: 'Transmission type | M8HP76'), a torque-converter automatic and the only transmission."
+  },
+  "powerHp": {
+    "value": 627,
+    "sourceId": "bmw-us-2022-m5-cs",
+    "note": "Quote: \"Engine power | hp | 627 @ 6,000 rpm\"; text: 'The S63 4.4-liter M TwinPower turbo V8 has been tuned to deliver 627 hp at 6,000 rpm'. C/D panel (cd-2022-m5-cs): \"Power: 627 hp @ 6000 rpm\"."
+  },
+  "weightLb": {
+    "value": 4114,
+    "sourceId": "bmw-us-2022-m5-cs",
+    "note": "2022 M5 CS, the only configuration (8-speed automatic, M xDrive), manufacturer step 1. Quote: \"Curb weight | lbs. | 4,114\". Car and Driver's road-test panel gives 4,096 lb (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-2022-m5-cs",
+      "type": "manufacturer",
+      "publisher": "BMW of North America",
+      "title": "The new BMW M5 CS (press release)",
+      "url": "https://press.bmwgroup.com/usa/article/detail/T0325006EN_US/the-new-bmw-m5-cs",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-2022-m5-cs",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2022 BMW M5 CS",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2022 BMW M5 CS'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4114,
+          "sourceId": "bmw-us-2022-m5-cs"
+        },
+        {
+          "value": 4096,
+          "sourceId": "cd-2022-m5-cs"
+        }
+      ],
+      "reason": "Manufacturer curb weight vs Car and Driver's road-test curb weight ('Curb Weight: 4096 lb') of the test car.",
+      "resolution": "Used 4,114 lb: a manufacturer curb weight exists (weight step 1), so the step-2 panel figure is not used."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

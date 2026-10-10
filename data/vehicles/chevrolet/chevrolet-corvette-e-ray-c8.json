@@ -53,7 +53,7 @@
   "fuel": {
     "value": "Hybrid",
     "sourceId": "thedrive-e-ray-2023",
-    "note": "Full hybrid, not plug-in: '1.9-kWh lithium-ion battery' with a front electric motor."
+    "note": "Full hybrid, not plug-in: '1.9-kWh lithium-ion battery' with a front electric motor. Car and Driver's panel gives the pack as \"1.1-kWh liquid-cooled lithium-ion battery pack\" (cd-corvette-e-ray-2024); The Drive's 1.9 kWh is not reconciled, and it does not affect the fuel type."
   },
   "drivetrain": {
     "value": "AWD",
@@ -69,19 +69,19 @@
   },
   "powerHp": {
     "value": 655,
-    "sourceId": "thedrive-e-ray-2023",
-    "note": "PROVISIONAL: publications (combined system output). The Drive spec box (Peter Holderith, 13 Oct 2023), quote: \"655 (495 from V8 @ 6,450 rpm | 160 from electric motor)\". KBB editorial (kbb-e-ray-news-2023, Sean Tucker): \"a total of 655 horsepower\". Cars.com: 'SAE Net Horsepower @ RPM 655 @ 6450' (carscom-e-ray-2024). No Chevrolet page could be opened (news.chevrolet.com URL not found; corvetteactioncenter.com refused)."
+    "sourceId": "cd-corvette-e-ray-2024",
+    "note": "Combined system output as printed in Car and Driver's road-test panel '2024 Chevrolet Corvette E-Ray*' (owner copy), quote: \"pushrod V-8, aluminum block and heads, direct fuel injection, 495 hp, 470 lb-ft + 1 AC  motor, 160 hp, 125 lb-ft (combined output: 655 hp; 1.1-kWh liquid-cooled lithium-ion battery pack)\". Publications agree: The Drive spec box (Peter Holderith, 13 Oct 2023): \"655 (495 from V8 @ 6,450 rpm | 160 from electric motor)\" (thedrive-e-ray-2023); KBB editorial (kbb-e-ray-news-2023, Sean Tucker): \"a total of 655 horsepower\"; Cars.com: 'SAE Net Horsepower @ RPM 655 @ 6450' (carscom-e-ray-2024). No Chevrolet page could be opened."
   },
   "weightLb": {
-    "value": 3774,
-    "sourceId": "thedrive-e-ray-2023",
-    "note": "PROVISIONAL: publications reporting Chevrolet's DRY weight (weight-order step 4), standard coupe, 2024 model. The Drive spec box, quote: \"Dry Weight | 3,774 pounds (coupe) | 3,856 pounds (convertible)\". Carscoops (carscoops-e-ray-2023, Chris Chilton, 17 Jan 2023): \"The E-Ray coupe's dry weight as 3,774 lbs (1,712 kg)\". Cars.com labels it 'Base Curb Weight 3,774 lbs' (carscom-e-ray-2024), but it is the same Chevrolet dry figure. No Chevrolet curb weight was found; a real curb weight is higher (Carscoops: 'almost certainly going to top 4,000 lbs')."
+    "value": 3965,
+    "sourceId": "cd-corvette-e-ray-2024",
+    "note": "Weight-order step 2: Car and Driver road-test curb weight (owner decision, 9 October 2026, docs/DATA_GUIDE.md); a measured weight of C/D's test car. Quote (C/D panel '2024 Chevrolet Corvette E-Ray*'): \"Curb Weight: 3965 lb\". Test car: \"mid-engine, front-motor, front/all-wheel-drive, 2-passenger, 2 door targa\" (the coupe with removable roof panel), \"Transmission, F/R: direct-drive/8-speed dual-clutch automatic\", \"Base/As Tested: $106,595/$113,985\", \"Options: 2LE Equipment package, $5500; Carbon Flash forged aluminum wheels, $995; Performance package, $500; Black exhaust tips, $395\" (printed '2LE'; the E-Ray trims on Cars.com are 1LZ to 3LZ). This curb weight replaces Chevrolet's DRY weight of 3,774 lb for the coupe (weight-order step 4), reported by The Drive (\"Dry Weight | 3,774 pounds (coupe) | 3,856 pounds (convertible)\") and Carscoops (\"The E-Ray coupe's dry weight as 3,774 lbs (1,712 kg)\"); see discrepancies. Never skip a step: a curb figure comes before a dry one."
   },
   "specBasis": {
     "market": "US",
     "referenceModelYear": 2024,
     "powerStandard": "SAE net",
-    "weightType": "dry",
+    "weightType": "curb",
     "yearType": "model"
   },
   "sources": [
@@ -132,13 +132,45 @@
       "title": "Corvette performance lineup",
       "url": "https://www.chevrolet.com/performance/corvette/e-ray",
       "accessed": "2026-10-03"
+    },
+    {
+      "id": "cd-corvette-e-ray-2024",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2024 Chevrolet Corvette E-Ray*",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2024 Chevrolet Corvette E-Ray*'",
+      "accessed": "2026-10-09"
     }
   ],
   "needsReview": false,
-  "confidence": "low",
+  "confidence": "medium",
   "image": null,
   "dailyEligible": false,
   "provisional": true,
-  "discrepancies": [],
-  "provisionalNote": "Power (655 hp) and the dry weight (3,774 lb, coupe) rest on publications reporting Chevrolet's figures (The Drive's spec box, Carscoops, KBB editorial); a Chevrolet press release or specification table (news.chevrolet.com, or a GM release reproduced on corvetteactioncenter.com or vette-vues.com) would replace them, and a Chevrolet curb weight would replace the dry figure. The last model year (2026) is inferred from Cars.com and chevrolet.com's current lineup; a GM statement would replace it."
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "3,965 lb, C/D road-test curb weight (2024 coupe)",
+          "sourceId": "cd-corvette-e-ray-2024"
+        },
+        {
+          "value": "3,774 lb, Chevrolet dry weight (coupe) as reported",
+          "sourceId": "thedrive-e-ray-2023"
+        },
+        {
+          "value": "3,774 lb, dry (coupe)",
+          "sourceId": "carscoops-e-ray-2023"
+        },
+        {
+          "value": "3,774 lb, labelled 'Base Curb Weight' (Chevrolet's dry figure)",
+          "sourceId": "carscom-e-ray-2024"
+        }
+      ],
+      "reason": "Dry vs curb: 3,774 lb is Chevrolet's dry weight for the coupe (Cars.com mislabels it curb); Car and Driver's 3,965 lb is the measured curb weight of an optioned test car.",
+      "resolution": "Owner decision, 9 October 2026: the Car and Driver road-test curb weight is used (docs/DATA_GUIDE.md, Weight step 2). 3,965 lb curb used; the earlier record used the 3,774 lb dry figure (step 4) provisionally."
+    }
+  ],
+  "provisionalNote": "Only the last model year is provisional: 2026 is inferred from Cars.com (a database listing a 2026 Corvette E-Ray) and chevrolet.com's current lineup, which no longer lists the E-Ray; a GM statement or release saying the E-Ray ended with the 2026 model year (or continues) would replace it. Power (655 hp combined) and weight (3,965 lb, Car and Driver road-test curb weight) now come from Car and Driver's road-test panel (owner decision, 9 October 2026) and are no longer provisional."
 }

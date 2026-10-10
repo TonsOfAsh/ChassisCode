@@ -1,0 +1,134 @@
+{
+  "id": "audi-rs-e-tron-gt-performance",
+  "manufacturer": "Audi",
+  "model": "RS e-tron GT",
+  "generation": null,
+  "variant": "Performance",
+  "subVariant": null,
+  "displayName": "Audi RS e-tron GT Performance",
+  "aliases": [
+    "RS e-tron GT performance",
+    "e-tron GT RS Performance",
+    "2025 RS e-tron GT"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "kbb-2025-rs-etron-gt",
+    "note": "US model years. First: Kelley Blue Book (database), \"Last year’s RS e-tron GT is upgraded to the 2025 RS e-tron GT Performance, gaining greater power\"; Battery Industry (unbylined and undated; names no source): \"For model year 2025, the new entry to the e-tron GT family\" and \"available now for ordering through US Audi retailers\" (batteryindustry-2025-rs-etron-gt-performance). Still on sale: audiusa.com, \"2026 Audi RS e-tron® GT performance\" (audiusa-2026-rs-etron-gt-performance). The 2022–2024 RS e-tron GT is a separate record."
+  },
+  "body": {
+    "value": [
+      "Sedan"
+    ],
+    "sourceId": "cd-rs-etron-gt-performance-2025",
+    "note": "Panel: \"front- and rear-motor, all-wheel-drive, 5-passenger, 4-door sedan\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "cd-rs-etron-gt-performance-2025",
+      "note": "Panel: \"Front Motor: permanent-magnet synchronous AC / Rear Motor: permanent-magnet synchronous AC\"."
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "cd-rs-etron-gt-performance-2025"
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "cd-rs-etron-gt-performance-2025"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "cd-rs-etron-gt-performance-2025",
+    "note": "Panel: \"Battery Pack: liquid-cooled lithium-ion, 97 kWh\"."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "cd-rs-etron-gt-performance-2025",
+    "note": "Panel: \"front- and rear-motor, all-wheel-drive\"."
+  },
+  "transmission": {
+    "value": [
+      "2-speed Automatic"
+    ],
+    "sourceId": "cd-rs-etron-gt-performance-2025",
+    "note": "Panel: \"Transmissions, F/R: direct-drive/2-speed automatic\" (two-speed gearbox on the rear motor, as in the RS e-tron GT record). Battery Industry: \"the first gear of its two-speed gearbox\"."
+  },
+  "powerHp": {
+    "value": 912,
+    "sourceId": "audiusa-2026-rs-etron-gt-performance",
+    "note": "Maximum rating with launch control, per the boost rule. Quote (audiusa.com, 2026 model): \"Exhilarating launch control boosts the power to achieve up to 912 HP.\" with \"Maximum HP achieved via peak performance of the electric motor(s) at peak battery power pursuant to SAE J2908.\" C/D panel (2025): \"Combined Power: 912 hp\" (cd-rs-etron-gt-performance-2025). Battery Industry (2025): \"Launch Control can briefly use resources from the battery pack and electric motors for an output up to 912 horsepower.\" The ordinary (non-launch-control) rating was not found on the pages opened."
+  },
+  "weightLb": {
+    "value": 5169,
+    "sourceId": "cd-rs-etron-gt-performance-2025",
+    "note": "Car and Driver road-test curb weight (weight-order step 2), 2025 RS e-tron GT performance, single configuration. Panel quote: \"Curb Weight: 5169 lb\". No Audi of America curb weight was found (the audiusa.com page gives none). Kelley Blue Book lists 5,137 lb (kbb-2025-rs-etron-gt), the same figure KBB gives the 2022 RS e-tron GT, so it looks carried over (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2025,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "audiusa-2026-rs-etron-gt-performance",
+      "type": "manufacturer",
+      "publisher": "Audi of America (audiusa.com)",
+      "title": "2026 Audi RS e-tron GT performance model page",
+      "url": "https://www.audiusa.com/en/models/e-tron-gt/rs-e-tron-gt/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "batteryindustry-2025-rs-etron-gt-performance",
+      "type": "publication",
+      "publisher": "Battery Industry",
+      "title": "Audi's 2025 RS e-tron GT performance the most powerful and quickest accelerating Audi production vehicle yet",
+      "url": "https://batteryindustry.net/?p=39399",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kbb-2025-rs-etron-gt",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2025 Audi RS e-tron GT",
+      "url": "https://www.kbb.com/audi/rs-e-tron-gt/2025/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-rs-etron-gt-performance-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Audi RS e-tron GT Performance",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Audi RS e-tron GT Performance'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 5169,
+          "sourceId": "cd-rs-etron-gt-performance-2025"
+        },
+        {
+          "value": 5137,
+          "sourceId": "kbb-2025-rs-etron-gt"
+        }
+      ],
+      "reason": "Measured, optioned test car (Car and Driver) vs a database figure that matches KBB's figure for the earlier 2022 RS e-tron GT and is probably carried over.",
+      "resolution": "Used Car and Driver's road-test curb weight (step 2); a database does not qualify. 0.6% apart."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

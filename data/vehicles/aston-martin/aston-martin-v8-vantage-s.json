@@ -1,0 +1,156 @@
+{
+  "id": "aston-martin-v8-vantage-s",
+  "manufacturer": "Aston Martin",
+  "model": "V8 Vantage",
+  "generation": null,
+  "variant": "S",
+  "subVariant": null,
+  "displayName": "Aston Martin V8 Vantage S",
+  "aliases": [
+    "Vantage S",
+    "V8 Vantage S",
+    "Aston Vantage S",
+    "2011 V8 Vantage S",
+    "2014 V8 Vantage S",
+    "Sportshift II"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2016
+    },
+    "sourceId": "edmunds-v8-vantage-2011",
+    "note": "US model years. The owner gave 2009-2016 (owner decision, 8 October 2026), but the S started later: Edmunds' 2011 V8 Vantage page is the first to list 'S 2dr Coupe (4.7L 8cyl 7AM)' (the 2009 page, edmunds-v8-vantage-2009, shows no S), and Evo calls it 'the Vantage S of 2011'. Cars.com groups the car as the '2011-2016 V8 Vantage S' (carscom-v8-vantage-s-years). Edmunds' 2016 page lists 'S 2dr Coupe (4.7L 8cyl 6M)' (edmunds-v8-vantage-2016). The S Roadster is sold under its own name and is not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "carscom-v8-vantage-s-2014-coupe",
+    "note": "Cars.com: '2dr Cpe S'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "evo-v8-vantage-buying",
+      "note": "Evo panel: 'V8, 4735cc'."
+    },
+    "displacementL": {
+      "value": 4.7,
+      "sourceId": "evo-v8-vantage-buying",
+      "note": "4,735 cc (Evo panel: 'V8, 4735cc'); Cars.com: '4.7 L/289' (carscom-v8-vantage-s-2014-coupe)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "evo-v8-vantage-buying",
+      "note": "Inferred: 4.7-litre V8 with no turbocharger or supercharger mentioned."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "edmunds-v8-vantage-2014",
+    "note": "Edmunds 2014 lists 'S 2dr Coupe (4.7L 8cyl 6M)' and '(7AM)'; petrol V8 ('V8, gas' on Edmunds' V8 Vantage pages)."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carscom-v8-vantage-s-2014-coupe",
+    "note": "Cars.com: 'Rear Wheel Drive'."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "7-speed Automated Manual"
+    ],
+    "sourceId": "edmunds-v8-vantage-2014",
+    "note": "Edmunds 2014: 'S 2dr Coupe (4.7L 8cyl 6M)' and 'S 2dr Coupe (4.7L 8cyl 7AM)'; 2016 the same (edmunds-v8-vantage-2016). 2011 and 2012 list only the 7AM (Sportshift II, an automated manual) (edmunds-v8-vantage-2011, edmunds-v8-vantage-2012). Cars.com 2014 lists '7-Speed A/T'."
+  },
+  "powerHp": {
+    "value": 430,
+    "sourceId": "evo-v8-vantage-buying",
+    "note": "Quote (Evo specification panel, column 'V8 Vantage S (2011)'): \"Power | 430bhp @ 7300rpm\". Evo's figures are for the UK car; the US figure is the same: Cars.com 2014 2dr Cpe S, \"Horsepower 430 hp\" (carscom-v8-vantage-s-2014-coupe). Evo text: 'With its 4.7-litre engine generating 430bhp'."
+  },
+  "weightLb": {
+    "value": 3549,
+    "sourceId": "evo-v8-vantage-buying",
+    "note": "Step 2 of the weight order (major magazine specification panel; no Aston page with a weight could be opened). Quote (Evo specification panel, column 'V8 Vantage S (2011)'): \"Weight | 1610kg\". 1,610 kg x 2.20462 = 3,549.4, rounded to 3,549 lb. Evo prints a plain 'Weight' and marks no figure on the page as dry, so per the guide's 'Unlabelled weights' rule it is read as a kerb weight. Evo's figures are for the UK car; Cars.com confirms the US value: Cars.com 2014 2dr Cpe S, \"Base Curb Weight 3,549 lbs\" (carscom-v8-vantage-s-2014-coupe, 7-speed). The 2011 launch car had only the 7-speed Sportshift II; whether the later manual car weighs the same is not stated."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "evo-v8-vantage-buying",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Aston Martin V8 Vantage (2005 - 2017) (Yousuf Ashraf, Ethan Jupp, John Barker, 27 August 2026)",
+      "url": "https://www.evo.co.uk/aston-martin/v8-vantage",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "carscom-v8-vantage-s-2014-coupe",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2014 Aston Martin V8 Vantage S 2dr Cpe S specs",
+      "url": "https://www.cars.com/research/aston_martin-v8_vantage_s-2014/specs/365176/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "carscom-v8-vantage-s-years",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "Aston Martin V8 Vantage S (2011-2016) research",
+      "url": "https://www.cars.com/research/aston_martin-v8_vantage_s-2017/specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2009",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2009 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2009/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2011",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2011 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2011/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2012",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2012 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2012/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2014",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2014 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2014/features-specs/",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "edmunds-v8-vantage-2016",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "Used 2016 Aston Martin V8 Vantage Specs & Features",
+      "url": "https://www.edmunds.com/aston-martin/v8-vantage/2016/features-specs/",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

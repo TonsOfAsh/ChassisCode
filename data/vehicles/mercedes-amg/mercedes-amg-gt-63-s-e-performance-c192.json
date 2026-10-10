@@ -1,0 +1,133 @@
+{
+  "id": "mercedes-amg-gt-63-s-e-performance-c192",
+  "manufacturer": "Mercedes-AMG",
+  "model": "GT",
+  "generation": "C192",
+  "variant": "63 S E Performance",
+  "subVariant": null,
+  "displayName": "Mercedes-AMG GT 63 S E Performance (C192)",
+  "aliases": [
+    "AMG GT 63 S E Performance",
+    "GT63 S E Performance",
+    "GT 63 S E PERFORMANCE Coupe",
+    "C192 AMG GT",
+    "AMG GT 63 hybrid",
+    "M177",
+    "AMG SPEEDSHIFT MCT",
+    "2025 AMG GT 63 S E Performance"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2025,
+      "endYear": null
+    },
+    "sourceId": "mbusa-2025-gt63-se",
+    "note": "US model years. First: MBUSA, \"The new 2025 Mercedes-AMG GT 63 S E PERFORMANCE\" (coupe). Still on sale: mbusa.com lists the 2027 model (inventory link \"year=2027\"; page title says 2026) (mbusa-gt63-se-coupe-2027). The four-door AMG GT 63 S E Performance (X290) is a different car and not part of this record."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "mbusa-gt63-se-coupe-2027",
+    "note": "Sold as the \"AMG GT 63 S E PERFORMANCE Coupe\"; \"Passenger capacity 2 (4 optional)\". C/D panel: \"2+2-passenger, 2-door hatchback\"."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "mbusa-gt63-se-coupe-2027",
+      "note": "\"Handcrafted AMG 4.0L V8 biturbo w/rear 150kW electric motor\"."
+    },
+    "displacementL": {
+      "value": 4.0,
+      "sourceId": "mbusa-gt63-se-coupe-2027",
+      "note": "\"4.0L\"; the C/D panel also says \"4.0-liter\" (cd-amg-gt63-se-2025). No cc figure was given on the pages opened."
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "mbusa-gt63-se-coupe-2027",
+      "note": "\"V8 biturbo\"; panel: \"twin-turbocharged and intercooled DOHC 32-valve 4.0-liter V-8\"."
+    }
+  },
+  "fuel": {
+    "value": "Plug-in Hybrid",
+    "sourceId": "cd-amg-gt63-se-2025",
+    "note": "Panel: \"5-kWh lithium-ion; peak charge rate, AC 3.7 kW\" (chargeable from the grid). MBUSA: \"400-volt, 6.1kWh AMG High Performance Battery\" (mbusa-2025-gt63-se)."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "mbusa-gt63-se-coupe-2027",
+    "note": "\"Drive configuration AMG Performance 4MATIC+ all-wheel drive\". The C/D panel says \"rear/all-wheel-drive\" (4MATIC+ can run rear-drive only)."
+  },
+  "transmission": {
+    "value": [
+      "9-speed Automatic"
+    ],
+    "sourceId": "mbusa-gt63-se-coupe-2027",
+    "note": "\"Automatic transmission AMG SPEEDSHIFT® MCT 9-speed\" (recorded as Automatic as in the other AMG MCT records). The rear electric motor has its own two-speed gearbox (panel: \"Transmissions, F/R: 9-speed automatic/2-speed automatic\")."
+  },
+  "powerHp": {
+    "value": 805,
+    "sourceId": "mbusa-gt63-se-coupe-2027",
+    "note": "Combined system output. Quote (mbusa.com, 2027 model): \"805 hp @ 5,500-6,500 rpm\". Same at launch: MBUSA 2025 page, \"Together, this system delivers 805 horsepower, 1,047 lb-ft of torque\" (mbusa-2025-gt63-se); C/D panel: \"(combined output: 805 hp, 1047 lb-ft; 5-kWh lithium-ion; peak charge rate, AC 3.7 kW)\" (cd-amg-gt63-se-2025)."
+  },
+  "weightLb": {
+    "value": 4850,
+    "sourceId": "mbusa-gt63-se-coupe-2027",
+    "note": "Manufacturer US curb weight (weight-order step 1), 2027 model, 9-speed MCT (the only transmission). Quote (mbusa.com): \"Curb weight 4,850 lbs\"; no estimate label. Step 1 outranks the Car and Driver road-test curb weight of the 2025 car (4,743 lb, cd-amg-gt63-se-2025), which is listed in discrepancies. No MBUSA weight for 2025 or 2026 was found, so the reference year is 2027 (805 hp unchanged since 2025), as in the C 63 S E Performance record."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2027,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mbusa-gt63-se-coupe-2027",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (mbusa.com)",
+      "title": "AMG GT 63 S E PERFORMANCE Coupe model page (2027 model year)",
+      "url": "https://www.mbusa.com/en/vehicles/model/gt/coupe/amggt63e",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mbusa-2025-gt63-se",
+      "type": "manufacturer",
+      "publisher": "Mercedes-Benz USA (mbusa.com)",
+      "title": "The new 2025 Mercedes-AMG GT 63 S E PERFORMANCE",
+      "url": "https://www.mbusa.com/en/future-vehicles/2025-mercedes-amg-gt-63-s-e-performance",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cd-amg-gt63-se-2025",
+      "type": "publication",
+      "publisher": "Car and Driver",
+      "title": "2025 Mercedes-AMG GT63 S E Performance",
+      "ownerCopy": "TrackBattles data/cd_panels.json, panel '2025 Mercedes-AMG GT63 S E Performance'",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 4850,
+          "sourceId": "mbusa-gt63-se-coupe-2027"
+        },
+        {
+          "value": 4743,
+          "sourceId": "cd-amg-gt63-se-2025"
+        }
+      ],
+      "reason": "Manufacturer US curb weight for the 2027 model vs Car and Driver's road-test curb weight of a 2025 test car (measured, optioned car with carbon-ceramic brakes; different model year).",
+      "resolution": "Used the manufacturer figure, 4,850 lb (weight-order step 1 outranks step 2)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}
