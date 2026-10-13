@@ -44,6 +44,16 @@ Settings, then Domains, and add it. Vercel shows the DNS records to set if it wa
 and issues the HTTPS certificate itself. Check names such as chassiscode.com, chassiscode.gg or
 chassiscode.app for availability.
 
+## Where things stand (13 October 2026)
+
+- Live at https://chassiscode.app (Vercel, Hobby plan; domain bought through Vercel, auto-renew on).
+  chassiscode.vercel.app redirects there (308).
+- `GAME_SECRET` is set in Vercel for Production and Preview.
+- The site's address for search engines and link previews is in `src/lib/site.ts`; the preview
+  picture is drawn by `src/app/opengraph-image.tsx`, and `robots.txt` and `sitemap.xml` are generated.
+- Ads (AdSense) need the Pro plan or a host that allows commercial use, plus a privacy policy and a
+  cookie consent message: not done yet.
+
 ## Adding or removing cars after launch
 
 1. Edit the records as usual and run `npm run validate`.
