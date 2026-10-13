@@ -79,6 +79,9 @@ export function Game({ cars }: { cars: CarOption[] }) {
   const [statsOpen, setStatsOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
   const [shareState, setShareState] = useState<'idle' | 'copied' | 'shared' | 'failed'>('idle');
+  /** The end-of-round popup, opened when a guess or give-up finishes the round. */
+  const [resultOpen, setResultOpen] = useState(false);
+  const resultRef = useRef<HTMLDialogElement>(null);
   const recent = useRef<string[]>([]);
   const started = useRef(false);
   /** Read by the Enter handler, so Enter inside a dialog never starts a round. */
@@ -92,6 +95,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     setBusy(true);
     setError(null);
     setCompareId(null);
+    setResultOpen(false);
     try {
       const fresh = await post('/api/game/new', { daily: true });
       const date = fresh.daily!.date;
@@ -112,6 +116,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     setBusy(true);
     setError(null);
     setCompareId(null);
+    setResultOpen(false);
     try {
       setUnlimited(await post('/api/game/new', { mode: nextMode, exclude: recent.current }));
     } catch (e) {
@@ -145,6 +150,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     setKind(next);
     setError(null);
     setCompareId(null);
+    setResultOpen(false);
     if (next === 'unlimited' && !unlimited) void startUnlimited(mode);
     // A daily left open past midnight is replaced by the new day's puzzle.
     if (next === 'daily' && (!daily || daily.daily?.date !== dailyDate())) void loadDaily();
@@ -179,6 +185,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
         }
         setUnlimited(next);
       }
+      if (next.result) setResultOpen(true);
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -356,29 +363,118 @@ export function Game({ cars }: { cars: CarOption[] }) {
                   ? `Solved in ${result.cluesUsed} ${result.cluesUsed === 1 ? 'turn' : 'turns'}`
                   : 'Not solved this time'}
               </h2>
-              <dl className="stats">
-                <div>
-                  <dt>Score</dt>
-                  <dd>
-                    {result.score}/{maxTurns}
-                  </dd>
-                </div>
-                <div>
-                  <dt>Guesses</dt>
-                  <dd>{result.guessCount}</dd>
-                </div>
-                {kind === 'daily' && summary ? (
-                  <div>
-                    <dt>Streak</dt>
-                    <dd>{summary.currentStreak}</dd>
-                  </div>
-                ) : (
-                  <div>
-                    <dt>Time</dt>
-                    <dd>{formatTime(result.elapsedMs)}</dd>
-                  </div>
+              <div className="result-actions">
+                {kind === 'unlimited' && (
+                  <>
+                    <button
+                      ref={playAgainRef}
+                      type="button"
+                      className="button"
+                      disabled={busy}
+                      onClick={() => void startUnlimited(mode)}
+                    >
+                      Play another car
+                    </button>
+                    <span className="key-hint">or press Enter</span>
+                  </>
                 )}
-              </dl>
+                <button type="button" className="link" onClick={() => setResultOpen(true)}>
+                  {kind === 'daily' ? 'Show result and share' : 'Show result'}
+                </button>
+              </div>
+            </section>
+          )}
+
+          {game && game.turns.length > 0 && (
+            <section className="turns" aria-label="Your guesses so far">
+              <h2 className="turns-heading">Your guesses</h2>
+              <ol>
+                {game.turns.map((turn, i) => (
+                  <li key={i} className={turn.carId ? 'turn-wrong' : 'turn-skip'}>
+                    <span className="turn-name">
+                      {turn.carId ? turn.name : 'Skipped'}
+                      {turn.carId && turn.right !== undefined && (
+                        <span className="turn-revealed">{turn.right === 0 ? 'none right' : `${turn.right} right`}</span>
+                      )}
+                    </span>
+                    {result && turn.carId && (
+                      <button
+                        type="button"
+                        className="compare"
+                        aria-pressed={turn.carId === shownId}
+                        aria-label={`Show stats for ${turn.name}`}
+                        onClick={() => compare(turn.carId!)}
+                      >
+                        {turn.carId === shownId ? 'Showing' : 'Show stats'}
+                      </button>
+                    )}
+                  </li>
+                ))}
+                {result?.solved && <li className="turn-right">{result.name}</li>}
+              </ol>
+            </section>
+          )}
+        </div>
+      </div>
+
+
+      {resultOpen && result && game && (
+        <dialog
+          ref={(el) => {
+            resultRef.current = el;
+            if (el && !el.open) {
+              el.showModal();
+              // Start on the main action (Play another car), or on the popup itself for the Daily.
+              el.querySelector<HTMLElement>('[data-autofocus]')?.focus();
+            }
+          }}
+          className={`stats-dialog result-dialog ${result.solved ? 'result-dialog-solved' : 'result-dialog-lost'}`}
+          aria-labelledby="result-title"
+          onClose={() => setResultOpen(false)}
+          onClick={(e) => {
+            if (e.target === resultRef.current) resultRef.current?.close(); // click on the backdrop
+          }}
+        >
+          <div className="stats-body" tabIndex={-1} data-autofocus={kind === 'daily' ? '' : undefined}>
+            <div className="stats-head">
+              <h2 id="result-title" className="stats-title">
+                {result.solved ? 'You got it!' : 'Out of turns'}
+              </h2>
+              <button type="button" className="stats-close" aria-label="Close" onClick={() => resultRef.current?.close()}>
+                ✕
+              </button>
+            </div>
+            <p className="result-dialog-lead">{result.solved ? 'The mystery car was' : 'The car was'}</p>
+            <p className="result-dialog-car">{result.name}</p>
+            <p className="result-dialog-sub">
+              {result.solved
+                ? `Solved in ${result.cluesUsed} ${result.cluesUsed === 1 ? 'turn' : 'turns'}`
+                : 'Better luck with the next one.'}
+            </p>
+            <dl className="stats">
+              <div>
+                <dt>Score</dt>
+                <dd>
+                  {result.score}/{maxTurns}
+                </dd>
+              </div>
+              <div>
+                <dt>Guesses</dt>
+                <dd>{result.guessCount}</dd>
+              </div>
+              {kind === 'daily' && summary ? (
+                <div>
+                  <dt>Streak</dt>
+                  <dd>{summary.currentStreak}</dd>
+                </div>
+              ) : (
+                <div>
+                  <dt>Time</dt>
+                  <dd>{formatTime(result.elapsedMs)}</dd>
+                </div>
+              )}
+            </dl>
+            <div className="result-dialog-actions">
               {kind === 'daily' ? (
                 <>
                   {daily?.daily && (
@@ -417,53 +513,20 @@ export function Game({ cars }: { cars: CarOption[] }) {
                   </button>
                 </>
               ) : (
-                <>
-                  <button
-                    ref={playAgainRef}
-                    type="button"
-                    className="button"
-                    disabled={busy}
-                    onClick={() => void startUnlimited(mode)}
-                  >
+                <div>
+                  <button type="button" className="button" data-autofocus="" disabled={busy} onClick={() => void startUnlimited(mode)}>
                     Play another car
                   </button>
                   <span className="key-hint">or press Enter</span>
-                </>
+                </div>
               )}
-            </section>
-          )}
-
-          {game && game.turns.length > 0 && (
-            <section className="turns" aria-label="Your guesses so far">
-              <h2 className="turns-heading">Your guesses</h2>
-              <ol>
-                {game.turns.map((turn, i) => (
-                  <li key={i} className={turn.carId ? 'turn-wrong' : 'turn-skip'}>
-                    <span className="turn-name">
-                      {turn.carId ? turn.name : 'Skipped'}
-                      {turn.carId && turn.right !== undefined && (
-                        <span className="turn-revealed">{turn.right === 0 ? 'none right' : `${turn.right} right`}</span>
-                      )}
-                    </span>
-                    {result && turn.carId && (
-                      <button
-                        type="button"
-                        className="compare"
-                        aria-pressed={turn.carId === shownId}
-                        aria-label={`Show stats for ${turn.name}`}
-                        onClick={() => compare(turn.carId!)}
-                      >
-                        {turn.carId === shownId ? 'Showing' : 'Show stats'}
-                      </button>
-                    )}
-                  </li>
-                ))}
-                {result?.solved && <li className="turn-right">{result.name}</li>}
-              </ol>
-            </section>
-          )}
-        </div>
-      </div>
+              <button type="button" className="link" onClick={() => resultRef.current?.close()}>
+                See the plate
+              </button>
+            </div>
+          </div>
+        </dialog>
+      )}
 
       {helpOpen && (
         <HelpDialog
