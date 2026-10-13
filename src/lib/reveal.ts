@@ -9,10 +9,13 @@ import type { Vehicle } from './schema';
  * Two rule sets:
  * - "reveal" (Easy and Normal, and so the Daily): a wrong guess reveals every
  *   spec it got right, then the next clue in the game's order that is still
- *   hidden. Model and generation are never revealed by a match, and they come
- *   on the same turns as in the classic rules (11th and 12th wrong turns), so
- *   a turn may reveal nothing new once the other specs are all showing.
- * - "classic" (Hard): a wrong guess or a skip reveals only the next clue.
+ *   hidden. Model and generation are the endgame: the schedule never deals
+ *   them, a guess with the answer's model reveals the model, and a guess with
+ *   its model AND generation reveals both. Otherwise they appear only when
+ *   the round ends (solved, out of turns, or given up).
+ * - "classic" (Hard): a wrong guess or a skip reveals only the next clue, and
+ *   the schedule never deals model or generation, so there they show only
+ *   when the round ends.
  *
  * Under both, a round allows as many turns as there are clues (13), and the
  * score counts turns, not clues showing.
@@ -74,17 +77,22 @@ export function progress(rules: Rules, order: readonly ClueId[], answer: Vehicle
     const matched: ClueId[] = [];
     if (rules === 'reveal' && guess) {
       for (const id of order) {
-        if (!shown.has(id) && !FINAL.includes(id) && matches(id, guess, answer)) {
+        if (shown.has(id)) continue;
+        // Specs are revealed by matching them. Model needs the guess to share the
+        // answer's model; generation needs it to share the model AND the generation.
+        const unlocked = !FINAL.includes(id)
+          ? matches(id, guess, answer)
+          : matches('model', guess, answer) && (id === 'model' || matches('generation', guess, answer));
+        if (unlocked) {
           shown.add(id);
           matched.push(id);
         }
       }
     }
-    // Model and generation keep their classic turns (the 11th and 12th wrong turns in a
-    // 13-clue game) however fast the other specs come out: a turn reveals the clue at
-    // position i of the order no earlier than the i-th turn.
-    const due = order.find((id) => !shown.has(id));
-    const next = due && (!FINAL.includes(due) || t + 1 >= order.indexOf(due)) ? due : null;
+    // The schedule only ever deals the specs: model and generation are the endgame
+    // and are never dealt, in either rule set.
+    const due = order.find((id) => !shown.has(id) && !FINAL.includes(id));
+    const next = due ?? null;
     if (next) shown.add(next);
     turns.push({ matched, next });
   }

@@ -81,6 +81,8 @@ export function Game({ cars }: { cars: CarOption[] }) {
   const [shareState, setShareState] = useState<'idle' | 'copied' | 'shared' | 'failed'>('idle');
   /** The end-of-round popup, opened when a guess or give-up finishes the round. */
   const [resultOpen, setResultOpen] = useState(false);
+  /** Daily only: giving up takes two clicks, so a mis-click cannot end the day's puzzle. */
+  const [confirmGiveUp, setConfirmGiveUp] = useState(false);
   const resultRef = useRef<HTMLDialogElement>(null);
   const recent = useRef<string[]>([]);
   const started = useRef(false);
@@ -96,6 +98,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     setError(null);
     setCompareId(null);
     setResultOpen(false);
+    setConfirmGiveUp(false);
     try {
       const fresh = await post('/api/game/new', { daily: true });
       const date = fresh.daily!.date;
@@ -117,6 +120,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     setError(null);
     setCompareId(null);
     setResultOpen(false);
+    setConfirmGiveUp(false);
     try {
       setUnlimited(await post('/api/game/new', { mode: nextMode, exclude: recent.current }));
     } catch (e) {
@@ -151,6 +155,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     setError(null);
     setCompareId(null);
     setResultOpen(false);
+    setConfirmGiveUp(false);
     if (next === 'unlimited' && !unlimited) void startUnlimited(mode);
     // A daily left open past midnight is replaced by the new day's puzzle.
     if (next === 'daily' && (!daily || daily.daily?.date !== dailyDate())) void loadDaily();
@@ -172,6 +177,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
     if (!game?.token || busy) return;
     setBusy(true);
     setError(null);
+    setConfirmGiveUp(false);
     try {
       const next = await post('/api/game/guess', { token: game.token, carId, giveUp });
       if (next.daily) {
@@ -195,6 +201,13 @@ export function Game({ cars }: { cars: CarOption[] }) {
 
   const result = game?.result;
   const over = !!result;
+
+  // An armed give-up disarms by itself if the player does nothing for a while.
+  useEffect(() => {
+    if (!confirmGiveUp) return;
+    const timer = window.setTimeout(() => setConfirmGiveUp(false), 4000);
+    return () => window.clearTimeout(timer);
+  }, [confirmGiveUp]);
 
   // Countdown to the next daily puzzle, shown once today's is finished.
   const [untilNext, setUntilNext] = useState<number | null>(null);
@@ -353,8 +366,17 @@ export function Game({ cars }: { cars: CarOption[] }) {
                 onGuess={(car) => void play(car.id)}
               />
               {onLastTurn || specsShown ? (
-                <button type="button" className="link link-giveup" disabled={busy} onClick={() => void play(null, true)}>
-                  Give up and reveal the car
+                <button
+                  type="button"
+                  className="link link-giveup"
+                  disabled={busy}
+                  onClick={() => {
+                    // The Daily is one chance a day, so giving it up asks for a second click.
+                    if (kind === 'daily' && !confirmGiveUp) setConfirmGiveUp(true);
+                    else void play(null, true);
+                  }}
+                >
+                  {confirmGiveUp ? 'Are you sure? Click again to give up' : 'Give up and reveal the car'}
                 </button>
               ) : (
                 <button type="button" className="link" disabled={busy} onClick={() => void play(null)}>

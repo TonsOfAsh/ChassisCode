@@ -35,7 +35,8 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
           <li>The plate shows one spec of a mystery car to start with. You get 13 turns.</li>
           <li>
             Search for a car and guess. A wrong guess stamps every spec it got right onto the plate, plus the next
-            clue. The model and generation always come last, even if your guess matches them.
+            clue. Model and generation are never dealt as clues: guess a car with the right model and the model is
+            stamped; match its generation too and both are.
           </li>
           <li>
             Your last guess appears beside the mystery car: <span className="help-match">green</span> where it
@@ -43,7 +44,7 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
             <span className="help-partial">amber</span> where it shares some values. Arrows say whether the mystery
             car’s power, weight or displacement is higher ↑ or lower ↓.
           </li>
-          <li>The fewer turns you need, the better your score. A skip uses a turn and reveals the next clue. Once only the model and generation are left hidden, you can give up and see the car.</li>
+          <li>The fewer turns you need, the better your score. A skip uses a turn and reveals the next spec. Once every spec is showing, you can give up and see the car.</li>
         </ol>
 
         <h3 className="stats-subtitle">Daily and Unlimited</h3>
@@ -57,7 +58,7 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
           </li>
           <li>
             <strong>Hard:</strong> the classic rules. Least telling specs first, one clue per turn, and guesses
-            reveal nothing extra.
+            reveal nothing extra: there, model and generation show only when the round ends.
           </li>
         </ul>
 

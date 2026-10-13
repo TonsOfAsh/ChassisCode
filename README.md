@@ -9,16 +9,17 @@ got right plus the next clue; in Hard, the classic rules, it reveals only the ne
 Logic in `src/lib/reveal.ts`; `npm run reveal-sim` shows how much a guess gives away.
 
 - **Reveal rules (Easy, Normal, Daily):** a wrong guess stamps every spec it matches onto the plate,
-  then the next clue in the game's order that is still hidden. Model and generation are never
-  revealed by a match and keep their classic turns (the 11th and 12th wrong turns), so once the
-  other specs are all showing a wrong guess may reveal nothing new. Beside the mystery car, the last
+  then the next clue in the game's order that is still hidden. Model and generation are the endgame
+  and are never dealt by the schedule: a guess sharing the answer's model reveals the model, one
+  sharing its model and generation reveals both, and otherwise they show only when the round ends
+  (solved, out of turns, or given up). Beside the mystery car, the last
   guess shows amber where a list (body, transmission) shares some values, and an arrow where the
   mystery car's power, weight or displacement is higher or lower, even while that clue is hidden.
-- **Classic rules (Hard):** a wrong guess or a skip reveals one clue, and nothing is said about
-  clues still hidden.
-- A skip uses a turn and reveals the next clue. Once every spec but model and generation is showing
+- **Classic rules (Hard):** a wrong guess or a skip reveals one clue, nothing is said about clues
+  still hidden, and model and generation show only when the round ends.
+- A skip uses a turn and reveals the next spec. Once every spec but model and generation is showing
   (or on the last turn), the skip button becomes "Give up and reveal the car", which ends the round
-  unsolved; the share text then reads "Gave up after N/13". The 13th wrong turn ends the round. The score is
+  unsolved (in the Daily it asks for a second click, so a mis-click cannot end the day's puzzle); the share text then reads "Gave up after N/13". The 13th wrong turn ends the round. The score is
   14 minus the turn the car was solved on (13 for a first-turn solve).
 
 ## Status
