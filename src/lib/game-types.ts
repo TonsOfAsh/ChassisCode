@@ -4,7 +4,7 @@
 export type Mode = 'easy' | 'normal' | 'hard';
 
 export const MODES: readonly { id: Mode; label: string; hint: string }[] = [
-  { id: 'easy', label: 'Easy', hint: 'Starts with the maker, engine and country. Guesses reveal the specs they get right.' },
+  { id: 'easy', label: 'Easy', hint: 'Well-known cars only. Starts with the maker, engine and country.' },
   { id: 'normal', label: 'Normal', hint: 'Clues come in any order. Guesses reveal the specs they get right.' },
   { id: 'hard', label: 'Hard', hint: 'Least telling specs first, one clue per turn. Guesses reveal nothing extra.' },
 ];

@@ -3,7 +3,7 @@
  * Runs automatically before `npm run dev` and `npm run build`.
  * Stops with an error if any record does not match the schema.
  */
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { VehicleSchema, type Vehicle } from '../src/lib/schema';
 import { OUT_OF_STEP_HELP, poolProblems, readPool } from './daily-pool-lib';
@@ -36,4 +36,14 @@ if (problems.length > 0) {
   process.exit(1);
 }
 writeFileSync(join(outDir, 'daily-pool.json'), JSON.stringify({ cars: pool.cars }));
+
+// Easy mode's answers come from a hand-picked list of well-known cars (data/easy-cars.json).
+const easy = JSON.parse(readFileSync(join(ROOT, 'data', 'easy-cars.json'), 'utf8')) as { ids: string[] };
+const known = new Set(vehicles.map((v) => v.id));
+const unknown = easy.ids.filter((id) => !known.has(id));
+if (unknown.length > 0 || new Set(easy.ids).size !== easy.ids.length || easy.ids.length === 0) {
+  console.error(`data/easy-cars.json: every id must be a vehicle record, listed once. Not found: ${unknown.join(', ') || '(none; check for duplicates)'}`);
+  process.exit(1);
+}
+writeFileSync(join(outDir, 'easy-cars.json'), JSON.stringify(easy.ids));
 console.log(`Bundled the Daily pool (${Object.keys(pool.cars).length} cars) into src/generated/daily-pool.json`);

@@ -1105,3 +1105,6 @@ input {
 .result-dialog .stats-body:focus {
   outline: none;
 }
+.link-giveup {
+  color: var(--wrong);
+}

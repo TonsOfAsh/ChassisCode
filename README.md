@@ -16,7 +16,9 @@ Logic in `src/lib/reveal.ts`; `npm run reveal-sim` shows how much a guess gives 
   mystery car's power, weight or displacement is higher or lower, even while that clue is hidden.
 - **Classic rules (Hard):** a wrong guess or a skip reveals one clue, and nothing is said about
   clues still hidden.
-- A skip uses a turn and reveals the next clue. The 13th wrong turn ends the round. The score is
+- A skip uses a turn and reveals the next clue. Once every spec but model and generation is showing
+  (or on the last turn), the skip button becomes "Give up and reveal the car", which ends the round
+  unsolved; the share text then reads "Gave up after N/13". The 13th wrong turn ends the round. The score is
   14 minus the turn the car was solved on (13 for a first-turn solve).
 
 ## Status
@@ -37,6 +39,8 @@ guess comparison, and statistics and streaks kept on the player's device.
   `docs/LAUNCH.md` and `src/lib/daily-schedule.ts`). Before launch the site shows a separate preview
   puzzle, so testing never reveals the real schedule. Puzzle #1 is set in `src/lib/daily-time.ts`.
 - **Unlimited** is a random car each round, in Easy, Normal or Hard. Enter starts the next round.
+  Easy picks its answers only from about 90 well-known cars (`data/easy-cars.json`, checked by the
+  build); Normal, Hard and the Daily use every car. Any car can be guessed in every mode.
 - **Stats** (button at the top): daily games played, win %, current and best streak, and which turn
   each daily was solved on; Unlimited played, win % and average turns per difficulty. They are kept
   in the browser's storage on this device only, until accounts exist. A loss or a missed day ends a

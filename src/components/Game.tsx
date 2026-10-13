@@ -168,12 +168,12 @@ export function Game({ cars }: { cars: CarOption[] }) {
     void startUnlimited(next);
   }
 
-  async function play(carId: string | null) {
+  async function play(carId: string | null, giveUp = false) {
     if (!game?.token || busy) return;
     setBusy(true);
     setError(null);
     try {
-      const next = await post('/api/game/guess', { token: game.token, carId });
+      const next = await post('/api/game/guess', { token: game.token, carId, giveUp });
       if (next.daily) {
         saveDailyProgress(next.daily.date, next);
         if (next.result) setStats(recordDaily(next.daily.date, next.result));
@@ -248,7 +248,9 @@ export function Game({ cars }: { cars: CarOption[] }) {
   const shownId = result ? (compareId ?? game?.turns.filter((t) => t.carId).at(-1)?.carId ?? null) : null;
   const maxTurns = game ? (game.maxTurns ?? game.clueLabels.length) : 13;
   const onLastTurn = !!game && game.turns.length >= maxTurns - 1;
-  const allShown = !!game && game.clues.every(Boolean);
+  // Every spec except model and generation (always the last two clues) is showing:
+  // skipping would only wait for those, so the button offers to reveal the car instead.
+  const specsShown = !!game && game.clues.slice(0, -2).every(Boolean);
   const today = daily?.daily?.date ?? dailyDate();
   const summary = stats ? dailySummary(stats, today) : null;
 
@@ -350,9 +352,15 @@ export function Game({ cars }: { cars: CarOption[] }) {
                 disabled={busy}
                 onGuess={(car) => void play(car.id)}
               />
-              <button type="button" className="link" disabled={busy} onClick={() => void play(null)}>
-                {onLastTurn ? 'Give up and see the car' : allShown ? 'Skip this turn' : 'Skip to the next clue'}
-              </button>
+              {onLastTurn || specsShown ? (
+                <button type="button" className="link link-giveup" disabled={busy} onClick={() => void play(null, true)}>
+                  Give up and reveal the car
+                </button>
+              ) : (
+                <button type="button" className="link" disabled={busy} onClick={() => void play(null)}>
+                  Skip to the next clue
+                </button>
+              )}
             </div>
           )}
 
@@ -438,7 +446,7 @@ export function Game({ cars }: { cars: CarOption[] }) {
           <div className="stats-body" tabIndex={-1} data-autofocus={kind === 'daily' ? '' : undefined}>
             <div className="stats-head">
               <h2 id="result-title" className="stats-title">
-                {result.solved ? 'You got it!' : 'Out of turns'}
+                {result.solved ? 'You got it!' : result.cluesUsed < maxTurns ? 'You gave up' : 'Out of turns'}
               </h2>
               <button type="button" className="stats-close" aria-label="Close" onClick={() => resultRef.current?.close()}>
                 ✕

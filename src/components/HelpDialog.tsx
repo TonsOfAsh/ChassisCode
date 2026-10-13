@@ -43,7 +43,7 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
             <span className="help-partial">amber</span> where it shares some values. Arrows say whether the mystery
             car’s power, weight or displacement is higher ↑ or lower ↓.
           </li>
-          <li>The fewer turns you need, the better your score. A skip uses a turn and reveals the next clue.</li>
+          <li>The fewer turns you need, the better your score. A skip uses a turn and reveals the next clue. Once only the model and generation are left hidden, you can give up and see the car.</li>
         </ol>
 
         <h3 className="stats-subtitle">Daily and Unlimited</h3>
@@ -53,7 +53,7 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
             Share your result when you finish: it shows what each guess uncovered.
           </li>
           <li>
-            <strong>Unlimited:</strong> as many cars as you like. Easy starts with the maker, engine and country.
+            <strong>Unlimited:</strong> as many cars as you like. Easy uses well-known cars only and starts with the maker, engine and country.
           </li>
           <li>
             <strong>Hard:</strong> the classic rules. Least telling specs first, one clue per turn, and guesses

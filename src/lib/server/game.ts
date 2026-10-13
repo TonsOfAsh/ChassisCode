@@ -1,4 +1,5 @@
 import 'server-only';
+import easyCars from '@/generated/easy-cars.json';
 import { CLUES, drawClueOrder, isValidClueOrder, priorityClues, type ClueId } from '@/config/clues';
 import { dailyDate, dailyNumber, isDate } from '../daily-time';
 import { isMode, type GameView, type Mode, type Turn } from '../game-types';
@@ -66,11 +67,15 @@ function view(state: GameState, status: GameView['status']): GameView {
   };
 }
 
+/** Easy mode's answers: well-known cars only (data/easy-cars.json). Any car can still be guessed. */
+const EASY = new Set<string>(easyCars as string[]);
+
 /** Starts a game on a random car in the given mode, avoiding the cars just played. */
 export function newGame(mode: Mode, exclude: string[] = []): GameView {
   const excluded = new Set(exclude.slice(0, 50));
-  const pool = VEHICLES.filter((v) => !excluded.has(v.id));
-  const candidates = pool.length > 0 ? pool : VEHICLES;
+  const answers = mode === 'easy' ? VEHICLES.filter((v) => EASY.has(v.id)) : VEHICLES;
+  const pool = answers.filter((v) => !excluded.has(v.id));
+  const candidates = pool.length > 0 ? pool : answers;
   const vehicle = candidates[Math.floor(Math.random() * candidates.length)];
   if (!vehicle) throw new GameError('The vehicle database is empty.');
   const order = drawClueOrder(mode, Math.random, priorityClues(vehicle, VEHICLES));
@@ -86,12 +91,14 @@ export function newDailyGame(): GameView {
 /**
  * Applies one turn. `guessId` is the guessed car, or null to skip to the next clue.
  * A wrong guess or a skip reveals clues (see lib/reveal.ts); the 13th wrong turn ends the game.
+ * `giveUp` ends the round at once as not solved, without using a turn.
  */
-export function playTurn(token: string, guessId: string | null): GameView {
+export function playTurn(token: string, guessId: string | null, giveUp = false): GameView {
   const state = open<GameState>(token);
   if (!state || typeof state.v !== 'string' || !Array.isArray(state.g) || !isMode(state.m) || !isValidClueOrder(state.o) || (state.d !== undefined && !isDate(state.d))) {
     throw new GameError('This game could not be read. Reload the page to start a new one.');
   }
+  if (giveUp) return view(state, 'lost');
   if (guessId !== null) {
     if (!getVehicle(guessId)) throw new GameError('That car is not in the database. Pick one from the list.');
     if (state.g.includes(guessId)) throw new GameError('You already guessed that car.');

@@ -21,7 +21,11 @@ export function shareText(game: GameView, dateLabel: string, url?: string): stri
   const result = game.result;
   if (!result) return '';
   const max = game.maxTurns ?? game.clueLabels.length;
-  const line = result.solved ? `Solved in ${result.cluesUsed}/${max}` : `Not solved (${max}/${max})`;
+  const line = result.solved
+    ? `Solved in ${result.cluesUsed}/${max}`
+    : result.cluesUsed < max
+      ? `Gave up after ${result.cluesUsed}/${max}`
+      : `Not solved (${max}/${max})`;
   let path: string;
   if (game.rules === 'reveal') {
     const rows = game.turns.map((t) => {
