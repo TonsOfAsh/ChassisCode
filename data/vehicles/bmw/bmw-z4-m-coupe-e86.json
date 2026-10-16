@@ -1,0 +1,156 @@
+{
+  "id": "bmw-z4-m-coupe-e86",
+  "manufacturer": "BMW",
+  "model": "Z4",
+  "generation": "E86",
+  "variant": "M Coupe",
+  "subVariant": null,
+  "displayName": "BMW Z4 M Coupe (E86)",
+  "aliases": [
+    "Z4M",
+    "E86",
+    "M Coupe",
+    "S54",
+    "Z4 M Coupe"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2008
+    },
+    "sourceId": "bmw-us-z4m-presskit-page",
+    "note": "US model years. Start: BMW NA's press kit is titled '2006 BMW Z4 M Coupe' (dated April 19, 2006), and BMW's March 2006 release announces the North American debut (bmw-us-m-coupe-debut). End: Consumer Guide's 2003-08 Z4 review lists the M coupe through 2008, the Z4's final year on that platform (cg-z4-2003-08)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "bmw-us-m-coupe-debut",
+    "note": "The M Roadster is sold as its own model and is not covered by this record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "bmw-us-m-coupe-debut",
+      "note": "'The M coupe will feature the 330 horsepower, 3.2-liter inline six-cylinder engine' (S54)"
+    },
+    "displacementL": {
+      "value": 3.2,
+      "sourceId": "bmw-us-m-coupe-debut",
+      "note": "'3.2-liter inline six-cylinder engine'. No opened page gave the cc figure (the S54 engine)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "kbb-2008-z4m-coupe",
+      "note": "Inferred: KBB lists the engine as '6-Cyl, 3.2 Liter' with no turbocharger or supercharger, and no opened source mentions forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "bmw-us-m-coupe-debut",
+    "note": "Inferred: gasoline S54 inline six."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "auto123-z4-coupe-preview",
+    "note": "'front engine, RWD'"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "bmw-us-m-coupe-debut",
+    "note": "'this engine works through a six-speed manual transmission'. Manual only: Consumer Guide lists no automatic for the M (cg-z4-2003-08), and the six-speed STEPTRONIC automatic was offered on the Z4 Coupe 3.0si, not the M."
+  },
+  "powerHp": {
+    "value": 330,
+    "sourceId": "bmw-us-m-coupe-debut",
+    "note": "Quote (BMW of North America press release): \"The M coupe will feature the 330 horsepower, 3.2-liter inline six-cylinder engine\". KBB's 2008 page agrees: \"330 @ 7900 RPM\" (kbb-2008-z4m-coupe). The rating was unchanged for 2006-2008 (Consumer Guide's engine table lists 330 hp for the generation, cg-z4-2003-08)."
+  },
+  "weightLb": {
+    "value": 3230,
+    "sourceId": "kbb-2008-z4m-coupe",
+    "note": "PROVISIONAL (database plus a single article). 6-speed manual. Quote (KBB, 2008 Z4 M Coupe): \"3230 lbs.\" curb weight. MotoringFile (Gabriel Bridger) gives the same figure against the M3: 'Less weight (3230lbs)' (motoringfile-z4m-coupe). No BMW NA curb weight could be opened: the press kit's specification attachments would not load as text. See discrepancies for auto123's figure. KBB's page is the 2008 model year; MotoringFile's April 2007 review ties the same 3,230 lb to the reference year, and Consumer Guide lists no spec changes over 2006-2008."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "bmw-us-m-coupe-debut",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (press release PDF hosted by 5series.net)",
+      "title": "BMW M Coupe and Z4 Coupe Make North American Debut in New York (BMW US Press Information, March 31, 2006)",
+      "url": "https://5series.net/forums/attachments/other-bmw-models-12/17472d1144387424-m-coupe-pricing-released-m_coupe.pdf",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "bmw-us-z4m-presskit-page",
+      "type": "manufacturer",
+      "publisher": "BMW Group PressClub USA",
+      "title": "2006 BMW Z4 M Coupe press kit",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0019313EN_US",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "kbb-2008-z4m-coupe",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2008 BMW Z4 M Coupe 2D",
+      "url": "https://www.kbb.com/bmw/z4-m/2008/coupe-2d",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "motoringfile-z4m-coupe",
+      "type": "publication",
+      "publisher": "MotoringFile",
+      "title": "MotoringFile Review: BMW Z4 M Coupe (Gabriel Bridger, 25 April 2007)",
+      "url": "https://www.motoringfile.com/2007/04/25/motoringfile-review-bmw-z4-m-coupe/",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "auto123-z4-coupe-preview",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "2007 BMW Z4 Coupe & M Coupe Preview (Khatir Soltani, 27 January 2006)",
+      "url": "https://www.auto123.com/en/news/2007-bmw-z4-coupe-m-coupe-preview/28541/?page=3",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "cg-z4-2003-08",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "2003-08 BMW Z4 (used-car review, Tom Appel)",
+      "url": "https://consumerguide.com/used/2003-08-bmw-z4",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3230,
+          "sourceId": "kbb-2008-z4m-coupe"
+        },
+        {
+          "value": 3120,
+          "sourceId": "auto123-z4-coupe-preview"
+        }
+      ],
+      "reason": "Auto123's pre-launch Canadian preview prints '1,415 kg (3120 lbs)', a metric (European-style kerb) figure from January 2006; KBB and MotoringFile give 3,230 lb for the US car.",
+      "resolution": "Used 3,230 lb: the two US-market sources agree exactly, and auto123's kg-based preview figure predates the car's North American launch."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,230 lb) rests on KBB (database) and a single MotoringFile article, agreeing. Power (330 hp) is fully sourced from BMW NA's press release. A BMW NA specification sheet (the press kit's attachments, which would not open as text) or a major magazine spec panel would replace the weight."
+}

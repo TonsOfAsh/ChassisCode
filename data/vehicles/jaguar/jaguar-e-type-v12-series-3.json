@@ -1,0 +1,171 @@
+{
+  "id": "jaguar-e-type-v12-series-3",
+  "manufacturer": "Jaguar",
+  "model": "E-Type",
+  "generation": "Series 3",
+  "variant": "V12",
+  "subVariant": null,
+  "displayName": "Jaguar E-Type V12 (Series 3)",
+  "aliases": [
+    "XK-E",
+    "E-Type V12",
+    "Series 3 E-Type",
+    "S3 E-Type",
+    "E-Type 5.3",
+    "Series III",
+    "V12 E-Type"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 1971,
+      "endYear": 1974
+    },
+    "sourceId": "drives-today-etype-s3",
+    "note": "US model years 1971-1974 (the task's US years; no opened page states US model years). Build dates: Drives.today says the V12 launched in March 1971 and 'the final E-type would be produced in September 1974'. Classic & Sports Car's panel prints build dates '1970 to 1975' for the Series III (csc-etype-s3)."
+  },
+  "body": {
+    "value": [
+      "Convertible",
+      "Coupe"
+    ],
+    "sourceId": "supercars-etype-s3-roadster",
+    "note": "Open Two Seater (roadster) and 2+2 fixed-head coupe, both on the 2+2 wheelbase; the open car has a fixed-roof sibling, so it is 'Convertible'. Drives.today gives Series 3 roadster production separately ('7982 E-type Series 3 roadsters')."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V12",
+      "sourceId": "csc-etype-s3",
+      "note": "'5343cc (V12 OC)': the 5.3-litre single-overhead-cam-per-bank Jaguar V12."
+    },
+    "displacementL": {
+      "value": 5.3,
+      "sourceId": "csc-etype-s3",
+      "note": "5,343 cc ('5343cc (V12 OC)'). Supercars.net gives the same '5343 cc / 326.0 in3' (supercars-etype-s3-2plus2)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "csc-etype-s3",
+      "note": "Carburetted, no forced induction: 'With four Zenith-Strombergs it was rated 272bhp'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "csc-etype-s3",
+    "note": "Inferred: carburetted petrol V12."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "csc-etype-s3",
+    "note": "'Front engine, rear-wheel drive'"
+  },
+  "transmission": {
+    "value": [
+      "4-speed Manual",
+      "3-speed Automatic"
+    ],
+    "sourceId": "supercars-etype-s3-2plus2",
+    "note": "'4-Speed Manual or Optional 3-Speed Auto'. Drives.today names the automatic as 'the Borg-Warner 12J three speed auto, not the four speed manual' (drives-today-etype-s3)."
+  },
+  "powerHp": {
+    "value": 314,
+    "sourceId": "drives-today-etype-s3",
+    "note": "PROVISIONAL (enthusiast and non-major publication sources). Jaguar's US launch rating, recorded as published, following the convention that pre-1980 US cars were rated in SAE gross. Quote (Drives.today): a claimed output of '314bhp SAE' at the March 1971 launch, and 'the DIN power figure was more like 272bhp'. Supercars.net's panel: '234.1 kw / 314 bhp @ 6200 rpm' (supercars-etype-s3-2plus2, same figures on supercars-etype-s3-roadster). Classic & Sports Car gives the European rating: 'With four Zenith-Strombergs it was rated 272bhp' (csc-etype-s3). Later US-market cars were rated lower under SAE net, but no opened page gave those figures."
+  },
+  "weightLb": {
+    "value": 3380,
+    "sourceId": "supercars-etype-s3-2plus2",
+    "note": "PROVISIONAL (weak sources; body attribution inconsistent). Quote (Supercars.net, 1971 Series III 2+2 panel): '1533 kg / 3380 lbs'. Unique Cars and Parts prints the same number for the open car: 'Roadster: 3,380 lbs.' with a 'DHC' at 3,361 lbs (uniquecars-etype-s3). The two agree on 3,380 lb, and both present it as a kerb figure (Supercars.net's panel labels it 'curb weight'; Unique Cars and Parts lists it under kerb weights), but they attribute it to different bodies (2+2 vs Roadster) and neither ties it to the US market."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1971,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "drives-today-etype-s3",
+      "type": "publication",
+      "publisher": "Drives.today",
+      "title": "We tell the story of the Jaguar E-type Series 3",
+      "url": "https://drives.today/articles/1788/history/we-tell-the-story-of-the-jaguar-e-type-series-3.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "csc-etype-s3",
+      "type": "publication",
+      "publisher": "Classic & Sports Car",
+      "title": "Jaguar E-Type Series III",
+      "url": "https://www.classicandsportscar.com/node/39696",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "supercars-etype-s3-2plus2",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "1971 Jaguar E-Type Series III 2+2 (Nick Dellis)",
+      "url": "https://www.supercars.net/blog/?p=49740",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "supercars-etype-s3-roadster",
+      "type": "enthusiast",
+      "publisher": "Supercars.net",
+      "title": "1971 Jaguar E-Type Series III Roadster (Nick Dellis)",
+      "url": "https://www.supercars.net/blog/?p=62319",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "uniquecars-etype-s3",
+      "type": "enthusiast",
+      "publisher": "Unique Cars and Parts",
+      "title": "Jaguar E-Type Series 3 Technical Specifications",
+      "url": "https://www.uniquecarsandparts.com.au/jaguar_e_type_series_3_technical_specifications",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 314,
+          "sourceId": "drives-today-etype-s3"
+        },
+        {
+          "value": 276,
+          "sourceId": "uniquecars-etype-s3"
+        },
+        {
+          "value": 272,
+          "sourceId": "csc-etype-s3"
+        }
+      ],
+      "reason": "Rating standards: 314 bhp was Jaguar's SAE gross launch claim for the US; 272 bhp is the European (DIN) rating; Unique Cars and Parts prints '276 bhp (206 kW) @ 5850 rpm' without naming a standard.",
+      "resolution": "Used 314 hp, the US-market SAE gross launch rating, per the classic-car rule; the DIN figure is described in the power note."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3380,
+          "sourceId": "supercars-etype-s3-2plus2"
+        },
+        {
+          "value": 3361,
+          "sourceId": "uniquecars-etype-s3"
+        }
+      ],
+      "reason": "Supercars.net gives 3,380 lb for the 2+2 and the roadster alike; Unique Cars and Parts gives 3,380 lb for the roadster and 3,361 lb for a 'DHC'. The bodies the figures belong to are inconsistent between sources."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Weight: both opened sources print 3,380 lb as a kerb figure but attribute it to different bodies (2+2 vs Roadster), and neither ties it to the US market. Power is the SAE gross launch claim; the 1972-1974 US SAE net ratings were not found on an opened page. A period US road-test spec panel or a Jaguar US brochure for 1971-74 should replace both figures.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (314 hp SAE gross) rests on Drives.today (no named author) and Supercars.net (enthusiast), agreeing. Weight (3,380 lb) rests on Supercars.net and Unique Cars and Parts (both enthusiast-grade), agreeing on the number but not on which body it describes. A Jaguar US brochure or a major magazine's 1971-74 spec panel would replace both. Production is also weak: the 1971-1974 range rests on build dates (March 1971 to September 1974; Classic & Sports Car prints 1970 to 1975), and no opened page states US model years."
+}

@@ -1,0 +1,108 @@
+{
+  "id": "acura-integra-gs-r-dc2",
+  "manufacturer": "Acura",
+  "model": "Integra",
+  "generation": "DC2",
+  "variant": "GS-R",
+  "subVariant": null,
+  "displayName": "Acura Integra GS-R (DC2)",
+  "aliases": [
+    "GSR",
+    "B18C1",
+    "DC2 GS-R",
+    "DB8",
+    "Integra GSR",
+    "VTEC"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1994,
+      "endYear": 2001
+    },
+    "sourceId": "acura-chronology",
+    "note": "US model years. Acura's model chronology lists the third-generation Integra Sports Coupe and Sports Sedan for 1994-2001 with the GS-R's '1.8-liter 16-valve VTEC® inline 4-cylinder, 170 hp @ 7600 rpm, 128 lbs-ft @ 6200 rpm (GS-R)' from 1994 ('GS-R with VTEC® available in sedan for first time', 1994) and GS-R updates through 2000; '2001: Floor mats standard on all models; final model year'."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Sedan"
+    ],
+    "sourceId": "acura-integra-1994-specs",
+    "note": "Acura's 1994 sheet lists the body styles as 'Coupe' and 'Sedan'. The GS-R coupe is chassis code DC2; the GS-R sedan is DB8. The record's weight is the coupe's."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "acura-integra-1994-specs",
+      "note": "'1.8-liter, 16 valve DOHC, inline 4 with VTEC (GS-R)' (B18C1)"
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "acura-integra-1994-specs",
+      "note": "1,797 cc ('109 cu in (1797 cc) (GS-R)')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "acura-integra-1994-specs",
+      "note": "Inferred: Acura's sheet describes a DOHC VTEC inline 4 with no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "acura-integra-1994-specs",
+    "note": "'Premium unleaded, 91 octane (GS-R)'"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "acura-integra-1994-specs",
+    "note": "'Transverse-mounted front engine/front-wheel drive with equal-length driveshafts'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "acura-integra-1994-specs",
+    "note": "'5-speed manual'. Acura's 1994 sheet lists the 4-speed automatic only for the RS and LS; the GS-R was manual only."
+  },
+  "powerHp": {
+    "value": 170,
+    "sourceId": "acura-integra-1994-specs",
+    "note": "Quote: \"170 hp @ 7600 rpm (GS-R)\" (SAE net). Acura's model chronology gives the same '170 hp @ 7600 rpm' for the GS-R in both bodies across the 1994-2001 generation (acura-chronology)."
+  },
+  "weightLb": {
+    "value": 2667,
+    "sourceId": "acura-integra-1994-specs",
+    "note": "GS-R coupe, 5-speed manual, 1994 model. Quote: \"2667 lb (1210 kg)\". The GS-R sedan is '2765 Ib (1254 kg)' (sic, the sheet's 'Ib' is 'lb')."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1994,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "acura-integra-1994-specs",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "1994 Acura Integra Specifications",
+      "url": "https://acuranews.com/en-US/releases/1994-acura-integra-specifications",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "acura-chronology",
+      "type": "manufacturer",
+      "publisher": "Acura (acuranews.com)",
+      "title": "Acura Model Chronology",
+      "url": "https://acuranews.com/en-US/releases/release-6cd08e1213f4f2aca52228004c34c087-acura-model-chronology",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

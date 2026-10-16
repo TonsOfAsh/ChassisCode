@@ -1,6 +1,9 @@
 {
   "about": "Which cars are in the Daily, and on which dates. Kept in step with the records by \"npm run daily-pool\"; do not edit by hand. \"from\" absent = from puzzle #1; \"until\" absent = still in; both inclusive. See src/lib/daily-schedule.ts and docs/LAUNCH.md.",
   "cars": {
+    "acura-integra-gs-r-dc2": [
+      {}
+    ],
     "acura-integra-type-r-dc2": [
       {}
     ],
@@ -403,6 +406,12 @@
     "ford-mustang-v6-s550": [
       {}
     ],
+    "gumpert-apollo": [
+      {}
+    ],
+    "hennessey-venom-gt": [
+      {}
+    ],
     "honda-civic-si-10th-gen": [
       {}
     ],
@@ -428,6 +437,12 @@
       {}
     ],
     "hyundai-elantra-n-cn7": [
+      {}
+    ],
+    "hyundai-genesis-coupe-3-8-bk1": [
+      {}
+    ],
+    "hyundai-genesis-coupe-3-8-bk2": [
       {}
     ],
     "hyundai-ioniq-5-n-ne": [
@@ -805,6 +820,9 @@
     "scion-fr-s-zn6": [
       {}
     ],
+    "scion-tc-1st-gen": [
+      {}
+    ],
     "ssc-tuatara": [
       {}
     ],
@@ -829,6 +847,9 @@
     "toyota-86-zn6": [
       {}
     ],
+    "toyota-celica-gt-four-st205": [
+      {}
+    ],
     "toyota-gr-corolla": [
       {}
     ],
@@ -839,6 +860,9 @@
       {}
     ],
     "toyota-gr86-zn8": [
+      {}
+    ],
+    "toyota-mr2-spyder-zzw30": [
       {}
     ],
     "volkswagen-golf-gti-mk7": [

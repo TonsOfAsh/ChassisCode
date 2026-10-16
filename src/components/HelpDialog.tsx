@@ -30,39 +30,31 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
           </button>
         </div>
 
-        <p className="help-lead">Name the exact car from its specs.</p>
+        <p className="help-lead">Guess the mystery car.</p>
         <ol className="help-steps">
-          <li>The plate shows one spec of a mystery car to start with. You get 13 turns.</li>
+          <li>The plate shows one clue about a mystery car. You get 13 turns to name it.</li>
           <li>
-            Search for a car and guess. A wrong guess stamps every spec it got right onto the plate, plus the next
-            clue. Model and generation are never dealt as clues: guess a car with the right model and the model is
-            stamped; match its generation too and both are.
+            Search for a car and guess. A wrong guess still helps: everything it has in common with the mystery car
+            gets stamped onto the plate, plus one new clue.
           </li>
           <li>
-            Your last guess appears beside the mystery car: <span className="help-match">green</span> where it
-            matches, <span className="help-miss">red</span> where it does not, and{' '}
-            <span className="help-partial">amber</span> where it shares some values. Arrows say whether the mystery
-            car’s power, weight or displacement is higher ↑ or lower ↓.
+            <span className="help-match">Green</span> = your guess matches the mystery car.{' '}
+            <span className="help-miss">Red</span> = it doesn’t. Arrows ↑ ↓ show if the mystery car’s number is
+            higher or lower.
           </li>
-          <li>The fewer turns you need, the better your score. A skip uses a turn and reveals the next spec. Once every spec is showing, you can give up and see the car.</li>
+          <li>Fewer turns = better score. Stuck? Skip a turn to get a clue, or give up to see the car.</li>
         </ol>
 
-        <h3 className="stats-subtitle">Daily and Unlimited</h3>
         <ul className="help-list">
           <li>
-            <strong>Daily:</strong> one car a day, the same for everyone. A new one starts at midnight Pacific time.
-            Share your result when you finish: it shows what each guess uncovered.
+            <strong>Daily:</strong> one car a day, the same for the whole world. A new one comes at midnight.
           </li>
           <li>
-            <strong>Unlimited:</strong> as many cars as you like. Easy uses well-known cars only and starts with the maker, engine and country.
-          </li>
-          <li>
-            <strong>Hard:</strong> the classic rules. Least telling specs first, one clue per turn, and guesses
-            reveal nothing extra: there, model and generation show only when the round ends.
+            <strong>Unlimited:</strong> play as much as you like. Easy uses famous cars. Hard gives way fewer hints.
           </li>
         </ul>
 
-        <p className="stats-note">Weights marked “dry” are without fluids. Your stats are kept on this device.</p>
+        <p className="stats-note">Your stats are saved on this device.</p>
         <button type="button" className="button help-start" autoFocus onClick={() => ref.current?.close()}>
           Let’s go
         </button>

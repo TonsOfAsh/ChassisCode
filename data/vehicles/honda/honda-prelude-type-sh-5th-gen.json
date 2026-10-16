@@ -1,0 +1,150 @@
+{
+  "id": "honda-prelude-type-sh-5th-gen",
+  "manufacturer": "Honda",
+  "model": "Prelude",
+  "generation": "5th gen",
+  "variant": "Type SH",
+  "subVariant": null,
+  "displayName": "Honda Prelude Type SH (5th gen)",
+  "aliases": [
+    "Prelude SH",
+    "Type SH",
+    "ATTS",
+    "H22A4",
+    "BB6",
+    "5th gen Prelude",
+    "1997 Prelude"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1997,
+      "endYear": 2001
+    },
+    "sourceId": "cg-prelude-1997-01",
+    "note": "US model years. Consumer Guide (Tom Appel) covers the '1997-01 Honda Prelude' ('Only base and SH editions went on sale' for 1997) and says the Prelude 'would not continue for 2002'. The Type SH was offered for the whole run."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "cg-prelude-1997-01",
+    "note": "Two-door coupe; the only body style of the 5th-generation Prelude."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "heilig-1999-prelude-sh",
+      "note": "'2.2-liter DOHC VTEC inline four' (H22A4)"
+    },
+    "displacementL": {
+      "value": 2.2,
+      "sourceId": "hagin-2001-prelude-sh",
+      "note": "2,157 cc ('132 cid/2157 cc'). 2,157 cc rounds to 2.2 L; The Auto Channel's 1997 panel prints the same engine as '2.15 liters / 132 cu. in.' (russ-1997-prelude-sh)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "heilig-1999-prelude-sh",
+      "note": "Inferred: a DOHC VTEC four with no forced induction mentioned by any opened source."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "heilig-1999-prelude-sh",
+    "note": "Inferred: gasoline VTEC engine."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "russ-1997-prelude-sh",
+    "note": "Inferred: front-wheel drive; the Type SH's Active Torque Transfer System (ATTS, 'The top-of-the-line Prelude Type SH introduces the Active Torque Transfer System') apportions torque between the front wheels."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "cg-prelude-1997-01",
+    "note": "'only manual shift went into the SH model' (Consumer Guide). The base Prelude also offered a 4-speed SportShift automatic; the Type SH was 5-speed manual only."
+  },
+  "powerHp": {
+    "value": 200,
+    "sourceId": "heilig-1999-prelude-sh",
+    "note": "PROVISIONAL source class for power (no Honda page; not a major-magazine panel). 1999-2001 rating. Quote (The Auto Channel 1999 Type SH spec panel, John Heilig): \"200 hp @ 7000 rpm/156 lb-ft @ 5250 rpm\". Also Tom Hagin's 2001 Type SH panel: \"200 @ 7000 RPM\" (hagin-2001-prelude-sh), and Collectible Automobile (Don Sikora II): \"in 1999 the engine picked up five horsepower for an even 200\" (ca-prelude-type-sh). The 1997-98 cars were rated 195 hp ('Horsepower 195 @ 7000', russ-1997-prelude-sh); 200 hp covered 1999-2001, more than half of the model years, so the record uses it. No Honda page could be opened; three named-author publication panels agree."
+  },
+  "weightLb": {
+    "value": 3042,
+    "sourceId": "ca-prelude-type-sh",
+    "note": "Type SH, 5-speed manual. Quote (Collectible Automobile, Don Sikora II, on the 1997-2001 Type SH): \"3042-pound curb weight\". The same 3,042 lb appears in The Auto Channel's 1999 Type SH panel (\"3042 lbs.\", heilig-1999-prelude-sh) and 1997 Type SH panel (\"Curb Weight 3042 lbs.\", russ-1997-prelude-sh): two independent editorial outlets with named authors agreeing. See discrepancies for Hagin's 2001 figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1999,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "cg-prelude-1997-01",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "1997-01 Honda Prelude (used-car review, Tom Appel)",
+      "url": "https://consumerguide.com/used/1997-01-honda-prelude",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "ca-prelude-type-sh",
+      "type": "publication",
+      "publisher": "Collectible Automobile (republished by Consumer Guide)",
+      "title": "Cheap Wheels: 1997-2001 Honda Prelude Type SH (Don Sikora II, Collectible Automobile, October 2019)",
+      "url": "https://blog.consumerguide.com/prelude-type-sh/",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "russ-1997-prelude-sh",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "1997 Honda Prelude Type SH (review, Carey Russ)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/1997/russ08199701.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "heilig-1999-prelude-sh",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "1999 Honda Prelude SH (review, John Heilig)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/1999/heilig_honda_prelude.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "hagin-2001-prelude-sh",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2001 Honda Prelude Type SH (review, Tom Hagin)",
+      "url": "https://theautochannel.com/vehicles/new/reviews/2001/solo0133.html",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3042,
+          "sourceId": "ca-prelude-type-sh"
+        },
+        {
+          "value": 3217,
+          "sourceId": "hagin-2001-prelude-sh"
+        }
+      ],
+      "reason": "Tom Hagin's 2001 Type SH panel prints 'Curb Weight 3217 pounds', while the 1997 and 1999 Auto Channel panels and Collectible Automobile's 1997-2001 retrospective all print 3,042 lb.",
+      "resolution": "Used 3,042 lb: three panels agree across the run, and the reference model year is 1999. Hagin's 3,217 lb is an outlier, possibly a misprint or a differently equipped car."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (200 hp) rests on three agreeing named-author specification panels (The Auto Channel's 1999 and 2001 Type SH panels and Collectible Automobile), none of them a manufacturer page or a major-magazine panel as the power rule requires; no Honda page for the 5th-gen Prelude could be opened. Weight (3,042 lb) meets weight step 2 (two independent named-author outlets agreeing). A Honda press or brochure page, or a major-magazine specification panel, would make the record normal."
+}

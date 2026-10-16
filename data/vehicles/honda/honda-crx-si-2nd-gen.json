@@ -1,0 +1,149 @@
+{
+  "id": "honda-crx-si-2nd-gen",
+  "manufacturer": "Honda",
+  "model": "CRX",
+  "generation": "2nd gen",
+  "variant": "Si",
+  "subVariant": null,
+  "displayName": "Honda CRX Si (2nd gen)",
+  "aliases": [
+    "CR-X",
+    "CRX Si",
+    "EF CRX",
+    "EF",
+    "D16A6",
+    "1988 CRX Si",
+    "Civic CRX"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1988,
+      "endYear": 1991
+    },
+    "sourceId": "scm-crx-jacquot",
+    "note": "US model years. Sports Car Market (Josh Jacquot): the second generation arrived for the 1988 model year and ran through 1991, with the Si trim offered for the whole run."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "scm-crx-jacquot",
+    "note": "Two-seat Kammback sport coupe with a rear liftback, sold as its own model alongside the Civic."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "hagerty-crx-si",
+      "note": "'Engine: inline-4, 1590 cc' (D16A6)"
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "scm-crx-jacquot",
+      "note": "1,590 cc ('more displacement (1,590 cc versus 1,493 cc)' for the Si against the base car). Hagerty's spec box agrees: 'inline-4, 1590 cc' (hagerty-crx-si)."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "hagerty-crx-si",
+      "note": "Inferred: no opened source mentions any forced induction on the Si's 1.6-litre four."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hagerty-crx-si",
+    "note": "Inferred: gasoline D16A6 engine."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "scm-crx-jacquot",
+    "note": "Inferred: front-engine, front-wheel-drive Civic-based platform as described by the cited pages."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "scm-crx-jacquot",
+    "note": "The HF and Si came 'exclusively with a 5-speed manual gearbox'; only the base CRX offered an automatic. Hagerty's spec box: 'Transmission: 5-speed manual'."
+  },
+  "powerHp": {
+    "value": 105,
+    "sourceId": "scm-crx-jacquot",
+    "note": "PROVISIONAL source class for power (no Honda page; not a major-magazine panel). 1988 rating. Quote (Sports Car Market, Josh Jacquot): the Si engine was 'producing 105 hp in 1988 and 108 hp from 1989 to '91'. Motor Authority (Sean Szymkowski): the 1.6 'breathed 105 horsepower into the CRX Si' (ma-crx-si); Hagerty's spec box for the 1989 model also prints '105 hp @ 6000 rpm' (hagerty-crx-si). The rating later rose to 108 hp; the sources disagree on when (SCM says from 1989, but Hagerty's 1989 box still shows 105 hp, which matches the usual 1990 facelift), so the launch-year 105 hp rating is used."
+  },
+  "weightLb": {
+    "value": 2017,
+    "sourceId": "scm-crx-jacquot",
+    "note": "1988 Si, 5-speed manual. Quote (Sports Car Market, Josh Jacquot): 'Weighing a mere 2,017 pounds, the 1988 CRX Si was a featherweight'. Motor Authority (Sean Szymkowski) agrees: the 1988 Si 'tipped the scales at 2,017 pounds' (ma-crx-si): two independent editorial outlets with named authors. See discrepancies for Hagerty's 1989 figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1988,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "scm-crx-jacquot",
+      "type": "publication",
+      "publisher": "Sports Car Market",
+      "title": "1988-91 Honda CRX (Josh Jacquot, 8 July 2021)",
+      "url": "https://www.sportscarmarket.com/?p=772389",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "ma-crx-si",
+      "type": "publication",
+      "publisher": "Motor Authority",
+      "title": "1988 Honda CRX Si: 100 Cars That Matter (Sean Szymkowski, 9 July 2019)",
+      "url": "https://www.motorauthority.com/news/1123551_1988-honda-crx-si-100-cars-that-matter",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "hagerty-crx-si",
+      "type": "publication",
+      "publisher": "Hagerty",
+      "title": "2020 Hagerty Bull Market selection: 1988-91 Honda CRX Si",
+      "url": "https://www.hagerty.com/media/?p=7360",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2017,
+          "sourceId": "scm-crx-jacquot"
+        },
+        {
+          "value": 2100,
+          "sourceId": "hagerty-crx-si"
+        }
+      ],
+      "reason": "Hagerty's spec box for the 1989 CRX Si prints a rounded 'Weight: 2100 lb'; Sports Car Market and Motor Authority both give 2,017 lb for the 1988 car. Different model year and evident rounding.",
+      "resolution": "Used 2,017 lb: two named-author outlets agree on it for the 1988 reference year; Hagerty's 2,100 lb is a rounded figure for the 1989 model."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 105,
+          "sourceId": "hagerty-crx-si"
+        },
+        {
+          "value": 108,
+          "sourceId": "scm-crx-jacquot"
+        }
+      ],
+      "reason": "Sources disagree on when the rating rose from 105 to 108 hp: Sports Car Market says 'producing 105 hp in 1988 and 108 hp from 1989 to '91', while Hagerty's 1989 spec box still prints '105 hp @ 6000 rpm'.",
+      "resolution": "Used 105 hp, the undisputed 1988 launch rating; 1988 is the record's reference year either way."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (105 hp) rests on Sports Car Market, Motor Authority and Hagerty agreeing, none of them a manufacturer page or a major-magazine specification panel as the power rule requires; no Honda page was opened, and the sources disagree on when the rating rose to 108 hp (see discrepancies). Weight (2,017 lb) meets weight step 2 (two independent named-author outlets agreeing). A Honda press or brochure page, or a major-magazine specification panel, would make the record normal."
+}

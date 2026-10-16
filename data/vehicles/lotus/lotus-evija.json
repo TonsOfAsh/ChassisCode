@@ -1,0 +1,158 @@
+{
+  "id": "lotus-evija",
+  "manufacturer": "Lotus",
+  "model": "Evija",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Lotus Evija",
+  "aliases": [
+    "Evija",
+    "Type 130",
+    "Lotus Type 130",
+    "Evija Fittipaldi"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2024,
+      "endYear": null
+    },
+    "sourceId": "insideevs-evija-production",
+    "note": "Calendar years, home-market (UK) record. Quote (InsideEVs): \"production finally began in 2024.\" Lotus had planned for \"production of the Evija will begin there during 2020\" (lotus-evija-reveal-2019) and Motor Authority still expected first deliveries in 2023 (\"Lotus said the first Evijas will be delivered in 2023\", motorauthority-evija-2022). \"Production is limited to just 130 examples\" (lotus-us-evija); Top Gear's May 2025 review says the car \"has actually been in production for a while now\" (topgear-evija-review). No opened page states production has ended."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "lotus-us-evija",
+    "note": "Inferred: a two-seat, fixed-roof carbon-bodied hypercar (\"From every angle the full carbon fibre bodywork is stretched\")."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "lotus-us-evija",
+      "note": "\"The battery pack is mid-mounted immediately behind the two seats and supplies energy directly to four powerful e-motors.\""
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "topgear-evija-review",
+      "note": "Battery EV. Top Gear's review of the production car: \"The 93kWh battery pack\"; Lotus's 2019 release had stated \"The battery pack capacity is 70 kWh\" (lotus-evija-reveal-2019)."
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "lotus-us-evija"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "topgear-evija-review",
+    "note": "\"The 93kWh battery pack\""
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "lotus-evija-reveal-2019",
+    "note": "Four e-motors, one per wheel, driving all four wheels; Lotus US: \"supplies energy directly to four powerful e-motors\" (lotus-us-evija)."
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "lotus-evija-reveal-2019",
+    "note": "Lotus's release: each e-motor drives through \"single-speed, helical gear ground planetary gearboxes\"."
+  },
+  "powerHp": {
+    "value": 2011,
+    "sourceId": "lotus-us-evija",
+    "note": "Quote (Lotus US Evija page): \"With a power output of 2011 bhp*\" (the asterisk marks Lotus's caveat that \"The vehicle specifications detailed on this page are target specifications based on simulations\"). Top Gear's specs table lists \"2011.5\" BHP for the 1500kW car (topgear-evija-specs), and its May 2025 review of the production car repeats \"a power output of 2,011bhp\", i.e. 1.5 megawatts (topgear-evija-review). Lotus publishes the figure in bhp (2,011 bhp = 1,500 kW), so it is stored as published; at the 2019 reveal Lotus had targeted \"2,000 PS (1,963 hp)\" (lotus-evija-reveal-2019). powerStandard is Other because the bhp figure is Lotus's own kW-derived rating, not an SAE or DIN certification."
+  },
+  "weightLb": {
+    "value": 4176,
+    "sourceId": "topgear-evija-review",
+    "note": "PROVISIONAL: 1,894 kg x 2.20462 = 4,176 lb. Quote (Top Gear review of the production car, Jason Barlow, May 2025): \"tipping the scales overall at 1,894kg\" (unlabelled; read as a kerb weight). Lotus itself has published only targets: \"Lotus said its target weight for the car is 4,160 lb\" (motorauthority-evija-2022), 0.4% below Top Gear's figure, and at the 2019 reveal \"a target weight of just 1,680 kg\" (lotus-evija-reveal-2019), which the production car did not meet."
+  },
+  "specBasis": {
+    "market": "UK",
+    "referenceModelYear": 2025,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "lotus-us-evija",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars (US site)",
+      "title": "Evija",
+      "url": "https://www.lotuscars.com/en-US/evija",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "lotus-evija-reveal-2019",
+      "type": "manufacturer",
+      "publisher": "Lotus Cars (press release reproduced by InsideEVs)",
+      "title": "Lotus Evija world premiere press release (London, 16 July 2019)",
+      "url": "https://insideevs.com/news/360185/lotus-presents-the-evija-the-worlds-most-powerful-car-and-ev/",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "topgear-evija-review",
+      "type": "publication",
+      "publisher": "Top Gear (Jason Barlow)",
+      "title": "Lotus Evija review (7 May 2025)",
+      "url": "https://www.topgear.com/car-reviews/lotus/evija",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "topgear-evija-specs",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Lotus Evija specs",
+      "url": "https://www.topgear.com/car-reviews/lotus/evija/specs",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "motorauthority-evija-2022",
+      "type": "publication",
+      "publisher": "Motor Authority (Viknesh Vijayenthiran)",
+      "title": "Lotus Evija is now the world's most powerful production car (October 14, 2022)",
+      "url": "https://www.motorauthority.com/news/1137487_lotus-evija-is-now-the-world-s-most-powerful-production-car",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "insideevs-evija-production",
+      "type": "publication",
+      "publisher": "InsideEVs",
+      "title": "The 2,000-HP Lotus Evija EV Finally Hits The Road In Production Form",
+      "url": "https://insideevs.com/news/756834/lotus-evija-test-top-gear/",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,894 kg (4,176 lb)",
+          "sourceId": "topgear-evija-review"
+        },
+        {
+          "value": "4,160 lb (target)",
+          "sourceId": "motorauthority-evija-2022"
+        },
+        {
+          "value": "1,680 kg (2019 target)",
+          "sourceId": "lotus-evija-reveal-2019"
+        }
+      ],
+      "reason": "Lotus has only published targets, which moved from 1,680 kg at the 2019 reveal to 4,160 lb (1,887 kg) by 2022; Top Gear's 2025 review of the production car gives 1,894 kg.",
+      "resolution": "Used Top Gear's 1,894 kg for the production car; Lotus's final target of 4,160 lb agrees within 0.4%. The 1,680 kg figure was an early aspiration the production car did not meet."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (1,894 kg / 4,176 lb) is provisional: it appears in the body of Top Gear's 2025 review of the production car, not in a specification panel or a Lotus document, and Lotus itself has published only target weights (1,680 kg in 2019, 4,160 lb in 2022, the latter agreeing with Top Gear within 0.4%). A Lotus specification sheet with a final kerb weight, or a major-magazine specification panel, would replace it. Power (2,011 bhp) is Lotus's published figure, repeated by Top Gear for the production car. Power (2,011 bhp) is also soft: Lotus's own page footnotes it as a target specification based on simulations, though Top Gear's May 2025 review of the production car repeats the same figure. The reference year is 2025 because the only weight is from that review; the record is home-market UK with calendar years because Lotus publishes no US model years."
+}

@@ -1,0 +1,108 @@
+{
+  "id": "hyundai-genesis-coupe-3-8-bk2",
+  "manufacturer": "Hyundai",
+  "model": "Genesis Coupe",
+  "generation": "BK2",
+  "variant": "3.8",
+  "subVariant": null,
+  "displayName": "Hyundai Genesis Coupe 3.8 (BK2)",
+  "aliases": [
+    "BK2",
+    "Gen Coupe",
+    "Genesis Coupe 3.8 GDI",
+    "3.8 R-Spec",
+    "3.8 Ultimate",
+    "2013 Genesis Coupe"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2013,
+      "endYear": 2016
+    },
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "US model years for the facelifted 348 hp direct-injection 3.8. First: the 2013 brochure introduces the GDI engine. Last: Hyundai product PR manager Christine Henley: \"In regards to the Genesis Coupe, 2016 will in fact be the last model year for this popular, rear-drive sporty coupe.\" (autoblog-gc-discontinued). The 2010-2012, 306 hp car is the separate record hyundai-genesis-coupe-3-8-bk1."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "The 2013 brochure describes the car as a sports coupe; the explicit 'Body Type: Four-passenger Sport Coupe' line is in the BK1 (2010) brochure, and the body was unchanged by the facelift."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "hyundai-2013-gc-brochure",
+      "note": "\"3.8L Gasoline Direct Injection DOHC V6 engine\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "hyundai-2013-gc-brochure",
+      "note": "The brochure states 3.8L; no cc figure was on any opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "hyundai-2013-gc-brochure",
+      "note": "Inferred: the direct-injection V6 carries no turbocharger or supercharger (the turbocharged car is the separate 2.0T)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "\"348 HP with premium fuel, 344 HP with standard unleaded fuel.\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "\"Genesis Coupe uses a rear-drive platform\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "8-speed Automatic"
+    ],
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "\"6-speed close-ratio manual transmission\" (standard, R-Spec and Track); \"8-speed automatic transmission with SHIFTRONIC\" on automatic trims."
+  },
+  "powerHp": {
+    "value": 348,
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "Quote (2013 brochure): \"348 HP, 3.8L Gasoline Direct Injection DOHC V6 engine\" and \"348 HP with premium fuel, 344 HP with standard unleaded fuel.\" Hyundai's headline rating of 348 hp (premium fuel) is used; the opened pages do not print the rated rpm."
+  },
+  "weightLb": {
+    "value": 3433,
+    "sourceId": "hyundai-2013-gc-brochure",
+    "note": "Quote (2013 brochure): \"2.0/3.8 Base Curb weight 3362/3433 lbs.\" (second figure the 3.8). The brochure does not split the figure by transmission; it is the base 3.8, which comes standard with the 6-speed manual."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2013,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hyundai-2013-gc-brochure",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (brochure rehosted by Auto-Brochures.com)",
+      "title": "2013 Hyundai Genesis Coupe brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Hyundai/Genesis%20Coupe/Hyundai_US%20Genesis-Coupe_2013.pdf",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "autoblog-gc-discontinued",
+      "type": "publication",
+      "publisher": "Autoblog (Vineeth Patel)",
+      "title": "Hyundai dumps Genesis Coupe for upscale model (August 3, 2016)",
+      "url": "https://www.autoblog.com/2016/08/03/hyundai-genesis-coupe-discontinued-official/",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

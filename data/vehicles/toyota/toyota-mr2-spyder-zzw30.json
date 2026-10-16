@@ -1,0 +1,110 @@
+{
+  "id": "toyota-mr2-spyder-zzw30",
+  "manufacturer": "Toyota",
+  "model": "MR2",
+  "generation": "ZZW30",
+  "variant": "Spyder",
+  "subVariant": null,
+  "displayName": "Toyota MR2 Spyder (ZZW30)",
+  "aliases": [
+    "MR2 Spyder",
+    "ZZW30",
+    "MR-S",
+    "MK3 MR2",
+    "1ZZ-FED",
+    "SMT",
+    "2000 MR2 Spyder"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2000,
+      "endYear": 2005
+    },
+    "sourceId": "cg-mr2-spyder-2000-05",
+    "note": "US model years. Consumer Guide (Tom Appel) covers the '2000-05 Toyota MR2 Spyder': Toyota 'launched a mid-engined, rear-drive, two-passenger sports car as a late 2000 model', and the 2005 model is described as 'its final year'."
+  },
+  "body": {
+    "value": [
+      "Roadster"
+    ],
+    "sourceId": "cg-mr2-spyder-2000-05",
+    "note": "'a mid-engined, rear-drive, two-passenger sports car' with a folding soft top; no fixed-roof version of the ZZW30 was sold in the US, so it is a Roadster."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "toyota-mr2-2001-brochure",
+      "note": "'1.8-liter double overhead cam (DOHC) 16-valve 4-cylinder with Variable Valve Timing with intelligence (VVT-i)' (1ZZ-FED)"
+    },
+    "displacementL": {
+      "value": 1.8,
+      "sourceId": "toyota-mr2-2001-brochure",
+      "note": "1,794 cc ('Displacement: 1.8 liters (1,794 cc)')"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "toyota-mr2-2001-brochure",
+      "note": "Inferred: the brochure describes a DOHC VVT-i 4-cylinder with no turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-mr2-2001-brochure",
+    "note": "Inferred: gasoline 1ZZ-FED engine."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "toyota-mr2-2001-brochure",
+    "note": "'Drivetrain: Mid-engine, rear-wheel drive with 5-speed manual transmission'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "5-speed Automated Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "cg-mr2-spyder-2000-05",
+    "note": "The 5-speed manual was the only transmission at launch (brochure: 'Mid-engine, rear-wheel drive with 5-speed manual transmission'). Consumer Guide: 'A 5-speed sequential manual gearbox became available for 2002 and was upgraded to 6-speeds in '03'. Toyota's SMT is a clutch-pedal-free automated manual."
+  },
+  "powerHp": {
+    "value": 138,
+    "sourceId": "toyota-mr2-2001-brochure",
+    "note": "Quote: \"Horsepower: 138 hp @ 6,400 rpm\". Consumer Guide gives the same 138 hp for the generation ('Tuned to deliver 138 horsepower', cg-mr2-spyder-2000-05)."
+  },
+  "weightLb": {
+    "value": 2195,
+    "sourceId": "toyota-mr2-2001-brochure",
+    "note": "5-speed manual, standard equipment, 2001 model. Quote: \"Curb weight (lbs.): 2,195\". No manufacturer figure for the 2000 launch year was opened, so the reference year is 2001, the first year with a qualifying figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2001,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "toyota-mr2-2001-brochure",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Sales, U.S.A. (brochure hosted by auto-brochures.com)",
+      "title": "2001 Toyota MR2 Spyder US brochure",
+      "url": "https://www.auto-brochures.com/makes/Toyota/MR2/Toyota_US%20MR2_2001.pdf",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "cg-mr2-spyder-2000-05",
+      "type": "publication",
+      "publisher": "Consumer Guide",
+      "title": "2000-05 Toyota MR2 Spyder (used-car review, Tom Appel)",
+      "url": "https://consumerguide.com/used/2000-05-toyota-mr2-spyder",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

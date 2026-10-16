@@ -1,0 +1,121 @@
+{
+  "id": "hennessey-venom-gt",
+  "manufacturer": "Hennessey",
+  "model": "Venom GT",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Hennessey Venom GT",
+  "aliases": [
+    "Venom GT",
+    "Hennessey Venom",
+    "270 mph Venom",
+    "7.0 twin-turbo V8"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2017
+    },
+    "sourceId": "venomgt-final-edition",
+    "note": "Calendar years, as in the Venom F5 and Bugatti records (Hennessey publishes no US model years). Quote (Hennessey, 19 January 2017): \"Since 2010 Hennessey Performance has built twelve road-going Venom GT's\" \"along with one prototype for a total production of thirteen vehicles\", and \"Production of the world's fastest hardtop coupe and convertible has now officially concluded.\" The Final Edition car was completed in January 2017."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "venomgt-final-edition",
+    "note": "\"The first six Venoms were all hardtops and the last 6 were roadsters.\" The open car is the Venom GT Spyder, sold under its own name; this record is the coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "venomgt-specs",
+      "note": "\"90-degree V8\""
+    },
+    "displacementL": {
+      "value": 7.0,
+      "sourceId": "venomgt-specs",
+      "note": "7,000 cc (\"7000 cc/427 cu. in.\")"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "venomgt-specs",
+      "note": "\"twin precision ball bearing turbochargers\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "venomgt-specs",
+    "note": "Inferred: Hennessey describes a conventional twin-turbo petrol V8 with no hybrid system."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "venomgt-specs",
+    "note": "\"mid-longitudinal engine/rear drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "venomgt-specs",
+    "note": "\"Ricardo 6-Speed manual\""
+  },
+  "powerHp": {
+    "value": 1244,
+    "sourceId": "venomgt-specs",
+    "note": "Quote (venomgt.com spec table, headed \"2014 Hennessey Venom GT Specifications\"): \"1244 bhp @ 6600 rpm (cockpit-adjustable to 800, 1000 & 1244 bhp)\". Hennessey states bhp with no SAE certification, so powerStandard is Other, as for the Venom F5. The rating changed over the run: \"power grew from 1,000 bhp to an astounding 1,451 bhp\", and the 2016-2017 Final Edition is \"powered by the same twin turbo 7.0 Liter V8 engine producing 1,451 bhp\" (venomgt-final-edition). The 1,244 bhp rating is the one on Hennessey's permanent specification page, with a matching curb weight."
+  },
+  "weightLb": {
+    "value": 2743,
+    "sourceId": "venomgt-specs",
+    "note": "Quote (venomgt.com spec table, Dimensions & Capacities, Curb weight): \"2743 lb/1244 kg\". 2014 specification; single configuration (Ricardo 6-speed manual)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2014,
+    "powerStandard": "Other",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "venomgt-specs",
+      "type": "manufacturer",
+      "publisher": "Hennessey Performance (venomgt.com)",
+      "title": "The Venom GT - 2014 Hennessey Venom GT Specifications",
+      "url": "https://www.venomgt.com/the-venom-gt",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "venomgt-final-edition",
+      "type": "manufacturer",
+      "publisher": "Hennessey Performance (venomgt.com)",
+      "title": "Hennessey Venom GT Final Edition Crosses the Finish Line (January 19, 2017)",
+      "url": "https://www.venomgt.com/hennessey-venom-gt-final-edition-crosses-the-finish-line/",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 1244,
+          "sourceId": "venomgt-specs"
+        },
+        {
+          "value": 1451,
+          "sourceId": "venomgt-final-edition"
+        }
+      ],
+      "reason": "The rating rose over the run: Hennessey says \"power grew from 1,000 bhp to an astounding 1,451 bhp\", and the 2016-2017 Final Edition (3 cars) is \"producing 1,451 bhp\".",
+      "resolution": "Used 1,244 bhp from the 2014 specification page, the only Hennessey page that pairs a rating with a curb weight; the run is 13 cars, too few and too varied for year-split records."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,136 @@
+{
+  "id": "bmw-z3-m-coupe-e36-8-1999-2000",
+  "manufacturer": "BMW",
+  "model": "Z3",
+  "generation": "E36/8",
+  "variant": "M Coupe",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "BMW Z3 M Coupe (E36/8, 1999–2000)",
+  "aliases": [
+    "M Coupe",
+    "Z3M",
+    "Clownshoe",
+    "S52",
+    "E36/8",
+    "1999 M Coupe",
+    "2000 M Coupe"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2000
+    },
+    "sourceId": "carscom-1999-bmw-m",
+    "note": "US model years for the S52-engined car. Cars.com and KBB list the car for 1999 (carscom-1999-bmw-m, kbb-1999-m-coupe) and period reviews of the \"1999 BMW M Coupe\" ran in January 1999 (curbside-1999-m-coupe). BMW NA's 5 January 2001 release introduces the \"all-new 3.2 liter in-line six ... designated S54\" car for 2001 (bmw-2001-m-coupe-release), so the S52 run ended with 2000. No opened page states in so many words that 1999 was the first US model year. The 2001-2002 S54 car is the separate record bmw-z3-m-coupe-e36-8-2001-2002."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "kbb-1999-m-coupe",
+    "note": "Two-door hatchback-bodied coupe (KBB: \"M Coupe 2D\"); the open car is the separate M Roadster."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I6",
+      "sourceId": "carscom-1999-bmw-m",
+      "note": "\"3.2-liter, Straight 6 Cylinder Engine (Gasoline Fuel)\" (the US S52)"
+    },
+    "displacementL": {
+      "value": 3.2,
+      "sourceId": "carscom-1999-bmw-m",
+      "note": "Sources state 3.2 liters; no cc figure was on any opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "carscom-1999-bmw-m",
+      "note": "Inferred: no source describes a turbocharger or supercharger."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "carscom-1999-bmw-m",
+    "note": "\"(Gasoline Fuel)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carscom-1999-bmw-m",
+    "note": "\"Rear Wheel Drive\""
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "carscom-1999-bmw-m",
+    "note": "\"5-Speed M/T\"; manual only (John Matras: \"the M Coupe is available only with a manual transmission\", rememberroad-1999)."
+  },
+  "powerHp": {
+    "value": 240,
+    "sourceId": "carscom-1999-bmw-m",
+    "note": "PROVISIONAL source class (databases and period reviews; no BMW document could be opened). Quote (Cars.com, SAE Net Horsepower @ RPM): \"240 @ 6000\". KBB: \"240 @ 6000 RPM\" (kbb-1999-m-coupe). John Matras: \"the big 3.2-liter six that cranks out a healthy 240 bhp at 6000 rpm and 236 lb-ft of torque\" (rememberroad-1999); Adam Dixon's January 1999 review also lists \"240 horsepower\" (curbside-1999-m-coupe)."
+  },
+  "weightLb": {
+    "value": 3131,
+    "sourceId": "carscom-1999-bmw-m",
+    "note": "PROVISIONAL source class (two agreeing databases). Quote (Cars.com): \"Base Curb Weight\" \"3,131 lbs.\". KBB: \"3131 lbs.\" (kbb-1999-m-coupe). 5-speed manual, the only configuration offered."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1999,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "carscom-1999-bmw-m",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "1999 BMW M specs & colors",
+      "url": "https://www.cars.com/research/bmw-m-1999/specs",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "kbb-1999-m-coupe",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1999 BMW Z3 M Coupe 2D specs",
+      "url": "https://www.kbb.com/bmw/z3/1999/m-coupe-2d",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "curbside-1999-m-coupe",
+      "type": "enthusiast",
+      "publisher": "Curbside Classic (reprinting African Americans On Wheels, Adam Dixon, 25 January 1999)",
+      "title": "Classic Carmentary: 1999 BMW M Coupe",
+      "url": "https://www.curbsideclassic.com/vintage-reviews/classic-carmentary-1999-bmw-m-coupe/",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "rememberroad-1999",
+      "type": "publication",
+      "publisher": "John Matras (rememberroad.com)",
+      "title": "1999 BMW M Coupe: Warning: This coupe can be hazardous to Cougar drivers",
+      "url": "https://rememberroad.com/?p=3547",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "bmw-2001-m-coupe-release",
+      "type": "manufacturer",
+      "publisher": "BMW of North America (release on The Auto Channel)",
+      "title": "2001 BMW M Coupe and M Roadster Make World Debut (January 5, 2001)",
+      "url": "https://theautochannel.com/news/press/date/20010105/press033676.html",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (240 hp) and weight (3,131 lb) rest on spec databases (Cars.com and KBB, agreeing) corroborated by period reviews, not on a BMW document or a major-magazine specification panel: no BMW NA page for the 1999-2000 M Coupe could be found or opened, and Car and Driver is blocked. A BMW NA press kit, brochure or technical-data sheet, or a C/D-class specification panel for the 1999-2000 M Coupe, would replace both.",
+  "reviewNotes": "No opened page states that 1999 was the first US model year: the 1999 listings and a January 1999 review only show the year existing. A BMW NA document would settle it."
+}

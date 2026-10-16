@@ -1,0 +1,133 @@
+{
+  "id": "hyundai-genesis-coupe-3-8-bk1",
+  "manufacturer": "Hyundai",
+  "model": "Genesis Coupe",
+  "generation": "BK1",
+  "variant": "3.8",
+  "subVariant": null,
+  "displayName": "Hyundai Genesis Coupe 3.8 (BK1)",
+  "aliases": [
+    "BK1",
+    "Gen Coupe",
+    "Genesis Coupe V6",
+    "3.8 Track",
+    "3.8 R-Spec",
+    "2010 Genesis Coupe"
+  ],
+  "country": "South Korea",
+  "production": {
+    "value": {
+      "startYear": 2010,
+      "endYear": 2012
+    },
+    "sourceId": "hyundai-2008-gc-release",
+    "note": "US model years for the 306 hp pre-facelift 3.8. First: Hyundai's October 2008 release covers \"the All-New 2010 Hyundai Genesis Coupe\". Last: the facelifted 2013 car (BK2) introduced the 348 hp direct-injection 3.8 (hyundai-2013-gc-brochure), so the 306 hp car ran through 2012; no opened page states 2012 in so many words. The 2013-2016 car is the separate record hyundai-genesis-coupe-3-8-bk2."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "hyundai-2010-gc-brochure",
+    "note": "\"Body Type: Four-passenger Sport Coupe\""
+  },
+  "engine": {
+    "configuration": {
+      "value": "V6",
+      "sourceId": "hyundai-2010-gc-brochure",
+      "note": "\"3.8-liter, 24-valve, V6 with Dual CVVT\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "hyundai-2010-gc-brochure",
+      "note": "The brochure states 3.8 liters; no cc figure was on any opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "hyundai-2010-gc-brochure",
+      "note": "Inferred: the V6 carries no turbocharger or supercharger (the turbocharged car is the separate 2.0T)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "hyundai-2010-gc-brochure",
+    "note": "\"Horsepower @ rpm (regular fuel)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "hyundai-2010-gc-brochure",
+    "note": "\"Rear-wheel Drive\" standard on all trims; Hyundai calls it \"the rear-wheel drive sport coupe\" (hyundai-2008-gc-release)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "hyundai-2010-gc-brochure",
+    "note": "\"6-speed Close-ratio Manual Transmission\" standard; \"ZF 6-speed Electronic Automatic Transmission with Lock-up Torque Converter and Paddle-shift SHIFTRONIC\" optional on the 3.8 (the 2008 release names it \"ZF 6HP19 6-speed electronic automatic\", hyundai-2008-gc-release)."
+  },
+  "powerHp": {
+    "value": 306,
+    "sourceId": "hyundai-2010-gc-brochure",
+    "note": "Quote (2010 brochure spec table): \"Horsepower @ rpm (regular fuel) 210 @ 6000 306 @ 6300\" (first column the 2.0T, second the 3.8), i.e. 306 hp @ 6,300 rpm on regular fuel. Hyundai's October 2008 release had listed \"an estimated 306-hp (regular), 310-hp (premium)\" (hyundai-2008-gc-release); the brochure's final published rating on regular fuel is 306 hp."
+  },
+  "weightLb": {
+    "value": 3389,
+    "sourceId": "hyundai-2010-gc-brochure",
+    "note": "Quote (2010 brochure): \"Base Curb Weight (lbs.) 3,294 3,389\" (second column the 3.8). The brochure does not split the figure by transmission; it is the base 3.8, which comes standard with the 6-speed manual. See discrepancies for the 2008 pre-launch figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2010,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "hyundai-2010-gc-brochure",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (brochure rehosted by Auto-Brochures.com)",
+      "title": "2010 Hyundai Genesis Coupe brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Hyundai/Genesis%20Coupe/Hyundai_US%20Genesis-Coupe_2010.pdf",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "hyundai-2008-gc-release",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (release on The Auto Channel)",
+      "title": "Hyundai Releases Additional Engineering and Feature Information for the All-New 2010 Hyundai Genesis Coupe (October 30, 2008)",
+      "url": "https://www2020.theautochannel.com/news/2008/10/30/208093.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "hyundai-2013-gc-brochure",
+      "type": "manufacturer",
+      "publisher": "Hyundai Motor America (brochure rehosted by Auto-Brochures.com)",
+      "title": "2013 Hyundai Genesis Coupe brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Hyundai/Genesis%20Coupe/Hyundai_US%20Genesis-Coupe_2013.pdf",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3389,
+          "sourceId": "hyundai-2010-gc-brochure"
+        },
+        {
+          "value": 3402,
+          "sourceId": "hyundai-2008-gc-release"
+        }
+      ],
+      "reason": "The October 2008 release's 3,402 lb was pre-launch engineering information (its power figures were labelled estimates); the 2010 brochure prints 3,389 lb.",
+      "resolution": "Used the brochure's 3,389 lb, the manufacturer's final figure for the 2010 model year."
+    }
+  ],
+  "needsReview": true,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true,
+  "reviewNotes": "End year 2012 is inferred from the 2013 facelift brochure; no opened page states it. Fuel-grade convention also differs between the two Genesis Coupe records: this brochure prints only the regular-fuel 306 hp (Hyundai's 2008 materials said 310 hp on premium), while the BK2 record uses Hyundai's premium-fuel 348 hp headline."
+}

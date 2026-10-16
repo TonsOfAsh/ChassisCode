@@ -1,0 +1,140 @@
+{
+  "id": "scion-tc-1st-gen",
+  "manufacturer": "Scion",
+  "model": "tC",
+  "generation": "1st gen",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Scion tC (1st gen)",
+  "aliases": [
+    "tC1",
+    "ANT10",
+    "2AZ-FE",
+    "Scion tC Release Series",
+    "first-gen tC"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2010
+    },
+    "sourceId": "scion-2005-tc-pricing",
+    "note": "US model years. First: \"The 2005 Scion tC\" \"will go on sale nationally in late June 2004\" (scion-2005-tc-pricing). Last: \"Following a successful first-generation model, Scion introduces the all-new 2011 Scion tC sports coupe\", which \"first launched in 2004\" (toyota-2011-tc-release), so the first generation ended with the 2010 model year."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "scion-2009-tc-brochure",
+    "note": "Liftback sport coupe (the brochure \"redefines the sports coupe\"); liftbacks count as coupes."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "scion-2009-tc-brochure",
+      "note": "\"Double Overhead Cam (DOHC) 16-valve, VVT-i 4 Cylinder\" (Toyota 2AZ-FE)"
+    },
+    "displacementL": {
+      "value": 2.4,
+      "sourceId": "scion-2009-tc-brochure",
+      "note": "2,362 cc (\"Displacement 2.4 liters (2,362 CC)\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "scion-2009-tc-brochure",
+      "note": "Inferred: the brochure describes a 2.4-liter four with no turbocharger or supercharger (a TRD supercharger was a dealer accessory, not a factory rating)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "scion-2009-tc-brochure",
+    "note": "Inferred from the brochure's description of a conventional piston engine."
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "scion-2009-tc-brochure",
+    "note": "\"Drivetrain Front Wheel Drive (Front Engine)\""
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "scion-2009-tc-brochure",
+    "note": "\"Transmission 5-Speed Manual (Standard)\"; \"4-Speed Automatic (Available)\". Same pairing at launch: \"five-speed manual transmission model\" and \"four-speed electronically controlled automatic transmission\" (scion-2005-tc-pricing)."
+  },
+  "powerHp": {
+    "value": 161,
+    "sourceId": "scion-2009-tc-brochure",
+    "note": "2009 model year. Quote: \"Horsepower 161 hp @ 6,000 rpm\". Early cars were rated 160 hp: Scion's April 2004 pricing release describes \"a 160-horsepower engine\" (scion-2005-tc-pricing) and Carey Russ's 2005 review lists \"160 @ 5700 rpm\" (autochannel-2005-tc-review). No opened page states in which model year the published rating changed (the change reflects revised SAE rating practice, not a mechanical change); the 2009 brochure is the only manufacturer document opened (the 2005 brochure is no longer on Auto-Brochures), so the reference year is 2009."
+  },
+  "weightLb": {
+    "value": 2932,
+    "sourceId": "scion-2009-tc-brochure",
+    "note": "2009 model year, 5-speed manual. Quote: \"Curb Weight 2,932 lbs. (Manual)\" (\"2,987 lbs. (Automatic)\"). See discrepancies for a different 2005 figure."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2009,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "scion-2009-tc-brochure",
+      "type": "manufacturer",
+      "publisher": "Scion (Toyota Motor Sales, U.S.A.; brochure rehosted by Auto-Brochures.com)",
+      "title": "2009 Scion tC brochure (US)",
+      "url": "https://www.auto-brochures.com/makes/Scion/tC/Scion_US%20tC_2009.pdf",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "scion-2005-tc-pricing",
+      "type": "manufacturer",
+      "publisher": "Scion (Toyota Motor Sales, U.S.A.; release on The Auto Channel)",
+      "title": "Scion Announces Pricing of 2005 tC Sport Coupe (April 6, 2004)",
+      "url": "https://www2020.theautochannel.com/news/2004/04/06/188155.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "toyota-2011-tc-release",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor North America (Toyota USA Newsroom)",
+      "title": "All-New 2011 Scion tC Sports Coupe Covers New Ground (August 6, 2010)",
+      "url": "https://pressroom.toyota.com/all-new-2011-scion-tc-sports-coupe-covers-new-ground/",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "autochannel-2005-tc-review",
+      "type": "publication",
+      "publisher": "The Auto Channel (Carey Russ)",
+      "title": "New Car Review: 2005 Scion tC (January 26, 2005)",
+      "url": "https://www.theautochannel.com/news/2005/01/26/013558.html",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2932,
+          "sourceId": "scion-2009-tc-brochure"
+        },
+        {
+          "value": 2970,
+          "sourceId": "autochannel-2005-tc-review"
+        }
+      ],
+      "reason": "Model year and source class: 2,932 lb is Scion's 2009 brochure figure for the manual; 2,970 lb is from a 2005 press review whose configuration is not stated.",
+      "resolution": "Used the manufacturer's 2,932 lb for the manual at the 2009 reference year."
+    }
+  ],
+  "needsReview": true,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true,
+  "reviewNotes": "The model year the published rating changed from 160 to 161 hp was not found on an opened page; the 2009 brochure is the only openable manufacturer document, so its 161 hp / 2,932 lb and reference year 2009 are used. If 160 hp in fact covered 2005-2008, the guide's majority rule would prefer that rating."
+}

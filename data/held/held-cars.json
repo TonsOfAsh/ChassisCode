@@ -295,6 +295,25 @@
       "heldSince": "2026-10-09",
       "missing": "The US rating: the owner's Car and Driver panel ('2024 Lotus Emira 2.0T') says 400 hp and 3,245 lb, but Car and Driver's own first drive (Mike Duff, Aug 2023) and Motor1 give 360 hp for the 2024 US car; Motor Authority says the 400 hp Turbo SE came later. Which car was tested, or the US rating by year.",
       "notes": "Lotus claims a 3,187 lb curb weight for the 2.0 (C&D first drive). 1,991 cc turbo I4, 8-speed DCT."
+    },
+    {
+      "id": "pininfarina-battista",
+      "displayName": "Pininfarina Battista",
+      "heldSince": "2026-10-15",
+      "missing": "A settled curb weight: weak sources disagree by 4.6% (CAR's panel '2200kg (approx.)' and Greg Kable's 'under 2,200kg' vs the EVKX database's 2,302 kg), beyond the ~2% provisional rule, and Automobili Pininfarina publishes no weight on any opened page. An AP specification sheet or a major-magazine panel with a labelled kerb weight would settle it. A full researched record is saved as data/held/pininfarina-battista.json.",
+      "confirmed": {
+        "modelYears": "2022-present (calendar)",
+        "body": [
+          "Coupe"
+        ],
+        "powerHp": "1,877 hp (1,400 kW, Automobili Pininfarina reveal release: 'Power output Up to 1,900 hp (1,400 kW)')",
+        "drivetrain": "AWD",
+        "fuel": "Electric",
+        "transmission": [
+          "Single-speed"
+        ],
+        "production": "150 cars"
+      }
     }
   ]
 }

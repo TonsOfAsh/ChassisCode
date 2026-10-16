@@ -1,0 +1,139 @@
+{
+  "id": "toyota-celica-gt-four-st205",
+  "manufacturer": "Toyota",
+  "model": "Celica",
+  "generation": "ST205",
+  "variant": "GT-Four",
+  "subVariant": null,
+  "displayName": "Toyota Celica GT-Four (ST205)",
+  "aliases": [
+    "ST205",
+    "GT-Four",
+    "GT4",
+    "3S-GTE",
+    "Celica GT-Four WRC",
+    "Celica Turbo 4WD"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 1994,
+      "endYear": 1999
+    },
+    "sourceId": "toyota-75years-gt-four",
+    "note": "Calendar build years; never sold new in the US. Start: Toyota's 75-years history page gives a release date of 1994/2/2 and notes 2,100 units released in February 1994 for the Japanese market (the WRC homologation run); PistonHeads: Toyota 'launched the ST205 generation of GT-Four in the UK, in May 1994' (pistonheads-st205). End: Garage Dreams gives 'Year of production ... 1994 - 1999' (garagedreams-st205); no Toyota page stating the end date was opened."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "toyota-75years-gt-four",
+    "note": "Two-door liftback coupe; inferred from the cited pages' description and photographs."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "toyota-uk-gt-four-history",
+      "note": "'The Celica's 2.0-litre four-cylinder twin-cam 16 valve engine was substantially modified' (3S-GTE; engine code per toyota-75years-gt-four)"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "toyota-75years-gt-four",
+      "note": "1,998 cc (Toyota's table gives displacement '1998' cm3)"
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "toyota-uk-gt-four-history",
+      "note": "Single turbo: the engine was modified with 'a larger, water intercooled turbocharger'."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-75years-gt-four",
+    "note": "Inferred: gasoline 3S-GTE engine."
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "toyota-uk-gt-four-history",
+    "note": "'With permanent four-wheel drive' (Toyota GB); a permanent system, so AWD."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual"
+    ],
+    "sourceId": "pistonheads-st205",
+    "note": "PistonHeads spec table: 'Five-speed manual'; 'The E154 five-speed manual transmission in the Celica is tough.' Garage Dreams agrees ('5-speed manual E154F', garagedreams-st205). No Toyota page naming the gearbox was opened."
+  },
+  "powerHp": {
+    "value": 252,
+    "sourceId": "toyota-75years-gt-four",
+    "note": "Japanese-market rating. Quote (Toyota 75-years spec table, GT-FOUR column): \"-/255/6000\", with the footnote that the slash-separated figures are kW, PS and r.p.m., i.e. 255 PS at 6,000 rpm. 255 PS x 0.98632 = 251.5, rounded to 252 hp. Garage Dreams agrees: '252 horsepower for the Japanese market' (garagedreams-st205). Export cars were rated lower: Toyota GB quotes 239 bhp (toyota-uk-gt-four-history)."
+  },
+  "weightLb": {
+    "value": 3042,
+    "sourceId": "toyota-75years-gt-four",
+    "note": "Japanese-market GT-Four, 5-speed manual. Quote: curb mass '1380' kg. 1,380 kg x 2.20462 = 3,042.4, rounded to 3,042 lb. The spec column is model code E-ST205-BLMVZ on a page whose release note describes the February 1994 Japanese launch. See discrepancies for Garage Dreams' 1,390 kg."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 1994,
+    "powerStandard": "JIS PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "toyota-75years-gt-four",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Corporation (75 Years of Toyota vehicle lineage)",
+      "title": "Celica GT-Four (ST205)",
+      "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60010126/index.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "toyota-uk-gt-four-history",
+      "type": "manufacturer",
+      "publisher": "Toyota (GB) (Toyota UK Magazine)",
+      "title": "20 years of the Toyota Celica GT-Four",
+      "url": "https://mag.toyota.co.uk/20-years-of-the-toyota-celica-gt-four",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "garagedreams-st205",
+      "type": "publication",
+      "publisher": "Garage Dreams",
+      "title": "Toyota Celica GT-Four ST205 Buyer's Guide & History",
+      "url": "https://garagedreams.net/?p=2817",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "pistonheads-st205",
+      "type": "publication",
+      "publisher": "PistonHeads",
+      "title": "Toyota Celica GT-Four: PH Used Buying Guide (Lewis Kingston)",
+      "url": "https://www.pistonheads.com/news/ph-buying-guides/toyota-celica-gt-four-ph-used-buying-guide/38487",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3042,
+          "sourceId": "toyota-75years-gt-four"
+        },
+        {
+          "value": 3064,
+          "sourceId": "garagedreams-st205"
+        }
+      ],
+      "reason": "Toyota's 75-years table gives 1,380 kg (3,042 lb); Garage Dreams gives '1390 kg (3064 lbs)'. 10 kg apart (0.7%), possibly standard GT-Four versus the February 1994 WRC homologation version, or rounding.",
+      "resolution": "Used Toyota's own 1,380 kg figure (weight order step 1); the manufacturer figure outranks the enthusiast site."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

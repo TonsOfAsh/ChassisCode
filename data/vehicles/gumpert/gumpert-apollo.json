@@ -1,0 +1,161 @@
+{
+  "id": "gumpert-apollo",
+  "manufacturer": "Gumpert",
+  "model": "Apollo",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Gumpert Apollo",
+  "aliases": [
+    "Gumpert",
+    "Apollo Biturbo",
+    "4.2 biturbo Apollo"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2012
+    },
+    "sourceId": "carpassion-apollo-40",
+    "note": "Calendar years, German home-market record. Motor Authority reported in September 2008 that Gumpert would distribute the Apollo in the US via Evolution MotorSport, with a first car through customs (motorauthority-apollo-us), but no opened page shows US model years or a federalised US-market road car, so the home market is used. Start: Carpassion's 16 December 2008 report on the 40th delivery says it came \"Genau drei Jahre nach dem Produktionsstart\" (exactly three years after the start of production), putting the start in late 2005. End: the Apollo was still current in March 2012, when Winding Road reported Gumpert adding the race-only Apollo R beside its \"street legal apollo and apollo s models\" (windingroad-geneva-2012). No opened page states the final year of production; see reviewNotes."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "evo-apollo",
+    "note": "Inferred: Evo describes a mid-engined two-door \"road-going race car\"; sold only as a fixed-roof coupe."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "autobild-apollo",
+      "note": "\"4,2 l V8 Bi-Turbo-Version mit 650 PS\" (Audi-sourced 4.2 V8; Autoblog: \"Audi-sourced 4.2-liter, twin-turbo V8\", autoblog-apollo)"
+    },
+    "displacementL": {
+      "value": 4.2,
+      "sourceId": "autobild-apollo",
+      "note": "4,163 cc (Auto Bild: \"4163 cm³\"; Evo's panel: \"4163cc\", evo-apollo)"
+    },
+    "aspiration": {
+      "value": "Twin Turbocharged",
+      "sourceId": "autobild-apollo",
+      "note": "\"Bi-Turbo\"; Evo: \"biturbo\" (evo-apollo)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "autobild-apollo",
+    "note": "Inferred: a petrol twin-turbo V8 with no hybrid system described."
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "carmagazine-apollo-s",
+    "note": "CAR's Apollo S panel: \"Sequential six-speed manual, rear-wheel drive\" - the same mid-engined rear-drive layout as the standard Apollo (Evo: \"Mid, longitudinal 90deg V8\", evo-apollo)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "autoblog-apollo",
+    "note": "\"synchronized, six-speed manual sequential transmission with a twin-plate clutch\", with an optional paddle-shift system. Auto Bild: \"sequenzielles Sechsganggetriebe\" (autobild-apollo)."
+  },
+  "powerHp": {
+    "value": 641,
+    "sourceId": "autobild-apollo",
+    "note": "German home-market rating: 650 PS x 0.98632 = 641 hp. Quote (Auto Bild road test of the standard Apollo): \"Leistung 478 kW (650 PS) bei 6500/min\". Corroborated by Motor Authority: \"650hp (480kW)\" (motorauthority-apollo-us) and Autoblog: \"Base ratings are 650 horsepower\" (autoblog-apollo); the Apollo S/Sport with more power are separate variants not covered by this record."
+  },
+  "weightLb": {
+    "value": 2646,
+    "sourceId": "autobild-apollo",
+    "note": "1,200 kg x 2.20462 = 2,646 lb. Quote (Auto Bild road test of the standard Apollo): \"Leergewicht 1200 kg\". Autoblog's first drive gives the same figure in pounds: \"the 2,645-pound car\" (autoblog-apollo; 1 lb rounding difference from the kg conversion). Auto Bild does not say whether its Leergewicht is DIN or EU (with driver); the match with Autoblog's US figure suggests it is the car's weight without driver. See discrepancies for Motor Authority's lower figure."
+  },
+  "specBasis": {
+    "market": "EU",
+    "referenceModelYear": 2007,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "autobild-apollo",
+      "type": "publication",
+      "publisher": "Auto Bild (Gerald Czajka)",
+      "title": "Fahrbericht Gumpert Apollo (10 December 2007)",
+      "url": "https://www.autobild.de/artikel/fahrbericht-gumpert-apollo-466409.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "autoblog-apollo",
+      "type": "publication",
+      "publisher": "Autoblog (Jonathon Ramsey)",
+      "title": "Gumpert Apollo First Drive (May 12, 2010)",
+      "url": "https://www.autoblog.com/2010/05/12/gumpert-apollo-first-drive/",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "motorauthority-apollo-us",
+      "type": "publication",
+      "publisher": "Motor Authority (Nelson Ireson)",
+      "title": "Gumpert confirms Apollo supercar for U.S. (September 9, 2008)",
+      "url": "https://www.motorauthority.com/news/1022874_gumpert-confirms-apollo-supercar-for-u-s",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "evo-apollo",
+      "type": "publication",
+      "publisher": "Evo (Richard Meaden)",
+      "title": "Gumpert Apollo review",
+      "url": "https://evo.co.uk/carreviews/evocarreviews/210382/gumpert_apollo.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "carmagazine-apollo-s",
+      "type": "publication",
+      "publisher": "CAR magazine (Mark Walton)",
+      "title": "Gumpert Apollo S (2008) review",
+      "url": "https://carmagazine.co.uk/car-reviews/gumpert/gumpert-apollo-s-2008-review",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "carpassion-apollo-40",
+      "type": "publication",
+      "publisher": "Carpassion.com",
+      "title": "Gumpert Apollo: 40. Auslieferung (16 December 2008)",
+      "url": "https://www.carpassion.com/magazin/gumpert-apollo-40-auslieferung-158",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "windingroad-geneva-2012",
+      "type": "publication",
+      "publisher": "Winding Road (Seyth Miersma)",
+      "title": "Geneva 2012: Gumpert Apollo R And Apollo Enraged (March 6, 2012)",
+      "url": "https://windingroad.com/?p=4818",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "1,200 kg / 2,645 lb",
+          "sourceId": "autobild-apollo"
+        },
+        {
+          "value": "about 2,400 lb (1,090 kg)",
+          "sourceId": "motorauthority-apollo-us"
+        }
+      ],
+      "reason": "Neither source labels its figure. Motor Authority's lower \"about 2,400lb (1,090kg)\" matches the circa-1,100 kg figure often attributed to Gumpert and is probably the maker's dry claim; Auto Bild's road test of the home-market car and Autoblog's first drive both print 1,200 kg / 2,645 lb.",
+      "resolution": "Used 1,200 kg (2,646 lb), the figure two independent named-author outlets agree on, one of them a German road test of the standard car."
+    }
+  ],
+  "needsReview": true,
+  "reviewNotes": "Production years are the weakest fields. Start (late 2005) rests on Carpassion's \"Genau drei Jahre nach dem Produktionsstart\" (December 2008); the 2012 end year rests on the Apollo still being on sale at Geneva in March 2012 (windingroad-geneva-2012). No opened page states the final year; Gumpert's insolvency ended production but was not documented on an opened page. Power and weight are well corroborated. The US question is also open: Motor Authority (2008) reported planned US distribution with a first car imported; if federalised US sales actually happened, the record should become a US-market one.",
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

@@ -1,0 +1,166 @@
+{
+  "id": "pininfarina-battista",
+  "manufacturer": "Pininfarina",
+  "model": "Battista",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Pininfarina Battista",
+  "aliases": [
+    "Battista",
+    "Automobili Pininfarina",
+    "Automobili Pininfarina Battista",
+    "PF0",
+    "Battista Anniversario"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "sourceId": "car-battista",
+    "note": "Calendar years, as in the Bugatti and Rimac records. CAR (November 2021) drove a pre-series car, with the first production car \"scheduled for this month\" and Battistas \"just filling the last few build slots for 2022\"; customer cars are a 2022-on run of \"A maximum of 150 Battistas ... hand-assembled in Cambiano, Italy\". EVKX lists MY2022-MY2025 (evkx-battista). No opened page states that production has ended. The 2019 release allocates the 150 cars \"equally between the regions of North America, Europe and Middle East/Asia\", so the car is sold in the US (pininfarina-reveal-2019)."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "pininfarina-reveal-2019",
+    "note": "Inferred: a two-door, fixed-roof electric hyper GT."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Electric",
+      "sourceId": "pininfarina-reveal-2019",
+      "note": "\"Four motors, one per wheel, mean torque vectoring becomes a key performance parameter\""
+    },
+    "displacementL": {
+      "value": null,
+      "sourceId": "pininfarina-reveal-2019",
+      "note": "Battery EV (\"Battery energy 120 kWh\")."
+    },
+    "aspiration": {
+      "value": "Electric",
+      "sourceId": "pininfarina-reveal-2019"
+    }
+  },
+  "fuel": {
+    "value": "Electric",
+    "sourceId": "pininfarina-reveal-2019",
+    "note": "\"Battery energy 120 kWh\""
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "pininfarina-reveal-2019",
+    "note": "\"Drive All-wheel-drive with torque vectoring function\""
+  },
+  "transmission": {
+    "value": [
+      "Single-speed"
+    ],
+    "sourceId": "car-battista",
+    "note": "CAR's spec sheet: \"Single-speed transmission, all-wheel drive\"; \"each axle controlled by its own single-speed gearbox\"."
+  },
+  "powerHp": {
+    "value": 1877,
+    "sourceId": "pininfarina-reveal-2019",
+    "note": "The maker's rating is given in kW: 1,400 kW x 1.34102 = 1,877 hp. Quote (Automobili Pininfarina reveal release, technical table): \"Power output Up to 1,900 hp (1,400 kW)\". The \"1,900 hp\" is metric horsepower (1,400 kW = 1,904 PS); it is converted from kW as for the Chiron and Nevera. CAR and Top Gear print the same rating as \"1874bhp\" / \"a headline figure of 1,874bhp\" (car-battista, topgear-battista), i.e. 1,900 PS converted to bhp."
+  },
+  "weightLb": {
+    "value": 4850,
+    "sourceId": "car-battista",
+    "note": "PROVISIONAL: no manufacturer weight was found on any opened page. 2,200 kg x 2.20462 = 4,850 lb. Quote (CAR specification panel, Ben Barry): \"2200kg (approx.), carbonfibre\". Greg Kable reports the same number as a kerb weight: \"under 2,200kg\" (iia-battista-kable). The EVKX database lists \"2302 kg (5075 lbs)\" curb instead - see discrepancies."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2022,
+    "powerStandard": "DIN PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "pininfarina-reveal-2019",
+      "type": "manufacturer",
+      "publisher": "Automobili Pininfarina (press release PDF on the company's media store)",
+      "title": "Pininfarina Battista - the world's first pure electric luxury hyper GT revealed (4 March 2019)",
+      "url": "https://zmfqrnenekgkedngmqke.supabase.co/storage/v1/object/public/media/automobili-pininfarina/20190304_EN_PININFARINA_BATTISTA__THE_WORLDS_FIRST_PURE_ELECTRIC_LUXURY_HYPER_GT_REVEALED.pdf",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "car-battista",
+      "type": "publication",
+      "publisher": "CAR magazine (Ben Barry)",
+      "title": "Pininfarina Battista review (updated 30 November 2021)",
+      "url": "https://carmagazine.co.uk/car-reviews/pininfarina/battista",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "iia-battista-kable",
+      "type": "publication",
+      "publisher": "Internet Info Agency (Greg Kable)",
+      "title": "Pininfarina Battista (3 February 2021)",
+      "url": "https://english.news18a.com/news/english_152218.html",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "topgear-battista",
+      "type": "publication",
+      "publisher": "Top Gear",
+      "title": "Pininfarina Battista review (1 October 2021)",
+      "url": "https://www.topgear.com/car-reviews/pininfarina/battista",
+      "accessed": "2026-10-15"
+    },
+    {
+      "id": "evkx-battista",
+      "type": "database",
+      "publisher": "EVKX",
+      "title": "Automobili Pininfarina Battista specifications",
+      "url": "https://evkx.net/models/automobili_pininfarina/battista/battista/specifications",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": "Up to 1,900 hp (1,400 kW)",
+          "sourceId": "pininfarina-reveal-2019"
+        },
+        {
+          "value": "1874bhp",
+          "sourceId": "car-battista"
+        },
+        {
+          "value": 1877,
+          "sourceId": "pininfarina-reveal-2019"
+        }
+      ],
+      "reason": "Units: the maker's \"1,900 hp\" is metric horsepower (PS); 1,400 kW converts to 1,877 hp; the magazines convert 1,900 PS to 1,874 bhp.",
+      "resolution": "Stored 1,877 hp from the manufacturer's kW figure, per the guide's kW conversion (as for the Chiron and Nevera)."
+    },
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": "2200kg (approx.)",
+          "sourceId": "car-battista"
+        },
+        {
+          "value": "2302 kg (5075 lbs)",
+          "sourceId": "evkx-battista"
+        }
+      ],
+      "reason": "Unknown. The database's 2,302 kg may be an EU homologated mass (with driver) or a later/heavier configuration; the two editorial sources with named authors both give 2,200 kg.",
+      "resolution": "Used 2,200 kg, the figure the two named-author editorial sources agree on; kept provisional until a manufacturer figure is found."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (2,200 kg / 4,850 lb) is provisional: CAR's panel prints \"2200kg (approx.)\" and Greg Kable reports a kerb weight \"under 2,200kg\", while the EVKX database lists 2,302 kg; Automobili Pininfarina has published no weight on any opened page. Production years (2022-present) rest on CAR's build-slot reporting and EVKX's model-year list. An Automobili Pininfarina specification sheet, or a major-magazine panel with a labelled kerb weight, would replace the weight. Power (1,400 kW) is from the manufacturer's release."
+}
