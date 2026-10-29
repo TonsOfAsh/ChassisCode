@@ -314,6 +314,51 @@
         ],
         "production": "150 cars"
       }
+    },
+    {
+      "id": "delorean-dmc-12",
+      "displayName": "DeLorean DMC-12",
+      "heldSince": "2026-10-28",
+      "missing": "A settled curb weight: weak sources disagree by 4.6% (CorvSport, Scott Kolecki: 'a relatively low curb weight (2,718 pounds)'; Ate Up With Motor: 'curb weight is about 2,750 lb'; DeLorean Directory: 'Weight (full tank of fuel) | 2,844 lbs. (1290 kg)'), and no maker or major-magazine figure was found. Power (130 hp SAE net) also rests only on enthusiast and single-article sources. A DMC brochure or press figure, or a period Car and Driver/Road & Track test panel, would settle it. US brochure scans on auto-brochures.com return no text.",
+      "confirmed": {
+        "modelYears": "1981-1983 (US)",
+        "body": [
+          "Coupe"
+        ],
+        "powerHp": "130 hp (DeLorean Directory: '130 SAE NET HP @ 5,500 RPM'; Hagerty, Don Sherman: 'rated at 130 net horsepower')",
+        "displacement": "2.8 L ('174 cu. in. (2849 cc)')",
+        "transmission": [
+          "5-speed Manual",
+          "3-speed Automatic"
+        ],
+        "production": "Classic DMC: '8,987 cars were built between January 1981 and December 1982'"
+      }
+    },
+    {
+      "id": "porsche-944-turbo",
+      "displayName": "Porsche 944 Turbo",
+      "heldSince": "2026-10-28",
+      "missing": "A quotable US power rating and a US curb weight. Excellence and Stuttcars give '220 @ 5800 rpm', which Porsche's international 1986 brochure shows is the EEC figure ('162 kW-EC 220 bhp'), not the US 217 hp; Excellence's 1986 'Curb Weight 2,822 lbs.' equals the European DIN figure '1280 kg (2821 lbs.)', and its 1987-1989 pages give 2,998 lb. The only '217hp' found was an unbylined Petrolicious post. A Porsche Cars North America brochure or spec sheet would settle it. Plan: 217 hp covers 1986-1988, so the reference year would be 1986; the 1989 car (about 247 hp) is noted.",
+      "confirmed": {
+        "modelYears": "1986-1989 (US, 944 Turbo)",
+        "drivetrain": "RWD",
+        "aspiration": "Turbocharged"
+      }
+    },
+    {
+      "id": "volkswagen-golf-gti-mk5",
+      "displayName": "Volkswagen Golf GTI (Mk5)",
+      "heldSince": "2026-10-28",
+      "missing": "A settled curb weight and a VW source. Weak sources disagree by 6.3% for the unchanged 2-door manual: Eric Mayne, Ward's ('Curb weight: 3,308 lbs. (1,500 kg)', 2006), Cars.com and KBB 2006 (3,308) vs Cars.com and KBB 2007/2009 ('3,100 lbs'); Carey Russ gives 3,212 lb for a 2007 4-door DSG. A Volkswagen of America spec sheet or press kit would settle it.",
+      "confirmed": {
+        "modelYears": "2006-2009 (US)",
+        "powerHp": "200 hp (Ward's: 'Power (SAE net): 200 hp @ 5,100-6,000 rpm')",
+        "displacement": "2.0 L (1,984 cc)",
+        "transmission": [
+          "6-speed Manual",
+          "6-speed Dual-Clutch"
+        ]
+      }
     }
   ]
 }

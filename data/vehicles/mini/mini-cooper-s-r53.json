@@ -1,0 +1,166 @@
+{
+  "id": "mini-cooper-s-r53",
+  "manufacturer": "MINI",
+  "model": "Cooper",
+  "generation": "R53",
+  "variant": "S",
+  "subVariant": null,
+  "displayName": "MINI Cooper S (R53)",
+  "aliases": [
+    "R53",
+    "R53 Cooper S",
+    "Mini Cooper S",
+    "Cooper S R53",
+    "Supercharged Mini",
+    "Getrag 285",
+    "2002 Mini Cooper S",
+    "Tritec"
+  ],
+  "country": "United Kingdom",
+  "production": {
+    "value": {
+      "startYear": 2002,
+      "endYear": 2006
+    },
+    "sourceId": "sportscarmarket-r53",
+    "note": "US model years 2002-2006. Jeff Zurschmeide, Sports Car Market: 'The new Mini entered the market in the 2002' and 'The supercharged R53 was built through the 2006 model year'. MINI USA's press kit: the Cooper S 'went on sale in the U.S. from March 22, 2002' (mini-usa-cooper-s-press-kit-2002). The convertible Cooper S is the separate R52 chassis and is not included."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "mini-usa-cooper-s-press-kit-2002",
+    "note": "'No. of doors / seats 3 / 4' (three-door hatchback)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "mini-usa-cooper-s-press-kit-2002",
+      "note": "'The car is powered by a fourcylinder, 163 horsepower engine'; '1.6-liter transverse-mounted engine'."
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "mini-usa-cooper-s-press-kit-2002",
+      "note": "1,598 cc: 'Displacement cm3 1598'."
+    },
+    "aspiration": {
+      "value": "Supercharged",
+      "sourceId": "mini-usa-cooper-s-press-kit-2002",
+      "note": "'The supercharger compresses the fresh air drawn in by the engine to an overpressure of 0.8 bar.'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "mini-usa-cooper-s-press-kit-2002"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "mini-usa-cooper-s-press-kit-2002",
+    "note": "'Traction Control ensures that the extra power to the front wheels is conveyed safely to the road at all times.' (transverse engine, front-wheel drive)"
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automatic"
+    ],
+    "sourceId": "sportscarmarket-r53",
+    "note": "Manual: 'Transmission type 6-Speed Manual', 'Getrag 285' (mini-usa-cooper-s-press-kit-2002; the 2002 kit lists only the manual). Automatic: Zurschmeide, describing the 2005 update: 'Mini also added an available paddle-shifted 6-speed automatic transmission.'"
+  },
+  "powerHp": {
+    "value": 163,
+    "sourceId": "mini-usa-cooper-s-press-kit-2002",
+    "note": "Quote (MINI USA press kit, technical data): \"Nominal power / engine speed hp 163/ 6000\"; text: \"At 6,000 rpm, the compact 1.6-liter transverse-mounted engine develops a maximum output of 163 horsepower.\" 2002 model year (launch). From 2005 the Cooper S was rated 168 hp: Zurschmeide, 'Output got a boost to 168 hp and 161 lb-ft in 2005 with a new Teflon-coated supercharger' (sportscarmarket-r53); Khatir Soltani, Auto123 2005 road test: '168-h.p.' (auto123-cooper-s-2005). 163 hp covers 2002-2004, three of the five model years, so the launch year is the reference year."
+  },
+  "weightLb": {
+    "value": 2513,
+    "sourceId": "kbb-cooper-s-2002",
+    "note": "PROVISIONAL (two databases, backed by MINI's own table). 2002 Cooper S, 6-speed manual. Quote (KBB 2002): \"Curb Weight | 2315 pounds | 2513 pounds\" (Cooper / Cooper S). Conceptcarz: \"2513 lbs | 1139.878 kg\". MINI USA's press kit gives \"Gross vehicle weight / payload lbs 3461 / 948\", and 3,461 - 948 = 2,513 lb, but a figure worked out by subtraction cannot carry the record. The kit's \"Unladen weight lbs 2678\" is 165 lb (75 kg) more: the EU unladen weight including a 75 kg driver, not a curb weight (see discrepancies)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2002,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "mini-usa-cooper-s-press-kit-2002",
+      "type": "manufacturer",
+      "publisher": "MINI USA (BMW Group PressClub USA)",
+      "title": "MINI Cooper S press kit (2002 US launch)",
+      "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0018282EN_US/36018",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "sportscarmarket-r53",
+      "type": "publication",
+      "publisher": "Sports Car Market",
+      "title": "Don't Call It Cute (Jeff Zurschmeide)",
+      "url": "https://www.sportscarmarket.com/columns/profiles/affordable-classics/dont-call-it-cute",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "auto123-cooper-s-2005",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "2005 MINI Cooper S Road Test (Khatir Soltani)",
+      "url": "https://www.auto123.com/en/news/2005-mini-cooper-s-road-test/47220/?page=3",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "kbb-cooper-s-2002",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2002 MINI Cooper Specs, Features & Options (Cooper S Hatchback 2D)",
+      "url": "https://www.kbb.com/mini/cooper/2002/specs",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "conceptcarz-cooper-s-2002",
+      "type": "database",
+      "publisher": "Conceptcarz",
+      "title": "MINI Cooper S",
+      "url": "https://www.conceptcarz.com/s4582/mini-cooper-s.aspx.aspx",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 2678,
+          "sourceId": "mini-usa-cooper-s-press-kit-2002"
+        },
+        {
+          "value": 2513,
+          "sourceId": "kbb-cooper-s-2002"
+        }
+      ],
+      "reason": "MINI USA prints \"Unladen weight lbs 2678\"; KBB and Conceptcarz give 2,513 lb, which equals MINI's own gross vehicle weight minus payload (3,461 - 948). The 165 lb (75 kg) gap is the EU driver allowance.",
+      "resolution": "2,513 lb used: 2,678 lb includes a 75 kg driver, so it is not a curb weight. No manufacturer page states 2,513 lb directly, so the weight is provisional."
+    },
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 163,
+          "sourceId": "mini-usa-cooper-s-press-kit-2002"
+        },
+        {
+          "value": 161,
+          "sourceId": "sportscarmarket-r53"
+        }
+      ],
+      "reason": "Sports Car Market says the original Cooper S \"offered 161 horsepower\".",
+      "resolution": "MINI USA's 163 hp used: the manufacturer's rating ranks above an article."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (2,513 lb) rests on two databases (KBB, Conceptcarz), backed by MINI's own gross-weight-minus-payload arithmetic. A MINI/BMW curb or DIN weight (about 1,140 kg) or a major magazine spec panel would replace it. Power is from MINI USA."
+}

@@ -1,0 +1,119 @@
+{
+  "id": "honda-civic-si-8th-gen",
+  "manufacturer": "Honda",
+  "model": "Civic",
+  "generation": "8th gen",
+  "variant": "Si",
+  "subVariant": null,
+  "displayName": "Honda Civic Si (8th gen)",
+  "aliases": [
+    "8th-gen Civic Si",
+    "FG2",
+    "FG2 Si",
+    "FA5",
+    "FA5 Si",
+    "Civic Si FG2",
+    "K20Z3",
+    "2006 Civic Si",
+    "Civic Si Coupe",
+    "Civic Si Sedan"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2006,
+      "endYear": 2011
+    },
+    "sourceId": "honda-civic-si-specs-2006",
+    "note": "US model years. Start: Honda's '2006 Honda Civic Coupe and Civic Si Specifications' (released August 29, 2005). End: Cars.com lists 2011 Civic Si trims ('2dr Man Si', '4dr Man Si') at 197 hp (cars-com-civic-si-2011); Honda's 2012 powertrains release: 'The Civic Si produces 201 horsepower, up 4 horsepower versus the 2.0-liter engine it replaces' (honda-civic-powertrains-2012), so the 197 hp 2.0 ended with 2011."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Sedan"
+    ],
+    "sourceId": "cars-com-civic-si-2011",
+    "note": "Cars.com 2011 lists '2dr Man Si' (coupe, FG2) and '4dr Man Si' (sedan, FA5). Honda's 2006 specifications cover the coupe; the standard car here is the coupe. The Si sedan was not offered at launch (Honda's 2006 specifications list only the coupe)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I4",
+      "sourceId": "honda-civic-si-specs-2006",
+      "note": "'Engine Type In-Line 4-Cylinder'"
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "honda-civic-si-specs-2006",
+      "note": "1,998 cc: 'Displacement (cc) 1998'."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "honda-civic-si-specs-2006",
+      "note": "Inferred: no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "honda-civic-si-specs-2006"
+  },
+  "drivetrain": {
+    "value": "FWD",
+    "sourceId": "honda-civic-si-specs-2006",
+    "note": "'Front-Wheel Drive' marked for the Si."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "honda-civic-si-specs-2006",
+    "note": "'Close-Ratio 6-Speed Manual Transmission' marked for the Si; the automatic column is '--' (no automatic Si). Cars.com 2011 Si: '6-Speed M/T' (cars-com-civic-si-2011)."
+  },
+  "powerHp": {
+    "value": 197,
+    "sourceId": "honda-civic-si-specs-2006",
+    "note": "Quote (Honda 2006 specifications, Si column): \"Horsepower* @ rpm (SAE net) | 197 @ 7800\", footnote \"*Horsepower and torque calculations reflect new SAE J1349 procedures revised August, 2004.\" Cars.com 2011 '4dr Man Si': \"197 @ 7800\" (cars-com-civic-si-2011), so the rating held for the whole run."
+  },
+  "weightLb": {
+    "value": 2877,
+    "sourceId": "honda-civic-si-specs-2006",
+    "note": "2006 Civic Si coupe, 6-speed manual (the only transmission). Quote (Honda 2006 specifications, Si column): \"Curb Weight (lbs., MT/AT) | 2877 / --\". Cars.com gives the 2011 Si sedan at 2,954 lb (cars-com-civic-si-2011)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2006,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "honda-civic-si-specs-2006",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2006 Honda Civic Coupe and Civic Si Specifications",
+      "url": "https://hondanews.com/en-US/releases/release-e9dd7ff209cc71cc83947a004c34c1b2-2006-honda-civic-coupe-and-civic-si-specifications",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cars-com-civic-si-2011",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2011 Honda Civic Si specs & colors",
+      "url": "https://www.cars.com/research/honda-civic-2011/specs/329975/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "honda-civic-powertrains-2012",
+      "type": "manufacturer",
+      "publisher": "American Honda (hondanews.com)",
+      "title": "2012 Honda Civic Powertrains",
+      "url": "https://hondanews.com/en-US/releases/2012-honda-civic-powertrains",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

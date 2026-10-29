@@ -1,0 +1,140 @@
+{
+  "id": "porsche-928-s4",
+  "manufacturer": "Porsche",
+  "model": "928",
+  "generation": null,
+  "variant": "S4",
+  "subVariant": null,
+  "displayName": "Porsche 928 S4",
+  "aliases": [
+    "928 S4",
+    "S4",
+    "Porsche 928",
+    "928",
+    "M28",
+    "1987 928 S4"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1987,
+      "endYear": 1991
+    },
+    "sourceId": "excellence-1987-928-s4",
+    "note": "US model years. Excellence's 928 S4 spec pages run from \"1987 928 S4\" to \"1991 928 S4\" (excellence-1991-928-s4). The 928 GT and 928 GTS are separate cars."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "edmunds-1991-928",
+    "note": "Edmunds 1991: only style \"2dr Coupe\" (a hatchback coupe)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "excellence-1987-928-s4",
+      "note": "\"Type V8\""
+    },
+    "displacementL": {
+      "value": 5.0,
+      "sourceId": "porsche-1987-928-s4-manual",
+      "note": "4,957 cc (\"Displacement | 302.5 cu. in. / 4957 cm3\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "excellence-1987-928-s4",
+      "note": "\"Induction Normally-aspirated\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "excellence-1987-928-s4",
+    "note": "\"Required Octane Premium unleaded (91+)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "excellence-1987-928-s4",
+    "note": "\"Front-engined, rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "excellence-1987-928-s4",
+    "note": "\"Options 4-speed automatic, 5-speed manual\". The owner's manual data lists \"Manual transmission G 28/13\" and \"Automatic transmission A 28/12\" (porsche-1987-928-s4-manual). Excellence's 1991 S4 page lists only \"Options 4-speed automatic\" (excellence-1991-928-s4)."
+  },
+  "powerHp": {
+    "value": 316,
+    "sourceId": "porsche-1987-928-s4-manual",
+    "note": "US SAE net rating. Quote (Porsche 928 S4 Owner's Manual technical data, Model Year 1987, as reproduced): \"SAE net-horsepower SAE J 1349 | 316 hp / 235 kW at 6000 rpm\". Edmunds 1991 2dr Coupe: \"316 hp @ 6,000 rpm\" (edmunds-1991-928, database). Excellence prints \"Horsepower 320 @ 6000 rpm\" (excellence-1987-928-s4), the 235 kW figure in DIN PS; the US rating is 316 hp."
+  },
+  "weightLb": {
+    "value": 3505,
+    "sourceId": "porsche-1987-928-s4-manual",
+    "note": "1987 coupe, 5-speed manual. Quote (owner's manual technical data, as reproduced): \"Curb weight1 | 3505 lbs / 1590 kg\", footnote \"1 Automatic 3549 lbs / 1610 kg\". Excellence agrees: \"Curb Weight 3,505 lbs. manual/3,549 lbs. automatic\" (excellence-1987-928-s4); Edmunds 1991: \"3,505 lbs.\" (edmunds-1991-928). Confidence is medium rather than high because the owner's manual is known only through an enthusiast's retyped transcription; Excellence (3,505 manual / 3,549 automatic) and Edmunds (316 hp, 3,505 lb) agree with it exactly, which makes a transcription error unlikely."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1987,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-1987-928-s4-manual",
+      "type": "manufacturer",
+      "publisher": "Porsche (928 S4 Owner's Manual technical data, reproduced by John Pirtle on Rennlist)",
+      "title": "Model Year 1987 (Porsche 928 S4 Owner's Manual, Technical Data)",
+      "url": "https://members.rennlist.com/pirtle/87man22.htm",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "excellence-1987-928-s4",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1987 928 S4 (928) Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/269",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "excellence-1991-928-s4",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1991 928 S4 (928) Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/274",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "edmunds-1991-928",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "1991 Porsche 928 Features & Specs",
+      "url": "https://www.edmunds.com/porsche/928/1991/features-specs/",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "powerHp",
+      "values": [
+        {
+          "value": 316,
+          "sourceId": "porsche-1987-928-s4-manual"
+        },
+        {
+          "value": 320,
+          "sourceId": "excellence-1987-928-s4"
+        }
+      ],
+      "reason": "Rating standard: 316 hp is the SAE J1349 net rating in Porsche's owner's manual; 320 is the same 235 kW expressed in metric (DIN) horsepower.",
+      "resolution": "Used the US SAE net rating, 316 hp (also Edmunds 1991)."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "medium",
+  "image": null,
+  "dailyEligible": true
+}

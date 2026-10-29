@@ -1,0 +1,184 @@
+{
+  "id": "ford-mustang-gt-s197-2005-2010",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "S197",
+  "variant": "GT",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Ford Mustang GT (S197, 2005–2010)",
+  "aliases": [
+    "S197 GT",
+    "S197 Mustang GT",
+    "4.6 3V",
+    "4.6L 3-valve",
+    "2005 Mustang GT",
+    "2006 Mustang GT",
+    "2007 Mustang GT",
+    "2008 Mustang GT",
+    "2009 Mustang GT",
+    "Tremec TR-3650",
+    "2010 Mustang GT"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2010
+    },
+    "sourceId": "ford-mustang-brochure-2005",
+    "note": "US model years 2005-2010 for the 4.6-liter 3-valve GT. Start: Ford's 2005 brochure, 'The All-New 05MUSTANG'. Ford's 2009 brochure still lists the 300 hp GT (ford-mustang-brochure-2009) and the 2010 brochure rates the 4.6L at \"315 hp @ 6000 rpm\" (ford-mustang-brochure-2010). The 300 to 315 hp change (5%) on the same engine is not large enough for a separate record (data guide, year splits), so 2010 is included. The 2011-2014 5.0-liter GT, a different engine, is its own record."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-mustang-brochure-2009",
+    "note": "Ford's 2009 brochure lists 'GT Coupe' and 'GT Convertible'; the 2006 brochure: 'Coupe or convertible, GT or V6' (ford-mustang-brochure-2006)."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-mustang-brochure-2005",
+      "note": "'4.6L 3-Valve V8 engine'"
+    },
+    "displacementL": {
+      "value": 4.6,
+      "sourceId": "cars-com-mustang-gt-2005",
+      "note": "Cars.com 2005 '2dr Cpe GT Deluxe': 'Displacement 4.6L/281' (281 cu in). Rob Rothwell, Auto123: '4.6L (281 cu in), 24-valve, SOHC V8' (auto123-mustang-gt-2005). No cc figure was found on an opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-mustang-brochure-2005",
+      "note": "Inferred: no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-brochure-2005"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-brochure-2005",
+    "note": "Rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-brochure-2009",
+    "note": "Ford 2009 brochure, GT: standard \"5-speed manual GT transmission (3.31:1 axle ratio)\", option \"5-speed automatic transmission\". The 2005 brochure lists '5-speed manual GT transmission (3.55 axle ratio)' and '5-speed automatic transmission (3.31 axle ratio)'; Cars.com 2005 GT Deluxe: '5-Speed M/T', '5-Speed A/T' (cars-com-mustang-gt-2005)."
+  },
+  "powerHp": {
+    "value": 300,
+    "sourceId": "ford-mustang-brochure-2005",
+    "note": "Quote (Ford 2005 brochure engine table, V6 column then V8 column): \"Horsepower (hp @ rpm) 210 @ 5300 300 @ 5750\". The 2006 brochure prints the same line (ford-mustang-brochure-2006) and the 2009 brochure gives the GT's \"4.6L SOHC 3-valve V8300 hp @ 5750 rpm\" (ford-mustang-brochure-2009), so the rating was 300 hp for 2005-2009. 2010: 315 hp @ 6000 rpm (ford-mustang-brochure-2010); 300 hp covers five of the six years, so the reference year is the launch year."
+  },
+  "weightLb": {
+    "value": 3450,
+    "sourceId": "cars-com-mustang-gt-2005",
+    "note": "PROVISIONAL (database and single articles). 2005 GT coupe. Quote (Cars.com 2005 '2dr Cpe GT Deluxe', the transmission is not stated): \"Base Curb Weight 3,450 lbs\". Rob Rothwell, Auto123 2005 Mustang GT road test (2-door coupe, 5-speed manual): \"Curb Weight: 1,563 kg (3,445 lbs)\" (auto123-mustang-gt-2005). John Heilig, The Auto Channel, 2005 Mustang GT (5-speed manual), body text: 'the 3,450-lb. Car' (not labelled curb; theautochannel-mustang-gt-2005). CJ Pony Parts gives 3,483 lb for every 2005-2009 GT coupe (see discrepancies). Ford's 2005, 2006 and 2009 brochures print no weight."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2005,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-brochure-2005",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by MustangSpecs)",
+      "title": "2005 Ford Mustang sales brochure",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/05/2005-Ford-Mustang-Sales-Brochures.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "ford-mustang-brochure-2006",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by MustangSpecs)",
+      "title": "2006 Ford Mustang sales brochure",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/05/2006-Ford-Mustang-Sales-Brochures.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "ford-mustang-brochure-2009",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by MustangSpecs)",
+      "title": "2009 Ford Mustang sales brochure",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/05/2009-Ford-Mustang-Sales-Brochures.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "ford-mustang-brochure-2010",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by MustangSpecs)",
+      "title": "2010 Ford Mustang sales brochure",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/05/2010-Ford-Mustang-Sales-Brochures.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cars-com-mustang-gt-2005",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2005 Ford Mustang specs (2dr Cpe GT Deluxe)",
+      "url": "https://www.cars.com/research/ford-mustang-2005/specs/266696/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "auto123-mustang-gt-2005",
+      "type": "publication",
+      "publisher": "Auto123",
+      "title": "2005 Ford Mustang GT Road Test (Rob Rothwell)",
+      "url": "https://www.auto123.com/en/news/2005-ford-mustang-gt-road-test/53768/?page=6",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "theautochannel-mustang-gt-2005",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2005 Ford Mustang GT review (John Heilig, The Auto Page)",
+      "url": "https://www.theautochannel.com/news/2005/02/03/021901.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cjpony-mustang-curb-weights",
+      "type": "publication",
+      "publisher": "CJ Pony Parts",
+      "title": "Understanding Mustang Curb Weights (Meghan Drummond)",
+      "url": "https://www.cjponyparts.com/resources/mustang-curb-weights",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3450,
+          "sourceId": "cars-com-mustang-gt-2005"
+        },
+        {
+          "value": 3445,
+          "sourceId": "auto123-mustang-gt-2005"
+        },
+        {
+          "value": 3483,
+          "sourceId": "cjpony-mustang-curb-weights"
+        }
+      ],
+      "reason": "Cars.com (3,450 lb) and Auto123's spec panel (3,445 lb, from 1,563 kg) agree within 0.2%; CJ Pony Parts lists 3,483 lb for every 2005-2009 GT coupe without naming the transmission. The spread is 1.1%.",
+      "resolution": "3,450 lb used: Cars.com's figure for the 2005 GT Deluxe coupe, matched by Auto123 and by Heilig's text; all are provisional figures."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,450 lb) rests on Cars.com (database) and single articles (Auto123 spec panel 3,445 lb; John Heilig's text 3,450 lb), with CJ Pony Parts at 3,483 lb. Ford's 2005-2009 brochures print no weight. A Ford curb weight (press kit or technical specifications) or a major magazine spec panel would replace it. Power is from Ford brochures."
+}

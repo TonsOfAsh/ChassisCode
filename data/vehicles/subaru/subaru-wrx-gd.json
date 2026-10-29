@@ -1,0 +1,158 @@
+{
+  "id": "subaru-wrx-gd",
+  "manufacturer": "Subaru",
+  "model": "WRX",
+  "generation": "GD",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Subaru WRX (GD)",
+  "aliases": [
+    "Bugeye",
+    "Bugeye WRX",
+    "Impreza WRX",
+    "GD WRX",
+    "GDA",
+    "GG WRX",
+    "WRX Sport Wagon",
+    "EJ205",
+    "2002 WRX",
+    "2003 WRX",
+    "2004 WRX",
+    "2005 WRX",
+    "Peanut Eye",
+    "Blob Eye"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2002,
+      "endYear": 2005
+    },
+    "sourceId": "subaru-wrx-2002-pricing-release",
+    "note": "US model years 2002-2005, the 2.0-liter 227 hp WRX. Start: Subaru of America's release 'Subaru Announces Pricing on 2002 Model Year WRX Sedan and WRX Sport Wagon' (January 9, 2001; cars 'will reach Subaru dealerships in early Spring 2001'). 2003: Cars.com lists the 2003 '4dr Sdn WRX Manual' at 227 hp (cars-com-wrx-2003). The facelifted 2004-2005 cars kept the same engine and rating, so they belong to this record (data guide: a facelift is not a separate car): KBB 2005 WRX Sport Wagon \"227 @ 6000 RPM\", \"4-Cyl, Turbo, 2.0 Liter\" (kbb-impreza-2005). End: KBB 2006 lists the WRX with \"230 @ 5600 RPM\" and \"4-Cyl, Turbo, 2.5 Liter\" (kbb-impreza-2006), a different engine."
+  },
+  "body": {
+    "value": [
+      "Sedan",
+      "Wagon"
+    ],
+    "sourceId": "subaru-wrx-2002-pricing-release",
+    "note": "'All WRX sedan and WRX Sport Wagon models feature full-time All-Wheel Drive.' The standard car here is the sedan."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-4",
+      "sourceId": "subaru-wrx-2002-pricing-release",
+      "note": "Subaru boxer four; the release describes a '2.0 liter 227-horsepower turbocharged and intercooled engine'."
+    },
+    "displacementL": {
+      "value": 2.0,
+      "sourceId": "subaru-wrx-2002-pricing-release",
+      "note": "'2.0 liter'; Carey Russ: 'Engine Size 2.0 liters / 122cu. in.' (theautochannel-wrx-2002-russ). No cc figure was found on an opened page."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "subaru-wrx-2002-pricing-release",
+      "note": "'turbocharged and intercooled'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "subaru-wrx-2002-pricing-release"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "subaru-wrx-2002-pricing-release",
+    "note": "'full-time All-Wheel Drive'"
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "subaru-wrx-2002-pricing-release",
+    "note": "'The standard manual transmission uses a viscous coupling locking center differential All-Wheel Drive system'; 'The optional four-speed electronic automatic transmission (4EAT)'. Five speeds: Carey Russ, 'Transmission 5-speed manual' (theautochannel-wrx-2002-russ); Cars.com '5-Speed M/T' (cars-com-wrx-2002)."
+  },
+  "powerHp": {
+    "value": 227,
+    "sourceId": "subaru-wrx-2002-pricing-release",
+    "note": "Quote (Subaru of America release): \"2.0 liter 227-horsepower turbocharged and intercooled engine\". Carey Russ: \"Horsepower 227 @ 6000rpm\" (theautochannel-wrx-2002-russ); Cars.com 2002 and 2003 '4dr Sdn WRX Manual': \"227 @ 6000\" (cars-com-wrx-2002, cars-com-wrx-2003)."
+  },
+  "weightLb": {
+    "value": 3085,
+    "sourceId": "theautochannel-wrx-2002-russ",
+    "note": "PROVISIONAL (single article and database). 2002 WRX sedan, 5-speed manual. Quote (Carey Russ, The Auto Channel, spec panel): \"Curb Weight 3085 lbs.\" Cars.com 2002 '4dr Sdn WRX Manual': \"Base Curb Weight 3,085 lbs\" (cars-com-wrx-2002); 2003: \"3,090 lbs\" (cars-com-wrx-2003). Grassroots Motorsports (unsigned) gives 'a curb weight of 3085 pounds' in its text but 'Weight: 3140 pounds' in its spec list (grassroots-wrx-2002). No Subaru curb weight was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2002,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "subaru-wrx-2002-pricing-release",
+      "type": "manufacturer",
+      "publisher": "Subaru of America (release reproduced by The Auto Channel)",
+      "title": "Subaru Announces Pricing on 2002 Model Year WRX Sedan and WRX Sport Wagon",
+      "url": "https://theautochannel.com/news/2001/01/09/012507.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "theautochannel-wrx-2002-russ",
+      "type": "publication",
+      "publisher": "The Auto Channel",
+      "title": "2002 Subaru Impreza WRX Sedan review (Carey Russ)",
+      "url": "https://www.theautochannel.com/vehicles/new/reviews/2002/russ0113.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cars-com-wrx-2002",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2002 Subaru Impreza specs (4dr Sdn WRX Manual)",
+      "url": "https://www.cars.com/research/subaru-impreza-2002/specs/4770/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cars-com-wrx-2003",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2003 Subaru Impreza specs (4dr Sdn WRX Manual)",
+      "url": "https://www.cars.com/research/subaru-impreza-2003/specs/101740/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "grassroots-wrx-2002",
+      "type": "publication",
+      "publisher": "Grassroots Motorsports",
+      "title": "2002 Subaru WRX",
+      "url": "https://grassrootsmotorsports.com/new-cars/2002-subaru-wrx",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "kbb-impreza-2005",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2005 Subaru Impreza specs",
+      "url": "https://www.kbb.com/subaru/impreza/2005/specs/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "kbb-impreza-2006",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2006 Subaru Impreza specs",
+      "url": "https://www.kbb.com/subaru/impreza/2006/specs/",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,085 lb) rests on one named-author article (Carey Russ, The Auto Channel spec panel) and Cars.com (database), which agree exactly; Grassroots Motorsports (unsigned) repeats 3,085 lb in its text. A Subaru curb weight (2002 press kit or brochure), a major magazine spec panel or a second named-author outlet would replace it. Power is from Subaru's release."
+}

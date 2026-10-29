@@ -1,0 +1,126 @@
+{
+  "id": "ferrari-f355-berlinetta",
+  "manufacturer": "Ferrari",
+  "model": "F355 Berlinetta",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Ferrari F355 Berlinetta",
+  "aliases": [
+    "F355",
+    "355",
+    "Ferrari 355",
+    "F355 GTB",
+    "355 Berlinetta",
+    "F355 F1"
+  ],
+  "country": "Italy",
+  "production": {
+    "value": {
+      "startYear": 1995,
+      "endYear": 1999
+    },
+    "sourceId": "classic-f355-berlinetta",
+    "note": "US model years. Classic.com: \"Model years for Ferrari F355 Berlinetta - Manual (1994 to 1999)\"; its US-market listings run from 1995 model-year cars (Atlanta, GA; Hayward, CA) to a 1998 car (Miami, FL); no 1994 US car is listed. Ferrari: \"Unveiled at a dedicated client event at Fiorano in May 1994\" (ferrari-f355-page). Evo: \"The changeover happened for the 1996 Model Year so that Ferrari could sell the car in the US\" (evo-f355; the Motronic change). The GTS and Spider are separately named cars."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "ferrari-f355-page",
+    "note": "Two-seat mid-engined berlinetta. The targa-topped GTS and the Spider are sold under their own names."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ferrari-f355-page",
+      "note": "\"The mid-rear 3496 cc 90° V8\""
+    },
+    "displacementL": {
+      "value": 3.5,
+      "sourceId": "ferrari-f355-page",
+      "note": "3,496 cc"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ferrari-f355-page",
+      "note": "No forced induction (inferred)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ferrari-f355-page"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "evo-f355",
+    "note": "Evo panel: \"rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "6-speed Automated Manual"
+    ],
+    "sourceId": "evo-f355",
+    "note": "Evo panel: \"Six-speed manual, six-speed single-clutch 'F1' paddle transmission, rear-wheel drive\". Ferrari: \"a six-speed plus reverse mechanical gearbox\" (ferrari-f355-page). The F1 gearbox is an automated manual (from the 1998 model year; Classic.com lists a separate \"Berlinetta - F1\" market)."
+  },
+  "powerHp": {
+    "value": 375,
+    "sourceId": "ferrari-f355-page",
+    "note": "Ferrari's rating is metric: 380 cv x 0.98632 = 374.8, rounded to 375 hp. Quote (ferrari.com): \"The mid-rear 3496 cc 90° V8 was longitudinally mounted and punched out 380 hp, giving it a specific power output of 109 hp/l.\" (ferrari.com prints its cv figure as 'hp'). Evo's panel gives the same rating converted: \"Power\" \"375bhp @ 8250rpm\" (evo-f355). No separate US SAE rating was found on an opened page."
+  },
+  "weightLb": {
+    "value": 2976,
+    "sourceId": "evo-f355",
+    "note": "Dry weight (step 4): 1,350 kg x 2.20462 = 2,976.2, rounded to 2,976 lb. Quote (Evo specification panel, Adam Towler and Yousuf Ashraf): \"Weight\" \"1350kg (dry)  (282bhp/ton)\". Evo's text: \"the quoted dry weight is 1,350kg, so likely to be 1,450kg+ with a full load of fluids\". No Ferrari or major-magazine curb weight was found on an opened page (two searches); ferrari.com gives no weight. carsales' 'Kerb Weight: 1353 kg' (carsales-f355-1995, database) is evidently the dry figure and was not used. Not stated to be for an optioned car; European-specification figure. Market caveat: this is a European-specification dry weight; no US curb weight was found."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1995,
+    "powerStandard": "DIN PS",
+    "weightType": "dry",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ferrari-f355-page",
+      "type": "manufacturer",
+      "publisher": "Ferrari",
+      "title": "F355 Berlinetta",
+      "url": "https://www.ferrari.com/en-US/auto/f355-berlinetta",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "evo-f355",
+      "type": "publication",
+      "publisher": "Evo",
+      "title": "Used Ferrari F355 (1994-1999) review",
+      "url": "https://www.evo.co.uk/ferrari/f355",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "classic-f355-berlinetta",
+      "type": "database",
+      "publisher": "Classic.com",
+      "title": "Ferrari F355 Berlinetta - Manual",
+      "url": "https://www.classic.com/m/ferrari/f355/berlinetta/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "carsales-f355-1995",
+      "type": "database",
+      "publisher": "carsales.com.au",
+      "title": "Ferrari F355 1995 Berlinetta overview",
+      "url": "https://www.carsales.com.au/research/ferrari/f355/1995/berlinetta/",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Production years: the first US model year is unresolved. Classic.com (a database) says \"1994 to 1999\" and lists US cars from 1995, but Evo says the engine-management \"changeover happened for the 1996 Model Year so that Ferrari could sell the car in the US\", which may mean US sales began with 1996. Weight: a European dry figure (Evo panel, step 4) in a US record. A Car and Driver road-test curb weight for a US F355 (weight step 2), or a Ferrari North America document giving the first US model year, would make this a normal record.",
+  "reviewNotes": "Owner decision needed: first US model year 1995 or 1996 (see provisionalNote). If the owner has a Car and Driver F355 test panel, its curb weight should replace the dry weight (step 2 before step 4)."
+}

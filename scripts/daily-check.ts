@@ -39,11 +39,24 @@ if (problems.length > 0) fail(`${OUT_OF_STEP_HELP}\n${problems.slice(0, 10).join
 const pool = file.cars;
 const size = poolOn(pool, DAILY_EPOCH).length;
 
-// 1. No repeats within a cycle, over three cycles.
+// 1. No car repeats until every car in the pool that day has been used, and
+// every answer is in the pool on its day. Checked day by day, so it holds
+// while the pool grows or shrinks.
 const base = schedule(pool);
-for (let cycle = 0; cycle < 3; cycle++) {
-  const ids = Array.from({ length: size }, (_, i) => base.answer(cycle * size + i));
-  if (new Set(ids).size !== size) fail(`cycle ${cycle + 1} repeats a car before all ${size} were used`);
+const days = size * 3;
+let used = new Set<string>();
+let cycles = 1;
+for (let i = 0; i < days; i++) {
+  const date = nextDate(DAILY_EPOCH, i);
+  const today = poolOn(pool, date);
+  const id = base.answer(i);
+  if (!today.includes(id)) fail(`puzzle #${i + 1} (${date}) is ${id}, which is not in the pool that day`);
+  if (used.has(id)) {
+    if (today.some((c) => !used.has(c))) fail(`puzzle #${i + 1} (${date}) repeats ${id} before every pool car was used`);
+    used = new Set();
+    cycles++;
+  }
+  used.add(id);
 }
 
 // Asking for days out of order gives the same answers.
@@ -80,7 +93,7 @@ for (let t = 0; t < trials; t++) {
 }
 
 console.log(`Pool: ${size} cars from puzzle #1 (${DAILY_EPOCH}).`);
-console.log(`No repeats within a cycle: checked 3 cycles of ${size} days.`);
+console.log(`No repeats within a cycle: checked ${days} days (${cycles} cycles).`);
 console.log(`Stability: ${trials} random pool changes; today and earlier unchanged in every one (a day a month later changed in ${laterChanged}, as expected).`);
 if (failures > 0) {
   console.error(`${failures} check(s) failed.`);

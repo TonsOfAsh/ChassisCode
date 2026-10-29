@@ -1,0 +1,121 @@
+{
+  "id": "porsche-911-carrera-2-964",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "964",
+  "variant": "Carrera 2",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera 2 (964)",
+  "aliases": [
+    "964",
+    "964 Carrera 2",
+    "Carrera 2",
+    "C2",
+    "964 C2",
+    "Tiptronic",
+    "air-cooled 911",
+    "1990 911 Carrera 2"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 1990,
+      "endYear": 1994
+    },
+    "sourceId": "excellence-1990-911-carrera-2",
+    "note": "US model years. Excellence's Carrera 2 Coupe (964) spec pages run from \"1990 911 Carrera 2 Coupe (964)\" to \"1994 911 Carrera 2 Coupe (964)\" (excellence-1994-911-carrera-2); no 1989 Carrera 2 page is listed (the 1989 964 was the Carrera 4). The Targa, Carrera 4, America Roadster, RS America and Turbo are separate cars."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "edmunds-1991-911",
+    "note": "Edmunds 1991 styles: \"Carrera 2dr Coupe\" and \"Carrera 2dr Convertible\" (Cabriolet); Excellence also lists a \"911 Carrera 2 Cabriolet\" page. The Targa is sold under its own name."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "excellence-1990-911-carrera-2",
+      "note": "\"Flat 6\""
+    },
+    "displacementL": {
+      "value": 3.6,
+      "sourceId": "excellence-1990-911-carrera-2",
+      "note": "3,600 cc (\"Displacement 219.60 cu-in/3,600 cc\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "excellence-1990-911-carrera-2",
+      "note": "\"Normallly-aspirated\" (sic)"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "excellence-1990-911-carrera-2",
+    "note": "\"Premium unleaded (91+)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "excellence-1990-911-carrera-2",
+    "note": "\"Rear-engined, rear-wheel drive\""
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "excellence-1990-911-carrera-2",
+    "note": "\"Options 5-speed manual, 4-speed Tiptronic\". Tiptronic is a torque-converter automatic."
+  },
+  "powerHp": {
+    "value": 247,
+    "sourceId": "excellence-1990-911-carrera-2",
+    "note": "PROVISIONAL (single Porsche-magazine spec page outside the major list, plus a database, agreeing). Quote (Excellence, 1990 911 Carrera 2 Coupe): \"Horsepower 247 @ 6100 rpm\"; the 1994 page gives the same (excellence-1994-911-carrera-2). Edmunds 1991 \"Carrera 2dr Coupe\": \"247 hp @ 6,100 rpm\" (edmunds-1991-911, database). Unchanged 1990-1994."
+  },
+  "weightLb": {
+    "value": 3031,
+    "sourceId": "excellence-1990-911-carrera-2",
+    "note": "PROVISIONAL (single Porsche-magazine spec page plus a database, agreeing). Coupe, 5-speed manual. Quote (Excellence, 1990): \"Curb Weight 3,031 lbs. manual/3,100 lbs. Tiptronic\"; the 1994 page gives the same. Edmunds 1991 \"Carrera 2dr Coupe\" (5-speed manual): \"3,031 lbs.\" (edmunds-1991-911, database)."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1990,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "excellence-1990-911-carrera-2",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1990 911 Carrera 2 Coupe (964) Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/291",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "excellence-1994-911-carrera-2",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "1994 911 Carrera 2 Coupe (964) Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/295",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "edmunds-1991-911",
+      "type": "database",
+      "publisher": "Edmunds",
+      "title": "1991 Porsche 911 Features & Specs",
+      "url": "https://www.edmunds.com/porsche/911/1991/features-specs/",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Power (247 hp) and weight (3,031 lb, coupe, manual) rest on Excellence magazine's spec pages (a Porsche magazine outside the major list, no named author) and Edmunds (database), which agree exactly. A Porsche Cars North America brochure, press kit or spec sheet for the 1990-1994 Carrera 2, or a major magazine's specification panel, would replace them."
+}

@@ -226,6 +226,16 @@
     "chevrolet-camaro-zl1-6th-gen": [
       {}
     ],
+    "chevrolet-corvette-c5": [
+      {
+        "from": "2026-10-30"
+      }
+    ],
+    "chevrolet-corvette-c6-2008-2013": [
+      {
+        "from": "2026-10-30"
+      }
+    ],
     "chevrolet-corvette-grand-sport-c6": [
       {}
     ],
@@ -414,6 +424,11 @@
     ],
     "honda-civic-si-10th-gen": [
       {}
+    ],
+    "honda-civic-si-8th-gen": [
+      {
+        "from": "2026-10-30"
+      }
     ],
     "honda-civic-si-fe1": [
       {}
@@ -730,6 +745,11 @@
     "porsche-911-carrera-s-992-1": [
       {}
     ],
+    "porsche-911-carrera-s-997-1": [
+      {
+        "from": "2026-10-30"
+      }
+    ],
     "porsche-911-dakar-992-1": [
       {}
     ],
@@ -780,6 +800,11 @@
     ],
     "porsche-918-spyder": [
       {}
+    ],
+    "porsche-928-s4": [
+      {
+        "from": "2026-10-30"
+      }
     ],
     "porsche-959": [
       {}

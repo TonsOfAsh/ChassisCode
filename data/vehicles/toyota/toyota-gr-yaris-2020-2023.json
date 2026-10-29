@@ -1,0 +1,140 @@
+{
+  "id": "toyota-gr-yaris-2020-2023",
+  "manufacturer": "Toyota",
+  "model": "GR Yaris",
+  "generation": null,
+  "variant": null,
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Toyota GR Yaris (2020–2023)",
+  "aliases": [
+    "GR Yaris",
+    "GR Yaris RZ",
+    "RZ High Performance",
+    "GXPA16",
+    "G16E-GTS",
+    "GR-FOUR",
+    "iMT",
+    "GRY",
+    "2020 GR Yaris",
+    "2021 GR Yaris",
+    "2022 GR Yaris",
+    "2023 GR Yaris"
+  ],
+  "country": "Japan",
+  "production": {
+    "value": {
+      "startYear": 2020,
+      "endYear": 2023
+    },
+    "sourceId": "carscoops-gr-yaris-production",
+    "note": "Calendar build years of the original 272 PS car; never sold new in the US. Start: Cristian Gnaticov, Carscoops: 'The first unit of the WRC-derived hot hatch rolled off the line on August 26' (2020) at Motomachi; Toyota: Japanese 'sales scheduled to commence around September 2020' (toyota-gr-yaris-japan-lineup-2020). CarsGuide (Chris Thompson, 5 October 2022) reports Australian orders reopening with 'the same 200kW/370Nm outputs' (carsguide-gr-yaris-2023); this shows sales continuing, not 2023 builds. End: Toyota said on 12 January 2024 that 'Sales in Japan of the new GR Yaris are scheduled to start this spring' (toyota-tas-2024); no page giving the original's last build date was opened, so the end year is unconfirmed (see review notes). The evolved car (304 PS) is not included."
+  },
+  "body": {
+    "value": [
+      "Hatchback"
+    ],
+    "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+    "note": "Three-door hatchback; inferred from the release."
+  },
+  "engine": {
+    "configuration": {
+      "value": "I3",
+      "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+      "note": "'1.6-liter inline three-cylinder direct-injection turbo engine' (G16E-GTS)."
+    },
+    "displacementL": {
+      "value": 1.6,
+      "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+      "note": "1,618 cc: 'Displacement (cc) 1,618'."
+    },
+    "aspiration": {
+      "value": "Turbocharged",
+      "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+      "note": "'turbo engine'"
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "toyota-gr-yaris-japan-lineup-2020"
+  },
+  "drivetrain": {
+    "value": "AWD",
+    "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+    "note": "'Four-wheel drive' (GR-FOUR, permanent AWD)."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual"
+    ],
+    "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+    "note": "'6-speed manual transmission (iMT)' for the RZ. The 8-speed GR-DAT automatic arrived only with the evolved car: 'iMT (6-speed manual transmission) or GAZOO Racing Direct Automatic Transmission (8-speed automatic transmission)' (toyota-gr-yaris-evolved-2025)."
+  },
+  "powerHp": {
+    "value": 268,
+    "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+    "note": "Japanese-market RZ. Quote (Toyota spec table, RZ column): \"Maximum output (kW[PS]) | 200 [272]\". 272 PS x 0.98632 = 268.3, rounded to 268 hp (200 kW x 1.34102 = 268.2). Carscoops: '268 HP (272 PS / 200 kW)' (carscoops-gr-yaris-production). Toyota announced Japanese sales of an evolved GR Yaris for spring 2024 (toyota-tas-2024); Toyota's April 2025 release (sales from May 6, 2025) rates the evolved car at \"224 (304)/6,500\" kW (PS)/rpm in Toyota's April 2025 release (toyota-gr-yaris-evolved-2025): 304 PS = 300 hp, outside this record."
+  },
+  "weightLb": {
+    "value": 2822,
+    "sourceId": "toyota-gr-yaris-japan-lineup-2020",
+    "note": "Japanese-market RZ, 6-speed manual. Quote (Toyota spec table, RZ column): \"Vehicle weight (kg) | 1,280\" (table footnote '(Measured in-house)'). Japanese 'vehicle weight' is the curb weight without a driver. 1,280 kg x 2.20462 = 2,821.9, rounded to 2,822 lb. The RC grade (1,250 kg, same power) is a stripped competition base and is not the standard car. The table's '(Measured in-house)' line applies to the whole table; nothing is labelled estimated."
+  },
+  "specBasis": {
+    "market": "JP",
+    "referenceModelYear": 2020,
+    "powerStandard": "JIS PS",
+    "weightType": "curb",
+    "yearType": "calendar"
+  },
+  "sources": [
+    {
+      "id": "toyota-gr-yaris-japan-lineup-2020",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Corporation (global newsroom)",
+      "title": "Toyota Announces its Line-up for the New GR Yaris in Japan (Jun. 02, 2020)",
+      "url": "https://global.toyota/en/newsroom/toyota/32741087.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "toyota-tas-2024",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Corporation (global newsroom)",
+      "title": "TOYOTA GAZOO Racing and Lexus Exhibiting at Tokyo Auto Salon 2024 (Jan. 12, 2024)",
+      "url": "https://global.toyota/en/newsroom/corporate/40288218.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "toyota-gr-yaris-evolved-2025",
+      "type": "manufacturer",
+      "publisher": "Toyota Motor Corporation (global newsroom)",
+      "title": "TGR to Launch Evolved GR Yaris (Apr. 11, 2025)",
+      "url": "https://global.toyota/en/newsroom/toyota/42579162.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "carscoops-gr-yaris-production",
+      "type": "publication",
+      "publisher": "Carscoops",
+      "title": "Toyota GR Yaris enters production in Japan (Cristian Gnaticov, 2 September 2020)",
+      "url": "https://www.carscoops.com/2020/09/toyota-gr-yaris-enters-production-in-japan-not-far-from-where-the-lexus-lfa-used-to-be-made/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "carsguide-gr-yaris-2023",
+      "type": "publication",
+      "publisher": "CarsGuide",
+      "title": "Finally! Toyota reopens order books for 2023 GR Yaris (Chris Thompson)",
+      "url": "https://carsguide.com.au/car-news/finally-toyota-reopens-order-books-for-2023-gr-yaris-but-how-long-will-they-last-87835",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": true,
+  "reviewNotes": "End year of the original (272 PS) car is unconfirmed: sales are confirmed into late 2022 and Toyota announced Japanese sales of the evolved car for spring 2024, but no page states when the original's production ended (late 2023 or early 2024). An evolved-car record (2024-, 304 PS, GR-DAT) would be a second year-split record.",
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Production end year: no page states when the original 272 PS car stopped being built (late 2023 or early 2024). A Toyota statement of the last build or the end of orders would confirm it and make this a normal record. Power and weight are Toyota figures."
+}

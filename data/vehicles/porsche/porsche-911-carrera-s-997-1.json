@@ -1,0 +1,120 @@
+{
+  "id": "porsche-911-carrera-s-997-1",
+  "manufacturer": "Porsche",
+  "model": "911",
+  "generation": "997.1",
+  "variant": "Carrera S",
+  "subVariant": null,
+  "displayName": "Porsche 911 Carrera S (997.1)",
+  "aliases": [
+    "997",
+    "997.1",
+    "997 Carrera S",
+    "997.1 Carrera S",
+    "Carrera S",
+    "C2S",
+    "997 C2S",
+    "Tiptronic S",
+    "2005 911 Carrera S"
+  ],
+  "country": "Germany",
+  "production": {
+    "value": {
+      "startYear": 2005,
+      "endYear": 2008
+    },
+    "sourceId": "excellence-2005-911-carrera-s",
+    "note": "US model years. Excellence's 911 Carrera S Coupe pages: \"2005 911 Carrera S Coupe (997 v1)\", with links for 2006, 2007 and 2008 (997 v1) and 2009-2011 (997 v2). MotorWeek tested a 2005 911 Carrera S (motorweek-2005-911-carrera-s). The 997.2 Carrera S from 2009 is a separate car; the Carrera 4S and Targa 4S are separate models."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "porsche-us-2007-911-brochure",
+    "note": "\"Curb Weight(Coupe/Cabrio)\"; Coupe and Cabriolet. The Targa 4 and 4S are separate models."
+  },
+  "engine": {
+    "configuration": {
+      "value": "Flat-6",
+      "sourceId": "excellence-2005-911-carrera-s",
+      "note": "\"Type Flat 6\""
+    },
+    "displacementL": {
+      "value": 3.8,
+      "sourceId": "porsche-us-2007-911-brochure",
+      "note": "3,824 cc (\"3.8 liters (3,824 cc)\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "excellence-2005-911-carrera-s",
+      "note": "\"Induction Normally-aspirated\""
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "excellence-2005-911-carrera-s",
+    "note": "\"Premium unleaded (91+)\""
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "porsche-us-2007-911-brochure",
+    "note": "\"Rear-wheel-drive, 6-speed manual or optional 5-speed Tiptronic S dual-mode transmission\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "porsche-us-2007-911-brochure",
+    "note": "\"Rear-wheel-drive, 6-speed manual or optional 5-speed Tiptronic S dual-mode transmission\". Tiptronic S is a torque-converter automatic."
+  },
+  "powerHp": {
+    "value": 355,
+    "sourceId": "porsche-us-2007-911-brochure",
+    "note": "Quote (Porsche US brochure specifications, Carrera S column): \"Horsepower (SAE) ... 355 hp @ 6600 rpm\" (header line \"Engine Carrera Carrera S Carrera 4\"; row \"Horsepower (SAE) 325 hp @ 6800 rpm 355 hp @ 6600 rpm 325 hp @ 6800 rpm\"). Unchanged 2005-2008: Excellence 2005 \"Horsepower 355 @ 6600 rpm\" (excellence-2005-911-carrera-s); MotorWeek 2005 \"355\"."
+  },
+  "weightLb": {
+    "value": 3131,
+    "sourceId": "porsche-us-2007-911-brochure",
+    "note": "Coupe, 6-speed manual. Quote (Porsche US brochure, Carrera S column): \"Curb Weight(Coupe/Cabrio)\" \"3,131/3,318 lbs.\" and \"3,219/3,406 lbs. with Tiptronic S\". The brochure is listed by auto-brochures.com as the 2007 US 911 brochure; its text does not print the year (it lists the Targa 4/4S, new for 2007, and \"U.S. LEV\"). Reference year 2007 because no Porsche figure for 2005 or 2006 was found; Excellence's 2005 page gives the same \"Curb Weight 3,131 lbs. manual/3,219 lbs. Tiptronic S\" (excellence-2005-911-carrera-s). The brochure prints no year; 2007 rests on the host's file name, the footnote \"Gear/handbrake lever in Aluminum-Look (available 11/06)\" and the Targa 4/4S (new for 2007). A 2008 brochure would carry the same figures."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2007,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "porsche-us-2007-911-brochure",
+      "type": "manufacturer",
+      "publisher": "Porsche Cars North America (brochure hosted by auto-brochures.com)",
+      "title": "Porsche 911 brochure (US; 2007 model year by the host's file name)",
+      "url": "https://www.auto-brochures.com/makes/Porsche/911/997/Porsche_US%20911_2007.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "excellence-2005-911-carrera-s",
+      "type": "publication",
+      "publisher": "Excellence: The Magazine About Porsche",
+      "title": "2005 911 Carrera S Coupe (997 v1) Specs",
+      "url": "https://www.excellence-mag.com/resources/specs/110",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "motorweek-2005-911-carrera-s",
+      "type": "publication",
+      "publisher": "MotorWeek",
+      "title": "2005 Porsche 911 Carrera S Program #2411",
+      "url": "https://motorweek.org/road_tests/2005_porsche_911_carrera_s_program_2411/",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

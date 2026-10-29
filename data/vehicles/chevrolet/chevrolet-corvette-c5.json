@@ -1,0 +1,134 @@
+{
+  "id": "chevrolet-corvette-c5",
+  "manufacturer": "Chevrolet",
+  "model": "Corvette",
+  "generation": "C5",
+  "variant": null,
+  "subVariant": null,
+  "displayName": "Chevrolet Corvette (C5)",
+  "aliases": [
+    "C5 Corvette",
+    "Corvette C5",
+    "C5",
+    "LS1",
+    "LS1 Corvette",
+    "T56",
+    "1997 Corvette",
+    "C5 coupe"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1997,
+      "endYear": 2004
+    },
+    "sourceId": "gm-1997-corvette-naias",
+    "note": "US model years. Start: GM's NAIAS release for the 1997 Corvette (\"The tail section on the 1997 version is quite different from past Corvettes.\"). End: GM Media's 2004 specification table still lists the coupe and convertible with the LS1 (gm-2004-corvette-specs); the C6 replaced it for 2005. The 1999-2000 hardtop (fixed-roof coupe) and the 2001-2004 Z06 are separate cars."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "gm-2004-corvette-specs",
+    "note": "GM Media 2004 table, one cell: \"2-door hatchback coupe, convertible and hardtop; rear-drive, front-engine\". The convertible was added for 1998. The 1999–2000 fixed-roof hardtop (same 345 hp LS1) is a coupe body and is covered by this record; the Z06 (from 2001) is a separate record."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "gm-2004-corvette-specs",
+      "note": "\"5.7L V-8 (LS1)\""
+    },
+    "displacementL": {
+      "value": 5.7,
+      "sourceId": "gm-2004-corvette-specs",
+      "note": "5,665 cc (\"Displacement (cu in / cc): 346 / 5665\")"
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "gm-1999-c5-c5r-comparison",
+      "note": "\"LS1 Pushrod V8 with aluminum block and heads\"; no forced induction (inferred)."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "gm-1999-c5-c5r-comparison"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "gm-2004-corvette-specs",
+    "note": "\"rear-drive, front-engine\""
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "gm-1999-c5-c5r-comparison",
+    "note": "GM 1999 table: \"6-speed manual (coupe & hardtop) 4-speed 4L60-E automatic overdrive\". GM 2004 table: Hydra-Matic 4L60-E \"4-speed automatic\" \"std on coupe and convertible\"; Tremec T56 (MM6) \"6-speed manual\" \"opt on coupe and convertible\" (gm-2004-corvette-specs)."
+  },
+  "powerHp": {
+    "value": 345,
+    "sourceId": "gm-1999-c5-c5r-comparison",
+    "note": "1997-2000 rating (LS1). Quote (GM table, 1999 C5 Corvette column): \"Horsepower\" \"345 @ 5600 RPM\". GM's 1997 NAIAS release: \"The new engine is a 5.7-liter LS1small-block, producing 345 hp and 350 lb.-ft. of torque\" (gm-1997-corvette-naias); GM's 2000 release: \"Capable of kicking out 345 horsepower\" (gm-2000-corvette-release). From 2001 the LS1 was rated 350 hp: GM Media 2004 table \"Horsepower (hp / kw @ rpm): 350 / 261 @ 5200\" (gm-2004-corvette-specs). Each rating covers four of the eight model years, so the launch rating (345 hp) is used; the reference year is 1999, the first 345 hp year with a GM curb weight found."
+  },
+  "weightLb": {
+    "value": 3245,
+    "sourceId": "gm-1999-c5-c5r-comparison",
+    "note": "1999 coupe. Quote (GM table, 1999 C5 Corvette column): \"Curb Weight\" \"3245 lbs. (coupe)\". GM gives one coupe figure, not split by transmission (the automatic was standard, the 6-speed manual optional). No GM curb weight for 1997 or 1998 was found: Corvette Action Center's own (unattributed) 1997 table gives \"3,229 (auto.trans.)\" and \"3,218 (man.trans.)\" (cac-1997-specs). GM Media's 2004 table gives the 350 hp coupe \"3246 / 1458\" (gm-2004-corvette-specs). Corvette Action Center's own 1998 table also gives \"3,245 (Coupe)\" but is unattributed, so it is not cited as a source. GM's figure is not split by transmission; on the C5 the automatic was standard and the 6-speed manual optional."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1999,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "gm-1999-c5-c5r-comparison",
+      "type": "manufacturer",
+      "publisher": "General Motors (press release reproduced by Corvette Action Center)",
+      "title": "GM Press Release: 1999 Corvette and C5-R Race Car Comparison (November 4, 1998)",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/1999/1999-corvette-press-release2.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "gm-1997-corvette-naias",
+      "type": "manufacturer",
+      "publisher": "Chevrolet Motor Division (press release reproduced by Corvette Action Center)",
+      "title": "1997 Corvette Unveiled at the NAIAS",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/1997/1997-corvette-naias-press-release.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "gm-2000-corvette-release",
+      "type": "manufacturer",
+      "publisher": "GM Media (press release reproduced by Corvette Action Center)",
+      "title": "2000 Corvette Provides High Performance Thrills Into the New Century",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/2000/2000press.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "gm-2004-corvette-specs",
+      "type": "manufacturer",
+      "publisher": "GM Media Archives (specification table reproduced by Corvette Action Center)",
+      "title": "2004 Corvette Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/2004/specs.html",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cac-1997-specs",
+      "type": "publication",
+      "publisher": "Corvette Action Center",
+      "title": "1997 Corvette Specifications",
+      "url": "https://www.corvetteactioncenter.com/specs/c5/1997/97specs.html",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "high",
+  "image": null,
+  "dailyEligible": true
+}

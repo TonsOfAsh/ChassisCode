@@ -1,0 +1,145 @@
+{
+  "id": "dodge-challenger-srt8-392",
+  "manufacturer": "Dodge",
+  "model": "Challenger",
+  "generation": null,
+  "variant": "SRT8 392",
+  "subVariant": null,
+  "displayName": "Dodge Challenger SRT8 392",
+  "aliases": [
+    "SRT8 392",
+    "Challenger SRT8",
+    "SRT-8",
+    "392 HEMI",
+    "6.4 HEMI",
+    "Inaugural Edition",
+    "Yellow Jacket",
+    "TR-6060",
+    "2011 Challenger SRT8",
+    "2014 Challenger SRT8"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 2011,
+      "endYear": 2014
+    },
+    "sourceId": "dodge-challenger-srt8-392-release-2011",
+    "note": "US model years 2011-2014. Start: Dodge release '2011 Dodge Challenger SRT8® 392 Debuts with Newest HEMI® V-8'. 2012: Dodge release 'New High-tech Features Boost 2012 Dodge Challenger SRT8® 392's Overall Performance' (dodge-challenger-srt8-392-release-2012). End: J.D. Power lists a '2014 Dodge Challenger Coupe 2D SRT-8 V8' at 470 hp (jdpower-challenger-srt8-2014); for 2015 the 392 car was renamed SRT 392 (485 hp), mentioned in the existing Challenger R/T Scat Pack record. No Dodge page stating 2014 as the last SRT8 year was opened. The 2014 end year rests on a database."
+  },
+  "body": {
+    "value": [
+      "Coupe"
+    ],
+    "sourceId": "dodge-challenger-srt8-392-specs-2012",
+    "note": "'Body Style Two-door coupe'"
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "dodge-challenger-srt8-392-release-2011",
+      "note": "392 HEMI V-8."
+    },
+    "displacementL": {
+      "value": 6.4,
+      "sourceId": "dodge-challenger-srt8-392-specs-2012",
+      "note": "Dodge 2012 specifications: 'Displacement 392 cu. in. (6,424 cu. cm)'; Dodge's 2015-on sheets give the same 392 cu in engine as 6,417 cc. 6.4 either way."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "dodge-challenger-srt8-392-release-2011",
+      "note": "Inferred: no forced induction."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "dodge-challenger-srt8-392-release-2011"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "dodge-challenger-srt8-392-release-2011",
+    "note": "Rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "6-speed Manual",
+      "5-speed Automatic"
+    ],
+    "sourceId": "dodge-challenger-srt8-392-specs-2012",
+    "note": "'TRANSMISSION: SIX-SPEED MANUAL TREMEC TR-6060 with ZF-SACHS 240 MM TWIN-DISC CLUTCH' and 'TRANSMISSION: W5A580 FIVE-SPEED AUTOMATIC'. The 2011 release: 'the standard Tremec TR-6060 six-speed manual transmission'; the 2012 release: 'The optional five-speed automatic transmission'."
+  },
+  "powerHp": {
+    "value": 470,
+    "sourceId": "dodge-challenger-srt8-392-release-2011",
+    "note": "Quote (Dodge 2011 release): \"Pumping out 470 horsepower and 470 lb.-ft. of torque\". Dodge 2012 release: \"The 392-cubic inch (6.4-liter) HEMI® V-8 delivers 470 horsepower (351 kW)\" (dodge-challenger-srt8-392-release-2012); the 2012 specification sheet prints \"Power (estimated SAE net) 470 bhp (351 kW) @ 6,000 rpm (73.4 bhp/L)\" (dodge-challenger-srt8-392-specs-2012). Cars.com 2011 SRT8 \"470 @ 6000\" (cars-com-challenger-srt8-2011), KBB 2013 and J.D. Power 2014 the same (kbb-challenger-srt8-392-2013, jdpower-challenger-srt8-2014): 470 hp for the whole run."
+  },
+  "weightLb": {
+    "value": 4170,
+    "sourceId": "dodge-challenger-srt8-392-specs-2012",
+    "note": "PROVISIONAL (manufacturer estimate). Six-speed manual. Quote (Dodge 2012 specifications, 'DIMENSIONS AND CAPACITIES'): \"Curb Weight, lb. (kg)—Est. 4,160 (automatic)\" \"4,170 (manual)\". Cars.com 2011 '2dr Cpe SRT8' \"Base Curb Weight 4,170 lbs\" (cars-com-challenger-srt8-2011) and J.D. Power 2014 \"4,170 lbs\" (jdpower-challenger-srt8-2014) match the estimate exactly and are counted as copies of it; KBB 2013 SRT8 392 (Automatic): \"Curb Weight | 4160 lbs.\" matches the automatic estimate (kbb-challenger-srt8-392-2013). Dodge's 2011 specification PDF could not be read. Reference year 2011 (launch year); the 2012 estimate is for the unchanged car."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 2011,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "dodge-challenger-srt8-392-release-2011",
+      "type": "manufacturer",
+      "publisher": "Dodge (Stellantis North America media site)",
+      "title": "2011 Dodge Challenger SRT8® 392 Debuts with Newest HEMI® V-8 Inaugural Edition Model Features Exclusive Content",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=10308",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "dodge-challenger-srt8-392-release-2012",
+      "type": "manufacturer",
+      "publisher": "Dodge (Stellantis North America media site)",
+      "title": "New High-tech Features Boost 2012 Dodge Challenger SRT8® 392's Overall Performance",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=11135",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "dodge-challenger-srt8-392-specs-2012",
+      "type": "manufacturer",
+      "publisher": "Dodge (Stellantis North America media site)",
+      "title": "2012 Dodge Challenger SRT8 392 specifications (12_DG_Challenger_SRT8392_SP_Nov.pdf)",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=11140",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cars-com-challenger-srt8-2011",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "2011 Dodge Challenger specs (2dr Cpe SRT8)",
+      "url": "https://www.cars.com/research/dodge-challenger-2011/specs/328393/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "kbb-challenger-srt8-392-2013",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2013 Dodge Challenger SRT8 392 Coupe 2D",
+      "url": "https://www.kbb.com/dodge/challenger/2013/srt8-392-coupe-2d",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "jdpower-challenger-srt8-2014",
+      "type": "database",
+      "publisher": "J.D. Power",
+      "title": "2014 Dodge Challenger Coupe 2D SRT-8 V8 specs",
+      "url": "https://www.jdpower.com/cars/2014/dodge/challenger/coupe-2d-srt-8-v8/specs",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (4,170 lb, manual) rests on Dodge's 2012 specification sheet, where it is labelled 'Est.'; Cars.com and J.D. Power repeat the same figure and count as copies. A final Dodge figure (a readable 2011, 2013 or 2014 SRT8 392 specification sheet without an estimate label) or a major magazine spec panel would replace it. Power is from Dodge releases."
+}

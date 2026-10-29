@@ -1,0 +1,183 @@
+{
+  "id": "ford-mustang-gt-sn95-1999-2004",
+  "manufacturer": "Ford",
+  "model": "Mustang",
+  "generation": "SN95",
+  "variant": "GT",
+  "subVariant": null,
+  "yearSplit": true,
+  "displayName": "Ford Mustang GT (SN95, 1999–2004)",
+  "aliases": [
+    "New Edge",
+    "New Edge GT",
+    "New Edge Mustang GT",
+    "SN95 GT",
+    "4.6 SOHC",
+    "1999 Mustang GT",
+    "2000 Mustang GT",
+    "2001 Mustang GT",
+    "2002 Mustang GT",
+    "2003 Mustang GT",
+    "2004 Mustang GT",
+    "40th Anniversary Mustang GT",
+    "T-5",
+    "TR-3650"
+  ],
+  "country": "United States",
+  "production": {
+    "value": {
+      "startYear": 1999,
+      "endYear": 2004
+    },
+    "sourceId": "mustangspecs-1999-gt",
+    "note": "US model years 1999-2004 for the restyled ('New Edge') 260 hp GT. Start: Nick Dellis, MustangSpecs, '1999 Ford Mustang GT: Ultimate Guide': 'Now with 260 hp @ 5,250 rpm'. End: Dellis's '2004 Ford Mustang GT' page (mustangspecs-2004-gt) describes the 2004 GT; Ford's 2005 brochure introduces 'The All-New 05MUSTANG' (ford-mustang-brochure-2005), the S197. The 1994-1998 SN95 GT (215/225 hp) is a different car; the 2001 Bullitt is a separate model."
+  },
+  "body": {
+    "value": [
+      "Coupe",
+      "Convertible"
+    ],
+    "sourceId": "ford-mustang-brochure-2003",
+    "note": "Ford's 2003 brochure lists 'Mustang GT Deluxe Coupe & Convertible' and 'Mustang GT Premium Coupe & Convertible' under the column headers 'COUPE' and 'CONVERTIBLE'."
+  },
+  "engine": {
+    "configuration": {
+      "value": "V8",
+      "sourceId": "ford-mustang-brochure-2003",
+      "note": "'4.6L SOHC 16-Valve V8'"
+    },
+    "displacementL": {
+      "value": 4.6,
+      "sourceId": "cars-com-mustang-gt-1999",
+      "note": "Cars.com 1999 '2dr Cpe GT': 'Displacement 4.6L/281' (281 cu in); Ford's 2003 brochure: '4.6L SOHC 16-Valve V8'. No cc figure was found on an opened page."
+    },
+    "aspiration": {
+      "value": "Naturally Aspirated",
+      "sourceId": "ford-mustang-brochure-2003",
+      "note": "Inferred: no forced induction is mentioned for the GT's 4.6L SOHC V8."
+    }
+  },
+  "fuel": {
+    "value": "Gasoline",
+    "sourceId": "ford-mustang-brochure-2003"
+  },
+  "drivetrain": {
+    "value": "RWD",
+    "sourceId": "ford-mustang-brochure-2003",
+    "note": "Rear-wheel drive; inferred."
+  },
+  "transmission": {
+    "value": [
+      "5-speed Manual",
+      "4-speed Automatic"
+    ],
+    "sourceId": "ford-mustang-brochure-2003",
+    "note": "'5-speed manual overdrive transmission' and '4-speed automatic transmission with overdrive lockout'. Cars.com 1999 GT: '5-Speed M/T', '4-Speed A/T' (cars-com-mustang-gt-1999)."
+  },
+  "powerHp": {
+    "value": 260,
+    "sourceId": "ford-mustang-brochure-2003",
+    "note": "Quote (Ford 2003 Mustang brochure, '4.6L SOHC 16-Valve V8'): \"Horsepower: 260 hp @ 5250 rpm\". The same rating applied from 1999: Cars.com 1999 '2dr Cpe GT' \"SAE Net Horsepower @ RPM 260 @ 5250\" (cars-com-mustang-gt-1999), KBB 1999 and 2000 GT Coupe \"Horsepower | 260 @ 5250 RPM\" (kbb-mustang-gt-1999, kbb-mustang-gt-2000), and Dellis: \"Now with 260 hp @ 5,250 rpm\" (mustangspecs-1999-gt) and for 2004 \"The engine was good for 260 horsepower\" (mustangspecs-2004-gt). Ford's 1999-2002 brochures (mustangspecs.com) could not be read (scanned PDFs)."
+  },
+  "weightLb": {
+    "value": 3237,
+    "sourceId": "cars-com-mustang-gt-1999",
+    "note": "PROVISIONAL (databases and one article). 1999 GT coupe. Quote (Cars.com 1999 '2dr Cpe GT'): \"Base Curb Weight 3,237 lbs\". Meghan Drummond, CJ Pony Parts, 'Understanding Mustang Curb Weights': \"| 1999 GT Coupe | 3,237 pounds |\" (also 2000-2002; 2003-2004 3,241 pounds; transmission not stated) (cjpony-mustang-curb-weights). KBB 2000 GT Coupe (transmission 'Manual'): \"Curb Weight | 3237 lbs.\" (kbb-mustang-gt-2000). KBB 1999 GT Coupe gives 3,273 lb and Dellis's 1999 guide an unlabelled 'Weight 3273 pounds' (see discrepancies). No Ford curb weight could be read. Cars.com and CJ Pony Parts do not say which transmission their figure is for; KBB marks its pages \"Manual\". MustangSpecs' 2004 page says \"curb weight of just over 3,400 lbs for the coupe\", about 5% above CJ Pony's 2004 figure (3,241 lb); it is a different model year and an unattributed round figure, so it is noted, not used."
+  },
+  "specBasis": {
+    "market": "US",
+    "referenceModelYear": 1999,
+    "powerStandard": "SAE net",
+    "weightType": "curb",
+    "yearType": "model"
+  },
+  "sources": [
+    {
+      "id": "ford-mustang-brochure-2003",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by MustangSpecs)",
+      "title": "2003 Ford Mustang sales brochure",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/05/2003-Ford-Mustang-Sales-Brochures.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "ford-mustang-brochure-2005",
+      "type": "manufacturer",
+      "publisher": "Ford Motor Company (brochure reproduced by MustangSpecs)",
+      "title": "2005 Ford Mustang sales brochure",
+      "url": "https://www.mustangspecs.com/wp-content/uploads/2020/05/2005-Ford-Mustang-Sales-Brochures.pdf",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cars-com-mustang-gt-1999",
+      "type": "database",
+      "publisher": "Cars.com",
+      "title": "1999 Ford Mustang GT specs & colors (2dr Cpe GT)",
+      "url": "https://www.cars.com/research/ford-mustang-1999/specs/106598/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "kbb-mustang-gt-1999",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "1999 Ford Mustang GT Coupe 2D",
+      "url": "https://www.kbb.com/ford/mustang/1999/gt-coupe-2d/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "kbb-mustang-gt-2000",
+      "type": "database",
+      "publisher": "Kelley Blue Book",
+      "title": "2000 Ford Mustang GT Coupe 2D",
+      "url": "https://www.kbb.com/ford/mustang/2000/gt-coupe-2d/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "cjpony-mustang-curb-weights",
+      "type": "publication",
+      "publisher": "CJ Pony Parts",
+      "title": "Understanding Mustang Curb Weights (Meghan Drummond)",
+      "url": "https://www.cjponyparts.com/resources/mustang-curb-weights",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "mustangspecs-1999-gt",
+      "type": "enthusiast",
+      "publisher": "MustangSpecs",
+      "title": "1999 Ford Mustang GT: Ultimate Guide (Nick Dellis)",
+      "url": "https://www.mustangspecs.com/1999-ford-mustang-gt/",
+      "accessed": "2026-10-28"
+    },
+    {
+      "id": "mustangspecs-2004-gt",
+      "type": "enthusiast",
+      "publisher": "MustangSpecs",
+      "title": "2004 Ford Mustang GT (Nick Dellis)",
+      "url": "https://www.mustangspecs.com/2004-ford-mustang-gt/",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "weightLb",
+      "values": [
+        {
+          "value": 3237,
+          "sourceId": "cars-com-mustang-gt-1999"
+        },
+        {
+          "value": 3273,
+          "sourceId": "kbb-mustang-gt-1999"
+        }
+      ],
+      "reason": "Digit transposition between two databases for the 1999 GT coupe: Cars.com, CJ Pony Parts (1999-2002) and KBB's own 2000 page give 3,237 lb; KBB 1999 gives 3,273 lb and MustangSpecs an unlabelled 'Weight 3273 pounds'. The two figures are 1.1% apart.",
+      "resolution": "3,237 lb used: it appears for 1999 in Cars.com and CJ Pony Parts and for the unchanged 2000 car in KBB itself; 3,273 is treated as a transposition. Both are provisional figures."
+    }
+  ],
+  "needsReview": false,
+  "confidence": "low",
+  "image": null,
+  "dailyEligible": false,
+  "provisional": true,
+  "provisionalNote": "Weight (3,237 lb) rests on Cars.com and KBB (databases) and one article (CJ Pony Parts), with KBB 1999 and MustangSpecs giving 3,273 lb (1.1% higher, apparently a transposition). A Ford curb weight (a readable 1999-2004 brochure or press kit) or a major magazine spec panel would replace it. Power (260 hp) is from Ford's 2003 brochure; its 1999 applicability rests on databases and MustangSpecs."
+}
