@@ -89,6 +89,7 @@ export const FINAL_CLUES = ['model', 'generation'] as const satisfies readonly C
 export const MODE_GROUPS: Record<Mode, readonly (readonly Tier[])[]> = {
   easy: [['easy'], ['medium'], ['hard']],
   normal: [['easy', 'medium', 'hard']],
+  nohints: [['easy', 'medium', 'hard']],
   hard: [['hard'], ['medium'], ['easy']],
 };
 

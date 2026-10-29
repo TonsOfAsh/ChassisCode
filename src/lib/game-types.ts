@@ -1,11 +1,16 @@
 /** Types shared by the game API and the browser. Nothing here reveals an answer. */
 
 /** Difficulty: which clues are revealed first. */
-export type Mode = 'easy' | 'normal' | 'hard';
+export type Mode = 'easy' | 'normal' | 'nohints' | 'hard';
 
 export const MODES: readonly { id: Mode; label: string; hint: string }[] = [
   { id: 'easy', label: 'Easy', hint: 'Well-known cars only. Starts with the maker, engine and country.' },
   { id: 'normal', label: 'Normal', hint: 'Clues come in any order. Guesses reveal the specs they get right.' },
+  {
+    id: 'nohints',
+    label: 'No hints',
+    hint: 'Like Normal, but a wrong guess only stamps what it gets right: no free clue. Skip a turn to get one.',
+  },
   { id: 'hard', label: 'Hard', hint: 'Least telling specs first, one clue per turn. Guesses reveal nothing extra.' },
 ];
 

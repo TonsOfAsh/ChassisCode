@@ -8,13 +8,15 @@ got right plus the next clue; in Hard, the classic rules, it reveals only the ne
 
 Logic in `src/lib/reveal.ts`; `npm run reveal-sim` shows how much a guess gives away.
 
-- **Reveal rules (Easy, Normal, Daily):** a wrong guess stamps every spec it matches onto the plate,
+- **Reveal rules (Easy, Normal, No hints, Daily):** a wrong guess stamps every spec it matches onto the plate,
   then the next clue in the game's order that is still hidden. Model and generation are the endgame
   and are never dealt by the schedule: a guess sharing the answer's model reveals the model, one
   sharing its model and generation reveals both, and otherwise they show only when the round ends
   (solved, out of turns, or given up). Beside the mystery car, the last
   guess shows amber where a list (body, transmission) shares some values, and an arrow where the
   mystery car's power, weight or displacement is higher or lower, even while that clue is hidden.
+- **No hints** uses the reveal rules, but a wrong guess stamps only the specs it matches: it deals
+  no clue from the schedule. A skip still deals the next clue, so a hint costs a turn.
 - **Classic rules (Hard):** a wrong guess or a skip reveals one clue, nothing is said about clues
   still hidden, and model and generation show only when the round ends.
 - A skip uses a turn and reveals the next spec. Once every spec but model and generation is showing
@@ -39,7 +41,7 @@ guess comparison, and statistics and streaks kept on the player's device.
   one: after launch, new cars join the pool from tomorrow (`npm run daily-pool`; see
   `docs/LAUNCH.md` and `src/lib/daily-schedule.ts`). Before launch the site shows a separate preview
   puzzle, so testing never reveals the real schedule. Puzzle #1 is set in `src/lib/daily-time.ts`.
-- **Unlimited** is a random car each round, in Easy, Normal or Hard. Enter starts the next round.
+- **Unlimited** is a random car each round, in Easy, Normal, No hints or Hard. Enter starts the next round.
   Easy picks its answers only from about 90 well-known cars (`data/easy-cars.json`, checked by the
   build); Normal, Hard and the Daily use every car. Any car can be guessed in every mode.
 - **Stats** (button at the top): daily games played, win %, current and best streak, and which turn
@@ -73,7 +75,7 @@ Eleven clues are sorted into three tiers by how much they help a typical player:
 | Hard | Transmission, Fuel, Body, Weight |
 
 Easy mode reveals the easy tier first, then medium, then hard. Hard mode reverses that.
-Normal mode mixes all eleven. The order within a tier is random each game, except that Country always comes before Manufacturer. Model is always
+Normal and No hints mix all eleven. The order within a tier is random each game, except that Country always comes before Manufacturer. Model is always
 clue 12 and Generation always clue 13. The tiers live in `src/config/clues.ts`.
 
 One exception, for near-twins: cars of any make or model whose clues (other than model and

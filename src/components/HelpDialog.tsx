@@ -50,7 +50,8 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
             <strong>Daily:</strong> one car a day, the same for the whole world. A new one comes at midnight.
           </li>
           <li>
-            <strong>Unlimited:</strong> play as much as you like. Easy uses famous cars. Hard gives way fewer hints.
+            <strong>Unlimited:</strong> play as much as you like. Easy uses famous cars. No hints skips the free
+            clue, so only your guesses fill the plate. Hard gives way fewer hints.
           </li>
         </ul>
 

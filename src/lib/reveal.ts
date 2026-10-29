@@ -17,6 +17,10 @@ import type { Vehicle } from './schema';
  *   the schedule never deals model or generation, so there they show only
  *   when the round ends.
  *
+ * No hints mode plays by the reveal rules, except that a wrong guess deals no
+ * clue from the schedule: it reveals only the specs it gets right. A skip
+ * still deals the next clue, so hints cost a turn (see freeClue).
+ *
  * Under both, a round allows as many turns as there are clues (13), and the
  * score counts turns, not clues showing.
  */
@@ -25,6 +29,11 @@ export type Rules = 'reveal' | 'classic';
 
 export function rulesFor(mode: Mode): Rules {
   return mode === 'hard' ? 'classic' : 'reveal';
+}
+
+/** False in No hints mode: a wrong guess deals no clue from the schedule, only a skip does. */
+export function freeClue(mode: Mode): boolean {
+  return mode !== 'nohints';
 }
 
 const FINAL: readonly ClueId[] = FINAL_CLUES;
@@ -68,9 +77,16 @@ export interface Progress {
 /**
  * Replays a game's turns and works out which clues are showing. `guesses` are
  * the wrong guesses and skips (null) in order; a correct guess ends the game
- * and is never in this list.
+ * and is never in this list. With `free` false (No hints) only skips deal a
+ * clue from the schedule.
  */
-export function progress(rules: Rules, order: readonly ClueId[], answer: Vehicle, guesses: readonly (Vehicle | null)[]): Progress {
+export function progress(
+  rules: Rules,
+  order: readonly ClueId[],
+  answer: Vehicle,
+  guesses: readonly (Vehicle | null)[],
+  free = true,
+): Progress {
   const shown = new Set<ClueId>(order.slice(0, 1));
   const turns: TurnReveal[] = [];
   for (const [t, guess] of guesses.entries()) {
@@ -91,7 +107,7 @@ export function progress(rules: Rules, order: readonly ClueId[], answer: Vehicle
     }
     // The schedule only ever deals the specs: model and generation are the endgame
     // and are never dealt, in either rule set.
-    const due = order.find((id) => !shown.has(id) && !FINAL.includes(id));
+    const due = guess && !free ? undefined : order.find((id) => !shown.has(id) && !FINAL.includes(id));
     const next = due ?? null;
     if (next) shown.add(next);
     turns.push({ matched, next });

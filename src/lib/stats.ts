@@ -7,7 +7,7 @@
  */
 
 import { nextDate } from './daily-time';
-import type { GameResult, GameView, Mode } from './game-types';
+import { MODES, type GameResult, type GameView, type Mode } from './game-types';
 
 const STATS_KEY = 'chassiscode.stats.v1';
 const DAILY_KEY = 'chassiscode.daily.v1';
@@ -31,7 +31,10 @@ export interface Stats {
 }
 
 const emptyTotals = (): UnlimitedTotals => ({ played: 0, won: 0, cluesWhenWon: 0 });
-const emptyStats = (): Stats => ({ daily: {}, unlimited: { easy: emptyTotals(), normal: emptyTotals(), hard: emptyTotals() } });
+const emptyStats = (): Stats => ({
+  daily: {},
+  unlimited: Object.fromEntries(MODES.map((m) => [m.id, emptyTotals()])) as Record<Mode, UnlimitedTotals>,
+});
 
 function read<T>(key: string): T | null {
   try {
@@ -54,7 +57,7 @@ export function loadStats(): Stats {
   const stored = read<Partial<Stats>>(STATS_KEY);
   const stats = emptyStats();
   if (stored?.daily && typeof stored.daily === 'object') stats.daily = stored.daily;
-  if (stored?.unlimited) for (const m of ['easy', 'normal', 'hard'] as const) stats.unlimited[m] = { ...emptyTotals(), ...stored.unlimited[m] };
+  if (stored?.unlimited) for (const { id } of MODES) stats.unlimited[id] = { ...emptyTotals(), ...stored.unlimited[id] };
   return stats;
 }
 

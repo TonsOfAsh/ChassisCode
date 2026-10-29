@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import type { DailySummary, Stats } from '@/lib/stats';
+import { MODES } from '@/lib/game-types';
 
 interface Props {
   stats: Stats;
@@ -26,7 +27,7 @@ export function StatsDialog({ stats, summary, todayCluesUsed, untilNext, onClose
     if (dialog && !dialog.open) dialog.showModal();
   }, []);
 
-  const unlimited = (['easy', 'normal', 'hard'] as const).map((m) => ({ mode: m, ...stats.unlimited[m] }));
+  const unlimited = MODES.map((m) => ({ mode: m.id, label: m.label, ...stats.unlimited[m.id] }));
   const totals = unlimited.reduce(
     (a, t) => ({ played: a.played + t.played, won: a.won + t.won, clues: a.clues + t.cluesWhenWon }),
     { played: 0, won: 0, clues: 0 },
@@ -112,7 +113,7 @@ export function StatsDialog({ stats, summary, todayCluesUsed, untilNext, onClose
           <tbody>
             {unlimited.map((t) => (
               <tr key={t.mode}>
-                <th scope="row">{t.mode[0]!.toUpperCase() + t.mode.slice(1)}</th>
+                <th scope="row">{t.label}</th>
                 <td>{t.played}</td>
                 <td>{t.played ? Math.round((t.won / t.played) * 100) : '–'}</td>
                 <td>{t.won ? (t.cluesWhenWon / t.won).toFixed(1) : '–'}</td>

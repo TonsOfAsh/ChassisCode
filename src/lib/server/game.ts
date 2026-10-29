@@ -3,7 +3,7 @@ import easyCars from '@/generated/easy-cars.json';
 import { CLUES, drawClueOrder, isValidClueOrder, priorityClues, type ClueId } from '@/config/clues';
 import { dailyDate, dailyNumber, isDate } from '../daily-time';
 import { isMode, type GameView, type Mode, type Turn } from '../game-types';
-import { compare, progress, rightCount, rulesFor } from '../reveal';
+import { compare, freeClue, progress, rightCount, rulesFor } from '../reveal';
 import { dailyPuzzle } from './daily';
 import type { Vehicle } from '../schema';
 import { open, seal } from './token';
@@ -34,7 +34,7 @@ function view(state: GameState, status: GameView['status']): GameView {
   if (!vehicle) throw new GameError('This game refers to a car that is no longer in the database. Start a new game.');
   const rules = rulesFor(state.m);
   const guessed = state.g.map((id) => (id ? (getVehicle(id) ?? null) : null));
-  const { shown: shownDuringPlay, turns: reveals } = progress(rules, state.o, vehicle, guessed);
+  const { shown: shownDuringPlay, turns: reveals } = progress(rules, state.o, vehicle, guessed, freeClue(state.m));
   // Once the round is over every clue is shown, and guesses are compared on all of them.
   const shown = status === 'playing' ? shownDuringPlay : new Set(state.o);
   const clues = state.o.map((id) => (shown.has(id) ? { id, label: CLUES[id].label, value: CLUES[id].format(vehicle) } : null));
