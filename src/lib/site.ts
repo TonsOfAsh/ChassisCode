@@ -3,3 +3,6 @@ export const SITE_URL = 'https://chassiscode.app';
 
 export const SITE_NAME = 'ChassisCode';
 export const SITE_DESCRIPTION = 'Name the exact car from its spec sheet, one clue at a time. A new mystery car every day.';
+
+/** Where players can ask questions or report a wrong spec. */
+export const CONTACT_URL = 'https://github.com/TonsOfAsh/ChassisCode/issues';

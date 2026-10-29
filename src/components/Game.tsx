@@ -17,6 +17,7 @@ import { CarSearch } from './CarSearch';
 import { Plate } from './Plate';
 import { HelpDialog } from './HelpDialog';
 import { StatsDialog } from './StatsDialog';
+import { SiteFooter } from './InfoPage';
 
 /** How many recently played cars to keep out of the next random pick. */
 const RECENT_LIMIT = 10;
@@ -580,6 +581,8 @@ export function Game({ cars }: { cars: CarOption[] }) {
           onClose={() => setStatsOpen(false)}
         />
       )}
+
+      <SiteFooter />
     </main>
   );
 }

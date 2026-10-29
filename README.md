@@ -138,6 +138,7 @@ Going live (hosting, domain, launch date): see `docs/LAUNCH.md`.
 | `src/lib/server/` | Server-only code: vehicle database, game rules, token encryption |
 | `src/app/api/game/` | The two game endpoints: `new` and `guess` |
 | `src/components/` | The game screen: clue plate, car search, result |
+| `src/app/about/`, `src/app/privacy/` | The About page and the privacy policy |
 | `src/app/globals.css` | All styles |
 | `scripts/validate.ts` | Data validator |
 | `scripts/clue-report.ts` | Clue-order balance report |
